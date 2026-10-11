@@ -1,0 +1,193 @@
+{
+  "id": "isl1-l08",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 8. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الكُتُبُ السَّمَاوِيَّةُ",
+    "en": "The heavenly books"
+  },
+  "topic": "Revelation (wahy) and the books Allah sent",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah's guidance to people is called wahy, which means revelation. Angel Jibreel brought it to the prophets.",
+      "title": "Wahy: a gift from Allah",
+      "ar": "الوَحْيُ",
+      "tr": "al-waḥy"
+    },
+    {
+      "en": "The Suhuf were given to Prophet Ibrahim, and the Zabur to Prophet Dawud.",
+      "title": "Suhuf and Zabur"
+    },
+    {
+      "en": "The Tawrah was given to Prophet Musa, and the Injil to Prophet Isa.",
+      "title": "Tawrah and Injil"
+    },
+    {
+      "en": "The Qur'an was given to our Prophet Muhammad ﷺ. It is the last book Allah will ever send.",
+      "title": "The Qur'an"
+    },
+    {
+      "en": "All these books had one message: Tawheed — there is no god but Allah.",
+      "title": "One message"
+    },
+    {
+      "en": "The older books were lost or changed by people. Allah Himself protects the Qur'an, word for word.",
+      "title": "Protected by Allah"
+    },
+    {
+      "en": "A new computer comes with a manual from its maker. Allah's books are the manual for our hearts and lives.",
+      "title": "Like a manual"
+    }
+  ],
+  "words": [
+    {
+      "id": "wahy",
+      "ar": "الوَحْيُ",
+      "en": "revelation"
+    },
+    {
+      "id": "suhuf",
+      "ar": "الصُّحُفُ",
+      "en": "the Suhuf (to Ibrahim)"
+    },
+    {
+      "id": "zabur",
+      "ar": "الزَّبُورُ",
+      "en": "the Zabur (to Dawud)"
+    },
+    {
+      "id": "tawrah",
+      "ar": "التَّوْرَاةُ",
+      "en": "the Tawrah (to Musa)"
+    },
+    {
+      "id": "injil",
+      "ar": "الإِنْجِيلُ",
+      "en": "the Injil (to Isa)"
+    },
+    {
+      "id": "quran",
+      "ar": "القُرْآنُ",
+      "en": "the Qur'an (to Muhammad ﷺ)"
+    }
+  ],
+  "order": {
+    "en": "Put the books in the order they were sent",
+    "ids": [
+      "suhuf",
+      "zabur",
+      "tawrah",
+      "injil",
+      "quran"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Which book was given to Prophet Muhammad ﷺ?",
+      "opts": [
+        [
+          "",
+          "The Suhuf",
+          0
+        ],
+        [
+          "",
+          "The Tawrah",
+          0
+        ],
+        [
+          "",
+          "The Qur'an",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "What one message did all the books teach?",
+      "opts": [
+        [
+          "",
+          "How to build a big ship",
+          0
+        ],
+        [
+          "",
+          "Tawheed: there is no god but Allah",
+          1
+        ],
+        [
+          "",
+          "How to plant a garden",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah left us in the dark to figure out the world all by ourselves.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The Zabur was given to Prophet Dawud.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The Qur'an will one day be lost or changed like the older books.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "You got a new robot with lots of buttons. What do you read to learn how it works? How is the Qur'an like that?",
+    "a": "The manual! The Qur'an is like the manual from our Maker, telling us how to live safely and happily."
+  },
+  "parents": {
+    "summary": "Revelation (waḥy) came through Jibreel; the Suhuf, Zabur, Tawrah, Injil and Qur'an; the Qur'an is protected and final.",
+    "try": {
+      "ar": "القُرْآنُ",
+      "translit": "al-Qurʾān",
+      "en": "the Qur'an"
+    },
+    "tip": "Match each book with its prophet together, out loud, at dinner."
+  }
+}

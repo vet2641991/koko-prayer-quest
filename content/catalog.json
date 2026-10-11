@@ -239,7 +239,120 @@
       "ar": "الدِّرَاسَاتُ الإِسْلَامِيَّةُ ١",
       "tint": "#E6F4F3",
       "ink": "#085a5a",
-      "units": []
+      "units": [
+        {
+          "id": "isl1-l01",
+          "n": "1",
+          "ar": "اللهُ أَحَدٌ",
+          "en": "Allah is One",
+          "file": "content/isl1/l01.json"
+        },
+        {
+          "id": "isl1-l02",
+          "n": "2",
+          "ar": "اللهُ الخَالِقُ",
+          "en": "Allah is the Creator",
+          "file": "content/isl1/l02.json"
+        },
+        {
+          "id": "isl1-l03",
+          "n": "3",
+          "ar": "اللهُ المُحْيِي",
+          "en": "Allah is the Giver of Life",
+          "file": "content/isl1/l03.json"
+        },
+        {
+          "id": "isl1-l04",
+          "n": "4",
+          "ar": "اللهُ السَّمِيعُ",
+          "en": "Allah is All-Hearing",
+          "file": "content/isl1/l04.json"
+        },
+        {
+          "id": "isl1-l05",
+          "n": "5",
+          "ar": "الإِيمَانُ",
+          "en": "Iman: the faith of a Muslim",
+          "file": "content/isl1/l05.json"
+        },
+        {
+          "id": "isl1-l06",
+          "n": "6",
+          "ar": "رُسُلُ اللهِ",
+          "en": "The messengers of Allah",
+          "file": "content/isl1/l06.json"
+        },
+        {
+          "id": "isl1-l07",
+          "n": "7",
+          "ar": "المَلَائِكَةُ",
+          "en": "The angels",
+          "file": "content/isl1/l07.json"
+        },
+        {
+          "id": "isl1-l08",
+          "n": "8",
+          "ar": "الكُتُبُ السَّمَاوِيَّةُ",
+          "en": "The heavenly books",
+          "file": "content/isl1/l08.json"
+        },
+        {
+          "id": "isl1-l09",
+          "n": "9",
+          "ar": "بِسْمِ اللهِ",
+          "en": "In the name of Allah (Bismillah)",
+          "file": "content/isl1/l09.json"
+        },
+        {
+          "id": "isl1-l10",
+          "n": "10",
+          "ar": "أَرْكَانُ الإِسْلَامِ",
+          "en": "The five pillars of Islam",
+          "file": "content/isl1/l10.json"
+        },
+        {
+          "id": "isl1-l11",
+          "n": "11",
+          "ar": "الأَذَانُ",
+          "en": "The Adhan: the call to prayer",
+          "file": "content/isl1/l11.json"
+        },
+        {
+          "id": "isl1-l12",
+          "n": "12",
+          "ar": "الوُضُوءُ",
+          "en": "How do I make wudu?",
+          "file": "content/isl1/l12.json"
+        },
+        {
+          "id": "isl1-l15",
+          "n": "15",
+          "ar": "عَامُ الفِيلِ",
+          "en": "The Year of the Elephant",
+          "file": "content/isl1/l15.json"
+        },
+        {
+          "id": "isl1-l16",
+          "n": "16",
+          "ar": "أُسْرَةُ النَّبِيِّ ﷺ",
+          "en": "The Prophet's ﷺ family",
+          "file": "content/isl1/l16.json"
+        },
+        {
+          "id": "isl1-l17",
+          "n": "17",
+          "ar": "فِي البَادِيَةِ",
+          "en": "Growing up in the desert",
+          "file": "content/isl1/l17.json"
+        },
+        {
+          "id": "isl1-l18",
+          "n": "18",
+          "ar": "مَعَ جَدِّهِ وَعَمِّهِ",
+          "en": "With his grandfather and uncle",
+          "file": "content/isl1/l18.json"
+        }
+      ]
     },
     {
       "id": "isl2",

@@ -1,0 +1,186 @@
+{
+  "id": "isl1-l02",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 2. Exercises reused from the lesson.",
+  "title": {
+    "ar": "اللهُ الخَالِقُ",
+    "en": "Allah is the Creator"
+  },
+  "topic": "Al-Khaliq: Allah creates from nothing",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah is Al-Khaliq, The Creator. He made everything around us.",
+      "title": "The Creator",
+      "ar": "الخَالِقُ",
+      "tr": "Al-Khāliq"
+    },
+    {
+      "en": "Imagine a time when there was nothing at all: no sky, no earth, no animals. From nothing, Allah made everything.",
+      "title": "Before the beginning"
+    },
+    {
+      "en": "He made the sky, the sun, the moon and the stars, the land, mountains, rivers and oceans.",
+      "title": "The universe and the Earth"
+    },
+    {
+      "en": "He made trees and flowers, elephants, lions, dogs and soft little kittens — and gave birds the ability to fly.",
+      "title": "Life and beauty"
+    },
+    {
+      "en": "A builder needs wood and bricks to make a house. People “make” things from materials Allah created, but only Allah creates from nothing.",
+      "title": "Making vs creating"
+    },
+    {
+      "en": "“Or were they created by nothing, or were they the creators of themselves?” (Qur'an 52:35)",
+      "title": "The Qur'an asks us to think"
+    },
+    {
+      "en": "When we see Allah's beautiful world, we thank Him by saying Alhamdulillah.",
+      "title": "Say thank you",
+      "ar": "الحَمْدُ لِلهِ",
+      "tr": "Al-ḥamdu lillāh"
+    }
+  ],
+  "words": [
+    {
+      "id": "khaliq",
+      "ar": "الخَالِقُ",
+      "en": "The Creator (a name of Allah)",
+      "tr": "Al-Khāliq",
+      "sacred": true
+    },
+    {
+      "id": "sama",
+      "ar": "السَّمَاءُ",
+      "en": "the sky"
+    },
+    {
+      "id": "ard",
+      "ar": "الأَرْضُ",
+      "en": "the earth"
+    },
+    {
+      "id": "shams",
+      "ar": "الشَّمْسُ",
+      "en": "the sun"
+    },
+    {
+      "id": "qamar",
+      "ar": "القَمَرُ",
+      "en": "the moon"
+    },
+    {
+      "id": "bahr",
+      "ar": "البَحْرُ",
+      "en": "the sea"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? A human can create a real, living kitten out of absolutely nothing.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Before Allah created the universe, there were already trees and oceans everywhere.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We can use things Allah created (like wood and metal) to make toys and houses.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Who made the earth, the oceans and the animals from completely nothing?",
+      "opts": [
+        [
+          "",
+          "A very smart scientist",
+          0
+        ],
+        [
+          "",
+          "Allah (Al-Khaliq)",
+          1
+        ],
+        [
+          "",
+          "A builder",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "When Allah created the trees and mountains…",
+      "opts": [
+        [
+          "",
+          "He needed to buy wood and bricks",
+          0
+        ],
+        [
+          "",
+          "He created them out of absolutely nothing",
+          1
+        ],
+        [
+          "",
+          "He asked humans to help Him",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Look out of the window. Find three things that Allah created, and one thing that people made from Allah's materials.",
+    "a": "Allah created the sky, the trees and the birds. People made the window glass — from sand that Allah created!"
+  },
+  "parents": {
+    "summary": "Al-Khāliq: Allah created everything from nothing; people only make things from what Allah created.",
+    "try": {
+      "ar": "الحَمْدُ لِلهِ",
+      "translit": "Al-ḥamdu lillāh",
+      "en": "All praise is for Allah"
+    },
+    "tip": "On a walk, take turns pointing at things and saying who created them."
+  }
+}

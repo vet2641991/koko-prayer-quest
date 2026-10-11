@@ -1,0 +1,197 @@
+{
+  "id": "isl1-l15",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 15. Exercises reused from the lesson.",
+  "title": {
+    "ar": "عَامُ الفِيلِ",
+    "en": "The Year of the Elephant"
+  },
+  "topic": "The Prophet's ﷺ birth in Makkah and how Allah protected the Ka'bah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Prophet Muhammad ﷺ was born in Makkah in the Year of the Elephant, the year 570.",
+      "title": "A special year",
+      "ar": "عَامُ الفِيلِ",
+      "tr": "ʿĀm al-Fīl"
+    },
+    {
+      "en": "Before Islam, the Arabs didn't number their years. They named each year after a big event.",
+      "title": "Naming the years"
+    },
+    {
+      "en": "Abraha, the ruler of Yemen, was jealous because so many people visited the Ka'bah in Makkah.",
+      "title": "A jealous ruler"
+    },
+    {
+      "en": "He built a splendid church in San'aa so people would come there instead — but they kept visiting the Ka'bah.",
+      "title": "Abraha's plan"
+    },
+    {
+      "en": "Furious, Abraha marched to Makkah with a big army and an elephant at the front, to knock down the Ka'bah.",
+      "title": "The march"
+    },
+    {
+      "en": "Near Makkah, the elephant stopped and would not move. Allah sent flocks of birds carrying stones of hard clay.",
+      "title": "Allah protects the Ka'bah"
+    },
+    {
+      "en": "This story is in Surat Al-Fil. The Prophet ﷺ was born 50 days later.",
+      "title": "In the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "fil",
+      "ar": "الفِيلُ",
+      "en": "the elephant"
+    },
+    {
+      "id": "kaba",
+      "ar": "الكَعْبَةُ",
+      "en": "the Ka'bah"
+    },
+    {
+      "id": "makka",
+      "ar": "مَكَّةُ",
+      "en": "Makkah"
+    },
+    {
+      "id": "tayr",
+      "ar": "الطَّيْرُ",
+      "en": "the birds"
+    },
+    {
+      "id": "jaysh",
+      "ar": "الجَيْشُ",
+      "en": "the army"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Where was Prophet Muhammad ﷺ born?",
+      "opts": [
+        [
+          "",
+          "Madinah",
+          0
+        ],
+        [
+          "",
+          "Makkah",
+          1
+        ],
+        [
+          "",
+          "Yemen",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did Abraha put at the front of his army?",
+      "opts": [
+        [
+          "",
+          "A horse",
+          0
+        ],
+        [
+          "",
+          "A camel",
+          0
+        ],
+        [
+          "",
+          "An elephant",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "What did Abraha want to do?",
+      "opts": [
+        [
+          "",
+          "Visit the Ka'bah",
+          0
+        ],
+        [
+          "",
+          "Break the Ka'bah down",
+          1
+        ],
+        [
+          "",
+          "Build a new Ka'bah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? No one in Makkah had ever seen an elephant before.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Abraha was the ruler of Yemen at that time.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? People stopped visiting the Ka'bah and went to Abraha's church instead.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Why do you think the elephant refused to walk towards Makkah?",
+    "a": "Because Allah protected His House, the Ka'bah — no army is stronger than Allah."
+  },
+  "parents": {
+    "summary": "The Prophet ﷺ was born in Makkah in the Year of the Elephant (570), when Allah protected the Ka'bah from Abraha's army.",
+    "try": {
+      "ar": "عَامُ الفِيلِ",
+      "translit": "ʿām al-fīl",
+      "en": "the Year of the Elephant"
+    },
+    "tip": "Tell the story of the elephant together with toy animals."
+  }
+}

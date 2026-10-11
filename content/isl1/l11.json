@@ -1,0 +1,209 @@
+{
+  "id": "isl1-l11",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 11. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الأَذَانُ",
+    "en": "The Adhan: the call to prayer"
+  },
+  "topic": "Allah's daily invitation to prayer, and what its words mean",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Adhan is a gentle reminder, five times a day, that it is time to pray.",
+      "title": "Allah's invitation",
+      "ar": "الأَذَانُ",
+      "tr": "al-Adhān"
+    },
+    {
+      "en": "The person who calls the Adhan in the mosque is called the mu'adhdhin. The first was Bilal.",
+      "title": "The mu'adhdhin",
+      "ar": "المُؤَذِّنُ",
+      "tr": "al-muʾadhdhin"
+    },
+    {
+      "en": "The words of the Adhan were shown in a dream to Abdullah ibn Zayd, and the Prophet ﷺ asked Bilal to call them.",
+      "title": "How it began"
+    },
+    {
+      "en": "When you hear the Adhan — from a mosque, a clock or an app — pause your game or homework and get ready to pray.",
+      "title": "When you hear it"
+    },
+    {
+      "en": "The Adhan says “come to prayer” and “come to success”: true success comes from remembering Allah.",
+      "title": "Prayer is success"
+    }
+  ],
+  "words": [
+    {
+      "id": "adhan",
+      "ar": "الأَذَانُ",
+      "en": "the call to prayer"
+    },
+    {
+      "id": "muadhdhin",
+      "ar": "المُؤَذِّنُ",
+      "en": "the one who calls the adhan"
+    },
+    {
+      "id": "bilal",
+      "ar": "بِلَالٌ",
+      "en": "Bilal"
+    },
+    {
+      "id": "masjid",
+      "ar": "المَسْجِدُ",
+      "en": "the mosque"
+    },
+    {
+      "id": "a1",
+      "ar": "اللهُ أَكْبَرُ، اللهُ أَكْبَرُ",
+      "en": "Allah is the Greatest, Allah is the Greatest",
+      "sacred": true
+    },
+    {
+      "id": "a2",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ",
+      "en": "I bear witness that there is no god but Allah",
+      "sacred": true
+    },
+    {
+      "id": "a3",
+      "ar": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+      "en": "I bear witness that Muhammad is the Messenger of Allah",
+      "sacred": true
+    },
+    {
+      "id": "a4",
+      "ar": "حَيَّ عَلَى الصَّلَاةِ",
+      "en": "Come to the prayer",
+      "sacred": true
+    },
+    {
+      "id": "a5",
+      "ar": "حَيَّ عَلَى الفَلَاحِ",
+      "en": "Come to success",
+      "sacred": true
+    },
+    {
+      "id": "a6",
+      "ar": "اللهُ أَكْبَرُ، اللهُ أَكْبَرُ",
+      "en": "Allah is the Greatest, Allah is the Greatest",
+      "sacred": true
+    },
+    {
+      "id": "a7",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "en": "There is no god but Allah",
+      "sacred": true
+    }
+  ],
+  "order": {
+    "en": "Put the words of the Adhan in order",
+    "ids": [
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5",
+      "a6",
+      "a7"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "How many times a day is the Adhan called?",
+      "opts": [
+        [
+          "",
+          "Once",
+          0
+        ],
+        [
+          "",
+          "Three times",
+          0
+        ],
+        [
+          "",
+          "Five times",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "What is the person who calls the Adhan called?",
+      "opts": [
+        [
+          "",
+          "The imam",
+          0
+        ],
+        [
+          "",
+          "The mu'adhdhin",
+          1
+        ],
+        [
+          "",
+          "The teacher",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What should you do when you hear the Adhan?",
+      "opts": [
+        [
+          "",
+          "Finish your game first",
+          0
+        ],
+        [
+          "",
+          "Pause and get ready for prayer",
+          1
+        ],
+        [
+          "",
+          "Turn the sound off",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? “Hayya ‘ala l-falah” means “come to success”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Why do you think the Adhan puts “come to prayer” and “come to success” next to each other?",
+    "a": "Because real success isn't finishing a game level — it's remembering Allah and praying."
+  },
+  "parents": {
+    "summary": "The Adhan: the call to prayer five times a day, the mu'adhdhin (Bilal was the first), and the meaning of its words.",
+    "try": {
+      "ar": "حَيَّ عَلَى الصَّلَاةِ",
+      "translit": "ḥayya ʿala ṣ-ṣalāh",
+      "en": "Come to the prayer"
+    },
+    "tip": "When you hear the adhan at home, pause together and repeat its words softly."
+  }
+}

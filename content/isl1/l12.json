@@ -1,0 +1,213 @@
+{
+  "id": "isl1-l12",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 12. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الوُضُوءُ",
+    "en": "How do I make wudu?"
+  },
+  "topic": "Purification before prayer, step by step (11 steps)",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Prophet ﷺ said prayer is not accepted without purity. So before praying, we make wudu.",
+      "title": "Why wudu?",
+      "ar": "الوُضُوءُ",
+      "tr": "al-wuḍūʾ"
+    },
+    {
+      "en": "Before you begin: wash off any dirt, make sure your clothes are clean, and use pure water.",
+      "title": "Getting ready"
+    },
+    {
+      "en": "Intention in your heart, say Bismillah, then wash your hands three times — right then left, between the fingers.",
+      "title": "Steps 1–3"
+    },
+    {
+      "en": "Rinse your mouth three times, sniff water into your nose and blow it out gently three times, then wash your face three times.",
+      "title": "Steps 4–6"
+    },
+    {
+      "en": "Wash your right arm to the elbow three times, then the left. Wipe your head once, then your ears.",
+      "title": "Steps 7–9"
+    },
+    {
+      "en": "Wash your feet three times, right foot first, between the toes. Then say the Shahadah.",
+      "title": "Steps 10–11",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "Ash-hadu allā ilāha illa-llāh, wa ash-hadu anna Muḥammadan ʿabduhū wa rasūluh"
+    },
+    {
+      "en": "There is no salah without wudu!",
+      "title": "Remember"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "ar": "النِّيَّةُ",
+      "en": "1. Intention"
+    },
+    {
+      "id": "w2",
+      "ar": "بِسْمِ اللهِ",
+      "en": "2. Say Bismillah"
+    },
+    {
+      "id": "w3",
+      "ar": "غَسْلُ الكَفَّيْنِ",
+      "en": "3. Wash the hands ×3"
+    },
+    {
+      "id": "w4",
+      "ar": "المَضْمَضَةُ",
+      "en": "4. Rinse the mouth ×3"
+    },
+    {
+      "id": "w5",
+      "ar": "الاِسْتِنْشَاقُ",
+      "en": "5. Clean the nose ×3"
+    },
+    {
+      "id": "w6",
+      "ar": "غَسْلُ الوَجْهِ",
+      "en": "6. Wash the face ×3"
+    },
+    {
+      "id": "w7",
+      "ar": "غَسْلُ اليَدَيْنِ إِلَى المِرْفَقَيْنِ",
+      "en": "7. Wash the arms to the elbows ×3"
+    },
+    {
+      "id": "w8",
+      "ar": "مَسْحُ الرَّأْسِ",
+      "en": "8. Wipe the head once"
+    },
+    {
+      "id": "w9",
+      "ar": "مَسْحُ الأُذُنَيْنِ",
+      "en": "9. Wipe the ears once"
+    },
+    {
+      "id": "w10",
+      "ar": "غَسْلُ الرِّجْلَيْنِ",
+      "en": "10. Wash the feet ×3, right first"
+    },
+    {
+      "id": "w11",
+      "ar": "الشَّهَادَةُ",
+      "en": "11. Say the Shahadah"
+    }
+  ],
+  "order": {
+    "en": "Put the 11 steps of wudu in order",
+    "ids": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5",
+      "w6",
+      "w7",
+      "w8",
+      "w9",
+      "w10",
+      "w11"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "I always wash my ___ foot before my left one.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I rinse out my mouth ___ times.",
+      "opts": [
+        [
+          "",
+          "three",
+          1
+        ],
+        [
+          "",
+          "four",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I say Bismillah when I ___ wudu.",
+      "opts": [
+        [
+          "",
+          "start",
+          1
+        ],
+        [
+          "",
+          "finish",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I wash my face ___ I wash my arms.",
+      "opts": [
+        [
+          "",
+          "before",
+          1
+        ],
+        [
+          "",
+          "after",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I give my nose a ___ blow.",
+      "opts": [
+        [
+          "",
+          "gentle",
+          1
+        ],
+        [
+          "",
+          "hard",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you show Mum or Dad all 11 steps of wudu at the sink right now?",
+    "a": "Great! Remember: right side first, three times each, and finish with the Shahadah."
+  },
+  "parents": {
+    "summary": "Wudu in 11 steps: intention, Bismillah, hands, mouth, nose, face, arms, head, ears, feet, and the Shahadah.",
+    "try": {
+      "ar": "بِسْمِ اللهِ",
+      "translit": "Bismi-llāh",
+      "en": "In the name of Allah"
+    },
+    "tip": "Watch him make wudu once and gently check the order of the steps."
+  }
+}

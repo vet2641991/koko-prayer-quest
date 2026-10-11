@@ -1,0 +1,193 @@
+{
+  "id": "isl1-l07",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 7. Exercises reused from the lesson.",
+  "title": {
+    "ar": "المَلَائِكَةُ",
+    "en": "The angels"
+  },
+  "topic": "Angels: made of light, always obeying Allah, and our two recording angels",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "One angel is called a malak. Many angels are called malā'ikah.",
+      "title": "Malak and malā'ikah",
+      "ar": "مَلَكٌ — مَلَائِكَةٌ",
+      "tr": "malak — malāʾika"
+    },
+    {
+      "en": "We are made from earth, but angels are made of pure light, so we cannot see them.",
+      "title": "Made of light"
+    },
+    {
+      "en": "Angels always obey Allah. They cannot choose to do wrong, and they never get tired of worshipping Him.",
+      "title": "Always obeying"
+    },
+    {
+      "en": "Some angels' names: Jibreel, Mika'eel, Israfeel and Ridwan. Jibreel brought the Qur'an to Prophet Muhammad ﷺ.",
+      "title": "Their names"
+    },
+    {
+      "en": "You have two angels with you all the time, writing down your good and bad actions — like helpers with a golden pen.",
+      "title": "Your two angels"
+    },
+    {
+      "en": "Angels take turns visiting us night and day, and they meet at the Fajr and Asr prayers.",
+      "title": "At Fajr and Asr"
+    }
+  ],
+  "words": [
+    {
+      "id": "malak",
+      "ar": "مَلَكٌ",
+      "en": "an angel"
+    },
+    {
+      "id": "malaika",
+      "ar": "مَلَائِكَةٌ",
+      "en": "angels"
+    },
+    {
+      "id": "nur",
+      "ar": "نُورٌ",
+      "en": "light"
+    },
+    {
+      "id": "jibril",
+      "ar": "جِبْرِيلُ",
+      "en": "Jibreel (Gabriel)"
+    },
+    {
+      "id": "mikail",
+      "ar": "مِيكَائِيلُ",
+      "en": "Mika'eel"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What did Allah create the angels from?",
+      "opts": [
+        [
+          "",
+          "Earth and sand",
+          0
+        ],
+        [
+          "",
+          "Pure light",
+          1
+        ],
+        [
+          "",
+          "Water",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which angel brought the Qur'an to Prophet Muhammad ﷺ?",
+      "opts": [
+        [
+          "",
+          "Angel Mika'eel",
+          0
+        ],
+        [
+          "",
+          "Angel Jibreel",
+          1
+        ],
+        [
+          "",
+          "Angel Ridwan",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What is the Arabic word for one angel?",
+      "opts": [
+        [
+          "",
+          "Jibreel",
+          0
+        ],
+        [
+          "",
+          "Muslim",
+          0
+        ],
+        [
+          "",
+          "Malak",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? We can easily see the angels walking around with our own eyes.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Every one of us has two special angels who stay with us all the time.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Sometimes angels make mistakes and choose to do the wrong thing.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Your classmate dropped their crayons and you helped pick them up, but the teacher didn't see. Who saw it?",
+    "a": "Your recording angel wrote down your good deed — and Allah saw it too!"
+  },
+  "parents": {
+    "summary": "Angels (malāʾika) are made of light, always obey Allah, and two angels record our good and bad deeds.",
+    "try": {
+      "ar": "المَلَائِكَةُ",
+      "translit": "al-malāʾika",
+      "en": "the angels"
+    },
+    "tip": "Draw together: Haitham doing a kind deed, with a golden pen beside him."
+  }
+}

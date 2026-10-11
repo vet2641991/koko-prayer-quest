@@ -1,0 +1,176 @@
+{
+  "id": "isl1-l05",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 5. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الإِيمَانُ",
+    "en": "Iman: the faith of a Muslim"
+  },
+  "topic": "What faith means, its three parts, and the six pillars",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Iman is an Arabic word that means faith: trusting Allah with all your heart.",
+      "title": "What is Iman?",
+      "ar": "الإِيمَانُ",
+      "tr": "Al-Īmān"
+    },
+    {
+      "en": "Faith is light and doubt is darkness. They are opposites.",
+      "title": "Light, not darkness"
+    },
+    {
+      "en": "True Iman has three parts: the heart believes, the tongue says it, and the body does good actions.",
+      "title": "Three parts"
+    },
+    {
+      "en": "If you love your mum but act unkindly, that isn't real love. Iman is the same: heart, words and actions together.",
+      "title": "Like real love"
+    },
+    {
+      "en": "We believe in Allah, His angels, His books, His messengers, the Last Day, and destiny — the good and the bad.",
+      "title": "The six pillars"
+    }
+  ],
+  "words": [
+    {
+      "id": "iman",
+      "ar": "الإِيمَانُ",
+      "en": "faith",
+      "tr": "al-īmān"
+    },
+    {
+      "id": "p1",
+      "ar": "اللهُ",
+      "en": "Allah"
+    },
+    {
+      "id": "p2",
+      "ar": "المَلَائِكَةُ",
+      "en": "the angels"
+    },
+    {
+      "id": "p3",
+      "ar": "الكُتُبُ",
+      "en": "the books"
+    },
+    {
+      "id": "p4",
+      "ar": "الرُّسُلُ",
+      "en": "the messengers"
+    },
+    {
+      "id": "p5",
+      "ar": "اليَوْمُ الآخِرُ",
+      "en": "the Last Day"
+    },
+    {
+      "id": "p6",
+      "ar": "القَدَرُ",
+      "en": "destiny"
+    }
+  ],
+  "order": {
+    "en": "Put the six pillars of Iman in order",
+    "ids": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Doubt and faith are two opposite things.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? A Muslim believes that only good things come from Allah.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "How do we show our true Iman?",
+      "opts": [
+        [
+          "",
+          "Only by thinking about it quietly",
+          0
+        ],
+        [
+          "",
+          "With our heart, our tongue and our limbs",
+          1
+        ],
+        [
+          "",
+          "Only when we are at school",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What does it mean to have faith in someone?",
+      "opts": [
+        [
+          "",
+          "You believe in them with all your heart",
+          1
+        ],
+        [
+          "",
+          "You think they might not be telling the truth",
+          0
+        ],
+        [
+          "",
+          "You are scared of them",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "You know telling the truth is right. How can your tongue and your hands show your Iman today?",
+    "a": "Your tongue says kind, honest words, and your hands do helpful things — like picking up a friend's dropped toy."
+  },
+  "parents": {
+    "summary": "Iman (faith): believe in the heart, say it with the tongue, show it with actions; and the six pillars of faith.",
+    "try": {
+      "ar": "الإِيمَانُ",
+      "translit": "al-īmān",
+      "en": "faith"
+    },
+    "tip": "Count the six pillars of Iman on his fingers together."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "isl1-l01",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 1. Exercises reused from the lesson.",
+  "title": {
+    "ar": "اللهُ أَحَدٌ",
+    "en": "Allah is One"
+  },
+  "topic": "Al-Ahad: Allah is One, unique, and needs nothing",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah is Al-Ahad, The One. He is completely unique, alone, and has no partners.",
+      "title": "Allah is One",
+      "ar": "الأَحَدُ",
+      "tr": "Al-Aḥad"
+    },
+    {
+      "en": "Allah has always existed. He was not born, He has no parents, and He will never die.",
+      "title": "Always there"
+    },
+    {
+      "en": "Allah has no wife and no children. He is perfect and does not need anyone to help Him.",
+      "title": "No family"
+    },
+    {
+      "en": "We need to eat, drink and sleep. Allah needs none of these — He is the One who gives us our food and drink.",
+      "title": "No needs"
+    },
+    {
+      "en": "Allah never gets tired and never sleeps. He is always watching over you, so you can talk to Him at any time.",
+      "title": "Never tired"
+    },
+    {
+      "en": "The heart of our faith: There is no god but Allah.",
+      "title": "Our faith in one sentence",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "tr": "Lā ilāha illā Allāh"
+    }
+  ],
+  "words": [
+    {
+      "id": "ahad",
+      "ar": "الأَحَدُ",
+      "en": "The One (a name of Allah)",
+      "tr": "Al-Aḥad",
+      "sacred": true
+    },
+    {
+      "id": "rabb",
+      "ar": "رَبٌّ",
+      "en": "Lord"
+    },
+    {
+      "id": "wahid",
+      "ar": "وَاحِدٌ",
+      "en": "one"
+    }
+  ],
+  "quiz": [
+    {
+      "en": "How many Gods are there?",
+      "opts": [
+        [
+          "",
+          "Two",
+          0
+        ],
+        [
+          "",
+          "One",
+          1
+        ],
+        [
+          "",
+          "Many",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "“Allah has always existed” means:",
+      "opts": [
+        [
+          "",
+          "He had a beginning long ago",
+          0
+        ],
+        [
+          "",
+          "He was born like us",
+          0
+        ],
+        [
+          "",
+          "He has no beginning and no end",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah needs to eat and drink to stay strong.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Allah was not born and He has no father or mother.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Everything in the world has an end, but Allah will not die.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Every person you know has a birthday. Does Allah have a birthday? Why is He unique?",
+    "a": "No! Allah was never born and has no beginning. Being unique means He is not like anything He created."
+  },
+  "parents": {
+    "summary": "Allah is One (Al-Aḥad): no parents, no children, no partners; He never sleeps, gets tired or needs food.",
+    "try": {
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "translit": "Lā ilāha illā Allāh",
+      "en": "There is no god but Allah"
+    },
+    "tip": "Ask him: Does Allah ever get tired? Can we talk to Him at night? Let him explain why."
+  }
+}

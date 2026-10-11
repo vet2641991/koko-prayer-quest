@@ -1,0 +1,154 @@
+{
+  "id": "isl1-l18",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 18. Exercises reused from the lesson.",
+  "title": {
+    "ar": "مَعَ جَدِّهِ وَعَمِّهِ",
+    "en": "With his grandfather and uncle"
+  },
+  "topic": "Abdul-Muttalib, Abu Talib, and the monk Bahira",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "After his mother died, his grandfather Abdul-Muttalib, the head of the Hashimi clan, looked after him with great love.",
+      "title": "His grandfather"
+    },
+    {
+      "en": "When he was eight, his grandfather died, and his uncle Abu Talib took care of him — loving him more than his own sons.",
+      "title": "His uncle",
+      "ar": "أَبُو طَالِبٍ",
+      "tr": "Abū Ṭālib"
+    },
+    {
+      "en": "At twelve, he travelled with Abu Talib's trade caravan to Syria.",
+      "title": "A trip to Syria"
+    },
+    {
+      "en": "In Busra, a monk named Bahira recognised him as the coming Last Prophet and told Abu Talib to take special care of him.",
+      "title": "Bahira the monk",
+      "ar": "بَحِيرَى",
+      "tr": "Baḥīrā"
+    },
+    {
+      "en": "“And We have not sent you except as a mercy to the worlds.” (Qur'an 21:107)",
+      "title": "A mercy to the worlds"
+    }
+  ],
+  "words": [
+    {
+      "id": "abutalib",
+      "ar": "أَبُو طَالِبٍ",
+      "en": "Abu Talib (his uncle)"
+    },
+    {
+      "id": "sham",
+      "ar": "الشَّامُ",
+      "en": "Syria (ash-Sham)"
+    },
+    {
+      "id": "qafila",
+      "ar": "القَافِلَةُ",
+      "en": "the caravan"
+    },
+    {
+      "id": "rahma",
+      "ar": "رَحْمَةٌ",
+      "en": "mercy"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who looked after him after his grandfather died?",
+      "opts": [
+        [
+          "",
+          "His uncle Abu Talib",
+          1
+        ],
+        [
+          "",
+          "Lady Haleemah",
+          0
+        ],
+        [
+          "",
+          "Bahira",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Where did the caravan go when he was twelve?",
+      "opts": [
+        [
+          "",
+          "Yemen",
+          0
+        ],
+        [
+          "",
+          "Syria",
+          1
+        ],
+        [
+          "",
+          "Egypt",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who recognised him as the Last Prophet?",
+      "opts": [
+        [
+          "",
+          "Abraha",
+          0
+        ],
+        [
+          "",
+          "The monk Bahira",
+          1
+        ],
+        [
+          "",
+          "Abdul-Muttalib",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Abu Talib loved him more than his own sons.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "The Prophet ﷺ is called “a mercy to the worlds”. What do you think that means?",
+    "a": "He brought kindness and guidance to everyone — people, animals, the whole world."
+  },
+  "parents": {
+    "summary": "Cared for by his grandfather, then his uncle Abu Talib; at twelve the monk Bahira recognised him as the Last Prophet.",
+    "try": {
+      "ar": "رَحْمَةٌ لِلْعَالَمِينَ",
+      "translit": "raḥmatun lil-ʿālamīn",
+      "en": "a mercy to the worlds"
+    },
+    "tip": "Draw a family tree of the Prophet ﷺ together: Abdul-Muttalib, Abdullah, Aminah, Abu Talib."
+  }
+}

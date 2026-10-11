@@ -1,0 +1,179 @@
+{
+  "id": "isl1-l03",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 3. Exercises reused from the lesson.",
+  "title": {
+    "ar": "اللهُ المُحْيِي",
+    "en": "Allah is the Giver of Life"
+  },
+  "topic": "Al-Muhyee: life comes from Allah, and our special gifts",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah is Al-Muhyee, The Giver of Life. Every living thing gets its life from Him.",
+      "title": "The Giver of Life",
+      "ar": "المُحْيِي",
+      "tr": "Al-Muḥyī"
+    },
+    {
+      "en": "A chicken comes from an egg, a tree from a seed. Everything has a beginning and an end.",
+      "title": "Everything has a beginning"
+    },
+    {
+      "en": "Allah is different: He has no beginning and no end. He is the Ever-Living.",
+      "title": "Allah is different"
+    },
+    {
+      "en": "Allah created the first man, Prophet Adam (peace be upon him), directly — a great honour for human beings.",
+      "title": "The first man"
+    },
+    {
+      "en": "Animals cannot talk like us and plants cannot think. Allah gave people two special gifts: speech and a mind to think.",
+      "title": "Our special gifts"
+    },
+    {
+      "en": "A robot can move, but it is not alive. Only Allah can put a living soul into something.",
+      "title": "A robot is not alive"
+    },
+    {
+      "en": "Put your hand on your heart. It beats without you telling it to — a gift of life. Say: Alhamdulillah!",
+      "title": "Feel your heart"
+    }
+  ],
+  "words": [
+    {
+      "id": "muhyi",
+      "ar": "المُحْيِي",
+      "en": "The Giver of Life (a name of Allah)",
+      "tr": "Al-Muḥyī",
+      "sacred": true
+    },
+    {
+      "id": "hayat",
+      "ar": "حَيَاةٌ",
+      "en": "life"
+    },
+    {
+      "id": "adam",
+      "ar": "آدَمُ",
+      "en": "Adam"
+    },
+    {
+      "id": "qalb",
+      "ar": "قَلْبٌ",
+      "en": "heart"
+    },
+    {
+      "id": "aql",
+      "ar": "عَقْلٌ",
+      "en": "mind"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Plants and animals can think and talk exactly the way human beings do.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Allah created the rules of time, beginnings and endings, so those rules do not apply to Him.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Everything in our world has a beginning and an end, but Allah has a beginning but no end.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Where did the very first man, Prophet Adam, come from?",
+      "opts": [
+        [
+          "",
+          "From an apple tree",
+          0
+        ],
+        [
+          "",
+          "From an egg",
+          0
+        ],
+        [
+          "",
+          "Allah created him directly",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "If an engineer builds a robot, what will the robot NEVER have?",
+      "opts": [
+        [
+          "",
+          "The ability to move its arms",
+          0
+        ],
+        [
+          "",
+          "A living soul and a feeling heart",
+          1
+        ],
+        [
+          "",
+          "A computer brain",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "You wake up and your heart is beating and you are breathing without trying. What is the best word to thank Allah?",
+    "a": "Alhamdulillah — all praise is for Allah!"
+  },
+  "parents": {
+    "summary": "Al-Muḥyī: Allah gives life; He has no beginning or end; He created Adam and gave people speech and a mind.",
+    "try": {
+      "ar": "الحَمْدُ لِلهِ",
+      "translit": "Al-ḥamdu lillāh",
+      "en": "All praise is for Allah"
+    },
+    "tip": "Plant a seed together and talk about who gives it life."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "isl1-l16",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 16. Exercises reused from the lesson.",
+  "title": {
+    "ar": "أُسْرَةُ النَّبِيِّ ﷺ",
+    "en": "The Prophet's ﷺ family"
+  },
+  "topic": "His mother Aminah, his father Abdullah, and the grandfather who named him",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Prophet's ﷺ mother was Aminah bint Wahb, from the noble Quraysh tribe.",
+      "title": "His mother",
+      "ar": "آمِنَةُ",
+      "tr": "Āmina"
+    },
+    {
+      "en": "His father was Abdullah. He fell sick on a trade journey and died in Yathrib (Madinah) at 25, before his son was born.",
+      "title": "His father",
+      "ar": "عَبْدُ اللهِ",
+      "tr": "ʿAbdullāh"
+    },
+    {
+      "en": "His grandfather Abdul-Muttalib named him Muhammad, hoping he would be praised by everyone in the world.",
+      "title": "His name",
+      "ar": "مُحَمَّدٌ",
+      "tr": "Muḥammad"
+    },
+    {
+      "en": "“There has certainly been for you in the Messenger of Allah an excellent example.” (Qur'an 33:21)",
+      "title": "Our best example"
+    }
+  ],
+  "words": [
+    {
+      "id": "amina",
+      "ar": "آمِنَةُ",
+      "en": "Aminah (his mother)"
+    },
+    {
+      "id": "abdullah",
+      "ar": "عَبْدُ اللهِ",
+      "en": "Abdullah (his father)"
+    },
+    {
+      "id": "abdulmuttalib",
+      "ar": "عَبْدُ المُطَّلِبِ",
+      "en": "Abdul-Muttalib (his grandfather)"
+    },
+    {
+      "id": "quraysh",
+      "ar": "قُرَيْشٌ",
+      "en": "Quraysh (his tribe)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What was the Prophet's ﷺ mother's name?",
+      "opts": [
+        [
+          "",
+          "Khadijah",
+          0
+        ],
+        [
+          "",
+          "Aminah",
+          1
+        ],
+        [
+          "",
+          "Haleemah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who chose the name Muhammad?",
+      "opts": [
+        [
+          "",
+          "His uncle Abu Talib",
+          0
+        ],
+        [
+          "",
+          "His grandfather Abdul-Muttalib",
+          1
+        ],
+        [
+          "",
+          "His mother",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet's ﷺ father died before he was born.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The Prophet's ﷺ family belonged to the Quraysh tribe.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Do you know the meaning of your own name, Haitham, and who chose it for you?",
+    "a": "Ask Mum and Dad! Every name has a story."
+  },
+  "parents": {
+    "summary": "The Prophet's ﷺ mother Aminah, his father Abdullah (who died before his birth), and grandfather Abdul-Muttalib who named him Muhammad.",
+    "try": {
+      "ar": "مُحَمَّدٌ ﷺ",
+      "translit": "Muḥammad",
+      "en": "Muhammad (the praised one)"
+    },
+    "tip": "Tell him the story of how his own name, Haitham, was chosen."
+  }
+}

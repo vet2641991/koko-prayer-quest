@@ -212,6 +212,7 @@ async function parents() {
 function stepsFor(L) {
   const s = [];
   if (L.video) s.push({ k: 'story', en: "Koko's story", sub: 'Watch the cartoon', min: 3 });
+  if (L.learn && L.learn.length) s.push({ k: 'learn', en: 'Learn with Koko', sub: `${L.learn.length} short ideas`, min: 3 });
   if (L.words && L.words.length) s.push({ k: 'words', en: 'New words', sub: 'Hear each word, then its meaning', min: 2 });
   if (L.sounds) s.push({ k: 'sounds', en: 'Letter sounds', sub: L.sounds.sub || `${L.sounds.letters.map(x => x.ch).join(' or ')}? Train your ears`, min: 2 });
   for (const g of L.games || []) {
@@ -222,6 +223,7 @@ function stepsFor(L) {
   if (L.talk && L.talk.length) s.push({ k: 'talk', en: 'Talk with Koko', sub: 'Teach Koko the dialogue', min: 3 });
   if (L.quiz && L.quiz.length) s.push({ k: 'quiz', en: "Koko's questions", sub: 'Tap the right answer', min: 2 });
   if (L.move) s.push({ k: 'move', en: 'Move!', sub: L.move.en, min: 1 });
+  if (L.think) s.push({ k: 'think', en: 'Think & talk', sub: 'Talk about it with Mum or Dad', min: 2 });
   return s;
 }
 let SESSION = null;
@@ -252,7 +254,7 @@ async function runStep(id, i) {
     if (i + 1 < steps.length) location.hash = `#/lesson/${id}/${i + 1}`; else win(L);
   };
   const head = (title, sub) => `<header class="top"><a class="back" href="#/lesson/${id}" aria-label="Back to lesson">${ICON.back}</a><div class="hello"><b>${esc(title)}</b><span>${esc(sub)}</span></div><span class="pill" style="font-size:14px">${i + 1} / ${steps.length}</span></header>${bar((i + .5) / steps.length * 100, 'on-blue')}`;
-  ({ story, words, sounds, listen, match, order, talk, quiz, move })[st.k](L, st, head, finish);
+  ({ story, learn, words, sounds, listen, match, order, talk, quiz, move, think })[st.k](L, st, head, finish);
 }
 
 /* step: story video */
@@ -264,6 +266,40 @@ function story(L, st, head, finish) {
   const v = $('#vid'), go = $('#go');
   v.addEventListener('timeupdate', () => { if (v.duration && v.currentTime / v.duration > .9) { go.hidden = false; $('#vh').textContent = 'Well done! Tap Next.'; } });
   v.addEventListener('ended', finish); go.onclick = () => { v.pause(); finish(); };
+}
+
+/* step: learn — one idea per card, read aloud in English by the device voice */
+function learn(L, st, head, finish) {
+  let k = 0; const C = L.learn;
+  const show = () => {
+    const c = C[k];
+    render(`<div class="screen dots act">${head(st.en, `${k + 1} of ${C.length}`)}
+      <div class="bigcard" style="justify-content:flex-start;text-align:left;align-items:stretch">
+        ${c.title ? `<span class="over">${esc(c.title)}</span>` : ''}
+        ${c.ar ? `<div style="text-align:center">${AR(c.ar, 'word-ar" style="font-size:40px')}${c.tr ? `<div style="font-weight:700;color:var(--muted);font-style:italic">${esc(c.tr)}</div>` : ''}</div>` : ''}
+        <p style="font-size:21px;font-weight:700;line-height:1.45;margin:6px 0 0">${esc(c.en)}</p>
+        <div class="say" style="justify-content:flex-start"><button id="rd">${ICON.speak}Read it to me</button></div></div>
+      <div class="koko-say"><img src="${IMG.wave}" alt=""><span>${esc(c.koko || (k + 1 < C.length ? 'Wow! Tell me more, Teacher!' : 'I understand now — thank you!'))}</span></div>
+      <div class="row"><button class="btn soft" id="pv" ${k ? '' : 'disabled style="opacity:.5"'}>Back</button><button class="btn" id="nx" style="flex:2">${k + 1 < C.length ? 'Next idea' : 'Done!'}</button></div></div>`);
+    const read = () => playSeq([{ en: (c.title ? c.title + '. ' : '') + c.en }]); read(); $('#rd').onclick = read;
+    $('#pv').onclick = () => { if (k) { k--; show(); } };
+    $('#nx').onclick = () => { if (++k < C.length) show(); else finish(); };
+  };
+  show();
+}
+
+/* step: think & talk — an open question to discuss at home */
+function think(L, st, head, finish) {
+  const T = L.think;
+  render(`<div class="screen dots act">${head(st.en, 'No wrong answers!')}
+    <div class="bigcard"><img src="${IMG.wave}" alt="" style="width:120px;height:120px;border-radius:50%;object-fit:cover;border:5px solid var(--yellow)">
+      <p style="font-size:22px;font-weight:800;line-height:1.4;margin:0">${esc(T.q)}</p>
+      <div id="ans" hidden style="background:#F3F6FF;border-radius:16px;padding:12px;font-weight:700;color:var(--ink)">${esc(T.a || '')}</div>
+      ${T.a ? '<button class="btn soft" id="show" style="width:auto">Show Koko\'s answer</button>' : ''}</div>
+    <button class="btn" id="did">We talked about it!</button></div>`);
+  playSeq([{ en: T.q }]);
+  if ($('#show')) $('#show').onclick = () => { $('#ans').hidden = false; $('#show').hidden = true; playSeq([{ en: T.a }]); };
+  $('#did').onclick = () => { sfx.right(); finish(); };
 }
 
 /* step: word cards (Arabic then English, spoken) */
@@ -435,11 +471,11 @@ function talk(L, st, head, finish) {
 function quiz(L, st, head, finish) {
   let q = 0;
   const show = () => {
-    const Q = L.quiz[q]; const order = shuffle(Q.opts.map((o, j) => j));
+    const Q = L.quiz[q]; const order = Q.keep ? Q.opts.map((o, j) => j) : shuffle(Q.opts.map((o, j) => j));
     render(`<div class="screen dots act">${head(st.en, `Question ${q + 1} of ${L.quiz.length}`)}
       <div class="koko-say"><img src="${IMG.wave}" alt=""><span>Koko asks you a question. Tap the right answer!</span></div>
-      <div class="card" style="text-align:center">${AR(Q.ar)}<p style="margin:0;font-weight:700;color:var(--muted)">${esc(Q.en)}</p></div>
-      <div style="display:flex;flex-direction:column;gap:10px">${order.map(j => `<button class="opt" style="min-height:84px" data-j="${j}">${AR(Q.opts[j][0])}<small>${esc(Q.opts[j][1])}</small></button>`).join('')}</div></div>`);
+      <div class="card" style="text-align:center">${Q.ar ? AR(Q.ar) : ''}<p style="margin:0;font-weight:700;${Q.ar ? 'color:var(--muted)' : 'font-size:20px'}">${esc(Q.en)}</p></div>
+      <div style="display:flex;flex-direction:column;gap:10px">${order.map(j => `<button class="opt" style="min-height:${Q.opts[j][0] ? 84 : 64}px" data-j="${j}">${Q.opts[j][0] ? AR(Q.opts[j][0]) + `<small>${esc(Q.opts[j][1])}</small>` : `<b style="font-size:18px">${esc(Q.opts[j][1])}</b>`}</button>`).join('')}</div></div>`);
     app.querySelectorAll('.opt').forEach(b => b.onclick = () => {
       if (Q.opts[+b.dataset.j][2]) { b.classList.add('right'); sfx.right(); app.querySelectorAll('.opt').forEach(x => x.disabled = true); later(() => { if (++q < L.quiz.length) show(); else finish(); }, 900); }
       else { SESSION.mistakes++; sfx.wrong(); b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); }

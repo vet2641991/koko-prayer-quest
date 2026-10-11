@@ -1,0 +1,202 @@
+{
+  "id": "isl1-l10",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 10. Exercises reused from the lesson.",
+  "title": {
+    "ar": "أَرْكَانُ الإِسْلَامِ",
+    "en": "The five pillars of Islam"
+  },
+  "topic": "The five duties that hold Islam up like a strong building",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Islam is like a strong building held up by five pillars: the main duties of every Muslim.",
+      "title": "Five pillars",
+      "ar": "أَرْكَانُ الإِسْلَامِ",
+      "tr": "Arkān al-Islām"
+    },
+    {
+      "en": "1. Shahadah: saying and believing there is no god but Allah and Muhammad is His Messenger.",
+      "title": "Shahadah",
+      "ar": "الشَّهَادَةُ",
+      "tr": "ash-Shahāda"
+    },
+    {
+      "en": "2. Salah: praying five times every day — our direct connection with Allah.",
+      "title": "Salah",
+      "ar": "الصَّلَاةُ",
+      "tr": "aṣ-Ṣalāh"
+    },
+    {
+      "en": "3. Zakah: Muslims who have enough money give part of it to the poor and needy.",
+      "title": "Zakah",
+      "ar": "الزَّكَاةُ",
+      "tr": "az-Zakāh"
+    },
+    {
+      "en": "4. Sawm: fasting in the month of Ramadan.",
+      "title": "Sawm",
+      "ar": "الصَّوْمُ",
+      "tr": "aṣ-Ṣawm"
+    },
+    {
+      "en": "5. Hajj: visiting the Ka'bah in Makkah once in your life, if you are able.",
+      "title": "Hajj",
+      "ar": "الحَجُّ",
+      "tr": "al-Ḥajj"
+    },
+    {
+      "en": "A Muslim obeys Allah in everything, easy or hard. The pillars are how we show our faith every day.",
+      "title": "What is a Muslim?"
+    }
+  ],
+  "words": [
+    {
+      "id": "shahada",
+      "ar": "الشَّهَادَةُ",
+      "en": "the declaration of faith"
+    },
+    {
+      "id": "salah",
+      "ar": "الصَّلَاةُ",
+      "en": "the prayer"
+    },
+    {
+      "id": "zakah",
+      "ar": "الزَّكَاةُ",
+      "en": "charity to the poor"
+    },
+    {
+      "id": "sawm",
+      "ar": "الصَّوْمُ",
+      "en": "fasting"
+    },
+    {
+      "id": "hajj",
+      "ar": "الحَجُّ",
+      "en": "the pilgrimage"
+    }
+  ],
+  "order": {
+    "en": "Put the five pillars in order",
+    "ids": [
+      "shahada",
+      "salah",
+      "zakah",
+      "sawm",
+      "hajj"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "How many times a day do Muslims pray?",
+      "opts": [
+        [
+          "",
+          "Three times",
+          0
+        ],
+        [
+          "",
+          "Five times",
+          1
+        ],
+        [
+          "",
+          "Ten times",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What is Zakah?",
+      "opts": [
+        [
+          "",
+          "Giving part of your money to the poor and needy",
+          1
+        ],
+        [
+          "",
+          "Eating a big meal with friends",
+          0
+        ],
+        [
+          "",
+          "Travelling on an airplane",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "In which month do Muslims fast?",
+      "opts": [
+        [
+          "",
+          "Shawwal",
+          0
+        ],
+        [
+          "",
+          "Muharram",
+          0
+        ],
+        [
+          "",
+          "Ramadan",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Hajj is a journey to visit the Ka'bah at least once in life, if you are able.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? A Muslim is someone who only obeys Allah when it is easy.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "You have savings in your piggy bank and you see a family with no warm clothes for winter. Which pillar teaches us to help?",
+    "a": "Zakah — sharing our money with the poor. Sharing makes both families happy!"
+  },
+  "parents": {
+    "summary": "The five pillars: Shahadah, Salah, Zakah, Sawm (Ramadan) and Hajj.",
+    "try": {
+      "ar": "أَرْكَانُ الإِسْلَامِ خَمْسَةٌ",
+      "translit": "arkānu l-islāmi khamsa",
+      "en": "The pillars of Islam are five"
+    },
+    "tip": "Count the five pillars on his fingers and let him explain each one."
+  }
+}

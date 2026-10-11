@@ -1,0 +1,180 @@
+{
+  "id": "isl1-l09",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 9. Exercises reused from the lesson.",
+  "title": {
+    "ar": "بِسْمِ اللهِ",
+    "en": "In the name of Allah (Bismillah)"
+  },
+  "topic": "Saying Bismillah before everything we do",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Bismillahir-Rahmanir-Raheem means: In the name of Allah, the Most Kind, the Most Merciful.",
+      "title": "What it means",
+      "ar": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ",
+      "tr": "Bismi-llāhi r-raḥmāni r-raḥīm"
+    },
+    {
+      "en": "It is a verse of the Qur'an, and every surah begins with it except Surah 9 (At-Tawbah).",
+      "title": "In the Qur'an"
+    },
+    {
+      "en": "The Prophet ﷺ taught us to start every good thing with Bismillah, so Allah blesses it.",
+      "title": "Start with Bismillah"
+    },
+    {
+      "en": "Say it before wudu, drinking, putting on clothes and shoes, opening the door, getting in the car, and sleeping.",
+      "title": "Many times a day"
+    },
+    {
+      "en": "Forgot it before eating? Just say: Bismillahi fi awwalihi wa akhirihi — in the name of Allah at its beginning and its end.",
+      "title": "If you forget",
+      "ar": "بِسْمِ اللهِ فِي أَوَّلِهِ وَآخِرِهِ",
+      "tr": "Bismi-llāhi fī awwalihi wa ākhirih"
+    },
+    {
+      "en": "Saying Bismillah shows we need Allah's help, and it turns normal habits into worship.",
+      "title": "Why it matters"
+    }
+  ],
+  "words": [
+    {
+      "id": "bismillah",
+      "ar": "بِسْمِ اللهِ",
+      "en": "In the name of Allah",
+      "tr": "Bismi-llāh",
+      "sacred": true
+    },
+    {
+      "id": "ism",
+      "ar": "اِسْمٌ",
+      "en": "name"
+    },
+    {
+      "id": "rahman",
+      "ar": "الرَّحْمَنُ",
+      "en": "the Most Kind (a name of Allah)",
+      "tr": "ar-Raḥmān",
+      "sacred": true
+    },
+    {
+      "id": "rahim",
+      "ar": "الرَّحِيمُ",
+      "en": "the Most Merciful (a name of Allah)",
+      "tr": "ar-Raḥīm",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Every surah begins with Bismillah EXCEPT one. Which?",
+      "opts": [
+        [
+          "",
+          "Surah Al-Fatihah",
+          0
+        ],
+        [
+          "",
+          "Surah An-Nas",
+          0
+        ],
+        [
+          "",
+          "Surah At-Tawbah",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "You forgot Bismillah and you're already eating! What should you do?",
+      "opts": [
+        [
+          "",
+          "Throw the food away",
+          0
+        ],
+        [
+          "",
+          "Say “Bismillahi fi awwalihi wa akhirihi”",
+          1
+        ],
+        [
+          "",
+          "Feel sad and keep eating",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "When is a good time to say Bismillah?",
+      "opts": [
+        [
+          "",
+          "Only when reading the Qur'an",
+          0
+        ],
+        [
+          "",
+          "Before everyday things like shoes, water and the car",
+          1
+        ],
+        [
+          "",
+          "Only inside the masjid",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Saying Bismillah is our way of admitting we need Allah's help.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We should only say Bismillah for big, difficult tasks, not small things like opening a door.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Getting ready for school: clothes, shoes, backpack, the door, the bus. What can you whisper at each step?",
+    "a": "Bismillah! It wraps your whole morning in Allah's blessing."
+  },
+  "parents": {
+    "summary": "Bismillah before everything: what it means, where it is in the Qur'an, and what to say if you forget before eating.",
+    "try": {
+      "ar": "بِسْمِ اللهِ",
+      "translit": "Bismi-llāh",
+      "en": "In the name of Allah"
+    },
+    "tip": "Make a game today: whoever remembers Bismillah first before an action gets a point."
+  }
+}

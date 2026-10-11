@@ -1,0 +1,200 @@
+{
+  "id": "isl1-l06",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 (ISLB A1) · lesson 6. Exercises reused from the lesson.",
+  "title": {
+    "ar": "رُسُلُ اللهِ",
+    "en": "The messengers of Allah"
+  },
+  "topic": "How Allah's guidance reaches us through prophets and messengers",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah chose special, noble people to bring His guidance to us: the prophets and messengers.",
+      "title": "Allah's messengers",
+      "ar": "الرُّسُلُ",
+      "tr": "ar-Rusul"
+    },
+    {
+      "en": "Allah sent His words to the messenger through the chief of the angels, Jibreel (Gabriel).",
+      "title": "Through Angel Jibreel",
+      "ar": "جِبْرِيلُ",
+      "tr": "Jibrīl"
+    },
+    {
+      "en": "The first prophet was Adam, and the last messenger, sent to all people, is Prophet Muhammad ﷺ.",
+      "title": "The first and the last"
+    },
+    {
+      "en": "The prophets were human: they ate, slept and felt happy and sad. We love them, but we worship only Allah.",
+      "title": "They were human"
+    },
+    {
+      "en": "Every messenger brought the same message: worship Allah alone, and be good to one another.",
+      "title": "One message"
+    },
+    {
+      "en": "The prophets are like road signs that show us the way through life.",
+      "title": "Like road signs"
+    }
+  ],
+  "words": [
+    {
+      "id": "rasul",
+      "ar": "رَسُولٌ",
+      "en": "messenger"
+    },
+    {
+      "id": "nabi",
+      "ar": "نَبِيٌّ",
+      "en": "prophet"
+    },
+    {
+      "id": "jibril",
+      "ar": "جِبْرِيلُ",
+      "en": "Jibreel (Gabriel)"
+    },
+    {
+      "id": "adam",
+      "ar": "آدَمُ",
+      "en": "Adam"
+    },
+    {
+      "id": "muhammad",
+      "ar": "مُحَمَّدٌ ﷺ",
+      "en": "Muhammad (peace be upon him)"
+    },
+    {
+      "id": "isa",
+      "ar": "عِيسَى",
+      "en": "Isa (Jesus)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Allah sends His message to the messenger through Angel…",
+      "opts": [
+        [
+          "",
+          "Jibreel",
+          1
+        ],
+        [
+          "",
+          "Mika'il",
+          0
+        ],
+        [
+          "",
+          "Israfil",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The very first prophet was…",
+      "opts": [
+        [
+          "",
+          "Musa",
+          0
+        ],
+        [
+          "",
+          "Adam",
+          1
+        ],
+        [
+          "",
+          "Nuh",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The last and final prophet was…",
+      "opts": [
+        [
+          "",
+          "Prophet Isa",
+          0
+        ],
+        [
+          "",
+          "Prophet Ibrahim",
+          0
+        ],
+        [
+          "",
+          "Prophet Muhammad ﷺ",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah speaks to each one of us separately to tell us what to do.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Prophet Isa (Jesus) is one of the prophets mentioned in Islam.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Prophet Muhammad ﷺ was the first prophet.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which prophet's story do you like most, and what can you learn from him?",
+    "a": "Any answer is great! For example, Yusuf teaches patience, and Prophet Muhammad ﷺ teaches mercy and kindness."
+  },
+  "parents": {
+    "summary": "Allah guides us through prophets and messengers; Jibreel brought the revelation; Adam was the first prophet and Muhammad ﷺ the last.",
+    "try": {
+      "ar": "صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ",
+      "translit": "ṣalla-llāhu ʿalayhi wa sallam",
+      "en": "Peace and blessings be upon him"
+    },
+    "tip": "Tell him one prophet story at bedtime this week."
+  }
+}

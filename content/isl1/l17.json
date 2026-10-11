@@ -1,0 +1,160 @@
+{
+  "id": "isl1-l17",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 17. Exercises reused from the lesson.",
+  "title": {
+    "ar": "فِي البَادِيَةِ",
+    "en": "Growing up in the desert"
+  },
+  "topic": "Lady Haleemah, the return to Makkah, and becoming an orphan",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Quraysh families sent their babies to the desert for good health and pure Arabic.",
+      "title": "Raised in the desert",
+      "ar": "البَادِيَةُ",
+      "tr": "al-bādiya"
+    },
+    {
+      "en": "Lady Haleemah Sa'diyyah cared for him for four years. As soon as he could walk, he helped look after the sheep.",
+      "title": "With Lady Haleemah",
+      "ar": "حَلِيمَةُ السَّعْدِيَّةُ",
+      "tr": "Ḥalīma as-Saʿdiyya"
+    },
+    {
+      "en": "After four years his mother Aminah brought him home to Makkah.",
+      "title": "Back to Makkah"
+    },
+    {
+      "en": "When he was six, his mother fell ill and died at Abwa, on the way back from Madinah.",
+      "title": "Losing his mother"
+    },
+    {
+      "en": "He had lost both parents — he was a yateem (an orphan). But Allah cared for him at every step.",
+      "title": "An orphan",
+      "ar": "يَتِيمٌ",
+      "tr": "yatīm"
+    },
+    {
+      "en": "“Did He not find you an orphan and give you shelter?” (Qur'an 93:6)",
+      "title": "Allah's care"
+    }
+  ],
+  "words": [
+    {
+      "id": "halima",
+      "ar": "حَلِيمَةُ",
+      "en": "Haleemah"
+    },
+    {
+      "id": "yatim",
+      "ar": "يَتِيمٌ",
+      "en": "orphan"
+    },
+    {
+      "id": "ghanam",
+      "ar": "غَنَمٌ",
+      "en": "sheep"
+    },
+    {
+      "id": "sahra",
+      "ar": "الصَّحْرَاءُ",
+      "en": "the desert"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who was Haleemah Sa'diyyah?",
+      "opts": [
+        [
+          "",
+          "His aunt",
+          0
+        ],
+        [
+          "",
+          "The lady who raised him in the desert",
+          1
+        ],
+        [
+          "",
+          "His grandmother",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "How many years did he stay with Haleemah?",
+      "opts": [
+        [
+          "",
+          "Two",
+          0
+        ],
+        [
+          "",
+          "Four",
+          1
+        ],
+        [
+          "",
+          "Ten",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "How old was he when his mother died?",
+      "opts": [
+        [
+          "",
+          "Six",
+          1
+        ],
+        [
+          "",
+          "Twelve",
+          0
+        ],
+        [
+          "",
+          "Twenty",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A yateem is a child who has lost his parents.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Even after losing both parents, Allah cared for the Prophet ﷺ. How can we be kind to orphans?",
+    "a": "We can share with them, play with them, and help them — the Prophet ﷺ loved kindness to orphans."
+  },
+  "parents": {
+    "summary": "Raised in the desert by Lady Haleemah for four years, back to Makkah, and an orphan by age six — with Allah's care.",
+    "try": {
+      "ar": "يَتِيمٌ",
+      "translit": "yatīm",
+      "en": "orphan"
+    },
+    "tip": "Talk about a way your family could help orphans."
+  }
+}
