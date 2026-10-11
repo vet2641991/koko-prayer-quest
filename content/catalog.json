@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "note": "Add a lesson: put its JSON under content/<world>/ and set \"file\" on its unit below. Units without a file show as 'soon'. Never renumber ids: progress is saved by id.",
+  "focus": "ar2",
+  "worlds": [
+    {
+      "id": "ar2", "en": "Arabic Adventures · Book 2", "ar": "العَرَبِيَّةُ بَيْنَ يَدَيْ أَوْلَادِنَا ٢", "tint": "#FFF3CC", "ink": "#D99A00",
+      "units": [
+        { "id": "ar2-u01", "n": "1", "ar": "تَعَارُفٌ «١»", "en": "Meeting people 1" },
+        { "id": "ar2-u02", "n": "2", "ar": "مَنِ الأَوَّلُ؟", "en": "Who is first?", "file": "content/ar2/u02.json" },
+        { "id": "ar2-u03", "n": "3", "ar": "مَنِ الأُولَى؟", "en": "Who is first? (girls)" },
+        { "id": "ar2-u04", "n": "4", "ar": "تَعَارُفٌ «٢»", "en": "Meeting people 2" },
+        { "id": "ar2-r01", "n": "★", "ar": "مُرَاجَعَةٌ", "en": "Review: units 1–4" },
+        { "id": "ar2-u05", "n": "5", "ar": "أُسْرَةُ مُحَمَّدٍ", "en": "Muhammad's family" },
+        { "id": "ar2-u06", "n": "6", "ar": "حِذَائِي", "en": "My shoe" },
+        { "id": "ar2-u07", "n": "7", "ar": "أُسْرَةُ بَتُولَ", "en": "Batool's family" },
+        { "id": "ar2-u08", "n": "8", "ar": "الأَيَّامُ", "en": "The days of the week" }
+      ]
+    },
+    {
+      "id": "prayer", "en": "The Prayer", "ar": "عَالَمُ الصَّلَاةِ", "tint": "#E1F7EA", "ink": "#16A34A",
+      "units": [
+        { "id": "prayer-l01", "n": "1", "ar": "أَوَّلُ خُطْوَةٍ فِي الصَّلَاةِ", "en": "First step: Allahu Akbar & standing", "file": "content/prayer/l01.json" },
+        { "id": "prayer-l02", "n": "2", "ar": "الرُّكُوعُ", "en": "Bowing (Rukū‘)" },
+        { "id": "prayer-l03", "n": "3", "ar": "الِاعْتِدَالُ", "en": "Standing up again (I‘tidāl)" },
+        { "id": "prayer-l04", "n": "4", "ar": "السُّجُودُ", "en": "Prostration (Sujūd)" },
+        { "id": "prayer-l05", "n": "5", "ar": "الْجُلُوسُ بَيْنَ السَّجْدَتَيْنِ", "en": "Sitting between the two prostrations" },
+        { "id": "prayer-l06", "n": "6", "ar": "التَّشَهُّدُ", "en": "The Tashahhud" },
+        { "id": "prayer-l07", "n": "7", "ar": "التَّسْلِيمُ", "en": "Ending with Salām" },
+        { "id": "prayer-l08", "n": "8", "ar": "الصَّلَاةُ كَامِلَةً", "en": "The full prayer" },
+        { "id": "prayer-l09", "n": "9", "ar": "صَلِّ مَعَ كُوكُو", "en": "Challenge: pray with Koko!" }
+      ]
+    },
+    { "id": "ar1",  "en": "Arabic Adventures · Book 1", "ar": "العَرَبِيَّةُ بَيْنَ يَدَيْ أَوْلَادِنَا ١", "tint": "#E3EAFB", "ink": "#1E6BFF", "units": [] },
+    { "id": "isl1", "en": "Islamic Studies · Level 1", "ar": "الدِّرَاسَاتُ الإِسْلَامِيَّةُ ١", "tint": "#E6F4F3", "ink": "#085a5a", "units": [] },
+    { "id": "isl2", "en": "Islamic Studies · Level 2", "ar": "الدِّرَاسَاتُ الإِسْلَامِيَّةُ ٢", "tint": "#F6EEDB", "ink": "#9A7420", "units": [] }
+  ]
+}

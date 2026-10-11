@@ -1,0 +1,68 @@
+{
+  "id": "ar2-u02",
+  "world": "ar2",
+  "unit": 2,
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٢ «مَنِ الأَوَّلُ؟» (ص ١١–١٩ من الكتاب، ١٢–٢٠ من ملف PDF). الحوار مطابق لصورة الصفحة.",
+  "title": { "ar": "مَنِ الأَوَّلُ؟", "en": "Who is first?" },
+  "topic": "Ordinal numbers (first to tenth, the last) and describing people",
+  "minutes": 12,
+
+  "words": [
+    { "id": "awwal",    "ar": "الأَوَّلُ",   "en": "the first",   "badge": "1st" },
+    { "id": "thani",    "ar": "الثَّانِي",   "en": "the second",  "badge": "2nd" },
+    { "id": "thalith",  "ar": "الثَّالِثُ",  "en": "the third",   "badge": "3rd" },
+    { "id": "rabi",     "ar": "الرَّابِعُ",  "en": "the fourth",  "badge": "4th" },
+    { "id": "khamis",   "ar": "الخَامِسُ",   "en": "the fifth",   "badge": "5th" },
+    { "id": "sadis",    "ar": "السَّادِسُ",  "en": "the sixth",   "badge": "6th" },
+    { "id": "sabi",     "ar": "السَّابِعُ",  "en": "the seventh", "badge": "7th" },
+    { "id": "thamin",   "ar": "الثَّامِنُ",  "en": "the eighth",  "badge": "8th" },
+    { "id": "tasi",     "ar": "التَّاسِعُ",  "en": "the ninth",   "badge": "9th" },
+    { "id": "ashir",    "ar": "العَاشِرُ",   "en": "the tenth",   "badge": "10th" },
+    { "id": "akhir",    "ar": "الأَخِيرُ",   "en": "the last",    "badge": "last" },
+    { "id": "nahif",    "ar": "نَحِيفٌ",     "en": "thin",        "badge": "" },
+    { "id": "samin",    "ar": "سَمِينٌ",     "en": "fat",         "badge": "" },
+    { "id": "marid",    "ar": "مَرِيضٌ",     "en": "sick",        "badge": "" },
+    { "id": "man",      "ar": "مَنْ؟",       "en": "who?",        "badge": "?" },
+    { "id": "amam",     "ar": "إِلَى الأَمَامِ", "en": "forward!", "badge": "" }
+  ],
+
+  "dialogue": [
+    { "id": "d1",  "who": "fadl",     "ar": "مَنِ الأَوَّلُ؟", "en": "Who is the first?" },
+    { "id": "d2",  "who": "muhammad", "ar": "الأَوَّلُ مُشْتَاقٌ، هُوَ نَحِيفٌ.", "en": "The first is Mushtaq. He is thin." },
+    { "id": "d3",  "who": "fadl",     "ar": "وَمَنِ الثَّانِي؟", "en": "And who is the second?" },
+    { "id": "d4",  "who": "muhammad", "ar": "الثَّانِي أَحْمَدُ، وَالثَّالِثُ أَنَسٌ، وَالرَّابِعُ صَالِحٌ.", "en": "The second is Ahmad, the third is Anas, and the fourth is Salih." },
+    { "id": "d5",  "who": "fadl",     "ar": "مَنِ الخَامِسُ؟", "en": "Who is the fifth?" },
+    { "id": "d6",  "who": "muhammad", "ar": "الخَامِسُ بَهَاءٌ، وَالسَّادِسُ صَبْرِيٌّ، وَالسَّابِعُ عَاصِمٌ، وَالثَّامِنُ خَيْرِيٌّ، وَالتَّاسِعُ أَنَا.", "en": "The fifth is Bahaa, the sixth is Sabri, the seventh is Asim, the eighth is Khairi, and the ninth is me." },
+    { "id": "d7",  "who": "fadl",     "ar": "وَمَنِ العَاشِرُ؟", "en": "And who is the tenth?" },
+    { "id": "d8",  "who": "muhammad", "ar": "أَنْتَ العَاشِرُ. أَنْتَ الأَخِيرُ.", "en": "You are the tenth. You are the last." },
+    { "id": "d9",  "who": "fadl",     "ar": "أَنَا مَرِيضٌ.", "en": "I am sick." },
+    { "id": "d10", "who": "muhammad", "ar": "أَنْتَ سَمِينٌ.", "en": "You are fat." }
+  ],
+  "speakers": {
+    "fadl":     { "en": "Fadl",     "ar": "فَضْلٌ",   "playedBy": "koko" },
+    "muhammad": { "en": "Muhammad", "ar": "مُحَمَّدٌ", "playedBy": "haitham" }
+  },
+
+  "talk": [
+    { "ask": "d1", "answer": "d2",  "wrong": ["d10", "d9"] },
+    { "ask": "d3", "answer": "d4",  "wrong": ["d9", "d8"] },
+    { "ask": "d5", "answer": "d6",  "wrong": ["d2", "d10"] },
+    { "ask": "d7", "answer": "d8",  "wrong": ["d4", "d9"] },
+    { "ask": "d9", "answer": "d10", "wrong": ["d8", "d2"] }
+  ],
+
+  "games": ["listen", "match", "order"],
+  "order": { "en": "Put them in order, from the first to the tenth", "ids": ["awwal","thani","thalith","rabi","khamis","sadis","sabi","thamin","tasi","ashir"] },
+
+  "move": {
+    "ar": "رَتِّبْ أَلْعَابَكَ: الأَوَّلُ، الثَّانِي، الثَّالِثُ!",
+    "en": "Line up three of your toys and teach Koko: the first, the second, the third!"
+  },
+
+  "parents": {
+    "summary": "Ordinal numbers: first, second, third… tenth, and the last. He can ask and answer “Who is first?” in Arabic.",
+    "try": { "ar": "مَنِ الأَوَّلُ؟", "translit": "man il-awwal?", "en": "Who is first?" },
+    "tryAudio": "d-d1-ar",
+    "tip": "Line up three toys and ask him the question. Let him be the teacher and answer in Arabic."
+  }
+}

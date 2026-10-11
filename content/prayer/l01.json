@@ -1,0 +1,23 @@
+{
+  "id": "prayer-l01",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray». Video approved by Dr. Hassan (2026-10-11).",
+  "title": { "ar": "أَوَّلُ خُطْوَةٍ فِي الصَّلَاةِ", "en": "First step: Allahu Akbar & standing" },
+  "topic": "Starting the prayer: takbir and standing (qiyam)",
+  "minutes": 4,
+  "video": { "src": "media/prayer-1.mp4", "poster": "media/prayer-1-poster.jpg" },
+  "quiz": [
+    { "ar": "مَاذَا نَقُولُ فِي أَوَّلِ الصَّلَاةِ؟", "en": "What do we say at the start of the prayer?",
+      "opts": [["اللهُ أَكْبَرُ", "Allahu Akbar (Allah is the Greatest)", 1], ["السَّلَامُ عَلَيْكُمْ", "Peace be upon you", 0], ["صَبَاحُ الْخَيْرِ", "Good morning", 0]] },
+    { "ar": "أَيْنَ نَضَعُ يَدَنَا الْيُمْنَى؟", "en": "Where do we put our right hand?",
+      "opts": [["فَوْقَ الرَّأْسِ", "On our head", 0], ["عَلَى الْيُسْرَى فَوْقَ الصَّدْرِ", "On the left hand, on our chest", 1], ["فِي الْجَيْبِ", "In our pocket", 0]] },
+    { "ar": "إِلَى أَيْنَ نَنْظُرُ فِي الْقِيَامِ؟", "en": "Where do we look while standing?",
+      "opts": [["إِلَى السَّقْفِ", "At the ceiling", 0], ["إِلَى الشُّبَّاكِ", "Out of the window", 0], ["إِلَى مَكَانِ السُّجُودِ", "At the place where we prostrate", 1]] }
+  ],
+  "move": { "ar": "قُمْ وَارْفَعْ يَدَيْكَ وَقُلْ: اللهُ أَكْبَرُ", "en": "Stand up, raise your hands, and say: Allahu Akbar!" },
+  "parents": {
+    "summary": "How the prayer begins: saying Allahu Akbar with raised hands, then standing with the right hand over the left.",
+    "try": { "ar": "اللهُ أَكْبَرُ", "translit": "Allāhu akbar", "en": "Allah is the Greatest" },
+    "tip": "Ask him to show you how the prayer starts. Let him be the teacher."
+  }
+}
