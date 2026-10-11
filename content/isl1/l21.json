@@ -1,0 +1,121 @@
+{
+  "id": "isl1-l21",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 21. Exercises reused from the lesson; du'aas flagged for review. The surahs themselves are memorised with Dr. Hassan in class.",
+  "title": {
+    "ar": "سُوَرٌ مِنَ القُرْآنِ",
+    "en": "Some surahs of the Qur'an"
+  },
+  "topic": "Starting a lifelong habit of learning the Qur'an by heart",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Short surahs learnt by heart are among the first gifts of the Qur'an a young student receives.",
+      "title": "A precious gift"
+    },
+    {
+      "en": "We learn them page by page, together with our teacher, so every letter is said correctly.",
+      "title": "With your teacher"
+    },
+    {
+      "en": "“And recite the Qur'an with measured recitation.” (Qur'an 73:4)",
+      "title": "Slowly and beautifully"
+    },
+    {
+      "en": "A little every day is better than a lot once in a while. This is the start of a lifelong habit!",
+      "title": "A little every day"
+    }
+  ],
+  "words": [
+    {
+      "id": "sura",
+      "ar": "سُورَةٌ",
+      "en": "a surah (chapter of the Qur'an)"
+    },
+    {
+      "id": "aya",
+      "ar": "آيَةٌ",
+      "en": "a verse"
+    },
+    {
+      "id": "hifz",
+      "ar": "حِفْظٌ",
+      "en": "memorising"
+    },
+    {
+      "id": "quran",
+      "ar": "القُرْآنُ",
+      "en": "the Qur'an"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who should we learn the surahs with, so we say every letter correctly?",
+      "opts": [
+        [
+          "",
+          "On our own only",
+          0
+        ],
+        [
+          "",
+          "Our teacher",
+          1
+        ],
+        [
+          "",
+          "Nobody",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What is better for memorising?",
+      "opts": [
+        [
+          "",
+          "A little every day",
+          1
+        ],
+        [
+          "",
+          "A lot once a month",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A surah is a chapter of the Qur'an.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which surah do you know by heart already? Can you recite it to Mum or Dad?",
+    "a": "MashaAllah! Keep revising it every day."
+  },
+  "parents": {
+    "summary": "Memorising short surahs with the teacher, a little every day. The surahs themselves are taught live by Dr. Hassan.",
+    "try": {
+      "ar": "سُورَةٌ",
+      "translit": "sūra",
+      "en": "a surah"
+    },
+    "tip": "Ask him to recite the surah he is memorising before bed."
+  }
+}

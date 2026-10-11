@@ -1,0 +1,148 @@
+{
+  "id": "isl1-l19",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 19. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "رَحْمَةُ النَّبِيِّ ﷺ",
+    "en": "The Prophet's ﷺ kindness: trust and mercy"
+  },
+  "topic": "Trust in Allah made him brave; mercy made him forgive",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "One day the Prophet ﷺ was resting alone under a tree near the battlefield, and fell asleep.",
+      "title": "Resting under a tree"
+    },
+    {
+      "en": "An enemy found him and raised a sword: “O Muhammad! Who will save you from me now?”",
+      "title": "“Who will save you?”"
+    },
+    {
+      "en": "The Prophet ﷺ calmly said: “Allah!” The man trembled with fear and dropped his sword.",
+      "title": "“Allah!”"
+    },
+    {
+      "en": "The Prophet ﷺ picked up the sword: “Now who will save you from me?” The man had no answer — and the Prophet ﷺ let him go.",
+      "title": "He forgave him"
+    },
+    {
+      "en": "Trust in Allah made him brave, and rahmah — mercy — made him kind even to people who were unkind to him.",
+      "title": "Rahmah: mercy",
+      "ar": "رَحْمَةٌ",
+      "tr": "raḥma"
+    }
+  ],
+  "words": [
+    {
+      "id": "rahma",
+      "ar": "رَحْمَةٌ",
+      "en": "mercy"
+    },
+    {
+      "id": "shaja",
+      "ar": "شَجَاعَةٌ",
+      "en": "bravery"
+    },
+    {
+      "id": "afw",
+      "ar": "عَفْوٌ",
+      "en": "forgiveness"
+    },
+    {
+      "id": "sayf",
+      "ar": "سَيْفٌ",
+      "en": "sword"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "When the man asked “Who will save you?”, the Prophet ﷺ answered:",
+      "opts": [
+        [
+          "",
+          "“My friends!”",
+          0
+        ],
+        [
+          "",
+          "“Allah!”",
+          1
+        ],
+        [
+          "",
+          "“Nobody!”",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did the Prophet ﷺ do with the man?",
+      "opts": [
+        [
+          "",
+          "He punished him",
+          0
+        ],
+        [
+          "",
+          "He forgave him and let him go",
+          1
+        ],
+        [
+          "",
+          "He ran away",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Trust in Allah made the Prophet ﷺ brave.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We should only be kind to people who are kind to us.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Has someone ever been unkind to you? How does the Prophet's ﷺ example make you feel about forgiving them?",
+    "a": "Forgiving is strong, not weak — just like the Prophet ﷺ."
+  },
+  "parents": {
+    "summary": "The Prophet ﷺ trusted Allah when threatened by a sword, then forgave the man: trust and mercy (raḥma).",
+    "try": {
+      "ar": "رَحْمَةٌ",
+      "translit": "raḥma",
+      "en": "mercy"
+    },
+    "tip": "Share a time you forgave someone, and how it felt."
+  }
+}

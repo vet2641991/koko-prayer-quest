@@ -1,0 +1,146 @@
+{
+  "id": "isl1-l26",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 26. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "آدَابُ الخُرُوجِ",
+    "en": "Going out"
+  },
+  "topic": "The du'aa for leaving home, walking well, and greeting others",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "When you leave home, say the du'aa the Prophet ﷺ taught us.",
+      "title": "Leaving home",
+      "ar": "بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+      "tr": "Bismi-llāh, tawakkaltu ʿala-llāh, wa lā ḥawla wa lā quwwata illā billāh"
+    },
+    {
+      "en": "Walk with ease — not too fast, not too slow — like the Prophet ﷺ.",
+      "title": "Walk with ease"
+    },
+    {
+      "en": "If you see something harmful on the path, move it aside. A man was forgiven for moving a thorny plant from the road!",
+      "title": "Clear the path"
+    },
+    {
+      "en": "Greet with As-salamu alaykum: the young greet the old first, and the one walking greets the one sitting.",
+      "title": "Greeting others",
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "tr": "As-salāmu ʿalaykum"
+    },
+    {
+      "en": "When you come home, say As-salamu alaykum to your family.",
+      "title": "Coming home"
+    }
+  ],
+  "words": [
+    {
+      "id": "tariq",
+      "ar": "الطَّرِيقُ",
+      "en": "the road"
+    },
+    {
+      "id": "salam",
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "en": "Peace be upon you"
+    },
+    {
+      "id": "bayt",
+      "ar": "البَيْتُ",
+      "en": "home"
+    },
+    {
+      "id": "dua_khuruj",
+      "ar": "بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ",
+      "en": "Leaving home: In the name of Allah, I trust in Allah",
+      "tr": "Bismi-llāh, tawakkaltu ʿala-llāh",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who should say salam first?",
+      "opts": [
+        [
+          "",
+          "The young person",
+          1
+        ],
+        [
+          "",
+          "The old person",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who should say salam first?",
+      "opts": [
+        [
+          "",
+          "The one walking",
+          1
+        ],
+        [
+          "",
+          "The one sitting",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "You see broken glass on the path. What do you do?",
+      "opts": [
+        [
+          "",
+          "Walk past",
+          0
+        ],
+        [
+          "",
+          "Move it aside safely or tell an adult",
+          1
+        ],
+        [
+          "",
+          "Kick it further",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? We should walk very fast and push past people.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Is there something small blocking a path near your home that you could move aside today?",
+    "a": "Moving harm from the road is a real good deed!"
+  },
+  "parents": {
+    "summary": "Going out: the du'aa for leaving home, walking calmly, removing harm from the road, and greeting with salām.",
+    "try": {
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "translit": "As-salāmu ʿalaykum",
+      "en": "Peace be upon you"
+    },
+    "tip": "Say the leaving-home du'aa together at the door every morning."
+  }
+}

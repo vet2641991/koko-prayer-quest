@@ -1,0 +1,135 @@
+{
+  "id": "isl1-l30",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 30. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "آدَابٌ عَامَّةٌ",
+    "en": "Caring for Allah's Earth"
+  },
+  "topic": "Guardians of the Earth, and keeping ourselves clean",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah created the Earth, and we are its guardians. Pollution means something in the wrong place.",
+      "title": "Guardians of the Earth"
+    },
+    {
+      "en": "Put rubbish in the bin, recycle paper, bottles and cans, and keep your things in their places.",
+      "title": "At home and school"
+    },
+    {
+      "en": "Water is a gift from Allah: turn off dripping taps and leave shared places clean.",
+      "title": "Water is a gift"
+    },
+    {
+      "en": "Pick up litter even if it wasn't you who dropped it — Allah sees it and will reward you.",
+      "title": "Allah loves beauty"
+    },
+    {
+      "en": "Keep your body, clothes, teeth and hair clean. Brush your teeth after meals, before bed and when you wake up.",
+      "title": "Keep yourself clean"
+    }
+  ],
+  "words": [
+    {
+      "id": "ard",
+      "ar": "الأَرْضُ",
+      "en": "the Earth"
+    },
+    {
+      "id": "nadhafa",
+      "ar": "النَّظَافَةُ",
+      "en": "cleanliness"
+    },
+    {
+      "id": "ma",
+      "ar": "المَاءُ",
+      "en": "water"
+    },
+    {
+      "id": "shajara",
+      "ar": "شَجَرَةٌ",
+      "en": "tree"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who does the Earth belong to?",
+      "opts": [
+        [
+          "",
+          "Allah",
+          1
+        ],
+        [
+          "",
+          "Nobody",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "You see litter that you didn't drop. You…",
+      "opts": [
+        [
+          "",
+          "pick it up",
+          1
+        ],
+        [
+          "",
+          "leave it",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "A tap is dripping. You…",
+      "opts": [
+        [
+          "",
+          "turn it off",
+          1
+        ],
+        [
+          "",
+          "ignore it",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Keeping ourselves clean is part of our worship.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Look around you right now. What is one way you can keep Allah's Earth clean today?",
+    "a": "Tidy your room, pick up litter, or save water!"
+  },
+  "parents": {
+    "summary": "We are guardians of Allah's Earth: no litter, recycle, save water, and keep ourselves clean.",
+    "try": {
+      "ar": "النَّظَافَةُ",
+      "translit": "an-naẓāfa",
+      "en": "cleanliness"
+    },
+    "tip": "Do a 5-minute family tidy-up and thank him for his part."
+  }
+}

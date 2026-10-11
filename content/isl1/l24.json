@@ -1,0 +1,167 @@
+{
+  "id": "isl1-l24",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 24. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "آدَابُ الخَلَاءِ",
+    "en": "Toilet manners"
+  },
+  "topic": "Istinjaa: purification, du'aas and good manners",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Istinjaa means purification: cleaning yourself properly with water after using the toilet.",
+      "title": "Istinjaa",
+      "ar": "الاِسْتِنْجَاءُ",
+      "tr": "al-istinjāʾ"
+    },
+    {
+      "en": "Don't take anything with Allah's name into the toilet. Step in with your left foot and say the du'aa.",
+      "title": "Going in",
+      "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الخُبُثِ وَالخَبَائِثِ",
+      "tr": "Allāhumma innī aʿūdhu bika mina l-khubuthi wa l-khabāʾith"
+    },
+    {
+      "en": "Close the door. Don't talk inside. If you sneeze, praise Allah in your heart, not out loud.",
+      "title": "Inside"
+    },
+    {
+      "en": "Clean yourself well with water, then step out with your right foot and say: Ghufranak.",
+      "title": "Coming out",
+      "ar": "غُفْرَانَكَ",
+      "tr": "Ghufrānak"
+    },
+    {
+      "en": "“Allah loves those who purify themselves.” (Qur'an 2:222)",
+      "title": "Allah loves cleanliness"
+    }
+  ],
+  "words": [
+    {
+      "id": "istinja",
+      "ar": "الاِسْتِنْجَاءُ",
+      "en": "cleaning yourself (purification)"
+    },
+    {
+      "id": "ma",
+      "ar": "مَاءٌ",
+      "en": "water"
+    },
+    {
+      "id": "dua_in",
+      "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الخُبُثِ وَالخَبَائِثِ",
+      "en": "Entering: O Allah, I seek Your protection from the devils",
+      "tr": "Allāhumma innī aʿūdhu bika mina l-khubuthi wa l-khabāʾith",
+      "sacred": true
+    },
+    {
+      "id": "ghufranak",
+      "ar": "غُفْرَانَكَ",
+      "en": "Leaving: I seek Your forgiveness",
+      "tr": "Ghufrānak",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Step into the toilet with your ___ foot.",
+      "opts": [
+        [
+          "",
+          "left",
+          1
+        ],
+        [
+          "",
+          "right",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What does istinjaa mean?",
+      "opts": [
+        [
+          "",
+          "Purification",
+          1
+        ],
+        [
+          "",
+          "Prayer",
+          0
+        ],
+        [
+          "",
+          "Food",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Do not say Alhamdulillah loudly while using the toilet.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I must not carry anything with Allah's name into the toilet.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? It's good to talk and chat while using the toilet.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you remember the du'aa for entering the toilet? Practise it before you go tonight.",
+    "a": "Allāhumma innī aʿūdhu bika mina l-khubuthi wa l-khabāʾith."
+  },
+  "parents": {
+    "summary": "Toilet manners: du'aa before entering (left foot), quiet inside, cleaning with water, right foot out saying Ghufrānak.",
+    "try": {
+      "ar": "غُفْرَانَكَ",
+      "translit": "Ghufrānak",
+      "en": "I seek Your forgiveness"
+    },
+    "tip": "Stick a small reminder of the two du'aas near the bathroom door."
+  }
+}

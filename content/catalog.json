@@ -325,6 +325,19 @@
           "file": "content/isl1/l12.json"
         },
         {
+          "id": "isl1-l13",
+          "n": "13",
+          "ar": "الدَّرْسُ ١٣",
+          "en": "Lesson 13 (waiting for the file)"
+        },
+        {
+          "id": "isl1-l14",
+          "n": "14",
+          "ar": "كَيْفَ نُصَلِّي؟",
+          "en": "How we pray — see The Prayer world",
+          "go": "prayer"
+        },
+        {
           "id": "isl1-l15",
           "n": "15",
           "ar": "عَامُ الفِيلِ",
@@ -351,6 +364,90 @@
           "ar": "مَعَ جَدِّهِ وَعَمِّهِ",
           "en": "With his grandfather and uncle",
           "file": "content/isl1/l18.json"
+        },
+        {
+          "id": "isl1-l19",
+          "n": "19",
+          "ar": "رَحْمَةُ النَّبِيِّ ﷺ",
+          "en": "The Prophet's ﷺ kindness: trust and mercy",
+          "file": "content/isl1/l19.json"
+        },
+        {
+          "id": "isl1-l20",
+          "n": "20",
+          "ar": "الضِّيَافَةُ",
+          "en": "The Prophet's ﷺ kindness: a generous host",
+          "file": "content/isl1/l20.json"
+        },
+        {
+          "id": "isl1-l21",
+          "n": "21",
+          "ar": "سُوَرٌ مِنَ القُرْآنِ",
+          "en": "Some surahs of the Qur'an",
+          "file": "content/isl1/l21.json"
+        },
+        {
+          "id": "isl1-l22",
+          "n": "22",
+          "ar": "الذِّكْرُ وَالدُّعَاءُ",
+          "en": "Dhikr and du'aa",
+          "file": "content/isl1/l22.json"
+        },
+        {
+          "id": "isl1-l23",
+          "n": "23",
+          "ar": "التَّيَامُنُ",
+          "en": "Using the right hand",
+          "file": "content/isl1/l23.json"
+        },
+        {
+          "id": "isl1-l24",
+          "n": "24",
+          "ar": "آدَابُ الخَلَاءِ",
+          "en": "Toilet manners",
+          "file": "content/isl1/l24.json"
+        },
+        {
+          "id": "isl1-l25",
+          "n": "25",
+          "ar": "آدَابُ الطَّعَامِ",
+          "en": "Eating and drinking manners",
+          "file": "content/isl1/l25.json"
+        },
+        {
+          "id": "isl1-l26",
+          "n": "26",
+          "ar": "آدَابُ الخُرُوجِ",
+          "en": "Going out",
+          "file": "content/isl1/l26.json"
+        },
+        {
+          "id": "isl1-l27",
+          "n": "27",
+          "ar": "آدَابُ النَّوْمِ",
+          "en": "Sleeping manners",
+          "file": "content/isl1/l27.json"
+        },
+        {
+          "id": "isl1-l28",
+          "n": "28",
+          "ar": "بِرُّ الوَالِدَيْنِ",
+          "en": "Kindness to parents",
+          "file": "content/isl1/l28.json"
+        },
+        {
+          "id": "isl1-l29",
+          "n": "29",
+          "ar": "آدَابٌ يَوْمِيَّةٌ",
+          "en": "Everyday courtesies",
+          "file": "content/isl1/l29.json"
+        },
+        {
+          "id": "isl1-l30",
+          "n": "30",
+          "ar": "آدَابٌ عَامَّةٌ",
+          "en": "Caring for Allah's Earth",
+          "file": "content/isl1/l30.json"
         }
       ]
     },

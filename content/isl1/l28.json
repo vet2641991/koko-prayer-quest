@@ -1,0 +1,148 @@
+{
+  "id": "isl1-l28",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 28. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "بِرُّ الوَالِدَيْنِ",
+    "en": "Kindness to parents"
+  },
+  "topic": "After salah on time, the next-best deed",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "After obeying Allah and His Messenger ﷺ, we must obey our parents: polite, helpful, and quick when they ask.",
+      "title": "Obey and help",
+      "ar": "بِرُّ الوَالِدَيْنِ",
+      "tr": "birru l-wālidayn"
+    },
+    {
+      "en": "A man asked the Prophet ﷺ: which deed does Allah love most? He said: prayer on time. The next? Kindness to parents.",
+      "title": "The next-best deed"
+    },
+    {
+      "en": "If you are kind to your parents, they will love you — and when they are happy with you, Allah is happy with you too.",
+      "title": "Their happiness matters"
+    },
+    {
+      "en": "“And your Lord has decreed that you worship none but Him, and that you be good to your parents.” (Qur'an 17:23)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "walid",
+      "ar": "وَالِدٌ",
+      "en": "father"
+    },
+    {
+      "id": "walida",
+      "ar": "وَالِدَةٌ",
+      "en": "mother"
+    },
+    {
+      "id": "birr",
+      "ar": "بِرٌّ",
+      "en": "kindness, goodness"
+    },
+    {
+      "id": "taa",
+      "ar": "طَاعَةٌ",
+      "en": "obedience"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Which deed did the Prophet ﷺ say Allah loves most?",
+      "opts": [
+        [
+          "",
+          "Salah at its correct time",
+          1
+        ],
+        [
+          "",
+          "Playing games",
+          0
+        ],
+        [
+          "",
+          "Sleeping early",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "And the next-best deed?",
+      "opts": [
+        [
+          "",
+          "Kindness to parents",
+          1
+        ],
+        [
+          "",
+          "Buying toys",
+          0
+        ],
+        [
+          "",
+          "Watching TV",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Your father says: homework before playing. What do you do?",
+      "opts": [
+        [
+          "",
+          "Play first",
+          0
+        ],
+        [
+          "",
+          "Do homework first, happily",
+          1
+        ],
+        [
+          "",
+          "Argue",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? When our parents are happy with us, Allah is happy with us too.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "What is one small thing you can do today to make your parents happy?",
+    "a": "Help without being asked — set the table, tidy up, or give a hug!"
+  },
+  "parents": {
+    "summary": "Kindness to parents (birr al-wālidayn): obey, help and be polite; it is the best deed after salah on time.",
+    "try": {
+      "ar": "جَزَاكَ اللهُ خَيْرًا",
+      "translit": "jazāka-llāhu khayran",
+      "en": "May Allah reward you"
+    },
+    "tip": "Notice and praise every kind thing he does for you this week."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "isl1-l29",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 29. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "آدَابٌ يَوْمِيَّةٌ",
+    "en": "Everyday courtesies"
+  },
+  "topic": "Yawning, sneezing, salam, good speech, please and thank you",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "When you yawn, cover your mouth and try to stay quiet.",
+      "title": "Yawning"
+    },
+    {
+      "en": "When you sneeze, cover your mouth and nose and say Alhamdulillah. People who hear you say Yarhamuk-Allah.",
+      "title": "Sneezing",
+      "ar": "الحَمْدُ لِلهِ — يَرْحَمُكَ اللهُ",
+      "tr": "Al-ḥamdu lillāh — Yarḥamuka-llāh"
+    },
+    {
+      "en": "Say As-salamu alaykum to people you know and people you don't. The nearest to Allah are those who say it first.",
+      "title": "Saying salam"
+    },
+    {
+      "en": "Speak good or keep silent. Always tell the truth, and speak clearly.",
+      "title": "Speak good"
+    },
+    {
+      "en": "Say please and Jazak-Allahu khayran — at home too! Whoever doesn't thank people doesn't thank Allah.",
+      "title": "Please and thank you",
+      "ar": "جَزَاكَ اللهُ خَيْرًا",
+      "tr": "Jazāka-llāhu khayran"
+    }
+  ],
+  "words": [
+    {
+      "id": "hamdala",
+      "ar": "الحَمْدُ لِلهِ",
+      "en": "All praise is for Allah"
+    },
+    {
+      "id": "yarhamuk",
+      "ar": "يَرْحَمُكَ اللهُ",
+      "en": "May Allah have mercy on you",
+      "tr": "Yarḥamuka-llāh",
+      "sacred": true
+    },
+    {
+      "id": "shukr",
+      "ar": "شُكْرًا",
+      "en": "thank you"
+    },
+    {
+      "id": "sidq",
+      "ar": "صِدْقٌ",
+      "en": "truthfulness"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What do you say when you sneeze?",
+      "opts": [
+        [
+          "",
+          "Alhamdulillah",
+          1
+        ],
+        [
+          "",
+          "Bismillah",
+          0
+        ],
+        [
+          "",
+          "Nothing",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Someone sneezes and says Alhamdulillah. You reply:",
+      "opts": [
+        [
+          "",
+          "Yarhamuk-Allah",
+          1
+        ],
+        [
+          "",
+          "Ghufranak",
+          0
+        ],
+        [
+          "",
+          "Allahu Akbar",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "When you yawn, you should…",
+      "opts": [
+        [
+          "",
+          "cover your mouth",
+          1
+        ],
+        [
+          "",
+          "yawn loudly",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? We only need to say please and thank you outside, not at home.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Do you say “please” and “thank you” as much at home as outside? How can you improve today?",
+    "a": "Try saying Jazak-Allahu khayran to everyone at home today!"
+  },
+  "parents": {
+    "summary": "Small daily manners: yawning, sneezing (Alhamdulillah / Yarḥamuka-llāh), salām, truthful speech, please and thank you.",
+    "try": {
+      "ar": "يَرْحَمُكَ اللهُ",
+      "translit": "Yarḥamuka-llāh",
+      "en": "May Allah have mercy on you"
+    },
+    "tip": "Practise the sneezing reply as a family game."
+  }
+}

@@ -145,6 +145,7 @@ function unitNode(u, cur) {
   const st = S.stars[u.id] || 0;
   const cls = !ready(u) ? 'soon' : (cur && cur.id === u.id ? 'now' : st ? '' : 'open');
   const tag = !ready(u) ? 'soon' : cur && cur.id === u.id ? 'NOW' : st ? '★'.repeat(st) : 'play';
+  if (u.go) return `<a class="node open" href="#/world/${u.go}"><div class="dot">${esc(u.n)}</div><div class="t">${AR(u.ar)}<small>${esc(u.en)}</small></div><span class="tag">go</span></a>`;
   const inner = `<div class="dot">${esc(u.n)}</div><div class="t">${AR(u.ar)}<small>${esc(u.en)}</small></div><span class="tag">${tag}</span>`;
   return ready(u) ? `<a class="node ${cls}" href="#/lesson/${u.id}">${inner}</a>` : `<div class="node soon">${inner}</div>`;
 }

@@ -1,0 +1,160 @@
+{
+  "id": "isl1-l25",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 25. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "آدَابُ الطَّعَامِ",
+    "en": "Eating and drinking manners"
+  },
+  "topic": "Bismillah, the right hand, and Alhamdulillah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Wash your hands, sit up straight, and say Bismillah before eating or drinking.",
+      "title": "Before you begin",
+      "ar": "بِسْمِ اللهِ",
+      "tr": "Bismi-llāh"
+    },
+    {
+      "en": "Eat small bites with your right hand and chew slowly. If sharing a plate, eat from your own side.",
+      "title": "With the right hand"
+    },
+    {
+      "en": "Don't blow on food or drink, or breathe into the cup. Sitting to eat is better than standing.",
+      "title": "At the table"
+    },
+    {
+      "en": "Never eat or drink with the left hand, and never talk with your mouth full.",
+      "title": "Good manners"
+    },
+    {
+      "en": "When you finish, praise Allah who gave you food and drink.",
+      "title": "When you finish",
+      "ar": "الحَمْدُ لِلهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِينَ",
+      "tr": "Al-ḥamdu lillāhi lladhī aṭʿamanā wa saqānā wa jaʿalanā muslimīn"
+    },
+    {
+      "en": "“Eat and drink, but do not waste.” (Qur'an 7:31)",
+      "title": "Don't waste"
+    }
+  ],
+  "words": [
+    {
+      "id": "taam",
+      "ar": "طَعَامٌ",
+      "en": "food"
+    },
+    {
+      "id": "sharab",
+      "ar": "شَرَابٌ",
+      "en": "drink"
+    },
+    {
+      "id": "kas",
+      "ar": "كَأْسٌ",
+      "en": "cup"
+    },
+    {
+      "id": "dua_akl",
+      "ar": "الحَمْدُ لِلهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِينَ",
+      "en": "After eating: Praise be to Allah who fed us and gave us drink",
+      "tr": "Al-ḥamdu lillāhi lladhī aṭʿamanā wa saqānā wa jaʿalanā muslimīn",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "___ your hands before eating.",
+      "opts": [
+        [
+          "",
+          "Wash",
+          1
+        ],
+        [
+          "",
+          "Hide",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Only eat and drink with your ___ hand.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Do not ___ on food or drink.",
+      "opts": [
+        [
+          "",
+          "blow",
+          1
+        ],
+        [
+          "",
+          "look",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "___ is better than standing while eating.",
+      "opts": [
+        [
+          "",
+          "Sitting",
+          1
+        ],
+        [
+          "",
+          "Running",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Talking with your mouth full is good manners.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "At your next meal, can you remember Bismillah before and Alhamdulillah after?",
+    "a": "Let's try at dinner tonight!"
+  },
+  "parents": {
+    "summary": "Eating manners: wash hands, Bismillah, right hand, small bites, no blowing, sit, and the du'aa after eating.",
+    "try": {
+      "ar": "بِسْمِ اللهِ",
+      "translit": "Bismi-llāh",
+      "en": "In the name of Allah"
+    },
+    "tip": "Say the after-meal du'aa together at dinner."
+  }
+}

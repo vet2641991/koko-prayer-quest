@@ -1,0 +1,155 @@
+{
+  "id": "isl1-l27",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 27. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "آدَابُ النَّوْمِ",
+    "en": "Sleeping manners"
+  },
+  "topic": "Before bed, on the right side, and waking for Fajr",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Before lying down, shake out your blanket. Blow gently into your cupped hands, recite Al-Ikhlas, Al-Falaq and An-Nas, and wipe your hands over your body three times.",
+      "title": "Before you lie down"
+    },
+    {
+      "en": "Lie on your right side with your right hand under your cheek, and say the sleeping du'aa.",
+      "title": "On your right side",
+      "ar": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "tr": "Bismika-llāhumma amūtu wa aḥyā"
+    },
+    {
+      "en": "Don't sleep on your stomach, and don't cover your face so you can breathe well.",
+      "title": "Face uncovered"
+    },
+    {
+      "en": "Go to bed early so you can wake up for Fajr on time — and praise Allah when you wake up.",
+      "title": "Early to bed",
+      "ar": "الحَمْدُ لِلهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "tr": "Al-ḥamdu lillāhi lladhī aḥyānā baʿda mā amātanā wa ilayhi n-nushūr"
+    }
+  ],
+  "words": [
+    {
+      "id": "nawm",
+      "ar": "النَّوْمُ",
+      "en": "sleep"
+    },
+    {
+      "id": "firash",
+      "ar": "الفِرَاشُ",
+      "en": "the bed"
+    },
+    {
+      "id": "fajr",
+      "ar": "الفَجْرُ",
+      "en": "Fajr (dawn)"
+    },
+    {
+      "id": "dua_nawm",
+      "ar": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "en": "Going to bed: In Your name, O Allah, I die and I live",
+      "tr": "Bismika-llāhumma amūtu wa aḥyā",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? I must sleep on my stomach.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I must sleep on a clean bed.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? It's OK to cover my face with the blanket.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I recite Al-Ikhlas, Al-Falaq and An-Nas before sleeping.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "I lie on my ___ side.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Tonight, can you recite the three surahs and sleep on your right side?",
+    "a": "Bedtime routine: three surahs, right side, the du'aa, then sleep!"
+  },
+  "parents": {
+    "summary": "Sleeping manners: the three surahs, right side, face uncovered, the du'aas for sleeping and waking, and early bed for Fajr.",
+    "try": {
+      "ar": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "translit": "Bismika-llāhumma amūtu wa aḥyā",
+      "en": "In Your name, O Allah, I die and I live"
+    },
+    "tip": "Do the bedtime routine together tonight."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "isl1-l20",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 20. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "الضِّيَافَةُ",
+    "en": "The Prophet's ﷺ kindness: a generous host"
+  },
+  "topic": "Hospitality (diyafah) to everyone",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Prophet ﷺ always served food to his guests himself — Muslims and non-Muslims alike.",
+      "title": "A generous host"
+    },
+    {
+      "en": "Once he gave a guest all the food in his house, while he and his family stayed hungry.",
+      "title": "Giving everything"
+    },
+    {
+      "en": "A guest who was not yet a Muslim drank the milk of six goats — and the Prophet ﷺ kept serving him!",
+      "title": "Six goats of milk"
+    },
+    {
+      "en": "Diyafah means hospitality: treating a guest generously, whoever they are. It is part of good character.",
+      "title": "Diyafah",
+      "ar": "الضِّيَافَةُ",
+      "tr": "aḍ-ḍiyāfa"
+    },
+    {
+      "en": "“And indeed, you are of a great moral character.” (Qur'an 68:4)",
+      "title": "Great character"
+    }
+  ],
+  "words": [
+    {
+      "id": "dayf",
+      "ar": "ضَيْفٌ",
+      "en": "guest"
+    },
+    {
+      "id": "diyafa",
+      "ar": "الضِّيَافَةُ",
+      "en": "hospitality"
+    },
+    {
+      "id": "laban",
+      "ar": "لَبَنٌ",
+      "en": "milk"
+    },
+    {
+      "id": "taam",
+      "ar": "طَعَامٌ",
+      "en": "food"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "The Prophet ﷺ was always ___ to his guests.",
+      "opts": [
+        [
+          "",
+          "good",
+          1
+        ],
+        [
+          "",
+          "bad",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The Prophet ﷺ ___ his guests himself.",
+      "opts": [
+        [
+          "",
+          "served",
+          1
+        ],
+        [
+          "",
+          "never served",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The guest drank the milk of ___ goats.",
+      "opts": [
+        [
+          "",
+          "five",
+          0
+        ],
+        [
+          "",
+          "six",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet ﷺ was kind only to Muslim guests.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "How can you be a generous host to a guest in your home this week?",
+    "a": "Offer them a drink, share your snacks or toys, and serve them first!"
+  },
+  "parents": {
+    "summary": "The Prophet ﷺ served guests himself, Muslims and non-Muslims, even going hungry: hospitality (ḍiyāfa).",
+    "try": {
+      "ar": "أَهْلًا وَسَهْلًا",
+      "translit": "ahlan wa sahlan",
+      "en": "Welcome!"
+    },
+    "tip": "Next time you have guests, let him serve them and welcome them in Arabic."
+  }
+}

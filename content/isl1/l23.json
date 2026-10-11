@@ -1,0 +1,150 @@
+{
+  "id": "isl1-l23",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 23. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "التَّيَامُنُ",
+    "en": "Using the right hand"
+  },
+  "topic": "Right for good and clean things, left for unclean things",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Use your right hand to take and give things, to eat and drink, and to shake hands.",
+      "title": "Right hand for good things"
+    },
+    {
+      "en": "Start with the right when putting on shoes and clothes. Enter the mosque with your right foot.",
+      "title": "Right side first"
+    },
+    {
+      "en": "Use the left hand for unclean things: blowing your nose, cleaning yourself in the toilet, washing away dirt.",
+      "title": "Left hand for unclean things"
+    },
+    {
+      "en": "Don't walk around wearing only one shoe or sandal!",
+      "title": "Two shoes, please"
+    },
+    {
+      "en": "Enter the toilet with the left foot, and leave it with the right foot.",
+      "title": "The toilet"
+    }
+  ],
+  "words": [
+    {
+      "id": "yamin",
+      "ar": "اليَمِينُ",
+      "en": "the right"
+    },
+    {
+      "id": "yasar",
+      "ar": "اليَسَارُ",
+      "en": "the left"
+    },
+    {
+      "id": "yad",
+      "ar": "يَدٌ",
+      "en": "hand"
+    },
+    {
+      "id": "qadam",
+      "ar": "قَدَمٌ",
+      "en": "foot"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "I eat with my ___ hand.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I enter the toilet with my ___ foot.",
+      "opts": [
+        [
+          "",
+          "right",
+          0
+        ],
+        [
+          "",
+          "left",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "I enter the masjid with my ___ foot.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I drink with my ___ hand.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? It's fine to walk around wearing only one shoe.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Tomorrow morning, can you put on your shoes starting with the right foot?",
+    "a": "Yes — right shoe first, then the left!"
+  },
+  "parents": {
+    "summary": "Right hand and right side for good things (eating, giving, shoes, entering the mosque); left for unclean tasks.",
+    "try": {
+      "ar": "اليَمِينُ",
+      "translit": "al-yamīn",
+      "en": "the right"
+    },
+    "tip": "At meals, gently remind him: right hand."
+  }
+}

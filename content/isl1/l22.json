@@ -1,0 +1,198 @@
+{
+  "id": "isl1-l22",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 22. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "الذِّكْرُ وَالدُّعَاءُ",
+    "en": "Dhikr and du'aa"
+  },
+  "topic": "Remembering Allah and the Prophet's ﷺ du'aas for every moment",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Dhikr means remembering Allah. Du'aa means calling on Him and asking for what we need — and we ask only Allah.",
+      "title": "Two words, one purpose",
+      "ar": "الذِّكْرُ وَالدُّعَاءُ",
+      "tr": "adh-dhikr wa d-duʿāʾ"
+    },
+    {
+      "en": "“Call upon Me; I will respond to you.” (Qur'an 40:60)",
+      "title": "Allah answers"
+    },
+    {
+      "en": "Four phrases of dhikr: Subhan-Allah, Alhamdulillah, La ilaha illallah, Allahu Akbar.",
+      "title": "Four phrases of dhikr"
+    },
+    {
+      "en": "We can make du'aa in our own words, but it is best to use the du'aas the Prophet ﷺ taught us for each moment of the day.",
+      "title": "A du'aa for every moment"
+    }
+  ],
+  "words": [
+    {
+      "id": "subhan",
+      "ar": "سُبْحَانَ اللهِ",
+      "en": "Glory be to Allah",
+      "tr": "Subḥāna-llāh",
+      "sacred": true
+    },
+    {
+      "id": "hamd",
+      "ar": "الحَمْدُ لِلهِ",
+      "en": "All praise is for Allah",
+      "tr": "Al-ḥamdu lillāh",
+      "sacred": true
+    },
+    {
+      "id": "tahlil",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "en": "There is no god but Allah",
+      "tr": "Lā ilāha illa-llāh",
+      "sacred": true
+    },
+    {
+      "id": "takbir",
+      "ar": "اللهُ أَكْبَرُ",
+      "en": "Allah is the Greatest",
+      "tr": "Allāhu akbar",
+      "sacred": true
+    },
+    {
+      "id": "khuruj",
+      "ar": "بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+      "en": "Leaving home: In the name of Allah, I trust in Allah",
+      "tr": "Bismi-llāh, tawakkaltu ʿala-llāh, wa lā ḥawla wa lā quwwata illā billāh",
+      "sacred": true
+    },
+    {
+      "id": "masjid_in",
+      "ar": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "en": "Entering the mosque: O Allah, open the gates of Your mercy for me",
+      "tr": "Allāhumma ftaḥ lī abwāba raḥmatik",
+      "sacred": true
+    },
+    {
+      "id": "masjid_out",
+      "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "en": "Leaving the mosque: O Allah, I ask You of Your bounty",
+      "tr": "Allāhumma innī asʾaluka min faḍlik",
+      "sacred": true
+    },
+    {
+      "id": "nawm",
+      "ar": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "en": "Going to bed: In Your name, O Allah, I die and I live",
+      "tr": "Bismika-llāhumma amūtu wa aḥyā",
+      "sacred": true
+    },
+    {
+      "id": "istiqaz",
+      "ar": "الحَمْدُ لِلهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "en": "Waking up: Praise be to Allah who gave us life again",
+      "tr": "Al-ḥamdu lillāhi lladhī aḥyānā baʿda mā amātanā wa ilayhi n-nushūr",
+      "sacred": true
+    },
+    {
+      "id": "yarhamuk",
+      "ar": "يَرْحَمُكَ اللهُ",
+      "en": "Hearing a sneeze: May Allah have mercy on you",
+      "tr": "Yarḥamuka-llāh",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What does dhikr mean?",
+      "opts": [
+        [
+          "",
+          "Remembering Allah",
+          1
+        ],
+        [
+          "",
+          "Eating",
+          0
+        ],
+        [
+          "",
+          "Sleeping",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What does du'aa mean?",
+      "opts": [
+        [
+          "",
+          "Calling on Allah and asking Him",
+          1
+        ],
+        [
+          "",
+          "Reading a story",
+          0
+        ],
+        [
+          "",
+          "Playing",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What do you say when you hear someone sneeze and praise Allah?",
+      "opts": [
+        [
+          "",
+          "Yarhamuk-Allah",
+          1
+        ],
+        [
+          "",
+          "Bismillah",
+          0
+        ],
+        [
+          "",
+          "Ghufranak",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A Muslim makes du'aa only to Allah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which of these du'aas do you already say? Which one will you learn this week?",
+    "a": "Pick one and practise it every day this week!"
+  },
+  "parents": {
+    "summary": "Dhikr (remembering Allah), du'aa (calling on Him), four phrases of dhikr, and du'aas for leaving home, the mosque, sleeping, waking and sneezing.",
+    "try": {
+      "ar": "سُبْحَانَ اللهِ",
+      "translit": "Subḥāna-llāh",
+      "en": "Glory be to Allah"
+    },
+    "tip": "Pick one du'aa of the week and say it together at its moment."
+  }
+}
