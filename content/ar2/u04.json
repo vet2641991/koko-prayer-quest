@@ -1,0 +1,59 @@
+{
+  "id": "ar2-u04",
+  "world": "ar2",
+  "unit": 4,
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٤ «تَعَارُفٌ ٢» (ص ٣١ من الكتاب، ص ٣٢ من PDF). الحوار مطابق لصورة الصفحة.",
+  "title": { "ar": "تَعَارُفٌ «٢»", "en": "Meeting people 2" },
+  "topic": "Introducing women and girls: hādhihi (this, for a girl), mother, daughter, classmate",
+  "minutes": 12,
+
+  "words": [
+    { "id": "hadhihi",  "ar": "هَذِهِ",     "en": "this (for a girl or woman)" },
+    { "id": "walida",   "ar": "وَالِدَةٌ",  "en": "mother" },
+    { "id": "ibna",     "ar": "اِبْنَةٌ",   "en": "daughter" },
+    { "id": "zamila",   "ar": "زَمِيلَةٌ",  "en": "classmate (girl)" },
+    { "id": "arbaun",   "ar": "أَرْبَعُونَ", "en": "forty", "badge": "40" },
+    { "id": "am",       "ar": "عَامٌ",      "en": "year" },
+    { "id": "walidati", "ar": "وَالِدَتِي", "en": "my mother" },
+    { "id": "ibnati",   "ar": "ابْنَتِي",   "en": "my daughter" },
+    { "id": "zamilati", "ar": "زَمِيلَتِي", "en": "my classmate (girl)" },
+    { "id": "kamki",    "ar": "كَمْ عُمُرُكِ؟", "en": "How old are you? (to a girl)" }
+  ],
+
+  "dialogue": [
+    { "id": "d1", "who": "batool", "ar": "هَذِهِ هِبَةُ.", "en": "This is Hiba." },
+    { "id": "d2", "who": "hiba",   "ar": "السَّلَامُ عَلَيْكُمْ.", "en": "Peace be upon you." },
+    { "id": "d3", "who": "batool", "ar": "وَعَلَيْكُمُ السَّلَامُ. هَذِهِ وَالِدَتِي.", "en": "And peace be upon you. This is my mother." },
+    { "id": "d4", "who": "hiba",   "ar": "أَهْلاً وَسَهْلاً.", "en": "Welcome!" },
+    { "id": "d5", "who": "batool", "ar": "وَهَذِهِ زَمِيلَتِي لَطِيفَةُ.", "en": "And this is my classmate Latifa." },
+    { "id": "d6", "who": "hiba",   "ar": "كَمْ عُمُرُكِ يَا لَطِيفَةُ؟", "en": "How old are you, Latifa?" },
+    { "id": "d7", "who": "latifa", "ar": "عُمُرِي أَرْبَعُونَ عَامًا.", "en": "I am forty years old." },
+    { "id": "d8", "who": "hiba",   "ar": "وَهَذِهِ ابْنَتِي.", "en": "And this is my daughter." },
+    { "id": "d9", "who": "batool", "ar": "أَهْلاً وَسَهْلاً.", "en": "Welcome!" }
+  ],
+  "speakers": {
+    "hiba":   { "en": "Hiba",   "ar": "هِبَةُ",   "playedBy": "koko" },
+    "batool": { "en": "Batool", "ar": "بَتُولُ",  "playedBy": "haitham" },
+    "latifa": { "en": "Latifa", "ar": "لَطِيفَةُ", "playedBy": "haitham" }
+  },
+
+  "talk": [
+    { "ask": "d2", "answer": "d3", "wrong": ["d7", "d8"] },
+    { "ask": "d4", "answer": "d5", "wrong": ["d2", "d7"] },
+    { "ask": "d6", "answer": "d7", "wrong": ["d5", "d3"] },
+    { "ask": "d8", "answer": "d9", "wrong": ["d6", "d1"] }
+  ],
+
+  "games": ["listen", "match"],
+
+  "move": {
+    "ar": "أَشِرْ إِلَى أُمِّكَ وَقُلْ: هَذِهِ وَالِدَتِي!",
+    "en": "Point to your mum (or a photo of her) and tell Koko: This is my mother!"
+  },
+
+  "parents": {
+    "summary": "Introducing women and girls: هَذِهِ (this, for a girl), my mother, my daughter, my classmate — and “How old are you?” to a girl.",
+    "try": { "ar": "هَذِهِ وَالِدَتِي", "translit": "hādhihi wālidatī", "en": "This is my mother" },
+    "tip": "Mum: stand next to him and let him introduce you to Koko in Arabic: هَذِهِ وَالِدَتِي."
+  }
+}

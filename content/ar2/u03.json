@@ -1,0 +1,63 @@
+{
+  "id": "ar2-u03",
+  "world": "ar2",
+  "unit": 3,
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٣ «مَنِ الأُولَى؟» (ص ٢١ من الكتاب، ص ٢٢ من PDF). الحوار مطابق لصورة الصفحة.",
+  "title": { "ar": "مَنِ الأُولَى؟", "en": "Who is first? (for girls)" },
+  "topic": "Ordinal numbers for girls (the first to the tenth), “be quiet!” and “I won't be quiet”",
+  "minutes": 12,
+
+  "words": [
+    { "id": "ula",      "ar": "الأُولَى",    "en": "the first (girl)",   "badge": "1st" },
+    { "id": "thaniya",  "ar": "الثَّانِيَةُ", "en": "the second (girl)",  "badge": "2nd" },
+    { "id": "thalitha", "ar": "الثَّالِثَةُ", "en": "the third (girl)",   "badge": "3rd" },
+    { "id": "rabia",    "ar": "الرَّابِعَةُ", "en": "the fourth (girl)",  "badge": "4th" },
+    { "id": "khamisa",  "ar": "الخَامِسَةُ", "en": "the fifth (girl)",   "badge": "5th" },
+    { "id": "sadisa",   "ar": "السَّادِسَةُ", "en": "the sixth (girl)",   "badge": "6th" },
+    { "id": "sabia",    "ar": "السَّابِعَةُ", "en": "the seventh (girl)", "badge": "7th" },
+    { "id": "thamina",  "ar": "الثَّامِنَةُ", "en": "the eighth (girl)",  "badge": "8th" },
+    { "id": "tasia",    "ar": "التَّاسِعَةُ", "en": "the ninth (girl)",   "badge": "9th" },
+    { "id": "ashira",   "ar": "العَاشِرَةُ", "en": "the tenth (girl)",   "badge": "10th" },
+    { "id": "uskuti",   "ar": "أُسْكُتِي",   "en": "Be quiet! (to a girl)" },
+    { "id": "lan",      "ar": "لَنْ أَسْكُتَ", "en": "I won't be quiet!" },
+    { "id": "ukht",     "ar": "أُخْتٌ",      "en": "sister" },
+    { "id": "akh",      "ar": "أَخٌ",        "en": "brother" },
+    { "id": "mubarak",  "ar": "مُبَارَكٌ",   "en": "Congratulations!" }
+  ],
+
+  "dialogue": [
+    { "id": "d1", "who": "khawla",  "ar": "الأُولَى، الثَّانِيَةُ، الثَّالِثَةُ.", "en": "The first, the second, the third." },
+    { "id": "d2", "who": "khadija", "ar": "أُسْكُتِي.", "en": "Be quiet!" },
+    { "id": "d3", "who": "khawla",  "ar": "لَنْ أَسْكُتَ، الرَّابِعَةُ، الخَامِسَةُ، السَّادِسَةُ.", "en": "I won't be quiet! The fourth, the fifth, the sixth." },
+    { "id": "d4", "who": "khadija", "ar": "أُسْكُتِي.", "en": "Be quiet!" },
+    { "id": "d5", "who": "khawla",  "ar": "لَنْ أَسْكُتَ، السَّابِعَةُ، الثَّامِنَةُ، التَّاسِعَةُ.", "en": "I won't be quiet! The seventh, the eighth, the ninth." },
+    { "id": "d6", "who": "khadija", "ar": "أُسْكُتِي.", "en": "Be quiet!" },
+    { "id": "d7", "who": "khawla",  "ar": "العَاشِرَةُ أُخْتِي نَذِيرَةُ.", "en": "The tenth is my sister Nadhira." },
+    { "id": "d8", "who": "khadija", "ar": "مُبَارَكٌ.", "en": "Congratulations!" }
+  ],
+  "speakers": {
+    "khawla":  { "en": "Khawla",  "ar": "خَوْلَةُ",  "playedBy": "koko" },
+    "khadija": { "en": "Khadija", "ar": "خَدِيجَةُ", "playedBy": "haitham" }
+  },
+
+  "talk": [
+    { "ask": "d1", "answer": "d2", "wrong": ["d8", "d7"] },
+    { "ask": "d3", "answer": "d4", "wrong": ["d5", "d8"] },
+    { "ask": "d5", "answer": "d6", "wrong": ["d1", "d7"] },
+    { "ask": "d7", "answer": "d8", "wrong": ["d2", "d3"] }
+  ],
+
+  "games": ["listen", "match", "order"],
+  "order": { "en": "Put the girls in order, from the first to the tenth", "ids": ["ula","thaniya","thalitha","rabia","khamisa","sadisa","sabia","thamina","tasia","ashira"] },
+
+  "move": {
+    "ar": "عُدَّ أَصَابِعَكَ: الأُولَى، الثَّانِيَةُ، الثَّالِثَةُ!",
+    "en": "Count your fingers with Koko the girls' way: the first, the second, the third…"
+  },
+
+  "parents": {
+    "summary": "Ordinal numbers for girls (al-ūlā, ath-thāniya…), and the funny dialogue “Be quiet!” — “I won't be quiet!”.",
+    "try": { "ar": "مَنِ الأُولَى؟", "translit": "man il-ūlā?", "en": "Who is first? (about a girl)" },
+    "tip": "Line up family members and ask him who is first, second, third — using the girls' words for his mum or sisters."
+  }
+}

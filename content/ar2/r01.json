@@ -1,0 +1,44 @@
+{
+  "id": "ar2-r01",
+  "world": "ar2",
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني «هَلْ تَذْكُرُونَ؟ مُرَاجَعَةُ الوَحَدَاتِ ١–٤» (ص ٤١–٤٢ من الكتاب، ص ٤٢–٤٣ من PDF). الأسئلة من التمرينين ٧ و٨، والتمييز من التمرين ٣.",
+  "title": { "ar": "هَلْ تَذْكُرُونَ؟", "en": "Do you remember? (Units 1–4)" },
+  "topic": "Review of units 1–4: family words, classmates, ordinal numbers, and asking questions",
+  "minutes": 8,
+
+  "words": [
+    { "id": "ibn",      "from": "ar2-u01", "ar": "اِبْنٌ",    "en": "son" },
+    { "id": "muallim",  "from": "ar2-u01", "ar": "مُعَلِّمٌ", "en": "teacher" },
+    { "id": "zamil",    "from": "ar2-u01", "ar": "زَمِيلٌ",   "en": "classmate" },
+    { "id": "walid",    "from": "ar2-u01", "ar": "وَالِدٌ",   "en": "father" },
+    { "id": "marid",    "from": "ar2-u02", "ar": "مَرِيضٌ",   "en": "sick" },
+    { "id": "nahif",    "from": "ar2-u02", "ar": "نَحِيفٌ",   "en": "thin" },
+    { "id": "samin",    "from": "ar2-u02", "ar": "سَمِينٌ",   "en": "fat" },
+    { "id": "awwal",    "from": "ar2-u02", "ar": "الأَوَّلُ", "en": "the first" },
+    { "id": "ukht",     "from": "ar2-u03", "ar": "أُخْتٌ",    "en": "sister" },
+    { "id": "zamila",   "from": "ar2-u04", "ar": "زَمِيلَةٌ", "en": "classmate (girl)" }
+  ],
+
+  "games": ["listen", "match"],
+
+  "quiz": [
+    { "ar": "مَنْ هَذَا؟", "en": "Who is this?",
+      "opts": [["هَذَا زَمِيلِي عَدْنَانُ.", "This is my classmate Adnan.", 1], ["سَبْعُ حَقَائِبَ.", "Seven bags.", 0], ["السَّيَّارَةُ هُنَا.", "The car is here.", 0]] },
+    { "ar": "مَنْ هَذِهِ؟", "en": "Who is this? (a girl or woman)",
+      "opts": [["هَذَا ابْنِي.", "This is my son.", 0], ["هَذِهِ وَالِدَتِي مَرْيَمُ.", "This is my mother, Maryam.", 1], ["عُمُرِي تِسْعُ سَنَوَاتٍ.", "I am nine years old.", 0]] },
+    { "ar": "كَمْ عُمُرُكَ؟", "en": "How old are you?",
+      "opts": [["هَذَا زَمِيلِي.", "This is my classmate.", 0], ["التَّاسِعُ أَنَا.", "I am the ninth.", 0], ["عُمُرِي تِسْعُ سَنَوَاتٍ.", "I am nine years old.", 1]] },
+    { "ar": "مَنِ التَّاسِعُ؟", "en": "Who is the ninth?",
+      "opts": [["التَّاسِعُ أَنَا.", "I am the ninth.", 1], ["أَنَا مَرِيضٌ.", "I am sick.", 0], ["هَذِهِ أُخْتِي.", "This is my sister.", 0]] },
+    { "ar": "مَاذَا تَقُولُ لِبِنْتٍ؟", "en": "What do you say to a GIRL to make her be quiet?",
+      "opts": [["أُسْكُتْ.", "Be quiet! (to a boy)", 0], ["أُسْكُتِي.", "Be quiet! (to a girl)", 1]] },
+    { "ar": "زَمِيلَتُكَ بِنْتٌ. مَاذَا تَقُولُ؟", "en": "Your classmate is a girl. What do you say?",
+      "opts": [["هَذَا زَمِيلِي.", "This is my classmate (boy).", 0], ["هَذِهِ زَمِيلَتِي.", "This is my classmate (girl).", 1]] }
+  ],
+
+  "parents": {
+    "summary": "A review of units 1–4: family words, classmates, first-to-tenth, and the questions “Who is this?” and “How old are you?”.",
+    "try": { "ar": "مَنْ هَذَا؟", "translit": "man hādhā?", "en": "Who is this?" },
+    "tip": "Point at family photos and ask “مَنْ هَذَا؟ / مَنْ هَذِهِ؟”. He answers: هَذَا وَالِدِي / هَذِهِ أُخْتِي."
+  }
+}

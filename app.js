@@ -34,7 +34,7 @@ try { // carry over stars from the first version of the site
 } catch (e) {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
 const totalStars = () => Object.values(S.stars).reduce((a, b) => a + b, 0);
-const wordKey = (L, w) => `${L.id}|${w.id}`;
+const wordKey = (L, w) => `${w.from || L.id}|${w.id}`; // review lessons point words at their home lesson
 function markWord(L, w, ok) {
   const k = wordKey(L, w), r = S.words[k] || { seen: 0, right: 0, wrong: 0 };
   if (ok === null) r.seen++; else if (ok) r.right++; else r.wrong++;
@@ -65,7 +65,10 @@ const ready = u => !!u.file;
 const done = u => (S.stars[u.id] || 0) > 0;
 function nextUnit() {
   const order = [CAT.worlds.find(w => w.id === CAT.focus), ...CAT.worlds.filter(w => w.id !== CAT.focus)].filter(Boolean);
-  for (const w of order) for (const u of w.units) if (ready(u) && !done(u)) return Object.assign({ world: w }, u);
+  for (const w of order) {
+    const i = Math.max(0, w.units.findIndex(u => u.id === CAT.start));   // begin where Haitham is, then wrap to earlier units
+    for (const u of [...w.units.slice(i), ...w.units.slice(0, i)]) if (ready(u) && !done(u)) return Object.assign({ world: w }, u);
+  }
   return null;
 }
 
@@ -96,7 +99,8 @@ function speakEn(text) {
 async function playSeq(items) { const t = ++audioToken; if ('speechSynthesis' in window) speechSynthesis.cancel();
   for (const s of items) { if (t !== audioToken) return; if (s && typeof s === 'object') await speakEn(s.en); else await play(s); await new Promise(r => setTimeout(r, 250)); } }
 const aud = (L, name) => `audio/${L.id}/${name}.mp3`;
-const sayWord = (L, w, which = 'both') => playSeq(which === 'ar' ? [aud(L, `w-${w.id}-ar`)] : which === 'en' ? [{ en: w.en }] : [aud(L, `w-${w.id}-ar`), { en: w.en }]);
+const wAud = (L, w) => `audio/${w.from || L.id}/w-${w.id}-ar.mp3`;
+const sayWord = (L, w, which = 'both') => playSeq(which === 'ar' ? [wAud(L, w)] : which === 'en' ? [{ en: w.en }] : [wAud(L, w), { en: w.en }]);
 const sayLine = (L, d, which = 'both') => playSeq(which === 'ar' ? [aud(L, `d-${d.id}-ar`)] : [aud(L, `d-${d.id}-ar`), { en: d.en }]);
 let ac;
 function blip(freqs, dur = .12, type = 'triangle') {
