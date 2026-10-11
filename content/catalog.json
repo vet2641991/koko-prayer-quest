@@ -100,49 +100,57 @@
           "id": "prayer-l02",
           "n": "2",
           "ar": "الرُّكُوعُ",
-          "en": "Bowing (Rukū‘)"
+          "en": "Bowing (Rukū‘)",
+          "file": "content/prayer/l02.json"
         },
         {
           "id": "prayer-l03",
           "n": "3",
           "ar": "الِاعْتِدَالُ",
-          "en": "Standing up again (I‘tidāl)"
+          "en": "Standing up again (I‘tidāl)",
+          "file": "content/prayer/l03.json"
         },
         {
           "id": "prayer-l04",
           "n": "4",
           "ar": "السُّجُودُ",
-          "en": "Prostration (Sujūd)"
+          "en": "Prostration (Sujūd)",
+          "file": "content/prayer/l04.json"
         },
         {
           "id": "prayer-l05",
           "n": "5",
           "ar": "الْجُلُوسُ بَيْنَ السَّجْدَتَيْنِ",
-          "en": "Sitting between the two prostrations"
+          "en": "Sitting between the two prostrations",
+          "file": "content/prayer/l05.json"
         },
         {
           "id": "prayer-l06",
           "n": "6",
           "ar": "التَّشَهُّدُ",
-          "en": "The Tashahhud"
+          "en": "The Tashahhud",
+          "file": "content/prayer/l06.json"
         },
         {
           "id": "prayer-l07",
           "n": "7",
           "ar": "التَّسْلِيمُ",
-          "en": "Ending with Salām"
+          "en": "Ending with Salām",
+          "file": "content/prayer/l07.json"
         },
         {
           "id": "prayer-l08",
           "n": "8",
           "ar": "الصَّلَاةُ كَامِلَةً",
-          "en": "The full prayer"
+          "en": "The full prayer",
+          "file": "content/prayer/l08.json"
         },
         {
           "id": "prayer-l09",
           "n": "9",
           "ar": "صَلِّ مَعَ كُوكُو",
-          "en": "Challenge: pray with Koko!"
+          "en": "Challenge: pray with Koko!",
+          "file": "content/prayer/l09.json"
         }
       ]
     },

@@ -1,0 +1,146 @@
+{
+  "id": "prayer-l07",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "التَّسْلِيمُ",
+    "en": "Ending with Salām"
+  },
+  "topic": "Steps 10–11: the Ibrahimi prayer (final tashahhud only) and ending the prayer",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "ibrahimiyya",
+      "ar": "الصَّلَاةُ الإِبْرَاهِيمِيَّةُ",
+      "en": "the Ibrahimi prayer (blessings on the Prophet)"
+    },
+    {
+      "id": "i1",
+      "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ،",
+      "en": "O Allah, send prayers upon Muhammad and the family of Muhammad,",
+      "sacred": true
+    },
+    {
+      "id": "i2",
+      "ar": "كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ،",
+      "en": "as You sent prayers upon Ibrahim and the family of Ibrahim;",
+      "sacred": true
+    },
+    {
+      "id": "i3",
+      "ar": "إِنَّكَ حَمِيدٌ مَجِيدٌ،",
+      "en": "indeed You are Praiseworthy and Glorious.",
+      "sacred": true
+    },
+    {
+      "id": "i4",
+      "ar": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ،",
+      "en": "O Allah, bless Muhammad and the family of Muhammad,",
+      "sacred": true
+    },
+    {
+      "id": "i5",
+      "ar": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ،",
+      "en": "as You blessed Ibrahim and the family of Ibrahim;",
+      "sacred": true
+    },
+    {
+      "id": "i6",
+      "ar": "إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+      "en": "indeed You are Praiseworthy and Glorious.",
+      "sacred": true
+    },
+    {
+      "id": "taslim",
+      "ar": "التَّسْلِيمُ",
+      "en": "Ending with salam"
+    },
+    {
+      "id": "taslim-say",
+      "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+      "en": "Peace and the mercy of Allah be upon you",
+      "tr": "As-salāmu ʿalaykum wa raḥmatu-llāh",
+      "sacred": true,
+      "badge": "×2"
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Build the Ibrahimi prayer in order",
+    "ids": [
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "i5",
+      "i6"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "مَتَى نَقُولُ الصَّلَاةَ الإِبْرَاهِيمِيَّةَ؟",
+      "en": "When do we say the Ibrahimi prayer?",
+      "opts": [
+        [
+          "فِي التَّشَهُّدِ الأَخِيرِ فَقَطْ",
+          "In the final tashahhud only",
+          1
+        ],
+        [
+          "فِي الرُّكُوعِ",
+          "In rukū‘",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "كَيْفَ نُسَلِّمُ؟",
+      "en": "How do we end the prayer?",
+      "opts": [
+        [
+          "نَلْتَفِتُ يَمِينًا ثُمَّ يَسَارًا",
+          "Turn the head right, then left",
+          1
+        ],
+        [
+          "نَقِفُ وَنَمْشِي",
+          "Stand up and walk away",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَاذَا نَقُولُ فِي التَّسْلِيمِ؟",
+      "en": "What do we say each time we turn?",
+      "opts": [
+        [
+          "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+          "Peace and the mercy of Allah be upon you",
+          1
+        ],
+        [
+          "اللهُ أَكْبَرُ",
+          "Allah is the Greatest",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "اِلْتَفِتْ يَمِينًا ثُمَّ يَسَارًا: السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ!",
+    "en": "Turn your head to the right, then to the left — you just ended the prayer!"
+  },
+  "parents": {
+    "summary": "The Ibrahimi prayer in the final tashahhud, and ending the prayer with salām to the right and left.",
+    "try": {
+      "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+      "translit": "As-salāmu ʿalaykum wa raḥmatu-llāh",
+      "en": "Peace and the mercy of Allah be upon you"
+    },
+    "tip": "Pray one short prayer next to him and let him lead the ending."
+  }
+}

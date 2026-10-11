@@ -1,0 +1,127 @@
+{
+  "id": "prayer-l02",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "الرُّكُوعُ",
+    "en": "Bowing (Rukū‘)"
+  },
+  "topic": "Step 3: bowing — what we do and what we say",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "ruku",
+      "ar": "الرُّكُوعُ",
+      "en": "Bowing"
+    },
+    {
+      "id": "ruku-say",
+      "ar": "سُبْحَانَ رَبِّيَ العَظِيمِ",
+      "en": "Glory be to my Lord, the Most Great",
+      "tr": "Subḥāna Rabbiya l-ʿAẓīm",
+      "sacred": true,
+      "badge": "×3"
+    },
+    {
+      "id": "rukba",
+      "ar": "الرُّكْبَةُ",
+      "en": "knee"
+    },
+    {
+      "id": "dhahr",
+      "ar": "الظَّهْرُ",
+      "en": "back"
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Put the steps of the prayer in order",
+    "ids": [
+      "takbir",
+      "qiyam",
+      "ruku"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "مَاذَا نَفْعَلُ فِي الرُّكُوعِ؟",
+      "en": "What do we do in rukū‘?",
+      "opts": [
+        [
+          "نَنْحَنِي وَنُمْسِكُ الرُّكْبَتَيْنِ",
+          "Bend forward and hold both knees, back straight",
+          1
+        ],
+        [
+          "نَجْلِسُ عَلَى الأَرْضِ",
+          "Sit on the floor",
+          0
+        ],
+        [
+          "نَرْفَعُ أَيْدِيَنَا",
+          "Raise our hands",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَاذَا نَقُولُ فِي الرُّكُوعِ؟",
+      "en": "What do we say in rukū‘?",
+      "opts": [
+        [
+          "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "Glory be to my Lord, the Most High",
+          0
+        ],
+        [
+          "سُبْحَانَ رَبِّيَ العَظِيمِ",
+          "Glory be to my Lord, the Most Great",
+          1
+        ],
+        [
+          "رَبِّ اغْفِرْ لِي",
+          "My Lord, forgive me",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "كَمْ مَرَّةً نَقُولُهَا؟",
+      "en": "How many times do we say it?",
+      "opts": [
+        [
+          "ثَلَاثَ مَرَّاتٍ",
+          "3 times",
+          1
+        ],
+        [
+          "مَرَّةً وَاحِدَةً",
+          "once",
+          0
+        ],
+        [
+          "عَشْرَ مَرَّاتٍ",
+          "10 times",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "اِرْكَعْ مَعَ كُوكُو، وَظَهْرُكَ مُسْتَقِيمٌ!",
+    "en": "Bow with Koko: hands on your knees, back flat like a table!"
+  },
+  "parents": {
+    "summary": "Rukū‘ (bowing): hands on the knees, back straight, and saying Subḥāna Rabbiya l-ʿAẓīm three times.",
+    "try": {
+      "ar": "سُبْحَانَ رَبِّيَ العَظِيمِ",
+      "translit": "Subḥāna Rabbiya l-ʿAẓīm",
+      "en": "Glory be to my Lord, the Most Great"
+    },
+    "tip": "Ask him to show you rukū‘. Check his back is flat and that he says it three times."
+  }
+}

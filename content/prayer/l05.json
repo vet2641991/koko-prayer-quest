@@ -1,0 +1,121 @@
+{
+  "id": "prayer-l05",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "الجُلُوسُ بَيْنَ السَّجْدَتَيْنِ",
+    "en": "Sitting between the two prostrations"
+  },
+  "topic": "Steps 6–7: the sitting, the second sujūd — and one full rak‘ah!",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "jalsa",
+      "ar": "الجَلْسَةُ بَيْنَ السَّجْدَتَيْنِ",
+      "en": "Sitting between the prostrations"
+    },
+    {
+      "id": "rabbighfir",
+      "ar": "رَبِّ اغْفِرْ لِي",
+      "en": "My Lord, forgive me",
+      "tr": "Rabbi ghfir lī",
+      "sacred": true,
+      "badge": "×2"
+    },
+    {
+      "id": "sujud2",
+      "ar": "السَّجْدَةُ الثَّانِيَةُ",
+      "en": "Second prostration"
+    },
+    {
+      "id": "rakah",
+      "ar": "رَكْعَةٌ",
+      "en": "one rak‘ah (one full cycle of the prayer)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Put one full rak‘ah in order",
+    "ids": [
+      "takbir",
+      "qiyam",
+      "ruku",
+      "itidal",
+      "sujud1",
+      "jalsa",
+      "sujud2"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "كَيْفَ نَجْلِسُ بَيْنَ السَّجْدَتَيْنِ؟",
+      "en": "How do we sit between the two sujūd?",
+      "opts": [
+        [
+          "عَلَى القَدَمِ اليُسْرَى، وَاليُمْنَى قَائِمَةٌ",
+          "On the left foot, right foot upright",
+          1
+        ],
+        [
+          "عَلَى الكُرْسِيِّ",
+          "On a chair",
+          0
+        ],
+        [
+          "نَمُدُّ رِجْلَيْنَا",
+          "Legs stretched out",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَاذَا نَقُولُ فِي الجَلْسَةِ؟",
+      "en": "What do we say in the sitting?",
+      "opts": [
+        [
+          "رَبِّ اغْفِرْ لِي",
+          "My Lord, forgive me",
+          1
+        ],
+        [
+          "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "Glory be to my Lord, the Most High",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "بَعْدَ السَّجْدَةِ الثَّانِيَةِ…",
+      "en": "After the second sujūd…",
+      "opts": [
+        [
+          "تَمَّتْ رَكْعَةٌ كَامِلَةٌ",
+          "one full rak‘ah is complete",
+          1
+        ],
+        [
+          "انْتَهَتِ الصَّلَاةُ",
+          "the prayer is over",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "اُسْجُدْ، ثُمَّ اجْلِسْ، ثُمَّ اُسْجُدْ مَرَّةً ثَانِيَةً!",
+    "en": "Sujūd, sit calmly, then sujūd again — you just did a full rak‘ah!"
+  },
+  "parents": {
+    "summary": "The sitting between the two sujūd (Rabbi ghfir lī, twice) and the second sujūd — completing one full rak‘ah.",
+    "try": {
+      "ar": "رَبِّ اغْفِرْ لِي",
+      "translit": "Rabbi ghfir lī",
+      "en": "My Lord, forgive me"
+    },
+    "tip": "Ask him to do one full rak‘ah for you and name each step in Arabic as he goes."
+  }
+}

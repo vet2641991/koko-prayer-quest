@@ -1,0 +1,163 @@
+{
+  "id": "prayer-l09",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "صَلِّ مَعَ كُوكُو",
+    "en": "Challenge: pray with Koko!"
+  },
+  "topic": "The final challenge: every step, every saying, in the right order",
+  "minutes": 8,
+  "words": [
+    {
+      "id": "ruku-say",
+      "ar": "سُبْحَانَ رَبِّيَ العَظِيمِ",
+      "en": "Glory be to my Lord, the Most Great",
+      "tr": "Subḥāna Rabbiya l-ʿAẓīm",
+      "sacred": true,
+      "badge": "×3",
+      "from": "prayer-l02"
+    },
+    {
+      "id": "sami",
+      "ar": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+      "en": "Allah hears the one who praises Him",
+      "tr": "Samiʿa Llāhu liman ḥamidah",
+      "sacred": true,
+      "from": "prayer-l03"
+    },
+    {
+      "id": "rabbana",
+      "ar": "رَبَّنَا وَلَكَ الحَمْدُ",
+      "en": "Our Lord, all praise is for You",
+      "tr": "Rabbanā wa laka l-ḥamd",
+      "sacred": true,
+      "from": "prayer-l03"
+    },
+    {
+      "id": "sujud-say",
+      "ar": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+      "en": "Glory be to my Lord, the Most High",
+      "tr": "Subḥāna Rabbiya l-Aʿlā",
+      "sacred": true,
+      "badge": "×3",
+      "from": "prayer-l04"
+    },
+    {
+      "id": "rabbighfir",
+      "ar": "رَبِّ اغْفِرْ لِي",
+      "en": "My Lord, forgive me",
+      "tr": "Rabbi ghfir lī",
+      "sacred": true,
+      "badge": "×2",
+      "from": "prayer-l05"
+    },
+    {
+      "id": "taslim-say",
+      "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+      "en": "Peace and the mercy of Allah be upon you",
+      "tr": "As-salāmu ʿalaykum wa raḥmatu-llāh",
+      "sacred": true,
+      "badge": "×2",
+      "from": "prayer-l07"
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "The big challenge: the whole prayer in order",
+    "ids": [
+      "takbir",
+      "qiyam",
+      "ruku",
+      "itidal",
+      "sujud1",
+      "jalsa",
+      "sujud2",
+      "tashahhud",
+      "taslim"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "فِي الرُّكُوعِ نَقُولُ…",
+      "en": "In rukū‘ we say…",
+      "opts": [
+        [
+          "سُبْحَانَ رَبِّيَ العَظِيمِ",
+          "Glory be to my Lord, the Most Great",
+          1
+        ],
+        [
+          "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "Glory be to my Lord, the Most High",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "فِي السُّجُودِ نَقُولُ…",
+      "en": "In sujūd we say…",
+      "opts": [
+        [
+          "سُبْحَانَ رَبِّيَ العَظِيمِ",
+          "Glory be to my Lord, the Most Great",
+          0
+        ],
+        [
+          "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "Glory be to my Lord, the Most High",
+          1
+        ]
+      ]
+    },
+    {
+      "ar": "بَيْنَ السَّجْدَتَيْنِ نَقُولُ…",
+      "en": "Between the two sujūd we say…",
+      "opts": [
+        [
+          "رَبِّ اغْفِرْ لِي",
+          "My Lord, forgive me",
+          1
+        ],
+        [
+          "رَبَّنَا وَلَكَ الحَمْدُ",
+          "Our Lord, all praise is for You",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "بَعْدَ الرُّكُوعِ نَقُولُ…",
+      "en": "Rising from rukū‘ we say…",
+      "opts": [
+        [
+          "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "Allah hears the one who praises Him",
+          1
+        ],
+        [
+          "السَّلَامُ عَلَيْكُمْ",
+          "Peace be upon you",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "صَلِّ صَلَاةَ الفَجْرِ كَامِلَةً، وَكُوكُو يُصَلِّي مَعَكَ!",
+    "en": "Pray a full two-rak‘ah prayer, and let Koko pray with you. Then ask Mum or Dad to check you!"
+  },
+  "parents": {
+    "summary": "Haitham's final prayer challenge: all the sayings and every step in order.",
+    "try": {
+      "ar": "صَلِّ مَعِي",
+      "translit": "ṣalli maʿī",
+      "en": "Pray with me"
+    },
+    "tip": "Pray together and give him a real reward when he completes the challenge — he has earned it!"
+  }
+}

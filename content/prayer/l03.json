@@ -1,0 +1,119 @@
+{
+  "id": "prayer-l03",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "الِاعْتِدَالُ",
+    "en": "Standing up again (I‘tidāl)"
+  },
+  "topic": "Step 4: rising from rukū‘ — what we say on the way up and when standing",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "itidal",
+      "ar": "الِاعْتِدَالُ",
+      "en": "Rising up"
+    },
+    {
+      "id": "sami",
+      "ar": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+      "en": "Allah hears the one who praises Him",
+      "tr": "Samiʿa Llāhu liman ḥamidah",
+      "sacred": true
+    },
+    {
+      "id": "rabbana",
+      "ar": "رَبَّنَا وَلَكَ الحَمْدُ",
+      "en": "Our Lord, all praise is for You",
+      "tr": "Rabbanā wa laka l-ḥamd",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Put the steps of the prayer in order",
+    "ids": [
+      "takbir",
+      "qiyam",
+      "ruku",
+      "itidal"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "مَاذَا نَقُولُ وَنَحْنُ نَرْفَعُ مِنَ الرُّكُوعِ؟",
+      "en": "What do we say while rising from rukū‘?",
+      "opts": [
+        [
+          "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "Allah hears the one who praises Him",
+          1
+        ],
+        [
+          "اللهُ أَكْبَرُ",
+          "Allah is the Greatest",
+          0
+        ],
+        [
+          "السَّلَامُ عَلَيْكُمْ",
+          "Peace be upon you",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "وَمَاذَا نَقُولُ بَعْدَ أَنْ نَقِفَ؟",
+      "en": "And what do we say once we are standing?",
+      "opts": [
+        [
+          "سُبْحَانَ رَبِّيَ العَظِيمِ",
+          "Glory be to my Lord, the Most Great",
+          0
+        ],
+        [
+          "رَبَّنَا وَلَكَ الحَمْدُ",
+          "Our Lord, all praise is for You",
+          1
+        ],
+        [
+          "رَبِّ اغْفِرْ لِي",
+          "My Lord, forgive me",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "كَيْفَ نَقِفُ فِي الِاعْتِدَالِ؟",
+      "en": "How do we stand in i‘tidāl?",
+      "opts": [
+        [
+          "نَقِفُ مُسْتَقِيمِينَ تَمَامًا",
+          "Fully upright, calm and still",
+          1
+        ],
+        [
+          "نَقِفُ بِسُرْعَةٍ وَنَنْزِلُ",
+          "Pop up and go straight down",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "اِرْكَعْ، ثُمَّ قِفْ مُسْتَقِيمًا تَمَامًا!",
+    "en": "Bow, then stand up tall and still, like Koko — count to two before moving on."
+  },
+  "parents": {
+    "summary": "I‘tidāl: rising from bowing saying Samiʿa Llāhu liman ḥamidah, then Rabbanā wa laka l-ḥamd while standing still.",
+    "try": {
+      "ar": "رَبَّنَا وَلَكَ الحَمْدُ",
+      "translit": "Rabbanā wa laka l-ḥamd",
+      "en": "Our Lord, all praise is for You"
+    },
+    "tip": "Say “Samiʿa Llāhu liman ḥamidah” and let him answer “Rabbanā wa laka l-ḥamd”."
+  }
+}

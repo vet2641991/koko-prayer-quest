@@ -1,0 +1,187 @@
+{
+  "id": "prayer-l08",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "الصَّلَاةُ كَامِلَةً",
+    "en": "The full prayer"
+  },
+  "topic": "All the steps together, and how many rak‘ahs each prayer has",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "takbir",
+      "ar": "تَكْبِيرَةُ الإِحْرَامِ",
+      "en": "Opening Allahu Akbar"
+    },
+    {
+      "id": "qiyam",
+      "ar": "القِيَامُ",
+      "en": "Standing"
+    },
+    {
+      "id": "ruku",
+      "ar": "الرُّكُوعُ",
+      "en": "Bowing"
+    },
+    {
+      "id": "itidal",
+      "ar": "الِاعْتِدَالُ",
+      "en": "Rising up"
+    },
+    {
+      "id": "sujud1",
+      "ar": "السُّجُودُ",
+      "en": "Prostration"
+    },
+    {
+      "id": "jalsa",
+      "ar": "الجَلْسَةُ بَيْنَ السَّجْدَتَيْنِ",
+      "en": "Sitting between the prostrations"
+    },
+    {
+      "id": "sujud2",
+      "ar": "السَّجْدَةُ الثَّانِيَةُ",
+      "en": "Second prostration"
+    },
+    {
+      "id": "tashahhud",
+      "ar": "التَّشَهُّدُ",
+      "en": "The tashahhud"
+    },
+    {
+      "id": "taslim",
+      "ar": "التَّسْلِيمُ",
+      "en": "Ending with salam"
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Put the whole prayer in order, from start to end",
+    "ids": [
+      "takbir",
+      "qiyam",
+      "ruku",
+      "itidal",
+      "sujud1",
+      "jalsa",
+      "sujud2",
+      "tashahhud",
+      "taslim"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "كَمْ رَكْعَةً فِي صَلَاةِ الفَجْرِ؟",
+      "en": "How many rak‘ahs in Fajr?",
+      "opts": [
+        [
+          "رَكْعَتَانِ",
+          "2",
+          1
+        ],
+        [
+          "ثَلَاثٌ",
+          "3",
+          0
+        ],
+        [
+          "أَرْبَعٌ",
+          "4",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "كَمْ رَكْعَةً فِي صَلَاةِ المَغْرِبِ؟",
+      "en": "How many rak‘ahs in Maghrib?",
+      "opts": [
+        [
+          "رَكْعَتَانِ",
+          "2",
+          0
+        ],
+        [
+          "ثَلَاثٌ",
+          "3",
+          1
+        ],
+        [
+          "أَرْبَعٌ",
+          "4",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "كَمْ رَكْعَةً فِي الظُّهْرِ وَالعَصْرِ وَالعِشَاءِ؟",
+      "en": "How many rak‘ahs in Dhuhr, Asr and Isha?",
+      "opts": [
+        [
+          "رَكْعَتَانِ",
+          "2",
+          0
+        ],
+        [
+          "أَرْبَعٌ",
+          "4",
+          1
+        ],
+        [
+          "خَمْسٌ",
+          "5",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَاذَا نَفْعَلُ قَبْلَ الصَّلَاةِ؟",
+      "en": "What do we do before the prayer?",
+      "opts": [
+        [
+          "الوُضُوءُ، وَاسْتِقْبَالُ القِبْلَةِ، وَالنِّيَّةُ",
+          "Wudu, face the Qiblah, intention",
+          1
+        ],
+        [
+          "نَأْكُلُ",
+          "Eat",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "أَيْنَ تَكُونُ النِّيَّةُ؟",
+      "en": "Where is the intention (niyyah)?",
+      "opts": [
+        [
+          "فِي القَلْبِ، بِدُونِ كَلَامٍ",
+          "In the heart, nothing said out loud",
+          1
+        ],
+        [
+          "نَقُولُهَا بِصَوْتٍ عَالٍ",
+          "Said out loud",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "صَلِّ رَكْعَتَيْنِ مَعَ كُوكُو!",
+    "en": "Pray two rak‘ahs with Koko, slowly and calmly, saying every part."
+  },
+  "parents": {
+    "summary": "The whole prayer from takbīr to salām, the rak‘ahs of the five prayers (Fajr 2, Dhuhr 4, Asr 4, Maghrib 3, Isha 4), and wudu, qiblah and intention before praying.",
+    "try": {
+      "ar": "كَمْ رَكْعَةً فِي الفَجْرِ؟",
+      "translit": "kam rakʿatan fi l-fajr?",
+      "en": "How many rak‘ahs in Fajr?"
+    },
+    "tip": "Pray Fajr together and let him say each step's name in Arabic afterwards."
+  }
+}

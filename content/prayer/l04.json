@@ -1,0 +1,139 @@
+{
+  "id": "prayer-l04",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "السُّجُودُ",
+    "en": "Prostration (Sujūd)"
+  },
+  "topic": "Step 5: sujūd — the seven body parts on the ground, and what we say",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "sujud1",
+      "ar": "السُّجُودُ",
+      "en": "Prostration"
+    },
+    {
+      "id": "sujud-say",
+      "ar": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+      "en": "Glory be to my Lord, the Most High",
+      "tr": "Subḥāna Rabbiya l-Aʿlā",
+      "sacred": true,
+      "badge": "×3"
+    },
+    {
+      "id": "jabha",
+      "ar": "الجَبْهَةُ وَالأَنْفُ",
+      "en": "forehead and nose"
+    },
+    {
+      "id": "kaff",
+      "ar": "الكَفَّانِ",
+      "en": "the two palms"
+    },
+    {
+      "id": "rukbatan",
+      "ar": "الرُّكْبَتَانِ",
+      "en": "the two knees"
+    },
+    {
+      "id": "asabi",
+      "ar": "أَصَابِعُ القَدَمَيْنِ",
+      "en": "the toes of both feet"
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Put the steps of the prayer in order",
+    "ids": [
+      "takbir",
+      "qiyam",
+      "ruku",
+      "itidal",
+      "sujud1"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "كَمْ عُضْوًا عَلَى الأَرْضِ فِي السُّجُودِ؟",
+      "en": "How many body parts touch the ground in sujūd?",
+      "opts": [
+        [
+          "سَبْعَةٌ",
+          "seven",
+          1
+        ],
+        [
+          "ثَلَاثَةٌ",
+          "three",
+          0
+        ],
+        [
+          "عَشَرَةٌ",
+          "ten",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَاذَا نَقُولُ فِي السُّجُودِ؟",
+      "en": "What do we say in sujūd?",
+      "opts": [
+        [
+          "سُبْحَانَ رَبِّيَ العَظِيمِ",
+          "Glory be to my Lord, the Most Great",
+          0
+        ],
+        [
+          "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "Glory be to my Lord, the Most High",
+          1
+        ],
+        [
+          "رَبَّنَا وَلَكَ الحَمْدُ",
+          "Our Lord, all praise is for You",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "أَيُّ هَذِهِ لَيْسَ عَلَى الأَرْضِ؟",
+      "en": "Which one is NOT on the ground in sujūd?",
+      "opts": [
+        [
+          "الجَبْهَةُ وَالأَنْفُ",
+          "forehead and nose",
+          0
+        ],
+        [
+          "المِرْفَقَانِ",
+          "the elbows",
+          1
+        ],
+        [
+          "الرُّكْبَتَانِ",
+          "the knees",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "اُسْجُدْ مَعَ كُوكُو، وَعُدَّ السَّبْعَةَ عَلَى الأَرْضِ!",
+    "en": "Do sujūd with Koko and check all seven: forehead + nose, 2 palms, 2 knees, toes of both feet!"
+  },
+  "parents": {
+    "summary": "Sujūd: seven body parts on the ground (forehead+nose, palms, knees, toes) and Subḥāna Rabbiya l-Aʿlā three times.",
+    "try": {
+      "ar": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+      "translit": "Subḥāna Rabbiya l-Aʿlā",
+      "en": "Glory be to my Lord, the Most High"
+    },
+    "tip": "Watch his sujūd and count the seven parts with him; elbows stay off the ground."
+  }
+}

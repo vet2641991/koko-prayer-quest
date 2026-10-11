@@ -272,7 +272,7 @@ function words(L, st, head, finish) {
   const show = () => {
     const w = W[k];
     render(`<div class="screen dots act">${head(st.en, `${k + 1} of ${W.length}`)}
-      <div class="bigcard">${w.badge ? `<div class="badge">${esc(w.badge)}</div>` : ''}${AR(w.ar, 'word-ar')}<div class="word-en">${esc(w.en)}</div>
+      <div class="bigcard">${w.badge ? `<div class="badge">${esc(w.badge)}</div>` : ''}${AR(w.ar, 'word-ar')}${w.tr ? `<div style="font-size:18px;font-weight:700;color:var(--muted);font-style:italic">${esc(w.tr)}</div>` : ''}<div class="word-en">${esc(w.en)}</div>
         <div class="say"><button id="pa">${ICON.speak}Arabic</button><button id="pe" class="soft">${ICON.speak}English</button></div></div>
       <div class="koko-say"><img src="${IMG.wave}" alt=""><span>Teacher Haitham, say it out loud so I can copy you!</span></div>
       <div class="row"><button class="btn soft" id="pv" ${k ? '' : 'disabled style="opacity:.5"'}>Back</button><button class="btn" id="nx" style="flex:2">${k + 1 < W.length ? 'I said it — next' : 'Done!'}</button></div></div>`);

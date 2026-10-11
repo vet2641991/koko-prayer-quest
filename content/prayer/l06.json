@@ -1,0 +1,133 @@
+{
+  "id": "prayer-l06",
+  "world": "prayer",
+  "source": "DHM Islamic Level 1 · lesson 14 «How We Pray» (11 steps). Sacred sayings are flagged and their audio waits for Dr. Hassan's review.",
+  "title": {
+    "ar": "التَّشَهُّدُ",
+    "en": "The Tashahhud"
+  },
+  "topic": "Step 8–9: standing for the next rak‘ah, and the tashahhud sitting",
+  "minutes": 10,
+  "words": [
+    {
+      "id": "tashahhud",
+      "ar": "التَّشَهُّدُ",
+      "en": "The tashahhud"
+    },
+    {
+      "id": "t1",
+      "ar": "التَّحِيَّاتُ لِلهِ،",
+      "en": "All greetings belong to Allah,",
+      "sacred": true
+    },
+    {
+      "id": "t2",
+      "ar": "وَالصَّلَوَاتُ وَالطَّيِّبَاتُ،",
+      "en": "and all prayers and good things.",
+      "sacred": true
+    },
+    {
+      "id": "t3",
+      "ar": "السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ،",
+      "en": "Peace be upon you, O Prophet, and the mercy of Allah and His blessings.",
+      "sacred": true
+    },
+    {
+      "id": "t4",
+      "ar": "السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ،",
+      "en": "Peace be upon us and upon the righteous servants of Allah.",
+      "sacred": true
+    },
+    {
+      "id": "t5",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ،",
+      "en": "I bear witness that there is no god but Allah,",
+      "sacred": true
+    },
+    {
+      "id": "t6",
+      "ar": "وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ.",
+      "en": "and I bear witness that Muhammad is His servant and Messenger.",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Build the tashahhud in order",
+    "ids": [
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "t5",
+      "t6"
+    ]
+  },
+  "quiz": [
+    {
+      "ar": "مَتَى نَقُومُ لِلرَّكْعَةِ الثَّانِيَةِ؟",
+      "en": "How do we stand up for the next rak‘ah?",
+      "opts": [
+        [
+          "نَقُولُ: اللهُ أَكْبَرُ",
+          "Saying Allahu Akbar",
+          1
+        ],
+        [
+          "بِدُونِ كَلَامٍ",
+          "Without saying anything",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَاذَا نَرْفَعُ فِي التَّشَهُّدِ؟",
+      "en": "What do we raise in the tashahhud?",
+      "opts": [
+        [
+          "إِصْبَعَ السَّبَّابَةِ",
+          "the index finger",
+          1
+        ],
+        [
+          "اليَدَيْنِ",
+          "both hands",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "بَعْدَ التَّشَهُّدِ الأَوَّلِ فِي الظُّهْرِ…",
+      "en": "After the middle tashahhud (e.g. in Dhuhr)…",
+      "opts": [
+        [
+          "نَقُومُ لِلرَّكْعَةِ الثَّالِثَةِ",
+          "we stand up for the next rak‘ah",
+          1
+        ],
+        [
+          "نُسَلِّمُ",
+          "we end the prayer",
+          0
+        ]
+      ]
+    }
+  ],
+  "move": {
+    "ar": "اجْلِسْ لِلتَّشَهُّدِ، وَارْفَعْ إِصْبَعَكَ!",
+    "en": "Sit for the tashahhud like Koko: left foot down, right foot up, and raise your index finger."
+  },
+  "parents": {
+    "summary": "Standing for the next rak‘ah with Allahu Akbar, and the tashahhud — learned phrase by phrase with an ordering game.",
+    "try": {
+      "ar": "التَّحِيَّاتُ لِلهِ",
+      "translit": "At-taḥiyyātu lillāh",
+      "en": "All greetings belong to Allah"
+    },
+    "tip": "Learn one line of the tashahhud a day together; he can say it to you before bed."
+  }
+}
