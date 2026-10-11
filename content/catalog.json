@@ -49,25 +49,36 @@
           "id": "ar2-u05",
           "n": "5",
           "ar": "أُسْرَةُ مُحَمَّدٍ",
-          "en": "Muhammad's family"
+          "en": "Muhammad's family",
+          "file": "content/ar2/u05.json"
         },
         {
           "id": "ar2-u06",
           "n": "6",
           "ar": "حِذَائِي",
-          "en": "My shoe"
+          "en": "My shoe",
+          "file": "content/ar2/u06.json"
         },
         {
           "id": "ar2-u07",
           "n": "7",
           "ar": "أُسْرَةُ بَتُولَ",
-          "en": "Batool's family"
+          "en": "Batool's family",
+          "file": "content/ar2/u07.json"
         },
         {
           "id": "ar2-u08",
           "n": "8",
           "ar": "الأَيَّامُ",
-          "en": "The days of the week"
+          "en": "The days of the week",
+          "file": "content/ar2/u08.json"
+        },
+        {
+          "id": "ar2-r02",
+          "n": "★",
+          "ar": "مُرَاجَعَةٌ",
+          "en": "Review: units 5–8",
+          "file": "content/ar2/r02.json"
         }
       ]
     },

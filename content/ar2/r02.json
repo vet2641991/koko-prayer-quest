@@ -1,0 +1,48 @@
+{
+  "id": "ar2-r02",
+  "world": "ar2",
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني «هَلْ تَذْكُرُونَ؟ مُرَاجَعَةُ الوَحَدَاتِ ٥–٨» (ص ٨٣–٨٤ من الكتاب، ص ٨٤–٨٥ من PDF). الأسئلة من التمرين ٥، والتمييز من التمرين ٣.",
+  "title": { "ar": "هَلْ تَذْكُرُونَ؟", "en": "Do you remember? (Units 5–8)" },
+  "topic": "Review of units 5–8: family, opposites, days of the week, and everyday questions",
+  "minutes": 8,
+
+  "words": [
+    { "id": "jadd",    "from": "ar2-u05", "ar": "جَدٌّ",     "en": "grandfather" },
+    { "id": "bayt",    "from": "ar2-u05", "ar": "بَيْتٌ",    "en": "house" },
+    { "id": "yusalli", "from": "ar2-u05", "ar": "يُصَلِّي",  "en": "he prays" },
+    { "id": "yadhhab", "from": "ar2-u05", "ar": "يَذْهَبُ",  "en": "he goes" },
+    { "id": "qasir",   "from": "ar2-u06", "ar": "قَصِيرٌ",   "en": "short" },
+    { "id": "tawil",   "from": "ar2-u06", "ar": "طَوِيلٌ",   "en": "tall" },
+    { "id": "baid",    "from": "ar2-u06", "ar": "بَعِيدٌ",   "en": "far" },
+    { "id": "qarib",   "from": "ar2-u06", "ar": "قَرِيبٌ",   "en": "near" },
+    { "id": "yuti",    "from": "ar2-u06", "ar": "يُعْطِي",   "en": "he gives" },
+    { "id": "yazur",   "from": "ar2-u08", "ar": "يَزُورُ",   "en": "he visits" },
+    { "id": "jadda",   "from": "ar2-u07", "ar": "جَدَّةٌ",   "en": "grandmother" },
+    { "id": "jumua",   "from": "ar2-u08", "ar": "الجُمُعَةُ", "en": "Friday" }
+  ],
+
+  "games": ["listen", "match"],
+
+  "quiz": [
+    { "ar": "أَيْنَ عَمُّكَ؟", "en": "Where is your uncle?",
+      "opts": [["عَمِّي ذَهَبَ.", "My uncle has gone.", 1], ["يَوْمَ السَّبْتِ.", "On Saturday.", 0], ["خُذِ الحِذَاءَ.", "Take the shoe.", 0]] },
+    { "ar": "أَيْنَ صَلَّيْتَ اليَوْمَ؟", "en": "Where did you pray today?",
+      "opts": [["أَنَا قَصِيرٌ.", "I am short.", 0], ["صَلَّيْتُ فِي البَيْتِ.", "I prayed at home.", 1], ["مَعَ السَّلَامَةِ.", "Goodbye.", 0]] },
+    { "ar": "أَيْنَ أَنْتَ اليَوْمَ؟", "en": "Where were you today?",
+      "opts": [["الحِذَاءُ قَرِيبٌ.", "The shoe is near.", 0], ["هَذِهِ جَدَّتِي.", "This is my grandmother.", 0], ["آسِفٌ، أَنَا مَرِيضٌ.", "Sorry, I am sick.", 1]] },
+    { "ar": "مَتَى تُعْطِينِي القَلَمَ؟", "en": "When will you give me the pen?",
+      "opts": [["خُذِ القَلَمَ.", "Take the pen.", 1], ["عَمِّي ذَهَبَ.", "My uncle has gone.", 0], ["يَوْمَ الخَمِيسِ.", "On Thursday.", 0]] },
+    { "ar": "مَتَى تَزُورُ عَمَّكَ؟", "en": "When do you visit your uncle?",
+      "opts": [["شَفَاكَ اللهُ.", "May Allah make you well.", 0], ["يَوْمَ السَّبْتِ.", "On Saturday.", 1], ["أَنْتَ طَوِيلٌ.", "You are tall.", 0]] },
+    { "ar": "قُلْ لِصَدِيقَتِكَ: السَّلَامُ عَلَيْكُمْ", "en": "Greet your friend who is a GIRL:",
+      "opts": [["السَّلَامُ عَلَيْكُمْ يَا صَدِيقِي.", "Peace be upon you, my friend (boy).", 0], ["السَّلَامُ عَلَيْكُمْ يَا صَدِيقَتِي.", "Peace be upon you, my friend (girl).", 1]] },
+    { "ar": "رَجُلٌ يَقُولُ: زَوْجَتُهُ فِي السَّيَّارَةِ", "en": "A MAN says his wife is in the car:",
+      "opts": [["زَوْجِي فِي السَّيَّارَةِ.", "My husband is in the car.", 0], ["زَوْجَتِي فِي السَّيَّارَةِ.", "My wife is in the car.", 1]] }
+  ],
+
+  "parents": {
+    "summary": "A review of units 5–8: family, near / far, tall / short, the days of the week, and everyday questions like “Where did you pray today?”.",
+    "try": { "ar": "أَيْنَ صَلَّيْتَ اليَوْمَ؟", "translit": "ayna ṣallayta l-yawm?", "en": "Where did you pray today?" },
+    "tip": "After each prayer today, ask him in Arabic where he prayed. He answers: صَلَّيْتُ فِي البَيْتِ."
+  }
+}

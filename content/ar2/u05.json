@@ -1,0 +1,60 @@
+{
+  "id": "ar2-u05",
+  "world": "ar2",
+  "unit": 5,
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٥ «أُسْرَةُ مُحَمَّدٍ» (ص ٤٣ من الكتاب، ص ٤٤ من PDF). الحوار مطابق لصورة الصفحة.",
+  "title": { "ar": "أُسْرَةُ مُحَمَّدٍ", "en": "Muhammad's family" },
+  "topic": "Family (grandfather, brother, uncles), friends, being sick, and where you prayed",
+  "minutes": 12,
+
+  "words": [
+    { "id": "jadd",    "ar": "جَدٌّ",       "en": "grandfather" },
+    { "id": "akh",     "ar": "أَخٌ",        "en": "brother" },
+    { "id": "amm",     "ar": "عَمٌّ",       "en": "uncle (father's brother)" },
+    { "id": "khal",    "ar": "خَالٌ",       "en": "uncle (mother's brother)" },
+    { "id": "sadiq",   "ar": "صَدِيقٌ",     "en": "friend" },
+    { "id": "yawm",    "ar": "يَوْمٌ",      "en": "day" },
+    { "id": "shafak",  "ar": "شَفَاكَ اللهُ", "en": "May Allah make you well" },
+    { "id": "yusalli", "ar": "يُصَلِّي",    "en": "he prays" },
+    { "id": "yadhhab", "ar": "يَذْهَبُ",    "en": "he goes" },
+    { "id": "bayt",    "ar": "بَيْتٌ",      "en": "house" },
+    { "id": "asif",    "ar": "آسِفٌ",       "en": "sorry" },
+    { "id": "fi",      "ar": "فِي",         "en": "in" }
+  ],
+
+  "dialogue": [
+    { "id": "d1", "who": "fadl",     "ar": "السَّلَامُ عَلَيْكُمْ يَا صَدِيقِي.", "en": "Peace be upon you, my friend." },
+    { "id": "d2", "who": "muhammad", "ar": "وَعَلَيْكُمُ السَّلَامُ. هَذَا جَدِّي، وَهَذَا أَخِي.", "en": "And peace be upon you. This is my grandfather, and this is my brother." },
+    { "id": "d3", "who": "fadl",     "ar": "أَهْلًا وَسَهْلًا. أَيْنَ عَمُّكَ؟", "en": "Welcome! Where is your uncle?" },
+    { "id": "d4", "who": "muhammad", "ar": "عَمِّي ذَهَبَ.", "en": "My uncle has gone." },
+    { "id": "d5", "who": "fadl",     "ar": "أَيْنَ أَنْتَ اليَوْمَ؟", "en": "Where were you today?" },
+    { "id": "d6", "who": "muhammad", "ar": "آسِفٌ، أَنَا مَرِيضٌ.", "en": "Sorry, I am sick." },
+    { "id": "d7", "who": "fadl",     "ar": "شَفَاكَ اللهُ. أَيْنَ صَلَّيْتَ اليَوْمَ؟", "en": "May Allah make you well. Where did you pray today?" },
+    { "id": "d8", "who": "muhammad", "ar": "صَلَّيْتُ فِي البَيْتِ أَنَا وَخَالِي.", "en": "I prayed at home, me and my uncle." }
+  ],
+  "speakers": {
+    "fadl":     { "en": "Fadl",     "ar": "فَضْلٌ",   "playedBy": "koko" },
+    "muhammad": { "en": "Muhammad", "ar": "مُحَمَّدٌ", "playedBy": "haitham" }
+  },
+
+  "talk": [
+    { "ask": "d1", "answer": "d2", "wrong": ["d6", "d4"] },
+    { "ask": "d3", "answer": "d4", "wrong": ["d8", "d2"] },
+    { "ask": "d5", "answer": "d6", "wrong": ["d4", "d8"] },
+    { "ask": "d7", "answer": "d8", "wrong": ["d2", "d6"] }
+  ],
+
+  "games": ["listen", "match"],
+
+  "move": {
+    "ar": "أَشِرْ إِلَى بَيْتِكَ وَقُلْ: هَذَا بَيْتِي!",
+    "en": "Point around your home and tell Koko: This is my house!"
+  },
+
+  "parents": {
+    "summary": "Family words (grandfather, brother, two kinds of uncle), friend, “I'm sorry, I'm sick”, “May Allah make you well”, and “Where did you pray today?”.",
+    "try": { "ar": "شَفَاكَ اللهُ", "translit": "shafāka-llāh", "en": "May Allah make you well" },
+    "tryAudio": "w-shafak-ar",
+    "tip": "Pretend to be sick (“أَنَا مَرِيضٌ”) and let him answer you: شَفَاكَ اللهُ."
+  }
+}
