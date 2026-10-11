@@ -2,58 +2,224 @@
   "id": "ar2-u07",
   "world": "ar2",
   "unit": 7,
-  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٧ «أُسْرَةُ بَتُولَ» (ص ٦٣ من الكتاب، ص ٦٤ من PDF). الحوار مطابق لصورة الصفحة.",
-  "title": { "ar": "أُسْرَةُ بَتُولَ", "en": "Batool's family" },
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٧ «أُسْرَةُ بَتُولَ» (ص ٦٣ من الكتاب، ص ٦٤ من PDF). مع قسم الأصوات من صفحات «انطق». الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "أُسْرَةُ بَتُولَ",
+    "en": "Batool's family"
+  },
   "topic": "Grandmother, husband and wife, children, a (girl) friend, “please” and “goodbye”",
   "minutes": 12,
-
   "words": [
-    { "id": "jadda",   "ar": "جَدَّةٌ",      "en": "grandmother" },
-    { "id": "zawj",    "ar": "زَوْجٌ",       "en": "husband" },
-    { "id": "zawja",   "ar": "زَوْجَةٌ",     "en": "wife" },
-    { "id": "atfal",   "ar": "أَطْفَالٌ",    "en": "children" },
-    { "id": "sadiqa",  "ar": "صَدِيقَةٌ",    "en": "friend (girl)" },
-    { "id": "fadlik",  "ar": "مِنْ فَضْلِكِ", "en": "please (to a girl)" },
-    { "id": "maa",     "ar": "مَعَ",         "en": "with" },
-    { "id": "salama",  "ar": "مَعَ السَّلَامَةِ", "en": "goodbye" },
-    { "id": "sayyara", "ar": "السَّيَّارَةُ", "en": "the car" }
+    {
+      "id": "jadda",
+      "ar": "جَدَّةٌ",
+      "en": "grandmother"
+    },
+    {
+      "id": "zawj",
+      "ar": "زَوْجٌ",
+      "en": "husband"
+    },
+    {
+      "id": "zawja",
+      "ar": "زَوْجَةٌ",
+      "en": "wife"
+    },
+    {
+      "id": "atfal",
+      "ar": "أَطْفَالٌ",
+      "en": "children"
+    },
+    {
+      "id": "sadiqa",
+      "ar": "صَدِيقَةٌ",
+      "en": "friend (girl)"
+    },
+    {
+      "id": "fadlik",
+      "ar": "مِنْ فَضْلِكِ",
+      "en": "please (to a girl)"
+    },
+    {
+      "id": "maa",
+      "ar": "مَعَ",
+      "en": "with"
+    },
+    {
+      "id": "salama",
+      "ar": "مَعَ السَّلَامَةِ",
+      "en": "goodbye"
+    },
+    {
+      "id": "sayyara",
+      "ar": "السَّيَّارَةُ",
+      "en": "the car"
+    }
   ],
-
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ص",
+        "name": "ṣād",
+        "tip": "A heavy s, with a full, deep mouth."
+      },
+      {
+        "ch": "ز",
+        "name": "zāy",
+        "tip": "A buzzing z, like in “zoo”."
+      },
+      {
+        "ch": "س",
+        "name": "sīn",
+        "tip": "A light s, like in “sun”."
+      }
+    ],
+    "pairs": [
+      [
+        "صَارَ",
+        "زَارَ",
+        "سَارَ"
+      ],
+      [
+        "صَيْفٌ",
+        "زَيْفٌ",
+        "سَيْفٌ"
+      ],
+      [
+        "صَادَ",
+        "زَادَ",
+        "سَادَ"
+      ]
+    ]
+  },
   "dialogue": [
-    { "id": "d1",  "who": "latifa",  "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ.", "en": "Peace be upon you, and the mercy of Allah and His blessings." },
-    { "id": "d2",  "who": "batool",  "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ.", "en": "And peace be upon you, and the mercy of Allah and His blessings." },
-    { "id": "d3",  "who": "latifa",  "ar": "مَنْ هَذِهِ مِنْ فَضْلِكِ؟", "en": "Who is this, please?" },
-    { "id": "d4",  "who": "batool",  "ar": "هَذِهِ جَدَّتِي عَلْيَاءُ.", "en": "This is my grandmother Alyaa." },
-    { "id": "d5",  "who": "latifa",  "ar": "أَهْلاً وَسَهْلاً. وَمَنْ هَذِهِ؟", "en": "Welcome! And who is this?" },
-    { "id": "d6",  "who": "batool",  "ar": "هَذِهِ أُخْتِي، وَهَذِهِ صَدِيقَتِي.", "en": "This is my sister, and this is my friend." },
-    { "id": "d7",  "who": "latifa",  "ar": "أَهْلاً وَسَهْلاً. وَهَذِهِ صَفِيَّةُ، زَوْجَةُ أَخِي.", "en": "Welcome! And this is Safiyya, my brother's wife." },
-    { "id": "d8",  "who": "batool",  "ar": "أَهْلاً وَسَهْلاً. أَيْنَ زَوْجُكِ؟", "en": "Welcome! Where is your husband?" },
-    { "id": "d9",  "who": "safiyya", "ar": "زَوْجِي فِي السَّيَّارَةِ مَعَ أَطْفَالِي.", "en": "My husband is in the car with my children." },
-    { "id": "d10", "who": "batool",  "ar": "مَعَ السَّلَامَةِ.", "en": "Goodbye!" }
+    {
+      "id": "d1",
+      "who": "latifa",
+      "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ.",
+      "en": "Peace be upon you, and the mercy of Allah and His blessings."
+    },
+    {
+      "id": "d2",
+      "who": "batool",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ.",
+      "en": "And peace be upon you, and the mercy of Allah and His blessings."
+    },
+    {
+      "id": "d3",
+      "who": "latifa",
+      "ar": "مَنْ هَذِهِ مِنْ فَضْلِكِ؟",
+      "en": "Who is this, please?"
+    },
+    {
+      "id": "d4",
+      "who": "batool",
+      "ar": "هَذِهِ جَدَّتِي عَلْيَاءُ.",
+      "en": "This is my grandmother Alyaa."
+    },
+    {
+      "id": "d5",
+      "who": "latifa",
+      "ar": "أَهْلاً وَسَهْلاً. وَمَنْ هَذِهِ؟",
+      "en": "Welcome! And who is this?"
+    },
+    {
+      "id": "d6",
+      "who": "batool",
+      "ar": "هَذِهِ أُخْتِي، وَهَذِهِ صَدِيقَتِي.",
+      "en": "This is my sister, and this is my friend."
+    },
+    {
+      "id": "d7",
+      "who": "latifa",
+      "ar": "أَهْلاً وَسَهْلاً. وَهَذِهِ صَفِيَّةُ، زَوْجَةُ أَخِي.",
+      "en": "Welcome! And this is Safiyya, my brother's wife."
+    },
+    {
+      "id": "d8",
+      "who": "batool",
+      "ar": "أَهْلاً وَسَهْلاً. أَيْنَ زَوْجُكِ؟",
+      "en": "Welcome! Where is your husband?"
+    },
+    {
+      "id": "d9",
+      "who": "safiyya",
+      "ar": "زَوْجِي فِي السَّيَّارَةِ مَعَ أَطْفَالِي.",
+      "en": "My husband is in the car with my children."
+    },
+    {
+      "id": "d10",
+      "who": "batool",
+      "ar": "مَعَ السَّلَامَةِ.",
+      "en": "Goodbye!"
+    }
   ],
   "speakers": {
-    "latifa":  { "en": "Latifa",  "ar": "لَطِيفَةُ", "playedBy": "koko" },
-    "batool":  { "en": "Batool",  "ar": "بَتُولُ",  "playedBy": "haitham" },
-    "safiyya": { "en": "Safiyya", "ar": "صَفِيَّةُ", "playedBy": "haitham" }
+    "latifa": {
+      "en": "Latifa",
+      "ar": "لَطِيفَةُ",
+      "playedBy": "koko"
+    },
+    "batool": {
+      "en": "Batool",
+      "ar": "بَتُولُ",
+      "playedBy": "haitham"
+    },
+    "safiyya": {
+      "en": "Safiyya",
+      "ar": "صَفِيَّةُ",
+      "playedBy": "haitham"
+    }
   },
-
   "talk": [
-    { "ask": "d1", "answer": "d2", "wrong": ["d10", "d6"] },
-    { "ask": "d3", "answer": "d4", "wrong": ["d9", "d2"] },
-    { "ask": "d5", "answer": "d6", "wrong": ["d4", "d10"] },
-    { "ask": "d7", "answer": "d8", "wrong": ["d6", "d2"] }
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d10",
+        "d6"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d9",
+        "d2"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d4",
+        "d10"
+      ]
+    },
+    {
+      "ask": "d7",
+      "answer": "d8",
+      "wrong": [
+        "d6",
+        "d2"
+      ]
+    }
   ],
-
-  "games": ["listen", "match"],
-
+  "games": [
+    "listen",
+    "match"
+  ],
   "move": {
     "ar": "لَوِّحْ بِيَدِكَ وَقُلْ: مَعَ السَّلَامَةِ!",
     "en": "Wave goodbye to Koko and say: Goodbye!"
   },
-
   "parents": {
     "summary": "The full greeting (as-salāmu ʿalaykum wa raḥmatu-llāhi wa barakātuh), grandmother, husband, wife, children, “please” and “goodbye”.",
-    "try": { "ar": "مَعَ السَّلَامَةِ", "translit": "maʿa s-salāma", "en": "Goodbye" },
+    "try": {
+      "ar": "مَعَ السَّلَامَةِ",
+      "translit": "maʿa s-salāma",
+      "en": "Goodbye"
+    },
     "tryAudio": "d-d10-ar",
     "tip": "When someone leaves the house today, remind him to say مَعَ السَّلَامَةِ."
   }

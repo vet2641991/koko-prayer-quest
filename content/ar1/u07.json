@@ -1,0 +1,212 @@
+{
+  "id": "ar1-u07",
+  "world": "ar1",
+  "unit": 7,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٧ «الأَعْدَادُ ٣» (ص ٦٣، PDF ص ٦٤؛ الأصوات ص ٦٩). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "الأَعْدَادُ «٣»",
+    "en": "Numbers 3"
+  },
+  "topic": "Counting things that are feminine (one to five), bags, and “thank you”",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "wahida",
+      "ar": "وَاحِدَةٌ",
+      "en": "one (feminine)",
+      "badge": "1"
+    },
+    {
+      "id": "ithnatan",
+      "ar": "اِثْنَتَانِ",
+      "en": "two (feminine)",
+      "badge": "2"
+    },
+    {
+      "id": "thalath",
+      "ar": "ثَلَاثٌ",
+      "en": "three",
+      "badge": "3"
+    },
+    {
+      "id": "arba",
+      "ar": "أَرْبَعٌ",
+      "en": "four",
+      "badge": "4"
+    },
+    {
+      "id": "khams",
+      "ar": "خَمْسٌ",
+      "en": "five",
+      "badge": "5"
+    },
+    {
+      "id": "haqiba",
+      "ar": "حَقِيبَةٌ",
+      "en": "bag"
+    },
+    {
+      "id": "haqaib",
+      "ar": "حَقَائِبُ",
+      "en": "bags"
+    },
+    {
+      "id": "yakhudh",
+      "ar": "يَأْخُذُ",
+      "en": "he takes"
+    },
+    {
+      "id": "kam",
+      "ar": "كَمْ؟",
+      "en": "how many?"
+    },
+    {
+      "id": "jazak",
+      "ar": "جَزَاكَ اللهُ خَيْرًا",
+      "en": "May Allah reward you (thank you)"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ع",
+        "name": "ʿayn",
+        "tip": "A squeezed sound from the middle of the throat — no English letter like it!"
+      },
+      {
+        "ch": "أ",
+        "name": "hamza / alif",
+        "tip": "A quick little stop, like the break in “uh-oh”."
+      }
+    ],
+    "pairs": [
+      [
+        "عَرْضٌ",
+        "أَرْضٌ"
+      ],
+      [
+        "سَعَلَ",
+        "سَأَلَ"
+      ],
+      [
+        "عَلَمٌ",
+        "أَلَمٌ"
+      ],
+      [
+        "عَمَلٌ",
+        "أَمَلٌ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "وَاحِدَةٌ.",
+      "en": "One."
+    },
+    {
+      "id": "d2",
+      "who": "isa",
+      "ar": "هَاتِ الحَقِيبَةَ.",
+      "en": "Give me the bag."
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "اِثْنَتَانِ، ثَلَاثٌ.",
+      "en": "Two, three."
+    },
+    {
+      "id": "d4",
+      "who": "isa",
+      "ar": "هَاتِ الحَقِيبَةَ.",
+      "en": "Give me the bag."
+    },
+    {
+      "id": "d5",
+      "who": "muhammad",
+      "ar": "أَرْبَعٌ، خَمْسٌ، خُذِ الحَقِيبَةَ.",
+      "en": "Four, five. Take the bag."
+    },
+    {
+      "id": "d6",
+      "who": "isa",
+      "ar": "جَزَاكَ اللهُ خَيْرًا، كَمْ حَقِيبَةً؟",
+      "en": "May Allah reward you. How many bags?"
+    },
+    {
+      "id": "d7",
+      "who": "muhammad",
+      "ar": "خَمْسُ حَقَائِبَ.",
+      "en": "Five bags."
+    }
+  ],
+  "speakers": {
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "isa": {
+      "en": "Isa",
+      "ar": "عِيسَى",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d6",
+        "d7"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d7",
+        "d6"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d2",
+        "d7"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Count the bags in order: one to five",
+    "ids": [
+      "wahida",
+      "ithnatan",
+      "thalath",
+      "arba",
+      "khams"
+    ]
+  },
+  "move": {
+    "ar": "اجْمَعْ خَمْسَ حَقَائِبَ أَوْ أَلْعَابٍ وَعُدَّهَا: وَاحِدَةٌ، اِثْنَتَانِ…",
+    "en": "Collect five bags or toys and count them: wāḥida, ithnatān, thalāth, arbaʿ, khams!"
+  },
+  "parents": {
+    "summary": "Counting feminine things (wāḥida, ithnatān, thalāth…), “How many bags?”, and the Islamic thank-you: جَزَاكَ اللهُ خَيْرًا. Also the sounds ع and أ.",
+    "try": {
+      "ar": "جَزَاكَ اللهُ خَيْرًا",
+      "translit": "jazāka-llāhu khayran",
+      "en": "May Allah reward you (thank you)"
+    },
+    "tryAudio": "w-jazak-ar",
+    "tip": "When he helps at home, thank him with جَزَاكَ اللهُ خَيْرًا — and teach him to say it back."
+  }
+}

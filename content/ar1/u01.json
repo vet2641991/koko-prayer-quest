@@ -1,0 +1,176 @@
+{
+  "id": "ar1-u01",
+  "world": "ar1",
+  "unit": 1,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ١ «اِسْمِي مُحَمَّدٌ» (ص ١، PDF ص ٢؛ الأصوات ص ٧). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "اِسْمِي مُحَمَّدٌ",
+    "en": "My name is Muhammad"
+  },
+  "topic": "Greeting someone and saying your name",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "salam",
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "en": "Peace be upon you (hello)"
+    },
+    {
+      "id": "radd",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ",
+      "en": "And peace be upon you (the reply)"
+    },
+    {
+      "id": "ismi",
+      "ar": "اِسْمِي",
+      "en": "my name"
+    },
+    {
+      "id": "ismuka",
+      "ar": "اِسْمُكَ",
+      "en": "your name (to a boy)"
+    },
+    {
+      "id": "ma",
+      "ar": "مَا اسْمُكَ؟",
+      "en": "What is your name?"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ح",
+        "name": "ḥā’",
+        "tip": "A breathy h from deep in your throat, like fogging up a mirror."
+      },
+      {
+        "ch": "ه",
+        "name": "hā’",
+        "tip": "A soft h, like the h in “hat”."
+      }
+    ],
+    "pairs": [
+      [
+        "حَبَّ",
+        "هَبَّ"
+      ],
+      [
+        "شَبَحٌ",
+        "شَبَهٌ"
+      ],
+      [
+        "نَاحِيَةٌ",
+        "نَاهِيَةٌ"
+      ],
+      [
+        "حَرِيرٌ",
+        "هَرِيرٌ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d2",
+      "who": "fadl",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ.",
+      "en": "And peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "اِسْمِي مُحَمَّدٌ، مَا اسْمُكَ؟",
+      "en": "My name is Muhammad. What is your name?"
+    },
+    {
+      "id": "d4",
+      "who": "fadl",
+      "ar": "اِسْمِي فَضْلٌ.",
+      "en": "My name is Fadl."
+    },
+    {
+      "id": "d5",
+      "who": "koko",
+      "ar": "مَا اسْمُكَ يَا صَدِيقِي؟",
+      "en": "What is your name, my friend?"
+    },
+    {
+      "id": "d6",
+      "who": "haitham",
+      "ar": "اِسْمِي هَيْثَمُ.",
+      "en": "My name is Haitham."
+    }
+  ],
+  "speakers": {
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "fadl": {
+      "en": "Fadl",
+      "ar": "فَضْلٌ",
+      "playedBy": "haitham"
+    },
+    "koko": {
+      "en": "Koko",
+      "ar": "كُوكُو",
+      "playedBy": "koko"
+    },
+    "haitham": {
+      "en": "Haitham",
+      "ar": "هَيْثَمُ",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d4",
+        "d6"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d2",
+        "d1"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d2",
+        "d4"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "move": {
+    "ar": "صَافِحْ أَحَدًا وَقُلْ: اِسْمِي هَيْثَمُ!",
+    "en": "Shake hands with someone at home and say: My name is Haitham!"
+  },
+  "parents": {
+    "summary": "Greeting with “as-salāmu ʿalaykum” and saying your name: اِسْمِي هَيْثَمُ (My name is Haitham). Also the sounds ح and ه.",
+    "try": {
+      "ar": "مَا اسْمُكَ؟",
+      "translit": "mā smuk?",
+      "en": "What is your name?"
+    },
+    "tryAudio": "w-ma-ar",
+    "tip": "Ask him his name in Arabic. He answers: اِسْمِي هَيْثَمُ."
+  },
+  "note": "Lines d5, d6 are not in the book: a personal practice line for Haitham."
+}

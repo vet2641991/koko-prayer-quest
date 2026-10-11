@@ -1,0 +1,146 @@
+{
+  "id": "ar1-u03",
+  "world": "ar1",
+  "unit": 3,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٣ «كَيْفَ حَالُكَ؟» (ص ٢١، PDF ص ٢٢؛ الأصوات ص ٢٧). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "كَيْفَ حَالُكَ؟",
+    "en": "How are you?"
+  },
+  "topic": "Asking “How are you?” and answering “Fine, praise be to Allah”",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "ana",
+      "ar": "أَنَا",
+      "en": "I"
+    },
+    {
+      "id": "anta",
+      "ar": "أَنْتَ",
+      "en": "you (a boy)"
+    },
+    {
+      "id": "kayfa",
+      "ar": "كَيْفَ حَالُكَ؟",
+      "en": "How are you? (to a boy)"
+    },
+    {
+      "id": "bikhayr",
+      "ar": "بِخَيْرٍ، وَالحَمْدُ لِلهِ",
+      "en": "Fine, praise be to Allah"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ط",
+        "name": "ṭā’",
+        "tip": "A heavy, deep t — your tongue presses and your mouth feels full."
+      },
+      {
+        "ch": "ت",
+        "name": "tā’",
+        "tip": "A light t, like the t in “tap”."
+      }
+    ],
+    "pairs": [
+      [
+        "طَاءٌ",
+        "تَاءٌ"
+      ],
+      [
+        "طَوْرٌ",
+        "تَوْرٌ"
+      ],
+      [
+        "طَرِبَ",
+        "تَرِبَ"
+      ],
+      [
+        "شَطٌّ",
+        "شَتٌّ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d2",
+      "who": "fadl",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ.",
+      "en": "And peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "كَيْفَ حَالُكَ؟",
+      "en": "How are you?"
+    },
+    {
+      "id": "d4",
+      "who": "fadl",
+      "ar": "أَنَا بِخَيْرٍ، وَالحَمْدُ لِلهِ. وَكَيْفَ حَالُكَ أَنْتَ؟",
+      "en": "I am fine, praise be to Allah. And how are you?"
+    },
+    {
+      "id": "d5",
+      "who": "muhammad",
+      "ar": "بِخَيْرٍ، وَالحَمْدُ لِلهِ.",
+      "en": "Fine, praise be to Allah."
+    }
+  ],
+  "speakers": {
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "fadl": {
+      "en": "Fadl",
+      "ar": "فَضْلٌ",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d5",
+        "d3"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d2",
+        "d1"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "move": {
+    "ar": "اِرْفَعْ إِبْهَامَكَ وَقُلْ: بِخَيْرٍ، وَالحَمْدُ لِلهِ!",
+    "en": "Give Koko a thumbs-up and say: Fine, praise be to Allah!"
+  },
+  "parents": {
+    "summary": "“How are you?” and the answer “Fine, praise be to Allah”. Also the sounds ط (heavy t) and ت (light t).",
+    "try": {
+      "ar": "كَيْفَ حَالُكَ؟",
+      "translit": "kayfa ḥāluk?",
+      "en": "How are you?"
+    },
+    "tryAudio": "w-kayfa-ar",
+    "tip": "Greet him every morning with كَيْفَ حَالُكَ؟ — he answers بِخَيْرٍ، وَالحَمْدُ لِلهِ."
+  }
+}

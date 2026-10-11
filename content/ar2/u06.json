@@ -2,58 +2,219 @@
   "id": "ar2-u06",
   "world": "ar2",
   "unit": 6,
-  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٦ «حِذَائِي» (ص ٥٣ من الكتاب، ص ٥٤ من PDF). الحوار مطابق لصورة الصفحة.",
-  "title": { "ar": "حِذَائِي", "en": "My shoe" },
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٦ «حِذَائِي» (ص ٥٣ من الكتاب، ص ٥٤ من PDF). مع قسم الأصوات من صفحات «انطق». الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "حِذَائِي",
+    "en": "My shoe"
+  },
   "topic": "Near and far, tall and short, and asking for something: “Give me…”",
   "minutes": 12,
-
   "words": [
-    { "id": "hidha",  "ar": "حِذَاءٌ",   "en": "shoe" },
-    { "id": "sahih",  "ar": "صَحِيحٌ",   "en": "right / correct" },
-    { "id": "mata",   "ar": "مَتَى؟",    "en": "when?" },
-    { "id": "yuti",   "ar": "يُعْطِي",   "en": "he gives" },
-    { "id": "baid",   "ar": "بَعِيدٌ",   "en": "far" },
-    { "id": "qarib",  "ar": "قَرِيبٌ",   "en": "near" },
-    { "id": "qasir",  "ar": "قَصِيرٌ",   "en": "short" },
-    { "id": "tawil",  "ar": "طَوِيلٌ",   "en": "tall" },
-    { "id": "atini",  "ar": "أَعْطِنِي", "en": "give me" },
-    { "id": "khudh",  "ar": "خُذْ",      "en": "take!" },
-    { "id": "hasan",  "ar": "حَسَنًا",   "en": "OK / fine" }
+    {
+      "id": "hidha",
+      "ar": "حِذَاءٌ",
+      "en": "shoe"
+    },
+    {
+      "id": "sahih",
+      "ar": "صَحِيحٌ",
+      "en": "right / correct"
+    },
+    {
+      "id": "mata",
+      "ar": "مَتَى؟",
+      "en": "when?"
+    },
+    {
+      "id": "yuti",
+      "ar": "يُعْطِي",
+      "en": "he gives"
+    },
+    {
+      "id": "baid",
+      "ar": "بَعِيدٌ",
+      "en": "far"
+    },
+    {
+      "id": "qarib",
+      "ar": "قَرِيبٌ",
+      "en": "near"
+    },
+    {
+      "id": "qasir",
+      "ar": "قَصِيرٌ",
+      "en": "short"
+    },
+    {
+      "id": "tawil",
+      "ar": "طَوِيلٌ",
+      "en": "tall"
+    },
+    {
+      "id": "atini",
+      "ar": "أَعْطِنِي",
+      "en": "give me"
+    },
+    {
+      "id": "khudh",
+      "ar": "خُذْ",
+      "en": "take!"
+    },
+    {
+      "id": "hasan",
+      "ar": "حَسَنًا",
+      "en": "OK / fine"
+    }
   ],
-
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ث",
+        "name": "thā’",
+        "tip": "“th” like in “thanks” — tongue between your teeth."
+      },
+      {
+        "ch": "س",
+        "name": "sīn",
+        "tip": "A light s, like in “sun”."
+      }
+    ],
+    "pairs": [
+      [
+        "ثَارَ",
+        "سَارَ"
+      ],
+      [
+        "ثَلَاثَةٌ",
+        "سَلَاسَةٌ"
+      ],
+      [
+        "ثَوْرَةٌ",
+        "سَوْرَةٌ"
+      ],
+      [
+        "عَابِثٌ",
+        "عَابِسٌ"
+      ]
+    ]
+  },
   "dialogue": [
-    { "id": "d1", "who": "muhammad", "ar": "الحِذَاءُ بَعِيدٌ.", "en": "The shoe is far away." },
-    { "id": "d2", "who": "salih",    "ar": "صَحِيحٌ، بَعِيدٌ.", "en": "That's right, it's far." },
-    { "id": "d3", "who": "muhammad", "ar": "أَعْطِنِي الحِذَاءَ.", "en": "Give me the shoe." },
-    { "id": "d4", "who": "salih",    "ar": "لَنْ أُعْطِيَكَ الحِذَاءَ.", "en": "I won't give you the shoe." },
-    { "id": "d5", "who": "muhammad", "ar": "مَتَى تُعْطِينِي الحِذَاءَ؟", "en": "When will you give me the shoe?" },
-    { "id": "d6", "who": "salih",    "ar": "خُذِ الحِذَاءَ.", "en": "Take the shoe." },
-    { "id": "d7", "who": "muhammad", "ar": "أَنَا قَصِيرٌ، وَأَنْتَ طَوِيلٌ.", "en": "I am short, and you are tall." },
-    { "id": "d8", "who": "salih",    "ar": "حَسَنًا، خُذِ الحِذَاءَ.", "en": "OK, take the shoe." },
-    { "id": "d9", "who": "muhammad", "ar": "الحِذَاءُ قَرِيبٌ.", "en": "The shoe is near." }
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "الحِذَاءُ بَعِيدٌ.",
+      "en": "The shoe is far away."
+    },
+    {
+      "id": "d2",
+      "who": "salih",
+      "ar": "صَحِيحٌ، بَعِيدٌ.",
+      "en": "That's right, it's far."
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "أَعْطِنِي الحِذَاءَ.",
+      "en": "Give me the shoe."
+    },
+    {
+      "id": "d4",
+      "who": "salih",
+      "ar": "لَنْ أُعْطِيَكَ الحِذَاءَ.",
+      "en": "I won't give you the shoe."
+    },
+    {
+      "id": "d5",
+      "who": "muhammad",
+      "ar": "مَتَى تُعْطِينِي الحِذَاءَ؟",
+      "en": "When will you give me the shoe?"
+    },
+    {
+      "id": "d6",
+      "who": "salih",
+      "ar": "خُذِ الحِذَاءَ.",
+      "en": "Take the shoe."
+    },
+    {
+      "id": "d7",
+      "who": "muhammad",
+      "ar": "أَنَا قَصِيرٌ، وَأَنْتَ طَوِيلٌ.",
+      "en": "I am short, and you are tall."
+    },
+    {
+      "id": "d8",
+      "who": "salih",
+      "ar": "حَسَنًا، خُذِ الحِذَاءَ.",
+      "en": "OK, take the shoe."
+    },
+    {
+      "id": "d9",
+      "who": "muhammad",
+      "ar": "الحِذَاءُ قَرِيبٌ.",
+      "en": "The shoe is near."
+    }
   ],
   "speakers": {
-    "muhammad": { "en": "Muhammad", "ar": "مُحَمَّدٌ", "playedBy": "koko" },
-    "salih":    { "en": "Salih",    "ar": "صَالِحٌ",  "playedBy": "haitham" }
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "salih": {
+      "en": "Salih",
+      "ar": "صَالِحٌ",
+      "playedBy": "haitham"
+    }
   },
-
   "talk": [
-    { "ask": "d1", "answer": "d2", "wrong": ["d9", "d4"] },
-    { "ask": "d3", "answer": "d4", "wrong": ["d7", "d2"] },
-    { "ask": "d5", "answer": "d6", "wrong": ["d1", "d9"] },
-    { "ask": "d7", "answer": "d8", "wrong": ["d4", "d3"] }
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d9",
+        "d4"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d7",
+        "d2"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d1",
+        "d9"
+      ]
+    },
+    {
+      "ask": "d7",
+      "answer": "d8",
+      "wrong": [
+        "d4",
+        "d3"
+      ]
+    }
   ],
-
-  "games": ["listen", "match"],
-
+  "games": [
+    "listen",
+    "match"
+  ],
   "move": {
     "ar": "قِفْ عَلَى أَصَابِعِكَ: أَنَا طَوِيلٌ! ثُمَّ اجْلِسْ: أَنَا قَصِيرٌ!",
     "en": "Stand on tiptoes and say: I am tall! Now crouch down: I am short!"
   },
-
   "parents": {
     "summary": "Opposites (near / far, tall / short) and asking for things: “Give me the shoe” — “Take the shoe”.",
-    "try": { "ar": "أَعْطِنِي الحِذَاءَ", "translit": "aʿṭinī al-ḥidhāʾ", "en": "Give me the shoe" },
+    "try": {
+      "ar": "أَعْطِنِي الحِذَاءَ",
+      "translit": "aʿṭinī al-ḥidhāʾ",
+      "en": "Give me the shoe"
+    },
     "tryAudio": "d-d3-ar",
     "tip": "Hold one of his shoes high. He gets it back only when he asks in Arabic: أَعْطِنِي الحِذَاءَ."
   }

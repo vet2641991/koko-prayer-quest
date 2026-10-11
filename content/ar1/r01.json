@@ -1,0 +1,171 @@
+{
+  "id": "ar1-r01",
+  "world": "ar1",
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، «هَلْ تَذْكُرُونَ؟ مُرَاجَعَةُ الوَحَدَاتِ ١–٤» (ص ٤١–٤٢، PDF ص ٤٢–٤٣). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "هَلْ تَذْكُرُونَ؟",
+    "en": "Do you remember? (Units 1–4)"
+  },
+  "topic": "Review of units 1–4: names, how are you, boy/girl forms",
+  "minutes": 8,
+  "words": [
+    {
+      "id": "ma",
+      "from": "ar1-u01",
+      "ar": "مَا اسْمُكَ؟",
+      "en": "What is your name?"
+    },
+    {
+      "id": "maki",
+      "from": "ar1-u02",
+      "ar": "مَا اسْمُكِ؟",
+      "en": "What is your name? (to a girl)"
+    },
+    {
+      "id": "salama",
+      "from": "ar1-u02",
+      "ar": "مَعَ السَّلَامَةِ",
+      "en": "goodbye"
+    },
+    {
+      "id": "kayfa",
+      "from": "ar1-u03",
+      "ar": "كَيْفَ حَالُكَ؟",
+      "en": "How are you?"
+    },
+    {
+      "id": "bikhayr",
+      "from": "ar1-u03",
+      "ar": "بِخَيْرٍ، وَالحَمْدُ لِلهِ",
+      "en": "Fine, praise be to Allah"
+    },
+    {
+      "id": "ana",
+      "from": "ar1-u03",
+      "ar": "أَنَا",
+      "en": "I"
+    },
+    {
+      "id": "anta",
+      "from": "ar1-u03",
+      "ar": "أَنْتَ",
+      "en": "you (a boy)"
+    },
+    {
+      "id": "anti",
+      "from": "ar1-u04",
+      "ar": "أَنْتِ",
+      "en": "you (a girl)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Someone says: Peace be upon you. You answer:",
+      "opts": [
+        [
+          "وَعَلَيْكُمُ السَّلَامُ.",
+          "And peace be upon you.",
+          1
+        ],
+        [
+          "اِسْمِي هَيْثَمُ.",
+          "My name is Haitham.",
+          0
+        ],
+        [
+          "مَعَ السَّلَامَةِ.",
+          "Goodbye.",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "مَا اسْمُكَ؟",
+      "en": "What is your name?",
+      "opts": [
+        [
+          "أَنَا بِخَيْرٍ.",
+          "I am fine.",
+          0
+        ],
+        [
+          "اِسْمِي هَيْثَمُ.",
+          "My name is Haitham.",
+          1
+        ],
+        [
+          "وَأَنْتَ؟",
+          "And you?",
+          0
+        ]
+      ]
+    },
+    {
+      "ar": "كَيْفَ حَالُكَ؟",
+      "en": "How are you?",
+      "opts": [
+        [
+          "اِسْمِي فَضْلٌ.",
+          "My name is Fadl.",
+          0
+        ],
+        [
+          "مَعَ السَّلَامَةِ.",
+          "Goodbye.",
+          0
+        ],
+        [
+          "بِخَيْرٍ، وَالحَمْدُ لِلهِ.",
+          "Fine, praise be to Allah.",
+          1
+        ]
+      ]
+    },
+    {
+      "ar": "تَسْأَلُ بِنْتًا عَنِ اسْمِهَا",
+      "en": "You ask a GIRL her name:",
+      "opts": [
+        [
+          "مَا اسْمُكَ؟",
+          "What is your name? (to a boy)",
+          0
+        ],
+        [
+          "مَا اسْمُكِ؟",
+          "What is your name? (to a girl)",
+          1
+        ]
+      ]
+    },
+    {
+      "ar": "تَسْأَلُ بِنْتًا: كَيْفَ حَالُهَا؟",
+      "en": "You ask a GIRL how she is:",
+      "opts": [
+        [
+          "كَيْفَ حَالُكِ؟",
+          "How are you? (to a girl)",
+          1
+        ],
+        [
+          "كَيْفَ حَالُكَ؟",
+          "How are you? (to a boy)",
+          0
+        ]
+      ]
+    }
+  ],
+  "parents": {
+    "summary": "A review of units 1–4: greetings, names, “How are you?”, and the boy/girl forms (-ka / -ki).",
+    "try": {
+      "ar": "كَيْفَ حَالُكَ؟",
+      "translit": "kayfa ḥāluk?",
+      "en": "How are you?"
+    },
+    "tip": "Have a mini Arabic conversation at dinner: greeting, name, how are you, goodbye."
+  }
+}

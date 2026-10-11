@@ -1,0 +1,160 @@
+{
+  "id": "ar1-u02",
+  "world": "ar1",
+  "unit": 2,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٢ «اِسْمِي خَدِيجَةُ» (ص ١١، PDF ص ١٢؛ الأصوات ص ١٧). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "اِسْمِي خَدِيجَةُ",
+    "en": "My name is Khadija"
+  },
+  "topic": "Names, asking a girl her name, and saying goodbye",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "ismuki",
+      "ar": "اِسْمُكِ",
+      "en": "your name (to a girl)"
+    },
+    {
+      "id": "ismi",
+      "ar": "اِسْمِي",
+      "en": "my name"
+    },
+    {
+      "id": "salama",
+      "ar": "مَعَ السَّلَامَةِ",
+      "en": "goodbye"
+    },
+    {
+      "id": "maki",
+      "ar": "مَا اسْمُكِ؟",
+      "en": "What is your name? (to a girl)"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "خ",
+        "name": "khā’",
+        "tip": "A rough “kh”, like clearing your throat (like “loch” in Scotland)."
+      },
+      {
+        "ch": "ك",
+        "name": "kāf",
+        "tip": "A clean k, like the k in “kite”."
+      }
+    ],
+    "pairs": [
+      [
+        "فِخَاخٌ",
+        "فِكَاكٌ"
+      ],
+      [
+        "خَيْلٌ",
+        "كَيْلٌ"
+      ],
+      [
+        "مَخْرَمٌ",
+        "مَكْرَمٌ"
+      ],
+      [
+        "شَخَرَ",
+        "شَكَرَ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "khawla",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d2",
+      "who": "khadija",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ.",
+      "en": "And peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "khawla",
+      "ar": "اِسْمِي خَوْلَةُ، مَا اسْمُكِ؟",
+      "en": "My name is Khawla. What is your name?"
+    },
+    {
+      "id": "d4",
+      "who": "khadija",
+      "ar": "اِسْمِي خَدِيجَةُ.",
+      "en": "My name is Khadija."
+    },
+    {
+      "id": "d5",
+      "who": "khawla",
+      "ar": "مَعَ السَّلَامَةِ.",
+      "en": "Goodbye!"
+    },
+    {
+      "id": "d6",
+      "who": "khadija",
+      "ar": "مَعَ السَّلَامَةِ.",
+      "en": "Goodbye!"
+    }
+  ],
+  "speakers": {
+    "khawla": {
+      "en": "Khawla",
+      "ar": "خَوْلَةُ",
+      "playedBy": "koko"
+    },
+    "khadija": {
+      "en": "Khadija",
+      "ar": "خَدِيجَةُ",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d4",
+        "d6"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d2",
+        "d6"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d4",
+        "d2"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "move": {
+    "ar": "اِسْأَلْ أُمَّكَ: مَا اسْمُكِ؟",
+    "en": "Ask your mum in Arabic: What is your name? (to a woman we say ismuki)"
+  },
+  "parents": {
+    "summary": "Asking a girl or woman her name (مَا اسْمُكِ؟ — with “-ki”), and saying goodbye. Also the sounds خ and ك.",
+    "try": {
+      "ar": "مَعَ السَّلَامَةِ",
+      "translit": "maʿa s-salāma",
+      "en": "Goodbye"
+    },
+    "tryAudio": "w-salama-ar",
+    "tip": "Mum: let him ask you مَا اسْمُكِ؟ and answer with your name: اِسْمِي …"
+  }
+}

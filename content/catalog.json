@@ -152,7 +152,78 @@
       "ar": "العَرَبِيَّةُ بَيْنَ يَدَيْ أَوْلَادِنَا ١",
       "tint": "#E3EAFB",
       "ink": "#1E6BFF",
-      "units": []
+      "units": [
+        {
+          "id": "ar1-u01",
+          "n": "1",
+          "ar": "اِسْمِي مُحَمَّدٌ",
+          "en": "My name is Muhammad",
+          "file": "content/ar1/u01.json"
+        },
+        {
+          "id": "ar1-u02",
+          "n": "2",
+          "ar": "اِسْمِي خَدِيجَةُ",
+          "en": "My name is Khadija",
+          "file": "content/ar1/u02.json"
+        },
+        {
+          "id": "ar1-u03",
+          "n": "3",
+          "ar": "كَيْفَ حَالُكَ؟",
+          "en": "How are you?",
+          "file": "content/ar1/u03.json"
+        },
+        {
+          "id": "ar1-u04",
+          "n": "4",
+          "ar": "كَيْفَ حَالُكِ؟",
+          "en": "How are you? (to a girl)",
+          "file": "content/ar1/u04.json"
+        },
+        {
+          "id": "ar1-r01",
+          "n": "★",
+          "ar": "مُرَاجَعَةٌ",
+          "en": "Review: units 1–4",
+          "file": "content/ar1/r01.json"
+        },
+        {
+          "id": "ar1-u05",
+          "n": "5",
+          "ar": "الأَعْدَادُ «١»",
+          "en": "Numbers 1",
+          "file": "content/ar1/u05.json"
+        },
+        {
+          "id": "ar1-u06",
+          "n": "6",
+          "ar": "الأَعْدَادُ «٢»",
+          "en": "Numbers 2",
+          "file": "content/ar1/u06.json"
+        },
+        {
+          "id": "ar1-u07",
+          "n": "7",
+          "ar": "الأَعْدَادُ «٣»",
+          "en": "Numbers 3",
+          "file": "content/ar1/u07.json"
+        },
+        {
+          "id": "ar1-u08",
+          "n": "8",
+          "ar": "الأَعْدَادُ «٤»",
+          "en": "Numbers 4",
+          "file": "content/ar1/u08.json"
+        },
+        {
+          "id": "ar1-r02",
+          "n": "★",
+          "ar": "مُرَاجَعَةٌ",
+          "en": "Review: units 5–8",
+          "file": "content/ar1/r02.json"
+        }
+      ]
     },
     {
       "id": "isl1",

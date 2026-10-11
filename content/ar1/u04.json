@@ -1,0 +1,146 @@
+{
+  "id": "ar1-u04",
+  "world": "ar1",
+  "unit": 4,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٤ «كَيْفَ حَالُكِ؟» (ص ٣١، PDF ص ٣٢؛ الأصوات ص ٣٧). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "كَيْفَ حَالُكِ؟",
+    "en": "How are you? (to a girl)"
+  },
+  "topic": "Asking a girl or woman how she is",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "anti",
+      "ar": "أَنْتِ",
+      "en": "you (a girl)"
+    },
+    {
+      "id": "ya",
+      "ar": "يَا",
+      "en": "O … (calling someone by name)"
+    },
+    {
+      "id": "kayfaki",
+      "ar": "كَيْفَ حَالُكِ؟",
+      "en": "How are you? (to a girl)"
+    },
+    {
+      "id": "bikhayr",
+      "ar": "بِخَيْرٍ، وَالحَمْدُ لِلهِ",
+      "en": "Fine, praise be to Allah"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ظ",
+        "name": "ẓā’",
+        "tip": "A heavy “th” (as in “this”), said deep with a full mouth."
+      },
+      {
+        "ch": "ذ",
+        "name": "dhāl",
+        "tip": "A light “th”, like the th in “this”."
+      }
+    ],
+    "pairs": [
+      [
+        "مَحْظُوظٌ",
+        "مَحْذُوذٌ"
+      ],
+      [
+        "ظَرِيرٌ",
+        "ذَرِيرٌ"
+      ],
+      [
+        "بَظَّ",
+        "بَذَّ"
+      ],
+      [
+        "أَفْظَاظٌ",
+        "أَفْذَاذٌ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "khawla",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d2",
+      "who": "khadija",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ.",
+      "en": "And peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "khawla",
+      "ar": "كَيْفَ حَالُكِ يَا خَدِيجَةُ؟",
+      "en": "How are you, Khadija?"
+    },
+    {
+      "id": "d4",
+      "who": "khadija",
+      "ar": "أَنَا بِخَيْرٍ، وَالحَمْدُ لِلهِ. وَكَيْفَ حَالُكِ أَنْتِ؟",
+      "en": "I am fine, praise be to Allah. And how are you?"
+    },
+    {
+      "id": "d5",
+      "who": "khawla",
+      "ar": "بِخَيْرٍ، وَالحَمْدُ لِلهِ.",
+      "en": "Fine, praise be to Allah."
+    }
+  ],
+  "speakers": {
+    "khawla": {
+      "en": "Khawla",
+      "ar": "خَوْلَةُ",
+      "playedBy": "koko"
+    },
+    "khadija": {
+      "en": "Khadija",
+      "ar": "خَدِيجَةُ",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d5",
+        "d3"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d2",
+        "d1"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "move": {
+    "ar": "اِسْأَلْ أُمَّكَ: كَيْفَ حَالُكِ؟",
+    "en": "Ask your mum: How are you? (to a woman we say ḥāluki)"
+  },
+  "parents": {
+    "summary": "Asking a girl or woman how she is (كَيْفَ حَالُكِ؟ — with “-ki”). Also the sounds ظ and ذ.",
+    "try": {
+      "ar": "كَيْفَ حَالُكِ؟",
+      "translit": "kayfa ḥāluki?",
+      "en": "How are you? (to a woman)"
+    },
+    "tryAudio": "w-kayfaki-ar",
+    "tip": "Mum: when he asks you كَيْفَ حَالُكِ؟, answer بِخَيْرٍ، وَالحَمْدُ لِلهِ — and ask him back."
+  }
+}

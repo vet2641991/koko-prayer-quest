@@ -1,0 +1,248 @@
+{
+  "id": "ar1-u06",
+  "world": "ar1",
+  "unit": 6,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٦ «الأَعْدَادُ ٢» (ص ٥٣، PDF ص ٥٤؛ الأصوات ص ٥٩). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "الأَعْدَادُ «٢»",
+    "en": "Numbers 2"
+  },
+  "topic": "Counting from six to ten, “Where are you from?”, yes and no",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "sitta",
+      "ar": "سِتَّةٌ",
+      "en": "six",
+      "badge": "6"
+    },
+    {
+      "id": "sabaa",
+      "ar": "سَبْعَةٌ",
+      "en": "seven",
+      "badge": "7"
+    },
+    {
+      "id": "thamaniya",
+      "ar": "ثَمَانِيَةٌ",
+      "en": "eight",
+      "badge": "8"
+    },
+    {
+      "id": "tisaa",
+      "ar": "تِسْعَةٌ",
+      "en": "nine",
+      "badge": "9"
+    },
+    {
+      "id": "ashara",
+      "ar": "عَشَرَةٌ",
+      "en": "ten",
+      "badge": "10"
+    },
+    {
+      "id": "minayna",
+      "ar": "مِنْ أَيْنَ؟",
+      "en": "where … from?"
+    },
+    {
+      "id": "turki",
+      "ar": "تُرْكِيٌّ",
+      "en": "Turkish"
+    },
+    {
+      "id": "waraqa",
+      "ar": "وَرَقَةٌ",
+      "en": "paper"
+    },
+    {
+      "id": "lugha",
+      "ar": "اللُّغَةُ العَرَبِيَّةُ",
+      "en": "the Arabic language"
+    },
+    {
+      "id": "hal",
+      "ar": "هَلْ",
+      "en": "(a yes/no question word)"
+    },
+    {
+      "id": "naam",
+      "ar": "نَعَمْ",
+      "en": "yes"
+    },
+    {
+      "id": "la",
+      "ar": "لَا",
+      "en": "no"
+    },
+    {
+      "id": "yatakallam",
+      "ar": "يَتَكَلَّمُ",
+      "en": "he speaks"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ض",
+        "name": "ḍād",
+        "tip": "A heavy, deep d — the special letter of Arabic!"
+      },
+      {
+        "ch": "د",
+        "name": "dāl",
+        "tip": "A light d, like the d in “dog”."
+      }
+    ],
+    "pairs": [
+      [
+        "رِيَاضَةٌ",
+        "رِيَادَةٌ"
+      ],
+      [
+        "ضَلَّ",
+        "دَلَّ"
+      ],
+      [
+        "مَضِيضٌ",
+        "مَدِيدٌ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "سِتَّةٌ، سَبْعَةٌ، ثَمَانِيَةٌ.",
+      "en": "Six, seven, eight."
+    },
+    {
+      "id": "d2",
+      "who": "salih",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "تِسْعَةٌ، عَشَرَةٌ.",
+      "en": "Nine, ten."
+    },
+    {
+      "id": "d4",
+      "who": "salih",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d5",
+      "who": "muhammad",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ. مِنْ أَيْنَ أَنْتَ؟",
+      "en": "And peace be upon you. Where are you from?"
+    },
+    {
+      "id": "d6",
+      "who": "salih",
+      "ar": "أَنَا مِنْ تُرْكِيَا، أَنَا تُرْكِيٌّ.",
+      "en": "I am from Turkey. I am Turkish."
+    },
+    {
+      "id": "d7",
+      "who": "muhammad",
+      "ar": "هَلْ تَتَكَلَّمُ اللُّغَةَ العَرَبِيَّةَ يَا صَالِحُ؟",
+      "en": "Do you speak Arabic, Salih?"
+    },
+    {
+      "id": "d8",
+      "who": "salih",
+      "ar": "نَعَمْ.",
+      "en": "Yes."
+    },
+    {
+      "id": "d9",
+      "who": "muhammad",
+      "ar": "هَاتِ قَلَمًا وَوَرَقَةً.",
+      "en": "Give me a pen and a piece of paper."
+    },
+    {
+      "id": "d10",
+      "who": "salih",
+      "ar": "لَا.",
+      "en": "No."
+    }
+  ],
+  "speakers": {
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "salih": {
+      "en": "Salih",
+      "ar": "صَالِحٌ",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d8",
+        "d10"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d8",
+        "d2"
+      ]
+    },
+    {
+      "ask": "d7",
+      "answer": "d8",
+      "wrong": [
+        "d6",
+        "d10"
+      ]
+    },
+    {
+      "ask": "d9",
+      "answer": "d10",
+      "wrong": [
+        "d6",
+        "d2"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Count in order: six to ten",
+    "ids": [
+      "sitta",
+      "sabaa",
+      "thamaniya",
+      "tisaa",
+      "ashara"
+    ]
+  },
+  "move": {
+    "ar": "اقْفِزْ عَشْرَ مَرَّاتٍ وَعُدَّ بِالعَرَبِيَّةِ!",
+    "en": "Jump ten times and count in Arabic, one to ten!"
+  },
+  "parents": {
+    "summary": "Numbers six to ten, “Where are you from?”, “Do you speak Arabic?”, yes (نَعَمْ) and no (لَا). Also the sounds ض and د.",
+    "try": {
+      "ar": "هَلْ تَتَكَلَّمُ اللُّغَةَ العَرَبِيَّةَ؟",
+      "translit": "hal tatakallamu l-lughata l-ʿarabiyya?",
+      "en": "Do you speak Arabic?"
+    },
+    "tip": "Ask him هَلْ تَتَكَلَّمُ اللُّغَةَ العَرَبِيَّةَ؟ — he proudly answers نَعَمْ!"
+  }
+}

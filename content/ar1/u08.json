@@ -1,0 +1,213 @@
+{
+  "id": "ar1-u08",
+  "world": "ar1",
+  "unit": 8,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٨ «الأَعْدَادُ ٤» (ص ٧٣، PDF ص ٧٤؛ الأصوات ص ٧٩). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "الأَعْدَادُ «٤»",
+    "en": "Numbers 4"
+  },
+  "topic": "Counting six to ten (feminine), a little and a lot, here, and “Where is…?”",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "sitt",
+      "ar": "سِتٌّ",
+      "en": "six",
+      "badge": "6"
+    },
+    {
+      "id": "sab",
+      "ar": "سَبْعٌ",
+      "en": "seven",
+      "badge": "7"
+    },
+    {
+      "id": "thaman",
+      "ar": "ثَمَانٍ",
+      "en": "eight",
+      "badge": "8"
+    },
+    {
+      "id": "tis",
+      "ar": "تِسْعٌ",
+      "en": "nine",
+      "badge": "9"
+    },
+    {
+      "id": "ashr",
+      "ar": "عَشْرٌ",
+      "en": "ten",
+      "badge": "10"
+    },
+    {
+      "id": "sayyara",
+      "ar": "سَيَّارَةٌ",
+      "en": "car"
+    },
+    {
+      "id": "qalil",
+      "ar": "قَلِيلٌ",
+      "en": "a little / few"
+    },
+    {
+      "id": "kathir",
+      "ar": "كَثِيرٌ",
+      "en": "a lot / many"
+    },
+    {
+      "id": "hadha",
+      "ar": "هَذَا",
+      "en": "this"
+    },
+    {
+      "id": "huna",
+      "ar": "هُنَا",
+      "en": "here"
+    },
+    {
+      "id": "ayna",
+      "ar": "أَيْنَ؟",
+      "en": "where?"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "غ",
+        "name": "ghayn",
+        "tip": "A gargling “gh”, like the French r."
+      },
+      {
+        "ch": "ق",
+        "name": "qāf",
+        "tip": "A deep k from the very back of the throat."
+      }
+    ],
+    "pairs": [
+      [
+        "غُبُورٌ",
+        "قُبُورٌ"
+      ],
+      [
+        "غِلَالٌ",
+        "قِلَالٌ"
+      ],
+      [
+        "سَاغَ",
+        "سَاقَ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "سِتٌّ. هَذَا قَلِيلٌ!",
+      "en": "Six. That's not many!"
+    },
+    {
+      "id": "d2",
+      "who": "isa",
+      "ar": "أَيْنَ الحَقِيبَةُ؟",
+      "en": "Where is the bag?"
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "سَبْعٌ، ثَمَانٍ.",
+      "en": "Seven, eight."
+    },
+    {
+      "id": "d4",
+      "who": "isa",
+      "ar": "أَيْنَ السَّيَّارَةُ؟",
+      "en": "Where is the car?"
+    },
+    {
+      "id": "d5",
+      "who": "muhammad",
+      "ar": "تِسْعٌ، عَشْرٌ. هَذَا كَثِيرٌ!",
+      "en": "Nine, ten. That's a lot!"
+    },
+    {
+      "id": "d6",
+      "who": "isa",
+      "ar": "أَيْنَ السَّيَّارَةُ؟",
+      "en": "Where is the car?"
+    },
+    {
+      "id": "d7",
+      "who": "muhammad",
+      "ar": "السَّيَّارَةُ هُنَا.",
+      "en": "The car is here."
+    }
+  ],
+  "speakers": {
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "isa": {
+      "en": "Isa",
+      "ar": "عِيسَى",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d7",
+        "d5"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d1",
+        "d7"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d2",
+        "d1"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Count in order: six to ten",
+    "ids": [
+      "sitt",
+      "sab",
+      "thaman",
+      "tis",
+      "ashr"
+    ]
+  },
+  "move": {
+    "ar": "خَبِّئْ لُعْبَةً وَقُلْ: أَيْنَ كُوكُو؟ ثُمَّ: كُوكُو هُنَا!",
+    "en": "Hide a toy and ask: Where is Koko? Then find it: Koko is here!"
+  },
+  "parents": {
+    "summary": "Counting six to ten (feminine forms), “a little / a lot”, “Where is…?” and “here”. Also the sounds غ and ق.",
+    "try": {
+      "ar": "أَيْنَ السَّيَّارَةُ؟",
+      "translit": "ayna s-sayyāra?",
+      "en": "Where is the car?"
+    },
+    "tryAudio": "d-d4-ar",
+    "tip": "Play hide-and-seek with an object: ask أَيْنَ …؟ and he answers … هُنَا!"
+  }
+}

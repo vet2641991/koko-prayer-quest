@@ -2,59 +2,237 @@
   "id": "ar2-u08",
   "world": "ar2",
   "unit": 8,
-  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٨ «الأَيَّامُ» (ص ٧٣ من الكتاب، ص ٧٤ من PDF). الحوار مطابق لصورة الصفحة.",
-  "title": { "ar": "الأَيَّامُ", "en": "The days of the week" },
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ٨ «الأَيَّامُ» (ص ٧٣ من الكتاب، ص ٧٤ من PDF). مع قسم الأصوات من صفحات «انطق». الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "الأَيَّامُ",
+    "en": "The days of the week"
+  },
   "topic": "The seven days, night and middle of the week, and “When do you visit…?”",
   "minutes": 12,
-
   "words": [
-    { "id": "sabt",     "ar": "السَّبْتُ",    "en": "Saturday" },
-    { "id": "ahad",     "ar": "الأَحَدُ",     "en": "Sunday" },
-    { "id": "ithnayn",  "ar": "الإِثْنَيْنُ",  "en": "Monday" },
-    { "id": "thulatha", "ar": "الثُّلَاثَاءُ", "en": "Tuesday" },
-    { "id": "arbia",    "ar": "الأَرْبِعَاءُ", "en": "Wednesday" },
-    { "id": "khamis",   "ar": "الخَمِيسُ",    "en": "Thursday" },
-    { "id": "jumua",    "ar": "الجُمُعَةُ",   "en": "Friday" },
-    { "id": "yazur",    "ar": "يَزُورُ",      "en": "he visits" },
-    { "id": "khala",    "ar": "خَالَةٌ",      "en": "aunt (mother's sister)" },
-    { "id": "layla",    "ar": "لَيْلَةٌ",     "en": "night" },
-    { "id": "wasat",    "ar": "وَسَطٌ",       "en": "middle" },
-    { "id": "usbu",     "ar": "الأُسْبُوعُ",  "en": "the week" }
+    {
+      "id": "sabt",
+      "ar": "السَّبْتُ",
+      "en": "Saturday"
+    },
+    {
+      "id": "ahad",
+      "ar": "الأَحَدُ",
+      "en": "Sunday"
+    },
+    {
+      "id": "ithnayn",
+      "ar": "الإِثْنَيْنُ",
+      "en": "Monday"
+    },
+    {
+      "id": "thulatha",
+      "ar": "الثُّلَاثَاءُ",
+      "en": "Tuesday"
+    },
+    {
+      "id": "arbia",
+      "ar": "الأَرْبِعَاءُ",
+      "en": "Wednesday"
+    },
+    {
+      "id": "khamis",
+      "ar": "الخَمِيسُ",
+      "en": "Thursday"
+    },
+    {
+      "id": "jumua",
+      "ar": "الجُمُعَةُ",
+      "en": "Friday"
+    },
+    {
+      "id": "yazur",
+      "ar": "يَزُورُ",
+      "en": "he visits"
+    },
+    {
+      "id": "khala",
+      "ar": "خَالَةٌ",
+      "en": "aunt (mother's sister)"
+    },
+    {
+      "id": "layla",
+      "ar": "لَيْلَةٌ",
+      "en": "night"
+    },
+    {
+      "id": "wasat",
+      "ar": "وَسَطٌ",
+      "en": "middle"
+    },
+    {
+      "id": "usbu",
+      "ar": "الأُسْبُوعُ",
+      "en": "the week"
+    }
   ],
-
+  "sounds": {
+    "sub": "Sun letters and moon letters",
+    "prompt": "Sun letter (L is silent) or moon letter (say the L)?",
+    "letters": [
+      {
+        "ch": "الشَّمْسُ",
+        "name": "sun letter: the L is silent",
+        "tip": "ash-shams — the l disappears and the next letter doubles."
+      },
+      {
+        "ch": "القَمَرُ",
+        "name": "moon letter: say the L",
+        "tip": "al-qamar — you say the l clearly."
+      }
+    ],
+    "pairs": [
+      [
+        "الشَّمْسُ",
+        "القَمَرُ"
+      ],
+      [
+        "السَّلَامُ",
+        "البَابُ"
+      ],
+      [
+        "النَّاسُ",
+        "الكِتَابُ"
+      ],
+      [
+        "الصَّلَاةُ",
+        "اليَوْمُ"
+      ],
+      [
+        "الدَّارُ",
+        "الجَدُّ"
+      ]
+    ]
+  },
   "dialogue": [
-    { "id": "d1", "who": "fadl",     "ar": "مَتَى تَزُورُ عَمَّكَ؟", "en": "When do you visit your uncle?" },
-    { "id": "d2", "who": "muhammad", "ar": "يَوْمَ السَّبْتِ، وَيَوْمَ الإِثْنَيْنِ.", "en": "On Saturday and on Monday." },
-    { "id": "d3", "who": "fadl",     "ar": "وَمَتَى تَزُورُ جَدَّكَ؟", "en": "And when do you visit your grandfather?" },
-    { "id": "d4", "who": "muhammad", "ar": "يَوْمَ الجُمُعَةِ، وَيَوْمَ الأَحَدِ، وَلَيْلَةَ الثُّلَاثَاءِ.", "en": "On Friday, on Sunday, and on Tuesday night." },
-    { "id": "d5", "who": "fadl",     "ar": "وَمَتَى تَزُورُ خَالَتَكَ؟", "en": "And when do you visit your aunt?" },
-    { "id": "d6", "who": "muhammad", "ar": "يَوْمَ الخَمِيسِ، وَلَيْلَةَ الأَرْبِعَاءِ.", "en": "On Thursday and on Wednesday night." },
-    { "id": "d7", "who": "fadl",     "ar": "وَمَتَى تَزُورُ خَالَكَ؟", "en": "And when do you visit your uncle (mother's brother)?" },
-    { "id": "d8", "who": "muhammad", "ar": "أَزُورُهُ وَسَطَ الأُسْبُوعِ.", "en": "I visit him in the middle of the week." }
+    {
+      "id": "d1",
+      "who": "fadl",
+      "ar": "مَتَى تَزُورُ عَمَّكَ؟",
+      "en": "When do you visit your uncle?"
+    },
+    {
+      "id": "d2",
+      "who": "muhammad",
+      "ar": "يَوْمَ السَّبْتِ، وَيَوْمَ الإِثْنَيْنِ.",
+      "en": "On Saturday and on Monday."
+    },
+    {
+      "id": "d3",
+      "who": "fadl",
+      "ar": "وَمَتَى تَزُورُ جَدَّكَ؟",
+      "en": "And when do you visit your grandfather?"
+    },
+    {
+      "id": "d4",
+      "who": "muhammad",
+      "ar": "يَوْمَ الجُمُعَةِ، وَيَوْمَ الأَحَدِ، وَلَيْلَةَ الثُّلَاثَاءِ.",
+      "en": "On Friday, on Sunday, and on Tuesday night."
+    },
+    {
+      "id": "d5",
+      "who": "fadl",
+      "ar": "وَمَتَى تَزُورُ خَالَتَكَ؟",
+      "en": "And when do you visit your aunt?"
+    },
+    {
+      "id": "d6",
+      "who": "muhammad",
+      "ar": "يَوْمَ الخَمِيسِ، وَلَيْلَةَ الأَرْبِعَاءِ.",
+      "en": "On Thursday and on Wednesday night."
+    },
+    {
+      "id": "d7",
+      "who": "fadl",
+      "ar": "وَمَتَى تَزُورُ خَالَكَ؟",
+      "en": "And when do you visit your uncle (mother's brother)?"
+    },
+    {
+      "id": "d8",
+      "who": "muhammad",
+      "ar": "أَزُورُهُ وَسَطَ الأُسْبُوعِ.",
+      "en": "I visit him in the middle of the week."
+    }
   ],
   "speakers": {
-    "fadl":     { "en": "Fadl",     "ar": "فَضْلٌ",   "playedBy": "koko" },
-    "muhammad": { "en": "Muhammad", "ar": "مُحَمَّدٌ", "playedBy": "haitham" }
+    "fadl": {
+      "en": "Fadl",
+      "ar": "فَضْلٌ",
+      "playedBy": "koko"
+    },
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "haitham"
+    }
   },
-
   "talk": [
-    { "ask": "d1", "answer": "d2", "wrong": ["d8", "d6"] },
-    { "ask": "d3", "answer": "d4", "wrong": ["d2", "d8"] },
-    { "ask": "d5", "answer": "d6", "wrong": ["d4", "d2"] },
-    { "ask": "d7", "answer": "d8", "wrong": ["d6", "d4"] }
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d8",
+        "d6"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d2",
+        "d8"
+      ]
+    },
+    {
+      "ask": "d5",
+      "answer": "d6",
+      "wrong": [
+        "d4",
+        "d2"
+      ]
+    },
+    {
+      "ask": "d7",
+      "answer": "d8",
+      "wrong": [
+        "d6",
+        "d4"
+      ]
+    }
   ],
-
-  "games": ["listen", "match", "order"],
-  "order": { "en": "Put the days in order, starting with Saturday", "ids": ["sabt","ahad","ithnayn","thulatha","arbia","khamis","jumua"] },
-
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Put the days in order, starting with Saturday",
+    "ids": [
+      "sabt",
+      "ahad",
+      "ithnayn",
+      "thulatha",
+      "arbia",
+      "khamis",
+      "jumua"
+    ]
+  },
   "move": {
     "ar": "اقْفِزْ مَعَ كُلِّ يَوْمٍ: السَّبْتُ، الأَحَدُ، الإِثْنَيْنُ…",
     "en": "Jump once for each day as you say it: Saturday, Sunday, Monday…"
   },
-
   "parents": {
     "summary": "The seven days of the week (starting with Saturday, as in the book), night, the middle of the week, and “When do you visit…?”.",
-    "try": { "ar": "مَتَى تَزُورُ عَمَّكَ؟", "translit": "matā tazūru ʿammak?", "en": "When do you visit your uncle?" },
+    "try": {
+      "ar": "مَتَى تَزُورُ عَمَّكَ؟",
+      "translit": "matā tazūru ʿammak?",
+      "en": "When do you visit your uncle?"
+    },
     "tryAudio": "d-d1-ar",
     "tip": "Every morning this week, ask him: what day is it today? He answers with the Arabic day."
   }

@@ -1,0 +1,176 @@
+{
+  "id": "ar1-u05",
+  "world": "ar1",
+  "unit": 5,
+  "source": "العربية بين يدي أولادنا — الكتاب الأول، الوحدة ٥ «الأَعْدَادُ ١» (ص ٤٣، PDF ص ٤٤؛ الأصوات ص ٤٩). الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "الأَعْدَادُ «١»",
+    "en": "Numbers 1"
+  },
+  "topic": "Counting from one to five, and “give me a pen”",
+  "minutes": 12,
+  "words": [
+    {
+      "id": "wahid",
+      "ar": "وَاحِدٌ",
+      "en": "one",
+      "badge": "1"
+    },
+    {
+      "id": "ithnan",
+      "ar": "اِثْنَانِ",
+      "en": "two",
+      "badge": "2"
+    },
+    {
+      "id": "thalatha",
+      "ar": "ثَلَاثَةٌ",
+      "en": "three",
+      "badge": "3"
+    },
+    {
+      "id": "arbaa",
+      "ar": "أَرْبَعَةٌ",
+      "en": "four",
+      "badge": "4"
+    },
+    {
+      "id": "khamsa",
+      "ar": "خَمْسَةٌ",
+      "en": "five",
+      "badge": "5"
+    },
+    {
+      "id": "qalam",
+      "ar": "قَلَمٌ",
+      "en": "pen"
+    },
+    {
+      "id": "hati",
+      "ar": "هَاتِ",
+      "en": "give me / bring"
+    }
+  ],
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ص",
+        "name": "ṣād",
+        "tip": "A heavy s, said with a full, deep mouth."
+      },
+      {
+        "ch": "س",
+        "name": "sīn",
+        "tip": "A light s, like the s in “sun”."
+      }
+    ],
+    "pairs": [
+      [
+        "صَحَابَةٌ",
+        "سَحَابَةٌ"
+      ],
+      [
+        "خَاصِرَةٌ",
+        "خَاسِرَةٌ"
+      ],
+      [
+        "صَيْفٌ",
+        "سَيْفٌ"
+      ],
+      [
+        "صَارَ",
+        "سَارَ"
+      ]
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "d1",
+      "who": "muhammad",
+      "ar": "وَاحِدٌ، اِثْنَانِ، ثَلَاثَةٌ.",
+      "en": "One, two, three."
+    },
+    {
+      "id": "d2",
+      "who": "salih",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "muhammad",
+      "ar": "أَرْبَعَةٌ، خَمْسَةٌ.",
+      "en": "Four, five."
+    },
+    {
+      "id": "d4",
+      "who": "salih",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d5",
+      "who": "muhammad",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ، هَاتِ قَلَمًا.",
+      "en": "And peace be upon you. Give me a pen."
+    }
+  ],
+  "speakers": {
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "koko"
+    },
+    "salih": {
+      "en": "Salih",
+      "ar": "صَالِحٌ",
+      "playedBy": "haitham"
+    }
+  },
+  "talk": [
+    {
+      "ask": "d1",
+      "answer": "d2",
+      "wrong": [
+        "d3",
+        "d5"
+      ]
+    },
+    {
+      "ask": "d3",
+      "answer": "d4",
+      "wrong": [
+        "d1",
+        "d5"
+      ]
+    }
+  ],
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "order": {
+    "en": "Count in order: one to five",
+    "ids": [
+      "wahid",
+      "ithnan",
+      "thalatha",
+      "arbaa",
+      "khamsa"
+    ]
+  },
+  "move": {
+    "ar": "عُدَّ أَصَابِعَ يَدِكَ: وَاحِدٌ، اِثْنَانِ، ثَلَاثَةٌ، أَرْبَعَةٌ، خَمْسَةٌ!",
+    "en": "Count the fingers on one hand in Arabic: one to five!"
+  },
+  "parents": {
+    "summary": "Numbers one to five (wāḥid, ithnān, thalātha, arbaʿa, khamsa) and “give me a pen”. Also the sounds ص and س.",
+    "try": {
+      "ar": "هَاتِ قَلَمًا",
+      "translit": "hāti qalaman",
+      "en": "Give me a pen"
+    },
+    "tip": "Count things together in Arabic today — stairs, grapes, shoes: one to five."
+  }
+}

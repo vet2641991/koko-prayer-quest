@@ -2,61 +2,235 @@
   "id": "ar2-u01",
   "world": "ar2",
   "unit": 1,
-  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ١ «تَعَارُفٌ ١» (ص ١ من الكتاب، ص ٢ من PDF). الحوار مطابق لصورة الصفحة.",
-  "title": { "ar": "تَعَارُفٌ «١»", "en": "Meeting people 1" },
+  "source": "العربية بين يدي أولادنا — الكتاب الثاني، الوحدة ١ «تَعَارُفٌ ١» (ص ١ من الكتاب، ص ٢ من PDF). مع قسم الأصوات من صفحات «انطق». الحوار مطابق لصورة الصفحة.",
+  "title": {
+    "ar": "تَعَارُفٌ «١»",
+    "en": "Meeting people 1"
+  },
   "topic": "Greetings, introducing people, and saying your age",
   "minutes": 12,
-
   "words": [
-    { "id": "hadha",   "ar": "هَذَا",           "en": "this (for a boy or man)" },
-    { "id": "walid",   "ar": "وَالِدٌ",          "en": "father" },
-    { "id": "ibn",     "ar": "اِبْنٌ",           "en": "son" },
-    { "id": "zamil",   "ar": "زَمِيلٌ",          "en": "classmate" },
-    { "id": "muallim", "ar": "مُعَلِّمٌ",        "en": "teacher" },
-    { "id": "ahlan",   "ar": "أَهْلاً وَسَهْلاً", "en": "welcome!" },
-    { "id": "umur",    "ar": "عُمُرٌ",           "en": "age" },
-    { "id": "sanawat", "ar": "سَنَوَاتٌ",        "en": "years" },
-    { "id": "man",     "ar": "مَنْ؟",           "en": "who?" },
-    { "id": "kam",     "ar": "كَمْ عُمُرُكَ؟",   "en": "How old are you?" },
-    { "id": "salam",   "ar": "السَّلَامُ عَلَيْكُمْ", "en": "Peace be upon you (hello)" },
-    { "id": "radd",    "ar": "وَعَلَيْكُمُ السَّلَامُ", "en": "And peace be upon you (the reply)" }
+    {
+      "id": "hadha",
+      "ar": "هَذَا",
+      "en": "this (for a boy or man)"
+    },
+    {
+      "id": "walid",
+      "ar": "وَالِدٌ",
+      "en": "father"
+    },
+    {
+      "id": "ibn",
+      "ar": "اِبْنٌ",
+      "en": "son"
+    },
+    {
+      "id": "zamil",
+      "ar": "زَمِيلٌ",
+      "en": "classmate"
+    },
+    {
+      "id": "muallim",
+      "ar": "مُعَلِّمٌ",
+      "en": "teacher"
+    },
+    {
+      "id": "ahlan",
+      "ar": "أَهْلاً وَسَهْلاً",
+      "en": "welcome!"
+    },
+    {
+      "id": "umur",
+      "ar": "عُمُرٌ",
+      "en": "age"
+    },
+    {
+      "id": "sanawat",
+      "ar": "سَنَوَاتٌ",
+      "en": "years"
+    },
+    {
+      "id": "man",
+      "ar": "مَنْ؟",
+      "en": "who?"
+    },
+    {
+      "id": "kam",
+      "ar": "كَمْ عُمُرُكَ؟",
+      "en": "How old are you?"
+    },
+    {
+      "id": "salam",
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "en": "Peace be upon you (hello)"
+    },
+    {
+      "id": "radd",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ",
+      "en": "And peace be upon you (the reply)"
+    }
   ],
-
+  "sounds": {
+    "letters": [
+      {
+        "ch": "ق",
+        "name": "qāf",
+        "tip": "A deep k from the very back of the throat."
+      },
+      {
+        "ch": "ك",
+        "name": "kāf",
+        "tip": "A clean k, like the k in “kite”."
+      }
+    ],
+    "pairs": [
+      [
+        "قَالَ",
+        "كَالَ"
+      ],
+      [
+        "قَادَ",
+        "كَادَ"
+      ],
+      [
+        "قَلْبٌ",
+        "كَلْبٌ"
+      ],
+      [
+        "بَرَقَ",
+        "بَرَكَ"
+      ]
+    ]
+  },
   "dialogue": [
-    { "id": "d1",  "who": "qasim",    "ar": "هَذَا عَقِيلٌ.", "en": "This is Aqil." },
-    { "id": "d2",  "who": "aqil",     "ar": "السَّلَامُ عَلَيْكُمْ.", "en": "Peace be upon you." },
-    { "id": "d3",  "who": "qasim",    "ar": "وَعَلَيْكُمُ السَّلَامُ. هَذَا وَالِدِي مُطِيعٌ.", "en": "And peace be upon you. This is my father, Mutee'." },
-    { "id": "d4",  "who": "aqil",     "ar": "أَهْلاً وَسَهْلاً.", "en": "Welcome!" },
-    { "id": "d5",  "who": "qasim",    "ar": "وَهَذَا زَمِيلِي حَمْزَةُ.", "en": "And this is my classmate Hamza." },
-    { "id": "d6",  "who": "aqil",     "ar": "مَنْ هَذَا؟", "en": "Who is this?" },
-    { "id": "d7",  "who": "qasim",    "ar": "هَذَا ابْنِي مُحَمَّدٌ.", "en": "This is my son Muhammad." },
-    { "id": "d8",  "who": "aqil",     "ar": "كَمْ عُمُرُكَ يَا مُحَمَّدُ؟", "en": "How old are you, Muhammad?" },
-    { "id": "d9",  "who": "muhammad", "ar": "عُمُرِي تِسْعُ سَنَوَاتٍ.", "en": "I am nine years old." },
-    { "id": "d10", "who": "aqil",     "ar": "أَنَا مُعَلِّمٌ.", "en": "I am a teacher." }
+    {
+      "id": "d1",
+      "who": "qasim",
+      "ar": "هَذَا عَقِيلٌ.",
+      "en": "This is Aqil."
+    },
+    {
+      "id": "d2",
+      "who": "aqil",
+      "ar": "السَّلَامُ عَلَيْكُمْ.",
+      "en": "Peace be upon you."
+    },
+    {
+      "id": "d3",
+      "who": "qasim",
+      "ar": "وَعَلَيْكُمُ السَّلَامُ. هَذَا وَالِدِي مُطِيعٌ.",
+      "en": "And peace be upon you. This is my father, Mutee'."
+    },
+    {
+      "id": "d4",
+      "who": "aqil",
+      "ar": "أَهْلاً وَسَهْلاً.",
+      "en": "Welcome!"
+    },
+    {
+      "id": "d5",
+      "who": "qasim",
+      "ar": "وَهَذَا زَمِيلِي حَمْزَةُ.",
+      "en": "And this is my classmate Hamza."
+    },
+    {
+      "id": "d6",
+      "who": "aqil",
+      "ar": "مَنْ هَذَا؟",
+      "en": "Who is this?"
+    },
+    {
+      "id": "d7",
+      "who": "qasim",
+      "ar": "هَذَا ابْنِي مُحَمَّدٌ.",
+      "en": "This is my son Muhammad."
+    },
+    {
+      "id": "d8",
+      "who": "aqil",
+      "ar": "كَمْ عُمُرُكَ يَا مُحَمَّدُ؟",
+      "en": "How old are you, Muhammad?"
+    },
+    {
+      "id": "d9",
+      "who": "muhammad",
+      "ar": "عُمُرِي تِسْعُ سَنَوَاتٍ.",
+      "en": "I am nine years old."
+    },
+    {
+      "id": "d10",
+      "who": "aqil",
+      "ar": "أَنَا مُعَلِّمٌ.",
+      "en": "I am a teacher."
+    }
   ],
   "speakers": {
-    "aqil":     { "en": "Aqil",     "ar": "عَقِيلٌ",  "playedBy": "koko" },
-    "qasim":    { "en": "Qasim",    "ar": "قَاسِمٌ",  "playedBy": "haitham" },
-    "muhammad": { "en": "Muhammad", "ar": "مُحَمَّدٌ", "playedBy": "haitham" }
+    "aqil": {
+      "en": "Aqil",
+      "ar": "عَقِيلٌ",
+      "playedBy": "koko"
+    },
+    "qasim": {
+      "en": "Qasim",
+      "ar": "قَاسِمٌ",
+      "playedBy": "haitham"
+    },
+    "muhammad": {
+      "en": "Muhammad",
+      "ar": "مُحَمَّدٌ",
+      "playedBy": "haitham"
+    }
   },
-
   "talk": [
-    { "ask": "d2", "answer": "d3", "wrong": ["d9", "d7"] },
-    { "ask": "d4", "answer": "d5", "wrong": ["d10", "d2"] },
-    { "ask": "d6", "answer": "d7", "wrong": ["d9", "d4"] },
-    { "ask": "d8", "answer": "d9", "wrong": ["d5", "d1"] }
+    {
+      "ask": "d2",
+      "answer": "d3",
+      "wrong": [
+        "d9",
+        "d7"
+      ]
+    },
+    {
+      "ask": "d4",
+      "answer": "d5",
+      "wrong": [
+        "d10",
+        "d2"
+      ]
+    },
+    {
+      "ask": "d6",
+      "answer": "d7",
+      "wrong": [
+        "d9",
+        "d4"
+      ]
+    },
+    {
+      "ask": "d8",
+      "answer": "d9",
+      "wrong": [
+        "d5",
+        "d1"
+      ]
+    }
   ],
-
-  "games": ["listen", "match"],
-
+  "games": [
+    "listen",
+    "match"
+  ],
   "move": {
     "ar": "سَلِّمْ عَلَى كُوكُو: السَّلَامُ عَلَيْكُمْ!",
     "en": "Wave to Koko and greet him: Peace be upon you! Then tell him how old you are."
   },
-
   "parents": {
     "summary": "Greetings and introductions: “Peace be upon you”, “This is my father / my classmate”, and “How old are you?”.",
-    "try": { "ar": "كَمْ عُمُرُكَ؟", "translit": "kam ʿumruk?", "en": "How old are you?" },
+    "try": {
+      "ar": "كَمْ عُمُرُكَ؟",
+      "translit": "kam ʿumruk?",
+      "en": "How old are you?"
+    },
     "tryAudio": "d-d8-ar",
     "tip": "Ask him his age in Arabic. He should answer: عُمُرِي تِسْعُ سَنَوَاتٍ (I am nine years old)."
   }

@@ -213,6 +213,7 @@ function stepsFor(L) {
   const s = [];
   if (L.video) s.push({ k: 'story', en: "Koko's story", sub: 'Watch the cartoon', min: 3 });
   if (L.words && L.words.length) s.push({ k: 'words', en: 'New words', sub: 'Hear each word, then its meaning', min: 2 });
+  if (L.sounds) s.push({ k: 'sounds', en: 'Letter sounds', sub: L.sounds.sub || `${L.sounds.letters.map(x => x.ch).join(' or ')}? Train your ears`, min: 2 });
   for (const g of L.games || []) {
     if (g === 'listen') s.push({ k: 'listen', en: 'Listen & choose', sub: 'Tap the word Koko says', min: 2 });
     if (g === 'match') s.push({ k: 'match', en: 'Match the pairs', sub: 'Arabic word ↔ English meaning', min: 2 });
@@ -251,7 +252,7 @@ async function runStep(id, i) {
     if (i + 1 < steps.length) location.hash = `#/lesson/${id}/${i + 1}`; else win(L);
   };
   const head = (title, sub) => `<header class="top"><a class="back" href="#/lesson/${id}" aria-label="Back to lesson">${ICON.back}</a><div class="hello"><b>${esc(title)}</b><span>${esc(sub)}</span></div><span class="pill" style="font-size:14px">${i + 1} / ${steps.length}</span></header>${bar((i + .5) / steps.length * 100, 'on-blue')}`;
-  ({ story, words, listen, match, order, talk, quiz, move })[st.k](L, st, head, finish);
+  ({ story, words, sounds, listen, match, order, talk, quiz, move })[st.k](L, st, head, finish);
 }
 
 /* step: story video */
@@ -281,6 +282,41 @@ function words(L, st, head, finish) {
     $('#nx').onclick = () => { if (++k < W.length) show(); else finish(); };
   };
   show();
+}
+
+/* step: letter sounds — two close letters, minimal pairs, then "which letter do you hear?" */
+function sounds(L, st, head, finish) {
+  const S2 = L.sounds, P = S2.pairs, sa = (i, j) => `audio/${L.id}/s-${i + 1}-${j}-ar.mp3`;
+  const intro = () => {
+    render(`<div class="screen dots act">${head(st.en, 'Listen to the difference')}
+      <div class="grid2">${S2.letters.map((x, j) => `<div class="card" style="text-align:center"><div class="ar" style="font-size:72px;line-height:1.3;color:var(--blue)">${esc(x.ch)}</div>
+        <b>${esc(x.name)}</b><p style="margin:4px 0 0;font-size:14px;font-weight:600;color:var(--muted)">${esc(x.tip)}</p></div>`).join('')}</div>
+      <div class="card"><span class="over">Tap a word to hear it</span><div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+        ${P.map((p, i) => `<div class="row">${p.map((w, j) => `<button class="opt" style="min-height:58px" data-i="${i}" data-j="${j}">${AR(w)}</button>`).join('')}</div>`).join('')}</div></div>
+      <button class="btn" id="go">I'm ready — test my ears!</button></div>`);
+    app.querySelectorAll('[data-i]').forEach(b => b.onclick = () => playSeq([sa(+b.dataset.i, +b.dataset.j)]));
+    $('#go').onclick = game;
+  };
+  const game = () => {
+    const rounds = shuffle(P.flatMap((p, i) => p.map((w, j) => ({ i, j, w })))).slice(0, 8); let r = 0;
+    const show = () => {
+      const t = rounds[r];
+      render(`<div class="screen dots act">${head(st.en, `Round ${r + 1} of ${rounds.length}`)}
+        <div style="text-align:center"><button class="playbig" id="again" aria-label="Play the word again">${ICON.speak.replace(/20/g, '52')}</button>
+        <p style="font-weight:800;font-size:18px;margin:10px 0 0">${esc(S2.prompt || 'Which letter is in the word?')}</p></div>
+        <div class="grid2">${S2.letters.map((x, j) => `<button class="opt" data-j="${j}"><span class="ar" style="font-size:56px;line-height:1.3">${esc(x.ch)}</span><small>${esc(x.name)}</small></button>`).join('')}</div>
+        <div class="koko-say" id="fb" hidden><img src="${IMG.cheer}" alt=""><span></span></div></div>`);
+      const hear = () => playSeq([sa(t.i, t.j)]); hear(); $('#again').onclick = hear;
+      app.querySelectorAll('.opt').forEach(b => b.onclick = () => {
+        const fb = $('#fb');
+        if (+b.dataset.j === t.j) { b.classList.add('right'); sfx.right(); fb.hidden = false; fb.className = 'koko-say good'; fb.querySelector('span').innerHTML = `Yes! ${AR(t.w)} → ${esc(S2.letters[t.j].name)}`;
+          app.querySelectorAll('.opt').forEach(x => x.disabled = true); later(() => { if (++r < rounds.length) show(); else finish(); }, 1300); }
+        else { SESSION.mistakes++; sfx.wrong(); b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); fb.hidden = false; fb.className = 'koko-say bad'; fb.querySelector('span').textContent = 'Listen again, Teacher!'; hear(); }
+      });
+    };
+    show();
+  };
+  intro();
 }
 
 /* step: listen & choose */
