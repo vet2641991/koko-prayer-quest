@@ -1,0 +1,264 @@
+{
+  "id": "isl2-l30",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 30. Exercises reused from the lesson.",
+  "title": {
+    "ar": "التَّقْوِيمُ الهِجْرِيُّ",
+    "en": "The Islamic calendar"
+  },
+  "topic": "Twelve months that follow the moon",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Islamic year follows the moon. Each new moon begins a new month, and there are twelve months.",
+      "title": "Following the moon",
+      "ar": "الهِلَالُ",
+      "tr": "al-hilāl"
+    },
+    {
+      "en": "A month has 29 or 30 days — never 31!",
+      "title": "29 or 30 days"
+    },
+    {
+      "en": "The months: Muharram, Safar, Rabi' al-Awwal, Rabi' ath-Thani, Jumada al-Ula, Jumada ath-Thaniyah, Rajab, Sha'ban, Ramadan, Shawwal, Dhul-Qa'dah and Dhul-Hijjah.",
+      "title": "Twelve months"
+    },
+    {
+      "en": "The Prophet ﷺ was born in Rabi' al-Awwal. We fast in Ramadan, celebrate Eid al-Fitr in Shawwal and Eid al-Adha in Dhul-Hijjah.",
+      "title": "Special months"
+    },
+    {
+      "en": "“Indeed, the number of months with Allah is twelve lunar months in the register of Allah.” (Qur'an 9:36)",
+      "title": "From the Qur'an"
+    },
+    {
+      "en": "Jazakum Allahu khayran — you have finished Islamic Studies Level 2! 🌙",
+      "title": "Well done!",
+      "ar": "جَزَاكُمُ اللهُ خَيْرًا",
+      "tr": "Jazākumu-llāhu khayran"
+    }
+  ],
+  "words": [
+    {
+      "id": "muharram",
+      "ar": "مُحَرَّمٌ",
+      "en": "Muharram"
+    },
+    {
+      "id": "safar",
+      "ar": "صَفَرٌ",
+      "en": "Safar"
+    },
+    {
+      "id": "rabi1",
+      "ar": "رَبِيعٌ الأَوَّلُ",
+      "en": "Rabi' al-Awwal"
+    },
+    {
+      "id": "rabi2",
+      "ar": "رَبِيعٌ الآخِرُ",
+      "en": "Rabi' ath-Thani"
+    },
+    {
+      "id": "jumada1",
+      "ar": "جُمَادَى الأُولَى",
+      "en": "Jumada al-Ula"
+    },
+    {
+      "id": "jumada2",
+      "ar": "جُمَادَى الآخِرَةُ",
+      "en": "Jumada ath-Thaniyah"
+    },
+    {
+      "id": "rajab",
+      "ar": "رَجَبٌ",
+      "en": "Rajab"
+    },
+    {
+      "id": "shaban",
+      "ar": "شَعْبَانُ",
+      "en": "Sha'ban"
+    },
+    {
+      "id": "ramadan",
+      "ar": "رَمَضَانُ",
+      "en": "Ramadan"
+    },
+    {
+      "id": "shawwal",
+      "ar": "شَوَّالٌ",
+      "en": "Shawwal"
+    },
+    {
+      "id": "qada",
+      "ar": "ذُو القَعْدَةِ",
+      "en": "Dhul-Qa'dah"
+    },
+    {
+      "id": "hijja",
+      "ar": "ذُو الحِجَّةِ",
+      "en": "Dhul-Hijjah"
+    }
+  ],
+  "order": {
+    "en": "Put the Islamic months in order",
+    "ids": [
+      "muharram",
+      "safar",
+      "rabi1",
+      "rabi2",
+      "jumada1",
+      "jumada2",
+      "rajab",
+      "shaban",
+      "ramadan",
+      "shawwal",
+      "qada",
+      "hijja"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? The Islamic year follows the changes of the moon.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Each new moon begins a new year.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Some Islamic months have 31 days.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? August is an Islamic month.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Which is the first month of the Islamic calendar?",
+      "opts": [
+        [
+          "",
+          "Muharram",
+          1
+        ],
+        [
+          "",
+          "Ramadan",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "In which month do Muslims fast?",
+      "opts": [
+        [
+          "",
+          "Ramadan",
+          1
+        ],
+        [
+          "",
+          "Rajab",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Eid al-Fitr is in…",
+      "opts": [
+        [
+          "",
+          "Shawwal",
+          1
+        ],
+        [
+          "",
+          "Safar",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Eid al-Adha is in…",
+      "opts": [
+        [
+          "",
+          "Dhul-Hijjah",
+          1
+        ],
+        [
+          "",
+          "Muharram",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "What is today's Islamic date? Can you find it with Mum or Dad?",
+    "a": "Look it up together — and watch for the new moon at the end of the month!"
+  },
+  "parents": {
+    "summary": "The Hijri calendar: twelve lunar months of 29 or 30 days, Muharram to Dhul-Hijjah; Ramadan for fasting, Eids in Shawwal and Dhul-Hijjah.",
+    "try": {
+      "ar": "رَمَضَانُ",
+      "translit": "Ramaḍān",
+      "en": "Ramadan"
+    },
+    "tip": "Go moon-spotting together at the start of the next Islamic month."
+  }
+}

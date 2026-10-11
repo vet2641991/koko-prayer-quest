@@ -1,0 +1,145 @@
+{
+  "id": "isl2-l03",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 3. Exercises reused from the lesson.",
+  "title": {
+    "ar": "العَلِيمُ البَصِيرُ",
+    "en": "Allah is All-Knowing, All-Seeing"
+  },
+  "topic": "Nothing is hidden from Him",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah is All-Knowing. He knows what is in the heavens, our secrets, and even what is in our hearts.",
+      "title": "All-Knowing",
+      "ar": "العَلِيمُ",
+      "tr": "al-ʿAlīm"
+    },
+    {
+      "en": "He knows where every leaf will fall, every grain of sand, the weight of every mountain and what is deep in the oceans.",
+      "title": "Every leaf"
+    },
+    {
+      "en": "He knows the breaths we breathe and the words we speak, in the day and at night.",
+      "title": "Nothing is hidden"
+    },
+    {
+      "en": "Allah is All-Seeing. He sees everything we do and is aware of everything.",
+      "title": "All-Seeing",
+      "ar": "البَصِيرُ",
+      "tr": "al-Baṣīr"
+    },
+    {
+      "en": "“And Allah, of what you do, is Seeing.” (Qur'an 2:265)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "alim",
+      "ar": "العَلِيمُ",
+      "en": "the All-Knowing"
+    },
+    {
+      "id": "basir",
+      "ar": "البَصِيرُ",
+      "en": "the All-Seeing"
+    },
+    {
+      "id": "waraqa",
+      "ar": "وَرَقَةٌ",
+      "en": "a leaf"
+    },
+    {
+      "id": "qalb",
+      "ar": "قَلْبٌ",
+      "en": "heart"
+    },
+    {
+      "id": "bahr",
+      "ar": "البَحْرُ",
+      "en": "the sea"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Allah knows what is in our ___.",
+      "opts": [
+        [
+          "",
+          "hearts",
+          1
+        ],
+        [
+          "",
+          "pockets only",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Allah sees what we do in the ___.",
+      "opts": [
+        [
+          "",
+          "day only",
+          0
+        ],
+        [
+          "",
+          "day and night",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah knows where every leaf will fall.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We can hide a secret from Allah.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "If nobody is watching, but Allah sees you, how should you behave?",
+    "a": "The same as when everyone is watching — honest and kind, because Allah sees."
+  },
+  "parents": {
+    "summary": "Allah is al-ʿAlīm (All-Knowing) and al-Baṣīr (All-Seeing): nothing in the universe or in our hearts is hidden from Him.",
+    "try": {
+      "ar": "اللهُ يَرَانِي",
+      "translit": "Allāhu yarānī",
+      "en": "Allah sees me"
+    },
+    "tip": "Use “Allah sees me” as a gentle reminder, never as a threat."
+  }
+}

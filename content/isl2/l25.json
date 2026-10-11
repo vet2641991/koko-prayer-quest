@@ -1,0 +1,158 @@
+{
+  "id": "isl2-l25",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 25. Exercises reused from the lesson.",
+  "title": {
+    "ar": "آدَابُ الكَلَامِ",
+    "en": "Manners of talking"
+  },
+  "topic": "Speak good or stay silent; listen well; low, clear voice",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Prophet ﷺ said: whoever believes in Allah and the Last Day should speak good or keep silent. (Muslim)",
+      "title": "Good words or silence"
+    },
+    {
+      "en": "Speak clearly and truthfully. Think before you speak, so you don't say something you'll be sorry for.",
+      "title": "Think first"
+    },
+    {
+      "en": "Be a good listener: let others finish. Don't interrupt or say “yeah, yeah, I know” to hurry them.",
+      "title": "Listen well"
+    },
+    {
+      "en": "Not too fast or slow, not too loud or soft — the middle way. Smile and look pleasantly at people. The Prophet ﷺ spoke so slowly you could count his words.",
+      "title": "The middle way"
+    },
+    {
+      "en": "“Man does not utter any word except that with him is an observer prepared to record.” (Qur'an 50:18)",
+      "title": "The angels write it"
+    }
+  ],
+  "words": [
+    {
+      "id": "kalam",
+      "ar": "الكَلَامُ",
+      "en": "speech, talking"
+    },
+    {
+      "id": "sukut",
+      "ar": "السُّكُوتُ",
+      "en": "silence"
+    },
+    {
+      "id": "istima",
+      "ar": "الاِسْتِمَاعُ",
+      "en": "listening"
+    },
+    {
+      "id": "sidq",
+      "ar": "الصِّدْقُ",
+      "en": "truthfulness"
+    },
+    {
+      "id": "ibtisama",
+      "ar": "ابْتِسَامَةٌ",
+      "en": "a smile"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? It is fine to interrupt others while they are talking.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I should always speak the truth.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The angels record everything I say.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I must talk in a hurry.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Which is the best way to speak?",
+      "opts": [
+        [
+          "",
+          "Not too loud, not too soft",
+          1
+        ],
+        [
+          "",
+          "As loud as possible",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "At dinner tonight, can you listen to everyone until they finish before you speak?",
+    "a": "Try it — and see how happy it makes your family!"
+  },
+  "parents": {
+    "summary": "Speak good or stay silent, think first, listen until others finish, speak clearly in a calm middle voice, and smile.",
+    "try": {
+      "ar": "قُلْ خَيْرًا أَوِ اصْمُتْ",
+      "translit": "qul khayran awi ṣmut",
+      "en": "Say good or stay silent"
+    },
+    "tip": "Play a family “no interrupting” game at dinner."
+  }
+}

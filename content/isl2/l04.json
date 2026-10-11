@@ -1,0 +1,174 @@
+{
+  "id": "isl2-l04",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 4. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الإِيمَانُ",
+    "en": "Iman — the faith of a Muslim"
+  },
+  "topic": "Faith is light, doubt is darkness; the six pillars of iman",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Iman is an Arabic word. It means faith: complete trust, believing with all your heart without any doubt.",
+      "title": "Iman means faith",
+      "ar": "الإِيمَانُ",
+      "tr": "al-īmān"
+    },
+    {
+      "en": "Doubt and faith are opposites. Faith is light; doubt is darkness.",
+      "title": "Light and darkness"
+    },
+    {
+      "en": "With iman the heart accepts the truth, the tongue says it, and the limbs act on it.",
+      "title": "Heart, tongue and actions"
+    },
+    {
+      "en": "A Muslim believes in: Allah, His angels, His books, His messengers, the Day of Judgement, and Divine Destiny — that everything good or bad comes from Allah.",
+      "title": "The six pillars of iman"
+    },
+    {
+      "en": "“All of them have believed in Allah and His angels and His books and His messengers.” (Qur'an 2:285)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "iman",
+      "ar": "الإِيمَانُ",
+      "en": "faith"
+    },
+    {
+      "id": "allah",
+      "ar": "اللهُ",
+      "en": "Allah"
+    },
+    {
+      "id": "malaika",
+      "ar": "المَلَائِكَةُ",
+      "en": "the angels"
+    },
+    {
+      "id": "kutub",
+      "ar": "الكُتُبُ",
+      "en": "the books"
+    },
+    {
+      "id": "rusul",
+      "ar": "الرُّسُلُ",
+      "en": "the messengers"
+    },
+    {
+      "id": "yawm",
+      "ar": "اليَوْمُ الآخِرُ",
+      "en": "the Last Day"
+    },
+    {
+      "id": "qadar",
+      "ar": "القَدَرُ",
+      "en": "Divine Destiny"
+    }
+  ],
+  "order": {
+    "en": "Put the six pillars of iman in order",
+    "ids": [
+      "allah",
+      "malaika",
+      "kutub",
+      "rusul",
+      "yawm",
+      "qadar"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Iman means…",
+      "opts": [
+        [
+          "",
+          "faith",
+          1
+        ],
+        [
+          "",
+          "food",
+          0
+        ],
+        [
+          "",
+          "fear",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Faith is ___, doubt is darkness.",
+      "opts": [
+        [
+          "",
+          "light",
+          1
+        ],
+        [
+          "",
+          "heavy",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which of these is NOT one of the six pillars of iman?",
+      "opts": [
+        [
+          "",
+          "The angels",
+          0
+        ],
+        [
+          "",
+          "The books",
+          0
+        ],
+        [
+          "",
+          "Sports",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A Muslim believes that everything good or bad comes from Allah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you count the six things a Muslim believes in on your fingers?",
+    "a": "Allah, angels, books, messengers, the Last Day, and Divine Destiny!"
+  },
+  "parents": {
+    "summary": "Iman = faith with no doubt, in the heart, on the tongue and in actions; its six pillars: Allah, angels, books, messengers, the Last Day, Divine Destiny.",
+    "try": {
+      "ar": "الإِيمَانُ",
+      "translit": "al-īmān",
+      "en": "faith"
+    },
+    "tip": "Count the six pillars of iman on his fingers together."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "isl2-l05",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 5. Exercises reused from the lesson.",
+  "title": {
+    "ar": "المَلَائِكَةُ",
+    "en": "The angels"
+  },
+  "topic": "Made of light, always obeying Allah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Arabic word for angel is malak; the plural is malā'ikah. Allah created them from light.",
+      "title": "Made of light",
+      "ar": "مَلَكٌ — مَلَائِكَةٌ",
+      "tr": "malak — malāʾika"
+    },
+    {
+      "en": "We cannot see them, but we know they are there because the Prophet ﷺ told us.",
+      "title": "Unseen"
+    },
+    {
+      "en": "The angels are Allah's servants. They always obey Him and never disobey.",
+      "title": "Always obeying"
+    },
+    {
+      "en": "Angel Jibreel brought the Qur'an to Prophet Muhammad ﷺ, and Allah's messages to many prophets before him.",
+      "title": "Jibreel",
+      "ar": "جِبْرِيلُ",
+      "tr": "Jibrīl"
+    },
+    {
+      "en": "Every one of us has two angels who write down everything we do and say, good and bad. Mika'eel, Israfeel and Malik are angels too.",
+      "title": "Two angels with us"
+    },
+    {
+      "en": "“They do not disobey Allah in what He commands them but do what they are commanded.” (Qur'an 66:6)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "malak",
+      "ar": "مَلَكٌ",
+      "en": "an angel"
+    },
+    {
+      "id": "malaika",
+      "ar": "مَلَائِكَةٌ",
+      "en": "angels"
+    },
+    {
+      "id": "nur",
+      "ar": "نُورٌ",
+      "en": "light"
+    },
+    {
+      "id": "jibril",
+      "ar": "جِبْرِيلُ",
+      "en": "Jibreel"
+    },
+    {
+      "id": "mikail",
+      "ar": "مِيكَائِيلُ",
+      "en": "Mika'eel"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What is the Arabic word for angels?",
+      "opts": [
+        [
+          "",
+          "Malā'ikah",
+          1
+        ],
+        [
+          "",
+          "Kutub",
+          0
+        ],
+        [
+          "",
+          "Rusul",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who created the angels?",
+      "opts": [
+        [
+          "",
+          "Allah",
+          1
+        ],
+        [
+          "",
+          "People",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What are angels made of?",
+      "opts": [
+        [
+          "",
+          "Light",
+          1
+        ],
+        [
+          "",
+          "Clay",
+          0
+        ],
+        [
+          "",
+          "Fire",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which angel brought the Qur'an?",
+      "opts": [
+        [
+          "",
+          "Jibreel",
+          1
+        ],
+        [
+          "",
+          "Malik",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The angels sometimes disobey Allah.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Two angels write down everything you say and do. What would you like them to write about you today?",
+    "a": "Kind words, helping at home, praying on time…"
+  },
+  "parents": {
+    "summary": "Angels (malāʾika) are made of light and always obey Allah; Jibreel brought the Qur'an; two angels record our deeds.",
+    "try": {
+      "ar": "مَلَائِكَةٌ",
+      "translit": "malāʾika",
+      "en": "angels"
+    },
+    "tip": "At bedtime, ask: what good did your angels write today?"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "isl2-l12",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 12. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "المَسْجِدُ",
+    "en": "The masjid"
+  },
+  "topic": "The qiblah, the mihrab, the minbar and mosque manners",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "A masjid is where Muslims pray five times a day. The mu'adh-dhin calls the adhan from it.",
+      "title": "The masjid",
+      "ar": "المَسْجِدُ",
+      "tr": "al-masjid"
+    },
+    {
+      "en": "The mihrab, an arch in the front wall, shows the qiblah. Next to it is the minbar, the pulpit for the Friday sermon.",
+      "title": "Mihrab and minbar"
+    },
+    {
+      "en": "Al-Masjid al-Haram in Makkah holds the Ka'bah. Al-Masjid an-Nabawi in Madinah is the second most honoured mosque.",
+      "title": "Two great mosques"
+    },
+    {
+      "en": "Enter with your right foot and say the du'aa.",
+      "title": "Going in",
+      "ar": "بِسْمِ اللهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللهِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "tr": "Bismi-llāh, waṣ-ṣalātu was-salāmu ʿalā rasūli-llāh. Allāhumma ftaḥ lī abwāba raḥmatik"
+    },
+    {
+      "en": "Leave your shoes at the door, walk in quietly, hold the door for others, and pray two rak'ahs before sitting.",
+      "title": "Mosque manners"
+    },
+    {
+      "en": "After each prayer, say Subhan-Allah, Alhamdulillah and Allahu Akbar 33 times each.",
+      "title": "After the prayer"
+    },
+    {
+      "en": "Leave with your left foot and say the du'aa.",
+      "title": "Going out",
+      "ar": "بِسْمِ اللهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللهِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "tr": "Bismi-llāh, waṣ-ṣalātu was-salāmu ʿalā rasūli-llāh. Allāhumma innī asʾaluka min faḍlik"
+    }
+  ],
+  "words": [
+    {
+      "id": "mihrab",
+      "ar": "المِحْرَابُ",
+      "en": "the mihrab (prayer niche)"
+    },
+    {
+      "id": "minbar",
+      "ar": "المِنْبَرُ",
+      "en": "the minbar (pulpit)"
+    },
+    {
+      "id": "wudu",
+      "ar": "الوُضُوءُ",
+      "en": "wudu (washing for prayer)"
+    },
+    {
+      "id": "dua_in",
+      "ar": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "en": "Entering: O Allah, open the gates of Your mercy for me",
+      "tr": "Allāhumma ftaḥ lī abwāba raḥmatik",
+      "sacred": true
+    },
+    {
+      "id": "dua_out",
+      "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "en": "Leaving: O Allah, I ask You of Your bounty",
+      "tr": "Allāhumma innī asʾaluka min faḍlik",
+      "sacred": true
+    },
+    {
+      "id": "tasbih",
+      "ar": "سُبْحَانَ اللهِ، الحَمْدُ لِلهِ، اللهُ أَكْبَرُ",
+      "en": "Glory be to Allah, praise be to Allah, Allah is the Greatest",
+      "tr": "Subḥāna-llāh, al-ḥamdu lillāh, Allāhu akbar",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "The mihrab shows us the direction of the…",
+      "opts": [
+        [
+          "",
+          "qiblah",
+          1
+        ],
+        [
+          "",
+          "door",
+          0
+        ],
+        [
+          "",
+          "taps",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Step into the masjid with your ___ foot first.",
+      "opts": [
+        [
+          "",
+          "right",
+          1
+        ],
+        [
+          "",
+          "left",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Al-Masjid an-Nabawi is in…",
+      "opts": [
+        [
+          "",
+          "Madinah",
+          1
+        ],
+        [
+          "",
+          "Makkah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The water taps in the masjid are for making…",
+      "opts": [
+        [
+          "",
+          "wudu",
+          1
+        ],
+        [
+          "",
+          "tea",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Pushing and shoving at the mosque door is good manners.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Next time you go to the masjid, which du'aa will you say at the door, and with which foot?",
+    "a": "Right foot in: Allāhumma ftaḥ lī abwāba raḥmatik!"
+  },
+  "parents": {
+    "summary": "The masjid: qiblah, mihrab, minbar, wudu taps; right foot in and left foot out with the du'aas; tasbih 33 times after prayer.",
+    "try": {
+      "ar": "المَسْجِدُ",
+      "translit": "al-masjid",
+      "en": "the mosque"
+    },
+    "tip": "Take him to the masjid this week and point out the mihrab and minbar."
+  }
+}

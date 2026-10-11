@@ -1,0 +1,166 @@
+{
+  "id": "isl2-l01",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 1. Exercises reused from the lesson.",
+  "title": {
+    "ar": "اللهُ الخَالِقُ",
+    "en": "Allah is the Creator (1)"
+  },
+  "topic": "He made everything out of nothing",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah is the Creator. He made everything out of nothing: the sky, the earth, the sun, the moon and the stars.",
+      "title": "He made everything",
+      "ar": "الخَالِقُ",
+      "tr": "al-Khāliq"
+    },
+    {
+      "en": "He made the plants, flowers of different colours, fish that swim, birds that fly, and every animal — elephants, lions, camels, cats!",
+      "title": "A wonderful world"
+    },
+    {
+      "en": "When Allah wants something, He just says to it “Be!” — and it is.",
+      "title": "“Be!” and it is"
+    },
+    {
+      "en": "Only Allah can create. Nobody else can create as Allah creates — not even a fly or a mosquito!",
+      "title": "Only Allah can create"
+    },
+    {
+      "en": "So we thank Him for all His gifts and say: Al-hamdu lillāhi Rabbil-ʿālamīn.",
+      "title": "Thank You, Allah",
+      "ar": "الحَمْدُ لِلهِ رَبِّ العَالَمِينَ",
+      "tr": "Al-ḥamdu lillāhi Rabbi l-ʿālamīn"
+    },
+    {
+      "en": "“Allah is the Creator of all things, and He is, over all things, Disposer of affairs.” (Qur'an 39:62)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "khaliq",
+      "ar": "الخَالِقُ",
+      "en": "the Creator"
+    },
+    {
+      "id": "sama",
+      "ar": "السَّمَاءُ",
+      "en": "the sky"
+    },
+    {
+      "id": "ard",
+      "ar": "الأَرْضُ",
+      "en": "the earth"
+    },
+    {
+      "id": "shams",
+      "ar": "الشَّمْسُ",
+      "en": "the sun"
+    },
+    {
+      "id": "qamar",
+      "ar": "القَمَرُ",
+      "en": "the moon"
+    },
+    {
+      "id": "hamd_rabb",
+      "ar": "الحَمْدُ لِلهِ رَبِّ العَالَمِينَ",
+      "en": "Praise be to Allah, Lord of all the worlds",
+      "tr": "Al-ḥamdu lillāhi Rabbi l-ʿālamīn",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What did Allah make everything out of?",
+      "opts": [
+        [
+          "",
+          "Wood and stone",
+          0
+        ],
+        [
+          "",
+          "Nothing",
+          1
+        ],
+        [
+          "",
+          "Water only",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who can create as Allah creates?",
+      "opts": [
+        [
+          "",
+          "Nobody",
+          1
+        ],
+        [
+          "",
+          "Clever people",
+          0
+        ],
+        [
+          "",
+          "Robots",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah is One; there is no one equal to Him.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? People can create a fly if they try hard.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Look out of the window. Name three things Allah created that you can see right now.",
+    "a": "The sky, trees, birds… everything is from Allah — Al-ḥamdu lillāh!"
+  },
+  "parents": {
+    "summary": "Allah is the Creator: He made everything out of nothing, and only He can create. We thank Him: al-ḥamdu lillāhi Rabbi l-ʿālamīn.",
+    "try": {
+      "ar": "الخَالِقُ",
+      "translit": "al-Khāliq",
+      "en": "the Creator"
+    },
+    "tip": "On a walk, take turns naming things Allah created."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "isl2-l20",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 20. Exercises reused from the lesson.",
+  "title": {
+    "ar": "مُحَمَّدٌ ﷺ (٣)",
+    "en": "Prophet Muhammad ﷺ (3)"
+  },
+  "topic": "Lady Khadijah, and the wise decision at the Ka'bah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Khadijah, a noble and rich lady of Quraysh, heard of his honesty and asked him to lead her trade caravan to Syria. He came back successful every time.",
+      "title": "Khadijah's offer",
+      "ar": "خَدِيجَةُ",
+      "tr": "Khadīja"
+    },
+    {
+      "en": "She saw his good character and proposed marriage. He was 25 and she was 40. They had two sons and four daughters.",
+      "title": "Marriage"
+    },
+    {
+      "en": "When the Ka'bah was rebuilt, the tribes argued for five days over who would place the Black Stone. They almost fought!",
+      "title": "The Black Stone",
+      "ar": "الحَجَرُ الأَسْوَدُ",
+      "tr": "al-ḥajar al-aswad"
+    },
+    {
+      "en": "They agreed the first man through the gate would decide. It was Muhammad ﷺ: “He is trustworthy — we accept his decision!”",
+      "title": "The first through the gate"
+    },
+    {
+      "en": "He put the stone on a cloth; every chief lifted a corner, then he placed it with his own hands. Everyone was happy. He was 35.",
+      "title": "A wise decision"
+    },
+    {
+      "en": "“There has certainly been for you in the Messenger of Allah an excellent example.” (Qur'an 33:21)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "khadija",
+      "ar": "خَدِيجَةُ",
+      "en": "Khadijah"
+    },
+    {
+      "id": "kaba",
+      "ar": "الكَعْبَةُ",
+      "en": "the Ka'bah"
+    },
+    {
+      "id": "hajar",
+      "ar": "الحَجَرُ الأَسْوَدُ",
+      "en": "the Black Stone"
+    },
+    {
+      "id": "thawb",
+      "ar": "ثَوْبٌ",
+      "en": "a cloth"
+    },
+    {
+      "id": "makka",
+      "ar": "مَكَّةُ",
+      "en": "Makkah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Why did Khadijah want to marry him?",
+      "opts": [
+        [
+          "",
+          "His honesty and good character",
+          1
+        ],
+        [
+          "",
+          "His money",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "How many daughters did they have?",
+      "opts": [
+        [
+          "",
+          "Two",
+          0
+        ],
+        [
+          "",
+          "Four",
+          1
+        ],
+        [
+          "",
+          "Six",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did he use to lift the Black Stone?",
+      "opts": [
+        [
+          "",
+          "A piece of cloth",
+          1
+        ],
+        [
+          "",
+          "A rope",
+          0
+        ],
+        [
+          "",
+          "A cart",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Every tribe got a share of the honour of lifting the stone.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "When two friends argue, how could you help, like the Prophet ﷺ did with the Black Stone?",
+    "a": "Find a fair way where everyone shares — and everyone is happy."
+  },
+  "parents": {
+    "summary": "He led Lady Khadijah's trade, married her, and at 35 solved the Black Stone dispute fairly with a cloth all the chiefs lifted.",
+    "try": {
+      "ar": "الحَجَرُ الأَسْوَدُ",
+      "translit": "al-ḥajar al-aswad",
+      "en": "the Black Stone"
+    },
+    "tip": "Act out the Black Stone story with a tea towel and a ball."
+  }
+}

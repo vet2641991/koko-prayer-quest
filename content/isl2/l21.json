@@ -1,0 +1,155 @@
+{
+  "id": "isl2-l21",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 21. Exercises reused from the lesson.",
+  "title": {
+    "ar": "قَالَ النَّبِيُّ ﷺ",
+    "en": "Said the Prophet ﷺ"
+  },
+  "topic": "Four hadiths on salah, zakah, fasting and hajj",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "“Allah does not accept a salah without purification, or charity from money obtained by fraud.” (Muslim) — make wudu carefully and be honest with money.",
+      "title": "Clean prayer, clean money"
+    },
+    {
+      "en": "Whoever does not pay the zakah on his wealth will meet it on the Day of Resurrection as a fearsome snake saying “I am your wealth!” (Al-Bukhari) — zakah keeps money clean and helps people in need.",
+      "title": "Zakah is the right of the poor"
+    },
+    {
+      "en": "Every good deed is rewarded 10 to 700 times, but fasting is for Allah and He rewards it Himself. The fasting person has two joys: at iftar, and on meeting his Lord. (Muslim)",
+      "title": "Fasting is for Allah"
+    },
+    {
+      "en": "“A blessed pilgrimage has no reward but Paradise.” (Al-Bukhari) — a blessed hajj is done the Prophet's ﷺ way, with good manners and no anger.",
+      "title": "A blessed hajj"
+    },
+    {
+      "en": "“Nor does he speak from his own inclination. It is not but a revelation revealed.” (Qur'an 53:3-4)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "hadith",
+      "ar": "حَدِيثٌ",
+      "en": "a hadith (saying of the Prophet ﷺ)"
+    },
+    {
+      "id": "tahara",
+      "ar": "الطَّهَارَةُ",
+      "en": "purity"
+    },
+    {
+      "id": "sadaqa",
+      "ar": "صَدَقَةٌ",
+      "en": "charity"
+    },
+    {
+      "id": "iftar",
+      "ar": "الإِفْطَارُ",
+      "en": "breaking the fast"
+    },
+    {
+      "id": "janna",
+      "ar": "الجَنَّةُ",
+      "en": "Paradise"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Allah does not accept salah without…",
+      "opts": [
+        [
+          "",
+          "purification (wudu)",
+          1
+        ],
+        [
+          "",
+          "a new prayer mat",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Charity must come from…",
+      "opts": [
+        [
+          "",
+          "honest money",
+          1
+        ],
+        [
+          "",
+          "any money",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Good deeds are multiplied up to…",
+      "opts": [
+        [
+          "",
+          "700 times",
+          1
+        ],
+        [
+          "",
+          "2 times",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The reward of a blessed hajj is…",
+      "opts": [
+        [
+          "",
+          "Paradise",
+          1
+        ],
+        [
+          "",
+          "a certificate",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A fasting person has two joys.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which of the four hadiths will you remember most, and why?",
+    "a": "Each one teaches us to worship Allah the right way."
+  },
+  "parents": {
+    "summary": "Four hadiths: no salah without purity, the warning for unpaid zakah, the special reward of fasting, and Paradise for a blessed hajj.",
+    "try": {
+      "ar": "قَالَ النَّبِيُّ ﷺ",
+      "translit": "qāla n-nabiyyu ﷺ",
+      "en": "The Prophet ﷺ said"
+    },
+    "tip": "Learn one hadith's meaning per week and share it at dinner."
+  }
+}

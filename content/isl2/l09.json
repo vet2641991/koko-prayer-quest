@@ -1,0 +1,180 @@
+{
+  "id": "isl2-l09",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 9. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "أَرْكَانُ الإِسْلَامِ",
+    "en": "The five pillars of Islam"
+  },
+  "topic": "A building with five pillars stands firm",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Islam is built on five pillars: five duties every Muslim must do.",
+      "title": "Five pillars",
+      "ar": "أَرْكَانُ الإِسْلَامِ",
+      "tr": "arkān al-islām"
+    },
+    {
+      "en": "1. Ash-Shahadah: there is no god worthy of worship but Allah, and Muhammad is His Messenger.",
+      "title": "The Shahadah",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ، مُحَمَّدٌ رَسُولُ اللهِ",
+      "tr": "Lā ilāha illa-llāh, Muḥammadun rasūlu-llāh"
+    },
+    {
+      "en": "2. Salah: praying five times every day. 3. Zakah: rich Muslims give to the poor and needy.",
+      "title": "Salah and Zakah"
+    },
+    {
+      "en": "4. Sawm: fasting in Ramadan. 5. Hajj: visiting the Ka'bah once in a lifetime, for those who are able.",
+      "title": "Sawm and Hajj"
+    },
+    {
+      "en": "A building with five strong pillars stands firm. If Muslims do these five things well, Islam stays firm.",
+      "title": "Standing firm"
+    },
+    {
+      "en": "“And establish prayer and give zakah and bow with those who bow.” (Qur'an 2:43)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "shahada",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ، مُحَمَّدٌ رَسُولُ اللهِ",
+      "en": "The Shahadah: no god but Allah, Muhammad is His Messenger",
+      "tr": "Lā ilāha illa-llāh, Muḥammadun rasūlu-llāh",
+      "sacred": true
+    },
+    {
+      "id": "salah",
+      "ar": "الصَّلَاةُ",
+      "en": "prayer"
+    },
+    {
+      "id": "zakah",
+      "ar": "الزَّكَاةُ",
+      "en": "giving to the needy"
+    },
+    {
+      "id": "sawm",
+      "ar": "الصَّوْمُ",
+      "en": "fasting"
+    },
+    {
+      "id": "hajj",
+      "ar": "الحَجُّ",
+      "en": "pilgrimage"
+    }
+  ],
+  "order": {
+    "en": "Put the five pillars in order",
+    "ids": [
+      "shahada",
+      "salah",
+      "zakah",
+      "sawm",
+      "hajj"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Praying five times a day is…",
+      "opts": [
+        [
+          "",
+          "Salah",
+          1
+        ],
+        [
+          "",
+          "Hajj",
+          0
+        ],
+        [
+          "",
+          "Sawm",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Giving money to those who need it is…",
+      "opts": [
+        [
+          "",
+          "Zakah",
+          1
+        ],
+        [
+          "",
+          "Salah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Fasting in the month of Ramadan is…",
+      "opts": [
+        [
+          "",
+          "Sawm",
+          1
+        ],
+        [
+          "",
+          "Zakah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Visiting the Ka'bah is…",
+      "opts": [
+        [
+          "",
+          "Hajj",
+          1
+        ],
+        [
+          "",
+          "Shahadah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Saying lā ilāha illa-llāh, Muḥammadun rasūlu-llāh is…",
+      "opts": [
+        [
+          "",
+          "the Shahadah",
+          1
+        ],
+        [
+          "",
+          "Hajj",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Which of the five pillars can you do already, and which will you do when you are older?",
+    "a": "The Shahadah and salah now; fasting a little; zakah and Hajj when you are able."
+  },
+  "parents": {
+    "summary": "The five pillars: Shahadah, Salah, Zakah, Sawm (Ramadan), Hajj — like five pillars holding up a building.",
+    "try": {
+      "ar": "أَرْكَانُ الإِسْلَامِ",
+      "translit": "arkān al-islām",
+      "en": "the pillars of Islam"
+    },
+    "tip": "Build a little house with 5 pillars from blocks and label them."
+  }
+}

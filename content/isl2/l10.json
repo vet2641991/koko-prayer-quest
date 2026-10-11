@@ -1,0 +1,183 @@
+{
+  "id": "isl2-l10",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 10. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "الصَّلَوَاتُ الخَمْسُ",
+    "en": "The five daily prayers (1)"
+  },
+  "topic": "Like a river that washes us five times a day",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Five times a day the mu'adh-dhin calls Muslims to worship Allah alone. We pray facing the qiblah — the Ka'bah in Makkah.",
+      "title": "The call to prayer",
+      "ar": "المُؤَذِّنُ",
+      "tr": "al-muʾadhdhin"
+    },
+    {
+      "en": "We can pray alone or together in jama'ah (congregation) — in the masjid, at home, at work or even in a garden.",
+      "title": "Anywhere"
+    },
+    {
+      "en": "The Prophet ﷺ asked: if a river ran by your door and you washed in it five times a day, would any dirt remain? That is like the five prayers, which wipe away sins.",
+      "title": "A river at your door"
+    },
+    {
+      "en": "Walking to the masjid, every step adds a good deed and erases a bad one. Praying in jama'ah is 27 times better than praying alone!",
+      "title": "Every step counts"
+    },
+    {
+      "en": "The five prayers: Fajr (dawn), Dhuhr (midday), Asr (afternoon), Maghrib (sunset) and Isha (night). Try to always pray on time.",
+      "title": "Five prayers"
+    },
+    {
+      "en": "“Indeed, prayer prohibits immorality and wrongdoing.” (Qur'an 29:45)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "fajr",
+      "ar": "الفَجْرُ",
+      "en": "Fajr (dawn)"
+    },
+    {
+      "id": "dhuhr",
+      "ar": "الظُّهْرُ",
+      "en": "Dhuhr (midday)"
+    },
+    {
+      "id": "asr",
+      "ar": "العَصْرُ",
+      "en": "Asr (afternoon)"
+    },
+    {
+      "id": "maghrib",
+      "ar": "المَغْرِبُ",
+      "en": "Maghrib (sunset)"
+    },
+    {
+      "id": "isha",
+      "ar": "العِشَاءُ",
+      "en": "Isha (night)"
+    },
+    {
+      "id": "jamaa",
+      "ar": "الجَمَاعَةُ",
+      "en": "the congregation"
+    }
+  ],
+  "order": {
+    "en": "Put the five prayers in order through the day",
+    "ids": [
+      "fajr",
+      "dhuhr",
+      "asr",
+      "maghrib",
+      "isha"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Maghrib is prayed at…",
+      "opts": [
+        [
+          "",
+          "sunset",
+          1
+        ],
+        [
+          "",
+          "dawn",
+          0
+        ],
+        [
+          "",
+          "midday",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Fajr is prayed at…",
+      "opts": [
+        [
+          "",
+          "dawn",
+          1
+        ],
+        [
+          "",
+          "night",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Praying in jama'ah is better than praying alone by…",
+      "opts": [
+        [
+          "",
+          "27 times",
+          1
+        ],
+        [
+          "",
+          "2 times",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Each step to the masjid adds a good deed.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We can only pray inside a masjid.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "The five prayers are like washing in a river five times a day. How do you feel after you pray?",
+    "a": "Clean, calm and close to Allah."
+  },
+  "parents": {
+    "summary": "The five daily prayers wash away sins like a river; praying in jama'ah is 27 times better; Fajr, Dhuhr, Asr, Maghrib, Isha.",
+    "try": {
+      "ar": "الصَّلَاةُ",
+      "translit": "aṣ-ṣalāh",
+      "en": "prayer"
+    },
+    "tip": "Pray one prayer together as a family jama'ah today."
+  }
+}

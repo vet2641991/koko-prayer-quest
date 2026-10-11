@@ -1,0 +1,168 @@
+{
+  "id": "isl2-l02",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 2. Exercises reused from the lesson.",
+  "title": {
+    "ar": "اللهُ وَاحِدٌ",
+    "en": "Allah is the Creator (2)"
+  },
+  "topic": "One and Alone, and in need of nothing",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah is One and Alone. He has no partner, no adviser and no helper. He created everything alone.",
+      "title": "One and Alone",
+      "ar": "اللهُ وَاحِدٌ",
+      "tr": "Allāhu wāḥid"
+    },
+    {
+      "en": "It is Allah who holds the sky up and keeps the earth in its place. He created seven heavens, one above another.",
+      "title": "Holding the sky"
+    },
+    {
+      "en": "He gives food but does not need food. He protects but does not need protecting. Every creature needs Him.",
+      "title": "He needs nothing"
+    },
+    {
+      "en": "Day and night, ships on the sea, rain from the sky — these are signs for people who think.",
+      "title": "Signs for thinkers"
+    },
+    {
+      "en": "Everything we have is from Allah, so we worship Him alone and ask only Him for help.",
+      "title": "Ask only Allah"
+    },
+    {
+      "en": "“His command is only when He intends a thing that He says to it, ‘Be,’ and it is.” (Qur'an 36:82)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "wahid",
+      "ar": "وَاحِدٌ",
+      "en": "one"
+    },
+    {
+      "id": "layl",
+      "ar": "اللَّيْلُ",
+      "en": "the night"
+    },
+    {
+      "id": "nahar",
+      "ar": "النَّهَارُ",
+      "en": "the day"
+    },
+    {
+      "id": "matar",
+      "ar": "المَطَرُ",
+      "en": "the rain"
+    },
+    {
+      "id": "safina",
+      "ar": "سَفِينَةٌ",
+      "en": "a ship"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Allah has a partner who helps Him.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Allah needs food just like us.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Everyone in the heavens and the earth needs Allah's help.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "How many heavens did Allah create?",
+      "opts": [
+        [
+          "",
+          "Three",
+          0
+        ],
+        [
+          "",
+          "Seven",
+          1
+        ],
+        [
+          "",
+          "Ten",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who should we ask for help?",
+      "opts": [
+        [
+          "",
+          "Only Allah",
+          1
+        ],
+        [
+          "",
+          "Anyone at all",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Rain, night and day are “signs for people who think”. What do they tell you about Allah?",
+    "a": "That He is powerful, wise and caring — and that He alone runs everything."
+  },
+  "parents": {
+    "summary": "Allah is One, with no partner or helper; He needs nothing, while everything needs Him — so we worship and ask Him alone.",
+    "try": {
+      "ar": "اللهُ وَاحِدٌ",
+      "translit": "Allāhu wāḥid",
+      "en": "Allah is One"
+    },
+    "tip": "Watch the sunset together and talk about it as one of Allah's signs."
+  }
+}

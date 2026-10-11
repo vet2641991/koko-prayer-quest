@@ -1,0 +1,178 @@
+{
+  "id": "isl2-l08",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 8. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "الاِسْتِنْجَاءُ",
+    "en": "Istinjaa: using the toilet"
+  },
+  "topic": "The du'aas, the left foot in and the right foot out",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Before going to the toilet, put aside anything with Allah's name on it, like a ring or a pendant.",
+      "title": "Before you go in"
+    },
+    {
+      "en": "Step in with your left foot first and say the du'aa.",
+      "title": "Left foot in",
+      "ar": "بِسْمِ اللهِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الخُبُثِ وَالخَبَائِثِ",
+      "tr": "Bismi-llāh. Allāhumma innī aʿūdhu bika mina l-khubuthi wa l-khabāʾith"
+    },
+    {
+      "en": "Keep yourself covered from view. Don't talk or answer greetings. If you sneeze, say Alhamdulillah only in your heart.",
+      "title": "Inside"
+    },
+    {
+      "en": "Outdoors, go somewhere out of the way, don't face the qiblah, and never use a stone, the shade of a tree, a public place or a water supply.",
+      "title": "Outdoors"
+    },
+    {
+      "en": "Wash yourself with water using your left hand, then step out with your right foot and say: Ghufranak.",
+      "title": "Right foot out",
+      "ar": "غُفْرَانَكَ",
+      "tr": "Ghufrānak"
+    },
+    {
+      "en": "“Indeed, Allah loves those who are constantly repentant and loves those who purify themselves.” (Qur'an 2:222)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "istinja",
+      "ar": "الاِسْتِنْجَاءُ",
+      "en": "cleaning yourself after the toilet"
+    },
+    {
+      "id": "ma",
+      "ar": "مَاءٌ",
+      "en": "water"
+    },
+    {
+      "id": "yusra",
+      "ar": "اليُسْرَى",
+      "en": "the left"
+    },
+    {
+      "id": "yumna",
+      "ar": "اليُمْنَى",
+      "en": "the right"
+    },
+    {
+      "id": "dua_in",
+      "ar": "بِسْمِ اللهِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الخُبُثِ وَالخَبَائِثِ",
+      "en": "Entering: In the name of Allah. O Allah, I seek protection in You from the devils",
+      "tr": "Bismi-llāh. Allāhumma innī aʿūdhu bika mina l-khubuthi wa l-khabāʾith",
+      "sacred": true
+    },
+    {
+      "id": "ghufranak",
+      "ar": "غُفْرَانَكَ",
+      "en": "Leaving: I seek Your forgiveness",
+      "tr": "Ghufrānak",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "I should enter the toilet with my ___ foot first.",
+      "opts": [
+        [
+          "",
+          "left",
+          1
+        ],
+        [
+          "",
+          "right",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "I should wash up with my ___ hand.",
+      "opts": [
+        [
+          "",
+          "left",
+          1
+        ],
+        [
+          "",
+          "right",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "When I'm finished I say…",
+      "opts": [
+        [
+          "",
+          "Ghufrānak",
+          1
+        ],
+        [
+          "",
+          "Bismillah",
+          0
+        ],
+        [
+          "",
+          "Allahu Akbar",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? I may take a ring with Allah's name into the toilet.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I must not talk while using the toilet.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you say the du'aa for entering the toilet without looking?",
+    "a": "Bismi-llāh. Allāhumma innī aʿūdhu bika mina l-khubuthi wa l-khabāʾith."
+  },
+  "parents": {
+    "summary": "Toilet manners: no item with Allah's name, left foot in with the du'aa, silence, washing with the left hand, right foot out saying Ghufrānak.",
+    "try": {
+      "ar": "غُفْرَانَكَ",
+      "translit": "Ghufrānak",
+      "en": "I seek Your forgiveness"
+    },
+    "tip": "Check together that he says both du'aas this week."
+  }
+}

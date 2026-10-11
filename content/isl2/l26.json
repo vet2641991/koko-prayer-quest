@@ -1,0 +1,157 @@
+{
+  "id": "isl2-l26",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 26. Exercises reused from the lesson.",
+  "title": {
+    "ar": "آدَابُ المَشْيِ",
+    "en": "Manners of walking"
+  },
+  "topic": "Moderate pace, both shoes, courtesy on the way",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "When you leave home, say salam to your family and the du'aa for going out.",
+      "title": "Leaving home",
+      "ar": "بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+      "tr": "Bismi-llāh, tawakkaltu ʿala-llāh, wa lā ḥawla wa lā quwwata illā billāh"
+    },
+    {
+      "en": "Walk upright and humbly — not too fast, not too slow, not showing off. Don't drag your feet or keep looking back.",
+      "title": "Walk well"
+    },
+    {
+      "en": "Wear both shoes or neither — never just one! Keep a pleasant face.",
+      "title": "Both shoes"
+    },
+    {
+      "en": "Don't shout across the road; go closer. Hold the door for someone behind you, and wait for someone hurrying to the lift.",
+      "title": "Courtesy on the way"
+    },
+    {
+      "en": "Use “Thank you”, “Excuse me”, “Sorry” and “Jazak-Allahu khayran” often. Say salam when you come home.",
+      "title": "Kind words"
+    },
+    {
+      "en": "“And be moderate in your pace and lower your voice.” (Qur'an 31:19)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "mashy",
+      "ar": "المَشْيُ",
+      "en": "walking"
+    },
+    {
+      "id": "tariq",
+      "ar": "الطَّرِيقُ",
+      "en": "the road"
+    },
+    {
+      "id": "bab",
+      "ar": "البَابُ",
+      "en": "the door"
+    },
+    {
+      "id": "salam",
+      "ar": "السَّلَامُ عَلَيْكُمْ",
+      "en": "Peace be upon you"
+    },
+    {
+      "id": "jazak",
+      "ar": "جَزَاكَ اللهُ خَيْرًا",
+      "en": "May Allah reward you with good"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "The lift is closing and someone is rushing to it. You…",
+      "opts": [
+        [
+          "",
+          "keep the door open for them",
+          1
+        ],
+        [
+          "",
+          "close it quickly",
+          0
+        ],
+        [
+          "",
+          "point and laugh",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Mum helps you with homework. You…",
+      "opts": [
+        [
+          "",
+          "say: Jazakillahu khayran",
+          1
+        ],
+        [
+          "",
+          "get angry if she makes a mistake",
+          0
+        ],
+        [
+          "",
+          "tell her to finish it herself",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Shouting on the road is good manners.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I should not drag my feet while walking.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Next time you're out, can you hold a door open for someone?",
+    "a": "A small act — and a big smile from them!"
+  },
+  "parents": {
+    "summary": "Walking manners: the leaving-home du'aa, a calm upright walk, both shoes, holding doors, kind words, and salam on returning.",
+    "try": {
+      "ar": "جَزَاكَ اللهُ خَيْرًا",
+      "translit": "jazāka-llāhu khayran",
+      "en": "May Allah reward you with good"
+    },
+    "tip": "Notice and praise him when he holds a door."
+  }
+}

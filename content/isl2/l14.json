@@ -1,0 +1,176 @@
+{
+  "id": "isl2-l14",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 14. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "الأَذَانُ",
+    "en": "The adhan"
+  },
+  "topic": "The call to prayer, phrase by phrase",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Five times a day the mu'adh-dhin calls the adhan. It reminds Muslims that it is time to pray.",
+      "title": "The call to prayer",
+      "ar": "الأَذَانُ",
+      "tr": "al-adhān"
+    },
+    {
+      "en": "When you hear the adhan, put aside what you are doing as soon as you can, and get ready for salah.",
+      "title": "Getting ready"
+    },
+    {
+      "en": "It begins: Allahu Akbar (×4); Ash-hadu an lā ilāha illa-llāh (×2); Ash-hadu anna Muḥammadan rasūlu-llāh (×2).",
+      "title": "The first part"
+    },
+    {
+      "en": "Then: Ḥayya ʿala ṣ-ṣalāh (×2) — hasten to prayer; Ḥayya ʿala l-falāḥ (×2) — hasten to success; Allahu Akbar (×2); Lā ilāha illa-llāh.",
+      "title": "The second part"
+    },
+    {
+      "en": "“When the adhan is called for the prayer on the day of Jumu'ah, then proceed to the remembrance of Allah.” (Qur'an 62:9)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "takbir",
+      "ar": "اللهُ أَكْبَرُ",
+      "en": "Allah is the Greatest",
+      "tr": "Allāhu akbar",
+      "sacred": true
+    },
+    {
+      "id": "shahada1",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ",
+      "en": "I testify that there is no god but Allah",
+      "tr": "Ash-hadu an lā ilāha illa-llāh",
+      "sacred": true
+    },
+    {
+      "id": "shahada2",
+      "ar": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+      "en": "I testify that Muhammad is the Messenger of Allah",
+      "tr": "Ash-hadu anna Muḥammadan rasūlu-llāh",
+      "sacred": true
+    },
+    {
+      "id": "hayya_salah",
+      "ar": "حَيَّ عَلَى الصَّلَاةِ",
+      "en": "Hasten to the prayer",
+      "tr": "Ḥayya ʿala ṣ-ṣalāh",
+      "sacred": true
+    },
+    {
+      "id": "hayya_falah",
+      "ar": "حَيَّ عَلَى الفَلَاحِ",
+      "en": "Hasten to success",
+      "tr": "Ḥayya ʿala l-falāḥ",
+      "sacred": true
+    },
+    {
+      "id": "tahlil",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "en": "There is no god but Allah",
+      "tr": "Lā ilāha illa-llāh",
+      "sacred": true
+    }
+  ],
+  "order": {
+    "en": "Put the phrases of the adhan in order",
+    "ids": [
+      "takbir",
+      "shahada1",
+      "shahada2",
+      "hayya_salah",
+      "hayya_falah",
+      "tahlil"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Who calls the adhan?",
+      "opts": [
+        [
+          "",
+          "The mu'adh-dhin",
+          1
+        ],
+        [
+          "",
+          "The imam's son",
+          0
+        ],
+        [
+          "",
+          "Anyone in the street",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "“Ḥayya ʿala l-falāḥ” means…",
+      "opts": [
+        [
+          "",
+          "Hasten to success",
+          1
+        ],
+        [
+          "",
+          "Allah is the Greatest",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "How does the adhan end?",
+      "opts": [
+        [
+          "",
+          "Lā ilāha illa-llāh",
+          1
+        ],
+        [
+          "",
+          "Allahu Akbar",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? When you hear the adhan, you should get ready for salah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "When you hear the adhan, what will you stop doing to get ready for salah?",
+    "a": "Pause the game or the screen, make wudu, and go to pray!"
+  },
+  "parents": {
+    "summary": "The adhan calls to prayer five times a day: Allāhu akbar, the two shahadas, ḥayya ʿala ṣ-ṣalāh, ḥayya ʿala l-falāḥ, Allāhu akbar, lā ilāha illa-llāh.",
+    "try": {
+      "ar": "حَيَّ عَلَى الصَّلَاةِ",
+      "translit": "Ḥayya ʿala ṣ-ṣalāh",
+      "en": "Hasten to the prayer"
+    },
+    "tip": "Let him call the adhan at home for one prayer."
+  }
+}

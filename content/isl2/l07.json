@@ -1,0 +1,174 @@
+{
+  "id": "isl2-l07",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 7. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "أَنْبِيَاءُ اللهِ",
+    "en": "The prophets of Allah"
+  },
+  "topic": "From Adam to Muhammad ﷺ",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah does not speak to each of us separately. He makes His will known through His prophets and messengers.",
+      "title": "Through the prophets",
+      "ar": "الأَنْبِيَاءُ",
+      "tr": "al-anbiyāʾ"
+    },
+    {
+      "en": "Allah chooses a person and sends him His message through Angel Jibreel. That person becomes a prophet.",
+      "title": "Chosen by Allah"
+    },
+    {
+      "en": "Allah sent prophets to different peoples at different times. They were noble men who guided people in Allah's name.",
+      "title": "Every nation"
+    },
+    {
+      "en": "The first prophet was Adam. The last prophet is Muhammad ﷺ. Others include Nuh, Ibraheem, Ishaq, Ya'qub, Yusuf, Musa, Haroon, Yunus, Yahya and Isa.",
+      "title": "From Adam to Muhammad ﷺ"
+    },
+    {
+      "en": "“And We certainly sent into every nation a messenger, saying: Worship Allah.” (Qur'an 16:36)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "nabi",
+      "ar": "نَبِيٌّ",
+      "en": "a prophet"
+    },
+    {
+      "id": "adam",
+      "ar": "آدَمُ",
+      "en": "Adam"
+    },
+    {
+      "id": "nuh",
+      "ar": "نُوحٌ",
+      "en": "Nuh (Noah)"
+    },
+    {
+      "id": "ibrahim",
+      "ar": "إِبْرَاهِيمُ",
+      "en": "Ibraheem (Abraham)"
+    },
+    {
+      "id": "musa",
+      "ar": "مُوسَى",
+      "en": "Musa (Moses)"
+    },
+    {
+      "id": "isa",
+      "ar": "عِيسَى",
+      "en": "Isa (Jesus)"
+    },
+    {
+      "id": "muhammad",
+      "ar": "مُحَمَّدٌ ﷺ",
+      "en": "Muhammad ﷺ"
+    }
+  ],
+  "order": {
+    "en": "Put these prophets in order, from first to last",
+    "ids": [
+      "adam",
+      "nuh",
+      "ibrahim",
+      "musa",
+      "isa",
+      "muhammad"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Who was the first prophet?",
+      "opts": [
+        [
+          "",
+          "Adam",
+          1
+        ],
+        [
+          "",
+          "Nuh",
+          0
+        ],
+        [
+          "",
+          "Musa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who is the last prophet?",
+      "opts": [
+        [
+          "",
+          "Isa",
+          0
+        ],
+        [
+          "",
+          "Muhammad ﷺ",
+          1
+        ],
+        [
+          "",
+          "Ibraheem",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "How does Allah make His will known to people?",
+      "opts": [
+        [
+          "",
+          "Through His prophets and messengers",
+          1
+        ],
+        [
+          "",
+          "He tells each person separately",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah sent prophets to different peoples at different times.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which prophet's story do you like most? What did he teach his people?",
+    "a": "Every prophet taught the same thing: worship Allah alone."
+  },
+  "parents": {
+    "summary": "Allah guides people through prophets chosen by Him, from Adam (the first) to Muhammad ﷺ (the last).",
+    "try": {
+      "ar": "نَبِيٌّ",
+      "translit": "nabiyy",
+      "en": "a prophet"
+    },
+    "tip": "Read one prophet's story together each week."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "isl2-l17",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 17. Exercises reused from the lesson; du'aas flagged for review. The surahs themselves are recited with Dr. Hassan; this lesson teaches their meanings.",
+  "title": {
+    "ar": "سُوَرٌ مِنَ القُرْآنِ",
+    "en": "Surahs from the Qur'an"
+  },
+  "topic": "Meanings of Al-Masad, Al-Fil, Quraysh, Al-Ma'un, An-Nasr and Al-Kafirun",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Al-Masad (111): Abu Lahab and his wife hurt the Prophet ﷺ. Being related to good people doesn't save us — only our own faith and deeds.",
+      "title": "Al-Masad",
+      "ar": "سُورَةُ المَسَدِ",
+      "tr": "Sūrat al-Masad"
+    },
+    {
+      "en": "Al-Fil (105): Abraha came with elephants to destroy the Ka'bah; Allah sent birds with stones of baked clay. No one can defeat Allah's plan.",
+      "title": "Al-Fil",
+      "ar": "سُورَةُ الفِيلِ",
+      "tr": "Sūrat al-Fīl"
+    },
+    {
+      "en": "Quraysh (106): Allah made their winter and summer journeys safe and gave them food and safety. We thank Him by worshipping Him alone.",
+      "title": "Quraysh",
+      "ar": "سُورَةُ قُرَيْشٍ",
+      "tr": "Sūrat Quraysh"
+    },
+    {
+      "en": "Al-Ma'un (107): be kind to orphans and the poor, pray on time for Allah — not to show off — and lend small things to neighbours.",
+      "title": "Al-Ma'un",
+      "ar": "سُورَةُ المَاعُونِ",
+      "tr": "Sūrat al-Māʿūn"
+    },
+    {
+      "en": "An-Nasr (110): after Allah's help and victory, people entered Islam in crowds. When we succeed, we praise Allah and ask His forgiveness.",
+      "title": "An-Nasr",
+      "ar": "سُورَةُ النَّصْرِ",
+      "tr": "Sūrat an-Naṣr"
+    },
+    {
+      "en": "Al-Kafirun (109): a Muslim worships Allah alone and never mixes it with anything else. “For you is your religion, and for me is my religion.”",
+      "title": "Al-Kafirun",
+      "ar": "سُورَةُ الكَافِرُونَ",
+      "tr": "Sūrat al-Kāfirūn"
+    }
+  ],
+  "words": [
+    {
+      "id": "masad",
+      "ar": "المَسَدُ",
+      "en": "palm fibre (Al-Masad)"
+    },
+    {
+      "id": "fil",
+      "ar": "الفِيلُ",
+      "en": "the elephant (Al-Fil)"
+    },
+    {
+      "id": "quraysh",
+      "ar": "قُرَيْشٌ",
+      "en": "Quraysh"
+    },
+    {
+      "id": "maun",
+      "ar": "المَاعُونُ",
+      "en": "small kindnesses (Al-Ma'un)"
+    },
+    {
+      "id": "nasr",
+      "ar": "النَّصْرُ",
+      "en": "help, victory (An-Nasr)"
+    },
+    {
+      "id": "kafirun",
+      "ar": "الكَافِرُونَ",
+      "en": "the disbelievers (Al-Kafirun)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Which surah tells of birds with stones of baked clay?",
+      "opts": [
+        [
+          "",
+          "Al-Fil",
+          1
+        ],
+        [
+          "",
+          "An-Nasr",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which surah teaches kindness to orphans and lending to neighbours?",
+      "opts": [
+        [
+          "",
+          "Al-Ma'un",
+          1
+        ],
+        [
+          "",
+          "Al-Masad",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which surah ends: “For you is your religion, and for me is my religion”?",
+      "opts": [
+        [
+          "",
+          "Al-Kafirun",
+          1
+        ],
+        [
+          "",
+          "Quraysh",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which surah tells of safe winter and summer journeys?",
+      "opts": [
+        [
+          "",
+          "Quraysh",
+          1
+        ],
+        [
+          "",
+          "Al-Fil",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Being related to good people is enough to save us.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which of these six surahs do you know by heart? Which one will you learn next?",
+    "a": "Revise one with your teacher every day — a little each day!"
+  },
+  "parents": {
+    "summary": "Meanings of six short surahs: Al-Masad, Al-Fil, Quraysh, Al-Ma'un, An-Nasr, Al-Kafirun. The recitation is learnt with Dr. Hassan.",
+    "try": {
+      "ar": "سُورَةُ الفِيلِ",
+      "translit": "Sūrat al-Fīl",
+      "en": "The Elephant"
+    },
+    "tip": "Ask him to explain one surah's meaning to you in his own words."
+  }
+}

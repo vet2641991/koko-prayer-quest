@@ -1,0 +1,170 @@
+{
+  "id": "isl2-l18",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 18. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "مُحَمَّدٌ ﷺ (١)",
+    "en": "Prophet Muhammad ﷺ (1)"
+  },
+  "topic": "His birth, family and childhood",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Prophet ﷺ was born on a Monday in the Year of the Elephant, about 55 days after Abraha's attack.",
+      "title": "A blessed birth"
+    },
+    {
+      "en": "His mother Aminah named him Ahmad after a dream; his grandfather Abdul-Muttalib named him Muhammad, wishing that the whole world would praise him.",
+      "title": "Ahmad and Muhammad",
+      "ar": "أَحْمَدُ — مُحَمَّدٌ",
+      "tr": "Aḥmad — Muḥammad"
+    },
+    {
+      "en": "His father Abdullah, of the Quraysh tribe, died at 25 before he was born. Haleemah Sa'diyyah nursed him for four years, and he tended sheep with other boys.",
+      "title": "With Haleemah"
+    },
+    {
+      "en": "At six he visited relatives in Madinah and learnt to swim! On the way back his mother died at Abwa. His grandfather cared for him until he died, when the Prophet ﷺ was eight.",
+      "title": "Losses in childhood"
+    },
+    {
+      "en": "Then he lived with his uncle Abu Talib. As a boy he never did mischief or quarrelled, and he liked to help his uncle. Allah protected him from all evil.",
+      "title": "A boyhood like no other"
+    },
+    {
+      "en": "“And We have not sent you, O Muhammad, except as a mercy to the worlds.” (Qur'an 21:107)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "amina",
+      "ar": "آمِنَةُ",
+      "en": "Aminah (his mother)"
+    },
+    {
+      "id": "abdullah",
+      "ar": "عَبْدُ اللهِ",
+      "en": "Abdullah (his father)"
+    },
+    {
+      "id": "abdulmuttalib",
+      "ar": "عَبْدُ المُطَّلِبِ",
+      "en": "Abdul-Muttalib (his grandfather)"
+    },
+    {
+      "id": "quraysh",
+      "ar": "قُرَيْشٌ",
+      "en": "Quraysh (his tribe)"
+    },
+    {
+      "id": "halima",
+      "ar": "حَلِيمَةُ",
+      "en": "Haleemah (his nurse)"
+    },
+    {
+      "id": "abutalib",
+      "ar": "أَبُو طَالِبٍ",
+      "en": "Abu Talib (his uncle)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Aminah was the Prophet's ﷺ…",
+      "opts": [
+        [
+          "",
+          "mother",
+          1
+        ],
+        [
+          "",
+          "aunt",
+          0
+        ],
+        [
+          "",
+          "nurse",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Abu Talib was the Prophet's ﷺ…",
+      "opts": [
+        [
+          "",
+          "uncle",
+          1
+        ],
+        [
+          "",
+          "father",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Haleemah was the Prophet's ﷺ…",
+      "opts": [
+        [
+          "",
+          "nurse",
+          1
+        ],
+        [
+          "",
+          "grandmother",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Quraysh was the Prophet's ﷺ…",
+      "opts": [
+        [
+          "",
+          "tribe",
+          1
+        ],
+        [
+          "",
+          "city",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did the Prophet ﷺ learn in Madinah at six?",
+      "opts": [
+        [
+          "",
+          "To swim",
+          1
+        ],
+        [
+          "",
+          "To ride a horse",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "As a boy, the Prophet ﷺ never quarrelled and loved helping his uncle. How can you be like him at home?",
+    "a": "Help without being asked, and stay calm instead of arguing."
+  },
+  "parents": {
+    "summary": "Born in the Year of the Elephant; named Ahmad by Aminah and Muhammad by Abdul-Muttalib; raised by Haleemah, then his grandfather, then his uncle Abu Talib.",
+    "try": {
+      "ar": "مُحَمَّدٌ ﷺ",
+      "translit": "Muḥammad",
+      "en": "Muhammad (the praised one)"
+    },
+    "tip": "Draw the Prophet's ﷺ family tree together."
+  }
+}

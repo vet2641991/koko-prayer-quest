@@ -1,0 +1,147 @@
+{
+  "id": "isl2-l24",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 24. Exercises reused from the lesson.",
+  "title": {
+    "ar": "السَّرِقَةُ",
+    "en": "Stealing — and owning up to mistakes"
+  },
+  "topic": "Never take what isn't yours; admit and correct mistakes",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Stealing is taking someone's things secretly without permission, not meaning to give them back. It is an evil act.",
+      "title": "What is stealing?",
+      "ar": "السَّرِقَةُ",
+      "tr": "as-sariqa"
+    },
+    {
+      "en": "Your classmates' pens, pencils, rubbers and crayons belong to them. Taking them without asking — or by force — is stealing.",
+      "title": "Not mine"
+    },
+    {
+      "en": "Islam's teaching about stealing is very strict (Qur'an 5:38). Never start taking even small things, or it can grow into a bad habit.",
+      "title": "Very serious"
+    },
+    {
+      "en": "We all make mistakes. What is done can't be undone — so tell the truth, admit it, fix it, learn from it and ask Allah's forgiveness.",
+      "title": "Owning up",
+      "ar": "أَسْتَغْفِرُ اللهَ",
+      "tr": "Astaghfiru-llāh"
+    },
+    {
+      "en": "Hiding a mistake with a lie is a second mistake. Owning up gives us courage to obey Allah and His Messenger ﷺ.",
+      "title": "Be brave"
+    }
+  ],
+  "words": [
+    {
+      "id": "sariqa",
+      "ar": "السَّرِقَةُ",
+      "en": "stealing"
+    },
+    {
+      "id": "idhn",
+      "ar": "إِذْنٌ",
+      "en": "permission"
+    },
+    {
+      "id": "sidq",
+      "ar": "الصِّدْقُ",
+      "en": "telling the truth"
+    },
+    {
+      "id": "khata",
+      "ar": "خَطَأٌ",
+      "en": "a mistake"
+    },
+    {
+      "id": "istighfar",
+      "ar": "أَسْتَغْفِرُ اللهَ",
+      "en": "I ask Allah for forgiveness",
+      "tr": "Astaghfiru-llāh",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "You find a pencil on the classroom floor. You…",
+      "opts": [
+        [
+          "",
+          "give it to the teacher or ask whose it is",
+          1
+        ],
+        [
+          "",
+          "keep it quietly",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "You broke something by mistake. The best thing is to…",
+      "opts": [
+        [
+          "",
+          "tell the truth and fix it",
+          1
+        ],
+        [
+          "",
+          "hide it and say nothing",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Taking a classmate's crayon without asking is stealing.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Small things don't matter, so it's OK to take them.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Think of a time you made a mistake. Did you own up? How did it feel afterwards?",
+    "a": "Owning up feels scary at first, but then light and brave — and Allah loves it."
+  },
+  "parents": {
+    "summary": "Stealing is taking without permission — serious in Islam; when we err we admit it, fix it, and say astaghfiru-llāh.",
+    "try": {
+      "ar": "أَسْتَغْفِرُ اللهَ",
+      "translit": "Astaghfiru-llāh",
+      "en": "I ask Allah's forgiveness"
+    },
+    "tip": "Praise honesty more than the mistake — make owning up safe at home."
+  }
+}

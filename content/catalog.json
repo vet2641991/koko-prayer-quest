@@ -457,7 +457,216 @@
       "ar": "الدِّرَاسَاتُ الإِسْلَامِيَّةُ ٢",
       "tint": "#F6EEDB",
       "ink": "#9A7420",
-      "units": []
+      "units": [
+        {
+          "id": "isl2-l01",
+          "n": "1",
+          "ar": "اللهُ الخَالِقُ",
+          "en": "Allah is the Creator (1)",
+          "file": "content/isl2/l01.json"
+        },
+        {
+          "id": "isl2-l02",
+          "n": "2",
+          "ar": "اللهُ وَاحِدٌ",
+          "en": "Allah is the Creator (2)",
+          "file": "content/isl2/l02.json"
+        },
+        {
+          "id": "isl2-l03",
+          "n": "3",
+          "ar": "العَلِيمُ البَصِيرُ",
+          "en": "Allah is All-Knowing, All-Seeing",
+          "file": "content/isl2/l03.json"
+        },
+        {
+          "id": "isl2-l04",
+          "n": "4",
+          "ar": "الإِيمَانُ",
+          "en": "Iman — the faith of a Muslim",
+          "file": "content/isl2/l04.json"
+        },
+        {
+          "id": "isl2-l05",
+          "n": "5",
+          "ar": "المَلَائِكَةُ",
+          "en": "The angels",
+          "file": "content/isl2/l05.json"
+        },
+        {
+          "id": "isl2-l06",
+          "n": "6",
+          "ar": "كُتُبُ اللهِ",
+          "en": "The books of Allah",
+          "file": "content/isl2/l06.json"
+        },
+        {
+          "id": "isl2-l07",
+          "n": "7",
+          "ar": "أَنْبِيَاءُ اللهِ",
+          "en": "The prophets of Allah",
+          "file": "content/isl2/l07.json"
+        },
+        {
+          "id": "isl2-l08",
+          "n": "8",
+          "ar": "الاِسْتِنْجَاءُ",
+          "en": "Istinjaa: using the toilet",
+          "file": "content/isl2/l08.json"
+        },
+        {
+          "id": "isl2-l09",
+          "n": "9",
+          "ar": "أَرْكَانُ الإِسْلَامِ",
+          "en": "The five pillars of Islam",
+          "file": "content/isl2/l09.json"
+        },
+        {
+          "id": "isl2-l10",
+          "n": "10",
+          "ar": "الصَّلَوَاتُ الخَمْسُ",
+          "en": "The five daily prayers (1)",
+          "file": "content/isl2/l10.json"
+        },
+        {
+          "id": "isl2-l11",
+          "n": "11",
+          "ar": "أَوْقَاتُ الصَّلَاةِ",
+          "en": "The five daily prayers (2)",
+          "file": "content/isl2/l11.json"
+        },
+        {
+          "id": "isl2-l12",
+          "n": "12",
+          "ar": "المَسْجِدُ",
+          "en": "The masjid",
+          "file": "content/isl2/l12.json"
+        },
+        {
+          "id": "isl2-l13",
+          "n": "13",
+          "ar": "الوُضُوءُ",
+          "en": "How to perform wudu",
+          "file": "content/isl2/l13.json"
+        },
+        {
+          "id": "isl2-l14",
+          "n": "14",
+          "ar": "الأَذَانُ",
+          "en": "The adhan",
+          "file": "content/isl2/l14.json"
+        },
+        {
+          "id": "isl2-l15",
+          "n": "15",
+          "ar": "التَّشَهُّدُ",
+          "en": "What should I recite? The tashahhud",
+          "file": "content/isl2/l15.json"
+        },
+        {
+          "id": "isl2-l16",
+          "n": "16",
+          "ar": "الذِّكْرُ وَالدُّعَاءُ",
+          "en": "Dhikr and du'aa",
+          "file": "content/isl2/l16.json"
+        },
+        {
+          "id": "isl2-l17",
+          "n": "17",
+          "ar": "سُوَرٌ مِنَ القُرْآنِ",
+          "en": "Surahs from the Qur'an",
+          "file": "content/isl2/l17.json"
+        },
+        {
+          "id": "isl2-l18",
+          "n": "18",
+          "ar": "مُحَمَّدٌ ﷺ (١)",
+          "en": "Prophet Muhammad ﷺ (1)",
+          "file": "content/isl2/l18.json"
+        },
+        {
+          "id": "isl2-l19",
+          "n": "19",
+          "ar": "مُحَمَّدٌ ﷺ (٢)",
+          "en": "Prophet Muhammad ﷺ (2)",
+          "file": "content/isl2/l19.json"
+        },
+        {
+          "id": "isl2-l20",
+          "n": "20",
+          "ar": "مُحَمَّدٌ ﷺ (٣)",
+          "en": "Prophet Muhammad ﷺ (3)",
+          "file": "content/isl2/l20.json"
+        },
+        {
+          "id": "isl2-l21",
+          "n": "21",
+          "ar": "قَالَ النَّبِيُّ ﷺ",
+          "en": "Said the Prophet ﷺ",
+          "file": "content/isl2/l21.json"
+        },
+        {
+          "id": "isl2-l22",
+          "n": "22",
+          "ar": "الدَّرْسُ ٢٢",
+          "en": "Lesson 22 (waiting for the file)"
+        },
+        {
+          "id": "isl2-l23",
+          "n": "23",
+          "ar": "الدَّرْسُ ٢٣",
+          "en": "Lesson 23 (waiting for the file)"
+        },
+        {
+          "id": "isl2-l24",
+          "n": "24",
+          "ar": "السَّرِقَةُ",
+          "en": "Stealing — and owning up to mistakes",
+          "file": "content/isl2/l24.json"
+        },
+        {
+          "id": "isl2-l25",
+          "n": "25",
+          "ar": "آدَابُ الكَلَامِ",
+          "en": "Manners of talking",
+          "file": "content/isl2/l25.json"
+        },
+        {
+          "id": "isl2-l26",
+          "n": "26",
+          "ar": "آدَابُ المَشْيِ",
+          "en": "Manners of walking",
+          "file": "content/isl2/l26.json"
+        },
+        {
+          "id": "isl2-l27",
+          "n": "27",
+          "ar": "الزَّكَاةُ",
+          "en": "Zakah",
+          "file": "content/isl2/l27.json"
+        },
+        {
+          "id": "isl2-l28",
+          "n": "28",
+          "ar": "الصَّوْمُ",
+          "en": "Sawm: fasting",
+          "file": "content/isl2/l28.json"
+        },
+        {
+          "id": "isl2-l29",
+          "n": "29",
+          "ar": "الحَجُّ",
+          "en": "Hajj: the pilgrimage",
+          "file": "content/isl2/l29.json"
+        },
+        {
+          "id": "isl2-l30",
+          "n": "30",
+          "ar": "التَّقْوِيمُ الهِجْرِيُّ",
+          "en": "The Islamic calendar",
+          "file": "content/isl2/l30.json"
+        }
+      ]
     }
   ],
   "start": "ar2-u02"

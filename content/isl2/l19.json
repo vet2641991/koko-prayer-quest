@@ -1,0 +1,157 @@
+{
+  "id": "isl2-l19",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 19. Exercises reused from the lesson.",
+  "title": {
+    "ar": "مُحَمَّدٌ ﷺ (٢)",
+    "en": "Prophet Muhammad ﷺ (2)"
+  },
+  "topic": "As-Sadiq, Al-Ameen: the truthful, the trustworthy",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "At twelve he could not bear to be apart from his uncle, so Abu Talib took him on the caravan to Syria. In Busra a monk recognised him as the Last Prophet.",
+      "title": "The journey to Syria"
+    },
+    {
+      "en": "Allah protected him as he grew up. He stayed away from every bad habit and was the bravest, most truthful and most trustworthy.",
+      "title": "Protected by Allah"
+    },
+    {
+      "en": "As a young man he became a trader. Because he was honest, hardworking and kind, people called him As-Sadiq and Al-Ameen.",
+      "title": "As-Sadiq, Al-Ameen",
+      "ar": "الصَّادِقُ الأَمِينُ",
+      "tr": "aṣ-Ṣādiq al-Amīn"
+    },
+    {
+      "en": "Once a man asked him to wait until he came back to finish a deal — and forgot. Three days later he found the Prophet ﷺ still waiting at the same spot!",
+      "title": "Still waiting"
+    },
+    {
+      "en": "“And indeed, you are of a great moral character.” (Qur'an 68:4)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "sadiq",
+      "ar": "الصَّادِقُ",
+      "en": "the truthful"
+    },
+    {
+      "id": "amin",
+      "ar": "الأَمِينُ",
+      "en": "the trustworthy"
+    },
+    {
+      "id": "tijara",
+      "ar": "التِّجَارَةُ",
+      "en": "trade"
+    },
+    {
+      "id": "qafila",
+      "ar": "القَافِلَةُ",
+      "en": "the caravan"
+    },
+    {
+      "id": "sham",
+      "ar": "الشَّامُ",
+      "en": "Syria (ash-Sham)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "How old was he when he went to Syria with Abu Talib?",
+      "opts": [
+        [
+          "",
+          "Twelve",
+          1
+        ],
+        [
+          "",
+          "Twenty",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Where did the monk recognise him?",
+      "opts": [
+        [
+          "",
+          "Busra",
+          1
+        ],
+        [
+          "",
+          "Makkah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Al-Ameen means…",
+      "opts": [
+        [
+          "",
+          "the trustworthy",
+          1
+        ],
+        [
+          "",
+          "the strong",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "After how many days did the man come back?",
+      "opts": [
+        [
+          "",
+          "Three",
+          1
+        ],
+        [
+          "",
+          "Ten",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet ﷺ became a trader as a young man.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "The Prophet ﷺ kept his promise even when it was hard. Is there a promise you need to keep this week?",
+    "a": "Keeping promises makes people trust you — like Al-Ameen ﷺ."
+  },
+  "parents": {
+    "summary": "The trip to Syria, Allah's protection in his youth, and honest trade that earned him the names As-Sādiq and Al-Amīn.",
+    "try": {
+      "ar": "الأَمِينُ",
+      "translit": "al-Amīn",
+      "en": "the trustworthy"
+    },
+    "tip": "Praise him whenever he keeps a promise: “That's Al-Ameen behaviour!”"
+  }
+}

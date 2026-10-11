@@ -1,0 +1,142 @@
+{
+  "id": "isl2-l27",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 27. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الزَّكَاةُ",
+    "en": "Zakah"
+  },
+  "topic": "Giving purifies our wealth and our hearts",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The first meaning of zakah is purity and cleanliness. Giving part of our wealth to the poor and needy purifies it.",
+      "title": "Purity",
+      "ar": "الزَّكَاةُ",
+      "tr": "az-zakāh"
+    },
+    {
+      "en": "In English it is called alms, poor-due or poor-tax — but “purifying dues” fits best, because giving cleans our wealth and our inner self.",
+      "title": "Purifying dues"
+    },
+    {
+      "en": "A rich person who refuses zakah is selfish and not thankful to Allah, who gave him more than he needs.",
+      "title": "Not selfish"
+    },
+    {
+      "en": "Zakah is a test from Allah, and the third pillar of Islam.",
+      "title": "The third pillar"
+    },
+    {
+      "en": "“Take from their wealth a charity by which you purify them and cause them increase.” (Qur'an 9:103)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "zakah",
+      "ar": "الزَّكَاةُ",
+      "en": "zakah (purifying dues)"
+    },
+    {
+      "id": "faqir",
+      "ar": "فَقِيرٌ",
+      "en": "a poor person"
+    },
+    {
+      "id": "mal",
+      "ar": "المَالُ",
+      "en": "wealth, money"
+    },
+    {
+      "id": "ata",
+      "ar": "العَطَاءُ",
+      "en": "giving"
+    },
+    {
+      "id": "shukr",
+      "ar": "الشُّكْرُ",
+      "en": "thankfulness"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "The first meaning of zakah is…",
+      "opts": [
+        [
+          "",
+          "purity and cleanliness",
+          1
+        ],
+        [
+          "",
+          "food and drink",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Our wealth is purified by…",
+      "opts": [
+        [
+          "",
+          "giving",
+          1
+        ],
+        [
+          "",
+          "keeping it all",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Zakah is the ___ pillar of Islam.",
+      "opts": [
+        [
+          "",
+          "third",
+          1
+        ],
+        [
+          "",
+          "fifth",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Giving purifies our inner self too.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Even before you must pay zakah, how could you give some of your pocket money to someone in need?",
+    "a": "A little sadaqah from your own money is a beautiful start."
+  },
+  "parents": {
+    "summary": "Zakah means purity: giving part of our wealth purifies it and us; refusing it is selfish; it is the third pillar.",
+    "try": {
+      "ar": "الزَّكَاةُ",
+      "translit": "az-zakāh",
+      "en": "purifying dues"
+    },
+    "tip": "Set up a small sadaqah jar for his pocket money."
+  }
+}

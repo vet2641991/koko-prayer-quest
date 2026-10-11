@@ -1,0 +1,180 @@
+{
+  "id": "isl2-l11",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 11. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "أَوْقَاتُ الصَّلَاةِ",
+    "en": "The five daily prayers (2)"
+  },
+  "topic": "Prayer times and rak'ahs",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Fajr: from dawn until sunrise. Dhuhr: from just after midday until a shadow is as long as its object.",
+      "title": "Fajr and Dhuhr"
+    },
+    {
+      "en": "Asr: from then until just before sunset. Maghrib: right after sunset, until the twilight glow disappears. Isha: from then until half the night.",
+      "title": "Asr, Maghrib and Isha"
+    },
+    {
+      "en": "Each prayer must be offered in its time. Use a prayer timetable, or ask Mum and Dad.",
+      "title": "On time"
+    },
+    {
+      "en": "Rak'ahs: Fajr 2, Dhuhr 4, Asr 4, Maghrib 3, Isha 4.",
+      "title": "How many rak'ahs?",
+      "ar": "رَكْعَةٌ",
+      "tr": "rakʿa"
+    },
+    {
+      "en": "A rak'ah: Al-Fatihah standing, another surah (in the first two), ruku', standing up, two sujud with sitting in between.",
+      "title": "What is a rak'ah?"
+    },
+    {
+      "en": "“Indeed, prayer has been decreed upon the believers a decree of specified times.” (Qur'an 4:103)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "raka",
+      "ar": "رَكْعَةٌ",
+      "en": "a rak'ah (unit of prayer)"
+    },
+    {
+      "id": "ruku",
+      "ar": "رُكُوعٌ",
+      "en": "bowing"
+    },
+    {
+      "id": "sujud",
+      "ar": "سُجُودٌ",
+      "en": "prostration"
+    },
+    {
+      "id": "qibla",
+      "ar": "القِبْلَةُ",
+      "en": "the qiblah (direction of the Ka'bah)"
+    },
+    {
+      "id": "adhan",
+      "ar": "الأَذَانُ",
+      "en": "the call to prayer"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Maghrib has ___ rak'ahs.",
+      "opts": [
+        [
+          "",
+          "2",
+          0
+        ],
+        [
+          "",
+          "3",
+          1
+        ],
+        [
+          "",
+          "4",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Fajr has ___ rak'ahs.",
+      "opts": [
+        [
+          "",
+          "2",
+          1
+        ],
+        [
+          "",
+          "3",
+          0
+        ],
+        [
+          "",
+          "4",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Isha has ___ rak'ahs.",
+      "opts": [
+        [
+          "",
+          "2",
+          0
+        ],
+        [
+          "",
+          "3",
+          0
+        ],
+        [
+          "",
+          "4",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "Asr has ___ rak'ahs.",
+      "opts": [
+        [
+          "",
+          "2",
+          0
+        ],
+        [
+          "",
+          "3",
+          0
+        ],
+        [
+          "",
+          "4",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "The time of Fajr lasts until…",
+      "opts": [
+        [
+          "",
+          "sunrise",
+          1
+        ],
+        [
+          "",
+          "midday",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find today's prayer times on a timetable or app with Mum or Dad?",
+    "a": "Write them down and tick each prayer when you pray it on time!"
+  },
+  "parents": {
+    "summary": "Each prayer has its time; rak'ahs: Fajr 2, Dhuhr 4, Asr 4, Maghrib 3, Isha 4; a rak'ah = standing, ruku', sujud.",
+    "try": {
+      "ar": "رَكْعَةٌ",
+      "translit": "rakʿa",
+      "en": "a unit of prayer"
+    },
+    "tip": "Make a prayer chart for the fridge with the times and rak'ahs."
+  }
+}

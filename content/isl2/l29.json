@@ -1,0 +1,138 @@
+{
+  "id": "isl2-l29",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 29. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الحَجُّ",
+    "en": "Hajj: the pilgrimage"
+  },
+  "topic": "The fifth pillar: visiting the Ka'bah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Hajj is the last of the five pillars. Like salah, zakah and sawm, it shapes our lives to submit fully to Allah.",
+      "title": "The fifth pillar",
+      "ar": "الحَجُّ",
+      "tr": "al-ḥajj"
+    },
+    {
+      "en": "Hajj means to set out to visit the Ka'bah, the House of Allah in Makkah.",
+      "title": "To the Ka'bah"
+    },
+    {
+      "en": "Hajj goes back to the life of Prophet Ibraheem — a wonderful story you will learn about in the coming years, insha'Allah!",
+      "title": "Ibraheem's story"
+    },
+    {
+      "en": "“And due to Allah from the people is a pilgrimage to the House — for whoever is able to find thereto a way.” (Qur'an 3:97)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "hajj",
+      "ar": "الحَجُّ",
+      "en": "the pilgrimage"
+    },
+    {
+      "id": "kaba",
+      "ar": "الكَعْبَةُ",
+      "en": "the Ka'bah"
+    },
+    {
+      "id": "bayt",
+      "ar": "بَيْتُ اللهِ",
+      "en": "the House of Allah"
+    },
+    {
+      "id": "hajj_person",
+      "ar": "حَاجٌّ",
+      "en": "a pilgrim"
+    },
+    {
+      "id": "ibrahim",
+      "ar": "إِبْرَاهِيمُ",
+      "en": "Ibraheem"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Hajj means to visit the ___ in Makkah.",
+      "opts": [
+        [
+          "",
+          "Ka'bah",
+          1
+        ],
+        [
+          "",
+          "market",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Hajj is a ___ of Islam.",
+      "opts": [
+        [
+          "",
+          "pillar",
+          1
+        ],
+        [
+          "",
+          "game",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Hajj goes back to the life of Prophet…",
+      "opts": [
+        [
+          "",
+          "Ibraheem",
+          1
+        ],
+        [
+          "",
+          "Yunus",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Every Muslim who is able should do hajj once in life.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "If you could go to Makkah one day, what would you most like to see?",
+    "a": "The Ka'bah, the Black Stone, Zamzam… make du'aa to go one day!"
+  },
+  "parents": {
+    "summary": "Hajj, the fifth pillar: visiting the Ka'bah, House of Allah, once in life for those able; rooted in Prophet Ibraheem's story.",
+    "try": {
+      "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ",
+      "translit": "Labbayka-llāhumma labbayk",
+      "en": "Here I am, O Allah, here I am"
+    },
+    "tip": "Watch a short clip of the Ka'bah together and talk about it."
+  }
+}

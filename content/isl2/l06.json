@@ -1,0 +1,189 @@
+{
+  "id": "isl2-l06",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 6. Exercises reused from the lesson.",
+  "title": {
+    "ar": "كُتُبُ اللهِ",
+    "en": "The books of Allah"
+  },
+  "topic": "Wahi, the five books, and the protected Qur'an",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah sent guidance to His prophets. This guidance is called wahi — revelation. Angel Jibreel brought it to them.",
+      "title": "Wahi: revelation",
+      "ar": "الوَحْيُ",
+      "tr": "al-waḥy"
+    },
+    {
+      "en": "The Suhuf were given to Ibraheem, the Zaboor to Dawood, the Tawrah to Musa, the Injeel to Isa, and the Qur'an to Muhammad ﷺ.",
+      "title": "Five books"
+    },
+    {
+      "en": "All these books had the same message: Lā ilāha illa-llāh — there is no god but Allah.",
+      "title": "One message",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "tr": "Lā ilāha illa-llāh"
+    },
+    {
+      "en": "Except for the Qur'an, the other books were lost or changed by people — but we believe Allah once sent them.",
+      "title": "Lost or changed"
+    },
+    {
+      "en": "Allah has protected the Qur'an exactly as it came to our Prophet ﷺ. “Indeed, it is We who sent down the message, and indeed, We will be its guardian.” (Qur'an 15:9)",
+      "title": "The Qur'an is protected"
+    }
+  ],
+  "words": [
+    {
+      "id": "wahy",
+      "ar": "الوَحْيُ",
+      "en": "revelation"
+    },
+    {
+      "id": "suhuf",
+      "ar": "الصُّحُفُ",
+      "en": "the Suhuf (Scrolls)"
+    },
+    {
+      "id": "zabur",
+      "ar": "الزَّبُورُ",
+      "en": "the Zaboor (Psalms)"
+    },
+    {
+      "id": "tawrah",
+      "ar": "التَّوْرَاةُ",
+      "en": "the Tawrah (Torah)"
+    },
+    {
+      "id": "injil",
+      "ar": "الإِنْجِيلُ",
+      "en": "the Injeel (Gospel)"
+    },
+    {
+      "id": "quran",
+      "ar": "القُرْآنُ",
+      "en": "the Qur'an"
+    }
+  ],
+  "order": {
+    "en": "Put the books in the order they were sent",
+    "ids": [
+      "suhuf",
+      "zabur",
+      "tawrah",
+      "injil",
+      "quran"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "The Tawrah was given to Prophet…",
+      "opts": [
+        [
+          "",
+          "Musa",
+          1
+        ],
+        [
+          "",
+          "Isa",
+          0
+        ],
+        [
+          "",
+          "Dawood",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The Injeel was given to Prophet…",
+      "opts": [
+        [
+          "",
+          "Isa",
+          1
+        ],
+        [
+          "",
+          "Ibraheem",
+          0
+        ],
+        [
+          "",
+          "Musa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The Zaboor was given to Prophet…",
+      "opts": [
+        [
+          "",
+          "Dawood",
+          1
+        ],
+        [
+          "",
+          "Muhammad ﷺ",
+          0
+        ],
+        [
+          "",
+          "Musa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "The Suhuf were given to Prophet…",
+      "opts": [
+        [
+          "",
+          "Ibraheem",
+          1
+        ],
+        [
+          "",
+          "Isa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which book has Allah protected in its original form?",
+      "opts": [
+        [
+          "",
+          "The Qur'an",
+          1
+        ],
+        [
+          "",
+          "All of them",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Why is it special that the Qur'an has never changed, not even one letter?",
+    "a": "Because Allah protects it — we read exactly the words Jibreel brought to the Prophet ﷺ."
+  },
+  "parents": {
+    "summary": "Wahi (revelation) came through Jibreel; five books — Suhuf, Zaboor, Tawrah, Injeel, Qur'an — all teaching lā ilāha illa-llāh; only the Qur'an is preserved.",
+    "try": {
+      "ar": "القُرْآنُ",
+      "translit": "al-Qurʾān",
+      "en": "the Qur'an"
+    },
+    "tip": "Make 5 cards (book + prophet) and play a matching game."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "isl2-l15",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 15. Exercises reused from the lesson; du'aas flagged for review.",
+  "title": {
+    "ar": "التَّشَهُّدُ",
+    "en": "What should I recite? The tashahhud"
+  },
+  "topic": "The tashahhud and sending blessings on the Prophet ﷺ",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Prophet ﷺ taught his companions the tashahhud as carefully as he taught them a surah of the Qur'an. We say it while sitting in the prayer.",
+      "title": "The tashahhud",
+      "ar": "التَّشَهُّدُ",
+      "tr": "at-tashahhud"
+    },
+    {
+      "en": "“All good wishes, prayers and good words are for Allah. Peace be on you, O Prophet, and Allah's mercy and blessings. Peace be on us and on Allah's righteous servants. I bear witness there is no god but Allah, and that Muhammad is His servant and Messenger.”",
+      "title": "Its meaning",
+      "ar": "التَّحِيَّاتُ لِلهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt, as-salāmu ʿalayka ayyuha n-nabiyyu wa raḥmatu-llāhi wa barakātuh, as-salāmu ʿalaynā wa ʿalā ʿibādi-llāhi ṣ-ṣāliḥīn, ash-hadu allā ilāha illa-llāh, wa ash-hadu anna Muḥammadan ʿabduhū wa rasūluh"
+    },
+    {
+      "en": "Before ending the prayer we send blessings on the Prophet ﷺ: “O Allah, bless Muhammad and his family as You blessed Ibraheem and his family; You are Most Praised, Most Glorious.”",
+      "title": "Blessings on the Prophet ﷺ",
+      "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "tr": "Allāhumma ṣalli ʿalā Muḥammad wa ʿalā āli Muḥammad, kamā ṣallayta ʿalā Ibrāhīm wa ʿalā āli Ibrāhīm, innaka ḥamīdun majīd…"
+    },
+    {
+      "en": "“Indeed, Allah confers blessing upon the Prophet, and His angels. O you who have believed, ask Allah to confer blessing upon him and ask Allah to grant him peace.” (Qur'an 33:56)",
+      "title": "From the Qur'an"
+    },
+    {
+      "en": "Practise: pray two rak'ahs in front of your teacher, saying everything out loud so he can check it.",
+      "title": "Practise with your teacher"
+    }
+  ],
+  "words": [
+    {
+      "id": "tashahhud",
+      "ar": "التَّحِيَّاتُ لِلهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "en": "The tashahhud (said while sitting in prayer)",
+      "tr": "At-taḥiyyātu lillāh…",
+      "sacred": true
+    },
+    {
+      "id": "salawat",
+      "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "en": "Sending blessings on the Prophet ﷺ (aṣ-ṣalāt al-Ibrāhīmiyya)",
+      "tr": "Allāhumma ṣalli ʿalā Muḥammad…",
+      "sacred": true
+    }
+  ],
+  "quiz": [
+    {
+      "en": "When do we say the tashahhud?",
+      "opts": [
+        [
+          "",
+          "While sitting in the prayer",
+          1
+        ],
+        [
+          "",
+          "While bowing",
+          0
+        ],
+        [
+          "",
+          "Before wudu",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Before ending the prayer we send blessings on…",
+      "opts": [
+        [
+          "",
+          "the Prophet ﷺ and his family",
+          1
+        ],
+        [
+          "",
+          "nobody",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet ﷺ taught the tashahhud as carefully as a surah of the Qur'an.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which part of the prayer do you find hardest to remember? Let's practise it together.",
+    "a": "Say it slowly with Mum, Dad or your teacher until it feels easy."
+  },
+  "parents": {
+    "summary": "The tashahhud (said while sitting) and the blessings on the Prophet ﷺ before the salām. Both should be checked by the teacher.",
+    "try": {
+      "ar": "التَّشَهُّدُ",
+      "translit": "at-tashahhud",
+      "en": "the tashahhud"
+    },
+    "tip": "Recite the tashahhud together slowly, one line a day."
+  }
+}

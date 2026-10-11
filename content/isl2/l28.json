@@ -1,0 +1,180 @@
+{
+  "id": "isl2-l28",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 28. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الصَّوْمُ",
+    "en": "Sawm: fasting"
+  },
+  "topic": "The fourth pillar: from dawn to sunset in Ramadan",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Sawm means not eating or drinking from dawn to sunset. Fasting in Ramadan is the fourth pillar of Islam.",
+      "title": "What is sawm?",
+      "ar": "الصَّوْمُ",
+      "tr": "aṣ-ṣawm"
+    },
+    {
+      "en": "Ramadan is the ninth month of the Islamic calendar. The fast starts the day after the new moon of Ramadan is seen.",
+      "title": "The new moon"
+    },
+    {
+      "en": "As soon as the sun sets, we break the fast. This is called iftar.",
+      "title": "Iftar",
+      "ar": "الإِفْطَارُ",
+      "tr": "al-ifṭār"
+    },
+    {
+      "en": "“O you who have believed, decreed upon you is fasting as it was decreed upon those before you, that you may become righteous.” (Qur'an 2:183)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "sawm",
+      "ar": "الصَّوْمُ",
+      "en": "fasting"
+    },
+    {
+      "id": "ramadan",
+      "ar": "رَمَضَانُ",
+      "en": "Ramadan"
+    },
+    {
+      "id": "hilal",
+      "ar": "الهِلَالُ",
+      "en": "the new moon"
+    },
+    {
+      "id": "iftar",
+      "ar": "الإِفْطَارُ",
+      "en": "breaking the fast"
+    },
+    {
+      "id": "suhur",
+      "ar": "السَّحُورُ",
+      "en": "the pre-dawn meal"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Sawm means…",
+      "opts": [
+        [
+          "",
+          "fasting in Ramadan",
+          1
+        ],
+        [
+          "",
+          "visiting the Ka'bah",
+          0
+        ],
+        [
+          "",
+          "praying five times",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Sawm is the ___ pillar of Islam.",
+      "opts": [
+        [
+          "",
+          "second",
+          0
+        ],
+        [
+          "",
+          "third",
+          0
+        ],
+        [
+          "",
+          "fourth",
+          1
+        ]
+      ]
+    },
+    {
+      "en": "While fasting, we don't eat or drink during…",
+      "opts": [
+        [
+          "",
+          "the daytime",
+          1
+        ],
+        [
+          "",
+          "the night",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Ramadan is the ___ month of the Islamic calendar.",
+      "opts": [
+        [
+          "",
+          "ninth",
+          1
+        ],
+        [
+          "",
+          "first",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Iftar means…",
+      "opts": [
+        [
+          "",
+          "breaking the fast",
+          1
+        ],
+        [
+          "",
+          "breaking wudu",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The fast begins the day after the new moon of Ramadan is seen.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Could you try fasting for half a day this Ramadan? What would help you?",
+    "a": "A good suhur, keeping busy, and lots of du'aa!"
+  },
+  "parents": {
+    "summary": "Sawm: no food or drink from dawn to sunset in Ramadan (the 9th month); it starts after the new moon; we break it at iftar.",
+    "try": {
+      "ar": "رَمَضَانُ كَرِيمٌ",
+      "translit": "Ramaḍānu karīm",
+      "en": "Ramadan is generous (a Ramadan greeting)"
+    },
+    "tip": "Let him help prepare the family iftar."
+  }
+}
