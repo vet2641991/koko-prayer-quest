@@ -79,10 +79,25 @@ function play(src) {
     player.src = src; player.play().catch(() => res(false));
   });
 }
-async function playSeq(srcs) { const t = ++audioToken; for (const s of srcs) { if (t !== audioToken) return; await play(s); await new Promise(r => setTimeout(r, 250)); } }
+// English meanings are spoken by the device's own voice (free, unlimited); Arabic always uses the recorded Google AI Studio clips.
+let enVoice = null;
+function pickVoice() { const v = (speechSynthesis.getVoices ? speechSynthesis.getVoices() : []).filter(x => /^en[-_]/i.test(x.lang));
+  enVoice = v.find(x => /female|samantha|zira|google uk english female|aria|jenny/i.test(x.name)) || v.find(x => /en[-_](GB|US)/i.test(x.lang)) || v[0] || null; }
+if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+function speakEn(text) {
+  return new Promise(res => {
+    if (!('speechSynthesis' in window) || !text) return res(false);
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text); u.lang = 'en-GB'; u.rate = .9; u.pitch = 1.05; if (enVoice) u.voice = enVoice;
+    u.onend = () => res(true); u.onerror = () => res(false); speechSynthesis.speak(u);
+    setTimeout(() => res(false), 8000);
+  });
+}
+async function playSeq(items) { const t = ++audioToken; if ('speechSynthesis' in window) speechSynthesis.cancel();
+  for (const s of items) { if (t !== audioToken) return; if (s && typeof s === 'object') await speakEn(s.en); else await play(s); await new Promise(r => setTimeout(r, 250)); } }
 const aud = (L, name) => `audio/${L.id}/${name}.mp3`;
-const sayWord = (L, w, which = 'both') => playSeq(which === 'ar' ? [aud(L, `w-${w.id}-ar`)] : which === 'en' ? [aud(L, `w-${w.id}-en`)] : [aud(L, `w-${w.id}-ar`), aud(L, `w-${w.id}-en`)]);
-const sayLine = (L, d, which = 'both') => playSeq(which === 'ar' ? [aud(L, `d-${d.id}-ar`)] : [aud(L, `d-${d.id}-ar`), aud(L, `d-${d.id}-en`)]);
+const sayWord = (L, w, which = 'both') => playSeq(which === 'ar' ? [aud(L, `w-${w.id}-ar`)] : which === 'en' ? [{ en: w.en }] : [aud(L, `w-${w.id}-ar`), { en: w.en }]);
+const sayLine = (L, d, which = 'both') => playSeq(which === 'ar' ? [aud(L, `d-${d.id}-ar`)] : [aud(L, `d-${d.id}-ar`), { en: d.en }]);
 let ac;
 function blip(freqs, dur = .12, type = 'triangle') {
   try {
@@ -400,7 +415,7 @@ function move(L, st, head, finish) {
       ${AR(L.move.ar, 'word-ar" style="font-size:30px')}<p style="margin:0;font-size:19px;font-weight:700">${esc(L.move.en)}</p>
       <div class="say"><button id="hm">${ICON.speak}Hear it</button></div></div>
     <button class="btn blue" id="did">I did it!</button></div>`);
-  const hear = () => playSeq([aud(L, 'x-move-ar'), aud(L, 'x-move-en')]);
+  const hear = () => playSeq([aud(L, 'x-move-ar'), { en: L.move.en }]);
   hear(); $('#hm').onclick = hear; $('#did').onclick = () => { sfx.right(); finish(); };
 }
 
@@ -432,7 +447,7 @@ async function review() {
 
 /* ---------- router ---------- */
 async function route() {
-  RT++; audioToken++; player.pause(); bits = [];
+  RT++; audioToken++; player.pause(); bits = []; if ('speechSynthesis' in window) speechSynthesis.cancel();
   const p = location.hash.replace(/^#\/?/, '').split('/');
   try {
     if (p[0] === 'worlds') return worlds();
