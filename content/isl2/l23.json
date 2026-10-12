@@ -1,0 +1,184 @@
+{
+  "id": "isl2-l23",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 23. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الصِّدْقُ",
+    "en": "Truthfulness"
+  },
+  "topic": "Sidq: always telling the truth, no matter what",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Sidq means truthfulness. A sadiq is someone who tells the truth so often that it becomes his habit.",
+      "title": "Sidq",
+      "ar": "الصِّدْقُ — صَادِقٌ",
+      "tr": "aṣ-ṣidq — ṣādiq"
+    },
+    {
+      "en": "Truthfulness means being the same inside and outside: what you believe in private is what you show in public.",
+      "title": "The same inside and out"
+    },
+    {
+      "en": "The Prophet ﷺ was the most truthful of all people. Allah is with those who are truthful.",
+      "title": "The most truthful"
+    },
+    {
+      "en": "Lying is like a drop of black ink: it spreads until it covers everything. The only cure is to stop lying and speak the truth.",
+      "title": "A drop of black ink"
+    },
+    {
+      "en": "Don't talk too much — it can lead to nonsense and lies. Words must be backed up by actions.",
+      "title": "Words and actions"
+    },
+    {
+      "en": "“O you who have believed, fear Allah and be with those who are true.” (Qur'an 9:119)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "sidq",
+      "ar": "الصِّدْقُ",
+      "en": "truthfulness"
+    },
+    {
+      "id": "sadiq",
+      "ar": "صَادِقٌ",
+      "en": "truthful"
+    },
+    {
+      "id": "kadhib",
+      "ar": "الكَذِبُ",
+      "en": "lying"
+    },
+    {
+      "id": "hibr",
+      "ar": "حِبْرٌ",
+      "en": "ink"
+    },
+    {
+      "id": "lisan",
+      "ar": "لِسَانٌ",
+      "en": "tongue"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "You didn't finish your homework. You…",
+      "opts": [
+        [
+          "",
+          "apologise and tell the teacher the truth",
+          1
+        ],
+        [
+          "",
+          "say you were sick",
+          0
+        ],
+        [
+          "",
+          "hide the book",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "You broke a plate and Mum asks who did it. You…",
+      "opts": [
+        [
+          "",
+          "admit it and say sorry",
+          1
+        ],
+        [
+          "",
+          "keep quiet",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Sidq means truthfulness.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? A sadiq always tells lies.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Muhammad ﷺ was the most truthful of all people.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? It is important to admit and correct our mistakes.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you remember a time you told the truth even though it got you into trouble? How did you feel?",
+    "a": "Brave and clean inside — and Allah was with you."
+  },
+  "parents": {
+    "summary": "Sidq: always telling the truth, the same inside and out; lies spread like ink; the Prophet ﷺ was the most truthful.",
+    "try": {
+      "ar": "صَادِقٌ",
+      "translit": "ṣādiq",
+      "en": "truthful"
+    },
+    "tip": "When he tells a hard truth, thank him first — before dealing with the mistake."
+  }
+}

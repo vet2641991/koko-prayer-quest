@@ -1,0 +1,164 @@
+{
+  "id": "isl2-l22",
+  "world": "isl2",
+  "source": "DHM Islamic Studies Level 2 · lesson 22. Exercises reused from the lesson.",
+  "title": {
+    "ar": "الكَذِبُ",
+    "en": "Telling lies"
+  },
+  "topic": "The boy who cried “Tiger!” — and why a lie is always a lie",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "A boy guarding sheep shouted “Help! A tiger!” The villagers ran out with sticks — but there was no tiger, and he laughed at them.",
+      "title": "The boy who cried “Tiger!”"
+    },
+    {
+      "en": "He did it again. Then a real tiger came. “Help!” he shouted — but nobody came. He had lied so often that no one believed him.",
+      "title": "Nobody believes a liar"
+    },
+    {
+      "en": "A lie is a word, sign or action that shows the opposite of the truth, usually to trick others. A liar soon finds he has no true friends.",
+      "title": "What is a lie?",
+      "ar": "الكَذِبُ",
+      "tr": "al-kadhib"
+    },
+    {
+      "en": "A mother called her son: “Come, I'll give you something.” The Prophet ﷺ asked what. “Some dates.” He said: if you give him nothing, it is written as a lie.",
+      "title": "Even small lies"
+    },
+    {
+      "en": "A lie is a lie, however small — even to make people laugh or to escape trouble. Allah dislikes lying.",
+      "title": "A lie is a lie"
+    },
+    {
+      "en": "“They only invent falsehood who do not believe in the verses of Allah.” (Qur'an 16:105)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "kadhib",
+      "ar": "الكَذِبُ",
+      "en": "lying"
+    },
+    {
+      "id": "kadhdhab",
+      "ar": "كَذَّابٌ",
+      "en": "a liar"
+    },
+    {
+      "id": "sidq",
+      "ar": "الصِّدْقُ",
+      "en": "truthfulness"
+    },
+    {
+      "id": "nimr",
+      "ar": "نَمِرٌ",
+      "en": "a tiger"
+    },
+    {
+      "id": "ghanam",
+      "ar": "غَنَمٌ",
+      "en": "sheep"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Why did the villagers not come the last time?",
+      "opts": [
+        [
+          "",
+          "He had lied so often that nobody believed him",
+          1
+        ],
+        [
+          "",
+          "They were asleep",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? I may lie to make people laugh.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? It is OK to lie to keep myself out of trouble.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Allah dislikes telling lies.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We must give up lying and always tell the truth.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Why do you think it is so important that people can believe what you say?",
+    "a": "So they trust you and come when you really need help — like the boy who needed help with the real tiger."
+  },
+  "parents": {
+    "summary": "The boy who cried “Tiger!”: liars lose trust. A lie is a lie, even a small or “funny” one — Allah dislikes lying.",
+    "try": {
+      "ar": "الصِّدْقُ",
+      "translit": "aṣ-ṣidq",
+      "en": "truthfulness"
+    },
+    "tip": "Retell the tiger story together and ask him what the boy should have done."
+  }
+}

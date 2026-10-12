@@ -608,14 +608,16 @@
         {
           "id": "isl2-l22",
           "n": "22",
-          "ar": "الدَّرْسُ ٢٢",
-          "en": "Lesson 22 (waiting for the file)"
+          "ar": "الكَذِبُ",
+          "en": "Telling lies",
+          "file": "content/isl2/l22.json"
         },
         {
           "id": "isl2-l23",
           "n": "23",
-          "ar": "الدَّرْسُ ٢٣",
-          "en": "Lesson 23 (waiting for the file)"
+          "ar": "الصِّدْقُ",
+          "en": "Truthfulness",
+          "file": "content/isl2/l23.json"
         },
         {
           "id": "isl2-l24",

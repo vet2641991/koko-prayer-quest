@@ -543,5 +543,10 @@ async function route() {
 addEventListener('hashchange', route);
 route();
 setInterval(() => { if (!document.hidden && location.hash.startsWith('#/lesson/')) tick(15); }, 15000);
-if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+if ('serviceWorker' in navigator) {
+  addEventListener('load', () => navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(r => r.update()).catch(() => {}));
+  // A new version took over: reload once so Haitham never sees a stale app (progress is in localStorage, so nothing is lost).
+  let had = !!navigator.serviceWorker.controller, reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (had && !reloaded) { reloaded = true; location.reload(); } had = true; });
+}
 })();
