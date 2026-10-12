@@ -1,7 +1,7 @@
 /* Offline support. App shell: network first (so updates arrive), cache as fallback.
    Media and audio: cache first (they never change once published). */
-const SHELL = 'koko-shell-v4', MEDIA = 'koko-media-v2';   // bump MEDIA whenever published audio is re-cut or replaced
-const CORE = ['./', 'index.html', 'app.css?v=4', 'app.js?v=4', 'manifest.webmanifest', 'content/catalog.json',
+const SHELL = 'koko-shell-v5', MEDIA = 'koko-media-v2';   // bump MEDIA whenever published audio is re-cut or replaced
+const CORE = ['./', 'index.html', 'app.css?v=4', 'app.js?v=5', 'manifest.webmanifest', 'content/catalog.json',
   'media/koko-wave.png', 'media/koko-cheer.png', 'media/dhm-logo.png', 'media/icon-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(SHELL).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys()   // drop old app + audio caches so re-cut clips reach every device
