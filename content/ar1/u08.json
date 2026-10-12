@@ -209,5 +209,9 @@
     },
     "tryAudio": "d-d4-ar",
     "tip": "Play hide-and-seek with an object: ask أَيْنَ …؟ and he answers … هُنَا!"
+  },
+  "video": {
+    "src": "media/ar1-u08.mp4",
+    "poster": "media/ar1-u08-poster.jpg"
   }
 }

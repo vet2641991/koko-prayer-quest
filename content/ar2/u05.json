@@ -216,5 +216,9 @@
     },
     "tryAudio": "w-shafak-ar",
     "tip": "Pretend to be sick (“أَنَا مَرِيضٌ”) and let him answer you: شَفَاكَ اللهُ."
+  },
+  "video": {
+    "src": "media/ar2-u05.mp4",
+    "poster": "media/ar2-u05-poster.jpg"
   }
 }

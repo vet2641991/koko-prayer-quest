@@ -244,5 +244,9 @@
       "en": "Do you speak Arabic?"
     },
     "tip": "Ask him هَلْ تَتَكَلَّمُ اللُّغَةَ العَرَبِيَّةَ؟ — he proudly answers نَعَمْ!"
+  },
+  "video": {
+    "src": "media/ar1-u06.mp4",
+    "poster": "media/ar1-u06-poster.jpg"
   }
 }

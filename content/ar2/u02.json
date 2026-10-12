@@ -290,5 +290,9 @@
     },
     "tryAudio": "d-d1-ar",
     "tip": "Line up three toys and ask him the question. Let him be the teacher and answer in Arabic."
+  },
+  "video": {
+    "src": "media/ar2-u02.mp4",
+    "poster": "media/ar2-u02-poster.jpg"
   }
 }

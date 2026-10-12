@@ -142,5 +142,9 @@
     },
     "tryAudio": "w-kayfa-ar",
     "tip": "Greet him every morning with كَيْفَ حَالُكَ؟ — he answers بِخَيْرٍ، وَالحَمْدُ لِلهِ."
+  },
+  "video": {
+    "src": "media/ar1-u03.mp4",
+    "poster": "media/ar1-u03-poster.jpg"
   }
 }

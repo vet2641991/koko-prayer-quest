@@ -219,5 +219,9 @@
       "en": "This is my mother"
     },
     "tip": "Mum: stand next to him and let him introduce you to Koko in Arabic: هَذِهِ وَالِدَتِي."
+  },
+  "video": {
+    "src": "media/ar2-u04.mp4",
+    "poster": "media/ar2-u04-poster.jpg"
   }
 }

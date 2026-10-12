@@ -172,5 +172,9 @@
       "en": "Give me a pen"
     },
     "tip": "Count things together in Arabic today — stairs, grapes, shoes: one to five."
+  },
+  "video": {
+    "src": "media/ar1-u05.mp4",
+    "poster": "media/ar1-u05-poster.jpg"
   }
 }

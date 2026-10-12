@@ -208,5 +208,9 @@
     },
     "tryAudio": "w-jazak-ar",
     "tip": "When he helps at home, thank him with جَزَاكَ اللهُ خَيْرًا — and teach him to say it back."
+  },
+  "video": {
+    "src": "media/ar1-u07.mp4",
+    "poster": "media/ar1-u07-poster.jpg"
   }
 }

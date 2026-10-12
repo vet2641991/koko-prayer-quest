@@ -233,5 +233,9 @@
     },
     "tryAudio": "d-d8-ar",
     "tip": "Ask him his age in Arabic. He should answer: عُمُرِي تِسْعُ سَنَوَاتٍ (I am nine years old)."
+  },
+  "video": {
+    "src": "media/ar2-u01.mp4",
+    "poster": "media/ar2-u01-poster.jpg"
   }
 }

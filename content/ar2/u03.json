@@ -258,5 +258,9 @@
       "en": "Who is first? (about a girl)"
     },
     "tip": "Line up family members and ask him who is first, second, third — using the girls' words for his mum or sisters."
+  },
+  "video": {
+    "src": "media/ar2-u03.mp4",
+    "poster": "media/ar2-u03-poster.jpg"
   }
 }

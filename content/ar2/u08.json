@@ -235,5 +235,9 @@
     },
     "tryAudio": "d-d1-ar",
     "tip": "Every morning this week, ask him: what day is it today? He answers with the Arabic day."
+  },
+  "video": {
+    "src": "media/ar2-u08.mp4",
+    "poster": "media/ar2-u08-poster.jpg"
   }
 }

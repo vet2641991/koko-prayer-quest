@@ -222,5 +222,9 @@
     },
     "tryAudio": "d-d10-ar",
     "tip": "When someone leaves the house today, remind him to say مَعَ السَّلَامَةِ."
+  },
+  "video": {
+    "src": "media/ar2-u07.mp4",
+    "poster": "media/ar2-u07-poster.jpg"
   }
 }

@@ -156,5 +156,9 @@
     },
     "tryAudio": "w-salama-ar",
     "tip": "Mum: let him ask you مَا اسْمُكِ؟ and answer with your name: اِسْمِي …"
+  },
+  "video": {
+    "src": "media/ar1-u02.mp4",
+    "poster": "media/ar1-u02-poster.jpg"
   }
 }

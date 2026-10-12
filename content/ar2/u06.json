@@ -217,5 +217,9 @@
     },
     "tryAudio": "d-d3-ar",
     "tip": "Hold one of his shoes high. He gets it back only when he asks in Arabic: أَعْطِنِي الحِذَاءَ."
+  },
+  "video": {
+    "src": "media/ar2-u06.mp4",
+    "poster": "media/ar2-u06-poster.jpg"
   }
 }

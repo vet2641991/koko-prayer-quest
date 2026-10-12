@@ -172,5 +172,9 @@
     "tryAudio": "w-ma-ar",
     "tip": "Ask your child their name in Arabic. They answer: اِسْمِي … (their name)."
   },
-  "note": "Lines d5, d6 are not in the book: a personal practice line for Haitham."
+  "note": "Lines d5, d6 are not in the book: a personal practice line for Haitham.",
+  "video": {
+    "src": "media/ar1-u01.mp4",
+    "poster": "media/ar1-u01-poster.jpg"
+  }
 }

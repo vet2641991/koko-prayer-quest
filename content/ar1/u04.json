@@ -142,5 +142,9 @@
     },
     "tryAudio": "w-kayfaki-ar",
     "tip": "Mum: when he asks you كَيْفَ حَالُكِ؟, answer بِخَيْرٍ، وَالحَمْدُ لِلهِ — and ask him back."
+  },
+  "video": {
+    "src": "media/ar1-u04.mp4",
+    "poster": "media/ar1-u04-poster.jpg"
   }
 }
