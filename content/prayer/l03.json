@@ -115,5 +115,9 @@
       "en": "Our Lord, all praise is for You"
     },
     "tip": "Say “Samiʿa Llāhu liman ḥamidah” and let him answer “Rabbanā wa laka l-ḥamd”."
+  },
+  "video": {
+    "src": "media/prayer-3.mp4",
+    "poster": "media/prayer-3-poster.jpg"
   }
 }

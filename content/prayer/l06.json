@@ -129,5 +129,9 @@
       "en": "All greetings belong to Allah"
     },
     "tip": "Learn one line of the tashahhud a day together; he can say it to you before bed."
+  },
+  "video": {
+    "src": "media/prayer-6.mp4",
+    "poster": "media/prayer-6-poster.jpg"
   }
 }

@@ -123,5 +123,9 @@
       "en": "Glory be to my Lord, the Most Great"
     },
     "tip": "Ask him to show you rukū‘. Check his back is flat and that he says it three times."
+  },
+  "video": {
+    "src": "media/prayer-2.mp4",
+    "poster": "media/prayer-2-poster.jpg"
   }
 }

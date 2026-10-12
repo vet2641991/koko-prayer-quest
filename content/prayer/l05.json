@@ -117,5 +117,9 @@
       "en": "My Lord, forgive me"
     },
     "tip": "Ask him to do one full rak‘ah for you and name each step in Arabic as he goes."
+  },
+  "video": {
+    "src": "media/prayer-5.mp4",
+    "poster": "media/prayer-5-poster.jpg"
   }
 }
