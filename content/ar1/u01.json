@@ -159,8 +159,8 @@
     "match"
   ],
   "move": {
-    "ar": "صَافِحْ أَحَدًا وَقُلْ: اِسْمِي هَيْثَمُ!",
-    "en": "Shake hands with someone at home and say: My name is Haitham!"
+    "ar": "صَافِحْ أَحَدًا وَقُلِ اسْمَكَ!",
+    "en": "Shake hands with someone at home and say your name: My name is …!"
   },
   "parents": {
     "summary": "Greeting with “as-salāmu ʿalaykum” and saying your name: اِسْمِي هَيْثَمُ (My name is Haitham). Also the sounds ح and ه.",
@@ -170,7 +170,7 @@
       "en": "What is your name?"
     },
     "tryAudio": "w-ma-ar",
-    "tip": "Ask him his name in Arabic. He answers: اِسْمِي هَيْثَمُ."
+    "tip": "Ask your child their name in Arabic. They answer: اِسْمِي … (their name)."
   },
   "note": "Lines d5, d6 are not in the book: a personal practice line for Haitham."
 }

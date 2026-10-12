@@ -1,4 +1,4 @@
-/* Koko's Quest — data-driven learning app for Haitham (DHM Institute).
+/* Koko's Quest — data-driven learning app by DHM Institute (first built for Haitham, now for every child).
    Content lives in content/catalog.json + one JSON per lesson; this file never
    needs editing to add a lesson. Progress is saved on the device only. */
 (() => {
@@ -33,6 +33,9 @@ try { // carry over stars from the first version of the site
   if (old && old.stars && old.stars['1'] && !S.stars['prayer-l01']) S.stars['prayer-l01'] = old.stars['1'];
 } catch (e) {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+const NAME = () => esc(S.name || 'friend');
+const BOOK = 'https://dhm-institute.com/trial-sessions/booking';
+const bookCard = () => `<a class="card cont" href="${BOOK}" target="_blank" rel="noopener" style="text-decoration:none;margin-top:12px;display:flex;gap:12px;align-items:center"><img src="${IMG.logo}" alt="DHM Institute" style="width:54px;height:54px;object-fit:contain"><div><span class="over">Learn live with Dr. Hassan Muslim</span><h2 style="margin:2px 0">Book a free trial class</h2><span style="font-weight:600;opacity:.8">One-to-one online classes · DHM Institute</span></div></a>`;
 const totalStars = () => Object.values(S.stars).reduce((a, b) => a + b, 0);
 const wordKey = (L, w) => `${w.from || L.id}|${w.id}`; // review lessons point words at their home lesson
 function markWord(L, w, ok) {
@@ -64,9 +67,12 @@ const unitById = id => { for (const w of CAT.worlds) for (const u of w.units) if
 const ready = u => !!u.file;
 const done = u => (S.stars[u.id] || 0) > 0;
 function nextUnit() {
-  const order = [CAT.worlds.find(w => w.id === CAT.focus), ...CAT.worlds.filter(w => w.id !== CAT.focus)].filter(Boolean);
+  // catalog "focus"/"start" = Haitham's place in Book 2; every other child begins at "focusNew" (Book 1, unit 1)
+  const isH = /^\s*(haitham|هيثم)\s*$/i.test(S.name || '');
+  const focus = isH ? CAT.focus : (CAT.focusNew || CAT.focus), startId = isH ? CAT.start : null;
+  const order = [CAT.worlds.find(w => w.id === focus), ...CAT.worlds.filter(w => w.id !== focus)].filter(Boolean);
   for (const w of order) {
-    const i = Math.max(0, w.units.findIndex(u => u.id === CAT.start));   // begin where Haitham is, then wrap to earlier units
+    const i = Math.max(0, w.units.findIndex(u => u.id === startId));
     for (const u of [...w.units.slice(i), ...w.units.slice(0, i)]) if (ready(u) && !done(u)) return Object.assign({ world: w }, u);
   }
   return null;
@@ -132,7 +138,7 @@ function nav(on) {
   const it = (h, k, i, t) => `<a href="${h}" class="${on === k ? 'on' : ''}">${ICON[i]}${t}</a>`;
   return `<nav class="nav" aria-label="Main">${it('#/', 'home', 'map', 'Map')}${it('#/worlds', 'worlds', 'globe', 'Worlds')}${it('#/words', 'words', 'book', 'My words')}${it('#/parents', 'parents', 'family', 'Parents')}</nav>`;
 }
-const topbar = () => `<header class="top"><img class="avatar" src="${IMG.wave}" alt="Koko"><div class="hello"><b>Hi, Teacher Haitham!</b><span>Koko is ready to learn from you</span></div><div class="pill" aria-label="Stars">${ICON.star}<span>${totalStars()}</span></div></header>`;
+const topbar = () => `<header class="top"><img class="avatar" src="${IMG.wave}" alt="Koko"><div class="hello"><b>Hi, Teacher ${NAME()}!</b><span>Koko is ready to learn from you</span></div><div class="pill" aria-label="Stars">${ICON.star}<span>${totalStars()}</span></div></header>`;
 const bar = (pct, cls = '') => `<div class="bar ${cls}"><i style="width:${Math.round(pct)}%"></i></div>`;
 function render(html, opts = {}) {
   app.innerHTML = html;
@@ -176,7 +182,7 @@ async function home(worldId) {
   const review = rv.length ? `<a class="card cont" href="#/review" style="text-decoration:none;margin-top:12px"><span class="over">Quick review · 2 min</span><h2>Koko forgot ${rv.length} word${rv.length > 1 ? 's' : ''}. Help him remember!</h2></a>` : '';
   const map = `<div class="sec"><h3>${esc(w.en)}</h3>${AR(w.ar)}</div><div class="path">${w.units.map(u => unitNode(u, cur)).join('') || '<p>Lessons for this world are coming soon.</p>'}</div>`;
   const side = `<aside class="side">${CAT.worlds.map(worldCard).join('')}<a class="tbtn" href="#/parents" style="margin-top:8px">For parents</a></aside>`;
-  render(`<div class="screen home dots">${side}<div>${topbar()}${cont}${review}${map}<footer class="brand"><img src="${IMG.logo}" alt="DHM Institute">Made for Haitham by DHM Institute</footer></div></div>${nav('home')}`);
+  render(`<div class="screen home dots">${side}<div>${topbar()}${cont}${review}${map}${bookCard()}<footer class="brand"><img src="${IMG.logo}" alt="DHM Institute"><a href="https://dhm-institute.com/" target="_blank" rel="noopener" style="color:inherit">By DHM Institute</a></footer></div></div>${nav('home')}`);
 }
 async function worlds() {
   await catalog();
@@ -200,12 +206,12 @@ async function parents() {
   const P = L && L.parents;
   const tryAud = P && P.tryAudio ? aud(L, P.tryAudio) : null;
   render(`<div class="parents"><div class="phead"><div class="in"><div style="display:flex;align-items:center;gap:10px"><a class="back" href="#/" aria-label="Back" style="background:rgba(251,249,243,.12)">${ICON.back}</a><h1>For parents</h1><img src="${IMG.logo}" alt="DHM Institute"></div>
-    <span style="font-weight:600">What Haitham is learning, in two minutes.</span></div></div>
+    <span style="font-weight:600">What ${NAME()} is learning, in two minutes.</span></div></div>
     <div class="body"><div class="stat3"><div><b>${mins}</b><span>minutes today</span></div><div><b>${learned}</b><span>words learned</span></div><div><b>${streak()}</b><span>days in a row</span></div></div>
-    ${L ? `<div class="pcard"><div class="k">Latest · ${esc(lastU.world.en)}</div><b style="font-size:17px">${esc(L.title.en)}</b> ${AR(L.title.ar)}<p style="margin:4px 0 0;font-weight:600;color:#46615c">${esc(P ? P.summary : L.topic)}</p></div>` : '<div class="pcard">Haitham has not started a lesson on this device yet.</div>'}
+    ${L ? `<div class="pcard"><div class="k">Latest · ${esc(lastU.world.en)}</div><b style="font-size:17px">${esc(L.title.en)}</b> ${AR(L.title.ar)}<p style="margin:4px 0 0;font-weight:600;color:#46615c">${esc(P ? P.summary : L.topic)}</p></div>` : `<div class="pcard">${NAME()} has not started a lesson on this device yet.</div>`}
     ${P && P.try ? `<div class="try"><b style="color:#042a2e">Try this at home (2 minutes)</b><span style="font-weight:600">${esc(P.tip || '')}</span>
       <div class="tryline">${tryAud ? `<button id="tryplay" aria-label="Play">${ICON.speak}</button>` : ''}<div>${AR(P.try.ar)}<div style="font-size:13px;font-weight:700;color:#46615c">“${esc(P.try.translit)}” · ${esc(P.try.en)}</div></div></div></div>` : ''}
-    ${note}<a class="tbtn" href="#/">Back to Haitham’s map</a><p style="text-align:center;font-size:12px;color:#647d78;margin:0">Made for Haitham by DHM Institute · progress is saved on this device only</p></div></div>`, { bg: '#fbf9f3' });
+    ${note}<a class="pcard" href="${BOOK}" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit"><div class="k">Learn live with Dr. Hassan Muslim</div><b style="font-size:17px">Book a free trial class →</b><p style="margin:4px 0 0;font-weight:600;color:#46615c">One-to-one online Arabic, Qur'an and Islamic Studies for children · DHM Institute</p></a><a class="tbtn" href="#/">Back to the map</a><p style="text-align:center;font-size:12px;color:#647d78;margin:0">By <a href="https://dhm-institute.com/" target="_blank" rel="noopener" style="color:inherit">DHM Institute</a> · progress is saved on this device only · <a href="privacy.html" style="color:inherit">Privacy</a> · <a href="#/welcome" style="color:inherit">Change name</a></p></div></div>`, { bg: '#fbf9f3' });
   const tp = $('#tryplay'); if (tp) tp.onclick = () => play(tryAud);
 }
 
@@ -311,7 +317,7 @@ function words(L, st, head, finish) {
     render(`<div class="screen dots act">${head(st.en, `${k + 1} of ${W.length}`)}
       <div class="bigcard">${w.badge ? `<div class="badge">${esc(w.badge)}</div>` : ''}${AR(w.ar, 'word-ar')}${w.tr ? `<div style="font-size:18px;font-weight:700;color:var(--muted);font-style:italic">${esc(w.tr)}</div>` : ''}<div class="word-en">${esc(w.en)}</div>
         <div class="say"><button id="pa">${ICON.speak}Arabic</button><button id="pe" class="soft">${ICON.speak}English</button></div></div>
-      <div class="koko-say"><img src="${IMG.wave}" alt=""><span>Teacher Haitham, say it out loud so I can copy you!</span></div>
+      <div class="koko-say"><img src="${IMG.wave}" alt=""><span>Teacher ${NAME()}, say it out loud so I can copy you!</span></div>
       <div class="row"><button class="btn soft" id="pv" ${k ? '' : 'disabled style="opacity:.5"'}>Back</button><button class="btn" id="nx" style="flex:2">${k + 1 < W.length ? 'I said it — next' : 'Done!'}</button></div></div>`);
     markWord(L, w, null); sayWord(L, w);
     $('#pa').onclick = () => sayWord(L, w, 'ar'); $('#pe').onclick = () => sayWord(L, w, 'en');
@@ -427,7 +433,7 @@ function order(L, st, head, finish) {
 /* step: talk with Koko (Koko plays one speaker, Haitham the other) */
 function talk(L, st, head, finish) {
   const D = Object.fromEntries(L.dialogue.map(d => [d.id, d]));
-  const name = who => (L.speakers && L.speakers[who] && L.speakers[who].playedBy === 'koko') ? 'Koko' : 'You (Teacher Haitham)';
+  const name = who => (L.speakers && L.speakers[who] && L.speakers[who].playedBy === 'koko') ? 'Koko' : `You (Teacher ${NAME()})`;
   let t = 0; const log = [];
   let rec = null, chunks = [], myUrl = null;
   const msg = (d, me) => `<div class="msg ${me ? 'me' : ''}"><small>${name(d.who)}</small>${AR(d.ar)}<span class="en">${esc(d.en)}</span><button data-say="${d.id}">${ICON.speak.replace(/20/g, '16')} hear</button></div>`;
@@ -502,7 +508,7 @@ function win(L) {
   S.stars[L.id] = Math.max(S.stars[L.id] || 0, stars); S.step[L.id] = 0; save(); SESSION = null;
   const chips = (L.words || []).slice(0, 12).map((w, i) => `<button class="chip" data-i="${i}">${AR(w.ar)}<small>${esc(w.en)}</small></button>`).join('');
   render(`<div class="screen dots"><div class="win"><span class="over" style="color:#fff">Lesson complete</span><img src="${IMG.cheer}" alt="Koko cheering">
-    ${AR('أَحْسَنْتَ يَا هَيْثَمُ!')}<b style="font-size:20px;margin-top:-8px">Well done, Haitham! Koko learned it from you.</b>
+    ${AR('أَحْسَنْتَ!')}<b style="font-size:20px;margin-top:-8px">Well done, ${NAME()}! Koko learned it from you.</b>
     <div class="stars" role="img" aria-label="${stars} of 3 stars">${[1, 2, 3].map(i => `<svg viewBox="0 0 24 24" class="${i <= stars ? 'on' : ''}"><path d="M12 2l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg>`).join('')}</div>
     ${chips ? `<div class="card" style="width:100%"><span class="over">Words you taught Koko</span><div class="chips" style="margin-top:8px">${chips}</div></div>` : ''}
     <a class="btn" href="#/parents">Show Mum and Dad</a>${stars < 3 ? `<a class="btn ghost" href="#/lesson/${L.id}/0">Try again for 3 stars</a>` : ''}<a class="btn ghost" href="#/">Back to the map</a></div></div>`);
@@ -522,11 +528,30 @@ async function review() {
   listen(null, { en: 'Quick review' }, head, () => { confetti(); sfx.win(); home(); }, [...pool, ...extra].slice(0, Math.max(pool.length + 3, 4)));
 }
 
+/* ---------- first visit: the child's name (saved on this device only) ---------- */
+function welcome() {
+  render(`<div class="screen dots"><div class="card" style="max-width:460px;margin:8vh auto 0;text-align:center">
+    <img src="${IMG.wave}" alt="Koko waving" style="width:130px;height:auto">
+    <h2 style="margin:6px 0">Hi! I'm Koko.</h2>
+    <p style="font-weight:600;margin:0 0 4px">I want to learn Arabic and how to pray. Will you be my teacher?</p>
+    ${AR('هَلْ تُعَلِّمُنِي؟')}
+    <form id="nm" style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
+      <label for="kid" style="font-weight:700">What's your name, Teacher?</label>
+      <input id="kid" maxlength="24" autocomplete="off" value="${esc(S.name || '')}" style="font:inherit;font-size:20px;padding:12px;border-radius:14px;border:2px solid #cfdcf7;text-align:center">
+      <button class="btn" type="submit">Start teaching Koko</button>
+    </form>
+    <p style="font-size:12px;opacity:.75;margin:12px 0 0">By <a href="https://dhm-institute.com/" target="_blank" rel="noopener" style="color:inherit">DHM Institute</a> · no account, no ads · your name stays on this device · <a href="privacy.html" style="color:inherit">Privacy</a></p>
+  </div></div>`);
+  const f = $('#nm'), inp = $('#kid'); inp.focus();
+  f.onsubmit = e => { e.preventDefault(); const v = inp.value.trim(); if (!v) { inp.focus(); return; } S.name = v; save(); location.hash = '#/'; if (location.hash === '#/') route(); };
+}
+
 /* ---------- router ---------- */
 async function route() {
   RT++; audioToken++; player.pause(); bits = []; if ('speechSynthesis' in window) speechSynthesis.cancel();
   const p = location.hash.replace(/^#\/?/, '').split('/');
   try {
+    if (p[0] === 'welcome' || !S.name) return welcome();
     if (p[0] === 'worlds') return worlds();
     if (p[0] === 'world') return home(p[1]);
     if (p[0] === 'words') return myWords();
@@ -545,7 +570,7 @@ route();
 setInterval(() => { if (!document.hidden && location.hash.startsWith('#/lesson/')) tick(15); }, 15000);
 if ('serviceWorker' in navigator) {
   addEventListener('load', () => navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(r => r.update()).catch(() => {}));
-  // A new version took over: reload once so Haitham never sees a stale app (progress is in localStorage, so nothing is lost).
+  // A new version took over: reload once so the child never sees a stale app (progress is in localStorage, so nothing is lost).
   let had = !!navigator.serviceWorker.controller, reloaded = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => { if (had && !reloaded) { reloaded = true; location.reload(); } had = true; });
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Add a lesson: put its JSON under content/<world>/ and set \"file\" on its unit below. Units without a file show as 'soon'. Never renumber ids: progress is saved by id. \"start\": the unit Haitham is on now; the app suggests units from there first, then earlier ones.",
+  "note": "Add a lesson: put its JSON under content/<world>/ and set \"file\" on its unit below. Units without a file show as 'soon'. Never renumber ids: progress is saved by id. \"focus\"/\"start\": Haitham's world and unit (used only when the child's name is Haitham); \"focusNew\": where every other child begins.",
   "focus": "ar2",
   "worlds": [
     {
@@ -671,5 +671,6 @@
       ]
     }
   ],
-  "start": "ar2-u02"
+  "start": "ar2-u02",
+  "focusNew": "ar1"
 }

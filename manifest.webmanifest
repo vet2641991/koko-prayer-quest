@@ -1,7 +1,7 @@
 {
   "name": "Koko's Quest — DHM Institute",
   "short_name": "Koko's Quest",
-  "description": "Haitham teaches Koko Arabic and the prayer.",
+  "description": "Teach Koko the cat Arabic, the prayer and Islamic Studies. By DHM Institute.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

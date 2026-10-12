@@ -133,7 +133,7 @@
     }
   ],
   "think": {
-    "q": "Do you know the meaning of your own name, Haitham, and who chose it for you?",
+    "q": "Do you know the meaning of your own name, and who chose it for you?",
     "a": "Ask Mum and Dad! Every name has a story."
   },
   "parents": {
@@ -143,6 +143,6 @@
       "translit": "Muḥammad",
       "en": "Muhammad (the praised one)"
     },
-    "tip": "Tell him the story of how his own name, Haitham, was chosen."
+    "tip": "Tell your child the story of how their own name was chosen."
   }
 }
