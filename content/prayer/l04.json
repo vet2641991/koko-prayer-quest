@@ -56,6 +56,38 @@
       "ruku",
       "itidal",
       "sujud1"
+    ],
+    "items": [
+      {
+        "id": "takbir",
+        "ar": "تَكْبِيرَةُ الإِحْرَامِ",
+        "en": "Opening Allahu Akbar",
+        "from": "prayer-l08"
+      },
+      {
+        "id": "qiyam",
+        "ar": "القِيَامُ",
+        "en": "Standing",
+        "from": "prayer-l08"
+      },
+      {
+        "id": "ruku",
+        "ar": "الرُّكُوعُ",
+        "en": "Bowing",
+        "from": "prayer-l08"
+      },
+      {
+        "id": "itidal",
+        "ar": "الِاعْتِدَالُ",
+        "en": "Rising up",
+        "from": "prayer-l08"
+      },
+      {
+        "id": "sujud1",
+        "ar": "السُّجُودُ",
+        "en": "Prostration",
+        "from": "prayer-l08"
+      }
     ]
   },
   "quiz": [

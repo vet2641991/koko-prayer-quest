@@ -81,11 +81,19 @@ function nextUnit() {
 /* ---------- audio ---------- */
 const player = new Audio();
 let audioToken = 0;
+let playDone = null;   // resolver of the clip that is playing now
+function stopAll() {   // silence everything: the Arabic clip AND the device's English voice
+  player.pause(); if (playDone) { const d = playDone; playDone = null; d(false); }
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+}
 function play(src) {
   return new Promise(res => {
+    if (playDone) { const d = playDone; playDone = null; d(false); }   // never leave an older clip's promise hanging
     if (!src) return res(false);
-    player.onended = () => res(true); player.onerror = () => res(false);
-    player.src = src; player.play().catch(() => res(false));
+    const done = ok => { if (playDone === done) playDone = null; res(ok); };
+    playDone = done;
+    player.onended = () => done(true); player.onerror = () => done(false);
+    player.src = src; player.currentTime = 0; player.play().catch(() => done(false));
   });
 }
 // English meanings are spoken by the device's own voice (free, unlimited); Arabic always uses the recorded Google AI Studio clips.
@@ -102,8 +110,9 @@ function speakEn(text) {
     setTimeout(() => res(false), 8000);
   });
 }
-async function playSeq(items) { const t = ++audioToken; if ('speechSynthesis' in window) speechSynthesis.cancel();
+async function playSeq(items) { const t = ++audioToken; stopAll();   // a new sound always cuts the old one (Arabic or English)
   for (const s of items) { if (t !== audioToken) return; if (s && typeof s === 'object') await speakEn(s.en); else await play(s); await new Promise(r => setTimeout(r, 250)); } }
+const bare = s => String(s || '').replace(/[ً-ْٰـ]/g, '').replace(/[^ء-ي]/g, '');   // letters only (no tashkeel/punctuation)
 const aud = (L, name) => `audio/${L.id}/${name}.mp3`;
 const wAud = (L, w) => `audio/${w.from || L.id}/w-${w.id}-ar.mp3`;
 const sayWord = (L, w, which = 'both') => playSeq(which === 'ar' ? [wAud(L, w)] : which === 'en' ? [{ en: w.en }] : [wAud(L, w), { en: w.en }]);
@@ -212,7 +221,7 @@ async function parents() {
     ${P && P.try ? `<div class="try"><b style="color:#042a2e">Try this at home (2 minutes)</b><span style="font-weight:600">${esc(P.tip || '')}</span>
       <div class="tryline">${tryAud ? `<button id="tryplay" aria-label="Play">${ICON.speak}</button>` : ''}<div>${AR(P.try.ar)}<div style="font-size:13px;font-weight:700;color:#46615c">“${esc(P.try.translit)}” · ${esc(P.try.en)}</div></div></div></div>` : ''}
     ${note}<a class="pcard" href="${BOOK}" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit"><div class="k">Learn live with a certified DHM teacher</div><b style="font-size:17px">Book a free trial class →</b><p style="margin:4px 0 0;font-weight:600;color:#46615c">One-to-one online Arabic, Qur'an and Islamic Studies for children · DHM Institute</p></a><a class="tbtn" href="#/">Back to the map</a><p style="text-align:center;font-size:12px;color:#647d78;margin:0">By <a href="https://dhm-institute.com/" target="_blank" rel="noopener" style="color:inherit">DHM Institute</a> · progress is saved on this device only · <a href="privacy.html" style="color:inherit">Privacy</a> · <a href="#/welcome" style="color:inherit">Change name</a></p></div></div>`, { bg: '#fbf9f3' });
-  const tp = $('#tryplay'); if (tp) tp.onclick = () => play(tryAud);
+  const tp = $('#tryplay'); if (tp) tp.onclick = () => playSeq([tryAud]);
 }
 
 /* ---------- lesson engine ---------- */
@@ -288,7 +297,9 @@ function learn(L, st, head, finish) {
         <div class="say" style="justify-content:flex-start"><button id="rd">${ICON.speak}Read it to me</button></div></div>
       <div class="koko-say"><img src="${IMG.wave}" alt=""><span>${esc(c.koko || (k + 1 < C.length ? 'Wow! Tell me more, Teacher!' : 'I understand now — thank you!'))}</span></div>
       <div class="row"><button class="btn soft" id="pv" ${k ? '' : 'disabled style="opacity:.5"'}>Back</button><button class="btn" id="nx" style="flex:2">${k + 1 < C.length ? 'Next idea' : 'Done!'}</button></div></div>`);
-    const read = () => playSeq([{ en: (c.title ? c.title + '. ' : '') + c.en }]); read(); $('#rd').onclick = read;
+    const same = c.ar && (L.words || []).find(w => bare(w.ar) === bare(c.ar));   // Arabic on the card has a clip only when it is a lesson word
+    const arClip = same ? wAud(L, same) : c.aud ? aud(L, c.aud) : null;   // the card's Arabic, voiced (tools/learn_audio.py)
+    const read = () => playSeq([...(arClip ? [arClip] : []), { en: (c.title ? c.title + '. ' : '') + c.en }]); read(); $('#rd').onclick = read;
     $('#pv').onclick = () => { if (k) { k--; show(); } };
     $('#nx').onclick = () => { if (++k < C.length) show(); else finish(); };
   };
@@ -417,7 +428,9 @@ function match(L, st, head, finish) {
 
 /* step: put in order */
 function order(L, st, head, finish) {
-  const seq = L.order.ids.map(id => L.words.find(w => w.id === id)).filter(Boolean);
+  // items: steps that live in another lesson (e.g. the prayer steps from lesson 8), each with its own "from" audio
+  const seq = L.order.items || L.order.ids.map(id => L.words.find(w => w.id === id)).filter(Boolean);
+  if (!seq.length) return finish();   // never leave the child on an empty game
   const tiles = shuffle(seq); let n = 0;
   render(`<div class="screen dots act">${head(st.en, L.order.en)}
     <div class="orderbox" id="box" aria-live="polite"></div>
@@ -456,14 +469,15 @@ function talk(L, st, head, finish) {
     } else {
       $('#nx').onclick = () => { if (rec && rec.state === 'recording') rec.stop(); if (++t < L.talk.length) ask(); else finish(); };
       const rb = $('#rec'), mb = $('#mine');
-      mb.onclick = () => play(myUrl);
+      mb.onclick = () => playSeq([myUrl]);
       rb.onclick = async () => {
         if (rec && rec.state === 'recording') { rec.stop(); return; }
         try {
+          stopAll(); audioToken++;   // don't record Koko's voice over the child's
           const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
           rec = new MediaRecorder(stream); chunks = [];
           rec.ondataavailable = e => chunks.push(e.data);
-          rec.onstop = () => { stream.getTracks().forEach(x => x.stop()); myUrl = URL.createObjectURL(new Blob(chunks, { type: rec.mimeType })); rb.innerHTML = `${ICON.mic} Record again`; mb.hidden = false; play(myUrl); };
+          rec.onstop = () => { stream.getTracks().forEach(x => x.stop()); myUrl = URL.createObjectURL(new Blob(chunks, { type: rec.mimeType })); rb.innerHTML = `${ICON.mic} Record again`; mb.hidden = false; playSeq([myUrl]); };
           rec.start(); rb.innerHTML = `${ICON.mic} Stop`; setTimeout(() => rec.state === 'recording' && rec.stop(), 8000);
         } catch (e) { rb.textContent = 'Microphone not available — just say it out loud!'; rb.disabled = true; }
       };
@@ -548,7 +562,7 @@ function welcome() {
 
 /* ---------- router ---------- */
 async function route() {
-  RT++; audioToken++; player.pause(); bits = []; if ('speechSynthesis' in window) speechSynthesis.cancel();
+  RT++; audioToken++; stopAll(); bits = [];
   const p = location.hash.replace(/^#\/?/, '').split('/');
   try {
     if (p[0] === 'welcome' || !S.name) return welcome();
