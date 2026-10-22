@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Koko's Quest",
+    "slug": "koko-quest",
+    "scheme": "kokoquest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-512.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#0B4FD8",
+    "description": "Teach Koko the cat Arabic, the prayer and Islamic Studies. By DHM Institute.",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dhminstitute.kokoquest",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.dhminstitute.kokoquest",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B4FD8",
+        "foregroundImage": "./assets/icon-512.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "blockedPermissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.READ_CONTACTS",
+        "android.permission.CAMERA",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Koko's Quest lets your child record their voice and hear it back. The recording stays on this device and is never sent anywhere.",
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": false,
+          "supportsPictureInPicture": false
+        }
+      ],
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B4FD8",
+          "image": "./assets/koko-wave.png",
+          "imageWidth": 180
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "contentUrl": "https://koko.dhm-institute.com"
+    }
+  }
+}

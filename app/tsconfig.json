@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "paths": { "zod": ["./node_modules/zod"] }
+  },
+  "include": ["src", "../packages/shared/src/schema.ts", "../packages/shared/src/audio.ts", ".expo/types/**/*.ts", "expo-env.d.ts"]
+}
