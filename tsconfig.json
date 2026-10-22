@@ -9,7 +9,14 @@
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "types": ["node"]
+    "types": [
+      "node"
+    ]
   },
-  "include": ["packages/shared/src", "scripts", "tests"]
+  "include": [
+    "packages/shared/src",
+    "scripts",
+    "tests",
+    "app/src/logic"
+  ]
 }

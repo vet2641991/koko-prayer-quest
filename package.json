@@ -1,7 +1,7 @@
 {
-  "name": "koko-quest-backend",
+  "name": "koko-backend",
   "private": true,
-  "description": "Koko's Quest content backend: shared lesson schema, Supabase import/export scripts and the admin dashboard. The live PWA in the repo root does not use any of this.",
+  "description": "Koko content backend: shared lesson schema, Supabase import/export scripts and the admin dashboard. The live PWA in the repo root does not use any of this.",
   "type": "module",
   "workspaces": [
     "packages/shared",

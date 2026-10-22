@@ -2,7 +2,7 @@
   "name": "@koko/admin",
   "private": true,
   "version": "0.1.0",
-  "description": "Koko's Quest admin dashboard (React + TypeScript + Supabase).",
+  "description": "Koko admin dashboard (React + TypeScript + Supabase).",
   "type": "module",
   "scripts": {
     "dev": "vite",
