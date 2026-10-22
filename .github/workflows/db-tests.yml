@@ -5,11 +5,11 @@ name: Database tests
 
 on:
   pull_request:
-    paths: ['supabase/**', 'scripts/**', 'packages/**', 'tests/**', 'content/**', 'package.json', 'package-lock.json',
+    paths: ['supabase/**', 'scripts/**', 'packages/**', 'tests/**', 'content/**', 'admin/**', 'package.json', 'package-lock.json',
             'tsconfig.json', '.github/workflows/db-tests.yml']
   push:
     branches: [main]
-    paths: ['supabase/**', 'scripts/**', 'packages/**', 'tests/**', 'content/**', 'package.json', 'package-lock.json',
+    paths: ['supabase/**', 'scripts/**', 'packages/**', 'tests/**', 'content/**', 'admin/**', 'package.json', 'package-lock.json',
             'tsconfig.json', '.github/workflows/db-tests.yml']
   workflow_dispatch:
 
@@ -44,5 +44,12 @@ jobs:
         run: npm run typecheck
       - name: Validate content
         run: npm run validate
-      - name: Script tests (validator, zero-diff writer, import against the test database)
+      - name: Script tests (validator, zero-diff writer, import and export against the test database)
         run: npm test
+      - name: Build the admin dashboard
+        run: npm run admin:build
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.5.6
+      - name: Type-check the Edge Functions
+        run: deno check supabase/functions/*/index.ts

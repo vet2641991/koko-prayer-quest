@@ -1,0 +1,7 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://koko.dhm-institute.com; media-src 'self' blob: https://koko.dhm-institute.com; connect-src 'self' https://pwgkxdiwqrxkndkyzwlw.supabase.co wss://pwgkxdiwqrxkndkyzwlw.supabase.co; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  X-Robots-Tag: noindex, nofollow

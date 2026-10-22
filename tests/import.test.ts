@@ -101,3 +101,10 @@ test('invalid content is refused and the database is untouched', { skip }, async
   assert.match(r.out, /correct answers \(exactly one is needed\)/);
   assert.equal((await db.query('select count(*)::int as n from public.audit_log')).rows[0].n, before);
 });
+
+test('the dashboard\'s copy of lesson_document() agrees with the database for every lesson', { skip }, async () => {
+  const { rowToLessonDoc, sameJson } = await import('../packages/shared/src/index.ts');
+  const rows = (await db.query(`select l.*, u.world_id, public.lesson_document(l) as doc from public.lessons l join public.units u using (id)`)).rows;
+  assert.equal(rows.length, 88);
+  for (const r of rows) assert.ok(sameJson(rowToLessonDoc(r, r.world_id), r.doc), r.id);
+});

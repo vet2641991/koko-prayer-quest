@@ -1,0 +1,27 @@
+{
+  "name": "@koko/admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Koko's Quest admin dashboard (React + TypeScript + Supabase).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@koko/shared": "0.1.0",
+    "@supabase/supabase-js": "2.118.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}

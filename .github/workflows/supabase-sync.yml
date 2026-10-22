@@ -9,8 +9,8 @@ name: Sync to Supabase
 on:
   push:
     branches: [main]
-    paths: ['supabase/migrations/**', 'supabase/seed/**', 'content/**', 'audio/**', 'media/**', 'scripts/**', 'packages/shared/**',
-            '.github/workflows/supabase-sync.yml']
+    paths: ['supabase/migrations/**', 'supabase/seed/**', 'supabase/functions/**', 'content/**', 'audio/**', 'media/**', 'scripts/**',
+            'packages/shared/**', '.github/workflows/supabase-sync.yml']
   workflow_dispatch:
     inputs:
       dry_run:
@@ -96,6 +96,20 @@ jobs:
           else
             supabase db push --yes --password "$SUPABASE_DB_PASSWORD"
           fi
+
+      - name: Deploy the Edge Functions used by the admin dashboard
+        if: steps.secrets.outputs.ready == 'true' && inputs.dry_run != true
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          GITHUB_DISPATCH_TOKEN: ${{ secrets.KOKO_DISPATCH_TOKEN }}
+          ADMIN_ORIGIN: ${{ vars.ADMIN_ORIGIN }}
+        run: |
+          supabase functions deploy admin-invite request-export --project-ref "$SUPABASE_PROJECT_REF"
+          # optional function secrets, copied from GitHub when they exist
+          args=()
+          [ -n "$GITHUB_DISPATCH_TOKEN" ] && args+=("GITHUB_DISPATCH_TOKEN=$GITHUB_DISPATCH_TOKEN")
+          [ -n "$ADMIN_ORIGIN" ] && args+=("ADMIN_ORIGIN=$ADMIN_ORIGIN")
+          if [ ${#args[@]} -gt 0 ]; then supabase secrets set --project-ref "$SUPABASE_PROJECT_REF" "${args[@]}"; fi
 
       - name: Import content (exit 2 = imported, but something needs a person; see the summary)
         if: steps.secrets.outputs.ready == 'true'
