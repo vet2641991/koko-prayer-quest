@@ -18,8 +18,9 @@ It never talks to the database.
 - **Same rewards.** The PWA's game sounds (right, wrong, win) and confetti. The sounds are WAV files made by
   `app/scripts/make-sfx.mjs` from the same tones as `app.js` `blip()`; they play on their own players and never cut
   Koko's Arabic clip. Confetti is skipped when the phone asks for reduced motion.
-- **Same progress format** (storage key `koko-quest-v2`, kept so stars carry over; children never see it), kept on the device only. The privacy promise is unchanged: no account,
-  no ads, no tracking. Voice recordings stay on the device.
+- **Same progress format**, saved on the device only. The storage key stays `koko-quest-v2` so stars carry over;
+  children never see it. The privacy promise is unchanged: no account, no ads, no tracking. Voice recordings stay on
+  the device.
 
 ## Offline
 
