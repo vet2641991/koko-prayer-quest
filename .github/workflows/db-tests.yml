@@ -1,13 +1,16 @@
-# Runs every migration and SQL test on a throwaway Postgres for each change under supabase/.
+# Runs every migration, SQL test and script test on a throwaway Postgres: for each PR that touches the backend or the
+# content, and for every push of content to main (so a lesson from the local production session is validated too).
 # Uses no secrets and never touches the real Supabase project.
 name: Database tests
 
 on:
   pull_request:
-    paths: ['supabase/**', '.github/workflows/db-tests.yml']
+    paths: ['supabase/**', 'scripts/**', 'packages/**', 'tests/**', 'content/**', 'package.json', 'package-lock.json',
+            'tsconfig.json', '.github/workflows/db-tests.yml']
   push:
     branches: [main]
-    paths: ['supabase/**', '.github/workflows/db-tests.yml']
+    paths: ['supabase/**', 'scripts/**', 'packages/**', 'tests/**', 'content/**', 'package.json', 'package-lock.json',
+            'tsconfig.json', '.github/workflows/db-tests.yml']
   workflow_dispatch:
 
 permissions:
@@ -16,7 +19,7 @@ permissions:
 jobs:
   migrations-and-tests:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     services:
       postgres:
         image: postgres:17
@@ -26,9 +29,20 @@ jobs:
         ports: ['5432:5432']
         options: >-
           --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgres://postgres:postgres@localhost:5432/koko_test
     steps:
       - uses: actions/checkout@v4
-      - name: Apply migrations and run tests
-        env:
-          DATABASE_URL: postgres://postgres:postgres@localhost:5432/koko_test
+      - name: Apply migrations and run the SQL tests
         run: bash supabase/tests/run.sh
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Validate content
+        run: npm run validate
+      - name: Script tests (validator, zero-diff writer, import against the test database)
+        run: npm test

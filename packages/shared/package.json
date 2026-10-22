@@ -1,0 +1,15 @@
+{
+  "name": "@koko/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "One schema for lessons, shared by the import/export scripts, the admin dashboard and the future app.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  }
+}

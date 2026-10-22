@@ -1,3 +1,4 @@
 *.tmp
 PLAN.md
 audio/_rejected/
+node_modules/
