@@ -2,6 +2,8 @@
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import type { Lesson } from '../../../packages/shared/src/schema.ts';
+import { sfx } from '../audio/sound';
+import { confetti } from '../components/Confetti';
 import { Screen, T } from '../components/ui';
 import { getLesson } from '../data/content';
 import { markWord, reviewList } from '../logic/progress';
@@ -31,7 +33,7 @@ export default function Review() {
   if (!pool || !first) return <Screen><T color={C.white} center>Loading…</T></Screen>;
   return <Screen>
     <T size={22} color={C.white}>Quick review</T>
-    <Listen L={first} pool={pool} firstTime finish={() => router.replace('/')} mistake={() => {}}
+    <Listen L={first} pool={pool} firstTime finish={() => { confetti(); sfx.win(); router.replace('/'); }} mistake={() => sfx.wrong()}
       markWord={(w, ok) => update(p => markWord(p, first.id, w, ok))} />
   </Screen>;
 }

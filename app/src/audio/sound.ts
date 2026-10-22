@@ -67,3 +67,15 @@ export async function playSeq(items: SoundItem[]) {
     await new Promise(r => setTimeout(r, 250));
   }
 }
+
+// Game sounds (app.js sfx): short tones on their own players, so they never cut Koko's Arabic clip.
+const SFX = { right: require('../../assets/sfx/right.wav'), wrong: require('../../assets/sfx/wrong.wav'), win: require('../../assets/sfx/win.wav') };
+const sfxPlayers: Partial<Record<keyof typeof SFX, AudioPlayer>> = {};
+function blip(name: keyof typeof SFX) {
+  try {
+    const p = (sfxPlayers[name] ??= createAudioPlayer(SFX[name]));
+    p.seekTo(0).catch(() => {});
+    p.play();
+  } catch { /* a missing sound never stops the game */ }
+}
+export const sfx = { right: () => blip('right'), wrong: () => blip('wrong'), win: () => blip('win') };
