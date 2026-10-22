@@ -1,0 +1,28 @@
+{
+  "name": "koko-quest-backend",
+  "private": true,
+  "description": "Koko's Quest content backend: shared lesson schema, Supabase import/export scripts and the admin dashboard. The live PWA in the repo root does not use any of this.",
+  "type": "module",
+  "workspaces": [
+    "packages/shared"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "validate": "tsx scripts/validate-content.ts",
+    "import": "tsx scripts/import-json.ts",
+    "export": "tsx scripts/export-static.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "@types/pg": "8.23.1",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "pg": "8.23.1"
+  }
+}
