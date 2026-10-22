@@ -1,0 +1,29 @@
+# EAS Build (the Koko phone app, in app/) uploads this repository from its root. The app needs only app/ and
+# packages/shared, so everything else stays out, above all the site's audio/ and media/ (about 120 MB): the app
+# downloads lessons, sounds and videos from the site while it runs.
+# While this file exists, EAS does not read .gitignore, so the .gitignore rules are repeated below.
+/*
+!/app/
+!/packages/
+/packages/*
+!/packages/shared/
+
+# from .gitignore and app/.gitignore
+*.tmp
+node_modules/
+app/.expo/
+app/dist/
+app/web-build/
+app/expo-env.d.ts
+app/ios/
+app/android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.env*.local
+
+# not needed to build the app
+app/store/
+app/scripts/

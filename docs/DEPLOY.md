@@ -33,6 +33,7 @@ say.
 | `BACKUP_PASSPHRASE` | secret | backup | a long passphrase you invent. **Also keep it outside GitHub**, or the backups can never be opened |
 | `SUPABASE_SECRET_KEY` | secret | publish, only when a dashboard **upload** must be copied into the repo | Project Settings → API Keys → *Secret keys* (`sb_secret_…`) |
 | `KOKO_DISPATCH_TOKEN` | secret, optional | the dashboard's "Send to the site" button | GitHub → Settings (your profile) → Developer settings → Fine-grained tokens → *Generate*: repository `koko-prayer-quest` only, permission **Contents: Read and write**, expiry up to 1 year |
+| `EXPO_TOKEN` | secret | the phone app's test build (**App test build (Android APK)**) | expo.dev → Account settings → Access tokens → *Create token* (account `drhassan_muslim`) |
 | `ADMIN_ORIGIN` | variable (*Variables* tab), optional | lets only the dashboard's address call the Edge Functions | e.g. `https://admin.koko.dhm-institute.com` |
 
 The project ref `pwgkxdiwqrxkndkyzwlw` and the URL `https://pwgkxdiwqrxkndkyzwlw.supabase.co` are not secrets.

@@ -1,0 +1,86 @@
+# Builds a test copy of the Koko app for Android (an APK to install directly on a phone) on EAS, Expo's build
+# service, with the owner's Expo account. Run it by hand: Actions → "App test build (Android APK)" → Run workflow.
+# The download link appears in the run's summary when the build is done (EAS also lists it on expo.dev).
+#
+# Secret (Settings → Secrets and variables → Actions): EXPO_TOKEN, an access token of the Expo account
+# drhassan_muslim. It is passed only to the steps that talk to EAS, never stored anywhere else.
+name: App test build (Android APK)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: app-build
+  cancel-in-progress: false
+
+jobs:
+  apk:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150   # the free EAS plan can queue for a while; the build carries on on EAS even if this stops
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Check that EXPO_TOKEN is set
+        env:
+          HAS_TOKEN: ${{ secrets.EXPO_TOKEN != '' }}
+        working-directory: .
+        run: |
+          if [ "$HAS_TOKEN" != "true" ]; then
+            echo "::error::Add the EXPO_TOKEN secret first (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Link the EAS project (@drhassan_muslim/koko; created on the first run)
+        id: project
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          if jq -e '.expo.extra.eas.projectId' app.json > /dev/null; then
+            echo "Project id already in app.json."
+          else
+            npx --yes eas-cli@25.3.0 init --non-interactive --force --json > ../eas-init.json
+            id=$(jq -r '.projectId' ../eas-init.json)
+            echo "EAS project: $id"
+            echo "new_id=$id" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build the APK on EAS (profile "preview")
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: npx --yes eas-cli@25.3.0 build --platform android --profile preview --non-interactive --wait --json > ../eas-build.json
+
+      - name: Summary
+        if: always()
+        working-directory: .
+        env:
+          NEW_ID: ${{ steps.project.outputs.new_id }}
+        run: |
+          {
+            echo "## Koko: Android test build"
+            if [ -s eas-build.json ]; then
+              jq -r '.[] | "- **Status:** \(.status)\n- **Version:** \(.appVersion) (\(.appBuildVersion))\n- **Download the APK:** \(.artifacts.applicationArchiveUrl // .artifacts.buildUrl // "not ready")\n- **Build page (logs, QR code to install):** https://expo.dev/accounts/\(.app.ownerAccount.name)/projects/\(.app.slug)/builds/\(.id)" + (if .error then "\n- **Error:** \(.error.message)" else "" end)' eas-build.json
+            else
+              echo "The build did not finish here. Open https://expo.dev/accounts/drhassan_muslim/projects/koko/builds for its status and logs."
+            fi
+            if [ -n "$NEW_ID" ]; then
+              echo
+              echo "First run: the EAS project was created with id \`$NEW_ID\`. Add it to app/app.json under expo.extra.eas.projectId."
+            fi
+            echo
+            echo "On the phone: open the download link, allow installing from this source when Android asks, then open Koko."
+          } >> "$GITHUB_STEP_SUMMARY"
