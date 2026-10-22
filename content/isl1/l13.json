@@ -1,0 +1,234 @@
+{
+  "id": "isl1-l13",
+  "world": "isl1",
+  "source": "DHM Islamic Studies Level 1 · lesson 13 (Al-Masjid). Exercises reused from the lesson; every clip reuses audio already approved/verified in isl1-l11, isl2-l11, isl2-l12.",
+  "title": {
+    "ar": "المَسْجِدُ",
+    "en": "The masjid"
+  },
+  "topic": "A clean, quiet place of worship: the right words and the right foot",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The Arabic word for mosque is masjid. It is a place where Muslims pray five times a day.",
+      "title": "A place for salah",
+      "ar": "المَسْجِدُ",
+      "tr": "al-masjid"
+    },
+    {
+      "en": "When it is time for salah, the mu'adh-dhin calls out the adhan from the masjid.",
+      "title": "The call to prayer"
+    },
+    {
+      "en": "Some mosques are small and some are very big. In a big mosque you will find many water taps, for making wudu before praying.",
+      "title": "Big and small mosques"
+    },
+    {
+      "en": "Enter the mosque with your right foot first, and say the du'aa.",
+      "title": "Entering with the right foot",
+      "ar": "بِسْمِ اللهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللهِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "tr": "Bismi-llāh, waṣ-ṣalātu was-salāmu ʿalā rasūli-llāh. Allāhumma ftaḥ lī abwāba raḥmatik",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "Take off your shoes at the entrance. In the prayer hall, a niche called the mihrab shows the qiblah — the direction we pray towards.",
+      "title": "The mihrab shows the qiblah"
+    },
+    {
+      "en": "Before going to the mosque, make sure your body and clothes are clean and don't smell bad. Don't eat or drink in the mosque.",
+      "title": "A clean place of worship"
+    },
+    {
+      "en": "After salah, leave the mosque with your left foot first, and say the du'aa.",
+      "title": "Leaving with the left foot",
+      "ar": "بِسْمِ اللهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللهِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "tr": "Bismi-llāh, waṣ-ṣalātu was-salāmu ʿalā rasūli-llāh. Allāhumma innī asʾaluka min faḍlik",
+      "aud": "c-6-ar"
+    },
+    {
+      "en": "“The mosques of Allah are only to be maintained by those who believe in Allah and the Last Day and establish prayer.” (Qur'an 9:18)",
+      "title": "From the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "masjid",
+      "ar": "المَسْجِدُ",
+      "en": "the mosque",
+      "from": "isl1-l11"
+    },
+    {
+      "id": "muadhdhin",
+      "ar": "المُؤَذِّنُ",
+      "en": "the one who calls the adhan",
+      "from": "isl1-l11"
+    },
+    {
+      "id": "mihrab",
+      "ar": "المِحْرَابُ",
+      "en": "the mihrab (prayer niche)",
+      "from": "isl2-l12"
+    },
+    {
+      "id": "qibla",
+      "ar": "القِبْلَةُ",
+      "en": "the qiblah (direction of the Ka'bah)",
+      "from": "isl2-l11"
+    },
+    {
+      "id": "wudu",
+      "ar": "الوُضُوءُ",
+      "en": "wudu (washing for prayer)",
+      "from": "isl2-l12"
+    },
+    {
+      "id": "dua_in",
+      "ar": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "en": "Entering: O Allah, open the gates of Your mercy for me",
+      "tr": "Allāhumma ftaḥ lī abwāba raḥmatik",
+      "sacred": true,
+      "from": "isl2-l12"
+    },
+    {
+      "id": "dua_out",
+      "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "en": "Leaving: O Allah, I ask You of Your bounty",
+      "tr": "Allāhumma innī asʾaluka min faḍlik",
+      "sacred": true,
+      "from": "isl2-l12"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? It is OK to throw paper in the masjid.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We must keep our masjid clean.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? I must take my shoes off inside the masjid.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The mihrab shows the qiblah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Which foot do we enter the masjid with?",
+      "opts": [
+        [
+          "",
+          "The right foot",
+          1
+        ],
+        [
+          "",
+          "The left foot",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which foot do we leave the masjid with?",
+      "opts": [
+        [
+          "",
+          "The left foot",
+          1
+        ],
+        [
+          "",
+          "The right foot",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Eating and drinking in the masjid is fine.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "اُدْخُلْ بِرِجْلِكَ اليُمْنَى، وَاخْرُجْ بِرِجْلِكَ اليُسْرَى!",
+    "en": "Practise at a doorway: step in with your right foot, step out with your left!"
+  },
+  "think": {
+    "q": "Next time you visit the masjid, can you remember which foot to lead with, going in and coming out?",
+    "a": "Right foot in with “Allāhumma ftaḥ lī abwāba raḥmatik”, left foot out with “Allāhumma innī asʾaluka min faḍlik”."
+  },
+  "parents": {
+    "summary": "The masjid: the adhan, wudu taps, shoes off, the mihrab and qiblah, keeping clean, and the du'aas for entering (right foot) and leaving (left foot).",
+    "try": {
+      "ar": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "translit": "Allāhumma ftaḥ lī abwāba raḥmatik",
+      "en": "O Allah, open the gates of Your mercy for me"
+    },
+    "tip": "On your next visit to the masjid, let him lead with the right foot and say the du'aa at the door."
+  }
+}

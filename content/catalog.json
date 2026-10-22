@@ -327,8 +327,9 @@
         {
           "id": "isl1-l13",
           "n": "13",
-          "ar": "الدَّرْسُ ١٣",
-          "en": "Lesson 13 (waiting for the file)"
+          "ar": "المَسْجِدُ",
+          "en": "The masjid",
+          "file": "content/isl1/l13.json"
         },
         {
           "id": "isl1-l14",
