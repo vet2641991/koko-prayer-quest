@@ -70,8 +70,6 @@ Build and submit need the owner's Expo account and store accounts:
 Identifiers: `com.dhminstitute.koko`, the same for the Android package and the iOS bundle id, and the URL scheme.
 They can no longer change once the first build is in a store.
 
-**Store forms:**
-- **Google Play, Data safety:** no data collected or shared. The microphone is used on the device only.
-- **Google Play, target audience:** children. Join *Designed for Families*.
-- **Apple:** *Kids* category, age band 5 and under / 6–8. No third-party analytics or ads. Links behind the
-  parental gate.
+**Store listing:** names, descriptions, settings, Data safety answers, screenshots, the feature graphic and the Play
+icon are in [`app/store/`](store/LISTING.md). In short: Education, made for kids, no ads, no purchases, no data
+collected; links behind the parental gate. Privacy policy: https://koko.dhm-institute.com/privacy.html.
