@@ -1,0 +1,301 @@
+{
+  "about": "Owner's classification of every Learn-card clip (audio/<lesson>/c-<n>-ar.mp3). Learn cards carry no sacred marker in the lesson JSON, so this list is the source for media_assets.sacred on c-* clips. Read by scripts/import-json.ts (step 4). A c-* clip in neither list is imported as sacred and NOT approved, and the import report names it.",
+  "decidedBy": "Dr. Hassan Muslim (owner)",
+  "decidedOn": "2026-10-22",
+  "sacred": {
+    "approvedBy": "Dr. Hassan Muslim",
+    "approvedOn": "2026-10-19",
+    "approvalNote": "Recorded or approved by Dr. Hassan on 2026-10-19, or an exact copy of an approved clip",
+    "clips": [
+      {
+        "path": "audio/isl1-l13/c-3-ar.mp3",
+        "lesson": "isl1-l13",
+        "card": 3,
+        "title": "Entering with the right foot",
+        "note": "exact copy of approved isl2-l12/c-3-ar (masjid entering du'aa)"
+      },
+      {
+        "path": "audio/isl1-l13/c-6-ar.mp3",
+        "lesson": "isl1-l13",
+        "card": 6,
+        "title": "Leaving with the left foot",
+        "note": "exact copy of approved isl2-l12/c-6-ar (masjid leaving du'aa)"
+      },
+      {
+        "path": "audio/isl1-l01/c-5-ar.mp3",
+        "lesson": "isl1-l01",
+        "card": 5,
+        "title": "Our faith in one sentence"
+      },
+      {
+        "path": "audio/isl1-l02/c-6-ar.mp3",
+        "lesson": "isl1-l02",
+        "card": 6,
+        "title": "Say thank you"
+      },
+      {
+        "path": "audio/isl1-l09/c-0-ar.mp3",
+        "lesson": "isl1-l09",
+        "card": 0,
+        "title": "What it means"
+      },
+      {
+        "path": "audio/isl1-l09/c-4-ar.mp3",
+        "lesson": "isl1-l09",
+        "card": 4,
+        "title": "If you forget"
+      },
+      {
+        "path": "audio/isl1-l12/c-5-ar.mp3",
+        "lesson": "isl1-l12",
+        "card": 5,
+        "title": "Steps 10–11"
+      },
+      {
+        "path": "audio/isl1-l25/c-0-ar.mp3",
+        "lesson": "isl1-l25",
+        "card": 0,
+        "title": "Before you begin"
+      },
+      {
+        "path": "audio/isl1-l26/c-0-ar.mp3",
+        "lesson": "isl1-l26",
+        "card": 0,
+        "title": "Leaving home"
+      },
+      {
+        "path": "audio/isl1-l27/c-3-ar.mp3",
+        "lesson": "isl1-l27",
+        "card": 3,
+        "title": "Early to bed"
+      },
+      {
+        "path": "audio/isl1-l29/c-1-ar.mp3",
+        "lesson": "isl1-l29",
+        "card": 1,
+        "title": "Sneezing"
+      },
+      {
+        "path": "audio/isl2-l02/c-0-ar.mp3",
+        "lesson": "isl2-l02",
+        "card": 0,
+        "title": "One and Alone"
+      },
+      {
+        "path": "audio/isl2-l06/c-2-ar.mp3",
+        "lesson": "isl2-l06",
+        "card": 2,
+        "title": "One message"
+      },
+      {
+        "path": "audio/isl2-l12/c-3-ar.mp3",
+        "lesson": "isl2-l12",
+        "card": 3,
+        "title": "Going in"
+      },
+      {
+        "path": "audio/isl2-l12/c-6-ar.mp3",
+        "lesson": "isl2-l12",
+        "card": 6,
+        "title": "Going out"
+      },
+      {
+        "path": "audio/isl2-l26/c-0-ar.mp3",
+        "lesson": "isl2-l26",
+        "card": 0,
+        "title": "Leaving home"
+      },
+      {
+        "path": "audio/isl2-l30/c-5-ar.mp3",
+        "lesson": "isl2-l30",
+        "card": 5,
+        "title": "Well done!"
+      }
+    ]
+  },
+  "notSacred": {
+    "note": "Ordinary words and titles. The surah names in isl2-l17 are titles, not Qur'an text.",
+    "clips": [
+      {
+        "path": "audio/isl1-l06/c-0-ar.mp3",
+        "lesson": "isl1-l06",
+        "card": 0,
+        "title": "Allah's messengers"
+      },
+      {
+        "path": "audio/isl1-l07/c-0-ar.mp3",
+        "lesson": "isl1-l07",
+        "card": 0,
+        "title": "Malak and malā'ikah"
+      },
+      {
+        "path": "audio/isl1-l10/c-0-ar.mp3",
+        "lesson": "isl1-l10",
+        "card": 0,
+        "title": "Five pillars"
+      },
+      {
+        "path": "audio/isl1-l12/c-0-ar.mp3",
+        "lesson": "isl1-l12",
+        "card": 0,
+        "title": "Why wudu?"
+      },
+      {
+        "path": "audio/isl1-l15/c-0-ar.mp3",
+        "lesson": "isl1-l15",
+        "card": 0,
+        "title": "A special year"
+      },
+      {
+        "path": "audio/isl1-l16/c-2-ar.mp3",
+        "lesson": "isl1-l16",
+        "card": 2,
+        "title": "His name"
+      },
+      {
+        "path": "audio/isl1-l17/c-0-ar.mp3",
+        "lesson": "isl1-l17",
+        "card": 0,
+        "title": "Raised in the desert"
+      },
+      {
+        "path": "audio/isl1-l17/c-1-ar.mp3",
+        "lesson": "isl1-l17",
+        "card": 1,
+        "title": "With Lady Haleemah"
+      },
+      {
+        "path": "audio/isl1-l18/c-3-ar.mp3",
+        "lesson": "isl1-l18",
+        "card": 3,
+        "title": "Bahira the monk"
+      },
+      {
+        "path": "audio/isl1-l22/c-0-ar.mp3",
+        "lesson": "isl1-l22",
+        "card": 0,
+        "title": "Two words, one purpose"
+      },
+      {
+        "path": "audio/isl1-l28/c-0-ar.mp3",
+        "lesson": "isl1-l28",
+        "card": 0,
+        "title": "Obey and help"
+      },
+      {
+        "path": "audio/isl1-l29/c-4-ar.mp3",
+        "lesson": "isl1-l29",
+        "card": 4,
+        "title": "Please and thank you"
+      },
+      {
+        "path": "audio/isl2-l05/c-0-ar.mp3",
+        "lesson": "isl2-l05",
+        "card": 0,
+        "title": "Made of light"
+      },
+      {
+        "path": "audio/isl2-l07/c-0-ar.mp3",
+        "lesson": "isl2-l07",
+        "card": 0,
+        "title": "Through the prophets"
+      },
+      {
+        "path": "audio/isl2-l09/c-0-ar.mp3",
+        "lesson": "isl2-l09",
+        "card": 0,
+        "title": "Five pillars"
+      },
+      {
+        "path": "audio/isl2-l10/c-0-ar.mp3",
+        "lesson": "isl2-l10",
+        "card": 0,
+        "title": "The call to prayer"
+      },
+      {
+        "path": "audio/isl2-l12/c-0-ar.mp3",
+        "lesson": "isl2-l12",
+        "card": 0,
+        "title": "The masjid"
+      },
+      {
+        "path": "audio/isl2-l13/c-0-ar.mp3",
+        "lesson": "isl2-l13",
+        "card": 0,
+        "title": "Purity first"
+      },
+      {
+        "path": "audio/isl2-l14/c-0-ar.mp3",
+        "lesson": "isl2-l14",
+        "card": 0,
+        "title": "The call to prayer"
+      },
+      {
+        "path": "audio/isl2-l15/c-0-ar.mp3",
+        "lesson": "isl2-l15",
+        "card": 0,
+        "title": "The tashahhud"
+      },
+      {
+        "path": "audio/isl2-l17/c-0-ar.mp3",
+        "lesson": "isl2-l17",
+        "card": 0,
+        "title": "Al-Masad"
+      },
+      {
+        "path": "audio/isl2-l17/c-1-ar.mp3",
+        "lesson": "isl2-l17",
+        "card": 1,
+        "title": "Al-Fil"
+      },
+      {
+        "path": "audio/isl2-l17/c-2-ar.mp3",
+        "lesson": "isl2-l17",
+        "card": 2,
+        "title": "Quraysh"
+      },
+      {
+        "path": "audio/isl2-l17/c-3-ar.mp3",
+        "lesson": "isl2-l17",
+        "card": 3,
+        "title": "Al-Ma'un"
+      },
+      {
+        "path": "audio/isl2-l17/c-4-ar.mp3",
+        "lesson": "isl2-l17",
+        "card": 4,
+        "title": "An-Nasr"
+      },
+      {
+        "path": "audio/isl2-l17/c-5-ar.mp3",
+        "lesson": "isl2-l17",
+        "card": 5,
+        "title": "Al-Kafirun"
+      },
+      {
+        "path": "audio/isl2-l18/c-1-ar.mp3",
+        "lesson": "isl2-l18",
+        "card": 1,
+        "title": "Ahmad and Muhammad"
+      },
+      {
+        "path": "audio/isl2-l19/c-2-ar.mp3",
+        "lesson": "isl2-l19",
+        "card": 2,
+        "title": "As-Sadiq, Al-Ameen"
+      },
+      {
+        "path": "audio/isl2-l23/c-0-ar.mp3",
+        "lesson": "isl2-l23",
+        "card": 0,
+        "title": "Sidq"
+      },
+      {
+        "path": "audio/isl2-l30/c-0-ar.mp3",
+        "lesson": "isl2-l30",
+        "card": 0,
+        "title": "Following the moon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+# Runs every migration and SQL test on a throwaway Postgres for each change under supabase/.
+# Uses no secrets and never touches the real Supabase project.
+name: Database tests
+
+on:
+  pull_request:
+    paths: ['supabase/**', '.github/workflows/db-tests.yml']
+  push:
+    branches: [main]
+    paths: ['supabase/**', '.github/workflows/db-tests.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  migrations-and-tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: postgres   # throwaway container, not a secret
+          POSTGRES_DB: koko_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply migrations and run tests
+        env:
+          DATABASE_URL: postgres://postgres:postgres@localhost:5432/koko_test
+        run: bash supabase/tests/run.sh
