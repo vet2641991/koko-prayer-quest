@@ -1,4 +1,8 @@
-# Koko's Quest: Android and iOS app (Expo)
+# Koko: Android and iOS app (Expo)
+
+**Names.** On the phone (icon) and inside the app: **Koko**. In Google Play and the App Store: **Koko: Arabic & Quran
+for Kids** (29 characters; both stores allow 30). That store name is typed into Play Console and App Store Connect;
+it is not in `app.json`.
 
 React Native + Expo (SDK 58), TypeScript, Expo Router. It shows the **same lessons as the live PWA** and reads the
 **same static files** (`content/catalog.json`, the lesson JSONs, `audio/`, `media/` on https://koko.dhm-institute.com).
@@ -11,7 +15,7 @@ It never talks to the database.
   - Audio and video are played or downloaded byte for byte.
 - **Same rules.** The steps (`stepsFor` from `packages/shared`), stars (≤1 mistake → 3, ≤4 → 2), "next lesson",
   review of forgotten words, learning time and streak.
-- **Same progress format** (`koko-quest-v2`), kept on the device only. The privacy promise is unchanged: no account,
+- **Same progress format** (storage key `koko-quest-v2`, kept so stars carry over; children never see it), kept on the device only. The privacy promise is unchanged: no account,
   no ads, no tracking. Voice recordings stay on the device.
 
 ## Offline
@@ -59,8 +63,8 @@ Build and submit need the owner's Expo account and store accounts:
 - **Store builds:** `npx eas-cli@latest build --profile production --platform all`, then
   `npx eas-cli@latest submit`.
 
-Identifiers: `com.dhminstitute.kokoquest` (Android package and iOS bundle id). Change them before the first store
-build if DHM prefers another.
+Identifiers: `com.dhminstitute.koko`, the same for the Android package and the iOS bundle id, and the URL scheme.
+They can no longer change once the first build is in a store.
 
 **Store forms:**
 - **Google Play, Data safety:** no data collected or shared. The microphone is used on the device only.

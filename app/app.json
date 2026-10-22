@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "Koko's Quest",
-    "slug": "koko-quest",
-    "scheme": "kokoquest",
+    "name": "Koko",
+    "slug": "koko",
+    "scheme": "com.dhminstitute.koko",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon-512.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#0B4FD8",
-    "description": "Teach Koko the cat Arabic, the prayer and Islamic Studies. By DHM Institute.",
+    "description": "Koko: Arabic & Quran for Kids. Learn Arabic, the prayer, Islamic Studies and short surahs with Koko the cat. By DHM Institute.",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dhminstitute.kokoquest",
+      "bundleIdentifier": "com.dhminstitute.koko",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.dhminstitute.kokoquest",
+      "package": "com.dhminstitute.koko",
       "adaptiveIcon": {
         "backgroundColor": "#0B4FD8",
         "foregroundImage": "./assets/icon-512.png"
@@ -43,7 +43,7 @@
       [
         "expo-audio",
         {
-          "microphonePermission": "Koko's Quest lets your child record their voice and hear it back. The recording stays on this device and is never sent anywhere.",
+          "microphonePermission": "Koko lets your child record their voice and hear it back. The recording stays on this device and is never sent anywhere.",
           "enableBackgroundPlayback": false,
           "enableBackgroundRecording": false
         }
