@@ -63,3 +63,24 @@ export function lessonToRow(L: Lesson): LessonRow {
 /** Lesson JSON as the database will rebuild it (title split into two columns keeps only ar/en). */
 export const LESSON_ROW_JSON_COLUMNS = ['video', 'learn', 'words', 'sounds', 'games', 'order_game', 'dialogue', 'speakers',
   'talk', 'quiz', 'move', 'think', 'parents', 'extra'] as const;
+
+const stripNulls = (o: J): J => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== null && v !== undefined));
+
+/** Mirror of SQL lesson_document(): the lesson JSON a working-copy row will publish as. */
+export function rowToLessonDoc(r: LessonRow, worldId: string): J {
+  return {
+    ...stripNulls({
+      id: r.id, world: worldId, unit: r.unit_no, source: r.source, title: { ar: r.title_ar, en: r.title_en }, topic: r.topic,
+      minutes: r.minutes, note: r.note, video: r.video, learn: r.learn, words: r.words, sounds: r.sounds, games: r.games,
+      order: r.order_game, dialogue: r.dialogue, speakers: r.speakers, talk: r.talk, quiz: r.quiz, move: r.move, think: r.think,
+      parents: r.parents,
+    }),
+    ...(r.extra ?? {}),
+  };
+}
+
+/** Mirror of SQL world_document() and unit_document(). */
+export const rowToWorldDoc = (r: WorldRow): J =>
+  ({ ...stripNulls({ id: r.id, code: r.display_code, en: r.en, ar: r.ar, tint: r.tint, ink: r.ink }), ...(r.extra ?? {}) });
+export const rowToUnitDoc = (r: UnitRow): J =>
+  ({ ...stripNulls({ id: r.id, n: r.n, ar: r.ar, en: r.en, go: r.go_world_id }), ...(r.extra ?? {}) });
