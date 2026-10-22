@@ -59,8 +59,9 @@ EXPO_PUBLIC_CONTENT_URL=http://localhost:8085 npx expo start   # use a local cop
 
 **Test APK from GitHub (no computer needed):** Actions → **App test build (Android APK)** → *Run workflow*. It builds
 the `preview` profile on EAS with the `EXPO_TOKEN` secret (Expo account `drhassan_muslim`) and puts the download link
-in the run's summary. The first run creates the EAS project `@drhassan_muslim/koko` and an Android signing key, both
-kept by EAS. Only `app/` and `packages/shared` are uploaded (see `.easignore` at the repo root).
+in the run's summary. The EAS project is `@drhassan_muslim/koko` (its id is in `app.json`); EAS keeps the Android
+signing key. Only `app/` and `packages/shared` are uploaded (see `.easignore` at the repo root); the workflow checks
+the archive with `eas build:inspect --stage archive` before it starts a build.
 
 From a computer, build and submit need the owner's Expo account and store accounts:
 

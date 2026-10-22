@@ -2,21 +2,25 @@
 # packages/shared, so everything else stays out, above all the site's audio/ and media/ (about 120 MB): the app
 # downloads lessons, sounds and videos from the site while it runs.
 # While this file exists, EAS does not read .gitignore, so the .gitignore rules are repeated below.
+#
+# No pattern here may end in "/": eas-cli checks folders as "app", not "app/", so a folder-only pattern such as
+# "!/app/" never matches and "/*" would drop the whole app (the first build uploaded an empty archive).
+# Check with: eas build:inspect -p android --stage archive -o /tmp/eas-archive (from app/).
 /*
-!/app/
-!/packages/
+!/app
+!/packages
 /packages/*
-!/packages/shared/
+!/packages/shared
 
 # from .gitignore and app/.gitignore
 *.tmp
-node_modules/
-app/.expo/
-app/dist/
-app/web-build/
+node_modules
+app/.expo
+app/dist
+app/web-build
 app/expo-env.d.ts
-app/ios/
-app/android/
+app/ios
+app/android
 *.jks
 *.p8
 *.p12
@@ -25,5 +29,5 @@ app/android/
 .env*.local
 
 # not needed to build the app
-app/store/
-app/scripts/
+app/store
+app/scripts
