@@ -4,7 +4,7 @@ import { AudioModule, RecordingPresets, setAudioModeAsync, useAudioRecorder } fr
 import { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { lessonAudio } from '../../../packages/shared/src/audio.ts';
-import { playSeq, stopAll } from '../audio/sound';
+import { playSeq, sfx, stopAll } from '../audio/sound';
 import { Ar, Btn, T } from '../components/ui';
 import { shuffle } from '../logic/shuffle';
 import { useProgress } from '../state/progress';
@@ -54,7 +54,7 @@ export function Talk({ L, finish, mistake }: StepProps) {
       {!answered ? <>
         <T color={C.muted}>Pick the best answer for Koko:</T>
         {choices.map(id => <Pressable key={id} accessibilityRole="button" accessibilityLabel={D[id]!.en} onPress={() => {
-          if (id === ex.answer) { setLog(l => [...l, { id, me: true }]); setAnswered(true); void say(id); }
+          if (id === ex.answer) { sfx.right(); setLog(l => [...l, { id, me: true }]); setAnswered(true); void say(id); }
           else { mistake(); setWrong([...wrong, id]); }
         }} style={[st.choice, wrong.includes(id) && { backgroundColor: C.redSoft }]}><Ar size={20}>{D[id]!.ar}</Ar><T size={13} color={C.muted}>{D[id]!.en}</T></Pressable>)}
       </> : <>

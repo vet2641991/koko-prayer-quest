@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { AppState, View } from 'react-native';
 import { stepsFor } from '../../../../../packages/shared/src/audio.ts';
 import type { Lesson } from '../../../../../packages/shared/src/schema.ts';
-import { stopAll } from '../../../audio/sound';
+import { sfx, stopAll } from '../../../audio/sound';
 import { Bar, Btn, Screen, T } from '../../../components/ui';
 import { getLesson } from '../../../data/content';
 import { markWord, tick } from '../../../logic/progress';
@@ -43,7 +43,7 @@ export default function StepScreen() {
     </View>
     <Bar pct={((i + 0.5) / steps.length) * 100} onBlue />
     <Step key={`${id}-${i}`} L={L} finish={finish} firstTime={(progress.step[id] ?? 0) <= i}
-      mistake={() => { session.mistakes++; }}
+      mistake={() => { session.mistakes++; sfx.wrong(); }}
       markWord={(w, ok) => update(p => markWord(p, L.id, w, ok))} />
   </Screen>;
 }

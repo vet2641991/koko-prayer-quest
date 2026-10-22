@@ -4,7 +4,7 @@ import { useVideoPlayer, VideoView } from 'expo-video';
 import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 import { lessonAudio, learnCardClip, wordAudio } from '../../../packages/shared/src/audio.ts';
-import { playSeq } from '../audio/sound';
+import { playSeq, sfx } from '../audio/sound';
 import { Ar, Btn, Card, KokoSays, T } from '../components/ui';
 import { mediaUri, saveMedia } from '../data/content';
 import { useProgress } from '../state/progress';
@@ -85,7 +85,7 @@ export function Move({ L, finish }: StepProps) {
       <T size={19} center>{L.move!.en}</T>
       <Btn label="🔊 Hear it" kind="soft" onPress={hear} />
     </Card>
-    <Btn label="I did it!" kind="blue" onPress={finish} />
+    <Btn label="I did it!" kind="blue" onPress={() => { sfx.right(); finish(); }} />
   </View>;
 }
 
@@ -98,6 +98,6 @@ export function Think({ L, finish }: StepProps) {
       {show ? <View style={{ backgroundColor: C.blueSoft, borderRadius: 16, padding: 12 }}><T>{L.think!.a}</T></View>
         : L.think!.a ? <Btn label="Show Koko's answer" kind="soft" onPress={() => { setShow(true); void playSeq([{ en: L.think!.a! }]); }} /> : null}
     </Card>
-    <Btn label="We talked about it!" onPress={finish} />
+    <Btn label="We talked about it!" onPress={() => { sfx.right(); finish(); }} />
   </View>;
 }

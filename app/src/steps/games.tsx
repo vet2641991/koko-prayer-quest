@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { lessonAudio, wordAudio } from '../../../packages/shared/src/audio.ts';
 import type { Lesson, Word } from '../../../packages/shared/src/schema.ts';
-import { playSeq } from '../audio/sound';
+import { playSeq, sfx } from '../audio/sound';
 import { Ar, Btn, Card, KokoSays, T } from '../components/ui';
 import { shuffle } from '../logic/shuffle';
 import { C } from '../theme';
@@ -35,7 +35,7 @@ export function Sounds({ L, finish, mistake }: StepProps) {
     <Pressable accessibilityRole="button" accessibilityLabel="Play the word again" onPress={() => playSeq([clip(t!.i, t!.j)])} style={st.playBig}><T size={44} center>🔊</T></Pressable>
     <T size={18} color={C.white} center>{S.prompt ?? 'Which letter is in the word?'} · Round {r + 1} of {rounds.length}</T>
     <View style={{ flexDirection: 'row', gap: 10 }}>{S.letters.map((x, j) => <Opt key={j} label={x.name} disabled={fb?.ok} onPress={() => {
-      if (j === t!.j) { setFb({ ok: true, text: `Yes! ${t!.w} → ${x.name}` }); setTimeout(() => (r + 1 < rounds.length ? setR(r + 1) : finish()), 1300); }
+      if (j === t!.j) { sfx.right(); setFb({ ok: true, text: `Yes! ${t!.w} → ${x.name}` }); setTimeout(() => (r + 1 < rounds.length ? setR(r + 1) : finish()), 1300); }
       else { mistake(); setFb({ ok: false, text: 'Listen again, Teacher!' }); void playSeq([clip(t!.i, t!.j)]); }
     }}><Ar size={48}>{x.ch}</Ar><T size={14}>{x.name}</T></Opt>)}</View>
     {fb ? <KokoSays text={fb.text} mood="cheer" tone={fb.ok ? 'good' : 'bad'} /> : null}
@@ -59,6 +59,7 @@ export function Listen({ L, finish, mistake, markWord, pool }: StepProps & { poo
     <T size={18} color={C.white} center>Koko says a word. Which one is it? · {r + 1}/{rounds.length}</T>
     <View style={st.grid}>{opts.map((o, j) => <View key={o.w.id} style={{ width: '48%' }}><Opt label={o.w.en} disabled={fb?.ok} state={fb?.ok && o === tgt ? 'right' : wrongs.includes(j) ? 'wrong' : undefined} onPress={() => {
       if (o === tgt) {
+        sfx.right();
         markWord({ ...tgt.w, from: tgt.w.from ?? (tgt.L.id !== L?.id ? tgt.L.id : undefined) }, !missed.current);
         setFb({ ok: true, text: `Yes! “${tgt.w.en}”. You taught me!` });
         void playSeq([{ en: tgt.w.en }]);
@@ -81,7 +82,7 @@ export function Match({ L, finish, mistake, markWord }: StepProps) {
         if (!pick) return;
         const pw = set.find(x => x.id === pick)!;
         if (w.id === pick) {
-          markWord(pw, true);
+          sfx.right(); markWord(pw, true);
           const g = [...gone, w.id]; setGone(g); setPick(null); setWrong(null);
           if (g.length === set.length) setTimeout(finish, 600);
         } else { mistake(); markWord(pw, false); setWrong(w.id); }
@@ -103,7 +104,7 @@ export function Order({ L, finish, mistake, markWord }: StepProps) {
     <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, justifyContent: 'center' }}>
       {tiles.filter(w => !seq.slice(0, n).includes(w)).map(w => <Pressable key={w.id} accessibilityRole="button" accessibilityLabel={w.en} onPress={() => {
         const want = seq[n]!;
-        if (w.id === want.id) { void playSeq([wordAudio(L.id, want)]); markWord(want, true); const m = n + 1; setN(m); if (m === seq.length) setTimeout(finish, 900); }
+        if (w.id === want.id) { sfx.right(); void playSeq([wordAudio(L.id, want)]); markWord(want, true); const m = n + 1; setN(m); if (m === seq.length) setTimeout(finish, 900); }
         else { mistake(); setShake(w.id); setTimeout(() => setShake(null), 400); }
       }} style={[st.tile, shake === w.id && { backgroundColor: C.redSoft }]}><Ar size={20}>{w.ar}</Ar><T size={12} color={C.muted}>{w.en}</T></Pressable>)}
     </View>
@@ -122,7 +123,7 @@ export function Quiz({ L, finish, mistake }: StepProps) {
     <Card style={{ alignItems: 'center' }}>{cur.ar ? <Ar size={24}>{cur.ar}</Ar> : null}<T size={cur.ar ? 16 : 20} center color={cur.ar ? C.muted : C.ink}>{cur.en}</T>
       <T size={12} color={C.muted}>Question {q + 1} of {Q.length}</T></Card>
     {order.map(j => { const o = cur.opts[j]!; return <Opt key={j} grow={false} label={o[1]} disabled={right !== null} state={right === j ? 'right' : wrongs.includes(j) ? 'wrong' : undefined} onPress={() => {
-      if (o[2] === 1) { setRight(j); setTimeout(() => (q + 1 < Q.length ? setQ(q + 1) : finish()), 900); }
+      if (o[2] === 1) { sfx.right(); setRight(j); setTimeout(() => (q + 1 < Q.length ? setQ(q + 1) : finish()), 900); }
       else { mistake(); setWrongs([...wrongs, j]); }
     }}>{o[0] ? <><Ar size={22}>{o[0]}</Ar><T size={14} color={C.muted}>{o[1]}</T></> : <T size={18} center>{o[1]}</T>}</Opt>; })}
   </View>;

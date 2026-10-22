@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { Image, Pressable, View } from 'react-native';
 import { wordAudio } from '../../../../packages/shared/src/audio.ts';
 import type { Lesson } from '../../../../packages/shared/src/schema.ts';
-import { playSeq } from '../../audio/sound';
+import { playSeq, sfx } from '../../audio/sound';
+import { confetti } from '../../components/Confetti';
 import { useParentalGate } from '../../components/ParentalGate';
 import { PromoCards } from '../../components/Promos';
 import { Ar, Btn, Card, IMG, Screen, Stars, T } from '../../components/ui';
@@ -23,6 +24,7 @@ export default function Win() {
     getLesson(id).then(setL);
     update(p => ({ ...p, stars: { ...p.stars, [id]: Math.max(p.stars[id] ?? 0, stars) }, step: { ...p.step, [id]: 0 } }));
     session.id = ''; session.mistakes = 0;
+    sfx.win(); confetti();
   }, [id]);
   return <Screen>
     <View style={{ alignItems: 'center', gap: 8, marginTop: 10 }}>

@@ -7,6 +7,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { initAudio } from '../audio/sound';
+import { ConfettiLayer } from '../components/Confetti';
 import { ProgressProvider } from '../state/progress';
 import { C } from '../theme';
 
@@ -21,6 +22,7 @@ export default function RootLayout() {
     <ProgressProvider>
       <StatusBar style="light" />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: C.blue }, animation: 'slide_from_right' }} />
+      <ConfettiLayer />
     </ProgressProvider>
   </SafeAreaProvider>;
 }
