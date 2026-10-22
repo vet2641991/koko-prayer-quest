@@ -2,6 +2,7 @@
   "expo": {
     "name": "Koko",
     "slug": "koko",
+    "owner": "drhassan_muslim",
     "scheme": "com.dhminstitute.koko",
     "version": "1.0.0",
     "orientation": "portrait",
