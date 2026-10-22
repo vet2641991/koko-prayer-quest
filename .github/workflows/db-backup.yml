@@ -1,0 +1,66 @@
+# Weekly encrypted backup of the Supabase database (schema + data of the public schema, plus the admin accounts).
+# The repo is public and workflow artifacts can be downloaded by any GitHub user, so the dump is encrypted with
+# BACKUP_PASSPHRASE (GPG, AES-256) before it is stored. Keep that passphrase somewhere safe outside GitHub too:
+# without it the backups cannot be opened. Restore steps: docs/DEPLOY.md §7.
+name: Database backup
+
+on:
+  schedule:
+    - cron: '17 2 * * 0'   # Sundays 02:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SUPABASE_PROJECT_REF: pwgkxdiwqrxkndkyzwlw
+
+jobs:
+  backup:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check that the secrets are set
+        id: secrets
+        env:
+          READY: ${{ secrets.SUPABASE_ACCESS_TOKEN != '' && secrets.SUPABASE_DB_PASSWORD != '' && secrets.BACKUP_PASSPHRASE != '' }}
+        run: |
+          echo "ready=$READY" >> "$GITHUB_OUTPUT"
+          [ "$READY" = "true" ] || echo "::warning::SUPABASE_ACCESS_TOKEN, SUPABASE_DB_PASSWORD and BACKUP_PASSPHRASE are needed: no backup was made."
+
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.ready == 'true'
+
+      - uses: supabase/setup-cli@v1
+        if: steps.secrets.outputs.ready == 'true'
+        with:
+          version: 2.54.11
+
+      - name: Dump and encrypt
+        if: steps.secrets.outputs.ready == 'true'
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+          BACKUP_PASSPHRASE: ${{ secrets.BACKUP_PASSPHRASE }}
+        run: |
+          set -euo pipefail
+          umask 077
+          supabase link --project-ref "$SUPABASE_PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
+          stamp=$(date -u +%Y-%m-%d)
+          mkdir -p backup
+          supabase db dump --password "$SUPABASE_DB_PASSWORD" -f backup/schema.sql
+          supabase db dump --password "$SUPABASE_DB_PASSWORD" --data-only -f backup/data.sql
+          supabase db dump --password "$SUPABASE_DB_PASSWORD" --data-only --schema auth -f backup/auth-data.sql
+          tar czf "koko-db-$stamp.tgz" -C backup .
+          gpg --batch --yes --pinentry-mode loopback --passphrase-fd 3 --symmetric --cipher-algo AES256 \
+            -o "koko-db-$stamp.tgz.gpg" "koko-db-$stamp.tgz" 3<<<"$BACKUP_PASSPHRASE"
+          rm -rf backup "koko-db-$stamp.tgz"
+          echo "FILE=koko-db-$stamp.tgz.gpg" >> "$GITHUB_ENV"
+
+      - uses: actions/upload-artifact@v4
+        if: steps.secrets.outputs.ready == 'true'
+        with:
+          name: ${{ env.FILE }}
+          path: ${{ env.FILE }}
+          retention-days: 90
+          if-no-files-found: error
