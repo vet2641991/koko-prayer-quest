@@ -1,0 +1,109 @@
+# Publishes what admins published in the dashboard to the live site: exports Supabase's published content to
+# content/** (scripts/export-static.ts), then opens a pull request, or commits straight to main when asked to.
+# It fails closed: if the exported tree does not validate, or a file changed in git since the last import, nothing
+# is written and the run is red.
+# Triggers: by hand (Actions → Publish content → Run workflow), or the dashboard's "Send to the site" button
+# (a repository_dispatch of type publish-content, sent by the request-export Edge Function).
+# Secrets: SUPABASE_ACCESS_TOKEN, SUPABASE_DB_PASSWORD; SUPABASE_SECRET_KEY only when uploads must be copied.
+name: Publish content
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_to_main:
+        description: 'Commit straight to main (live within minutes) instead of opening a pull request'
+        type: boolean
+        default: false
+  repository_dispatch:
+    types: [publish-content]
+
+permissions:
+  contents: write        # push the export branch (or main)
+  pull-requests: write   # open the pull request
+
+concurrency:
+  group: publish-content
+  cancel-in-progress: false
+
+env:
+  SUPABASE_PROJECT_REF: pwgkxdiwqrxkndkyzwlw
+  SUPABASE_URL: https://pwgkxdiwqrxkndkyzwlw.supabase.co
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check that the secrets are set
+        env:
+          HAS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN != '' }}
+          HAS_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD != '' }}
+        run: |
+          if [ "$HAS_TOKEN" != "true" ] || [ "$HAS_PASSWORD" != "true" ]; then
+            echo "::error::SUPABASE_ACCESS_TOKEN and SUPABASE_DB_PASSWORD must be set (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: supabase/setup-cli@v1
+        with:
+          version: 2.54.11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Link the project
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        run: |
+          supabase link --project-ref "$SUPABASE_PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
+          if [ ! -s supabase/.temp/pooler-url ]; then
+            curl -fsS -H "Authorization: Bearer $SUPABASE_ACCESS_TOKEN" \
+              "https://api.supabase.com/v1/projects/$SUPABASE_PROJECT_REF/config/database/pooler" \
+              | jq -r '[.[] | select(.database_type == "PRIMARY")][0] | "postgresql://\(.db_user)@\(.db_host):5432/\(.db_name)"' \
+              > supabase/.temp/pooler-url
+          fi
+
+      - name: Export the published content (validated; nothing is written on any error)
+        id: export
+        env:
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npm run export
+
+      - name: Validate the written files once more
+        if: steps.export.outputs.changed == 'true'
+        run: npm run validate
+
+      - name: Commit to main
+        if: steps.export.outputs.changed == 'true' && inputs.commit_to_main
+        run: |
+          git config user.name "koko-publish[bot]"
+          git config user.email "koko-publish@users.noreply.github.com"
+          git add content media
+          git commit -m "Publish content from the dashboard (run ${{ github.run_id }})"
+          git push origin HEAD:main
+
+      - name: Open a pull request
+        if: steps.export.outputs.changed == 'true' && !inputs.commit_to_main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="publish/content-${{ github.run_id }}"
+          git config user.name "koko-publish[bot]"
+          git config user.email "koko-publish@users.noreply.github.com"
+          git switch -c "$branch"
+          git add content media
+          git commit -m "Publish content from the dashboard (run ${{ github.run_id }})"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Publish content from the dashboard" \
+            --body "Exported from Supabase by run ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}. The export validated the whole tree before writing. Merge to put it live."

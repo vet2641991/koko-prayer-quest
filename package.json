@@ -11,7 +11,7 @@
   },
   "scripts": {
     "typecheck": "tsc -p tsconfig.json",
-    "test": "node --import tsx --test tests/*.test.ts",
+    "test": "node --import tsx --test --test-concurrency=1 tests/*.test.ts",
     "validate": "tsx scripts/validate-content.ts",
     "import": "tsx scripts/import-json.ts",
     "export": "tsx scripts/export-static.ts"
