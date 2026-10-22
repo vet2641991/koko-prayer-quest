@@ -1,9 +1,11 @@
 // Talk with Koko: Koko plays one speaker, the child the other. After the right answer the child may record their
-// voice and hear it back. The recording stays in the app's cache and is never uploaded.
+// voice and hear it back. The recording is never uploaded, and is deleted when replaced or when the screen closes.
 import { AudioModule, RecordingPresets, setAudioModeAsync, useAudioRecorder } from 'expo-audio';
-import { useEffect, useMemo, useState } from 'react';
+import { useFocusEffect } from 'expo-router';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { lessonAudio } from '../../../packages/shared/src/audio.ts';
+import { forget, remember } from '../audio/recordings';
 import { playSeq, sfx, stopAll } from '../audio/sound';
 import { Ar, Btn, T } from '../components/ui';
 import { shuffle } from '../logic/shuffle';
@@ -22,6 +24,7 @@ export function Talk({ L, finish, mistake }: StepProps) {
   const ex = L.talk![t]!;
   const say = (id: string) => playSeq([lessonAudio(L.id, `d-${id}-ar`), { en: D[id]!.en }]);
   const choices = useMemo(() => shuffle([ex.answer, ...ex.wrong]), [t]);
+  useFocusEffect(useCallback(() => () => forget(), []));   // the child leaves this screen: no recording is kept
   useEffect(() => { setLog(l => [...l, { id: ex.ask, me: false }]); setAnswered(false); setWrong([]); setMine(null); void say(ex.ask); }, [t]);
 
   async function record() {
@@ -41,7 +44,12 @@ export function Talk({ L, finish, mistake }: StepProps) {
     try { await recorder.stop(); } catch { /* already stopped */ }
     setRecording(false);
     await setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true }).catch(() => {});
-    if (recorder.uri) { setMine(recorder.uri); void playSeq([{ uri: recorder.uri }]); }
+    if (recorder.uri) {
+      const uri = recorder.uri;
+      if (mine && mine !== uri) forget(mine);   // only the latest take is kept, until the screen closes
+      remember(uri); setMine(uri);
+      void playSeq([{ uri }]);
+    }
   }
 
   return <View style={{ gap: 10 }}>

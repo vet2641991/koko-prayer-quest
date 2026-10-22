@@ -6,6 +6,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { sweepRecordings } from '../audio/recordings';
 import { initAudio } from '../audio/sound';
 import { ConfettiLayer } from '../components/Confetti';
 import { ProgressProvider } from '../state/progress';
@@ -15,7 +16,7 @@ SplashScreen.preventAutoHideAsync().catch(() => {});
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({ Baloo2_500Medium, Baloo2_700Bold, Baloo2_800ExtraBold, NotoNaskhArabic_400Regular, NotoNaskhArabic_700Bold });
-  useEffect(() => { void initAudio(); }, []);
+  useEffect(() => { void initAudio(); void sweepRecordings(); }, []);
   useEffect(() => { if (loaded || error) SplashScreen.hideAsync().catch(() => {}); }, [loaded, error]);
   if (!loaded && !error) return null;
   return <SafeAreaProvider>
