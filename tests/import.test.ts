@@ -1,49 +1,24 @@
-// Integration tests for scripts/import-json.ts against a real Postgres that has the migrations applied and no content
-// (CI: the "Database tests" job right after supabase/tests/run.sh). Skipped when DATABASE_URL is not set.
-// Each scenario runs the import in a scratch copy of the repo so the real files are never touched.
+// Integration tests for scripts/import-json.ts against a real Postgres (a fresh migrated database of its own, created
+// next to DATABASE_URL). Skipped when DATABASE_URL is not set. Each scenario runs the import in a scratch copy of the
+// repo so the real files are never touched.
 import assert from 'node:assert/strict';
-import { spawnSync } from 'node:child_process';
-import { cpSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+import { readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { after, before, test } from 'node:test';
 import pg from 'pg';
+import { editJson as edit, freshDatabase, runScript, scratchRepo, skipDb as skip } from './helpers.ts';
 
-const repo = process.cwd();
-const url = process.env.DATABASE_URL;
-const skip = !url ? 'DATABASE_URL is not set' : false;
-
-let work = '', db: pg.Client;
+let work = '', url = '', db: pg.Client;
 const RECUT = 'isl1-l13';   // its audio folder is copied (not linked) so a clip can be "re-cut"
-
-function scratchRepo(): string {
-  const dir = mkdtempSync(join(tmpdir(), 'koko-import-'));
-  cpSync(join(repo, 'content'), join(dir, 'content'), { recursive: true });
-  cpSync(join(repo, 'supabase/seed'), join(dir, 'supabase/seed'), { recursive: true });
-  mkdirSync(join(dir, 'audio'));
-  for (const d of readdirSync(join(repo, 'audio'))) {
-    if (d === RECUT) cpSync(join(repo, 'audio', d), join(dir, 'audio', d), { recursive: true });
-    else symlinkSync(join(repo, 'audio', d), join(dir, 'audio', d));
-  }
-  symlinkSync(join(repo, 'media'), join(dir, 'media'));
-  return dir;
-}
-
-function runImport(...args: string[]) {
-  const r = spawnSync(join(repo, 'node_modules/.bin/tsx'), [join(repo, 'scripts/import-json.ts'), ...args],
-    { cwd: work, env: { ...process.env, GITHUB_STEP_SUMMARY: '' }, encoding: 'utf8' });
-  return { code: r.status, out: r.stdout + r.stderr };
-}
-const editJson = (path: string, fn: (doc: any) => void) => {
-  const doc = JSON.parse(readFileSync(join(work, path), 'utf8')); fn(doc);
-  writeFileSync(join(work, path), JSON.stringify(doc, null, 2));
-};
+const runImport = (...args: string[]) => runScript('import-json', work, url, ...args);
+const editJson = (path: string, fn: (doc: any) => void) => edit(work, path, fn);
 const published = async (kind: string, id: string) =>
   (await db.query('select document from public.published_content where kind = $1 and id = $2', [kind, id])).rows[0]?.document;
 
 before(async () => {
   if (skip) return;
-  work = scratchRepo();
+  url = await freshDatabase('koko_t_import');
+  work = scratchRepo([RECUT]);
   db = new pg.Client({ connectionString: url });
   await db.connect();
 });
@@ -76,7 +51,7 @@ test('a second import changes nothing (idempotent)', { skip }, async () => {
   const before = (await db.query('select count(*)::int as n from public.content_revisions')).rows[0].n;
   const r = runImport();
   assert.equal(r.code, 0, r.out);
-  assert.match(r.out, /applied: \*\*0\*\* entities, unchanged: 183/);
+  assert.match(r.out, /applied: \*\*0\*\* entities.*unchanged: 183/);
   assert.equal((await db.query('select count(*)::int as n from public.content_revisions')).rows[0].n, before);
 });
 

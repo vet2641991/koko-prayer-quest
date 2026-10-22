@@ -110,11 +110,19 @@ async function run(db: pg.Client, rootDir: string, catalog: Catalog, lessons: Ma
     working.set(key(r.kind, r.id), { doc: r.doc, status: r.status });
   }
 
+  const livePublished = new Map<string, J>();
+  for (const r of (await q<{ kind: Kind; id: string; document: J; sort: number | null }>(
+    'select kind, id, document, sort from public.published_content')).rows) livePublished.set(key(r.kind, r.id), withSort(r.document, r.sort));
+
   // ---- decide, entity by entity ------------------------------------------------------------------------------
-  const apply = new Set<string>();
+  const apply = new Set<string>(), syncOnly = new Set<string>();
   for (const e of entities) {
     const k = key(e.kind, e.id), repo = withSort(e.doc, e.sort), last = synced.get(k), work = working.get(k);
     if (last && sameJson(last, repo) && work) { out.unchanged++; continue; }
+    // the export wrote what the dashboard published: the repo now matches the live version, so there is nothing to
+    // apply, and later dashboard edits in the working copy stay untouched (they are not a conflict)
+    const live = livePublished.get(k);
+    if (work && live && sameJson(live, repo)) { syncOnly.add(k); continue; }
     if (work?.status === 'archived') { out.conflicts.push(`${e.kind} ${e.id}: archived in the dashboard but still in the repo`); continue; }
     if (!work || sameJson(work.doc, repo) || (last && sameJson(work.doc, last))) { apply.add(k); continue; }
     out.conflicts.push(`${e.kind} ${e.id}: changed in the repo and edited in the dashboard since the last import (left as it is in the dashboard)`);
@@ -221,7 +229,7 @@ async function run(db: pg.Client, rootDir: string, catalog: Catalog, lessons: Ma
   // ---- remember what the repo had, for the next import and for the export's overwrite guard -------------------------
   for (const e of entities) {
     const k = key(e.kind, e.id);
-    if (!apply.has(k) || failed.has(k)) continue;
+    if (!(apply.has(k) || syncOnly.has(k)) || failed.has(k)) continue;
     await q(`insert into public.repo_sync (kind, id, document, git_commit) values ($1, $2, $3::jsonb, $4)
              on conflict (kind, id) do update set document = excluded.document, git_commit = excluded.git_commit, imported_at = now()`,
       [e.kind, e.id, JSON.stringify(withSort(e.doc, e.sort)), commit]);
@@ -263,12 +271,20 @@ async function importMedia(q: <T extends pg.QueryResultRow = J>(sql: string, p?:
   }
 
   const existing = new Map<string, { sha256: string | null; bytes: number | null; sacred: boolean }>();
-  for (const r of (await q<{ path: string; sha256: string | null; bytes: string | null; sacred: boolean }>(
-    `select path, sha256, bytes, sacred from public.media_assets where storage = 'static'`)).rows) {
-    existing.set(r.path, { sha256: r.sha256, bytes: r.bytes === null ? null : Number(r.bytes), sacred: r.sacred });
+  const uploads = new Map<string, boolean>();   // path -> sacred
+  for (const r of (await q<{ path: string; sha256: string | null; bytes: string | null; sacred: boolean; storage: string }>(
+    `select path, sha256, bytes, sacred, storage from public.media_assets`)).rows) {
+    if (r.storage === 'supabase') uploads.set(r.path, r.sacred);
+    else existing.set(r.path, { sha256: r.sha256, bytes: r.bytes === null ? null : Number(r.bytes), sacred: r.sacred });
   }
-  const firstImport = existing.size === 0;
+  const firstImport = existing.size === 0 && uploads.size === 0;
   const files = listMediaFiles(rootDir);
+  // a dashboard upload that the export copied into the repo is a repo file from now on (approval kept: same bytes)
+  for (const f of files.filter(f => uploads.has(f.path))) {
+    await q(`update public.media_assets set storage = 'static', storage_object = null, bytes = $2, sha256 = $3 where path = $1`,
+      [f.path, f.bytes, f.sha256]);
+    existing.set(f.path, { sha256: f.sha256, bytes: f.bytes, sacred: uploads.get(f.path)! });
+  }
   const onDisk = new Set(files.map(f => f.path));
   const knownLessons = new Set((await q<{ id: string }>('select id from public.lessons')).rows.map(r => r.id));
 
@@ -328,7 +344,7 @@ function report(o: Outcome) {
   const lines = [
     `## Content import${dryRun ? ' (dry run: rolled back)' : ''}`,
     '',
-    `- applied: **${o.applied.length}** entities, unchanged: ${o.unchanged}`,
+    `- applied: **${o.applied.length}** entities (including ones the export wrote back), unchanged: ${o.unchanged}`,
     `- media: ${o.media.added} added, ${o.media.updated} updated${o.media.approvalsWithdrawn.length ? `, approval withdrawn on ${o.media.approvalsWithdrawn.length}` : ''}`,
     `- round trip: ${o.errors.length ? '**failed**' : 'identical to the repo (apart from key order)'}`,
   ];
