@@ -1,0 +1,40 @@
+{
+  "about": "Owner's classification of the prayer cartoons: they contain adhkar, so each video is sacred media. Read by scripts/import-json.ts (step 4). Posters are images and are not sacred.",
+  "decidedBy": "Dr. Hassan Muslim (owner)",
+  "decidedOn": "2026-10-22",
+  "sacred": {
+    "approvedBy": "Dr. Hassan Muslim",
+    "approvedOn": "2026-10-22",
+    "approvalNote": "Prayer videos approved by Dr. Hassan (owner's answer of 2026-10-22)",
+    "files": [
+      {
+        "path": "media/prayer-1.mp4",
+        "lesson": "prayer-l01"
+      },
+      {
+        "path": "media/prayer-2.mp4",
+        "lesson": "prayer-l02"
+      },
+      {
+        "path": "media/prayer-3.mp4",
+        "lesson": "prayer-l03"
+      },
+      {
+        "path": "media/prayer-4.mp4",
+        "lesson": "prayer-l04"
+      },
+      {
+        "path": "media/prayer-5.mp4",
+        "lesson": "prayer-l05"
+      },
+      {
+        "path": "media/prayer-6.mp4",
+        "lesson": "prayer-l06"
+      },
+      {
+        "path": "media/prayer-7.mp4",
+        "lesson": "prayer-l07"
+      }
+    ]
+  }
+}

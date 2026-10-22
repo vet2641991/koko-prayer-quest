@@ -1,15 +1,11 @@
-# Koko backend: database schema (Milestone 1, step 2)
+# Koko backend: database schema and access rules (Milestone 1, steps 2–3)
 
-Migrations: `supabase/migrations/` (5 files, applied in order).
+Migrations: `supabase/migrations/` (8 files, applied in order).
 Tests: `supabase/tests/` (`run.sh`, plus the **Database tests** GitHub Action on every PR that touches `supabase/`).
 This builds on [`AUDIT.md`](AUDIT.md). Section numbers like "AUDIT §5" point there.
 
-This step adds tables only. **Nothing is deployed yet, and nothing can be read through the API yet**:
-
-- Row-level security is on for every table, with no policies.
-- Every table grant has been taken away from the `anon` and `authenticated` API roles.
-
-Step 3 opens exactly the access each role needs, with tests that prove it.
+**Nothing is deployed to the Supabase project yet.** That needs a workflow and the GitHub secrets, which come
+with the import (step 4).
 
 ---
 
@@ -20,23 +16,23 @@ Step 3 opens exactly the access each role needs, with tests that prove it.
 
    WORKING LAYER (admins only, never public)              PUBLISHED LAYER (what children get)
    ─────────────────────────────────────────              ───────────────────────────────────
-   catalog_settings (1 row)                ── publish ──►  published_content   kind = catalog | world | unit | lesson
+   catalog_settings (1 row)                ── publish ──►  published_content   kind = catalog | world | unit | lesson | promo
    worlds ──< units ──1:0..1── lessons                         │ one row per live item, exact JSON object
                  └──< media_assets (owner lesson)              │
-                                                              content_revisions (every version ever published)
+   promos                                                     content_revisions (every version ever published)
 
-   static export (step 5) reads ONLY published_content ──► content/catalog.json + content/<world>/<file>.json
+   static export (step 5) reads ONLY published_content ──► content/catalog.json + content/<world>/<file>.json (+ promos)
 ```
 
 ## 2. Working copy vs published copy: why there are two layers
 
-Admins edit `worlds`, `units`, `lessons` and `catalog_settings`. Children never get those rows.
+Admins edit `worlds`, `units`, `lessons`, `promos` and `catalog_settings`. Children never get those rows.
 
-**Publishing** (an RPC written in step 3, allowed only for roles with `can_publish`) does three things in one
-transaction:
+**Publishing** is done by a `publish_*` function. Only owners and reviewers may call them, and so may the import
+job. Each call does three things in one transaction:
 
 1. Builds the exact JSON object with `lesson_document()` (or `unit_document()`, `world_document()`,
-   `catalog_document()`).
+   `catalog_document()`, `promo_document()`).
 2. Appends it to `content_revisions`.
 3. Puts it in `published_content`.
 
@@ -47,9 +43,10 @@ So:
 - **Editing a lesson that is already live changes nothing for children** until it is published again. With a
   single table and a `status` column, a half-finished edit to a published row would leak into the next export.
   With two layers it can't.
-- **Rollback** means publishing an older revision again, and the history is never lost. `content_revisions` is
-  append-only, and so is `audit_log`.
+- **Rollback** means publishing an older revision again, and the history is never lost. `content_revisions` and
+  `audit_log` are append-only and can't be truncated.
 - **Publish** writes one row per item, so publishing one lesson cannot accidentally ship another lesson's draft.
+- **Publishing an unchanged item is a no-op.** Re-running the import or pressing Publish twice adds no history.
 
 ## 3. What a child sees (owner's decisions of 2026-10-22)
 
@@ -58,7 +55,7 @@ So:
 | Unit published, lesson **published** | Playable unit | Yes: the published revision only |
 | Unit published, lesson **draft** (or no lesson yet) | Locked **"soon"** box, exactly as today's units without a `file` | **No, never** |
 | Unit published, `go` link | Link to the other world (today: `isl1-l14` → `prayer`) | — |
-| Lesson **archived** | **Not shown at all.** Archiving a lesson also removes its unit from `published_content` | No |
+| Lesson **archived** | **Not shown at all.** Archiving a lesson also archives its unit and removes both from `published_content` | No |
 | Unit or world **draft / archived** | Not shown | No |
 
 `published_content` holds the rule: a unit row with no lesson row is a "soon" box, and a unit with both rows gets
@@ -77,6 +74,16 @@ So:
   Uniqueness is checked at commit time, so units can be reordered in one save.
 - A unit can exist without a lesson ("soon"). A `go` unit can never have a lesson (trigger).
 - Every row has `created_at`, `updated_at` and `updated_by` (set by trigger from the signed-in admin).
+- `worlds.display_code` holds the DHM level code, a display name only. The ids stay the key:
+
+  | Track | Codes | Worlds |
+  |---|---|---|
+  | Arabic (books 1–12) | ARkid A1 … D3 | `ar1`, `ar2` today; one new world per book later |
+  | Islamic Studies | ISL A1 / A2 / A3 | `isl1`, `isl2` today; one new world later |
+  | Qur'an | QAPRE1 (letters), then QR A1 (letters and vowels) | two new worlds later |
+
+  The code is exported as `"code"` on the world **only when it is set**, so today's `catalog.json` stays
+  byte-identical until an owner fills the codes in from the dashboard and publishes.
 
 **Lesson JSON → columns.** The common parts are columns. The parts whose shape varies are `jsonb` holding the
 original JSON verbatim:
@@ -95,27 +102,43 @@ original JSON verbatim:
 - A JSON key that is absent is SQL `NULL`, never `[]`, so absent stays absent.
 - `extra` keeps fields the schema doesn't know yet. For example, the local production session may add a new
   field before the admin knows about it. Nothing is lost, and `extra` can't shadow a known key.
-- `worlds`, `units` and `catalog_settings` have the same `extra` column.
+- `worlds`, `units`, `promos` and `catalog_settings` have the same `extra` column.
+- `"sacred": true` on words stays in the lesson files exactly as today (owner, 2026-10-22). The app never shows it.
+
+### `promos` (DHM Institute messages for parents)
+
+| Column | |
+|---|---|
+| `id` | slug, e.g. `trial-class` |
+| `text_en` | the message, in English |
+| `url` | **https on dhm-institute.com only** (database check). Examples: `https://dhm-institute.com/trial-sessions/booking` for a trial class, and the recorded-course pages on `dhm-institute.com` |
+| `placement` | `after_lesson` / `map` / `parents` |
+| `active` | on or off. Switching it off and publishing takes the promo out of the app |
+| `sort` | order within its placement |
+
+Promos are published and exported like the rest of the content. Every promo link leaves the app, so **the app
+must open it only behind a parental gate** (Google Play Families, Apple Kids category). That is an app
+requirement for the Expo app and any PWA change. The database's part is limiting links to DHM's own https site.
 
 ### `content_revisions` and `published_content` (published layer)
 
-- `content_revisions(kind, entity_id, revision, document, sha256, published_at, published_by…)` is append-only.
+- `content_revisions(kind, entity_id, revision, document, sha256, published_at, published_by…)` is append-only:
+  no update, delete or truncate.
 - `published_content(kind, id, world_id, sort, document, revision_id…)` holds one row per live item. Its shape
   check makes units carry their world and sort.
 
 ### `roles`, `admins`
 
-There is no self-signup. `auth.enable_signup = false` is set in `supabase/config.toml`, and the hosted project must
-also have sign-ups turned off (DEPLOY, step 7). The owner adds each admin.
+There is no self-signup. `auth.enable_signup = false` is set in `supabase/config.toml`, but that file affects only a
+local stack: **sign-ups must also be switched off on the hosted project.** The steps will be in DEPLOY.md, and the
+owner will be walked through them when we connect the project. The owner adds each admin.
 
 - An auth account by itself grants nothing. Every permission check asks for an **active** row in `admins`.
 - A trigger keeps **at least one active owner** at all times, so nobody can be locked out.
-- `has_permission('edit_content' | 'publish' | 'approve_sacred' | 'manage_admins')` and `current_admin_role()`
-  are what step 3's policies call.
 
-**Role matrix (proposal, stored as data in `roles`):**
+**Role matrix (approved by the owner, 2026-10-22; stored as data in `roles`, editable by the owner only):**
 
-| Role | Edit drafts | Publish / archive | Approve sacred media | Manage admins and catalog settings |
+| Role | Edit drafts | Publish / archive | Approve sacred media | Manage admins, roles, catalog settings |
 |---|:-:|:-:|:-:|:-:|
 | owner | ✓ | ✓ | ✓ | ✓ |
 | reviewer | ✓ | ✓ | ✓ | — |
@@ -130,19 +153,23 @@ repo, `supabase` = an admin upload waiting to be copied in at publish), `bytes` 
 - **The path is permanent**, and an audio clip must sit in its owner lesson's folder.
 - `sacred` **defaults to true.** A file nobody has classified is treated as sacred and unapproved until an owner or
   reviewer says otherwise.
-- **An approval belongs to the exact bytes approved.** If a sacred file's `sha256` changes (a re-cut clip),
-  the approval is withdrawn automatically and the withdrawal is logged.
-- The sacred flag is **admin-only**: it is never exported, and step 3 makes it unreadable by the public API.
+- **An approval belongs to the exact bytes approved.** If a sacred file's `sha256` changes (a re-cut clip), the
+  approval is withdrawn automatically and the withdrawal is logged.
+  - The import (step 4) fills `sha256` and `bytes` for **every** file in `audio/` and `media/`, so this
+    protection works from day one.
+- `approved_by_name` is always filled, so an approval stays readable even if that admin is later removed.
+- The sacred flag is **admin-only**: it is never exported, and it is unreadable by the public API (§5).
 
 **How the sacred flags are seeded** (by the import in step 4):
 
-| Clips | sacred | Approved |
+| Files | sacred | Approved |
 |---|---|---|
 | `w-<id>-ar.mp3` of every word with `"sacred": true` (76 words today) | true | yes. Approved before the dashboard existed; date taken from git history |
 | The 17 Learn-card clips in [`supabase/seed/sacred-learn-cards.json`](../supabase/seed/sacred-learn-cards.json) | true | yes: Dr. Hassan Muslim, 2026-10-19 |
 | The 30 Learn-card clips listed there as not sacred (surah *names* in `isl2-l17` are titles) | false | — |
+| `media/prayer-1.mp4` … `prayer-7.mp4`, in [`supabase/seed/sacred-videos.json`](../supabase/seed/sacred-videos.json) | true | yes: Dr. Hassan Muslim, 2026-10-22 |
 | Any other `c-*` clip (none today) | true | **no**, named in the import report |
-| `d-*`, `s-*`, `x-move` clips, other words, posters, app images | false | — |
+| `d-*`, `s-*`, `x-move` clips, other words, other videos, posters, app images | false | — |
 
 The owner's list covers all 47 `c-*` clips on `main` today. I checked it: the two `isl1-l13` clips are
 byte-identical to the approved `isl2-l12` ones.
@@ -157,25 +184,81 @@ or SQL editor.
 - It names the workflow events: `publish`, `unpublish`, `archive`, `restore`, `approve`, `revoke_approval`.
 - It is append-only: updates, deletes and truncates are rejected.
 
-## 5. Proof that the schema holds today's content losslessly
+## 5. Who can do what (step 3)
 
-Run locally on Postgres 16, using a throwaway loader. Step 4's `scripts/import-json.ts` will make this the permanent
-round-trip check.
+The rules are enforced **in the database**: RLS policies, column-level grants and triggers. Nothing relies on the
+dashboard hiding a button.
 
-- All **88 lessons** and **89 units** load into the working tables, with no use of `extra`.
-- For **88 / 88** lessons, `lesson_document()` rebuilt from the columns **equals the file** (parsed JSON, so key
-  order is ignored).
-- The catalog rebuilt from `catalog_settings` + `worlds` + `units` **equals `content/catalog.json`**.
-- Arabic is stored **byte for byte**: no normalisation, tashkeel intact, checked on a sacred word.
-- `supabase/tests/01_schema_integrity.sql`: **45 checks pass**. They cover permanent ids, structure rules, the
-  document builders, the audit log, append-only history, role permissions, the last-owner guard, the media rules,
-  and the lockdown (anon can't read or write anything, and a signed-in non-admin can't either).
+| | Public app (`anon`) and signed-in non-admins | editor | reviewer | owner |
+|---|:-:|:-:|:-:|:-:|
+| Read `published_content` (without `published_by`) | ✓ | ✓ | ✓ | ✓ |
+| Read working copies, media flags, history, audit log | — | ✓ | ✓ | ✓ |
+| Create and edit drafts (worlds, units, lessons, promos) | — | ✓ | ✓ | ✓ |
+| Delete a draft that was **never** published | — | ✓ | ✓ | ✓ |
+| Record a dashboard upload (always starts sacred and unapproved) | — | ✓ | ✓ | ✓ |
+| Change the Arabic of a sacred word, or of a Learn card with a sacred clip | — | — | ✓ | ✓ |
+| `publish_*`, `unpublish_lesson`, `archive_*`, `restore_content` | — | — | ✓ | ✓ |
+| `approve_media`, `revoke_media_approval`, `set_media_sacred` | — | — | ✓ | ✓ |
+| Admins, roles, catalog settings | — | — | — | ✓ |
 
-**Key order.** `jsonb` doesn't keep key order, and the owner accepted that ("identical apart from key order").
-To keep git diffs small, the export (step 5) will write each object with the key order of the file already on
-disk, putting new keys in a fixed order. Unchanged lessons will then produce **no diff at all**.
+These are blocked for **everyone** through the API, owners included, and are changed only by the workflow
+functions:
 
-## 6. Transition: two writers
+- `status` on any content row
+- `sacred`, `approved_at`, `approved_by`, `approved_by_name`, `approval_note`
+- the recorded hash and size of a file that is in the repo (only the import job records those)
+- the published layer and the history
+
+Nobody can ever delete content that was published once: it is archived instead. Files in `audio/` and `media/` are
+never deleted.
+
+**Publishing checks.** `publish_lesson` refuses a lesson that:
+
+- plays sacred audio that is not approved yet (its own clips and the words it borrows through `from`), or
+- has a quiz question without exactly one correct answer.
+
+It also requires the lesson's world to be published. Step 5's export validator then repeats the full reference
+check before anything is written (fail closed).
+
+**Jobs.** The import and export run in GitHub Actions with the secret key, or with a direct database connection.
+They are trusted, and they publish through the same functions, so there is one code path for what goes live.
+
+## 6. Proof
+
+All of this was run locally on Postgres 16. CI runs it on Postgres 17 for every PR.
+
+- **Lossless.** All **88 lessons** and **89 units** load into the working tables with no use of `extra`. Rebuilt from
+  the columns, **88 / 88** lessons equal their files (parsed JSON, so key order is ignored), and so does the catalog.
+- **End to end through the real publish functions.** Publishing every world, unit and lesson reproduces
+  `catalog.json` and every lesson file exactly. Publishing a second time adds **zero** revisions.
+- **Arabic is stored byte for byte**: no normalisation, tashkeel intact.
+- `01_schema_integrity.sql`, **40 checks**: permanent ids, structure, document builders, audit log, append-only
+  history, last-owner guard, media rules, and RLS on every table.
+- `02_access_and_workflow.sql`, **97 checks**:
+  - anon can't read drafts, media, history or admin data, and can't write or call anything;
+  - a signed-in non-admin sees nothing;
+  - the editor gets one check per protected approval column, and can't change sacred text, publish, edit roles or
+    promote themselves;
+  - the reviewer can publish and approve, but can't manage roles or admins;
+  - the owner can manage roles;
+  - the workflow: an edit after publishing stays private until republished; unpublish leaves a "soon" box;
+    archive removes the lesson and its unit; restore gives a draft;
+  - promos accept only DHM https links;
+  - display codes appear only when set;
+  - neither history table can be truncated.
+
+## 7. Requirements recorded for the next steps (owner, 2026-10-22)
+
+- **Export (step 5).** It must write `content/*.json` with **the same key order and formatting as today**:
+  `JSON.stringify(doc, null, 2)`, UTF-8, Arabic unescaped, no trailing newline (AUDIT §10).
+  - For an existing file, each object keeps the key order of the file on disk. New keys follow the canonical order.
+  - **The first export of today's content must produce a zero diff.** The 3 hand-formatted files (AUDIT §10)
+    are left untouched while their parsed content is unchanged.
+- **Import (step 4).** It records `sha256` and `bytes` for every file in `audio/` and `media/`.
+- **Hosted project.** Sign-ups are switched off in the Supabase dashboard. The steps will come with DEPLOY.md, and
+  the owner will be shown exactly where to click.
+
+## 8. Transition: two writers
 
 Until the dashboard replaces it, the local production session keeps committing `content/**` and `audio/**` to
 `main`. Plan for steps 4–5:
@@ -186,7 +269,7 @@ Until the dashboard replaces it, the local production session keeps committing `
 
 Neither writer can silently undo the other.
 
-## 7. Ready for subscriptions later (not built now)
+## 9. Ready for subscriptions later (not built now)
 
 Paid content can't go into the public static export, so subscriptions will add, without changing anything above:
 
@@ -196,11 +279,3 @@ Paid content can't go into the public static export, so subscriptions will add, 
 - A signed-download path for premium lesson JSON.
 
 Child or parent accounts will be needed then, so **`privacy.html` must be updated before that launch** (AUDIT §11).
-
-## 8. Next (step 3)
-
-- RLS policies and grants: anon reads `published_content` only, without media or sacred flags.
-- Writes only through `has_permission`. Sacred approval only for owner and reviewer.
-- A guard so the Arabic of a sacred word can be changed only by an owner or reviewer.
-- `publish_*` / `archive_*` RPCs.
-- SQL tests proving anon can't write or read drafts.

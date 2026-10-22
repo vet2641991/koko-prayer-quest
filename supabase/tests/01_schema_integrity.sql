@@ -166,24 +166,16 @@ select pg_temp.check((select approved_at is null and approval_note like 'Approva
 select pg_temp.check((select event = 'revoke_approval' from public.audit_log where table_name = 'media_assets' order by id desc limit 1),
   'the withdrawal is in the audit log');
 
--- lockdown: until step 3, the API roles can reach nothing ----------------------------------------------------------
+-- structural access invariants (who may do what through the API is tested in 02_access_and_workflow.sql) -------
 select pg_temp.check(not exists (
   select 1 from information_schema.role_table_grants
-  where table_schema = 'public' and grantee in ('anon', 'authenticated')), 'anon and authenticated have no table grants');
+  where table_schema = 'public' and grantee = 'anon'), 'anon has no table-wide grant anywhere');
 select pg_temp.check(not exists (
   select 1 from pg_class c join pg_namespace n on n.oid = c.relnamespace
   where n.nspname = 'public' and c.relkind = 'r' and not c.relrowsecurity), 'row-level security is on for every table');
-set local role anon;
-select pg_temp.expect_error($$select * from public.lessons$$, '42501', 'anon cannot read lessons');
-select pg_temp.expect_error($$select * from public.published_content$$, '42501', 'anon cannot read anything yet');
-select pg_temp.expect_error($$insert into public.worlds (id, en, ar, tint, ink, sort) values ('x', 'x', 'x', '#000000', '#000000', 99)$$,
-  '42501', 'anon cannot write');
-select pg_temp.expect_error($$select public.has_permission('publish')$$, '42501', 'anon cannot call the permission helpers');
-reset role;
-set local role authenticated;
-select pg_temp.expect_error($$select * from public.media_assets$$, '42501', 'a signed-in user cannot read media (sacred flags) yet');
-select pg_temp.expect_error($$update public.lessons set topic = 'x'$$, '42501', 'a signed-in user cannot write yet');
-reset role;
+select pg_temp.check(not exists (
+  select 1 from pg_policies where schemaname = 'public' and 'anon' = any (roles) and tablename <> 'published_content'),
+  'the only policy that admits anon is on published_content');
 
 rollback;
 \o
