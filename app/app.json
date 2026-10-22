@@ -71,7 +71,10 @@
       "typedRoutes": true
     },
     "extra": {
-      "contentUrl": "https://koko.dhm-institute.com"
+      "contentUrl": "https://koko.dhm-institute.com",
+      "eas": {
+        "projectId": "7afd5e80-7d3c-4599-9b37-e6cff446e59b"
+      }
     }
   }
 }

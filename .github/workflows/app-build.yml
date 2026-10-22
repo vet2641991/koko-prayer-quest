@@ -59,6 +59,17 @@ jobs:
             echo "new_id=$id" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Check what will be uploaded (app/ and packages/shared only)
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          npx --yes eas-cli@25.3.0 build:inspect --platform android --profile preview --stage archive --output "$RUNNER_TEMP/eas-archive"
+          n=$(find "$RUNNER_TEMP/eas-archive" -type f | wc -l)
+          echo "Archive: $n files"; find "$RUNNER_TEMP/eas-archive" -maxdepth 2 | sort
+          test -f "$RUNNER_TEMP/eas-archive"/app/package.json && test -f "$RUNNER_TEMP/eas-archive"/app/app.json && test -d "$RUNNER_TEMP/eas-archive"/packages/shared/src \
+            || { echo "::error::The EAS archive is missing app/ or packages/shared: check .easignore."; exit 1; }
+          if [ -e "$RUNNER_TEMP/eas-archive"/audio ] || [ -e "$RUNNER_TEMP/eas-archive"/media ]; then echo "::error::The site's audio/media would be uploaded: check .easignore."; exit 1; fi
+
       - name: Build the APK on EAS (profile "preview")
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
