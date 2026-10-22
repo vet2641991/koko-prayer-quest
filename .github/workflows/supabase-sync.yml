@@ -104,7 +104,7 @@ jobs:
           GITHUB_DISPATCH_TOKEN: ${{ secrets.KOKO_DISPATCH_TOKEN }}
           ADMIN_ORIGIN: ${{ vars.ADMIN_ORIGIN }}
         run: |
-          supabase functions deploy admin-invite request-export --project-ref "$SUPABASE_PROJECT_REF"
+          supabase functions deploy admin-invite request-export --project-ref "$SUPABASE_PROJECT_REF" --use-api
           # optional function secrets, copied from GitHub when they exist
           args=()
           [ -n "$GITHUB_DISPATCH_TOKEN" ] && args+=("GITHUB_DISPATCH_TOKEN=$GITHUB_DISPATCH_TOKEN")
