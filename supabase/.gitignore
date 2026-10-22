@@ -1,0 +1,5 @@
+# Supabase CLI working folders and local env files: never committed
+.branches
+.temp
+.env
+.env.*
