@@ -6,7 +6,7 @@
     "scheme": "com.dhminstitute.koko",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon-512.png",
+    "icon": "./assets/icon-1024.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#0B4FD8",
     "description": "Koko: Arabic & Quran for Kids. Learn Arabic, the prayer, Islamic Studies and short surahs with Koko the cat. By DHM Institute.",
