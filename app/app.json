@@ -20,8 +20,8 @@
     "android": {
       "package": "com.dhminstitute.koko",
       "adaptiveIcon": {
-        "backgroundColor": "#0B4FD8",
-        "foregroundImage": "./assets/icon-512.png"
+        "backgroundColor": "#065EC9",
+        "foregroundImage": "./assets/adaptive-icon.png"
       },
       "predictiveBackGestureEnabled": false,
       "blockedPermissions": [
