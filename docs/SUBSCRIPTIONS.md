@@ -209,12 +209,8 @@ Start in **Test mode** (the switch at the top of the Stripe dashboard). Repeat i
 - **Deleting the parent account** cancels a website subscription at once. Store subscriptions are cancelled by the
   parent in the store (the app says so).
 
-## 8. Decision for later: lock the website too?
+## 8. The website at launch (owner, 2026-10-23)
 
-Today the website (`koko.dhm-institute.com`) plays every lesson for free, including Premium ones, because the lesson
-files are public. Locking it means two changes:
-
-- moving Premium lesson files (and their audio and video) out of the public repository into private storage;
-- changing `app.js`.
-
-The brief forbids both today. If you want it later, it is a separate project with its own review.
+The website stays free during the trial. **On launch day it locks Premium lessons too, with the same rules as the
+app.** That change waits, unmerged, in its own PR; the steps are in `docs/LAUNCH.md`. Nothing on `main` changes the
+website until the owner says "launch".
