@@ -85,31 +85,56 @@ It holds only non-secret values: `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY`.
    3. imports all content (round-trip checked).
 
    Open Actions → *Sync to Supabase* → the run → *Summary* and check that it says **round trip: identical**.
-4. **Create the first owner** (once):
-   1. Supabase → **Authentication** → **Users** → **Add user** → *Create new user*: your email, a strong password,
-      and *Auto Confirm User* on.
-   2. Supabase → **SQL Editor** → new query → run:
+4. **Host the dashboard on `admin.koko.dhm-institute.com`** (Cloudflare Pages, free; it builds from GitHub by
+   itself, so no deploy token is needed).
+   1. Cloudflare dashboard (a free account is enough) → **Workers & Pages** → **Create** → **Pages** →
+      **Connect to Git** → allow Cloudflare's GitHub app to see `vet2641991/koko-prayer-quest` → select it.
+   2. Project name `koko-admin`. Build settings:
+      - production branch `main`;
+      - framework preset *None*;
+      - build command `npm ci && npm run admin:build`;
+      - build output directory `admin/dist`;
+      - root directory: leave empty (the repository root).
+   3. **Environment variables** (Production), from §2:
+      - `VITE_SUPABASE_URL` = `https://pwgkxdiwqrxkndkyzwlw.supabase.co`;
+      - `VITE_SUPABASE_PUBLISHABLE_KEY` = the `sb_publishable_…` key (Supabase → Project Settings → API Keys);
+      - `NODE_VERSION` = `22`.
+
+      The build stops with a clear message if either Supabase value is missing, or if a secret key (`sb_secret_…`)
+      was pasted by mistake (`admin/vite.config.ts`).
+   4. **Save and Deploy.** The first build takes about two minutes and gives an address like
+      `https://koko-admin.pages.dev`.
+   5. Project → **Settings** → **Builds & deployments**:
+      - **Build watch paths**, include: `admin/*`, `packages/shared/*`, `package.json`, `package-lock.json`. Then
+        content and lesson changes do not rebuild the dashboard;
+      - **Preview deployments**: *None*. Only `main` is published.
+   6. Project → **Custom domains** → **Set up a custom domain** → `admin.koko.dhm-institute.com`.
+      - If `dhm-institute.com` is already on Cloudflare DNS, Cloudflare adds the record itself.
+      - If not, add this record where the domain's DNS is managed (the same place as the `koko` record that points
+        to GitHub Pages): type **CNAME**, name **`admin.koko`**, target **`koko-admin.pages.dev`**. Cloudflare
+        shows *Active* and issues the HTTPS certificate within minutes to a few hours.
+   7. Supabase → **Authentication** → **URL Configuration** (step 2): *Site URL*
+      `https://admin.koko.dhm-institute.com`; *Redirect URLs* `https://admin.koko.dhm-institute.com/**`.
+   8. GitHub → Settings → Secrets and variables → Actions → **Variables** tab → **New repository variable**:
+      `ADMIN_ORIGIN` = `https://admin.koko.dhm-institute.com`. Then Actions → **Sync to Supabase** → *Run workflow*
+      once, so the Edge Functions accept calls only from that address.
+
+   `admin/public/_headers` sets a strict Content-Security-Policy and `noindex`; `_redirects` makes deep links work.
+   Every push to `main` that touches the dashboard redeploys it; Cloudflare → the project → **Deployments** can
+   roll back to any earlier one with one click.
+5. **Create your owner account** (once):
+   1. Supabase → **Authentication** → **Users** → **Add user** → *Create new user*: your email, a strong password
+      (12+ characters, keep it in a password manager), and *Auto Confirm User* on.
+   2. Supabase → **SQL Editor** → new query → run (with your email):
       ```sql
       select public.bootstrap_first_owner('your-email@example.com', 'Dr. Hassan Muslim');
       ```
-      It works only while there are no admins at all. After that, the owner adds people from the dashboard's
-      **Admins** page.
-5. **Host the dashboard.** These steps are for Cloudflare Pages; Netlify works the same way, with the same
-   `_redirects` and `_headers`.
-   1. Cloudflare → Workers & Pages → Create → Pages → *Connect to Git* → `vet2641991/koko-prayer-quest`.
-   2. Build settings:
-      - production branch `main`;
-      - framework *None*;
-      - build command `npm ci && npm run admin:build`;
-      - build output `admin/dist`;
-      - root directory `/`.
-   3. Add the environment variables from §2.
-   4. Custom domain: `admin.koko.dhm-institute.com`. Cloudflare shows the CNAME to add at the DNS host of
-      `dhm-institute.com`.
-   5. Set the GitHub variable `ADMIN_ORIGIN` to that address.
-
-   `admin/public/_headers` already sets a strict Content-Security-Policy and `noindex`. `_redirects` makes deep
-   links work.
+      It answers with your admin row. It works only while there are no admins at all: after that, the owner adds
+      people from the dashboard's **Admins** page, and this function refuses.
+   3. Open `https://admin.koko.dhm-institute.com`, sign in with that email and password. You land on **Content**,
+      and the menu shows **Admins** (owner only). "No access" means step 2 was not run for this email.
+   4. Forgot the password: **Forgot password?** on the sign-in page sends a reset link (step 4.7 above must be done
+      for the link to open the dashboard).
 6. **Optional:**
    - `KOKO_DISPATCH_TOKEN`, for the "Send to the site" button. Without it, run **Publish content** from Actions by
      hand.
@@ -205,9 +230,13 @@ It holds only non-secret values: `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY`.
 2. اقفل التسجيل في Supabase: **Authentication** ← **Sign In / Providers** ← اقفل *Allow new users to sign up*،
    وخلي أقل طول للباسورد ١٢. بعدين **URL Configuration** ← حط عنوان لوحة الإدارة في *Site URL* و *Redirect URLs*.
 3. ادمج الـ PRs بالترتيب (#4 ثم #5 ثم #6 ثم ده). أول دمج بيعمل الجداول ويرفع المحتوى لوحده.
-4. اعمل حسابك: **Authentication** ← **Users** ← **Add user** (إيميلك وباسورد قوي، و *Auto Confirm User*)، وبعدها
-   في **SQL Editor** شغّل:
+4. ارفع لوحة الإدارة على Cloudflare Pages (الجزء ٣، الخطوة ٤): اربط الـ repo، وحط أمر البناء
+   `npm ci && npm run admin:build` والفولدر `admin/dist`، والمتغيرات التلاتة، وبعدين الدومين
+   `admin.koko.dhm-institute.com` (سجل CNAME اسمه `admin.koko` بيشاور على `koko-admin.pages.dev` لو الدومين
+   مش على Cloudflare). بعدها حط المتغير `ADMIN_ORIGIN` في GitHub وشغّل *Sync to Supabase* مرة.
+5. اعمل حسابك كمالك (الجزء ٣، الخطوة ٥): **Authentication** ← **Users** ← **Add user** (إيميلك وباسورد قوي ١٢
+   حرف أو أكتر، و *Auto Confirm User*)، وبعدها في **SQL Editor** شغّل:
    `select public.bootstrap_first_owner('إيميلك', 'Dr. Hassan Muslim');`
-5. ارفع لوحة الإدارة على Cloudflare Pages بالإعدادات اللي في الجزء ٣، الخطوة ٥.
+   وبعدين ادخل على `https://admin.koko.dhm-institute.com` بالإيميل والباسورد.
 6. (اختياري) `KOKO_DISPATCH_TOKEN` عشان زرار «Send to the site»، و `BACKUP_PASSPHRASE` عشان النسخ الاحتياطي، واحفظه
    برّه GitHub كمان.
