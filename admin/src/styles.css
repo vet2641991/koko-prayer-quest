@@ -40,6 +40,7 @@ textarea.code { unicode-bidi: plaintext; white-space: pre; line-height: 1.5; }
 .badge.published { background: var(--green-soft); color: var(--green); }
 .badge.draft, .badge.none { background: var(--amber-soft); color: var(--amber); }
 .badge.archived { background: #eee; color: #666; }
+.badge.premium { background: #FFF4CC; color: #7a5200; }
 .msg { display: flex; justify-content: space-between; gap: 8px; padding: 8px 12px; border-radius: 8px; margin: 8px 0; }
 .msg.ok { background: var(--green-soft); } .msg.error { background: var(--red-soft); color: var(--red); } .msg.info { background: var(--blue-soft); }
 .sacred-note { background: var(--amber-soft); border-radius: 8px; padding: 8px 10px; font-size: 14px; }

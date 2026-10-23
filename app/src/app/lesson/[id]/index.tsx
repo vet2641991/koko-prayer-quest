@@ -4,8 +4,10 @@ import { useEffect, useState } from 'react';
 import { Pressable, View } from 'react-native';
 import { stepsFor } from '../../../../../packages/shared/src/audio.ts';
 import type { Lesson } from '../../../../../packages/shared/src/schema.ts';
+import { LockedLesson } from '../../../components/Locked';
 import { Ar, Bar, Btn, Card, Screen, T } from '../../../components/ui';
-import { getCatalog, getLesson, unitById, type World } from '../../../data/content';
+import { getCatalog, getLesson, unitById, type Unit, type World } from '../../../data/content';
+import { useAccess } from '../../../state/access';
 import { STEP_MINUTES, STEP_TITLES } from '../../../steps/types';
 import { useProgress } from '../../../state/progress';
 import { C } from '../../../theme';
@@ -14,17 +16,19 @@ export default function LessonPath() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { progress, update } = useProgress();
   const [L, setL] = useState<Lesson | null>(null), [world, setWorld] = useState<World | null>(null), [n, setN] = useState('');
-  const [error, setError] = useState('');
+  const [error, setError] = useState(''), [unit, setUnit] = useState<Unit | null>(null);
+  const access = useAccess();
   useEffect(() => {
     (async () => {
       const cat = await getCatalog(); const u = unitById(cat, id);
       if (!u) return setError('This lesson is not available.');
-      setWorld(u.world); setN(u.unit.n);
+      setWorld(u.world); setN(u.unit.n); setUnit(u.unit);
       const lesson = await getLesson(id); if (!lesson) return setError('This lesson is not ready yet.');
       setL(lesson); update(p => ({ ...p, last: id }));
     })().catch(e => setError(String(e.message ?? e)));
   }, [id]);
   if (error) return <Screen><Card><T size={20}>{error}</T><Btn label="Back to the map" onPress={() => router.navigate('/')} /></Card></Screen>;
+  if (unit && access.isLocked(unit)) return <LockedLesson title={unit.en} />;
   if (!L || !world) return <Screen><T color={C.white} center>Loading…</T></Screen>;
   const steps = stepsFor(L), at = Math.min(progress.step[id] ?? 0, steps.length);
   return <Screen>

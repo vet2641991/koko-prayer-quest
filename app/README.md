@@ -44,6 +44,19 @@ policy. It is required for **Google Play Families** and the **Apple Kids** categ
   appears.
 - Placements: map, parents page, after a lesson.
 
+## Koko Premium ($35 a month)
+
+The app locks lessons the owner marks `"premium"` until a parent subscribes. The full setup is in
+`docs/SUBSCRIPTIONS.md`.
+
+- **App Store / Google Play:** through RevenueCat (`react-native-purchases`, `src/account/billing.ts`).
+- **Website:** Stripe Checkout (`account.html`, and `billing.web.ts` in the web build).
+- **Parents' screens:** Koko Premium (`/premium`) and the family account (`/account`, email + 6-digit code). Both sit
+  behind the parental gate, even when opened by address. They offer subscribe, restore purchases, manage, sign out
+  and delete account.
+- **Optional:** without the RevenueCat keys (GitHub Variables, written into the build by the workflow), the app has
+  no subscription and nothing is locked.
+
 ## Run it
 
 ```bash

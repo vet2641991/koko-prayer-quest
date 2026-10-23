@@ -14,8 +14,9 @@ create schema auth;
 grant usage on schema auth to anon, authenticated, service_role;
 
 create table auth.users (
-  id    uuid primary key default gen_random_uuid(),
-  email text unique
+  id         uuid primary key default gen_random_uuid(),
+  email      text unique,
+  created_at timestamptz default now()
 );
 
 -- Same contract as Supabase: the user id comes from the request's JWT claims.

@@ -12,6 +12,7 @@ import { Ar, Btn, Card, Screen, T } from '../components/ui';
 import { DHM_URL, PRIVACY_URL } from '../config';
 import { getCatalog, getLesson, unitById, type Catalog } from '../data/content';
 import { streak, today, wordsLearned } from '../logic/progress';
+import { useAccess } from '../state/access';
 import { useProgress } from '../state/progress';
 import { C } from '../theme';
 
@@ -19,6 +20,7 @@ export default function Parents() {
   const { progress } = useProgress();
   const [cat, setCat] = useState<Catalog | null>(null), [L, setL] = useState<Lesson | null>(null);
   const { open, gate } = useParentalGate();
+  const access = useAccess();
   useEffect(() => { getCatalog().then(setCat).catch(() => {}); if (progress.last) getLesson(progress.last).then(setL).catch(() => {}); }, [progress.last]);
   const mins = Math.round((progress.time[today()] ?? 0) / 60);
   const world = cat && progress.last ? unitById(cat, progress.last)?.world : null;
@@ -37,6 +39,14 @@ export default function Parents() {
       <Ar size={24} style={{ textAlign: 'left' }}>{P.try.ar}</Ar><T size={14} color={C.muted}>“{P.try.translit}” · {P.try.en}</T>
       {P.tryAudio ? <Btn label="🔊 Play" kind="soft" onPress={() => playSeq([lessonAudio(L!.id, P.tryAudio!)])} /> : null}</Card> : null}
     {cat?.teacherNote?.text ? <Card><T size={13} color={C.muted}>NOTE FROM DR. HASSAN</T><T weight="medium">{cat.teacherNote.text}</T></Card> : null}
+    {access.configured ? <Card>
+      <T size={13} color={C.muted}>KOKO PREMIUM</T>
+      <T size={18}>{access.premium ? 'Every lesson is open 🎉' : 'Open every lesson with Koko Premium'}</T>
+      <View style={{ flexDirection: 'row', gap: 8 }}>
+        <Btn label={access.premium ? 'Subscription' : 'Koko Premium'} onPress={() => open(() => router.push('/premium'))} style={{ flex: 1 }} />
+        <Btn label={access.parent ? 'Family account' : 'Sign in'} kind="soft" onPress={() => open(() => router.push('/account'))} style={{ flex: 1 }} />
+      </View>
+    </Card> : null}
     <PromoCards placement="parents" open={open} />
     <T size={12} weight="medium" color={C.muted} center>By DHM Institute · progress is saved on this device only</T>
     <View style={{ flexDirection: 'row', gap: 8 }}>

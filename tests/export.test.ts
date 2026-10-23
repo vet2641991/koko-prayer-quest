@@ -116,3 +116,20 @@ test('a published promo is exported to content/promos.json', { skip }, async () 
       url: 'https://dhm-institute.com/trial-sessions/booking', placement: 'parents', sort: 1 }] });
   assert.ok(!/\n$/.test(read('content/promos.json')), 'written like the other content files');
 });
+
+test('a unit the owner makes premium is exported as "premium": true, and only that line changes', { skip }, async () => {
+  const before = read('content/catalog.json');
+  await asJob(`select public.set_units_premium(array['ar2-u06'], true)`);
+  const r = exportFiles();
+  assert.equal(r.code, 0, r.out);
+  const after = read('content/catalog.json');
+  const unit = JSON.parse(after).worlds.find((w: any) => w.id === 'ar2').units.find((u: any) => u.id === 'ar2-u06');
+  assert.equal(unit.premium, true);
+  assert.equal(after.split('\n').length, before.split('\n').length + 1, 'one line added');
+  const r2 = importFiles();   // the export coming back through the import keeps the flag
+  assert.equal(r2.code, 0, r2.out);
+  assert.equal((await asJob(`select premium from public.units where id = 'ar2-u06'`)).rows[0].premium, true);
+  await asJob(`select public.set_units_premium(array['ar2-u06'], false)`);
+  assert.equal(exportFiles().code, 0);
+  assert.equal(read('content/catalog.json'), before, 'free again: the catalog is byte-identical to before');
+});

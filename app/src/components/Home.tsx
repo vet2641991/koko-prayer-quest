@@ -6,6 +6,7 @@ import { stepsFor } from '../../../packages/shared/src/audio.ts';
 import type { Lesson } from '../../../packages/shared/src/schema.ts';
 import { getCatalog, getLesson, type Catalog, type Unit, type World } from '../data/content';
 import { nextUnit, reviewList, totalStars } from '../logic/progress';
+import { useAccess } from '../state/access';
 import { useProgress } from '../state/progress';
 import { C } from '../theme';
 import { Nav } from './Nav';
@@ -19,6 +20,8 @@ export function Home({ worldId }: { worldId?: string }) {
   const [error, setError] = useState('');
   const [cont, setCont] = useState<{ world: World; unit: Unit; lesson: Lesson } | null>(null);
   const { open, gate } = useParentalGate();
+  const access = useAccess();
+  const toPremium = () => open(() => router.push('/premium'));
   useEffect(() => { getCatalog().then(setCat).catch(e => setError(String(e.message ?? e))); }, []);
   const next = cat ? nextUnit(cat, progress) : null;
   useEffect(() => {
@@ -51,14 +54,15 @@ export function Home({ worldId }: { worldId?: string }) {
       </View>
       <T size={14} color={C.muted}>Step {Math.min(at + 1, steps.length)} of {steps.length} · about {cont.lesson.minutes ?? 10} min</T>
       <Bar pct={steps.length ? (at / steps.length) * 100 : 0} />
-      <Btn label={`${at ? 'Continue' : 'Play'}: teach Koko`} onPress={() => router.push(`/lesson/${cont.unit.id}`)} />
+      {access.isLocked(cont.unit) ? <Btn label="🔒 Koko Premium · ask a grown-up" kind="blue" onPress={toPremium} />
+        : <Btn label={`${at ? 'Continue' : 'Play'}: teach Koko`} onPress={() => router.push(`/lesson/${cont.unit.id}`)} />}
     </Card> : <Card><T size={20}>You finished every lesson that is ready!</T><T weight="medium" color={C.muted}>New lessons are on the way. Replay any lesson to win more stars.</T></Card>}
     {rv.length ? <Pressable onPress={() => router.push('/review')}><Card><T size={13} color={C.muted}>QUICK REVIEW · 2 MIN</T>
       <T size={19}>Koko forgot {rv.length} word{rv.length > 1 ? 's' : ''}. Help him remember!</T></Card></Pressable> : null}
 
     <View style={{ marginTop: 6 }}><T size={20} color={C.white}>{world.code ? `${world.code} · ` : ''}{world.en}</T><Ar size={20} color={C.white} style={{ textAlign: 'left' }}>{world.ar}</Ar></View>
     <View style={{ gap: 10 }}>
-      {world.units.length ? world.units.map(u => <UnitNode key={u.id} unit={u} current={next?.unit.id === u.id} />)
+      {world.units.length ? world.units.map(u => <UnitNode key={u.id} unit={u} current={next?.unit.id === u.id} locked={access.isLocked(u)} onLocked={toPremium} />)
         : <T color={C.white}>Lessons for this world are coming soon.</T>}
     </View>
     <PromoCards placement="map" open={open} />
@@ -67,13 +71,13 @@ export function Home({ worldId }: { worldId?: string }) {
   </Screen>;
 }
 
-function UnitNode({ unit, current }: { unit: Unit; current: boolean }) {
+function UnitNode({ unit, current, locked, onLocked }: { unit: Unit; current: boolean; locked: boolean; onLocked: () => void }) {
   const { progress } = useProgress();
   const st_ = progress.stars[unit.id] ?? 0;
   const playable = Boolean(unit.file);
-  const tag = unit.go ? 'go' : !playable ? 'soon' : current ? 'NOW' : st_ ? '★'.repeat(st_) : 'play';
-  const onPress = unit.go ? () => router.push(`/world/${unit.go}`) : playable ? () => router.push(`/lesson/${unit.id}`) : undefined;
-  return <Pressable disabled={!onPress} onPress={onPress} accessibilityRole="button" accessibilityLabel={`${unit.en}, ${tag}`}
+  const tag = unit.go ? 'go' : !playable ? 'soon' : locked ? '🔒' : current ? 'NOW' : st_ ? '★'.repeat(st_) : 'play';
+  const onPress = unit.go ? () => router.push(`/world/${unit.go}`) : !playable ? undefined : locked ? onLocked : () => router.push(`/lesson/${unit.id}`);
+  return <Pressable disabled={!onPress} onPress={onPress} accessibilityRole="button" accessibilityLabel={`${unit.en}, ${locked && playable ? 'Koko Premium' : tag}`}
     style={[st.node, current && { borderColor: C.yellow, borderWidth: 3 }, !playable && !unit.go && { opacity: 0.55 }]}>
     <View style={[st.dot, current && { backgroundColor: C.yellow }]}><T size={16} color={current ? C.ink : C.white}>{unit.n}</T></View>
     <View style={{ flex: 1 }}><Ar size={18} style={{ textAlign: 'left' }}>{unit.ar}</Ar><T size={14} weight="medium" color={C.muted}>{unit.en}</T></View>

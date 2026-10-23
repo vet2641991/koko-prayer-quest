@@ -20,6 +20,7 @@ export const UnitSchema = z.looseObject({
   en: nonEmpty,
   file: z.string().regex(/^content\/[a-z][a-z0-9]*\/[a-z0-9]+\.json$/).optional(),
   go: z.string().optional(),
+  premium: z.literal(true).optional(),   // Koko Premium only; absent = free (set by the owner)
 });
 
 export const WorldSchema = z.looseObject({

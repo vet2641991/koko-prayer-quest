@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Koko Premium — for parents</title>
+<meta name="description" content="Koko Premium: every lesson in the Koko app, $35 a month. By DHM Institute.">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Noto+Naskh+Arabic:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#fbf9f3;color:#14213D;font-family:'Baloo 2',system-ui,sans-serif;line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:24px 16px 48px}
+h1{color:#0B4FD8;margin:.2em 0}h2{color:#0F5E63;margin:1.2em 0 .3em;font-size:20px}
+.card{background:#fff;border:1px solid #e6e0cf;border-radius:18px;padding:16px 18px;margin:14px 0}
+.price{font-size:34px;font-weight:800;margin:0}
+button,.btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:16px;padding:14px;font:800 19px 'Baloo 2',system-ui,sans-serif;cursor:pointer;text-align:center;text-decoration:none}
+.yellow{background:#FFC629;color:#14213D}.soft{background:#E8EEFC;color:#14213D;margin-top:10px}
+button:disabled{opacity:.5;cursor:default}
+.note{color:#5b6577;font-size:14px}.ok{background:#E1F7EA;border-color:#bfe9cf}.err{color:#b42318}
+.ar{font-family:'Noto Naskh Arabic',serif;direction:rtl;text-align:right}
+dialog{border:0;border-radius:20px;padding:20px;max-width:360px;width:calc(100% - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.55)}
+dialog input{width:100%;box-sizing:border-box;border:2px solid #CFDCF7;border-radius:14px;padding:12px;font:700 22px 'Baloo 2',system-ui,sans-serif;text-align:center;margin:8px 0}
+a{color:#0B4FD8}
+</style>
+</head>
+<body><main>
+<h1>Koko Premium</h1>
+<p class="note">By <a href="https://dhm-institute.com/">DHM Institute</a> · for parents</p>
+
+<div class="card ok" id="thanks" hidden>
+  <b>Thank you! Your subscription is on.</b><br>
+  Open the Koko app on your child's phone or tablet → <b>Parents</b> → <b>Sign in</b>, and use the same email you just
+  paid with. We send a 6-digit code: no password. Every lesson opens.
+</div>
+
+<div class="card">
+  <p>Koko Premium opens <b>every lesson in the Koko app</b> for Android, iPhone and iPad: all the Arabic books, the Prayer
+  and Islamic Studies, with every new lesson as it comes out. The Arabic, du'a and Qur'an are recorded by teachers and
+  approved by Dr. Hassan Muslim.</p>
+  <p class="price">$35 <small style="font-size:18px">/ month</small></p>
+  <p class="note">Paid securely with Stripe (we never see your card). Renews every month until you cancel; cancel any time.</p>
+  <button class="yellow" id="subscribe" disabled>Subscribe</button>
+  <p class="note" id="status">Loading…</p>
+</div>
+
+<div class="card" id="manage" hidden>
+  <h2>Already subscribed on this website?</h2>
+  <p class="note">Change your card, see invoices or cancel. Stripe sends a sign-in link to your email.</p>
+  <a class="btn soft" id="portal" href="#">Manage my subscription</a>
+</div>
+
+<p class="note">Subscribed in the App Store or Google Play? Manage it in the store's settings on that device.
+Questions: <a href="https://dhm-institute.com/">dhm-institute.com</a> · <a href="privacy.html">Privacy policy</a> · <a href="./">Back to Koko</a></p>
+<p class="ar">كوكو بريميوم: كل دروس تطبيق كوكو، ٣٥ دولار في الشهر، وتقدر تلغيه في أي وقت. بعد الاشتراك افتح التطبيق ← Parents ← Sign in بنفس الإيميل.</p>
+
+<dialog id="gate">
+  <b style="font-size:20px">For grown-ups</b>
+  <p class="note">Please ask a parent.</p>
+  <p id="q" style="font-size:19px;margin:0"></p>
+  <input id="a" inputmode="numeric" maxlength="3" aria-label="Answer">
+  <p class="err" id="wrong" hidden>Not quite. Here is a new question.</p>
+  <button class="yellow" id="go">Continue</button>
+  <button class="soft" id="cancel">Cancel</button>
+</dialog>
+
+<script>
+// Talks only to the Edge Function stripe-checkout: GET = is it open + where to manage, POST = a Stripe Checkout link.
+// Nothing secret is on this page. A grown-up answers a question first (as in the app), then Stripe takes over.
+const FN = 'https://pwgkxdiwqrxkndkyzwlw.supabase.co/functions/v1/stripe-checkout';
+const $ = id => document.getElementById(id);
+const W = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
+let answer = 0;
+function ask() {
+  const a = 6 + Math.floor(Math.random() * 7), b = 3 + Math.floor(Math.random() * 7);
+  answer = a * b; $('q').textContent = `What is ${W[a]} times ${W[b]}?`; $('a').value = '';
+}
+if (new URLSearchParams(location.search).has('subscribed')) $('thanks').hidden = false;
+fetch(FN).then(r => r.json()).then(c => {
+  $('subscribe').disabled = !c.open;
+  $('status').textContent = c.open ? '' : 'Subscriptions on the website open soon.';
+  if (c.portal) { $('manage').hidden = false; $('portal').href = c.portal; }
+}).catch(() => { $('status').textContent = 'Could not reach the server. Please try again later.'; });
+$('subscribe').onclick = () => { ask(); $('wrong').hidden = true; $('gate').showModal(); };
+$('cancel').onclick = () => $('gate').close();
+$('go').onclick = async () => {
+  if (!/^\s*\d+\s*$/.test($('a').value) || Number($('a').value) !== answer) { $('wrong').hidden = false; ask(); return; }
+  $('gate').close(); $('subscribe').disabled = true; $('status').textContent = 'Opening Stripe…';
+  try {
+    const r = await fetch(FN, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+    const b = await r.json();
+    if (!r.ok || !b.url) throw new Error(b.error || 'Please try again.');
+    location.assign(b.url);
+  } catch (e) { $('status').textContent = e.message; $('subscribe').disabled = false; }
+};
+</script>
+</main></body>
+</html>
