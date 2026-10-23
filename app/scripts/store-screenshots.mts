@@ -5,6 +5,7 @@
 //   (serve app/dist on http://localhost:8090 with a fallback to index.html)
 //   npm i --no-save playwright-core@1.56.1
 //   CHROME=/path/to/chrome npx tsx app/scripts/store-screenshots.mts http://localhost:8090
+//   (add --feature-only to remake only the feature graphic)
 import { mkdirSync, readFileSync } from 'node:fs';
 import { chromium, type Page } from 'playwright-core';
 import { stepsFor } from '../../packages/shared/src/audio.ts';
@@ -45,7 +46,8 @@ const SHOTS: { name: string; go: (p: Page) => Promise<void> }[] = [
 ];
 
 const browser = await chromium.launch({ executablePath: process.env.CHROME ?? '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
-for (const d of DEVICES) {
+const featureOnly = process.argv.includes('--feature-only');   // just the Play feature graphic (no web build needed)
+for (const d of featureOnly ? [] : DEVICES) {
   const ctx = await browser.newContext({ viewport: { width: d.width, height: d.height }, deviceScaleFactor: d.scale, isMobile: d.mobile, hasTouch: true });
   await ctx.addInitScript(p => { if (!localStorage.getItem('koko-quest-v2')) localStorage.setItem('koko-quest-v2', p); }, JSON.stringify(PROGRESS));
   const page = await ctx.newPage();
@@ -61,7 +63,7 @@ for (const d of DEVICES) {
 
 // Google Play feature graphic, 1024 × 500: Koko, the app's name and the store name, in the app's colours and font.
 const font = (f: string) => `data:font/ttf;base64,${readFileSync(`${ROOT}app/node_modules/@expo-google-fonts/baloo-2/${f}`).toString('base64')}`;
-const koko = `data:image/png;base64,${readFileSync(`${ROOT}app/assets/koko-wave.png`).toString('base64')}`;
+const koko = `data:image/png;base64,${readFileSync(`${ROOT}app/assets/icon-1024.png`).toString('base64')}`;
 const ctx = await browser.newContext({ viewport: { width: 1024, height: 500 } });
 const page = await ctx.newPage();
 await page.setContent(`<style>

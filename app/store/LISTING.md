@@ -72,12 +72,18 @@ app. The character counts were checked against each store's limit.
 | `screenshots/ipad-13/*.png` | App Store, iPad 13" (needed because the app runs on iPad) | 2064 × 2752 |
 | `screenshots/android-phone/*.png` | Google Play, phone | 1080 × 1920 |
 | `feature-graphic.png` | Google Play feature graphic | 1024 × 500 |
-| `play-icon-512.png` | Google Play icon (32-bit PNG) | 512 × 512 |
+| `play-icon-512.png` | Google Play icon (32-bit PNG, from the 1024 icon) | 512 × 512 |
 
 The screenshots show seven screens: the map, a lesson's path, new words, Listen & choose, Talk with Koko, the reward
 screen and the Parents page. They were taken from the app's web build with `app/scripts/store-screenshots.mts`; the
 screens and fonts are the same as on the phone. After the first EAS build, compare them with a real phone.
 
-**Still needed from DHM:** the App Store icon must be **1024 × 1024** with no transparency. The largest Koko icon in
-the repo is 512 × 512, so iOS would scale it up and it would look blurry. Please add a 1024 × 1024 version of the same
-icon and the app will use it.
+**Icons.** All of them come from `app/assets/icon-1024.png`, DHM's 1024 × 1024 icon (no transparency, as Apple
+requires).
+- **App Store and iPhone/iPad home screen:** EAS builds the iOS icon set from it (`app.json` → `icon`). App Store
+  Connect takes the 1024 icon from the build, so there is nothing to upload by hand.
+- **Android:** `app/assets/adaptive-icon.png` is the same picture at 2/3 size on a transparent 1024 canvas, over the
+  icon's own blue (`#065FC6`). Round, squircle and rounded-square launcher masks then show the whole cat without
+  cutting the ears, the paw or the كُوكُو star.
+- **Google Play:** `play-icon-512.png` is scaled down from the 1024 icon; `feature-graphic.png` shows the same icon
+  (`store-screenshots.mts --feature-only` remakes it).
