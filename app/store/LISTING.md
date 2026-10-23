@@ -82,8 +82,13 @@ screens and fonts are the same as on the phone. After the first EAS build, compa
 requires).
 - **App Store and iPhone/iPad home screen:** EAS builds the iOS icon set from it (`app.json` → `icon`). App Store
   Connect takes the 1024 icon from the build, so there is nothing to upload by hand.
-- **Android:** `app/assets/adaptive-icon.png` is the same picture at 2/3 size on a transparent 1024 canvas, over the
-  icon's own blue (`#065FC6`). Round, squircle and rounded-square launcher masks then show the whole cat without
-  cutting the ears, the paw or the كُوكُو star.
+- **Android:** `app/assets/adaptive-icon.png` is the same picture at 2/3 size in the middle of a 1024 canvas. Round,
+  squircle and rounded-square launcher masks then show the whole cat without cutting the ears, the paw or the كُوكُو
+  star.
+  - The icon's blue is not one flat colour (lighter top-left, darker right and bottom). So the canvas around the
+    picture continues each edge's own blue outward, and where the cat touches the edge it bridges the blue on either
+    side. A launcher that shows more than the standard area then shows no frame around the picture.
+  - `backgroundColor` (`#065EC9`) is the median of the blue pixels along the icon's edges. It sits under the
+    foreground, which is opaque.
 - **Google Play:** `play-icon-512.png` is scaled down from the 1024 icon; `feature-graphic.png` shows the same icon
   (`store-screenshots.mts --feature-only` remakes it).
