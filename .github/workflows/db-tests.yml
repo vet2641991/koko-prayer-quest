@@ -51,5 +51,9 @@ jobs:
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.5.6
-      - name: Type-check the Edge Functions
-        run: deno check supabase/functions/*/index.ts
+      - name: Type-check the Edge Functions and run their unit tests (billing rules, Stripe signatures)
+        env:
+          DENO_NO_PACKAGE_JSON: '1'   # the functions import npm: packages themselves, as on Supabase
+        run: |
+          deno check supabase/functions/*/index.ts
+          deno test supabase/functions/_shared/

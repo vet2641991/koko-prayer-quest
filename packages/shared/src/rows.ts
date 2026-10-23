@@ -9,7 +9,7 @@ const rest = (o: J, known: readonly string[]) =>
   Object.fromEntries(Object.entries(o).filter(([k]) => !known.includes(k)));
 
 export type WorldRow = { id: string; display_code: string | null; en: string; ar: string; tint: string; ink: string; sort: number; extra: J };
-export type UnitRow = { id: string; world_id: string; n: string; ar: string; en: string; go_world_id: string | null; sort: number; extra: J };
+export type UnitRow = { id: string; world_id: string; n: string; ar: string; en: string; go_world_id: string | null; premium: boolean; sort: number; extra: J };
 export type CatalogRow = { version: number; note: string | null; focus: string | null; start: string | null; focus_new: string | null; teacher_note: unknown; extra: J };
 export type LessonRow = {
   id: string; unit_no: number | null; source: string | null; title_ar: string; title_en: string; topic: string | null;
@@ -33,7 +33,7 @@ export function unitToRow(u: Unit, worldId: string, index: number): UnitRow {
   const o = u as J;
   return {
     id: u.id, world_id: worldId, n: u.n, ar: u.ar, en: u.en, go_world_id: (pick(o, 'go') as string | null),
-    sort: sortKey(index), extra: rest(o, ['id', 'n', 'ar', 'en', 'file', 'go']),
+    premium: o.premium === true, sort: sortKey(index), extra: rest(o, ['id', 'n', 'ar', 'en', 'file', 'go', 'premium']),
   };
 }
 
@@ -83,4 +83,4 @@ export function rowToLessonDoc(r: LessonRow, worldId: string): J {
 export const rowToWorldDoc = (r: WorldRow): J =>
   ({ ...stripNulls({ id: r.id, code: r.display_code, en: r.en, ar: r.ar, tint: r.tint, ink: r.ink }), ...(r.extra ?? {}) });
 export const rowToUnitDoc = (r: UnitRow): J =>
-  ({ ...stripNulls({ id: r.id, n: r.n, ar: r.ar, en: r.en, go: r.go_world_id }), ...(r.extra ?? {}) });
+  ({ ...stripNulls({ id: r.id, n: r.n, ar: r.ar, en: r.en, go: r.go_world_id, premium: r.premium ? true : null }), ...(r.extra ?? {}) });

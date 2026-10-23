@@ -142,10 +142,10 @@ async function run(db: pg.Client, rootDir: string, catalog: Catalog, lessons: Ma
   for (const w of catalog.worlds) for (const [ui, u] of w.units.entries()) {
     if (!apply.has(key('unit', u.id))) continue;
     const r = unitToRow(u, w.id, ui);
-    await q(`insert into public.units (id, world_id, n, ar, en, go_world_id, sort, extra) values ($1,$2,$3,$4,$5,$6,$7,$8)
+    await q(`insert into public.units (id, world_id, n, ar, en, go_world_id, premium, sort, extra) values ($1,$2,$3,$4,$5,$6,$7,$8,$9)
              on conflict (id) do update set n = excluded.n, ar = excluded.ar, en = excluded.en, go_world_id = excluded.go_world_id,
-               sort = excluded.sort, extra = excluded.extra`,
-      [r.id, r.world_id, r.n, r.ar, r.en, r.go_world_id, r.sort, r.extra]);
+               premium = excluded.premium, sort = excluded.sort, extra = excluded.extra`,
+      [r.id, r.world_id, r.n, r.ar, r.en, r.go_world_id, r.premium, r.sort, r.extra]);
   }
   const J = (v: unknown) => (v === null || v === undefined ? null : JSON.stringify(v));
   for (const L of lessons.values()) {

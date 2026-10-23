@@ -355,3 +355,24 @@ verify_jwt = true
 
 [functions.request-export]
 verify_jwt = true
+
+# Koko Premium (parents and store webhooks). The webhooks are called by Stripe and RevenueCat, which have no Supabase
+# session: they prove who they are with their own signature/secret. parent-signin and stripe-checkout are called
+# before a parent is signed in and check a session themselves when one is sent.
+[functions.parent-signin]
+verify_jwt = false
+
+[functions.parent-delete]
+verify_jwt = true
+
+[functions.stripe-checkout]
+verify_jwt = false
+
+[functions.stripe-portal]
+verify_jwt = true
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.revenuecat-webhook]
+verify_jwt = false
