@@ -44,6 +44,10 @@ export function WorldPage() {
     [ids[i], ids[j]] = [ids[j]!, ids[i]!];
     await run(async () => must(await supabase.rpc('reorder_units', { world: world!.id, unit_ids: ids })), 'Order saved. Publish the order to make it public.');
   }
+  async function setPremium(ids: string[], premium: boolean) {
+    await run(async () => must(await supabase.rpc('set_units_premium', { unit_ids: ids, premium })),
+      `${ids.length === 1 ? ids[0] : `${ids.length} units`}: ${premium ? 'for Koko Premium subscribers' : 'free for everyone'}. Published units change at the next “Send to the site”.`);
+  }
   async function addUnit() {
     const suffix = newUnit.suffix.trim().toLowerCase();
     if (!/^[a-z][a-z0-9]*$/.test(suffix)) return setMsg({ kind: 'error', text: 'The id suffix uses a–z and 0–9, starting with a letter (e.g. l31 or u09).' });
@@ -76,12 +80,22 @@ export function WorldPage() {
     </div>
 
     <h3>Units, in the order children meet them</h3>
-    <table className="list"><thead><tr><th>#</th><th>Unit</th><th>Lesson</th><th /></tr></thead><tbody>
+    <p className="muted small">Free or Koko Premium: only the owner decides. A premium lesson is locked in the app until a parent subscribes
+      (the website stays free for now).</p>
+    {perms.manageAdmins && units.length ? <div className="buttons">
+      <ActionButton onRun={() => setPremium(units.filter(u => !u.go_world_id).map(u => u.id), true)}
+        confirm={`Make every unit of ${world.id} Koko Premium only?`}>All units: Premium</ActionButton>
+      <ActionButton onRun={() => setPremium(units.map(u => u.id), false)}>All units: free</ActionButton>
+    </div> : null}
+    <table className="list"><thead><tr><th>#</th><th>Unit</th><th>Lesson</th><th>Access</th><th /></tr></thead><tbody>
       {units.map((u, i) => {
         const L = tree.lessons.get(u.id);
         return <tr key={u.id}><td>{u.n}</td>
           <td><Link to={`/content/unit/${u.id}`}><span className="mono">{u.id}</span> {u.en}</Link> <span className="ar inline">{u.ar}</span></td>
           <td>{u.go_world_id ? `link → ${u.go_world_id}` : <StatusBadge status={L?.status ?? 'none'} />}</td>
+          <td className="nowrap">{u.go_world_id ? null : <>
+            <span className={`badge ${u.premium ? 'premium' : ''}`}>{u.premium ? '🔒 Premium' : 'Free'}</span>
+            {perms.manageAdmins ? <button onClick={() => setPremium([u.id], !u.premium)}>{u.premium ? 'Make free' : 'Make Premium'}</button> : null}</>}</td>
           <td className="nowrap">{perms.edit ? <><button aria-label="Move up" onClick={() => move(i, -1)} disabled={i === 0}>↑</button>
             <button aria-label="Move down" onClick={() => move(i, 1)} disabled={i === units.length - 1}>↓</button></> : null}</td></tr>;
       })}

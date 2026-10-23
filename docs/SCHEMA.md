@@ -269,13 +269,17 @@ Until the dashboard replaces it, the local production session keeps committing `
 
 Neither writer can silently undo the other.
 
-## 9. Ready for subscriptions later (not built now)
+## 9. Subscriptions (Koko Premium, migration 11)
 
-Paid content can't go into the public static export, so subscriptions will add, without changing anything above:
+Built on 2026-10-23; the setup is in `docs/SUBSCRIPTIONS.md`.
 
-- `units.access` (`free` | `premium`). The export will refuse to publish non-free content publicly.
-- `subscriptions` (user, RevenueCat app-user id, store, status, period end) and `entitlements`, filled by a
-  RevenueCat webhook (Edge Function).
-- A signed-download path for premium lesson JSON.
+- **`units.premium`** (owner only, `set_units_premium()`): exported as `"premium": true`, and only when true.
+- **`entitlements`**: one row per subscription, written only by the store webhooks (service role). Read with
+  `my_access()` by the parent, and counted by `billing_summary()` for the owner.
+- **`billing_customers`**: the Stripe customer of each parent.
+- **`billing_events`**: each webhook id is handled once.
+- Parents are auth users created by Edge Functions, while sign-ups stay off. They are never admins.
 
-Child or parent accounts will be needed then, so **`privacy.html` must be updated before that launch** (AUDIT §11).
+**The lesson files of Premium units are still exported publicly.** The app locks them; the website (PWA) does not.
+The brief keeps `audio/`, `media/` and `app.js` as they are, so private storage and signed downloads are a later
+decision (`docs/SUBSCRIPTIONS.md` §8). `privacy.html` was updated for the parent's email and the subscription.

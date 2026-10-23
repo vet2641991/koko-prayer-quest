@@ -34,13 +34,18 @@ app. The character counts were checked against each store's limit.
 > • Du'a, adhkar, the adhan, the tashahhud and Qur'an are approved by Dr. Hassan Muslim and shown with full tashkeel.
 >
 > MADE FOR CHILDREN, TRUSTED BY PARENTS
-> • No ads, no accounts, no chat, no tracking.
+> • No ads, no chat, no tracking, and no account for children (a parent account is optional).
 > • Progress, stars and the child's first name stay on the device.
 > • Voice recordings are never uploaded and are deleted when the child leaves the screen.
 > • Works offline once the lessons are downloaded.
 > • Links for parents open only after a grown-up answers a question.
 > • A Parents page shows what your child learned today, minutes, words and the daily streak, with a 2-minute
 >   activity to try at home.
+>
+> KOKO PREMIUM
+> Many lessons are free. Koko Premium opens every lesson, including new ones as they come out, for $34.99 a month.
+> It is bought by a parent, behind a parental gate, and renews every month until cancelled in your account settings.
+> Already subscribed on koko.dhm-institute.com? Sign in with the same email on the Parents page.
 >
 > Want more? DHM Institute offers one-to-one online classes with certified teachers. Book a free trial class from the
 > Parents page.
@@ -52,11 +57,12 @@ app. The character counts were checked against each store's limit.
 | Category | Education | Education; Kids category, age band **6–8** (or 5 and under) |
 | Target audience | Children (ages 5–8 and 9–12), join *Designed for Families* | Made for Kids |
 | Ads | No ads | No ads |
-| In-app purchases | None | None |
-| Data safety / App privacy | **No data collected, no data shared.** Microphone: used on the device only, not collected | **Data Not Collected** |
+| In-app purchases | **Koko Premium**, auto-renewing monthly subscription: product `koko_premium`, base plan `monthly`, $34.99 or $35 | **Koko Premium**, auto-renewable subscription in the group *Koko Premium*: product `koko_premium_monthly`, $34.99 |
+| Data safety / App privacy | **Collected, not shared, encrypted in transit, deletion in the app:** Personal info → *Email address* (optional; account management, app functionality); Personal info → *User IDs* (app functionality); Financial info → *Purchase history* (app functionality). Nothing about the child. Microphone: on the device only, not collected | **Data Linked to You, not used for tracking:** Contact Info → *Email Address*; Purchases → *Purchase History*; Identifiers → *User ID*; all for *App Functionality*. Nothing about the child |
 | Privacy policy URL | https://koko.dhm-institute.com/privacy.html | same |
 | Support / marketing URL | https://dhm-institute.com/ | same |
-| Content rating questionnaire | No violence, no user interaction, no sharing, no location, no purchases | Age rating 4+ |
+| Content rating questionnaire | No violence, no user interaction, no sharing, no location; **digital purchases: yes** | Age rating 4+; in-app purchases: yes |
+| App review notes | Purchases and links are behind a parental gate (a multiplication in words). Restore purchases and account deletion are on the parents' screens | Same. Sign-in is optional: buying works without an account; Terms of Use and Privacy links are on the Koko Premium screen |
 
 ## Images in this folder
 

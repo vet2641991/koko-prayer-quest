@@ -34,6 +34,8 @@ say.
 | `SUPABASE_SECRET_KEY` | secret | publish, only when a dashboard **upload** must be copied into the repo | Project Settings → API Keys → *Secret keys* (`sb_secret_…`) |
 | `KOKO_DISPATCH_TOKEN` | secret, optional | the dashboard's "Send to the site" button | GitHub → Settings (your profile) → Developer settings → Fine-grained tokens → *Generate*: repository `koko-prayer-quest` only, permission **Contents: Read and write**, expiry up to 1 year |
 | `EXPO_TOKEN` | secret | the phone app's test build (**App test build (Android APK)**) | expo.dev → Account settings → Access tokens → *Create token* (account `drhassan_muslim`) |
+| `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `REVENUECAT_SECRET_KEY`, `REVENUECAT_WEBHOOK_AUTH` | secrets, for Koko Premium | the subscription webhooks and checkout | `docs/SUBSCRIPTIONS.md` §2 |
+| `STRIPE_PRICE_ID`, `STRIPE_PORTAL_LOGIN_URL`, `SUPABASE_PUBLISHABLE_KEY`, `REVENUECAT_IOS_PUBLIC_KEY`, `REVENUECAT_ANDROID_PUBLIC_KEY` | variables (*Variables* tab), for Koko Premium | public values for the functions and the app build | `docs/SUBSCRIPTIONS.md` §2 |
 | `ADMIN_ORIGIN` | variable (*Variables* tab), optional | lets only the dashboard's address call the Edge Functions | e.g. `https://admin.koko.dhm-institute.com` |
 
 The project ref `pwgkxdiwqrxkndkyzwlw` and the URL `https://pwgkxdiwqrxkndkyzwlw.supabase.co` are not secrets.
