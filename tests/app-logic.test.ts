@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 import { gateAccepts, gateQuestion } from '../app/src/logic/gate.ts';
+import { combine, isLocked } from '../app/src/logic/access.ts';
 import {
   emptyProgress, markWord, migrateLegacy, nextUnit, parseProgress, reviewList, starsFor, streak, tick, wordKey,
 } from '../app/src/logic/progress.ts';
@@ -58,4 +59,28 @@ test('parental gate: a written-out multiplication; only the right number opens t
   assert.ok(!gateAccepts(q, `${q.answer}0`));
   assert.ok(!gateAccepts(q, ''));
   for (let k = 0; k < 200; k++) { const r = gateQuestion(); assert.ok(r.answer >= 18 && r.answer <= 108, 'never a trivial question'); }
+});
+
+test('Koko Premium: store, account and the offline cache', () => {
+  const now = Date.parse('2026-10-23T12:00:00Z'), d = 86_400_000, at = (ms: number) => new Date(ms).toISOString();
+  assert.deepEqual(combine(null, null, null, now), { premium: false, until: null }, 'nothing known: no Premium');
+  assert.deepEqual(combine({ premium: true, until: at(now + 9 * d) }, { premium: false, until: null }, null, now),
+    { premium: true, until: at(now + 9 * d) }, 'bought in the store, account without Premium');
+  assert.deepEqual(combine({ premium: false, until: null }, { premium: true, until: at(now + 20 * d) }, null, now),
+    { premium: true, until: at(now + 20 * d) }, 'bought on the website, signed in on the phone');
+  assert.equal(combine({ premium: true, until: at(now + 2 * d) }, { premium: true, until: null }, null, now).until, null,
+    'a grant without an end date wins');
+  assert.equal(combine({ premium: true, until: at(now - d) }, null, null, now).premium, false, 'an expired grant is not Premium');
+  const cached = { premium: true, until: at(now + 3 * d), checkedAt: now - d };
+  assert.equal(combine(null, null, cached, now).premium, true, 'offline: the last answer counts until its end date');
+  assert.equal(combine(null, null, { ...cached, until: at(now - 1) }, now).premium, false, 'offline: not after it');
+  assert.equal(combine({ premium: false, until: null }, null, cached, now).premium, false,
+    'once the store answers, the cache no longer counts (a cancelled subscription ends)');
+});
+
+test('Koko Premium: which units are locked', () => {
+  assert.equal(isLocked({ premium: true }, true, false), true, 'premium unit, subscriptions on, no Premium');
+  assert.equal(isLocked({ premium: true }, true, true), false, 'subscribers open it');
+  assert.equal(isLocked({}, true, false), false, 'free units are never locked');
+  assert.equal(isLocked({ premium: true }, false, false), false, 'a build without subscription keys locks nothing');
 });

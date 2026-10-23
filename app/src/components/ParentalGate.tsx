@@ -1,26 +1,38 @@
-// Every link that leaves the app (DHM booking, courses, the privacy policy) opens only after a grown-up answers
-// a question a young child cannot (Google Play Families policy, Apple Kids category).
+// Every link that leaves the app (DHM booking, courses, the privacy policy), and every screen for parents that can
+// spend money (Koko Premium, the parent account), opens only after a grown-up answers a question a young child
+// cannot (Google Play Families policy, Apple Kids category).
 import { useState } from 'react';
 import { Linking, Modal, Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { gateAccepts, gateQuestion, type GateQuestion } from '../logic/gate';
 import { C, F } from '../theme';
 import { Btn, T } from './ui';
 
-export function useParentalGate() {
-  const [pending, setPending] = useState<{ url: string; q: GateQuestion } | null>(null);
+type Target = string | (() => void);   // a website to open, or a parents' screen to show
+let passedAt = 0;
+/** True for a few minutes after a grown-up answered the gate (the parents' screens check it when they open). */
+export const grownUpRecently = () => Date.now() - passedAt < 10 * 60_000;
+
+export function useParentalGate(onCancel?: () => void) {
+  const [pending, setPending] = useState<{ target: Target; q: GateQuestion } | null>(null);
   const [typed, setTyped] = useState(''), [wrong, setWrong] = useState(false);
-  const open = (url: string) => { setTyped(''); setWrong(false); setPending({ url, q: gateQuestion() }); };
-  const close = () => setPending(null);
+  const open = (target: Target) => { setTyped(''); setWrong(false); setPending({ target, q: gateQuestion() }); };
+  const close = () => { setPending(null); onCancel?.(); };
   const submit = () => {
     if (!pending) return;
-    if (gateAccepts(pending.q, typed)) { const url = pending.url; close(); void Linking.openURL(url); }
-    else { setWrong(true); setTyped(''); setPending({ url: pending.url, q: gateQuestion() }); }
+    if (gateAccepts(pending.q, typed)) {
+      const t = pending.target;
+      passedAt = Date.now();
+      setPending(null);
+      if (typeof t === 'string') void Linking.openURL(t); else t();
+    } else { setWrong(true); setTyped(''); setPending({ target: pending.target, q: gateQuestion() }); }
   };
+  const forLink = typeof pending?.target === 'string';
   const gate = <Modal visible={Boolean(pending)} transparent animationType="fade" onRequestClose={close}>
     <View style={st.backdrop}>
       <View style={st.box} accessibilityViewIsModal>
         <T size={22} weight="heavy">For grown-ups</T>
-        <T size={16} weight="medium" color={C.muted}>This link opens a website outside the app. Please ask a parent.</T>
+        <T size={16} weight="medium" color={C.muted}>{forLink ? 'This link opens a website outside the app. Please ask a parent.'
+          : 'This part is for parents. Please ask a grown-up.'}</T>
         <T size={20}>{pending?.q.text}</T>
         <TextInput value={typed} onChangeText={setTyped} keyboardType="number-pad" maxLength={3} style={st.input}
           accessibilityLabel="Answer" autoFocus onSubmitEditing={submit} />

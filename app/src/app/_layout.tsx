@@ -9,6 +9,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { sweepRecordings } from '../audio/recordings';
 import { initAudio } from '../audio/sound';
 import { ConfettiLayer } from '../components/Confetti';
+import { AccessProvider } from '../state/access';
 import { ProgressProvider } from '../state/progress';
 import { C } from '../theme';
 
@@ -21,9 +22,11 @@ export default function RootLayout() {
   if (!loaded && !error) return null;
   return <SafeAreaProvider>
     <ProgressProvider>
-      <StatusBar style="light" />
-      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: C.blue }, animation: 'slide_from_right' }} />
-      <ConfettiLayer />
+      <AccessProvider>
+        <StatusBar style="light" />
+        <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: C.blue }, animation: 'slide_from_right' }} />
+        <ConfettiLayer />
+      </AccessProvider>
     </ProgressProvider>
   </SafeAreaProvider>;
 }

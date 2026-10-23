@@ -4,7 +4,7 @@ import { LessonSchema, type Lesson } from '../../../packages/shared/src/schema.t
 import { referencedFiles } from '../../../packages/shared/src/audio.ts';
 import { mediaUri, readText, saveMedia } from './store';
 
-export type Unit = { id: string; n: string; ar: string; en: string; file?: string; go?: string };
+export type Unit = { id: string; n: string; ar: string; en: string; file?: string; go?: string; premium?: boolean };
 export type World = { id: string; code?: string; en: string; ar: string; tint: string; ink: string; units: Unit[] };
 export type Catalog = { worlds: World[]; focus?: string; start?: string; focusNew?: string; teacherNote?: { text?: string } };
 export type Promo = { id: string; text: string; url: string; placement: 'after_lesson' | 'map' | 'parents'; sort: number };

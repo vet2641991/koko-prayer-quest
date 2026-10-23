@@ -59,6 +59,19 @@ jobs:
             echo "new_id=$id" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Koko Premium keys (public by design; from the repository's Variables)
+        env:
+          SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+          REVENUECAT_ANDROID_KEY: ${{ vars.REVENUECAT_ANDROID_PUBLIC_KEY }}
+          REVENUECAT_IOS_KEY: ${{ vars.REVENUECAT_IOS_PUBLIC_KEY }}
+        run: |
+          # written into this build's app.json only (never committed); without them the app has no subscription
+          jq '.expo.extra += ({supabasePublishableKey: env.SUPABASE_PUBLISHABLE_KEY, revenuecatAndroidKey: env.REVENUECAT_ANDROID_KEY,
+                revenuecatIosKey: env.REVENUECAT_IOS_KEY} | with_entries(select(.value != "" and .value != null)))' app.json > app.json.new
+          mv app.json.new app.json
+          jq -r '.expo.extra | keys | join(", ")' app.json
+          case "$SUPABASE_PUBLISHABLE_KEY" in sb_secret_*) echo "::error::SUPABASE_PUBLISHABLE_KEY must be the publishable key"; exit 1;; esac
+
       - name: Check what will be uploaded (app/ and packages/shared only)
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
