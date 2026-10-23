@@ -48,22 +48,53 @@ receive the stores' webhooks. The owner decides in the dashboard which lessons a
 | `REVENUECAT_IOS_PUBLIC_KEY` | GitHub **Variable** | `appl_…` (public SDK key, safe in the app) | RevenueCat → Project settings → API keys → the iOS app |
 | `REVENUECAT_ANDROID_PUBLIC_KEY` | GitHub **Variable** | `goog_…` (public SDK key, safe in the app) | RevenueCat → API keys → the Android app |
 | `SUPABASE_PUBLISHABLE_KEY` | GitHub **Variable** | `sb_publishable_…` (safe in the app); **never** `sb_secret_…` | Supabase → Project Settings → API Keys |
-| SMTP login | **Supabase dashboard** only | Your email provider's SMTP user and password | The email provider (§3) |
+| Resend API key (the SMTP password) | **Supabase dashboard** only | `re_…`, sending access, one domain | Resend → API Keys (§3) |
 
 - **Sync to Supabase** copies the Stripe and RevenueCat values into the Edge Functions' secrets on every run.
 - **App test build** writes the three public keys into that build only. They are never committed.
 
-## 3. Sign-in emails (needed for parent accounts)
+## 3. Sign-in emails with Resend (do this before launch)
 
-Supabase's built-in email only reaches the project's own team, a few emails an hour, so parents need a real email
-provider.
+Supabase's built-in email sends only 2 emails an hour and only to the project's own team, so parents' sign-in codes
+need our own sender. These steps use **Resend**. Its free plan sends 3,000 emails a month and 100 a day.
 
-1. Create an account with an email service that offers SMTP: Resend, Postmark, Brevo, Amazon SES, or your Google
-   Workspace / Zoho mailbox. Verify the sender domain `dhm-institute.com` there (they show the DNS records).
-2. Supabase → **Authentication** → **Emails** → **SMTP Settings** → *Enable custom SMTP*:
-   - host, port, user and password from the provider;
-   - sender `koko@dhm-institute.com`, name *Koko · DHM Institute*.
-3. Supabase → **Authentication** → **Emails** → **Templates** → **Magic Link**:
+**A. Resend: the sending domain**
+
+1. Sign up at resend.com with the DHM Institute email.
+2. **Domains** → **Add domain**:
+   - name: **`mail.dhm-institute.com`** (a subdomain, as Resend recommends, so the main domain's email is never
+     affected);
+   - region: **Ireland (eu-west-1)**, the same region as our Supabase project.
+3. Resend shows 3 or 4 DNS records: DKIM `TXT` `resend._domainkey.mail…`, an `MX` and a `TXT` (SPF) on
+   `send.mail…`. Add each one, exactly as shown, where `dhm-institute.com`'s DNS is managed (the same place as the
+   `koko` record). Click **Verify**; it usually turns *Verified* within minutes, sometimes a few hours.
+4. Recommended once it is verified: a DMARC record, `TXT` `_dmarc.mail.dhm-institute.com` =
+   `v=DMARC1; p=none; rua=mailto:<your email>` (Resend → the domain → *DMARC* shows it).
+
+**B. Resend: the SMTP password**
+
+5. **API Keys** → **Create API key**: name `supabase-auth`, permission **Sending access**, domain
+   **mail.dhm-institute.com** only. Copy it once. It is the SMTP password, and it goes **only** into the Supabase
+   dashboard in the next step: not GitHub, not a file, not a chat.
+
+**C. Supabase: send through Resend**
+
+6. Supabase → project **koko** → **Authentication** → **Emails** → **SMTP Settings** → *Enable custom SMTP*:
+
+   | Field | Value |
+   |---|---|
+   | Sender email | `koko@mail.dhm-institute.com` |
+   | Sender name | `Koko · DHM Institute` |
+   | Host | `smtp.resend.com` |
+   | Port | `465` |
+   | Username | `resend` |
+   | Password | the API key from step 5 |
+   | Minimum interval between emails | `60` seconds |
+
+   **Save.** (Resend also has a one-click *Supabase* integration that fills the same fields.)
+7. **Authentication** → **Rate Limits** → *Rate limit for sending emails*. Supabase starts custom SMTP at
+   **30 an hour**; raise it to **100** (Resend's free plan allows 100 a day; on Resend's paid plan, higher).
+8. **Authentication** → **Emails** → **Templates** → **Magic Link**:
    - subject: `Your Koko sign-in code`
    - body:
      ```html
@@ -71,9 +102,17 @@ provider.
      <p style="font-size:28px;font-weight:bold;letter-spacing:4px">{{ .Token }}</p>
      <p>Type this code in the Koko app or on koko.dhm-institute.com. It works for one hour.</p>
      <p>If you did not ask for it, you can ignore this email.</p>
+     <p>Koko · DHM Institute</p>
      ```
    The app asks for the **code** (`{{ .Token }}`), not a link.
-4. Supabase → **Authentication** → **Sign In / Providers** → **Email**: *Email OTP length* **6**.
+9. **Authentication** → **Sign In / Providers** → **Email**: *Email OTP length* **6**, *Email OTP expiration*
+   **3600** seconds.
+
+**D. Test**
+
+10. In the Koko app: **Parents** → **Sign in** → your own email → the code arrives from
+    `koko@mail.dhm-institute.com`. Resend → **Emails** lists every message with its status (*Delivered*,
+    *Bounced*…). If it lands in spam, check that all the DNS records in step 3 show *Verified*.
 
 *Allow new users to sign up* stays **off**. The Edge Function `parent-signin` creates parent accounts itself, and a
 parent account can never use the dashboard.
@@ -170,12 +209,8 @@ Start in **Test mode** (the switch at the top of the Stripe dashboard). Repeat i
 - **Deleting the parent account** cancels a website subscription at once. Store subscriptions are cancelled by the
   parent in the store (the app says so).
 
-## 8. Decision for later: lock the website too?
+## 8. The website at launch (owner, 2026-10-23)
 
-Today the website (`koko.dhm-institute.com`) plays every lesson for free, including Premium ones, because the lesson
-files are public. Locking it means two changes:
-
-- moving Premium lesson files (and their audio and video) out of the public repository into private storage;
-- changing `app.js`.
-
-The brief forbids both today. If you want it later, it is a separate project with its own review.
+The website stays free during the trial. **On launch day it locks Premium lessons too, with the same rules as the
+app.** That change waits, unmerged, in its own PR; the steps are in `docs/LAUNCH.md`. Nothing on `main` changes the
+website until the owner says "launch".
