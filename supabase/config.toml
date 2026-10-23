@@ -376,3 +376,6 @@ verify_jwt = false
 
 [functions.revenuecat-webhook]
 verify_jwt = false
+
+[functions.public-config]
+verify_jwt = false

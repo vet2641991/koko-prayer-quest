@@ -1,7 +1,7 @@
 /* Offline support. App shell: network first (so updates arrive), cache as fallback.
    Media and audio: network first (corrections reach devices at once), cache as the offline fallback. */
-const SHELL = 'koko-shell-v6', MEDIA = 'koko-media-v3';   // old caches are dropped on activate
-const CORE = ['./', 'index.html', 'app.css?v=6', 'app.js?v=6', 'manifest.webmanifest', 'content/catalog.json',
+const SHELL = 'koko-shell-v7', MEDIA = 'koko-media-v3';   // old caches are dropped on activate
+const CORE = ['./', 'index.html', 'app.css?v=7', 'premium.js?v=7', 'app.js?v=7', 'manifest.webmanifest', 'content/catalog.json',
   'media/koko-wave.png', 'media/koko-cheer.png', 'media/dhm-logo.png', 'media/icon-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(SHELL).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys()   // drop old app + audio caches so re-cut clips reach every device
