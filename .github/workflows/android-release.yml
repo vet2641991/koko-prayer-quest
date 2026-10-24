@@ -1,0 +1,150 @@
+# Builds the Koko app for Google Play (an AAB, profile "production") on EAS and uploads it to the Internal testing
+# track. Run it by hand: Actions → "Store build: Android (Google Play internal testing)" → Run workflow.
+# Steps for the owner, including the first upload (which Google requires by hand): docs/LAUNCH.md §1.
+#
+# Secrets (Settings → Secrets and variables → Actions):
+#   EXPO_TOKEN                          the Expo account drhassan_muslim (already set for the APK workflow)
+#   GOOGLE_PLAY_SERVICE_ACCOUNT_JSON    the whole JSON key of the Play service account. Without it the AAB is built
+#                                       and can be downloaded, but not uploaded.
+# Both are passed only to the steps that need them; the JSON key is written to the runner's temp folder (never into
+# the repository or the EAS upload) and deleted at the end.
+name: "Store build: Android (Google Play internal testing)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: Upload to Google Play (internal testing). Off = only build the AAB to download.
+        type: boolean
+        default: true
+      release_status:
+        description: "completed = testers get it at once. draft = you press \"Start rollout\" in Play Console (Google requires draft until the app's first release is out)."
+        type: choice
+        options: [completed, draft]
+        default: completed
+      build_id:
+        description: Optional. Upload this existing EAS build instead of building again (the id from a previous run's summary).
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: store-android
+  cancel-in-progress: false
+
+jobs:
+  android:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150   # the free EAS plan can queue for a while; the build carries on on EAS even if this stops
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Check the secrets
+        id: check
+        working-directory: .
+        env:
+          HAS_EXPO: ${{ secrets.EXPO_TOKEN != '' }}
+          HAS_PLAY: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON != '' }}
+          UPLOAD: ${{ inputs.upload }}
+          BUILD_ID: ${{ inputs.build_id }}
+        run: |
+          if [ "$HAS_EXPO" != "true" ]; then
+            echo "::error::Add the EXPO_TOKEN secret first (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+          if [ -n "$BUILD_ID" ] && ! [[ "$BUILD_ID" =~ ^[0-9a-f-]{36}$ ]]; then
+            echo "::error::build_id must be an EAS build id (36 characters, like 268610eb-…)."
+            exit 1
+          fi
+          upload=false
+          if [ "$UPLOAD" = "true" ]; then
+            if [ "$HAS_PLAY" = "true" ]; then upload=true
+            else echo "::notice::GOOGLE_PLAY_SERVICE_ACCOUNT_JSON is not set, so the AAB is built but not uploaded (docs/LAUNCH.md §1)."; fi
+          fi
+          echo "upload=$upload" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+
+      - name: Prepare
+        uses: ./.github/actions/app-prepare
+        with:
+          platform: android
+          profile: production
+          expo-token: ${{ secrets.EXPO_TOKEN }}
+          supabase-publishable-key: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+          revenuecat-android-key: ${{ vars.REVENUECAT_ANDROID_PUBLIC_KEY }}
+          revenuecat-ios-key: ${{ vars.REVENUECAT_IOS_PUBLIC_KEY }}
+
+      - name: Build the AAB on EAS (profile "production"; the version code goes up by itself)
+        id: build
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          BUILD_ID: ${{ inputs.build_id }}
+        run: |
+          if [ -n "$BUILD_ID" ]; then
+            echo "id=$BUILD_ID" >> "$GITHUB_OUTPUT"
+            npx --yes eas-cli@25.3.0 build:view "$BUILD_ID" --json > ../eas-build.json
+            jq -e '.platform == "ANDROID" and .status == "FINISHED"' ../eas-build.json > /dev/null \
+              || { echo "::error::Build $BUILD_ID is not a finished Android build."; exit 1; }
+            jq -s '.' ../eas-build.json > ../eas-builds.json
+          else
+            npx --yes eas-cli@25.3.0 build --platform android --profile production --non-interactive --wait --json > ../eas-builds.json
+            echo "id=$(jq -r '.[0].id' ../eas-builds.json)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload to Google Play (Internal testing)
+        id: submit
+        if: steps.check.outputs.upload == 'true'
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          PLAY_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          RELEASE_STATUS: ${{ inputs.release_status }}
+          ID: ${{ steps.build.outputs.id }}
+        run: |
+          set -o pipefail
+          key="$RUNNER_TEMP/play-service-account.json"
+          (umask 077; printf '%s' "$PLAY_JSON" > "$key")
+          jq -e '.type == "service_account" and (.client_email | length > 0) and (.private_key | length > 0)' "$key" > /dev/null \
+            || { echo "::error::GOOGLE_PLAY_SERVICE_ACCOUNT_JSON is not a Google service-account JSON key."; exit 1; }
+          # the key's path and the release status go into this run's eas.json only (never committed)
+          jq --arg key "$key" --arg st "$RELEASE_STATUS" \
+            '.submit.production.android += {serviceAccountKeyPath: $key, releaseStatus: $st}' eas.json > eas.json.new && mv eas.json.new eas.json
+          npx --yes eas-cli@25.3.0 submit --platform android --profile production --id "$ID" --non-interactive --wait \
+            2>&1 | tee ../eas-submit.log
+
+      - name: Delete the key file
+        if: always()
+        working-directory: .
+        run: rm -f "$RUNNER_TEMP/play-service-account.json"
+
+      - name: Summary
+        if: always()
+        working-directory: .
+        env:
+          UPLOAD: ${{ steps.check.outputs.upload }}
+          RELEASE_STATUS: ${{ inputs.release_status }}
+          SUBMIT_OUTCOME: ${{ steps.submit.outcome }}
+        run: |
+          {
+            echo "## Koko: Android store build"
+            if [ -s eas-builds.json ]; then
+              jq -r '.[] | "- **Build:** \(.status), version \(.appVersion) (version code \(.appBuildVersion))\n- **Build id (to upload it again without building):** `\(.id)`\n- **Download the AAB:** \(.artifacts.applicationArchiveUrl // .artifacts.buildUrl // "not ready")\n- **Build page:** https://expo.dev/accounts/\(.app.ownerAccount.name // "drhassan_muslim")/projects/\(.app.slug // "koko")/builds/\(.id)" + (if .error then "\n- **Error:** \(.error.message)" else "" end)' eas-builds.json
+            else
+              echo "The build did not finish here. Open https://expo.dev/accounts/drhassan_muslim/projects/koko/builds for its status and logs."
+            fi
+            echo
+            if [ "$UPLOAD" = "true" ] && [ -s eas-submit.log ]; then
+              if grep -qi "draft app" eas-submit.log; then
+                echo "**Google accepts only a draft release until the app's first release is out.** Run this workflow again with **release_status = draft** and the build id above, then Play Console → Testing → Internal testing → **Start rollout**."
+              elif [ "$SUBMIT_OUTCOME" != "success" ]; then
+                echo "**The upload failed.** If this is the app's first AAB, Google requires it to be uploaded by hand once: download the AAB above (docs/LAUNCH.md §1, step 5). Otherwise see the log of the step \"Upload to Google Play\"."
+              else
+                echo "**Uploaded to Google Play → Internal testing** ($RELEASE_STATUS). Google processes it in a few minutes; testers get it from the testers' link in Play Console."
+              fi
+            else
+              echo "Not uploaded. To put it on Google Play: download the AAB above, or add \`GOOGLE_PLAY_SERVICE_ACCOUNT_JSON\` and run again with the build id (docs/LAUNCH.md §1)."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

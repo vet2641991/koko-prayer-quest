@@ -76,6 +76,11 @@ in the run's summary. The EAS project is `@drhassan_muslim/koko` (its id is in `
 signing key. Only `app/` and `packages/shared` are uploaded (see `.easignore` at the repo root); the workflow checks
 the archive with `eas build:inspect --stage archive` before it starts a build.
 
+**Store builds from GitHub:** Actions → **Store build: Android (Google Play internal testing)** builds an AAB
+(`production` profile) and uploads it to Internal testing; **Store build: iOS (TestFlight)** builds for iPhone/iPad
+and uploads to TestFlight, and stops calmly until the Apple keys exist. Accounts, keys and the order of the steps:
+[`docs/LAUNCH.md`](../docs/LAUNCH.md).
+
 From a computer, build and submit need the owner's Expo account and store accounts:
 
 - **One-time:**
@@ -90,5 +95,5 @@ Identifiers: `com.dhminstitute.koko`, the same for the Android package and the i
 They can no longer change once the first build is in a store.
 
 **Store listing:** names, descriptions, settings, Data safety answers, screenshots, the feature graphic and the Play
-icon are in [`app/store/`](store/LISTING.md). In short: Education, made for kids, no ads, no purchases, no data
-collected; links behind the parental gate. Privacy policy: https://koko.dhm-institute.com/privacy.html.
+icon are in [`app/store/`](store/LISTING.md). In short: Education, made for kids, no ads, the Koko Premium
+subscription, nothing collected about the child; links and purchases behind the parental gate. Privacy policy: https://koko.dhm-institute.com/privacy.html.
