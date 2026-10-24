@@ -1,0 +1,203 @@
+# Builds the Koko app for iPhone and iPad (profile "production") on EAS and uploads it to TestFlight.
+# Run it by hand: Actions → "Store build: iOS (TestFlight)" → Run workflow. Steps for the owner: docs/LAUNCH.md §2.
+#
+# Until the Apple keys below exist, the workflow stops calmly ("needs Apple keys") and builds nothing.
+#
+# Secrets (Settings → Secrets and variables → Actions → Secrets):
+#   EXPO_TOKEN              the Expo account drhassan_muslim (already set)
+#   APPLE_ASC_API_KEY_P8    the whole text of the App Store Connect API key file (AuthKey_XXXXXXXXXX.p8)
+#   APPLE_ASC_KEY_ID        its Key ID (10 characters)
+#   APPLE_ASC_ISSUER_ID     the Issuer ID shown above the keys list (a UUID)
+# Variables (the same page → Variables):
+#   APPLE_TEAM_ID           the Team ID (10 characters, Apple Developer → Membership details)
+#   APPLE_TEAM_TYPE         INDIVIDUAL or COMPANY_OR_ORGANIZATION
+#   APPLE_ASC_APP_ID        the app's Apple ID in App Store Connect (digits only, App Information → Apple ID)
+# The key is written to the runner's temp folder (never into the repository or the EAS upload) and deleted at the end.
+name: "Store build: iOS (TestFlight)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: Upload to TestFlight. Off = only build.
+        type: boolean
+        default: true
+      build_id:
+        description: Optional. Upload this existing EAS build instead of building again (the id from a previous run's summary).
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: store-ios
+  cancel-in-progress: false
+
+jobs:
+  ios:
+    runs-on: ubuntu-24.04   # the build itself runs on EAS's Macs
+    timeout-minutes: 150
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Check the Apple keys
+        id: check
+        working-directory: .
+        env:
+          EXPO_TOKEN_SET: ${{ secrets.EXPO_TOKEN != '' }}
+          P8_SET: ${{ secrets.APPLE_ASC_API_KEY_P8 != '' }}
+          KEY_ID_SET: ${{ secrets.APPLE_ASC_KEY_ID != '' }}
+          ISSUER_SET: ${{ secrets.APPLE_ASC_ISSUER_ID != '' }}
+          TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+          TEAM_TYPE: ${{ vars.APPLE_TEAM_TYPE }}
+          APP_ID: ${{ vars.APPLE_ASC_APP_ID }}
+          BUILD_ID: ${{ inputs.build_id }}
+        run: |
+          missing=()
+          [ "$EXPO_TOKEN_SET" = "true" ] || missing+=("Secret EXPO_TOKEN")
+          [ "$P8_SET" = "true" ]         || missing+=("Secret APPLE_ASC_API_KEY_P8")
+          [ "$KEY_ID_SET" = "true" ]     || missing+=("Secret APPLE_ASC_KEY_ID")
+          [ "$ISSUER_SET" = "true" ]     || missing+=("Secret APPLE_ASC_ISSUER_ID")
+          [ -n "$TEAM_ID" ]              || missing+=("Variable APPLE_TEAM_ID")
+          [ -n "$TEAM_TYPE" ]            || missing+=("Variable APPLE_TEAM_TYPE")
+          [ -n "$APP_ID" ]               || missing+=("Variable APPLE_ASC_APP_ID")
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Needs Apple keys::Nothing was built. Missing: ${missing[*]}. See docs/LAUNCH.md §2."
+            {
+              echo "## Koko: iOS store build"
+              echo
+              echo "### ⏸ Needs Apple keys (محتاج مفاتيح Apple)"
+              echo "Nothing was built. Add these in GitHub → Settings → Secrets and variables → Actions, then run this workflow again:"
+              printf -- '- %s\n' "${missing[@]}"
+              echo
+              echo "How to get each one: **docs/LAUNCH.md §2**."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          bad=""
+          [[ "$TEAM_ID" =~ ^[A-Z0-9]{10}$ ]] || bad+=" APPLE_TEAM_ID must be 10 letters/digits."
+          [[ "$TEAM_TYPE" =~ ^(INDIVIDUAL|COMPANY_OR_ORGANIZATION)$ ]] || bad+=" APPLE_TEAM_TYPE must be INDIVIDUAL or COMPANY_OR_ORGANIZATION."
+          [[ "$APP_ID" =~ ^[0-9]+$ ]] || bad+=" APPLE_ASC_APP_ID must be digits only."
+          if [ -n "$BUILD_ID" ] && ! [[ "$BUILD_ID" =~ ^[0-9a-f-]{36}$ ]]; then bad+=" build_id must be an EAS build id."; fi
+          if [ -n "$bad" ]; then echo "::error::$bad"; exit 1; fi
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.ready == 'true'
+
+      - name: Prepare
+        if: steps.check.outputs.ready == 'true'
+        uses: ./.github/actions/app-prepare
+        with:
+          platform: ios
+          profile: production
+          expo-token: ${{ secrets.EXPO_TOKEN }}
+          supabase-publishable-key: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+          revenuecat-android-key: ${{ vars.REVENUECAT_ANDROID_PUBLIC_KEY }}
+          revenuecat-ios-key: ${{ vars.REVENUECAT_IOS_PUBLIC_KEY }}
+
+      - name: Write the App Store Connect key (temp folder only)
+        if: steps.check.outputs.ready == 'true'
+        env:
+          P8: ${{ secrets.APPLE_ASC_API_KEY_P8 }}
+        run: |
+          key="$RUNNER_TEMP/asc-api-key.p8"
+          (umask 077; printf '%s\n' "$P8" > "$key")
+          grep -q "BEGIN PRIVATE KEY" "$key" && grep -q "END PRIVATE KEY" "$key" \
+            || { echo "::error::APPLE_ASC_API_KEY_P8 must be the whole .p8 file, including the BEGIN and END lines."; exit 1; }
+          echo "EXPO_ASC_API_KEY_PATH=$key" >> "$GITHUB_ENV"
+
+      - name: Apple signing certificate and profile (created on the first run, reused after)
+        if: steps.check.outputs.ready == 'true' && inputs.build_id == ''
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          EXPO_ASC_KEY_ID: ${{ secrets.APPLE_ASC_KEY_ID }}
+          EXPO_ASC_ISSUER_ID: ${{ secrets.APPLE_ASC_ISSUER_ID }}
+          EXPO_APPLE_TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+          EXPO_APPLE_TEAM_TYPE: ${{ vars.APPLE_TEAM_TYPE }}
+        run: |
+          # eas-cli creates a new distribution certificate only in interactive mode. With the API key above it needs
+          # no Apple login and asks only yes/no questions, so it runs in a pseudo-terminal where every question gets
+          # its default answer (yes: generate, or reuse, the certificate and the App Store provisioning profile).
+          # EAS keeps them for the next builds.
+          set -o pipefail
+          python3 ../.github/scripts/accept-defaults.py npx --yes eas-cli@25.3.0 credentials:configure-build --platform ios --profile production \
+            | tee ../eas-credentials.log
+
+      - name: Build on EAS (profile "production"; the build number goes up by itself)
+        id: build
+        if: steps.check.outputs.ready == 'true'
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          EXPO_ASC_KEY_ID: ${{ secrets.APPLE_ASC_KEY_ID }}
+          EXPO_ASC_ISSUER_ID: ${{ secrets.APPLE_ASC_ISSUER_ID }}
+          EXPO_APPLE_TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+          EXPO_APPLE_TEAM_TYPE: ${{ vars.APPLE_TEAM_TYPE }}
+          BUILD_ID: ${{ inputs.build_id }}
+        run: |
+          if [ -n "$BUILD_ID" ]; then
+            npx --yes eas-cli@25.3.0 build:view "$BUILD_ID" --json > ../eas-build.json
+            jq -e '.platform == "IOS" and .status == "FINISHED"' ../eas-build.json > /dev/null \
+              || { echo "::error::Build $BUILD_ID is not a finished iOS build."; exit 1; }
+            jq -s '.' ../eas-build.json > ../eas-builds.json
+          else
+            npx --yes eas-cli@25.3.0 build --platform ios --profile production --non-interactive --wait --json > ../eas-builds.json
+          fi
+          echo "id=$(jq -r '.[0].id' ../eas-builds.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Upload to TestFlight
+        id: submit
+        if: steps.check.outputs.ready == 'true' && inputs.upload
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          KEY_ID: ${{ secrets.APPLE_ASC_KEY_ID }}
+          ISSUER_ID: ${{ secrets.APPLE_ASC_ISSUER_ID }}
+          APP_ID: ${{ vars.APPLE_ASC_APP_ID }}
+          # also lets eas-cli add the App Store Connect users to TestFlight's internal testers group
+          EXPO_ASC_KEY_ID: ${{ secrets.APPLE_ASC_KEY_ID }}
+          EXPO_ASC_ISSUER_ID: ${{ secrets.APPLE_ASC_ISSUER_ID }}
+          EXPO_APPLE_TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+          EXPO_APPLE_TEAM_TYPE: ${{ vars.APPLE_TEAM_TYPE }}
+          ID: ${{ steps.build.outputs.id }}
+        run: |
+          set -o pipefail
+          # the key and the app id go into this run's eas.json only (never committed)
+          jq --arg path "$EXPO_ASC_API_KEY_PATH" --arg kid "$KEY_ID" --arg iss "$ISSUER_ID" --arg app "$APP_ID" \
+            '.submit.production.ios += {ascApiKeyPath: $path, ascApiKeyId: $kid, ascApiKeyIssuerId: $iss, ascAppId: $app}' eas.json > eas.json.new
+          mv eas.json.new eas.json
+          npx --yes eas-cli@25.3.0 submit --platform ios --profile production --id "$ID" --non-interactive --wait \
+            2>&1 | tee ../eas-submit.log
+
+      - name: Delete the key file
+        if: always()
+        working-directory: .
+        run: rm -f "$RUNNER_TEMP/asc-api-key.p8"
+
+      - name: Summary
+        if: always() && steps.check.outputs.ready == 'true'
+        working-directory: .
+        env:
+          UPLOAD: ${{ inputs.upload }}
+          SUBMIT_OUTCOME: ${{ steps.submit.outcome }}
+        run: |
+          {
+            echo "## Koko: iOS store build"
+            if [ -s eas-builds.json ]; then
+              jq -r '.[] | "- **Build:** \(.status), version \(.appVersion) (build \(.appBuildVersion))\n- **Build id (to upload it again without building):** `\(.id)`\n- **Build page:** https://expo.dev/accounts/\(.app.ownerAccount.name // "drhassan_muslim")/projects/\(.app.slug // "koko")/builds/\(.id)" + (if .error then "\n- **Error:** \(.error.message)" else "" end)' eas-builds.json
+            elif [ -s eas-credentials.log ]; then
+              echo "**Stopped while setting up the Apple certificate.** See the step's log; the usual causes are an API key without the *Admin* role, or a team that already has the maximum number of distribution certificates (docs/LAUNCH.md §2)."
+            else
+              echo "The build did not finish here. Open https://expo.dev/accounts/drhassan_muslim/projects/koko/builds for its status and logs."
+            fi
+            echo
+            if [ "$UPLOAD" != "true" ]; then
+              echo "Not uploaded (upload was off)."
+            elif [ "$SUBMIT_OUTCOME" = "success" ]; then
+              echo "**Uploaded to App Store Connect.** Apple processes it in about 15–30 minutes, then it appears in **TestFlight**; internal testers get it at once (docs/LAUNCH.md §2, step 9)."
+            elif [ "$SUBMIT_OUTCOME" = "failure" ]; then
+              echo "**The upload failed.** See the log of the step \"Upload to TestFlight\". Run again with the build id above to retry without building."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

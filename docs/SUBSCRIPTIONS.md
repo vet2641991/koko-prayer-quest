@@ -159,8 +159,8 @@ Start in **Test mode** (the switch at the top of the Stripe dashboard). Repeat i
 
 **Google** (Play Console, $25 once):
 
-1. The app `com.dhminstitute.koko`. Upload one build first (the Android APK workflow, or an AAB): Google allows
-   products only after that.
+1. The app `com.dhminstitute.koko`. Upload one build first (the first AAB, by hand: `docs/LAUNCH.md` §1, step 5):
+   Google allows products only after that.
 2. Monetize → **Subscriptions** → product **`koko_premium`** → base plan **`monthly`**, auto-renewing, $34.99 or $35.
 3. Google Cloud → a **service account** for RevenueCat. RevenueCat's guide *Creating Play Service Credentials* shows
    each click; it ends with a JSON file you upload to RevenueCat.

@@ -14,7 +14,8 @@ export default function Worlds() {
   return <Screen footer={<Nav />}>
     <T size={24} color={C.white}>Choose a world</T><Ar size={22} color={C.white} style={{ textAlign: 'left' }}>اخْتَرْ عَالَمًا</Ar>
     {cat?.worlds.map(w => {
-      const built = w.units.filter(u => u.file).length, fin = w.units.filter(u => (progress.stars[u.id] ?? 0) > 0).length;
+      const ls = w.units.filter(u => !u.go);   // a "go" unit links to another world; it is not a lesson still to come
+      const built = ls.filter(u => u.file).length, fin = ls.filter(u => (progress.stars[u.id] ?? 0) > 0).length;
       const icon = w.en.match(/\d/)?.[0] ?? '★';
       return <Pressable key={w.id} onPress={() => router.push(`/world/${w.id}`)} accessibilityRole="button">
         <Card style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
@@ -22,8 +23,8 @@ export default function Worlds() {
             <T size={24} color={w.ink}>{icon}</T></View>
           <View style={{ flex: 1, gap: 2 }}>
             <T size={18}>{w.code ? `${w.code} · ` : ''}{w.en}</T><Ar size={16} style={{ textAlign: 'left' }}>{w.ar}</Ar>
-            <Bar pct={w.units.length ? (fin / w.units.length) * 100 : 0} />
-            <T size={13} weight="medium" color={C.muted}>{fin} of {w.units.length} done{built < w.units.length ? ` · ${w.units.length - built} coming soon` : ''}</T>
+            <Bar pct={ls.length ? (fin / ls.length) * 100 : 0} />
+            <T size={13} weight="medium" color={C.muted}>{fin} of {ls.length} done{built < ls.length ? ` · ${ls.length - built} coming soon` : ''}</T>
           </View>
         </Card>
       </Pressable>;

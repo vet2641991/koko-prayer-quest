@@ -169,10 +169,11 @@ function unitNode(u, cur) {
   return ready(u) ? `<a class="node ${cls}" href="#/lesson/${u.id}">${inner}</a>` : `<div class="node soon">${inner}</div>`;
 }
 function worldCard(w) {
-  const built = w.units.filter(ready).length, fin = w.units.filter(done).length;
-  const meta = !w.units.length ? 'Coming soon' : `${fin} of ${w.units.length} done${built < w.units.length ? ` · ${w.units.length - built} coming soon` : ''}`;
+  const ls = w.units.filter(u => !u.go);   // a "go" unit is a link to another world, not a lesson still to come
+  const built = ls.filter(ready).length, fin = ls.filter(done).length;
+  const meta = !ls.length ? 'Coming soon' : `${fin} of ${ls.length} done${built < ls.length ? ` · ${ls.length - built} coming soon` : ''}`;
   return `<a class="world" href="#/world/${w.id}"><div class="ic" style="background:${w.tint};color:${w.ink}">${esc(w.en.match(/\d/) ? w.en.match(/\d/)[0] : '★')}</div>
-    <div class="t"><b>${esc(w.en)}</b>${AR(w.ar)}${bar(w.units.length ? fin / w.units.length * 100 : 0)}<small>${meta}</small></div></a>`;
+    <div class="t"><b>${esc(w.en)}</b>${AR(w.ar)}${bar(ls.length ? fin / ls.length * 100 : 0)}<small>${meta}</small></div></a>`;
 }
 function reviewList() {
   return Object.entries(S.words).filter(([, r]) => r.wrong > r.right).map(([k]) => k);
