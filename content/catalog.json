@@ -6,7 +6,7 @@
     {
       "id": "ar2",
       "en": "Arabic Adventures · Book 2",
-      "ar": "العَرَبِيَّةُ بَيْنَ يَدَيْ أَوْلَادِنَا ٢",
+      "ar": "ARkid A2",
       "tint": "#FFF3CC",
       "ink": "#D99A00",
       "units": [
@@ -157,7 +157,7 @@
     {
       "id": "ar1",
       "en": "Arabic Adventures · Book 1",
-      "ar": "العَرَبِيَّةُ بَيْنَ يَدَيْ أَوْلَادِنَا ١",
+      "ar": "ARkid A1",
       "tint": "#E3EAFB",
       "ink": "#1E6BFF",
       "units": [
