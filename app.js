@@ -65,6 +65,8 @@ async function lesson(id) {
 }
 const unitById = id => { for (const w of CAT.worlds) for (const u of w.units) if (u.id === id) return Object.assign({ world: w }, u); return null; };
 const ready = u => !!u.file;
+const PREMIUM = window.KokoPremium || { configured: false, premium: false, isLocked: () => false, onChange() {} };   // premium.js
+const locked = u => PREMIUM.isLocked(u);
 const done = u => (S.stars[u.id] || 0) > 0;
 function nextUnit() {
   // catalog "focus"/"start" = Haitham's place in Book 2; every other child begins at "focusNew" (Book 1, unit 1)
@@ -158,10 +160,12 @@ function render(html, opts = {}) {
 /* ---------- screens: home / worlds / words / parents ---------- */
 function unitNode(u, cur) {
   const st = S.stars[u.id] || 0;
-  const cls = !ready(u) ? 'soon' : (cur && cur.id === u.id ? 'now' : st ? '' : 'open');
-  const tag = !ready(u) ? 'soon' : cur && cur.id === u.id ? 'NOW' : st ? '★'.repeat(st) : 'play';
+  const lock = ready(u) && locked(u);
+  const cls = !ready(u) ? 'soon' : lock ? 'locked' : (cur && cur.id === u.id ? 'now' : st ? '' : 'open');
+  const tag = !ready(u) ? 'soon' : lock ? '🔒' : cur && cur.id === u.id ? 'NOW' : st ? '★'.repeat(st) : 'play';
   if (u.go) return `<a class="node open" href="#/world/${u.go}"><div class="dot">${esc(u.n)}</div><div class="t">${AR(u.ar)}<small>${esc(u.en)}</small></div><span class="tag">go</span></a>`;
   const inner = `<div class="dot">${esc(u.n)}</div><div class="t">${AR(u.ar)}<small>${esc(u.en)}</small></div><span class="tag">${tag}</span>`;
+  if (lock) return `<a class="node ${cls}" href="#/premium" aria-label="${esc(u.en)}, Koko Premium">${inner}</a>`;
   return ready(u) ? `<a class="node ${cls}" href="#/lesson/${u.id}">${inner}</a>` : `<div class="node soon">${inner}</div>`;
 }
 function worldCard(w) {
@@ -183,7 +187,7 @@ async function home(worldId) {
     cont = `<section class="card cont"><span class="over">Continue · ${esc(cur.world.en)} · ${cur.world.id.startsWith('ar') ? 'Unit' : 'Level'} ${esc(cur.n)}</span>
       <div class="head"><div>${AR(L.title.ar)}<h2>${esc(L.title.en)}</h2><div class="meta"><span>${esc(L.topic || '')}</span></div></div><img src="${IMG.cheer}" alt="Koko cheering"></div>
       <div class="meta"><span>Step ${Math.min(at + 1, steps.length)} of ${steps.length}</span><span>about ${L.minutes || 10} min</span></div>${bar(at / steps.length * 100)}
-      <a class="btn" href="#/lesson/${cur.id}">${at ? 'Continue' : 'Play'} — teach Koko</a></section>`;
+      ${locked(cur) ? `<a class="btn blue" href="#/premium">🔒 Koko Premium · ask a grown-up</a>` : `<a class="btn" href="#/lesson/${cur.id}">${at ? 'Continue' : 'Play'} — teach Koko</a>`}</section>`;
   } else {
     cont = `<section class="card cont"><div class="head"><div><h2>You finished every lesson that is ready!</h2><div class="meta"><span>New lessons are on the way. Replay any lesson to win more stars.</span></div></div><img src="${IMG.cheer}" alt="Koko cheering"></div></section>`;
   }
@@ -220,7 +224,7 @@ async function parents() {
     ${L ? `<div class="pcard"><div class="k">Latest · ${esc(lastU.world.en)}</div><b style="font-size:17px">${esc(L.title.en)}</b> ${AR(L.title.ar)}<p style="margin:4px 0 0;font-weight:600;color:#46615c">${esc(P ? P.summary : L.topic)}</p></div>` : `<div class="pcard">${NAME()} has not started a lesson on this device yet.</div>`}
     ${P && P.try ? `<div class="try"><b style="color:#042a2e">Try this at home (2 minutes)</b><span style="font-weight:600">${esc(P.tip || '')}</span>
       <div class="tryline">${tryAud ? `<button id="tryplay" aria-label="Play">${ICON.speak}</button>` : ''}<div>${AR(P.try.ar)}<div style="font-size:13px;font-weight:700;color:#46615c">“${esc(P.try.translit)}” · ${esc(P.try.en)}</div></div></div></div>` : ''}
-    ${note}<a class="pcard" href="${BOOK}" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit"><div class="k">Learn live with a certified DHM teacher</div><b style="font-size:17px">Book a free trial class →</b><p style="margin:4px 0 0;font-weight:600;color:#46615c">One-to-one online Arabic, Qur'an and Islamic Studies for children · DHM Institute</p></a><a class="tbtn" href="#/">Back to the map</a><p style="text-align:center;font-size:12px;color:#647d78;margin:0">By <a href="https://dhm-institute.com/" target="_blank" rel="noopener" style="color:inherit">DHM Institute</a> · progress is saved on this device only · <a href="privacy.html" style="color:inherit">Privacy</a> · <a href="#/welcome" style="color:inherit">Change name</a></p></div></div>`, { bg: '#fbf9f3' });
+    ${note}${PREMIUM.configured ? `<a class="pcard" href="#/premium" style="display:block;text-decoration:none;color:inherit"><div class="k">Koko Premium</div><b style="font-size:17px">${PREMIUM.premium ? 'Every lesson is open 🎉' : 'Open every lesson with Koko Premium →'}</b><p style="margin:4px 0 0;font-weight:600;color:#46615c">${PREMIUM.parent ? `Signed in as ${esc(PREMIUM.parent.email)}` : 'Subscribe, or sign in with the email you subscribed with'}</p></a>` : ''}<a class="pcard" href="${BOOK}" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit"><div class="k">Learn live with a certified DHM teacher</div><b style="font-size:17px">Book a free trial class →</b><p style="margin:4px 0 0;font-weight:600;color:#46615c">One-to-one online Arabic, Qur'an and Islamic Studies for children · DHM Institute</p></a><a class="tbtn" href="#/">Back to the map</a><p style="text-align:center;font-size:12px;color:#647d78;margin:0">By <a href="https://dhm-institute.com/" target="_blank" rel="noopener" style="color:inherit">DHM Institute</a> · progress is saved on this device only · <a href="privacy.html" style="color:inherit">Privacy</a> · <a href="#/welcome" style="color:inherit">Change name</a></p></div></div>`, { bg: '#fbf9f3' });
   const tp = $('#tryplay'); if (tp) tp.onclick = () => playSeq([tryAud]);
 }
 
@@ -244,7 +248,9 @@ function stepsFor(L) {
 }
 let SESSION = null;
 async function lessonPath(id) {
-  await catalog(); const u = unitById(id); const L = await lesson(id);
+  await catalog(); const u = unitById(id);
+  if (locked(u)) return lockedLesson(u);
+  const L = await lesson(id);
   if (!L) return home();
   S.last = id; save();
   const steps = stepsFor(L), at = Math.min(S.step[id] || 0, steps.length);
@@ -260,7 +266,8 @@ async function lessonPath(id) {
     <a class="btn" href="#/lesson/${id}/${Math.min(at, steps.length - 1)}">${at >= steps.length ? 'Play again' : at ? 'Continue' : 'Start'}</a></div></div>`, { bg: '#F2F6FF' });
 }
 async function runStep(id, i) {
-  await catalog(); const L = await lesson(id); if (!L) return home();
+  await catalog(); if (locked(unitById(id))) return lockedLesson(unitById(id));
+  const L = await lesson(id); if (!L) return home();
   const steps = stepsFor(L); i = Math.max(0, Math.min(i, steps.length - 1));
   if (!SESSION || SESSION.id !== id) SESSION = { id, mistakes: 0 };
   S.last = id; save();
@@ -542,6 +549,62 @@ async function review() {
   listen(null, { en: 'Quick review' }, head, () => { confetti(); sfx.win(); home(); }, [...pool, ...extra].slice(0, Math.max(pool.length + 3, 4)));
 }
 
+/* ---------- Koko Premium (premium.js): a locked lesson, and the parents' screen behind the gate ---------- */
+function lockedLesson(u) {
+  render(`<div class="screen dots"><div class="card" style="max-width:460px;margin:8vh auto 0;text-align:center">
+    <img src="${IMG.wave}" alt="Koko waving" style="width:110px;height:auto"><h2 style="margin:6px 0">🔒 ${esc(u.en)}</h2>
+    <p style="font-weight:600">This lesson is part of Koko Premium. Ask a grown-up to open it for you!</p>
+    <a class="btn blue" href="#/premium">For grown-ups</a><a class="btn soft" href="#/" style="margin-top:10px">Back to the map</a></div></div>`);
+}
+function premiumScreen() {
+  const P = PREMIUM;
+  if (!P.configured) return home();
+  if (!P.grownUpRecently()) {
+    render(`<div class="screen light"><p style="text-align:center;font-weight:700">For grown-ups</p></div>`, { bg: '#F2F6FF' });
+    return P.gate(() => premiumScreen(), () => { location.hash = '#/'; });
+  }
+  const until = P.until ? new Date(P.until).toLocaleDateString() : null;
+  const stripeSub = P.sources.includes('stripe');
+  const signedIn = P.parent;
+  render(`<div class="screen light"><header class="top"><a class="back" href="#/parents" aria-label="Back">${ICON.back}</a><div class="hello"><b style="font-size:22px">Koko Premium</b><span>For parents</span></div></header>
+    <div class="card" style="text-align:center"><img src="${IMG.cheer}" alt="Koko cheering" style="width:110px;height:auto">
+      ${P.premium ? `<h2 style="margin:4px 0">Koko Premium is on 🎉</h2><p style="font-weight:600">${until ? `Paid until ${esc(until)}.` : 'No end date.'} Every lesson is open.</p>`
+        : `<h2 style="margin:4px 0">Open every lesson</h2><p style="font-weight:600">All the Arabic books, the Prayer and Islamic Studies, with every new lesson as it comes out.</p>
+        <p style="font-size:34px;font-weight:800;margin:6px 0">$35 <small style="font-size:17px">/ month</small></p>
+        <p style="font-size:13px;color:var(--muted)">Paid securely with Stripe. Renews every month until you cancel; cancel any time.</p>
+        ${P.stripeOpen ? `<button class="btn" id="kp-buy">Subscribe</button>` : `<p style="font-weight:700">Subscriptions on the website open soon.</p>`}`}
+    </div>
+    <div class="card">${signedIn ? `<span class="over">Family account</span><h2 style="margin:2px 0;font-size:18px">${esc(signedIn.email)}</h2>
+        ${P.premium && stripeSub ? `<button class="btn soft" id="kp-manage">Manage subscription</button>` : ''}
+        ${P.premium && !stripeSub ? `<p style="font-size:14px;color:var(--muted);font-weight:600">Bought in the App Store or Google Play: manage it in the store's settings on that phone.</p>` : ''}
+        <button class="btn soft" id="kp-out" style="margin-top:10px">Sign out</button><button class="btn soft" id="kp-del" style="margin-top:10px">Delete account</button>`
+      : `<span class="over">Already subscribed?</span><p style="font-weight:600;margin:4px 0">Sign in with the email you used for Koko Premium (here, or in the app's family account). We send a 6-digit code: no password.</p>
+        <form id="kp-form" style="display:flex;flex-direction:column;gap:10px">
+          <input id="kp-email" type="email" autocomplete="email" placeholder="Parent's email" aria-label="Parent's email" class="kp-in">
+          <input id="kp-code" inputmode="numeric" maxlength="6" autocomplete="one-time-code" placeholder="6-digit code" aria-label="Code from the email" class="kp-in" hidden>
+          <button class="btn blue" id="kp-go" type="submit">Send me a code</button></form>`}
+      <p id="kp-msg" style="font-weight:700;margin:8px 0 0" aria-live="polite"></p></div>
+    <p style="text-align:center;font-size:12px;color:#647d78">Your child's progress stays on this device · <a href="privacy.html" style="color:inherit">Privacy</a></p></div>`, { bg: '#F2F6FF' });
+  const msg = t => { $('#kp-msg').textContent = t; };
+  const run = fn => async e => { if (e) e.preventDefault(); msg(''); try { await fn(); } catch (err) { msg(err.message || String(err)); } };
+  const buy = $('#kp-buy'); if (buy) buy.onclick = run(async () => { buy.disabled = true; msg('Opening Stripe…'); await P.checkout(); });
+  const man = $('#kp-manage'); if (man) man.onclick = run(() => P.portal());
+  const out = $('#kp-out'); if (out) out.onclick = run(async () => { await P.signOut(); premiumScreen(); });
+  const del = $('#kp-del'); if (del) del.onclick = run(async () => {
+    if (!confirm('Delete your Koko family account? A website subscription is cancelled now. A subscription bought in the App Store or Google Play must be cancelled in the store.')) return;
+    await P.deleteAccount(); premiumScreen();
+  });
+  const form = $('#kp-form');
+  if (form) {
+    let sent = false;
+    form.onsubmit = run(async () => {
+      const email = $('#kp-email').value.trim();
+      if (!sent) { await P.requestCode(email); sent = true; $('#kp-code').hidden = false; $('#kp-email').readOnly = true; $('#kp-go').textContent = 'Sign in'; $('#kp-code').focus(); msg(`We emailed a code to ${email}.`); }
+      else { await P.verifyCode(email, $('#kp-code').value); premiumScreen(); }
+    });
+  }
+}
+
 /* ---------- first visit: the child's name (saved on this device only) ---------- */
 function welcome() {
   render(`<div class="screen dots"><div class="card" style="max-width:460px;margin:8vh auto 0;text-align:center">
@@ -570,6 +633,7 @@ async function route() {
     if (p[0] === 'world') return home(p[1]);
     if (p[0] === 'words') return myWords();
     if (p[0] === 'parents') return parents();
+    if (p[0] === 'premium') return premiumScreen();
     if (p[0] === 'review') return review();
     if (p[0] === 'lesson' && p[2] !== undefined) return runStep(p[1], +p[2]);
     if (p[0] === 'lesson') return lessonPath(p[1]);
@@ -580,6 +644,7 @@ async function route() {
   }
 }
 addEventListener('hashchange', route);
+PREMIUM.onChange(() => { const h = location.hash; if (!/^#\/lesson\/[^/]+\/\d+/.test(h) && !document.querySelector('.gate')) route(); });
 route();
 setInterval(() => { if (!document.hidden && location.hash.startsWith('#/lesson/')) tick(15); }, 15000);
 if ('serviceWorker' in navigator) {

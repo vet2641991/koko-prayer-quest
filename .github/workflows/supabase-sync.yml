@@ -110,7 +110,7 @@ jobs:
           REVENUECAT_WEBHOOK_AUTH: ${{ secrets.REVENUECAT_WEBHOOK_AUTH }}
           REVENUECAT_SECRET_KEY: ${{ secrets.REVENUECAT_SECRET_KEY }}
         run: |
-          supabase functions deploy admin-invite request-export parent-signin parent-delete stripe-checkout stripe-portal \
+          supabase functions deploy admin-invite request-export parent-signin parent-delete stripe-checkout stripe-portal public-config \
             stripe-webhook revenuecat-webhook --project-ref "$SUPABASE_PROJECT_REF" --use-api
           # function secrets, copied from GitHub when they exist (without them, that part simply stays off)
           args=()
