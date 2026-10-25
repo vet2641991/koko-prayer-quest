@@ -1,0 +1,224 @@
+{
+  "id": "isl3-l05",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 5. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "كَيْفَ أَتَوَضَّأُ؟",
+    "en": "How to make wudu"
+  },
+  "topic": "Step by step, the way of the Prophet ﷺ",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Intend in your heart, then say “Bismillāh”.",
+      "title": "Steps 1–2",
+      "ar": "بِسْمِ اللهِ",
+      "tr": "Bismillāh"
+    },
+    {
+      "en": "Wash your hands to the wrists 3 times, between the fingers too. Rinse your mouth 3 times. Sniff water into your nose and blow it out 3 times.",
+      "title": "Steps 3–5"
+    },
+    {
+      "en": "Wash your face 3 times, from the hairline to the chin and from ear to ear. Wash your right arm up to and including the elbow 3 times, then the left.",
+      "title": "Steps 6–7"
+    },
+    {
+      "en": "Wipe your head with wet hands, front to back and back again. Wipe your ears inside and out.",
+      "title": "Steps 8–9"
+    },
+    {
+      "en": "Wash your right foot up to and including the ankle 3 times, then the left. Don't forget between the toes and the heels! The Prophet ﷺ warned about dry heels. (Bukhari 60)",
+      "title": "Step 10: feet and heels"
+    },
+    {
+      "en": "After wudu, say the shahādah. The Prophet ﷺ said the eight gates of Paradise open for the one who makes wudu well and says it. (Muslim 234)",
+      "title": "After wudu",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "tr": "Ashhadu an lā ilāha illa-llāhu waḥdahu lā sharīka lah, wa ashhadu anna Muḥammadan ʿabduhu wa rasūluh"
+    }
+  ],
+  "words": [
+    {
+      "id": "yadayn",
+      "ar": "اليَدَانِ",
+      "en": "the hands",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "fam",
+      "ar": "الفَمُ",
+      "en": "the mouth",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "anf",
+      "ar": "الأَنْفُ",
+      "en": "the nose",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "wajh",
+      "ar": "الوَجْهُ",
+      "en": "the face",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "dhira",
+      "ar": "الذِّرَاعَانِ",
+      "en": "the arms",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "ras",
+      "ar": "الرَّأْسُ",
+      "en": "the head",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "udhun",
+      "ar": "الأُذُنَانِ",
+      "en": "the ears",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "qadamayn",
+      "ar": "القَدَمَانِ",
+      "en": "the feet",
+      "from": "isl2-l13"
+    },
+    {
+      "id": "dua_wudu",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "en": "After wudu: I bear witness there is no god but Allah alone, with no partner, and that Muhammad is His servant and Messenger",
+      "tr": "Ashhadu an lā ilāha illa-llāhu waḥdahu lā sharīka lah, wa ashhadu anna Muḥammadan ʿabduhu wa rasūluh",
+      "sacred": true,
+      "from": "isl2-l13"
+    }
+  ],
+  "order": {
+    "en": "Put the parts of wudu in order",
+    "ids": [
+      "yadayn",
+      "fam",
+      "anf",
+      "wajh",
+      "dhira",
+      "ras",
+      "udhun",
+      "qadamayn"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "How far do we wash the arms?",
+      "opts": [
+        [
+          "",
+          "Up to and including the elbows",
+          1
+        ],
+        [
+          "",
+          "Only the hands",
+          0
+        ],
+        [
+          "",
+          "Up to the shoulders",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which part do we wipe, not wash?",
+      "opts": [
+        [
+          "",
+          "The head",
+          1
+        ],
+        [
+          "",
+          "The face",
+          0
+        ],
+        [
+          "",
+          "The feet",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Washing each part once is enough, and three times is the Sunnah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? It's fine to leave the heels dry.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? We start with the right side.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "هَيَّا نَتَوَضَّأُ مَعًا!",
+    "en": "Act out wudu from hands to feet — don't forget your heels!"
+  },
+  "think": {
+    "q": "Sara was late. She forgot Bismillah, the water stopped at her wrists, and her heels stayed dry. What mistakes can you find?",
+    "a": "She forgot Bismillah, she didn't wash up to the elbows, and her heels were dry. The elbows and heels must be washed!"
+  },
+  "parents": {
+    "summary": "Wudu: intention, Bismillah, hands, mouth, nose, face, arms to the elbows, wipe head and ears, feet to the ankles — then the shahādah.",
+    "try": {
+      "ar": "بِسْمِ اللهِ",
+      "translit": "Bismillāh",
+      "en": "In the name of Allah"
+    },
+    "tip": "Watch your child make wudu once and check elbows and heels together."
+  }
+}

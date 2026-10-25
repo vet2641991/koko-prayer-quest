@@ -1,0 +1,152 @@
+{
+  "id": "isl3-l23",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 23. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "خَدِيجَةُ تُوَاسِي النَّبِيَّ",
+    "en": "Khadijah's support"
+  },
+  "topic": "Comfort, Waraqah, and “Arise and warn”",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Khadījah comforted him: “Never! Allah will never disgrace you. You keep family ties, you help the weak, you give to those who have nothing, you honour guests, and you help people in hard times.” (Bukhari 3)",
+      "title": "Words of comfort"
+    },
+    {
+      "en": "She took him to her cousin Waraqah ibn Nawfal, an old man who knew the earlier scriptures. Waraqah said this was the same angel Allah sent to Mūsā, and promised to support him. (Bukhari 3)",
+      "title": "Waraqah ibn Nawfal",
+      "ar": "وَرَقَةُ بْنُ نَوْفَلٍ",
+      "tr": "Waraqah ibn Nawfal"
+    },
+    {
+      "en": "Waraqah said that everyone who brought this message was opposed by his people. Soon after, Waraqah passed away.",
+      "title": "The truth is opposed"
+    },
+    {
+      "en": "After a pause, the angel came again, and Allah revealed: “O you who covers himself, arise and warn, and your Lord glorify, and your clothing purify.” (Qur'an 74:1–4)",
+      "title": "Arise and warn",
+      "ar": "المُدَّثِّرُ",
+      "tr": "al-Muddaththir"
+    },
+    {
+      "en": "After this, revelation came again and again. (Bukhari 4) The mission had begun!",
+      "title": "The mission begins"
+    }
+  ],
+  "words": [
+    {
+      "id": "waraqa",
+      "ar": "وَرَقَةُ",
+      "en": "Waraqah"
+    },
+    {
+      "id": "musa",
+      "ar": "مُوسَى",
+      "en": "Musa (Moses)",
+      "from": "isl2-l07"
+    },
+    {
+      "id": "muddaththir",
+      "ar": "المُدَّثِّرُ",
+      "en": "the one covered in a cloak"
+    },
+    {
+      "id": "khadija",
+      "ar": "خَدِيجَةُ",
+      "en": "Khadijah",
+      "from": "isl2-l20"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who comforted the Prophet ﷺ after the first revelation?",
+      "opts": [
+        [
+          "",
+          "Khadījah",
+          1
+        ],
+        [
+          "",
+          "Abu Jahl",
+          0
+        ],
+        [
+          "",
+          "A merchant",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Waraqah said the angel was the same one sent to…",
+      "opts": [
+        [
+          "",
+          "Mūsā",
+          1
+        ],
+        [
+          "",
+          "Pharaoh",
+          0
+        ],
+        [
+          "",
+          "Iblīs",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? After al-Muddaththir, revelation came again and again.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Khadījah said Allah would disgrace him.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "When someone you love is scared or sad, how can you comfort them like Khadījah did?",
+    "a": "Remind them of the good they do, stay with them, and help them find someone wise to ask."
+  },
+  "parents": {
+    "summary": "Khadījah comforted the Prophet ﷺ by reminding him of his good deeds. Waraqah confirmed the angel. Then “Arise and warn” (74:1–4) began the mission.",
+    "try": {
+      "ar": "المُدَّثِّرُ",
+      "translit": "al-Muddaththir",
+      "en": "the one covered in a cloak"
+    },
+    "tip": "Practise “words of comfort”: one kind sentence for someone who feels down."
+  }
+}

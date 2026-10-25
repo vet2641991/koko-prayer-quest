@@ -1,0 +1,154 @@
+{
+  "id": "isl3-l22",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 22. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "أَوَّلُ الوَحْيِ",
+    "en": "The first revelation"
+  },
+  "topic": "“Read!”",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "In the Cave of Ḥirāʾ, the angel Jibrīl came and said: “Read!” The Prophet ﷺ said: “I am not a reader.” This happened three times.",
+      "title": "“Read!”",
+      "ar": "اقْرَأْ",
+      "tr": "iqraʾ"
+    },
+    {
+      "en": "Then the angel recited: “Read in the name of your Lord who created — created man from a clinging clot. Read, and your Lord is the Most Generous — who taught by the pen — taught man what he did not know.” (Qur'an 96:1–5)",
+      "title": "The first verses"
+    },
+    {
+      "en": "This was the beginning of waḥy — revelation. It was in Ramadan, when the Prophet ﷺ was forty years old.",
+      "title": "The beginning",
+      "ar": "الوَحْيُ",
+      "tr": "al-waḥy"
+    },
+    {
+      "en": "He came home trembling and said to Khadījah: “Cover me! Cover me!” She covered him until his fear went away. (Bukhari 3)",
+      "title": "“Cover me!”"
+    },
+    {
+      "en": "The first word of the Qur'an is “Read” — a call to learn! And learning starts “in the name of your Lord”.",
+      "title": "A call to learn",
+      "ar": "القَلَمُ",
+      "tr": "al-qalam"
+    }
+  ],
+  "words": [
+    {
+      "id": "iqra",
+      "ar": "اقْرَأْ",
+      "en": "Read!"
+    },
+    {
+      "id": "jibril",
+      "ar": "جِبْرِيلُ",
+      "en": "Jibril (Gabriel)",
+      "from": "isl1-l06"
+    },
+    {
+      "id": "wahy",
+      "ar": "الوَحْيُ",
+      "en": "revelation",
+      "from": "isl1-l08"
+    },
+    {
+      "id": "qalam",
+      "ar": "القَلَمُ",
+      "en": "the pen"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What was the first word Jibrīl said?",
+      "opts": [
+        [
+          "",
+          "Read!",
+          1
+        ],
+        [
+          "",
+          "Sleep!",
+          0
+        ],
+        [
+          "",
+          "Run!",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "In which month did the first revelation come?",
+      "opts": [
+        [
+          "",
+          "Ramadan",
+          1
+        ],
+        [
+          "",
+          "Muḥarram",
+          0
+        ],
+        [
+          "",
+          "Shawwāl",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet ﷺ was forty years old.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The first verses mention the pen.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "The Qur'an starts with “Read!”. What is something you want to learn this month?",
+    "a": "Maybe a new surah, reading Arabic, or a new skill — say Bismillāh and start!"
+  },
+  "parents": {
+    "summary": "In Ḥirāʾ, in Ramadan, Jibrīl brought the first verses: “Read in the name of your Lord…” (96:1–5). Islam begins with a call to learn.",
+    "try": {
+      "ar": "اقْرَأْ",
+      "translit": "iqraʾ",
+      "en": "Read!"
+    },
+    "tip": "Read a page of a good book together and say Bismillāh before starting."
+  }
+}

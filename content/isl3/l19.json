@@ -1,0 +1,155 @@
+{
+  "id": "isl3-l19",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 19. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الأَمِينُ يَرْعَى أَهْلَهُ",
+    "en": "Caring for family in hard times"
+  },
+  "topic": "Al-Amīn helps his uncle",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Even before he became a prophet, the people of Makkah called Muhammad ﷺ al-Amīn — the Trustworthy.",
+      "title": "Al-Amīn",
+      "ar": "الأَمِينُ",
+      "tr": "al-Amīn"
+    },
+    {
+      "en": "Allah later said about him: “And indeed, you are of a great character.” (Qur'an 68:4)",
+      "title": "A great character"
+    },
+    {
+      "en": "Khadījah described him: he keeps family ties, helps the weak, gives to the poor, honours guests and helps people in hard times. (Bukhari 3)",
+      "title": "What he did"
+    },
+    {
+      "en": "Once, a famine hit Makkah. His uncle Abu Ṭālib had a big family and little money. The Prophet ﷺ and his uncle al-ʿAbbās each took one of Abu Ṭālib's sons to look after: al-ʿAbbās took Jaʿfar, and the Prophet ﷺ took ʿAlī.",
+      "title": "The famine"
+    },
+    {
+      "en": "Abu Ṭālib had looked after Muhammad ﷺ when he was an orphan. Now he paid back that kindness. (Qur'an 93:6)",
+      "title": "Paying back kindness"
+    }
+  ],
+  "words": [
+    {
+      "id": "amin",
+      "ar": "الأَمِينُ",
+      "en": "the Trustworthy",
+      "from": "isl2-l19"
+    },
+    {
+      "id": "abutalib",
+      "ar": "أَبُو طَالِبٍ",
+      "en": "Abu Talib",
+      "from": "isl1-l18"
+    },
+    {
+      "id": "ali",
+      "ar": "عَلِيٌّ",
+      "en": "Ali"
+    },
+    {
+      "id": "jafar",
+      "ar": "جَعْفَرٌ",
+      "en": "Jaʿfar"
+    },
+    {
+      "id": "ahl",
+      "ar": "الأَهْلُ",
+      "en": "the family"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What did the people of Makkah call Muhammad ﷺ?",
+      "opts": [
+        [
+          "",
+          "Al-Amīn, the Trustworthy",
+          1
+        ],
+        [
+          "",
+          "The king",
+          0
+        ],
+        [
+          "",
+          "The poet",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Whom did the Prophet ﷺ take into his home?",
+      "opts": [
+        [
+          "",
+          "ʿAlī",
+          1
+        ],
+        [
+          "",
+          "Jaʿfar",
+          0
+        ],
+        [
+          "",
+          "Abu Lahab",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Abu Ṭālib looked after the Prophet ﷺ when he was an orphan.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Real help means sharing the load.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Who has helped you in your life? How could you help them back?",
+    "a": "Maybe a grandparent, teacher or friend — a visit, a du'aa or a helping hand repays kindness."
+  },
+  "parents": {
+    "summary": "Before prophethood, Muhammad ﷺ was al-Amīn. In a famine he took ʿAlī into his home to help his uncle Abu Ṭālib, who had raised him.",
+    "try": {
+      "ar": "الأَمِينُ",
+      "translit": "al-Amīn",
+      "en": "the Trustworthy"
+    },
+    "tip": "Do one practical act of help for a relative this week together."
+  }
+}

@@ -670,6 +670,190 @@
           "file": "content/isl2/l30.json"
         }
       ]
+    },
+    {
+      "id": "isl3",
+      "en": "Islamic Studies · Level 3",
+      "ar": "الدِّرَاسَاتُ الإِسْلَامِيَّةُ ٣",
+      "tint": "#EEE8F7",
+      "ink": "#6B3FA0",
+      "units": [
+        {
+          "id": "isl3-l01",
+          "n": "1",
+          "ar": "المَاءُ طَهُورٌ",
+          "en": "Water: a gift that cleans",
+          "file": "content/isl3/l01.json"
+        },
+        {
+          "id": "isl3-l02",
+          "n": "2",
+          "ar": "النَّظَافَةُ وَالنَّجَاسَةُ",
+          "en": "Clean body, clean clothes",
+          "file": "content/isl3/l02.json"
+        },
+        {
+          "id": "isl3-l03",
+          "n": "3",
+          "ar": "الطَّهَارَةُ",
+          "en": "Purity and what breaks wudu",
+          "file": "content/isl3/l03.json"
+        },
+        {
+          "id": "isl3-l04",
+          "n": "4",
+          "ar": "لِمَاذَا الوُضُوءُ؟",
+          "en": "Why wudu matters",
+          "file": "content/isl3/l04.json"
+        },
+        {
+          "id": "isl3-l05",
+          "n": "5",
+          "ar": "كَيْفَ أَتَوَضَّأُ؟",
+          "en": "How to make wudu",
+          "file": "content/isl3/l05.json"
+        },
+        {
+          "id": "isl3-l06",
+          "n": "6",
+          "ar": "الأَذَانُ",
+          "en": "The adhan: the call to prayer",
+          "file": "content/isl3/l06.json"
+        },
+        {
+          "id": "isl3-l07",
+          "n": "7",
+          "ar": "الإِقَامَةُ",
+          "en": "The iqamah: the prayer is starting",
+          "file": "content/isl3/l07.json"
+        },
+        {
+          "id": "isl3-l08",
+          "n": "8",
+          "ar": "الصَّلَاةُ عِمَادُ الدِّينِ",
+          "en": "Salah: the second pillar",
+          "file": "content/isl3/l08.json"
+        },
+        {
+          "id": "isl3-l09",
+          "n": "9",
+          "ar": "الزَّكَاةُ",
+          "en": "Zakah: the purifying gift",
+          "file": "content/isl3/l09.json"
+        },
+        {
+          "id": "isl3-l10",
+          "n": "10",
+          "ar": "صَوْمُ رَمَضَانَ",
+          "en": "Fasting in Ramadan",
+          "file": "content/isl3/l10.json"
+        },
+        {
+          "id": "isl3-l11",
+          "n": "11",
+          "ar": "شَهْرُ القُرْآنِ",
+          "en": "Ramadan: the month of the Qur'an",
+          "file": "content/isl3/l11.json"
+        },
+        {
+          "id": "isl3-l12",
+          "n": "12",
+          "ar": "حِفْظُ اللِّسَانِ",
+          "en": "Guarding the tongue",
+          "file": "content/isl3/l12.json"
+        },
+        {
+          "id": "isl3-l13",
+          "n": "13",
+          "ar": "الحَجُّ",
+          "en": "Hajj: the journey to Allah's House",
+          "file": "content/isl3/l13.json"
+        },
+        {
+          "id": "isl3-l14",
+          "n": "14",
+          "ar": "آدَمُ عَلَيْهِ السَّلَامُ",
+          "en": "Prophet Adam (AS)",
+          "file": "content/isl3/l14.json"
+        },
+        {
+          "id": "isl3-l15",
+          "n": "15",
+          "ar": "إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ",
+          "en": "Prophet Ibrahim (AS)",
+          "file": "content/isl3/l15.json"
+        },
+        {
+          "id": "isl3-l16",
+          "n": "16",
+          "ar": "إِسْمَاعِيلُ عَلَيْهِ السَّلَامُ",
+          "en": "Prophet Ismaʿil (AS)",
+          "file": "content/isl3/l16.json"
+        },
+        {
+          "id": "isl3-l17",
+          "n": "17",
+          "ar": "إِسْحَاقُ عَلَيْهِ السَّلَامُ",
+          "en": "Prophet Ishaq (AS)",
+          "file": "content/isl3/l17.json"
+        },
+        {
+          "id": "isl3-l18",
+          "n": "18",
+          "ar": "خَدِيجَةُ رَضِيَ اللهُ عَنْهَا",
+          "en": "Khadijah (RA)",
+          "file": "content/isl3/l18.json"
+        },
+        {
+          "id": "isl3-l19",
+          "n": "19",
+          "ar": "الأَمِينُ يَرْعَى أَهْلَهُ",
+          "en": "Caring for family in hard times",
+          "file": "content/isl3/l19.json"
+        },
+        {
+          "id": "isl3-l20",
+          "n": "20",
+          "ar": "زَيْدُ بْنُ حَارِثَةَ",
+          "en": "Zayd ibn Harithah (RA)",
+          "file": "content/isl3/l20.json"
+        },
+        {
+          "id": "isl3-l21",
+          "n": "21",
+          "ar": "غَارُ حِرَاءٍ",
+          "en": "The Cave of Hira",
+          "file": "content/isl3/l21.json"
+        },
+        {
+          "id": "isl3-l22",
+          "n": "22",
+          "ar": "أَوَّلُ الوَحْيِ",
+          "en": "The first revelation",
+          "file": "content/isl3/l22.json"
+        },
+        {
+          "id": "isl3-l23",
+          "n": "23",
+          "ar": "خَدِيجَةُ تُوَاسِي النَّبِيَّ",
+          "en": "Khadijah's support",
+          "file": "content/isl3/l23.json"
+        },
+        {
+          "id": "isl3-l24",
+          "n": "24",
+          "ar": "عَلِيُّ بْنُ أَبِي طَالِبٍ",
+          "en": "Ali ibn Abi Talib (RA)",
+          "file": "content/isl3/l24.json"
+        },
+        {
+          "id": "isl3-l25",
+          "n": "25",
+          "ar": "جَعْفَرُ بْنُ أَبِي طَالِبٍ",
+          "en": "Jaʿfar ibn Abi Talib (RA)",
+          "file": "content/isl3/l25.json"
+        }
+      ]
     }
   ],
   "start": "ar2-u02",

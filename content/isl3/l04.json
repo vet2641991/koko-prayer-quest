@@ -1,0 +1,153 @@
+{
+  "id": "isl3-l04",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 4. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "لِمَاذَا الوُضُوءُ؟",
+    "en": "Why wudu matters"
+  },
+  "topic": "The key that opens the door of prayer",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Wudu is washing certain parts of the body in a set way, to get ready for prayer.",
+      "title": "What is wudu?",
+      "ar": "الوُضُوءُ",
+      "tr": "al-wuḍūʾ"
+    },
+    {
+      "en": "Wudu is not a choice. The Prophet ﷺ said: “No prayer is accepted without purification.” (Muslim 224)",
+      "title": "No wudu, no prayer"
+    },
+    {
+      "en": "Allah commands wudu in the Qur'an, in Surat al-Māʾidah (5:6). The verse names the parts we must wash and wipe.",
+      "title": "From the Qur'an"
+    },
+    {
+      "en": "Niyyah is the intention in your heart: “I am doing this for Allah, to get ready to pray.” You do not need to say it out loud.",
+      "title": "Intention is in the heart",
+      "ar": "النِّيَّةُ",
+      "tr": "an-niyyah"
+    },
+    {
+      "en": "“Actions are only by intentions.” (Bukhari 1) Before you start, check: clean water, clean body and clothes, clean prayer place.",
+      "title": "Before you start"
+    }
+  ],
+  "words": [
+    {
+      "id": "wudu",
+      "ar": "الوُضُوءُ",
+      "en": "wudu (washing for prayer)",
+      "from": "isl2-l12"
+    },
+    {
+      "id": "w1",
+      "ar": "النِّيَّةُ",
+      "en": "the intention",
+      "from": "isl1-l12"
+    },
+    {
+      "id": "qalb",
+      "ar": "القَلْبُ",
+      "en": "the heart"
+    },
+    {
+      "id": "salah",
+      "ar": "الصَّلَاةُ",
+      "en": "the prayer",
+      "from": "isl1-l10"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Where do we make the intention?",
+      "opts": [
+        [
+          "",
+          "In the heart",
+          1
+        ],
+        [
+          "",
+          "Out loud only",
+          0
+        ],
+        [
+          "",
+          "On paper",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which surah commands wudu?",
+      "opts": [
+        [
+          "",
+          "Surat al-Māʾidah",
+          1
+        ],
+        [
+          "",
+          "Surat al-Fīl",
+          0
+        ],
+        [
+          "",
+          "Surat an-Nās",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A prayer without purification is accepted.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Wudu gets us ready for prayer.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Why do you think Allah wants us to be clean before we talk to Him in prayer?",
+    "a": "Because prayer is a meeting with Allah — we come clean and ready, like visiting someone very special."
+  },
+  "parents": {
+    "summary": "Wudu is Allah's command (Qur'an 5:6) and the key to prayer. It begins with a sincere intention in the heart.",
+    "try": {
+      "ar": "النِّيَّةُ",
+      "translit": "an-niyyah",
+      "en": "the intention"
+    },
+    "tip": "Before wudu, whisper together: “For Allah, to get ready to pray.”"
+  }
+}

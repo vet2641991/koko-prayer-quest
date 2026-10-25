@@ -1,0 +1,169 @@
+{
+  "id": "isl3-l13",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 13. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الحَجُّ",
+    "en": "Hajj: the journey to Allah's House"
+  },
+  "topic": "The fifth pillar",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Ḥajj is the journey to the Kaʿbah in Makkah, in the month of Dhul-Ḥijjah. It is the fifth pillar of Islam. (Qur'an 3:97)",
+      "title": "The fifth pillar",
+      "ar": "الحَجُّ",
+      "tr": "al-ḥajj"
+    },
+    {
+      "en": "It is a must once in a lifetime for every grown-up Muslim who is able: healthy, with enough money, and a safe way to get there.",
+      "title": "Once in a lifetime"
+    },
+    {
+      "en": "Pilgrims put on iḥrām — men wear two plain white sheets — and call out the talbiyah: “Here I am, O Allah, here I am.”",
+      "title": "Iḥrām and talbiyah",
+      "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ",
+      "tr": "Labbayka llāhumma labbayk"
+    },
+    {
+      "en": "They walk around the Kaʿbah seven times (ṭawāf) and walk seven times between the hills of Ṣafā and Marwah (saʿy).",
+      "title": "Ṭawāf and saʿy"
+    },
+    {
+      "en": "On the 9th of Dhul-Ḥijjah they stand at ʿArafah — the heart of ḥajj. Then Muzdalifah, Minā, stoning the pillars, and Eid!",
+      "title": "The great day of ʿArafah",
+      "ar": "عَرَفَةُ",
+      "tr": "ʿArafah"
+    },
+    {
+      "en": "“The reward of an accepted ḥajj is nothing less than Paradise.” (Bukhari 1773)",
+      "title": "The reward"
+    }
+  ],
+  "words": [
+    {
+      "id": "hajj",
+      "ar": "الحَجُّ",
+      "en": "the pilgrimage",
+      "from": "isl1-l10"
+    },
+    {
+      "id": "kaba",
+      "ar": "الكَعْبَةُ",
+      "en": "the Ka'bah",
+      "from": "isl1-l15"
+    },
+    {
+      "id": "tawaf",
+      "ar": "الطَّوَافُ",
+      "en": "walking around the Ka'bah"
+    },
+    {
+      "id": "arafa",
+      "ar": "عَرَفَةُ",
+      "en": "ʿArafah"
+    },
+    {
+      "id": "talbiya",
+      "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ",
+      "en": "Here I am, O Allah, here I am",
+      "tr": "Labbayka llāhumma labbayk",
+      "sacred": true
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "How many times do pilgrims walk around the Kaʿbah?",
+      "opts": [
+        [
+          "",
+          "Seven",
+          1
+        ],
+        [
+          "",
+          "Three",
+          0
+        ],
+        [
+          "",
+          "Ten",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What happens on the 9th of Dhul-Ḥijjah?",
+      "opts": [
+        [
+          "",
+          "Standing at ʿArafah",
+          1
+        ],
+        [
+          "",
+          "Eid prayer",
+          0
+        ],
+        [
+          "",
+          "Fasting Ramadan",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Ḥajj is a must every year.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? The reward of an accepted ḥajj is Paradise.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "امْشِ حَوْلَ الطَّاوِلَةِ سَبْعَ مَرَّاتٍ!",
+    "en": "Walk around a table seven times, like ṭawāf around the Kaʿbah!"
+  },
+  "think": {
+    "q": "If you could go to ḥajj one day, which part would you most like to see?",
+    "a": "Maybe the Kaʿbah, ʿArafah, or drinking Zamzam — make du'aa that Allah lets you go!"
+  },
+  "parents": {
+    "summary": "Ḥajj, the fifth pillar, is once in a lifetime for those able. Pilgrims wear iḥrām, say the talbiyah, do ṭawāf and saʿy, and stand at ʿArafah. An accepted ḥajj's reward is Paradise.",
+    "try": {
+      "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ",
+      "translit": "Labbayka llāhumma labbayk",
+      "en": "Here I am, O Allah, here I am"
+    },
+    "tip": "Watch a short video of ṭawāf together and count the seven rounds."
+  }
+}

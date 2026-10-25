@@ -1,0 +1,158 @@
+{
+  "id": "isl3-l14",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 14. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "آدَمُ عَلَيْهِ السَّلَامُ",
+    "en": "Prophet Adam (AS)"
+  },
+  "topic": "Knowledge, pride and saying sorry",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Allah told the angels He would place a khalīfah on the earth. The angels asked why; Allah said: “I know what you do not know.” (Qur'an 2:30)",
+      "title": "The announcement",
+      "ar": "آدَمُ",
+      "tr": "Ādam"
+    },
+    {
+      "en": "Allah taught Adam the names of all things. The angels said: “Glory be to You! We know only what You taught us.” Adam told them the names. (Qur'an 2:31–33)",
+      "title": "Honoured with knowledge"
+    },
+    {
+      "en": "Allah told the angels to bow to Adam to honour him. All did — except Iblīs, who refused out of pride. (Qur'an 2:34)",
+      "title": "Iblīs's pride",
+      "ar": "إِبْلِيسُ",
+      "tr": "Iblīs"
+    },
+    {
+      "en": "Adam and his wife lived in the Garden and could eat anything except from one tree. Shayṭān whispered, and they ate from it. (Qur'an 20:120–121)",
+      "title": "The tree"
+    },
+    {
+      "en": "They said sorry: “Our Lord, we have wronged ourselves; if You do not forgive us and have mercy on us, we will be losers.” (Qur'an 7:23) Allah forgave Adam, and he became the first prophet on earth.",
+      "title": "Saying sorry to Allah"
+    }
+  ],
+  "words": [
+    {
+      "id": "adam",
+      "ar": "آدَمُ",
+      "en": "Adam",
+      "from": "isl1-l03"
+    },
+    {
+      "id": "p2",
+      "ar": "المَلَائِكَةُ",
+      "en": "the angels",
+      "from": "isl1-l05"
+    },
+    {
+      "id": "iblis",
+      "ar": "إِبْلِيسُ",
+      "en": "Iblis"
+    },
+    {
+      "id": "janna",
+      "ar": "الجَنَّةُ",
+      "en": "the Garden, Paradise",
+      "from": "isl2-l21"
+    },
+    {
+      "id": "tawba",
+      "ar": "التَّوْبَةُ",
+      "en": "saying sorry to Allah (repentance)"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Why did Iblīs refuse to bow?",
+      "opts": [
+        [
+          "",
+          "Because of pride",
+          1
+        ],
+        [
+          "",
+          "Because he was asleep",
+          0
+        ],
+        [
+          "",
+          "Because he didn't hear",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did Allah teach Adam?",
+      "opts": [
+        [
+          "",
+          "The names of all things",
+          1
+        ],
+        [
+          "",
+          "How to swim",
+          0
+        ],
+        [
+          "",
+          "How to cook",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Allah forgave Adam when he said sorry.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Shayṭān is our friend.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "When you make a mistake, what can you learn from Adam?",
+    "a": "Don't be proud like Iblīs — say sorry to Allah and to people, and try again."
+  },
+  "parents": {
+    "summary": "Allah honoured Adam with knowledge. Iblīs refused out of pride. Adam slipped, said sorry, and Allah forgave him — the door of tawbah is always open.",
+    "try": {
+      "ar": "التَّوْبَةُ",
+      "translit": "at-tawbah",
+      "en": "repentance"
+    },
+    "tip": "Teach your child that saying “sorry” quickly is what prophets do."
+  }
+}

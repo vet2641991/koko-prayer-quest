@@ -1,0 +1,159 @@
+{
+  "id": "isl3-l10",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 10. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "صَوْمُ رَمَضَانَ",
+    "en": "Fasting in Ramadan"
+  },
+  "topic": "From dawn to sunset, for Allah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Ṣawm means holding back. In Ramadan, Muslims hold back from food and drink from dawn (Fajr) until sunset, for Allah.",
+      "title": "What is fasting?",
+      "ar": "الصَّوْمُ",
+      "tr": "aṣ-ṣawm"
+    },
+    {
+      "en": "Ramadan is the ninth month of the Islamic calendar. Fasting it is the fourth pillar of Islam. (Qur'an 2:183)",
+      "title": "The fourth pillar",
+      "ar": "رَمَضَانُ",
+      "tr": "Ramaḍān"
+    },
+    {
+      "en": "Grown-up Muslims who are healthy and not travelling must fast. If someone is ill or travelling, he can eat and make up the days later. (Qur'an 2:184)",
+      "title": "Who fasts?"
+    },
+    {
+      "en": "Suḥūr is the meal before dawn: “Take suḥūr, for there is blessing in it.” (Bukhari 1923) Ifṭār is breaking the fast at sunset — the Sunnah is with dates or water.",
+      "title": "Suḥūr and ifṭār"
+    },
+    {
+      "en": "Fasting is more than an empty tummy. If someone keeps lying, Allah has no need of him leaving his food and drink. (Bukhari 1903)",
+      "title": "Fast with your tongue too"
+    }
+  ],
+  "words": [
+    {
+      "id": "sawm",
+      "ar": "الصَّوْمُ",
+      "en": "fasting",
+      "from": "isl1-l10"
+    },
+    {
+      "id": "ramadan",
+      "ar": "رَمَضَانُ",
+      "en": "Ramadan",
+      "from": "isl2-l28"
+    },
+    {
+      "id": "suhur",
+      "ar": "السَّحُورُ",
+      "en": "the meal before dawn",
+      "from": "isl2-l28"
+    },
+    {
+      "id": "iftar",
+      "ar": "الإِفْطَارُ",
+      "en": "breaking the fast",
+      "from": "isl2-l21"
+    },
+    {
+      "id": "tamr",
+      "ar": "التَّمْرُ",
+      "en": "dates"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "From when until when do we fast?",
+      "opts": [
+        [
+          "",
+          "From dawn until sunset",
+          1
+        ],
+        [
+          "",
+          "From lunch until dinner",
+          0
+        ],
+        [
+          "",
+          "All night",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Who may break the fast and make it up later?",
+      "opts": [
+        [
+          "",
+          "Someone ill or travelling",
+          1
+        ],
+        [
+          "",
+          "Someone who is bored",
+          0
+        ],
+        [
+          "",
+          "Nobody",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? There is blessing in suḥūr.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Lying doesn't matter when you're fasting.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "If you try a half-day fast this Ramadan, what will you have for suḥūr and ifṭār?",
+    "a": "Something healthy for suḥūr, and break your fast with a date and water, like the Prophet ﷺ."
+  },
+  "parents": {
+    "summary": "Fasting Ramadan (the 9th month) is the 4th pillar: no food or drink from dawn to sunset. The ill and travellers make it up later. Suḥūr has blessing; ifṭār is on time, with dates.",
+    "try": {
+      "ar": "رَمَضَانُ",
+      "translit": "Ramaḍān",
+      "en": "Ramadan"
+    },
+    "tip": "Let your child try a few hours of fasting and break it with a date at the agreed time."
+  }
+}

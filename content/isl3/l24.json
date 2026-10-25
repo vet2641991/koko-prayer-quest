@@ -1,0 +1,150 @@
+{
+  "id": "isl3-l24",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 24. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "عَلِيُّ بْنُ أَبِي طَالِبٍ",
+    "en": "Ali ibn Abi Talib (RA)"
+  },
+  "topic": "The boy who believed",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "ʿAlī was the son of Abu Ṭālib — the Prophet's cousin. He grew up in the Prophet's home.",
+      "title": "The Prophet's cousin",
+      "ar": "عَلِيٌّ",
+      "tr": "ʿAlī"
+    },
+    {
+      "en": "He was one of the very first to accept Islam, when he was only a boy.",
+      "title": "A young believer"
+    },
+    {
+      "en": "He married the Prophet's daughter Fāṭimah. Their sons al-Ḥasan and al-Ḥusayn were the Prophet's beloved grandsons.",
+      "title": "His family",
+      "ar": "الحَسَنُ وَالحُسَيْنُ",
+      "tr": "al-Ḥasan wa l-Ḥusayn"
+    },
+    {
+      "en": "ʿAlī was known for knowledge, courage and justice. Later he became the fourth rightly-guided caliph.",
+      "title": "Knowledge and courage"
+    },
+    {
+      "en": "At Ḥudaybiyah, the Prophet ﷺ asked him to erase the words “Messenger of Allah” from a paper. ʿAlī said: “No, by Allah, I will never erase you.” (Bukhari 2699)",
+      "title": "His love for the Prophet ﷺ"
+    }
+  ],
+  "words": [
+    {
+      "id": "ali",
+      "ar": "عَلِيٌّ",
+      "en": "Ali"
+    },
+    {
+      "id": "fatima",
+      "ar": "فَاطِمَةُ",
+      "en": "Fatimah"
+    },
+    {
+      "id": "hasan",
+      "ar": "الحَسَنُ",
+      "en": "al-Hasan"
+    },
+    {
+      "id": "husayn",
+      "ar": "الحُسَيْنُ",
+      "en": "al-Husayn"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "How was ʿAlī related to the Prophet ﷺ?",
+      "opts": [
+        [
+          "",
+          "His cousin",
+          1
+        ],
+        [
+          "",
+          "His uncle",
+          0
+        ],
+        [
+          "",
+          "His grandfather",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Whom did ʿAlī marry?",
+      "opts": [
+        [
+          "",
+          "Fāṭimah",
+          1
+        ],
+        [
+          "",
+          "Khadījah",
+          0
+        ],
+        [
+          "",
+          "Ḥalīmah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ʿAlī believed in Islam when he was a boy.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ʿAlī was known for courage and knowledge.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "ʿAlī believed when he was young. What good thing can YOU start while you are young?",
+    "a": "Praying on time, learning Qur'an, being honest — the earlier you start, the stronger you grow."
+  },
+  "parents": {
+    "summary": "ʿAlī, the Prophet's cousin, grew up in his home, believed as a boy, married Fāṭimah, and was known for knowledge and courage.",
+    "try": {
+      "ar": "عَلِيٌّ",
+      "translit": "ʿAlī",
+      "en": "Ali"
+    },
+    "tip": "Tell the Ḥudaybiyah story and ask: “What shows ʿAlī's love?”"
+  }
+}

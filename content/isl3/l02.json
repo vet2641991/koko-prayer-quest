@@ -1,0 +1,172 @@
+{
+  "id": "isl3-l02",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 2. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "النَّظَافَةُ وَالنَّجَاسَةُ",
+    "en": "Clean body, clean clothes"
+  },
+  "topic": "Washing away what is impure before prayer",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Najāsah is something impure, like urine (wee) and stool (poo). A Muslim washes it away before praying.",
+      "title": "What is najāsah?",
+      "ar": "نَجَاسَةٌ",
+      "tr": "najāsah"
+    },
+    {
+      "en": "If any of it touches your body, your clothes or your prayer place, wash that spot with water until it is gone. Then it is clean again.",
+      "title": "Wash it away"
+    },
+    {
+      "en": "Cleaning yourself with water after using the toilet is called istinjāʾ. If there is no water, clean tissue can be used.",
+      "title": "After the toilet",
+      "ar": "اسْتِنْجَاءٌ",
+      "tr": "istinjāʾ"
+    },
+    {
+      "en": "Allah told the Prophet ﷺ: “And your clothing purify.” (Qur'an 74:4) And the Prophet ﷺ said: “Purity is half of faith.” (Muslim 223)",
+      "title": "Half of faith"
+    },
+    {
+      "en": "The Prophet ﷺ taught us to be careful with urine and not to let it splash on us. Being careless with it is not a small thing. (Bukhari 218)",
+      "title": "Be careful"
+    }
+  ],
+  "words": [
+    {
+      "id": "najasa",
+      "ar": "نَجَاسَةٌ",
+      "en": "something impure"
+    },
+    {
+      "id": "istinja",
+      "ar": "اسْتِنْجَاءٌ",
+      "en": "cleaning yourself after the toilet"
+    },
+    {
+      "id": "thawb",
+      "ar": "الثَّوْبُ",
+      "en": "clothes"
+    },
+    {
+      "id": "nadhif",
+      "ar": "نَظِيفٌ",
+      "en": "clean"
+    },
+    {
+      "id": "salah",
+      "ar": "الصَّلَاةُ",
+      "en": "the prayer",
+      "from": "isl1-l10"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What is najāsah?",
+      "opts": [
+        [
+          "",
+          "Something impure, like urine",
+          1
+        ],
+        [
+          "",
+          "A kind of prayer",
+          0
+        ],
+        [
+          "",
+          "A name of a month",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What do we do if urine touches our clothes?",
+      "opts": [
+        [
+          "",
+          "Wash that spot with water",
+          1
+        ],
+        [
+          "",
+          "Pray anyway",
+          0
+        ],
+        [
+          "",
+          "Throw the clothes away",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Purity is half of faith.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Istinjāʾ means cleaning yourself after using the toilet.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? It does not matter if urine splashes on us.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Your little brother spills juice and wee on your trousers just before Dhuhr. What do you do, step by step?",
+    "a": "Wash the spot with water until it is gone (or change your trousers), make wudu if you need to, then pray."
+  },
+  "parents": {
+    "summary": "Najāsah (like urine and stool) must be washed off the body, clothes and prayer place with water. Istinjāʾ is cleaning after the toilet. Purity is half of faith.",
+    "try": {
+      "ar": "نَظِيفٌ",
+      "translit": "naẓīf",
+      "en": "clean"
+    },
+    "tip": "Practise the bathroom routine together: water, left hand, wash hands well after."
+  }
+}

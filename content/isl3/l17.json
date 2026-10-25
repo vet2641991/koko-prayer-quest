@@ -1,0 +1,152 @@
+{
+  "id": "isl3-l17",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 17. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "إِسْحَاقُ عَلَيْهِ السَّلَامُ",
+    "en": "Prophet Ishaq (AS)"
+  },
+  "topic": "Good news for Ibrahim and Sarah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Ibrahim and his wife Sārah were old and had no children together.",
+      "title": "An old couple",
+      "ar": "سَارَةُ",
+      "tr": "Sārah"
+    },
+    {
+      "en": "Guests came to Ibrahim's home. He hurried to honour them with a roasted calf. They didn't eat — they were angels! They said: “Do not be afraid.” (Qur'an 11:69–70)",
+      "title": "Special guests"
+    },
+    {
+      "en": "The angels gave Sārah the good news of a son, Isḥāq, and after him a grandson, Yaʿqūb. (Qur'an 11:71)",
+      "title": "Good news!",
+      "ar": "إِسْحَاقُ",
+      "tr": "Isḥāq"
+    },
+    {
+      "en": "Sārah was amazed: “Shall I have a child when I am old?” The angels said: “Do you wonder at Allah's decree? Allah's mercy and blessings are upon you.” (Qur'an 11:72–73)",
+      "title": "Nothing is too hard for Allah"
+    },
+    {
+      "en": "Isḥāq became a prophet, and so did his son Yaʿqūb. Many prophets came from Yaʿqūb's family.",
+      "title": "A family of prophets",
+      "ar": "يَعْقُوبُ",
+      "tr": "Yaʿqūb"
+    }
+  ],
+  "words": [
+    {
+      "id": "ishaq",
+      "ar": "إِسْحَاقُ",
+      "en": "Ishaq (Isaac)"
+    },
+    {
+      "id": "yaqub",
+      "ar": "يَعْقُوبُ",
+      "en": "Yaʿqub (Jacob)"
+    },
+    {
+      "id": "sara",
+      "ar": "سَارَةُ",
+      "en": "Sarah"
+    },
+    {
+      "id": "dayf",
+      "ar": "الضَّيْفُ",
+      "en": "the guest"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who were Ibrahim's guests?",
+      "opts": [
+        [
+          "",
+          "Angels",
+          1
+        ],
+        [
+          "",
+          "Merchants",
+          0
+        ],
+        [
+          "",
+          "Children",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What good news did Sārah receive?",
+      "opts": [
+        [
+          "",
+          "A son, Isḥāq, and a grandson, Yaʿqūb",
+          1
+        ],
+        [
+          "",
+          "A new house",
+          0
+        ],
+        [
+          "",
+          "Lots of money",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Ibrahim hurried to honour his guests.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Some things are too hard for Allah.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "How can you honour a guest who visits your home?",
+    "a": "Welcome them with a smile, offer them something to eat or drink, and let them sit comfortably — like Ibrahim did."
+  },
+  "parents": {
+    "summary": "Ibrahim honoured his guests, who were angels. They brought Sārah, in old age, the good news of Isḥāq and Yaʿqūb — both prophets. Nothing is too hard for Allah.",
+    "try": {
+      "ar": "الضَّيْفُ",
+      "translit": "aḍ-ḍayf",
+      "en": "the guest"
+    },
+    "tip": "Next time guests come, let your child serve them first."
+  }
+}

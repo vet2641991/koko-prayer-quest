@@ -1,0 +1,179 @@
+{
+  "id": "isl3-l03",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 3. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الطَّهَارَةُ",
+    "en": "Purity and what breaks wudu"
+  },
+  "topic": "Ṭahārah has two sides",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Ṭahārah means being clean and pure. It has two sides: a hidden state called ḥadath, and a thing you can see called najāsah.",
+      "title": "Two sides of purity",
+      "ar": "الطَّهَارَةُ",
+      "tr": "aṭ-ṭahārah"
+    },
+    {
+      "en": "Ḥadath is a state you are in — you cannot see it. Small ḥadath is removed by wudu. Big ḥadath is removed by ghusl, a full bath.",
+      "title": "Ḥadath: a hidden state",
+      "ar": "حَدَثٌ",
+      "tr": "ḥadath"
+    },
+    {
+      "en": "Najāsah is a thing on you, like urine. You remove it by washing it away.",
+      "title": "Najāsah: a thing you wash off"
+    },
+    {
+      "en": "If there is no water, or you cannot use it, you do tayammum: you strike clean earth with your hands and wipe your face and hands. (Qur'an 5:6)",
+      "title": "No water? Tayammum",
+      "ar": "تَيَمُّمٌ",
+      "tr": "tayammum"
+    },
+    {
+      "en": "These break wudu: passing urine, passing stool, passing wind, and deep sleep. After them, make wudu again before you pray.",
+      "title": "What breaks wudu"
+    },
+    {
+      "en": "Allah loves people who keep clean: “Indeed, Allah loves those who repent and loves those who purify themselves.” (Qur'an 2:222)",
+      "title": "Allah loves the clean"
+    }
+  ],
+  "words": [
+    {
+      "id": "tahara",
+      "ar": "الطَّهَارَةُ",
+      "en": "purity",
+      "from": "isl2-l21"
+    },
+    {
+      "id": "hadath",
+      "ar": "حَدَثٌ",
+      "en": "a state that needs wudu or ghusl"
+    },
+    {
+      "id": "ghusl",
+      "ar": "غُسْلٌ",
+      "en": "a full bath for purity"
+    },
+    {
+      "id": "tayammum",
+      "ar": "تَيَمُّمٌ",
+      "en": "purifying with clean earth"
+    },
+    {
+      "id": "nawm",
+      "ar": "النَّوْمُ",
+      "en": "sleep",
+      "from": "isl1-l27"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Small ḥadath is removed by…",
+      "opts": [
+        [
+          "",
+          "Wudu",
+          1
+        ],
+        [
+          "",
+          "Eating",
+          0
+        ],
+        [
+          "",
+          "Running",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What do we do if there is no water?",
+      "opts": [
+        [
+          "",
+          "Tayammum with clean earth",
+          1
+        ],
+        [
+          "",
+          "Skip the prayer",
+          0
+        ],
+        [
+          "",
+          "Wait until tomorrow",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Passing wind breaks wudu.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Deep sleep breaks wudu.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? You can see ḥadath on your clothes.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "You woke up from a deep nap and it's time for Asr. Do you need wudu? Why?",
+    "a": "Yes — deep sleep breaks wudu, so make wudu, then pray Asr."
+  },
+  "parents": {
+    "summary": "Ṭahārah means removing ḥadath (by wudu, ghusl or tayammum) and removing najāsah (by washing). Urine, stool, wind and deep sleep break wudu.",
+    "try": {
+      "ar": "الطَّهَارَةُ",
+      "translit": "aṭ-ṭahārah",
+      "en": "purity"
+    },
+    "tip": "After a nap or the toilet, ask: “Do you still have wudu?” — make it a habit."
+  }
+}

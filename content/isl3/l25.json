@@ -1,0 +1,153 @@
+{
+  "id": "isl3-l25",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 25. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "جَعْفَرُ بْنُ أَبِي طَالِبٍ",
+    "en": "Jaʿfar ibn Abi Talib (RA)"
+  },
+  "topic": "The one with two wings",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Jaʿfar was ʿAlī's older brother and another cousin of the Prophet ﷺ. Al-ʿAbbās looked after him during the famine. He was one of the earliest Muslims.",
+      "title": "Who was Jaʿfar?",
+      "ar": "جَعْفَرٌ",
+      "tr": "Jaʿfar"
+    },
+    {
+      "en": "The Prophet ﷺ told him: “You look like me and you act like me.” (Bukhari 2699)",
+      "title": "Like the Prophet ﷺ"
+    },
+    {
+      "en": "To escape the bullies of Makkah, Jaʿfar and other Muslims travelled to Abyssinia (al-Ḥabashah).",
+      "title": "Journey to Abyssinia",
+      "ar": "الحَبَشَةُ",
+      "tr": "al-Ḥabashah"
+    },
+    {
+      "en": "At the battle of Muʾtah, Jaʿfar bravely carried the flag and became a martyr. (Bukhari 4261)",
+      "title": "Brave at Muʾtah"
+    },
+    {
+      "en": "He is called Dhul-Janāḥayn — “the one with two wings” — wings he flies with in Paradise. (Bukhari 3709)",
+      "title": "Two wings in Paradise",
+      "ar": "ذُو الجَنَاحَيْنِ",
+      "tr": "Dhu l-Janāḥayn"
+    }
+  ],
+  "words": [
+    {
+      "id": "jafar",
+      "ar": "جَعْفَرٌ",
+      "en": "Jaʿfar"
+    },
+    {
+      "id": "habasha",
+      "ar": "الحَبَشَةُ",
+      "en": "Abyssinia"
+    },
+    {
+      "id": "janah",
+      "ar": "الجَنَاحُ",
+      "en": "the wing"
+    },
+    {
+      "id": "janna",
+      "ar": "الجَنَّةُ",
+      "en": "Paradise",
+      "from": "isl2-l21"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What did the Prophet ﷺ say to Jaʿfar?",
+      "opts": [
+        [
+          "",
+          "You look like me and act like me",
+          1
+        ],
+        [
+          "",
+          "You are very tall",
+          0
+        ],
+        [
+          "",
+          "You are a poet",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What does Dhul-Janāḥayn mean?",
+      "opts": [
+        [
+          "",
+          "The one with two wings",
+          1
+        ],
+        [
+          "",
+          "The one with two swords",
+          0
+        ],
+        [
+          "",
+          "The one with two houses",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Jaʿfar travelled to Abyssinia.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Jaʿfar was ʿAlī's older brother.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Jaʿfar's character was like the Prophet's ﷺ. Which good habit of the Prophet ﷺ would you like to copy?",
+    "a": "Smiling, honesty, kindness to children and animals — pick one and practise it this week!"
+  },
+  "parents": {
+    "summary": "Jaʿfar, ʿAlī's brother, looked and acted like the Prophet ﷺ, migrated to Abyssinia, was brave at Muʾtah, and is honoured as “the one with two wings” in Paradise.",
+    "try": {
+      "ar": "ذُو الجَنَاحَيْنِ",
+      "translit": "Dhu l-Janāḥayn",
+      "en": "the one with two wings"
+    },
+    "tip": "Ask your child to draw Jaʿfar's two wings in Paradise and tell the story."
+  }
+}

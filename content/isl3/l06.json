@@ -1,0 +1,210 @@
+{
+  "id": "isl3-l06",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 6. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الأَذَانُ",
+    "en": "The adhan: the call to prayer"
+  },
+  "topic": "Its words and how to answer it",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The adhan tells everyone that it is time for one of the five prayers. The person who calls it is the muʾadhdhin.",
+      "title": "Time to pray!",
+      "ar": "الأَذَانُ",
+      "tr": "al-adhān"
+    },
+    {
+      "en": "The adhan is short, but it holds the whole message of Islam: Allah is the Greatest, He is One, Muhammad ﷺ is His Messenger — come to prayer, come to success!",
+      "title": "The message of Islam"
+    },
+    {
+      "en": "At Fajr only, the muʾadhdhin adds twice: “Prayer is better than sleep.”",
+      "title": "Only at Fajr",
+      "ar": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ",
+      "tr": "aṣ-ṣalātu khayrun mina n-nawm"
+    },
+    {
+      "en": "When you hear the adhan, repeat what the muʾadhdhin says. (Bukhari 611)",
+      "title": "Answer the adhan"
+    },
+    {
+      "en": "But when he says “ḥayya ʿala ṣ-ṣalāh” and “ḥayya ʿala l-falāḥ”, you say: “There is no power and no strength except with Allah.” (Muslim 385)",
+      "title": "The special answer",
+      "ar": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+      "tr": "lā ḥawla wa lā quwwata illā billāh"
+    }
+  ],
+  "words": [
+    {
+      "id": "takbir",
+      "ar": "اللهُ أَكْبَرُ",
+      "en": "Allah is the Greatest",
+      "tr": "Allāhu akbar",
+      "sacred": true,
+      "from": "isl1-l22"
+    },
+    {
+      "id": "a2",
+      "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ",
+      "en": "I testify that there is no god but Allah",
+      "tr": "Ashhadu an lā ilāha illa-llāh",
+      "sacred": true,
+      "from": "isl1-l11"
+    },
+    {
+      "id": "a3",
+      "ar": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+      "en": "I testify that Muhammad is the Messenger of Allah",
+      "tr": "Ashhadu anna Muḥammadan rasūlu-llāh",
+      "sacred": true,
+      "from": "isl1-l11"
+    },
+    {
+      "id": "a4",
+      "ar": "حَيَّ عَلَى الصَّلَاةِ",
+      "en": "Come to the prayer",
+      "tr": "Ḥayya ʿala ṣ-ṣalāh",
+      "sacred": true,
+      "from": "isl1-l11"
+    },
+    {
+      "id": "a5",
+      "ar": "حَيَّ عَلَى الفَلَاحِ",
+      "en": "Come to success",
+      "tr": "Ḥayya ʿala l-falāḥ",
+      "sacred": true,
+      "from": "isl1-l11"
+    },
+    {
+      "id": "a7",
+      "ar": "لَا إِلَهَ إِلَّا اللهُ",
+      "en": "There is no god but Allah",
+      "tr": "Lā ilāha illa-llāh",
+      "sacred": true,
+      "from": "isl1-l11"
+    },
+    {
+      "id": "fajr_add",
+      "ar": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ",
+      "en": "Prayer is better than sleep (Fajr only)",
+      "tr": "Aṣ-ṣalātu khayrun mina n-nawm",
+      "sacred": true
+    },
+    {
+      "id": "hawqala",
+      "ar": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+      "en": "There is no power and no strength except with Allah",
+      "tr": "Lā ḥawla wa lā quwwata illā billāh",
+      "sacred": true
+    }
+  ],
+  "order": {
+    "en": "Put the adhan in order",
+    "ids": [
+      "takbir",
+      "a2",
+      "a3",
+      "a4",
+      "a5",
+      "a7"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "What does “ḥayya ʿala l-falāḥ” mean?",
+      "opts": [
+        [
+          "",
+          "Come to success",
+          1
+        ],
+        [
+          "",
+          "Come to eat",
+          0
+        ],
+        [
+          "",
+          "Go to sleep",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What is added in the Fajr adhan?",
+      "opts": [
+        [
+          "",
+          "Prayer is better than sleep",
+          1
+        ],
+        [
+          "",
+          "Come to school",
+          0
+        ],
+        [
+          "",
+          "Peace be upon you",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What do we say when we hear “ḥayya ʿala ṣ-ṣalāh”?",
+      "opts": [
+        [
+          "",
+          "Lā ḥawla wa lā quwwata illā billāh",
+          1
+        ],
+        [
+          "",
+          "Allāhu akbar",
+          0
+        ],
+        [
+          "",
+          "Nothing",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? We repeat the other words of the adhan after the muʾadhdhin.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Next time you hear the adhan, can you answer every phrase?",
+    "a": "Repeat each phrase — and at the two “ḥayya ʿalā…” say lā ḥawla wa lā quwwata illā billāh."
+  },
+  "parents": {
+    "summary": "The adhan calls us to prayer five times a day. We repeat its words, except the two “come to…” phrases, where we say lā ḥawla wa lā quwwata illā billāh. Fajr adds “prayer is better than sleep”.",
+    "try": {
+      "ar": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+      "translit": "lā ḥawla wa lā quwwata illā billāh",
+      "en": "There is no power and no strength except with Allah"
+    },
+    "tip": "Pause whatever you are doing at the adhan and answer it together."
+  }
+}

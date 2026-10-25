@@ -1,0 +1,158 @@
+{
+  "id": "isl3-l11",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 11. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "شَهْرُ القُرْآنِ",
+    "en": "Ramadan: the month of the Qur'an"
+  },
+  "topic": "Why we fast",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "We fast first of all because Allah told us to.",
+      "title": "Allah commanded it"
+    },
+    {
+      "en": "Fasting helps us gain taqwā — keeping Allah in mind so we stay away from wrong. (Qur'an 2:183)",
+      "title": "To gain taqwā",
+      "ar": "التَّقْوَى",
+      "tr": "at-taqwā"
+    },
+    {
+      "en": "Fasting trains self-control and helps us feel for the hungry, so we become more generous.",
+      "title": "Strong and kind"
+    },
+    {
+      "en": "“The month of Ramadan is the one in which the Qur'an was sent down — guidance for people.” (Qur'an 2:185) So Ramadan is a time to read, listen to and live the Qur'an.",
+      "title": "The month of the Qur'an",
+      "ar": "القُرْآنُ",
+      "tr": "al-Qurʾān"
+    },
+    {
+      "en": "“Fasting is a shield.” If someone is rude to a fasting person, he says: “I am fasting.” (Bukhari 1894)",
+      "title": "A shield",
+      "ar": "إِنِّي صَائِمٌ",
+      "tr": "innī ṣāʾim"
+    },
+    {
+      "en": "“Allah wants ease for you, not hardship.” (Qur'an 2:185) That is why the ill and travellers are allowed to fast later.",
+      "title": "Allah wants ease"
+    }
+  ],
+  "words": [
+    {
+      "id": "taqwa",
+      "ar": "التَّقْوَى",
+      "en": "keeping Allah in mind (taqwa)"
+    },
+    {
+      "id": "quran",
+      "ar": "القُرْآنُ",
+      "en": "the Qur'an",
+      "from": "isl1-l08"
+    },
+    {
+      "id": "sayim",
+      "ar": "إِنِّي صَائِمٌ",
+      "en": "I am fasting"
+    },
+    {
+      "id": "ramadan",
+      "ar": "رَمَضَانُ",
+      "en": "Ramadan",
+      "from": "isl2-l28"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Which book was sent down in Ramadan?",
+      "opts": [
+        [
+          "",
+          "The Qur'an",
+          1
+        ],
+        [
+          "",
+          "A history book",
+          0
+        ],
+        [
+          "",
+          "A story book",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What does a fasting person say if someone is rude to him?",
+      "opts": [
+        [
+          "",
+          "I am fasting",
+          1
+        ],
+        [
+          "",
+          "I'm hungry",
+          0
+        ],
+        [
+          "",
+          "Go away",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Fasting is a shield.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Allah wants hardship for us.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "What could your family do this Ramadan to make it a month of the Qur'an?",
+    "a": "Read a little every day, listen to a reciter in the car, and learn one short verse by heart."
+  },
+  "parents": {
+    "summary": "We fast to obey Allah, gain taqwā, train ourselves and feel for the hungry. Ramadan is the month the Qur'an came down. Fasting is a shield.",
+    "try": {
+      "ar": "إِنِّي صَائِمٌ",
+      "translit": "innī ṣāʾim",
+      "en": "I am fasting"
+    },
+    "tip": "Plan one page or one short surah a day together in Ramadan."
+  }
+}
