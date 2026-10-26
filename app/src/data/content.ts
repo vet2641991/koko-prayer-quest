@@ -2,7 +2,7 @@
 // exactly as published: Arabic, tashkeel and translations are never changed by the app.
 import { LessonSchema, type Lesson } from '../../../packages/shared/src/schema.ts';
 import { referencedFiles } from '../../../packages/shared/src/audio.ts';
-import { mediaUri, readText, saveMedia } from './store';
+import { isSaved, mediaUri, readText, saveMedia } from './store';
 
 export type Unit = { id: string; n: string; ar: string; en: string; file?: string; go?: string; premium?: boolean };
 export type World = { id: string; code?: string; en: string; ar: string; tint: string; ink: string; units: Unit[] };
@@ -51,4 +51,4 @@ export async function getPromos(): Promise<Promo[]> {
   } catch { return []; }
 }
 
-export { mediaUri, saveMedia };
+export { isSaved, mediaUri, saveMedia };

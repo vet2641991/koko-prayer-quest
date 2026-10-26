@@ -6,16 +6,21 @@ import { View } from 'react-native';
 import { lessonAudio, learnCardClip, wordAudio } from '../../../packages/shared/src/audio.ts';
 import { playSeq, sfx } from '../audio/sound';
 import { Ar, Btn, Card, KokoSays, T } from '../components/ui';
-import { mediaUri, saveMedia } from '../data/content';
+import { remote } from '../config';
+import { isSaved, mediaUri, saveMedia } from '../data/content';
 import { useProgress } from '../state/progress';
 import { C } from '../theme';
 import type { StepProps } from './types';
 
 export function Story({ L, finish, firstTime }: StepProps) {
   const src = L.video!.src;
-  const player = useVideoPlayer(mediaUri(src), p => { p.timeUpdateEventInterval = 1; });
+  // The URI is fixed for the life of the screen: if it switched from the site to the saved copy mid-way (the download
+  // finishing), the player would load the new source and start the cartoon again. While it streams from the site,
+  // the offline copy waits until the child leaves the screen, so the two don't compete for the connection.
+  const [uri] = useState(() => (isSaved(src) ? mediaUri(src) : remote(src)));
+  const player = useVideoPlayer(uri, p => { p.timeUpdateEventInterval = 1; });
   const [nearEnd, setNearEnd] = useState(!firstTime);
-  useEffect(() => { void saveMedia([src]); }, [src]);   // keep the cartoon for offline use
+  useEffect(() => () => { void saveMedia([src]); }, [src]);   // keep the cartoon for offline use
   useEventListener(player, 'timeUpdate', ({ currentTime }) => { if (player.duration && currentTime / player.duration > 0.9) setNearEnd(true); });
   useEventListener(player, 'playToEnd', () => finish());
   return <View style={{ gap: 12 }}>
