@@ -207,5 +207,9 @@
       "en": "There is no power and no strength except with Allah"
     },
     "tip": "Pause whatever you are doing at the adhan and answer it together."
+  },
+  "video": {
+    "src": "media/isl3-l06.mp4",
+    "poster": "media/isl3-l06-poster.jpg"
   }
 }

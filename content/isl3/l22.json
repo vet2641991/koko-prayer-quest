@@ -150,5 +150,9 @@
       "en": "Read!"
     },
     "tip": "Read a page of a good book together and say Bismillāh before starting."
+  },
+  "video": {
+    "src": "media/isl3-l22.mp4",
+    "poster": "media/isl3-l22-poster.jpg"
   }
 }

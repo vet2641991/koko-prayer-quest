@@ -149,5 +149,9 @@
       "en": "the intention"
     },
     "tip": "Before wudu, whisper together: “For Allah, to get ready to pray.”"
+  },
+  "video": {
+    "src": "media/isl3-l04.mp4",
+    "poster": "media/isl3-l04-poster.jpg"
   }
 }

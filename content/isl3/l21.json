@@ -146,5 +146,9 @@
       "en": "the Cave of Hira"
     },
     "tip": "Make a family “quiet corner” for du'aa and reflection."
+  },
+  "video": {
+    "src": "media/isl3-l21.mp4",
+    "poster": "media/isl3-l21-poster.jpg"
   }
 }

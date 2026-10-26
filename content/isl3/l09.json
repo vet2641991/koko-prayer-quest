@@ -149,5 +149,9 @@
       "en": "charity"
     },
     "tip": "Keep a family charity jar and let your child choose where it goes."
+  },
+  "video": {
+    "src": "media/isl3-l09.mp4",
+    "poster": "media/isl3-l09-poster.jpg"
   }
 }

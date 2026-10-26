@@ -146,5 +146,9 @@
       "en": "Ali"
     },
     "tip": "Tell the Ḥudaybiyah story and ask: “What shows ʿAlī's love?”"
+  },
+  "video": {
+    "src": "media/isl3-l24.mp4",
+    "poster": "media/isl3-l24-poster.jpg"
   }
 }

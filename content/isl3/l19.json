@@ -151,5 +151,9 @@
       "en": "the Trustworthy"
     },
     "tip": "Do one practical act of help for a relative this week together."
+  },
+  "video": {
+    "src": "media/isl3-l19.mp4",
+    "poster": "media/isl3-l19-poster.jpg"
   }
 }

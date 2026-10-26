@@ -155,5 +155,9 @@
       "en": "Ramadan"
     },
     "tip": "Let your child try a few hours of fasting and break it with a date at the agreed time."
+  },
+  "video": {
+    "src": "media/isl3-l10.mp4",
+    "poster": "media/isl3-l10-poster.jpg"
   }
 }

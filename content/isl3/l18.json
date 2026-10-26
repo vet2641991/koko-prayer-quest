@@ -152,5 +152,9 @@
       "en": "Khadijah"
     },
     "tip": "Ask your child to name one quality of Khadījah they want to copy."
+  },
+  "video": {
+    "src": "media/isl3-l18.mp4",
+    "poster": "media/isl3-l18-poster.jpg"
   }
 }

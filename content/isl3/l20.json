@@ -144,5 +144,9 @@
       "en": "Zayd"
     },
     "tip": "Talk about why our names and families matter."
+  },
+  "video": {
+    "src": "media/isl3-l20.mp4",
+    "poster": "media/isl3-l20-poster.jpg"
   }
 }

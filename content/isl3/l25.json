@@ -149,5 +149,9 @@
       "en": "the one with two wings"
     },
     "tip": "Ask your child to draw Jaʿfar's two wings in Paradise and tell the story."
+  },
+  "video": {
+    "src": "media/isl3-l25.mp4",
+    "poster": "media/isl3-l25-poster.jpg"
   }
 }

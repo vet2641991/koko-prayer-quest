@@ -178,5 +178,9 @@
       "en": "the congregation"
     },
     "tip": "Choose one prayer this week to pray together as a family every day."
+  },
+  "video": {
+    "src": "media/isl3-l08.mp4",
+    "poster": "media/isl3-l08-poster.jpg"
   }
 }

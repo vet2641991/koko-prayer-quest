@@ -159,5 +159,9 @@
       "en": "The prayer has begun"
     },
     "tip": "At home, let your child say the iqamah before you pray together."
+  },
+  "video": {
+    "src": "media/isl3-l07.mp4",
+    "poster": "media/isl3-l07-poster.jpg"
   }
 }

@@ -181,5 +181,9 @@
       "en": "truthfulness"
     },
     "tip": "Play “true, kind, needed?” at dinner with pretend sentences."
+  },
+  "video": {
+    "src": "media/isl3-l12.mp4",
+    "poster": "media/isl3-l12-poster.jpg"
   }
 }

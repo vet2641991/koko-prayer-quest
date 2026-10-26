@@ -165,5 +165,9 @@
       "en": "Here I am, O Allah, here I am"
     },
     "tip": "Watch a short video of ṭawāf together and count the seven rounds."
+  },
+  "video": {
+    "src": "media/isl3-l13.mp4",
+    "poster": "media/isl3-l13-poster.jpg"
   }
 }

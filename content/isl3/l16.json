@@ -158,5 +158,9 @@
       "en": "trusting Allah"
     },
     "tip": "Next time you drink water, tell the story of Zamzam."
+  },
+  "video": {
+    "src": "media/isl3-l16.mp4",
+    "poster": "media/isl3-l16-poster.jpg"
   }
 }

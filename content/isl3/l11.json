@@ -154,5 +154,9 @@
       "en": "I am fasting"
     },
     "tip": "Plan one page or one short surah a day together in Ramadan."
+  },
+  "video": {
+    "src": "media/isl3-l11.mp4",
+    "poster": "media/isl3-l11-poster.jpg"
   }
 }

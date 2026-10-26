@@ -221,5 +221,9 @@
       "en": "In the name of Allah"
     },
     "tip": "Watch your child make wudu once and check elbows and heels together."
+  },
+  "video": {
+    "src": "media/isl3-l05.mp4",
+    "poster": "media/isl3-l05-poster.jpg"
   }
 }

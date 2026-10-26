@@ -185,5 +185,9 @@
       "en": "pure and purifying"
     },
     "tip": "Put three glasses of water on the table and let your child check colour, taste and smell like a scholar."
+  },
+  "video": {
+    "src": "media/isl3-l01.mp4",
+    "poster": "media/isl3-l01-poster.jpg"
   }
 }

@@ -168,5 +168,9 @@
       "en": "clean"
     },
     "tip": "Practise the bathroom routine together: water, left hand, wash hands well after."
+  },
+  "video": {
+    "src": "media/isl3-l02.mp4",
+    "poster": "media/isl3-l02-poster.jpg"
   }
 }

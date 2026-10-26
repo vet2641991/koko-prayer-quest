@@ -148,5 +148,9 @@
       "en": "the guest"
     },
     "tip": "Next time guests come, let your child serve them first."
+  },
+  "video": {
+    "src": "media/isl3-l17.mp4",
+    "poster": "media/isl3-l17-poster.jpg"
   }
 }
