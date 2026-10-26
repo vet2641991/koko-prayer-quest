@@ -1,0 +1,189 @@
+{
+  "id": "isl3-l12",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 12. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "حِفْظُ اللِّسَانِ",
+    "en": "Guarding the tongue"
+  },
+  "topic": "Truth, good words, or silence",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The tongue is small, but every word we say is written down. (Qur'an 50:18)",
+      "title": "Every word is written",
+      "ar": "اللِّسَانُ",
+      "tr": "al-lisān"
+    },
+    {
+      "en": "Lying is saying what is not true. Backbiting (ghībah) is talking about someone behind their back in a way they would not like — even if it is true.",
+      "title": "Lying and backbiting",
+      "ar": "الغِيبَةُ",
+      "tr": "al-ghībah"
+    },
+    {
+      "en": "Slander is saying something bad about someone that is not true. Namīmah is carrying words between people to make them fight.",
+      "title": "Slander and tale-carrying",
+      "ar": "النَّمِيمَةُ",
+      "tr": "an-namīmah"
+    },
+    {
+      "en": "“Truthfulness leads to goodness, and goodness leads to Paradise.” (Bukhari 6094)",
+      "title": "Truth leads to Paradise",
+      "ar": "الصِّدْقُ",
+      "tr": "aṣ-ṣidq"
+    },
+    {
+      "en": "“Whoever believes in Allah and the Last Day, let him say what is good or keep silent.” (Bukhari 6018)",
+      "title": "Good words or silence"
+    },
+    {
+      "en": "Before you speak, ask three questions: Is it true? Is it kind? Is it needed? If the talk turns to backbiting, change the subject or defend the person.",
+      "title": "Three questions"
+    }
+  ],
+  "words": [
+    {
+      "id": "lisan",
+      "ar": "اللِّسَانُ",
+      "en": "the tongue"
+    },
+    {
+      "id": "sidq",
+      "ar": "الصِّدْقُ",
+      "en": "truthfulness",
+      "from": "isl2-l22"
+    },
+    {
+      "id": "kadhib",
+      "ar": "الكَذِبُ",
+      "en": "lying",
+      "from": "isl2-l22"
+    },
+    {
+      "id": "ghiba",
+      "ar": "الغِيبَةُ",
+      "en": "backbiting"
+    },
+    {
+      "id": "namima",
+      "ar": "النَّمِيمَةُ",
+      "en": "carrying tales to make trouble"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What is backbiting?",
+      "opts": [
+        [
+          "",
+          "Talking about someone in a way they would dislike, behind their back",
+          1
+        ],
+        [
+          "",
+          "Saying thank you",
+          0
+        ],
+        [
+          "",
+          "Reading the Qur'an",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Truthfulness leads to…",
+      "opts": [
+        [
+          "",
+          "Goodness and Paradise",
+          1
+        ],
+        [
+          "",
+          "Trouble",
+          0
+        ],
+        [
+          "",
+          "Nothing",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? A small lie for a joke is fine.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? If what I say about someone is true, it can still be backbiting.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Passing on a rumour without checking is fine.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "ضَعْ إِصْبَعَكَ عَلَى فَمِكَ: قُلْ خَيْرًا أَوِ اصْمُتْ!",
+    "en": "Finger on your lips: say something good — or stay quiet!"
+  },
+  "think": {
+    "q": "Your friends start making fun of a classmate who isn't there. What could you say?",
+    "a": "Change the subject, or say something good about him — “Let's not talk about him when he's not here.”"
+  },
+  "parents": {
+    "summary": "Lying, backbiting, slander and tale-carrying harm us and others. Speak the truth, say good words, or stay silent. Ask: true? kind? needed?",
+    "try": {
+      "ar": "الصِّدْقُ",
+      "translit": "aṣ-ṣidq",
+      "en": "truthfulness"
+    },
+    "tip": "Play “true, kind, needed?” at dinner with pretend sentences."
+  },
+  "video": {
+    "src": "media/isl3-l12.mp4",
+    "poster": "media/isl3-l12-poster.jpg"
+  }
+}

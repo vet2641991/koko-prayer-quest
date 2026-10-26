@@ -1,0 +1,157 @@
+{
+  "id": "isl3-l09",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 9. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الزَّكَاةُ",
+    "en": "Zakah: the purifying gift"
+  },
+  "topic": "Sharing wealth makes hearts clean",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Zakāh is the third pillar of Islam. In Arabic it means purity and growth.",
+      "title": "Purity and growth",
+      "ar": "الزَّكَاةُ",
+      "tr": "az-zakāh"
+    },
+    {
+      "en": "Zakāh is a set share of wealth that a Muslim gives every year to people in need, once his wealth reaches a certain amount.",
+      "title": "A yearly share"
+    },
+    {
+      "en": "The Qur'an puts it next to prayer again and again: “Establish prayer and give zakāh.” (Qur'an 2:43)",
+      "title": "Always with prayer"
+    },
+    {
+      "en": "Zakāh cleans the giver's heart from greed, brings blessing into the money, helps the poor, and makes rich and poor love each other.",
+      "title": "Why is it purifying?"
+    },
+    {
+      "en": "Ṣadaqah is any giving, any time, any amount — even a smile! Zakāh is the part that is a must, with set rules.",
+      "title": "Zakāh or ṣadaqah?",
+      "ar": "صَدَقَةٌ",
+      "tr": "ṣadaqah"
+    }
+  ],
+  "words": [
+    {
+      "id": "zakah",
+      "ar": "الزَّكَاةُ",
+      "en": "zakah (the yearly purifying gift)",
+      "from": "isl1-l10"
+    },
+    {
+      "id": "sadaqa",
+      "ar": "صَدَقَةٌ",
+      "en": "charity",
+      "from": "isl2-l21"
+    },
+    {
+      "id": "faqir",
+      "ar": "الفَقِيرُ",
+      "en": "the poor person"
+    },
+    {
+      "id": "mal",
+      "ar": "المَالُ",
+      "en": "wealth, money",
+      "from": "isl2-l27"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What does the word zakāh mean?",
+      "opts": [
+        [
+          "",
+          "Purity and growth",
+          1
+        ],
+        [
+          "",
+          "Food and drink",
+          0
+        ],
+        [
+          "",
+          "Sleep and rest",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which pillar of Islam is zakāh?",
+      "opts": [
+        [
+          "",
+          "The third",
+          1
+        ],
+        [
+          "",
+          "The first",
+          0
+        ],
+        [
+          "",
+          "The fifth",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Ṣadaqah can be given any time, any amount.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Zakāh makes the giver's heart greedy.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "If you had some money of your own, who would you like to help with it?",
+    "a": "Maybe a poor family, an orphan, or a neighbour in need — giving makes your heart clean and your money blessed."
+  },
+  "parents": {
+    "summary": "Zakāh, the third pillar, is a yearly share of wealth for those in need. It purifies the heart and the money. Ṣadaqah is extra giving at any time.",
+    "try": {
+      "ar": "صَدَقَةٌ",
+      "translit": "ṣadaqah",
+      "en": "charity"
+    },
+    "tip": "Keep a family charity jar and let your child choose where it goes."
+  },
+  "video": {
+    "src": "media/isl3-l09.mp4",
+    "poster": "media/isl3-l09-poster.jpg"
+  }
+}

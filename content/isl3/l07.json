@@ -1,0 +1,167 @@
+{
+  "id": "isl3-l07",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 7. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الإِقَامَةُ",
+    "en": "The iqamah: the prayer is starting"
+  },
+  "topic": "The second call — stand up!",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "The iqāmah is the second call. It is said just before the prayer begins. It means: “Stand up — the prayer is starting now!”",
+      "title": "Stand up!",
+      "ar": "الإِقَامَةُ",
+      "tr": "al-iqāmah"
+    },
+    {
+      "en": "When you hear it, join the jamāʿah (the group), stand in straight rows and face the qiblah.",
+      "title": "Straight rows"
+    },
+    {
+      "en": "Its special phrase, said twice, is: “The prayer has begun.”",
+      "title": "The special phrase",
+      "ar": "قَدْ قَامَتِ الصَّلَاةُ",
+      "tr": "qad qāmati ṣ-ṣalāh"
+    },
+    {
+      "en": "Bilal was told to say the adhan in pairs and the iqāmah once each — except “qad qāmati ṣ-ṣalāh”. (Bukhari 605)",
+      "title": "Pairs and singles"
+    },
+    {
+      "en": "The adhan calls people to come; the iqāmah tells them to stand. Even when praying alone, you may say the iqāmah quietly.",
+      "title": "Adhan or iqamah?"
+    }
+  ],
+  "words": [
+    {
+      "id": "iqama",
+      "ar": "الإِقَامَةُ",
+      "en": "the iqamah (second call)"
+    },
+    {
+      "id": "qad_qamat",
+      "ar": "قَدْ قَامَتِ الصَّلَاةُ",
+      "en": "The prayer has begun",
+      "tr": "Qad qāmati ṣ-ṣalāh",
+      "sacred": true
+    },
+    {
+      "id": "jamaa",
+      "ar": "الجَمَاعَةُ",
+      "en": "the congregation",
+      "from": "isl2-l10"
+    },
+    {
+      "id": "qibla",
+      "ar": "القِبْلَةُ",
+      "en": "the qiblah (direction of the Ka'bah)",
+      "from": "isl2-l11"
+    },
+    {
+      "id": "saff",
+      "ar": "الصَّفُّ",
+      "en": "the row"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What does “qad qāmati ṣ-ṣalāh” mean?",
+      "opts": [
+        [
+          "",
+          "The prayer has begun",
+          1
+        ],
+        [
+          "",
+          "Come to success",
+          0
+        ],
+        [
+          "",
+          "Go home",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "When is the iqāmah said?",
+      "opts": [
+        [
+          "",
+          "Just before the prayer starts",
+          1
+        ],
+        [
+          "",
+          "At midnight",
+          0
+        ],
+        [
+          "",
+          "After the prayer",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The adhan phrases are mostly in pairs and the iqāmah phrases mostly single.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? When we hear the iqāmah, we stand in straight rows.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "قِفْ فِي الصَّفِّ مُسْتَقِيمًا!",
+    "en": "Stand in a straight row, shoulder to shoulder!"
+  },
+  "think": {
+    "q": "What is the difference between the adhan and the iqamah?",
+    "a": "The adhan calls people to come when the time begins; the iqamah tells them to stand because the prayer is starting."
+  },
+  "parents": {
+    "summary": "The iqāmah is the short second call before prayer. Its special phrase is “qad qāmati ṣ-ṣalāh”. We stand in straight rows facing the qiblah.",
+    "try": {
+      "ar": "قَدْ قَامَتِ الصَّلَاةُ",
+      "translit": "qad qāmati ṣ-ṣalāh",
+      "en": "The prayer has begun"
+    },
+    "tip": "At home, let your child say the iqamah before you pray together."
+  },
+  "video": {
+    "src": "media/isl3-l07.mp4",
+    "poster": "media/isl3-l07-poster.jpg"
+  }
+}

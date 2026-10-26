@@ -1,0 +1,167 @@
+{
+  "id": "isl3-l16",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 16. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "إِسْمَاعِيلُ عَلَيْهِ السَّلَامُ",
+    "en": "Prophet Ismaʿil (AS)"
+  },
+  "topic": "Zamzam, the test, and the Kaʿbah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "By Allah's command, Ibrahim took Hājar and baby Ismāʿīl to an empty valley — where Makkah is today. Hājar asked: “Did Allah command you?” He said yes. She said: “Then He will not leave us.” (Bukhari 3364)",
+      "title": "Trust in Allah",
+      "ar": "إِسْمَاعِيلُ",
+      "tr": "Ismāʿīl"
+    },
+    {
+      "en": "When the water ran out, Hājar ran seven times between the hills of Ṣafā and Marwah. Then an angel struck the ground and water gushed out — Zamzam! That running is the saʿy of ḥajj. (Bukhari 3364)",
+      "title": "Zamzam",
+      "ar": "زَمْزَمُ",
+      "tr": "Zamzam"
+    },
+    {
+      "en": "When Ismāʿīl was older, Ibrahim saw in a dream that he must sacrifice him. Ismāʿīl said: “O my father, do as you are commanded; you will find me patient, if Allah wills.” (Qur'an 37:102)",
+      "title": "A patient son"
+    },
+    {
+      "en": "When they both obeyed, Allah saved Ismāʿīl and sent a ram instead. (Qur'an 37:104–107) We remember this every year at Eid al-Aḍḥā.",
+      "title": "Eid al-Aḍḥā",
+      "ar": "عِيدُ الأَضْحَى",
+      "tr": "ʿĪd al-Aḍḥā",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "Ibrahim and Ismāʿīl built the Kaʿbah together, praying: “Our Lord, accept this from us.” (Qur'an 2:127)",
+      "title": "Building the Kaʿbah"
+    }
+  ],
+  "words": [
+    {
+      "id": "ismail",
+      "ar": "إِسْمَاعِيلُ",
+      "en": "Ismaʿil"
+    },
+    {
+      "id": "hajar",
+      "ar": "هَاجَرْ",
+      "en": "Hajar"
+    },
+    {
+      "id": "zamzam",
+      "ar": "زَمْزَمُ",
+      "en": "Zamzam"
+    },
+    {
+      "id": "kaba",
+      "ar": "الكَعْبَةُ",
+      "en": "the Ka'bah",
+      "from": "isl1-l15"
+    },
+    {
+      "id": "tawakkul",
+      "ar": "التَّوَكُّلُ",
+      "en": "trusting Allah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "How many times did Hājar run between Ṣafā and Marwah?",
+      "opts": [
+        [
+          "",
+          "Seven",
+          1
+        ],
+        [
+          "",
+          "Two",
+          0
+        ],
+        [
+          "",
+          "Ten",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which well burst out for Hājar and Ismāʿīl?",
+      "opts": [
+        [
+          "",
+          "Zamzam",
+          1
+        ],
+        [
+          "",
+          "A river",
+          0
+        ],
+        [
+          "",
+          "The sea",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Ibrahim and Ismāʿīl built the Kaʿbah together.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Ismāʿīl refused to obey.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "اجْرِ بَيْنَ الصَّفَا وَالمَرْوَةِ سَبْعَ مَرَّاتٍ!",
+    "en": "Run between two “hills” (two chairs) seven times, like Hājar!"
+  },
+  "think": {
+    "q": "Hājar ran AND trusted Allah. What does that teach us about tawakkul?",
+    "a": "Do your best, then trust Allah to take care of the rest."
+  },
+  "parents": {
+    "summary": "Hājar trusted Allah and Zamzam burst out; Ismāʿīl was patient; Ibrahim obeyed. From this family we have saʿy, Eid al-Aḍḥā and the Kaʿbah.",
+    "try": {
+      "ar": "التَّوَكُّلُ",
+      "translit": "at-tawakkul",
+      "en": "trusting Allah"
+    },
+    "tip": "Next time you drink water, tell the story of Zamzam."
+  },
+  "video": {
+    "src": "media/isl3-l16.mp4",
+    "poster": "media/isl3-l16-poster.jpg"
+  }
+}

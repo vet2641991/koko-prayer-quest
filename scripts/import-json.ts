@@ -255,7 +255,7 @@ type Seed = { sacred: { approvedBy: string; approvedOn: string; approvalNote: st
 
 async function importMedia(q: <T extends pg.QueryResultRow = J>(sql: string, p?: unknown[]) => Promise<pg.QueryResult<T>>,
                            rootDir: string, lessons: Map<string, Lesson>, out: Outcome) {
-  const seeds = ['sacred-learn-cards.json', 'sacred-videos.json']
+  const seeds = ['sacred-learn-cards.json', 'sacred-videos.json', 'sacred-isl3.json']
     .map(f => JSON.parse(readFileSync(join(rootDir, 'supabase/seed', f), 'utf8')) as Seed);
   const seededSacred = new Map<string, Seed['sacred']>(), seededOrdinary = new Set<string>();
   for (const s of seeds) {

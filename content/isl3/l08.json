@@ -1,0 +1,186 @@
+{
+  "id": "isl3-l08",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 8. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "الصَّلَاةُ عِمَادُ الدِّينِ",
+    "en": "Salah: the second pillar"
+  },
+  "topic": "Five prayers that wash us clean",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Ṣalāh is the second pillar of Islam, right after the shahādah. Allah made five prayers a day, each at its own time. (Qur'an 4:103)",
+      "title": "Five a day",
+      "ar": "الصَّلَاةُ",
+      "tr": "aṣ-ṣalāh",
+      "aud": "c-0-ar"
+    },
+    {
+      "en": "The Prophet ﷺ asked: if a river ran by your door and you bathed in it five times a day, would any dirt stay on you? “That is like the five prayers; Allah wipes away sins with them.” (Bukhari 528)",
+      "title": "A river at your door"
+    },
+    {
+      "en": "Prayer keeps us away from bad things: “Indeed, prayer stops shameful and wrong deeds.” (Qur'an 29:45)",
+      "title": "It keeps us good"
+    },
+    {
+      "en": "Praying together in jamāʿah is 27 times better than praying alone. (Bukhari 645)",
+      "title": "27 times better",
+      "ar": "الجَمَاعَةُ",
+      "tr": "al-jamāʿah"
+    },
+    {
+      "en": "We never stop praying — at home or travelling, healthy or ill. If you can't stand, pray sitting; if you can't sit, pray on your side. (Bukhari 1117)",
+      "title": "Never dropped"
+    }
+  ],
+  "words": [
+    {
+      "id": "fajr",
+      "ar": "الفَجْرُ",
+      "en": "Fajr (dawn)",
+      "from": "isl1-l27"
+    },
+    {
+      "id": "dhuhr",
+      "ar": "الظُّهْرُ",
+      "en": "Dhuhr (midday)",
+      "from": "isl2-l10"
+    },
+    {
+      "id": "asr",
+      "ar": "العَصْرُ",
+      "en": "Asr (afternoon)",
+      "from": "isl2-l10"
+    },
+    {
+      "id": "maghrib",
+      "ar": "المَغْرِبُ",
+      "en": "Maghrib (sunset)",
+      "from": "isl2-l10"
+    },
+    {
+      "id": "isha",
+      "ar": "العِشَاءُ",
+      "en": "Isha (night)",
+      "from": "isl2-l10"
+    },
+    {
+      "id": "jamaa",
+      "ar": "الجَمَاعَةُ",
+      "en": "the congregation",
+      "from": "isl2-l10"
+    }
+  ],
+  "order": {
+    "en": "Put the five prayers in order",
+    "ids": [
+      "fajr",
+      "dhuhr",
+      "asr",
+      "maghrib",
+      "isha"
+    ]
+  },
+  "games": [
+    "listen",
+    "match",
+    "order"
+  ],
+  "quiz": [
+    {
+      "en": "Which pillar of Islam is ṣalāh?",
+      "opts": [
+        [
+          "",
+          "The second",
+          1
+        ],
+        [
+          "",
+          "The fifth",
+          0
+        ],
+        [
+          "",
+          "The tenth",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Praying in jamāʿah is how many times better?",
+      "opts": [
+        [
+          "",
+          "27 times",
+          1
+        ],
+        [
+          "",
+          "2 times",
+          0
+        ],
+        [
+          "",
+          "100 times",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What does an ill person do if he cannot stand?",
+      "opts": [
+        [
+          "",
+          "Pray sitting",
+          1
+        ],
+        [
+          "",
+          "Stop praying",
+          0
+        ],
+        [
+          "",
+          "Pray next week",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The five prayers wash away sins like a river washes dirt.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which prayer is the hardest for you to pray on time? What is one thing you can do to protect it?",
+    "a": "Maybe an alarm for Fajr, or praying Asr as soon as you get home — small steps keep the prayer safe."
+  },
+  "parents": {
+    "summary": "Ṣalāh is the second pillar: five prayers at set times that wash away sins and keep us from wrong. Praying together is 27 times better, and we never drop it.",
+    "try": {
+      "ar": "الجَمَاعَةُ",
+      "translit": "al-jamāʿah",
+      "en": "the congregation"
+    },
+    "tip": "Choose one prayer this week to pray together as a family every day."
+  },
+  "video": {
+    "src": "media/isl3-l08.mp4",
+    "poster": "media/isl3-l08-poster.jpg"
+  }
+}

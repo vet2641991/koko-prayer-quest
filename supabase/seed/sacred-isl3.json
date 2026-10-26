@@ -1,0 +1,53 @@
+{
+  "about": "Owner's classification of the ISL A3 (isl3) clips that need one: the four adhkar recorded in Dr. Hassan's own voice, the Learn-card clips, and whether each card is sacred. Read by scripts/import-json.ts.",
+  "decidedBy": "Dr. Hassan Muslim (owner)",
+  "decidedOn": "2026-10-26",
+  "sacred": {
+    "approvedBy": "Dr. Hassan Muslim",
+    "approvedOn": "2026-10-26",
+    "approvalNote": "Recorded in Dr. Hassan's own voice and chosen by him (adhkar), or an exact copy of an already approved clip (بِسْمِ اللهِ); approved in the audio review page on 2026-10-26",
+    "files": [
+      {
+        "path": "audio/isl3-l06/w-fajr_add-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l06/w-hawqala-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l07/w-qad_qamat-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l13/w-talbiya-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l05/c-0-ar.mp3"
+      }
+    ]
+  },
+  "notSacred": {
+    "note": "Learn-card clips with names and terms only (no du'aa, dhikr or Qur'an); checked by Dr. Hassan by ear on 2026-10-26.",
+    "clips": [
+      {
+        "path": "audio/isl3-l06/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l08/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l16/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l21/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l23/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l24/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/isl3-l25/c-4-ar.mp3"
+      }
+    ]
+  }
+}

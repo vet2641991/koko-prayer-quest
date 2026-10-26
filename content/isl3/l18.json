@@ -1,0 +1,160 @@
+{
+  "id": "isl3-l18",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 18. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "خَدِيجَةُ رَضِيَ اللهُ عَنْهَا",
+    "en": "Khadijah (RA)"
+  },
+  "topic": "The first believer",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Khadījah bint Khuwaylid was a wise, respected businesswoman in Makkah, known for her noble character.",
+      "title": "Who was she?",
+      "ar": "خَدِيجَةُ",
+      "tr": "Khadījah"
+    },
+    {
+      "en": "She hired Muhammad ﷺ to trade for her and saw how honest he was. She asked to marry him. Theirs was a marriage of love and loyalty.",
+      "title": "An honest man"
+    },
+    {
+      "en": "Their children: al-Qāsim and ʿAbdullāh, who died young, and four daughters — Zaynab, Ruqayyah, Umm Kulthūm and Fāṭimah.",
+      "title": "Their children",
+      "ar": "فَاطِمَةُ",
+      "tr": "Fāṭimah"
+    },
+    {
+      "en": "Khadījah was the first person to believe in the Prophet ﷺ, and the first Mother of the Believers.",
+      "title": "The first believer"
+    },
+    {
+      "en": "Jibrīl told the Prophet ﷺ to give Khadījah greetings of peace from her Lord and from him, and good news of a house in Paradise. (Bukhari 3820)",
+      "title": "Salām from Allah"
+    }
+  ],
+  "words": [
+    {
+      "id": "khadija",
+      "ar": "خَدِيجَةُ",
+      "en": "Khadijah",
+      "from": "isl2-l20"
+    },
+    {
+      "id": "fatima",
+      "ar": "فَاطِمَةُ",
+      "en": "Fatimah"
+    },
+    {
+      "id": "zaynab",
+      "ar": "زَيْنَبُ",
+      "en": "Zaynab"
+    },
+    {
+      "id": "ruqayya",
+      "ar": "رُقَيَّةُ",
+      "en": "Ruqayyah"
+    },
+    {
+      "id": "ummkulthum",
+      "ar": "أُمُّ كُلْثُومٍ",
+      "en": "Umm Kulthum"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Who was the first person to believe in the Prophet ﷺ?",
+      "opts": [
+        [
+          "",
+          "Khadījah",
+          1
+        ],
+        [
+          "",
+          "Abu Lahab",
+          0
+        ],
+        [
+          "",
+          "Waraqah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "How did Khadījah learn about the Prophet's character?",
+      "opts": [
+        [
+          "",
+          "He traded honestly for her",
+          1
+        ],
+        [
+          "",
+          "From a book",
+          0
+        ],
+        [
+          "",
+          "From a dream",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet ﷺ had four daughters with Khadījah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Jibrīl brought Khadījah greetings from her Lord.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you name the Prophet's four daughters?",
+    "a": "Zaynab, Ruqayyah, Umm Kulthūm and Fāṭimah — raḍiya llāhu ʿanhunn."
+  },
+  "parents": {
+    "summary": "Khadījah was wise, generous and loyal — the first to believe and the first Mother of the Believers. Allah sent her salām and a house in Paradise.",
+    "try": {
+      "ar": "خَدِيجَةُ",
+      "translit": "Khadījah",
+      "en": "Khadijah"
+    },
+    "tip": "Ask your child to name one quality of Khadījah they want to copy."
+  },
+  "video": {
+    "src": "media/isl3-l18.mp4",
+    "poster": "media/isl3-l18-poster.jpg"
+  }
+}

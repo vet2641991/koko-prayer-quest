@@ -12,6 +12,10 @@ let work = '', url = '', db: pg.Client;
 const RECUT = 'isl1-l13';   // its audio folder is copied (not linked) so a clip can be "re-cut"
 const runImport = (...args: string[]) => runScript('import-json', work, url, ...args);
 const editJson = (path: string, fn: (doc: any) => void) => edit(work, path, fn);
+// counts derived from the repo, so a new level does not break the tests
+const CAT = JSON.parse(readFileSync('content/catalog.json', 'utf8'));
+const LESSONS: number = CAT.worlds.reduce((n: number, w: any) => n + w.units.filter((u: any) => u.file).length, 0);
+const ENTITIES: number = 1 + CAT.worlds.length + CAT.worlds.reduce((n: number, w: any) => n + w.units.length, 0) + LESSONS;
 const published = async (kind: string, id: string) =>
   (await db.query('select document from public.published_content where kind = $1 and id = $2', [kind, id])).rows[0]?.document;
 
@@ -31,10 +35,10 @@ after(async () => {
 test('first import loads everything and the round trip is identical', { skip }, async () => {
   const r = runImport();
   assert.equal(r.code, 0, r.out);
-  assert.match(r.out, /applied: \*\*183\*\* entities/);
+  assert.match(r.out, new RegExp('applied: [*][*]' + ENTITIES + '[*][*] entities'));
   assert.match(r.out, /round trip: identical/);
   const n = (await db.query(`select count(*)::int as n from public.published_content where kind = 'lesson'`)).rows[0].n;
-  assert.equal(n, 88);
+  assert.equal(n, LESSONS);
   const media = (await db.query(`select count(*)::int as n, count(*) filter (where sha256 is null or bytes is null)::int as missing
                                  from public.media_assets`)).rows[0];
   assert.ok(media.n > 800);
@@ -51,7 +55,7 @@ test('a second import changes nothing (idempotent)', { skip }, async () => {
   const before = (await db.query('select count(*)::int as n from public.content_revisions')).rows[0].n;
   const r = runImport();
   assert.equal(r.code, 0, r.out);
-  assert.match(r.out, /applied: \*\*0\*\* entities.*unchanged: 183/);
+  assert.match(r.out, new RegExp('applied: [*][*]0[*][*] entities.*unchanged: ' + ENTITIES));
   assert.equal((await db.query('select count(*)::int as n from public.content_revisions')).rows[0].n, before);
 });
 
@@ -105,6 +109,6 @@ test('invalid content is refused and the database is untouched', { skip }, async
 test('the dashboard\'s copy of lesson_document() agrees with the database for every lesson', { skip }, async () => {
   const { rowToLessonDoc, sameJson } = await import('../packages/shared/src/index.ts');
   const rows = (await db.query(`select l.*, u.world_id, public.lesson_document(l) as doc from public.lessons l join public.units u using (id)`)).rows;
-  assert.equal(rows.length, 88);
+  assert.equal(rows.length, LESSONS);
   for (const r of rows) assert.ok(sameJson(rowToLessonDoc(r, r.world_id), r.doc), r.id);
 });

@@ -1,0 +1,193 @@
+{
+  "id": "isl3-l01",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 1. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "المَاءُ طَهُورٌ",
+    "en": "Water: a gift that cleans"
+  },
+  "topic": "Why water is so special in Islam",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Water is one of Allah's greatest gifts. Every living thing needs it — people, animals and plants. Allah made every living thing from water. (Qur'an 21:30)",
+      "title": "A gift for life",
+      "ar": "المَاءُ",
+      "tr": "al-māʾ"
+    },
+    {
+      "en": "Water does another big job: it makes us clean for worship. We use it for wudu, for a full bath (ghusl), and to wash dirt off our body, clothes and prayer place.",
+      "title": "A gift for worship"
+    },
+    {
+      "en": "Allah calls rain water ṭahūr: it is clean itself, and it makes other things clean. (Qur'an 25:48)",
+      "title": "Ṭahūr: clean and cleaning",
+      "ar": "طَهُورٌ",
+      "tr": "ṭahūr"
+    },
+    {
+      "en": "How do we know water is still clean? We check three things: its colour, its taste and its smell. If something dirty falls in and changes one of them, that water is no longer clean for wudu.",
+      "title": "Colour, taste, smell"
+    },
+    {
+      "en": "Rain, snow, springs, wells, rivers, the sea and tap water are all clean. The Prophet ﷺ said about the sea: “Its water is pure.” (Tirmidhi 69)",
+      "title": "Clean water everywhere"
+    },
+    {
+      "en": "Zamzam is the blessed well in Makkah. The Prophet ﷺ said it is blessed and it is food that nourishes. (Muslim 2473)",
+      "title": "Blessed Zamzam",
+      "ar": "زَمْزَمُ",
+      "tr": "Zamzam"
+    }
+  ],
+  "words": [
+    {
+      "id": "ma",
+      "ar": "المَاءُ",
+      "en": "water",
+      "from": "isl1-l30"
+    },
+    {
+      "id": "tahur",
+      "ar": "طَهُورٌ",
+      "en": "pure and purifying"
+    },
+    {
+      "id": "matar",
+      "ar": "المَطَرُ",
+      "en": "rain",
+      "from": "isl2-l02"
+    },
+    {
+      "id": "bahr",
+      "ar": "البَحْرُ",
+      "en": "the sea",
+      "from": "isl1-l02"
+    },
+    {
+      "id": "nahr",
+      "ar": "النَّهْرُ",
+      "en": "the river"
+    },
+    {
+      "id": "zamzam",
+      "ar": "زَمْزَمُ",
+      "en": "Zamzam, the blessed well in Makkah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "What does ṭahūr mean?",
+      "opts": [
+        [
+          "",
+          "Clean, and it makes other things clean",
+          1
+        ],
+        [
+          "",
+          "Cold water",
+          0
+        ],
+        [
+          "",
+          "Salty water",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "Which three things do we check to know water is still clean?",
+      "opts": [
+        [
+          "",
+          "Colour, taste and smell",
+          1
+        ],
+        [
+          "",
+          "Size, weight and shape",
+          0
+        ],
+        [
+          "",
+          "Hot, cold and warm",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Sea water can be used for wudu.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Zamzam is a blessed well in Makkah.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? If mud makes water a little brown, it is impure.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "move": {
+    "ar": "اغْسِلْ يَدَيْكَ بِالمَاءِ!",
+    "en": "Pretend to wash your hands under a tap — rub between the fingers!"
+  },
+  "think": {
+    "q": "How many times did you use water today for worship or to stay clean?",
+    "a": "Every time you use water to make wudu or wash, you are using one of Allah's gifts. Say al-ḥamdu lillāh!"
+  },
+  "parents": {
+    "summary": "Water is Allah's gift for life and for purity. It stays clean as long as nothing impure changes its colour, taste or smell. Rain, sea and tap water are all clean.",
+    "try": {
+      "ar": "طَهُورٌ",
+      "translit": "ṭahūr",
+      "en": "pure and purifying"
+    },
+    "tip": "Put three glasses of water on the table and let your child check colour, taste and smell like a scholar."
+  },
+  "video": {
+    "src": "media/isl3-l01.mp4",
+    "poster": "media/isl3-l01-poster.jpg"
+  }
+}

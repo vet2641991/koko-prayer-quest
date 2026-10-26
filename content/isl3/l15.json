@@ -1,0 +1,157 @@
+{
+  "id": "isl3-l15",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 15. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ",
+    "en": "Prophet Ibrahim (AS)"
+  },
+  "topic": "Standing up for tawḥīd",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Ibrahim's people worshipped idols — statues they made with their own hands. Ibrahim saw that statues cannot hear, speak, help or harm.",
+      "title": "Statues can't help",
+      "ar": "إِبْرَاهِيمُ",
+      "tr": "Ibrāhīm"
+    },
+    {
+      "en": "He asked them: “What are these statues you worship?” They said: “We found our fathers worshipping them.” (Qur'an 21:52–53)",
+      "title": "A clever question"
+    },
+    {
+      "en": "While they were away, he broke the idols — all except the biggest. They asked: “Who did this?” He said: “Ask the biggest one, if they can speak!” (Qur'an 21:63)",
+      "title": "The biggest idol"
+    },
+    {
+      "en": "They knew statues can't speak, but they were too proud. They threw Ibrahim into a huge fire. Allah said: “O fire, be cool and safe for Ibrahim.” (Qur'an 21:69) And he came out unharmed!",
+      "title": "Cool and safe",
+      "ar": "النَّارُ",
+      "tr": "an-nār"
+    },
+    {
+      "en": "Tawḥīd means worshipping Allah alone — the message of every prophet. Ibrahim made people think, and spoke to his father with respect.",
+      "title": "Tawḥīd",
+      "ar": "التَّوْحِيدُ",
+      "tr": "at-tawḥīd"
+    }
+  ],
+  "words": [
+    {
+      "id": "ibrahim",
+      "ar": "إِبْرَاهِيمُ",
+      "en": "Ibrahim",
+      "from": "isl2-l07"
+    },
+    {
+      "id": "asnam",
+      "ar": "الأَصْنَامُ",
+      "en": "the idols"
+    },
+    {
+      "id": "nar",
+      "ar": "النَّارُ",
+      "en": "the fire"
+    },
+    {
+      "id": "tawhid",
+      "ar": "التَّوْحِيدُ",
+      "en": "worshipping Allah alone"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Why did Ibrahim leave the biggest idol?",
+      "opts": [
+        [
+          "",
+          "To make the people think",
+          1
+        ],
+        [
+          "",
+          "Because he was tired",
+          0
+        ],
+        [
+          "",
+          "Because it was gold",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did Allah tell the fire?",
+      "opts": [
+        [
+          "",
+          "Be cool and safe for Ibrahim",
+          1
+        ],
+        [
+          "",
+          "Burn faster",
+          0
+        ],
+        [
+          "",
+          "Go out of Makkah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Tawḥīd means worshipping Allah alone.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Ibrahim was rude to his father.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "How did Ibrahim show courage AND good manners?",
+    "a": "He stood for the truth alone, but he still spoke kindly and respectfully to his father."
+  },
+  "parents": {
+    "summary": "Ibrahim stood alone for tawḥīd. He broke the idols to make people think, and Allah made the fire cool and safe for him.",
+    "try": {
+      "ar": "التَّوْحِيدُ",
+      "translit": "at-tawḥīd",
+      "en": "worshipping Allah alone"
+    },
+    "tip": "Ask your child: “Can a toy hear you?” — then talk about why only Allah hears and helps."
+  },
+  "video": {
+    "src": "media/isl3-l15.mp4",
+    "poster": "media/isl3-l15-poster.jpg"
+  }
+}

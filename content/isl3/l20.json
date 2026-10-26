@@ -1,0 +1,152 @@
+{
+  "id": "isl3-l20",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 20. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "زَيْدُ بْنُ حَارِثَةَ",
+    "en": "Zayd ibn Harithah (RA)"
+  },
+  "topic": "The boy who chose the Prophet ﷺ",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "As a boy, Zayd was captured and sold. He came to Khadījah, and she gave him to the Prophet ﷺ.",
+      "title": "Zayd's story",
+      "ar": "زَيْدٌ",
+      "tr": "Zayd"
+    },
+    {
+      "en": "Years later his father and uncle found him. The Prophet ﷺ let Zayd choose — and Zayd chose to stay with the Prophet ﷺ! Then the Prophet ﷺ freed him.",
+      "title": "Zayd's choice"
+    },
+    {
+      "en": "People called him “Zayd ibn Muhammad”, until Allah said: “Call them by their fathers.” (Qur'an 33:5; Bukhari 4782) So he was Zayd ibn Ḥārithah again.",
+      "title": "Call them by their fathers"
+    },
+    {
+      "en": "In Islam you may raise and love a child as your own, but the child keeps the name of his real father.",
+      "title": "Keeping the real name"
+    },
+    {
+      "en": "Zayd is the only Companion whose name is in the Qur'an. (Qur'an 33:37)",
+      "title": "Named in the Qur'an"
+    }
+  ],
+  "words": [
+    {
+      "id": "zayd",
+      "ar": "زَيْدٌ",
+      "en": "Zayd"
+    },
+    {
+      "id": "haritha",
+      "ar": "حَارِثَةُ",
+      "en": "Harithah"
+    },
+    {
+      "id": "ab",
+      "ar": "الأَبُ",
+      "en": "the father"
+    },
+    {
+      "id": "ism",
+      "ar": "الاسْمُ",
+      "en": "the name"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Whom did Zayd choose to stay with?",
+      "opts": [
+        [
+          "",
+          "The Prophet ﷺ",
+          1
+        ],
+        [
+          "",
+          "A rich merchant",
+          0
+        ],
+        [
+          "",
+          "Nobody",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What did people call Zayd before Qur'an 33:5 came?",
+      "opts": [
+        [
+          "",
+          "Zayd ibn Muhammad",
+          1
+        ],
+        [
+          "",
+          "Zayd the poet",
+          0
+        ],
+        [
+          "",
+          "Zayd the king",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? Zayd's name is mentioned in the Qur'an.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? An adopted child must take a new father's name.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Why do you think Zayd preferred to stay with the Prophet ﷺ?",
+    "a": "Because of his kindness and character — he loved him more than anyone."
+  },
+  "parents": {
+    "summary": "Zayd chose to stay with the Prophet ﷺ even when his family came for him. The Qur'an taught that every child keeps his real father's name. Zayd is the only Companion named in the Qur'an.",
+    "try": {
+      "ar": "زَيْدٌ",
+      "translit": "Zayd",
+      "en": "Zayd"
+    },
+    "tip": "Talk about why our names and families matter."
+  },
+  "video": {
+    "src": "media/isl3-l20.mp4",
+    "poster": "media/isl3-l20-poster.jpg"
+  }
+}

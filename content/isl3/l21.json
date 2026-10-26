@@ -1,0 +1,155 @@
+{
+  "id": "isl3-l21",
+  "world": "isl3",
+  "source": "DHM Islamic Studies Level 3 (ISL A3) · lesson 21. Rewritten for children from Dr. Hassan's lesson; facts and references kept.",
+  "title": {
+    "ar": "غَارُ حِرَاءٍ",
+    "en": "The Cave of Hira"
+  },
+  "topic": "Quiet time with Allah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Before the revelation, the Prophet ﷺ saw true dreams — each came true like the bright morning. (Bukhari 3)",
+      "title": "True dreams"
+    },
+    {
+      "en": "Then he loved to be alone. He went to the Cave of Ḥirāʾ and worshipped Allah there for many nights. (Bukhari 3)",
+      "title": "The Cave of Ḥirāʾ",
+      "ar": "غَارُ حِرَاءٍ",
+      "tr": "Ghār Ḥirāʾ"
+    },
+    {
+      "en": "Ḥirāʾ is a small cave near the top of Jabal an-Nūr, the Mountain of Light, a few kilometres from the Kaʿbah.",
+      "title": "The Mountain of Light",
+      "ar": "جَبَلُ النُّورِ",
+      "tr": "Jabal an-Nūr",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "There he thought about Allah's creation and stayed far from idol worship. He never bowed to an idol.",
+      "title": "Thinking and worshipping"
+    },
+    {
+      "en": "Khadījah prepared food for him to take — family support matters!",
+      "title": "Family support"
+    }
+  ],
+  "words": [
+    {
+      "id": "ghar",
+      "ar": "الغَارُ",
+      "en": "the cave"
+    },
+    {
+      "id": "hira",
+      "ar": "غَارُ حِرَاءٍ",
+      "en": "the Cave of Hira"
+    },
+    {
+      "id": "jabal",
+      "ar": "الجَبَلُ",
+      "en": "the mountain"
+    },
+    {
+      "id": "nur",
+      "ar": "النُّورُ",
+      "en": "light"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "Where did the Prophet ﷺ go to worship alone?",
+      "opts": [
+        [
+          "",
+          "The Cave of Ḥirāʾ",
+          1
+        ],
+        [
+          "",
+          "The market",
+          0
+        ],
+        [
+          "",
+          "The sea",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "What is the mountain called?",
+      "opts": [
+        [
+          "",
+          "Jabal an-Nūr, the Mountain of Light",
+          1
+        ],
+        [
+          "",
+          "Mount Everest",
+          0
+        ],
+        [
+          "",
+          "Mount ʿArafah",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? The Prophet ﷺ never bowed to an idol.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Khadījah prepared his food.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Could you have 10 minutes of quiet time with Allah this week — no screens, just du'aa and a few verses?",
+    "a": "Yes! Find a quiet corner, make du'aa, and think about one thing Allah created."
+  },
+  "parents": {
+    "summary": "Before revelation, the Prophet ﷺ saw true dreams and loved to worship alone in the Cave of Ḥirāʾ on the Mountain of Light, with Khadījah's support.",
+    "try": {
+      "ar": "غَارُ حِرَاءٍ",
+      "translit": "Ghār Ḥirāʾ",
+      "en": "the Cave of Hira"
+    },
+    "tip": "Make a family “quiet corner” for du'aa and reflection."
+  },
+  "video": {
+    "src": "media/isl3-l21.mp4",
+    "poster": "media/isl3-l21-poster.jpg"
+  }
+}
