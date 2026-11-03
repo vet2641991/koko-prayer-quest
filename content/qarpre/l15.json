@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l15",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 15. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ شِين",
+    "en": "The Letter Sheen (ش)"
+  },
+  "topic": "Read and write Sheen (ش) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Sheen. Like 'sh' in 'ship' or 'shine'. Tongue back, lips slightly forward a soft hushing sound.",
+      "title": "Meet Sheen!",
+      "ar": "ش",
+      "aud": "c-0-ar",
+      "tr": "Sheen"
+    },
+    {
+      "en": "Same as Sin (three humps) but with THREE dots above. Three dots = Shin! ☀ Shin shines with THREE dots like a shining sun above three waves — Sh for Shine!",
+      "title": "How to write Sheen"
+    },
+    {
+      "en": "With a fatha, Sheen says “sha”.",
+      "title": "Sheen with fatha",
+      "ar": "شَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Sheen says “she”.",
+      "title": "Sheen with kasra",
+      "ar": "شِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Sheen says “sho”.",
+      "title": "Sheen with damma",
+      "ar": "شُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The sun is shining”",
+      "title": "Sentence of the lesson",
+      "ar": "الشَّمْسُ مُشْرِقَة",
+      "aud": "c-5-ar",
+      "tr": "Al-Shamso Moshreqah"
+    }
+  ],
+  "words": [
+    {
+      "id": "shajarah",
+      "ar": "شَجَرَة",
+      "en": "Tree",
+      "tr": "Shajarah"
+    },
+    {
+      "id": "shams",
+      "ar": "شَمْس",
+      "en": "Sun",
+      "tr": "Shams"
+    },
+    {
+      "id": "eshroon",
+      "ar": "عِشْرُون",
+      "en": "Twenty",
+      "tr": "ʿeshroon"
+    },
+    {
+      "id": "meshmesh",
+      "ar": "مِشْمِش",
+      "en": "Apricot",
+      "tr": "Meshmesh"
+    },
+    {
+      "id": "qersh",
+      "ar": "قِرْش",
+      "en": "Shark",
+      "tr": "Qersh"
+    },
+    {
+      "id": "jaysh",
+      "ar": "جَيْش",
+      "en": "Army",
+      "tr": "Jaysh"
+    },
+    {
+      "id": "sham",
+      "ar": "شَمْع",
+      "en": "Candles",
+      "tr": "Shamʿ"
+    },
+    {
+      "id": "shahr",
+      "ar": "شَهْر",
+      "en": "Month",
+      "tr": "Shahr"
+    },
+    {
+      "id": "shabakah",
+      "ar": "شَبَكَة",
+      "en": "Net",
+      "tr": "Shabakah"
+    },
+    {
+      "id": "shetaa",
+      "ar": "شِتَاء",
+      "en": "Winter",
+      "tr": "Shetaa'"
+    },
+    {
+      "id": "shebaak",
+      "ar": "شِبَّاك",
+      "en": "Window",
+      "tr": "Shebaak"
+    },
+    {
+      "id": "shebl",
+      "ar": "شِبْل",
+      "en": "Lion cub",
+      "tr": "Shebl"
+    },
+    {
+      "id": "shortah",
+      "ar": "شُرْطَة",
+      "en": "Police",
+      "tr": "Shortah"
+    },
+    {
+      "id": "sholah",
+      "ar": "شُعْلَة",
+      "en": "Flame",
+      "tr": "Shoʿlah"
+    },
+    {
+      "id": "shorook",
+      "ar": "شُرُوق",
+      "en": "Sunrise",
+      "tr": "Shorook"
+    },
+    {
+      "id": "sheraa",
+      "ar": "شِرَاع",
+      "en": "Sail",
+      "tr": "Sheraaʿ"
+    },
+    {
+      "id": "shorfah",
+      "ar": "شُرْفَة",
+      "en": "Balcony",
+      "tr": "Shorfah"
+    },
+    {
+      "id": "shaare",
+      "ar": "شَارِع",
+      "en": "Street",
+      "tr": "Shaareʿ"
+    },
+    {
+      "id": "atash",
+      "ar": "عَطَش",
+      "en": "Thirst",
+      "tr": "ʿAtash"
+    },
+    {
+      "id": "shar",
+      "ar": "شَعْر",
+      "en": "Hair",
+      "tr": "Shaʿr"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? شِرَاع means Sail.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? شُرْفَة means Street.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ش is called Sheen.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ش?",
+      "opts": [
+        [
+          "",
+          "Sheen",
+          1
+        ],
+        [
+          "",
+          "Dha (emphatic)",
+          0
+        ],
+        [
+          "",
+          "Lam",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ش in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Sheen! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Sheen (ش): Read and write Sheen (ش) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l15.mp4",
+    "poster": "media/qarpre-l15-poster.jpg"
+  }
+}

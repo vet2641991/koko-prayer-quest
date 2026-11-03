@@ -1,0 +1,251 @@
+{
+  "id": "qarpre-l12",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 12. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ رَاء",
+    "en": "The Letter Ra (ر)"
+  },
+  "topic": "Read and write Ra (ر) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ra. A rolled or trilled 'r' like Spanish 'r' in 'pero'. Tongue vibrates near the roof of mouth",
+      "title": "Meet Ra!",
+      "ar": "ر",
+      "aud": "c-0-ar",
+      "tr": "Ra"
+    },
+    {
+      "en": "A gentle curved stroke like a small wave or the number 7 upside down. No dots. Ra flows like a RIVER curve and flow! Think 'R' for River!",
+      "title": "How to write Ra"
+    },
+    {
+      "en": "With a fatha, Ra says “ra”.",
+      "title": "Ra with fatha",
+      "ar": "رَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ra says “re”.",
+      "title": "Ra with kasra",
+      "ar": "رِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ra says “ro”.",
+      "title": "Ra with damma",
+      "ar": "رُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The spring is beautiful”",
+      "title": "Sentence of the lesson",
+      "ar": "الرَّبِيعُ جَمِيلٌ",
+      "aud": "c-5-ar",
+      "tr": "Al-Rabeeʿo Jameelon"
+    }
+  ],
+  "words": [
+    {
+      "id": "rezq",
+      "ar": "رِزْقْ",
+      "en": "Provision",
+      "tr": "Rezq"
+    },
+    {
+      "id": "rajol",
+      "ar": "رَجُلْ",
+      "en": "Man",
+      "tr": "Rajol"
+    },
+    {
+      "id": "kareem",
+      "ar": "كَرِيمْ",
+      "en": "Generous",
+      "tr": "Kareem"
+    },
+    {
+      "id": "mareed",
+      "ar": "مَرِيضْ",
+      "en": "Sick",
+      "tr": "Mareed"
+    },
+    {
+      "id": "qamar",
+      "ar": "قَمَرْ",
+      "en": "Moon",
+      "tr": "Qamar"
+    },
+    {
+      "id": "nahr",
+      "ar": "نَهْرْ",
+      "en": "River",
+      "tr": "Nahr"
+    },
+    {
+      "id": "rad",
+      "ar": "رَعْدْ",
+      "en": "Thunder",
+      "tr": "Raʿd"
+    },
+    {
+      "id": "ras",
+      "ar": "رَأْسْ",
+      "en": "Head",
+      "tr": "Ra's"
+    },
+    {
+      "id": "ramal",
+      "ar": "رَمْلْ",
+      "en": "Sand",
+      "tr": "Ramal"
+    },
+    {
+      "id": "reeh",
+      "ar": "رِيحْ",
+      "en": "Wind",
+      "tr": "Reeh"
+    },
+    {
+      "id": "resaalah",
+      "ar": "رِسَالَه",
+      "en": "Message",
+      "tr": "Resaalah"
+    },
+    {
+      "id": "rooh",
+      "ar": "رُوحْ",
+      "en": "Soul/Spirit",
+      "tr": "Rooh"
+    },
+    {
+      "id": "rommaan",
+      "ar": "رُمَّانْ",
+      "en": "Pomegranate",
+      "tr": "Rommaan"
+    },
+    {
+      "id": "rokbah",
+      "ar": "رُكْبَه",
+      "en": "Knee",
+      "tr": "Rokbah"
+    },
+    {
+      "id": "ragheef",
+      "ar": "رَغِيفْ",
+      "en": "Loaf",
+      "tr": "Ragheef"
+    },
+    {
+      "id": "romh",
+      "ar": "رُمْحْ",
+      "en": "Shaft",
+      "tr": "Romh"
+    },
+    {
+      "id": "rayhaan",
+      "ar": "رَيْحَانْ",
+      "en": "Basil",
+      "tr": "Rayhaan"
+    },
+    {
+      "id": "rafd",
+      "ar": "رَفْضْ",
+      "en": "Refuse",
+      "tr": "Rafd"
+    },
+    {
+      "id": "rakhees",
+      "ar": "رَخِيصْ",
+      "en": "Cheap",
+      "tr": "Rakhees"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? رَغِيفْ means Loaf.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? رُمْحْ means Basil.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ر is called Ra.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ر?",
+      "opts": [
+        [
+          "",
+          "Ra",
+          1
+        ],
+        [
+          "",
+          "Sad",
+          0
+        ],
+        [
+          "",
+          "Fa",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ر in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ra! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ra (ر): Read and write Ra (ر) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l12.mp4",
+    "poster": "media/qarpre-l12-poster.jpg"
+  }
+}

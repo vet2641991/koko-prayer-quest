@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l16",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 16. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ صَاد",
+    "en": "The Letter Sad (ص)"
+  },
+  "topic": "Read and write Sad (ص) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Sad. Like 's' in 'sun', but push your tongue to the roof of your mouth — deeper, heavier!",
+      "title": "Meet Sad!",
+      "ar": "ص",
+      "aud": "c-0-ar",
+      "tr": "Sad"
+    },
+    {
+      "en": "A large oval loop with a small tooth on top and a tail extending to the right. Sad looks like a big CIRCLE with a bump — it's the heavy version of Sin!",
+      "title": "How to write Sad"
+    },
+    {
+      "en": "With a fatha, Sad says “sa”.",
+      "title": "Sad with fatha",
+      "ar": "صَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Sad says “se”.",
+      "title": "Sad with kasra",
+      "ar": "صِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Sad says “so”.",
+      "title": "Sad with damma",
+      "ar": "صُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Patience is the key to relief”",
+      "title": "Sentence of the lesson",
+      "ar": "الصَّبْرُ مِفْتَاحُ الفَرَج",
+      "aud": "c-5-ar",
+      "tr": "Al-Sabru Miftahu Al-Faraj"
+    }
+  ],
+  "words": [
+    {
+      "id": "sabr",
+      "ar": "صَبْر",
+      "en": "Patience",
+      "tr": "Sabr"
+    },
+    {
+      "id": "salah",
+      "ar": "صَلَاة",
+      "en": "Prayer",
+      "tr": "Salah"
+    },
+    {
+      "id": "mesr",
+      "ar": "مِصْر",
+      "en": "Egypt",
+      "tr": "Mesr"
+    },
+    {
+      "id": "naseha",
+      "ar": "نَصِيحَة",
+      "en": "Advice",
+      "tr": "Naseha"
+    },
+    {
+      "id": "rakhees",
+      "ar": "رَخِيص",
+      "en": "Cheap",
+      "tr": "Rakhees"
+    },
+    {
+      "id": "qass",
+      "ar": "قَصّ",
+      "en": "Cut",
+      "tr": "Qass"
+    },
+    {
+      "id": "sabaah",
+      "ar": "صَبَاح",
+      "en": "Morning",
+      "tr": "Sabaah"
+    },
+    {
+      "id": "saarokh",
+      "ar": "صَارُوخ",
+      "en": "Rocket",
+      "tr": "Saarokh"
+    },
+    {
+      "id": "sayyaad",
+      "ar": "صَيَّاد",
+      "en": "Hunter",
+      "tr": "Sayyaad"
+    },
+    {
+      "id": "seyyaam",
+      "ar": "صِيَام",
+      "en": "Fasting",
+      "tr": "Seyyaam"
+    },
+    {
+      "id": "seghaar",
+      "ar": "صِغَار",
+      "en": "Young children",
+      "tr": "Seghaar"
+    },
+    {
+      "id": "sefr",
+      "ar": "صِفْر",
+      "en": "Zero",
+      "tr": "Sefr"
+    },
+    {
+      "id": "soof",
+      "ar": "صُوف",
+      "en": "Wool",
+      "tr": "Soof"
+    },
+    {
+      "id": "soorah",
+      "ar": "صُورَة",
+      "en": "Picture",
+      "tr": "Soorah"
+    },
+    {
+      "id": "soomal",
+      "ar": "صُومَال",
+      "en": "Somalia",
+      "tr": "Soomal"
+    },
+    {
+      "id": "saheefah",
+      "ar": "صَحِيفَة",
+      "en": "Newspaper",
+      "tr": "Saheefah"
+    },
+    {
+      "id": "saharaa",
+      "ar": "صَحْرَاء",
+      "en": "Desert",
+      "tr": "Saharaa'"
+    },
+    {
+      "id": "senaaah",
+      "ar": "صِنَاعَة",
+      "en": "Industry",
+      "tr": "Senaaʿah"
+    },
+    {
+      "id": "sohoon",
+      "ar": "صُحُون",
+      "en": "Plates",
+      "tr": "Sohoon"
+    },
+    {
+      "id": "sehhah",
+      "ar": "صِحَّة",
+      "en": "Health",
+      "tr": "Sehhah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? صَحِيفَة means Newspaper.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? صَحْرَاء means Industry.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ص is called Sad.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ص?",
+      "opts": [
+        [
+          "",
+          "Sad",
+          1
+        ],
+        [
+          "",
+          "Ain",
+          0
+        ],
+        [
+          "",
+          "Mim",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ص in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Sad! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Sad (ص): Read and write Sad (ص) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l16.mp4",
+    "poster": "media/qarpre-l16-poster.jpg"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l18",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 18. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ طَاء",
+    "en": "The Letter Ta (emphatic) (ط)"
+  },
+  "topic": "Read and write Ta (emphatic) (ط) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ta (emphatic). Emphatic 'T' — heavier and deeper than regular Ta. The tongue presses the upper teeth hard.",
+      "title": "Meet Ta (emphatic)!",
+      "ar": "ط",
+      "aud": "c-0-ar",
+      "tr": "Ta (emphatic)"
+    },
+    {
+      "en": "Like a loop with a long vertical stroke going up on the right side. Ta looks like a JUG or VESSEL with a handle. The emphatic version of Ta!",
+      "title": "How to write Ta (emphatic)"
+    },
+    {
+      "en": "With a fatha, heavy Ta says “ta”.",
+      "title": "Ta (emphatic) with fatha",
+      "ar": "طَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, heavy Ta says “te”.",
+      "title": "Ta (emphatic) with kasra",
+      "ar": "طِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, heavy Ta says “to”.",
+      "title": "Ta (emphatic) with damma",
+      "ar": "طُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The food is delicious”",
+      "title": "Sentence of the lesson",
+      "ar": "الطَّعَامُ لَذِيذٌ",
+      "aud": "c-5-ar",
+      "tr": "Al-Ta'amu Ladhidh"
+    }
+  ],
+  "words": [
+    {
+      "id": "tareeq",
+      "ar": "طَرِيق",
+      "en": "Road",
+      "tr": "Tareeq"
+    },
+    {
+      "id": "taer",
+      "ar": "طَائِر",
+      "en": "Bird",
+      "tr": "Ta'er"
+    },
+    {
+      "id": "batal",
+      "ar": "بَطَل",
+      "en": "Hero",
+      "tr": "Batal"
+    },
+    {
+      "id": "matar",
+      "ar": "مَطَر",
+      "en": "Rain",
+      "tr": "Matar"
+    },
+    {
+      "id": "okhtoboot",
+      "ar": "أُخْطُبُوط",
+      "en": "Octopus",
+      "tr": "Okhtoboot"
+    },
+    {
+      "id": "daabet",
+      "ar": "ضَابِط",
+      "en": "Officer",
+      "tr": "Daabet"
+    },
+    {
+      "id": "tabeeb",
+      "ar": "طَبِيب",
+      "en": "Doctor",
+      "tr": "Tabeeb"
+    },
+    {
+      "id": "taawows",
+      "ar": "طَاوُوس",
+      "en": "Peacock",
+      "tr": "Taawows"
+    },
+    {
+      "id": "taam",
+      "ar": "طَعَام",
+      "en": "Food",
+      "tr": "Taʿam"
+    },
+    {
+      "id": "tefl",
+      "ar": "طِفْل",
+      "en": "Child",
+      "tr": "Tefl"
+    },
+    {
+      "id": "telaa",
+      "ar": "طِلَاء",
+      "en": "Paint",
+      "tr": "Telaa’"
+    },
+    {
+      "id": "tebaaah",
+      "ar": "طِبَاعَة",
+      "en": "Print",
+      "tr": "Tebaaʿah"
+    },
+    {
+      "id": "toyoor",
+      "ar": "طُيُور",
+      "en": "Birds",
+      "tr": "Toyoor"
+    },
+    {
+      "id": "tolaab",
+      "ar": "طُلَّاب",
+      "en": "Students",
+      "tr": "Tolaab"
+    },
+    {
+      "id": "tomooh",
+      "ar": "طُمُوح",
+      "en": "Ambition",
+      "tr": "Tomooh"
+    },
+    {
+      "id": "taahe",
+      "ar": "طَاهِي",
+      "en": "Chef",
+      "tr": "Taahe"
+    },
+    {
+      "id": "tayyaar",
+      "ar": "طَيَّار",
+      "en": "Pilot",
+      "tr": "Tayyaar"
+    },
+    {
+      "id": "toob",
+      "ar": "طُوب",
+      "en": "Brick",
+      "tr": "Toob"
+    },
+    {
+      "id": "tamaatem",
+      "ar": "طَمَاطِم",
+      "en": "Tomatoes",
+      "tr": "Tamaatem"
+    },
+    {
+      "id": "teen",
+      "ar": "طِين",
+      "en": "Clay",
+      "tr": "Teen"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? طَاهِي means Chef.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? طَيَّار means Brick.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ط is called Ta (emphatic).",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ط?",
+      "opts": [
+        [
+          "",
+          "Ta (emphatic)",
+          1
+        ],
+        [
+          "",
+          "Fa",
+          0
+        ],
+        [
+          "",
+          "Ha",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ط in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ta (emphatic)! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ta (emphatic) (ط): Read and write Ta (emphatic) (ط) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l18.mp4",
+    "poster": "media/qarpre-l18-poster.jpg"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l20",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 20. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ عَيْن",
+    "en": "The Letter Ain (ع)"
+  },
+  "topic": "Read and write Ain (ع) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ain. A deep throat sound, like saying 'ah' while tightening your throat. No English equivalent!",
+      "title": "Meet Ain!",
+      "ar": "ع",
+      "aud": "c-0-ar",
+      "tr": "Ain"
+    },
+    {
+      "en": "Looks like a small eye or fishhook: an open curve at the top that closes at the bottom. Ain means EYE in Arabic and the letter looks like an eye! Say it from your throat.",
+      "title": "How to write Ain"
+    },
+    {
+      "en": "With a fatha, Ain says “a”.",
+      "title": "Ain with fatha",
+      "ar": "عَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ain says “e”.",
+      "title": "Ain with kasra",
+      "ar": "عِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ain says “o”.",
+      "title": "Ain with damma",
+      "ar": "عُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Knowledge is light”",
+      "title": "Sentence of the lesson",
+      "ar": "العِلْمُ نُورٌ",
+      "aud": "c-5-ar",
+      "tr": "Al-ʿelme Noor"
+    }
+  ],
+  "words": [
+    {
+      "id": "enab",
+      "ar": "عِنَب",
+      "en": "Grapes",
+      "tr": "ʿenab"
+    },
+    {
+      "id": "ayn",
+      "ar": "عَيْن",
+      "en": "Eye",
+      "tr": "ʿayn"
+    },
+    {
+      "id": "taleem",
+      "ar": "تَعْلِيم",
+      "en": "Education",
+      "tr": "Taʿleem"
+    },
+    {
+      "id": "thalab",
+      "ar": "ثَعْلَب",
+      "en": "Fox",
+      "tr": "Thaʿlab"
+    },
+    {
+      "id": "rabe",
+      "ar": "رَبِيع",
+      "en": "Spring",
+      "tr": "Rabeʿ"
+    },
+    {
+      "id": "samaa",
+      "ar": "سَمَاع",
+      "en": "Listening",
+      "tr": "Samaaʿ"
+    },
+    {
+      "id": "asal",
+      "ar": "عَسَل",
+      "en": "Honey",
+      "tr": "ʿasal"
+    },
+    {
+      "id": "aroos",
+      "ar": "عَرُوس",
+      "en": "Bride",
+      "tr": "ʿaroos"
+    },
+    {
+      "id": "aqrab",
+      "ar": "عَقْرَب",
+      "en": "Scorpion",
+      "tr": "ʿaqrab"
+    },
+    {
+      "id": "etr",
+      "ar": "عِطْر",
+      "en": "Perfume",
+      "tr": "ʿetr"
+    },
+    {
+      "id": "egl",
+      "ar": "عِجْل",
+      "en": "Calf",
+      "tr": "ʿegl"
+    },
+    {
+      "id": "emlaaq",
+      "ar": "عِمْلَاق",
+      "en": "Giant",
+      "tr": "ʿemlaaq"
+    },
+    {
+      "id": "oshb",
+      "ar": "عُشْب",
+      "en": "Grass",
+      "tr": "ʿoshb"
+    },
+    {
+      "id": "osh",
+      "ar": "عُشّ",
+      "en": "Nest",
+      "tr": "ʿosh"
+    },
+    {
+      "id": "osfoor",
+      "ar": "عُصْفُور",
+      "en": "Sparrow",
+      "tr": "ʿosfoor"
+    },
+    {
+      "id": "olbah",
+      "ar": "عُلْبَة",
+      "en": "Can",
+      "tr": "ʿolbah"
+    },
+    {
+      "id": "ankaboot",
+      "ar": "عَنْكَبُوت",
+      "en": "Spider",
+      "tr": "ʿankaboot"
+    },
+    {
+      "id": "oqdah",
+      "ar": "عُقْدَة",
+      "en": "Knot",
+      "tr": "ʿoqdah"
+    },
+    {
+      "id": "aql",
+      "ar": "عَقْل",
+      "en": "Mind",
+      "tr": "ʿaql"
+    },
+    {
+      "id": "alam",
+      "ar": "عَلَم",
+      "en": "Flag",
+      "tr": "ʿalam"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? عُلْبَة means Can.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? عَنْكَبُوت means Knot.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ع is called Ain.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ع?",
+      "opts": [
+        [
+          "",
+          "Ain",
+          1
+        ],
+        [
+          "",
+          "Kaf",
+          0
+        ],
+        [
+          "",
+          "Ya",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ع in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ain! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ain (ع): Read and write Ain (ع) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

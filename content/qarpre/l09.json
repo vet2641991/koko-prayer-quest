@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l09",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 9. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ خَاء",
+    "en": "The Letter Khaa (خ)"
+  },
+  "topic": "Read and write Khaa (خ) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Khaa. Like the 'ch' in Scottish 'loch' or German 'Bach'. A raspy sound from the back of the throat.",
+      "title": "Meet Khaa!",
+      "ar": "خ",
+      "aud": "c-0-ar",
+      "tr": "Khaa"
+    },
+    {
+      "en": "Same shape as Ha but with a single dot ON TOP. Dot above = Kha! Kha is Ha with a hat (a dot on top). The dot gives it its special raspy sound!",
+      "title": "How to write Khaa"
+    },
+    {
+      "en": "With a fatha, Khaa says “kha”.",
+      "title": "Khaa with fatha",
+      "ar": "خَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Khaa says “khe”.",
+      "title": "Khaa with kasra",
+      "ar": "خِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Khaa says “kho”.",
+      "title": "Khaa with damma",
+      "ar": "خُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The Bread Is Fresh”",
+      "title": "Sentence of the lesson",
+      "ar": "الْخُبْزُ طَازَجْ",
+      "aud": "c-5-ar",
+      "tr": "AL-Khobzo Taazaj"
+    }
+  ],
+  "words": [
+    {
+      "id": "kharef",
+      "ar": "خَرِيفْ",
+      "en": "Autumn",
+      "tr": "Kharef"
+    },
+    {
+      "id": "khobz",
+      "ar": "خُبْزْ",
+      "en": "Bread",
+      "tr": "Khobz"
+    },
+    {
+      "id": "makhbaz",
+      "ar": "مَخْبَزْ",
+      "en": "Bakery",
+      "tr": "Makhbaz"
+    },
+    {
+      "id": "nakhlah",
+      "ar": "نَخْلَه",
+      "en": "Palm tree",
+      "tr": "Nakhlah"
+    },
+    {
+      "id": "tarekh",
+      "ar": "تَارِيخْ",
+      "en": "History",
+      "tr": "Tarekh"
+    },
+    {
+      "id": "shaykh",
+      "ar": "شَيْخْ",
+      "en": "Sheikh",
+      "tr": "Shaykh"
+    },
+    {
+      "id": "khayl",
+      "ar": "خَيْلْ",
+      "en": "Horse",
+      "tr": "Khayl"
+    },
+    {
+      "id": "kharoof",
+      "ar": "خَرُوفْ",
+      "en": "Sheep",
+      "tr": "Kharoof"
+    },
+    {
+      "id": "khaal",
+      "ar": "خَالْ",
+      "en": "Uncle (maternal)",
+      "tr": "Khaal"
+    },
+    {
+      "id": "kheyaar",
+      "ar": "خِيَارْ",
+      "en": "Cucumber",
+      "tr": "Kheyaar"
+    },
+    {
+      "id": "khemaar",
+      "ar": "خِمَارْ",
+      "en": "Veil",
+      "tr": "Khemaar"
+    },
+    {
+      "id": "khelaafah",
+      "ar": "خِلافَه",
+      "en": "Caliphate",
+      "tr": "Khelaafah"
+    },
+    {
+      "id": "khoffaash",
+      "ar": "خُفَّاشْ",
+      "en": "Bat",
+      "tr": "Khoffaash"
+    },
+    {
+      "id": "khodaar",
+      "ar": "خُضَارْ",
+      "en": "Vegetables",
+      "tr": "Khodaar"
+    },
+    {
+      "id": "khotbah",
+      "ar": "خُطْبَه",
+      "en": "Speech",
+      "tr": "Khotbah"
+    },
+    {
+      "id": "khetm",
+      "ar": "خِتْمْ",
+      "en": "Stamp",
+      "tr": "Khetm"
+    },
+    {
+      "id": "khareetah",
+      "ar": "خَرِيطَه",
+      "en": "Map",
+      "tr": "Khareetah"
+    },
+    {
+      "id": "khosoof",
+      "ar": "خُسُوفْ",
+      "en": "Eclipse",
+      "tr": "Khosoof"
+    },
+    {
+      "id": "khas",
+      "ar": "خَسْ",
+      "en": "Lettuce",
+      "tr": "Khas"
+    },
+    {
+      "id": "khawkh",
+      "ar": "خَوْخْ",
+      "en": "Peach",
+      "tr": "Khawkh"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? خِتْمْ means Stamp.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? خَرِيطَه means Eclipse.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? خ is called Khaa.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of خ?",
+      "opts": [
+        [
+          "",
+          "Khaa",
+          1
+        ],
+        [
+          "",
+          "Zayn",
+          0
+        ],
+        [
+          "",
+          "Dha (emphatic)",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find خ in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Khaa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Khaa (خ): Read and write Khaa (خ) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l09.mp4",
+    "poster": "media/qarpre-l09-poster.jpg"
+  }
+}

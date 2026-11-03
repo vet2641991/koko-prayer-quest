@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l04",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 4. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ بَاء",
+    "en": "The Letter Baa (ب)"
+  },
+  "topic": "Read and write Baa (ب) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Baa. Like 'b' in 'book'. A strong lip sound press both lips together then release.",
+      "title": "Meet Baa!",
+      "ar": "ب",
+      "aud": "c-0-ar",
+      "tr": "Baa"
+    },
+    {
+      "en": "A flat base line with a single dot BELOW it. Draw the line first, then add the dot. The dot under Ba looks like a BOAT Ba rides below the line!",
+      "title": "How to write Baa"
+    },
+    {
+      "en": "With a fatha, Baa says “ba”.",
+      "title": "Baa with fatha",
+      "ar": "بَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Baa says “be”.",
+      "title": "Baa with kasra",
+      "ar": "بِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Baa says “bo”.",
+      "title": "Baa with damma",
+      "ar": "بُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“This house is big”",
+      "title": "Sentence of the lesson",
+      "ar": "هَذَا الْبَيْتُ كَبِيرْ",
+      "aud": "c-5-ar",
+      "tr": "Hatha Al-Bayto Kabir"
+    }
+  ],
+  "words": [
+    {
+      "id": "bab",
+      "ar": "بَابْ",
+      "en": "Door",
+      "tr": "Bab"
+    },
+    {
+      "id": "bayto",
+      "ar": "بَيْتُ",
+      "en": "House",
+      "tr": "Bayto"
+    },
+    {
+      "id": "sabah",
+      "ar": "صَبَاحْ",
+      "en": "Morning",
+      "tr": "Sabah"
+    },
+    {
+      "id": "tabaq",
+      "ar": "طَبَقْ",
+      "en": "Dish",
+      "tr": "Tabaq"
+    },
+    {
+      "id": "qalb",
+      "ar": "قَلْبْ",
+      "en": "Heart",
+      "tr": "Qalb"
+    },
+    {
+      "id": "kalb",
+      "ar": "كَلْبْ",
+      "en": "Dog",
+      "tr": "Kalb"
+    },
+    {
+      "id": "baqarah",
+      "ar": "بَقَرَه",
+      "en": "Cow",
+      "tr": "Baqarah"
+    },
+    {
+      "id": "bahr",
+      "ar": "بَحْرْ",
+      "en": "Sea",
+      "tr": "Bahr"
+    },
+    {
+      "id": "baydah",
+      "ar": "بَيْضَه",
+      "en": "Egg",
+      "tr": "Baydah"
+    },
+    {
+      "id": "bir",
+      "ar": "بِئْر",
+      "en": "Well",
+      "tr": "Bi'r"
+    },
+    {
+      "id": "bint",
+      "ar": "بِنْتْ",
+      "en": "Girl",
+      "tr": "Bint"
+    },
+    {
+      "id": "bina",
+      "ar": "بِنَاء",
+      "en": "Building",
+      "tr": "Bina'"
+    },
+    {
+      "id": "bortuqal",
+      "ar": "بُرْتُقَالْ",
+      "en": "Orange",
+      "tr": "BOrtuqal"
+    },
+    {
+      "id": "bostan",
+      "ar": "بُسْتَانْ",
+      "en": "Garden",
+      "tr": "BOstan"
+    },
+    {
+      "id": "borj",
+      "ar": "بُرْجْ",
+      "en": "Tower",
+      "tr": "BOrj"
+    },
+    {
+      "id": "batth",
+      "ar": "بَطَّة",
+      "en": "Duck",
+      "tr": "Batth"
+    },
+    {
+      "id": "bettekh",
+      "ar": "بِطِّيخ",
+      "en": "Watermelon",
+      "tr": "Bettekh"
+    },
+    {
+      "id": "betreeq",
+      "ar": "بِطْرِيق",
+      "en": "Penguin",
+      "tr": "Betreeq"
+    },
+    {
+      "id": "bomah",
+      "ar": "بُومَه",
+      "en": "Owl",
+      "tr": "Bomah"
+    },
+    {
+      "id": "bothoor",
+      "ar": "بُذُور",
+      "en": "Seeds",
+      "tr": "Bothoor"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? بَطَّة means Duck.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? بِطِّيخ means Penguin.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ب is called Baa.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ب?",
+      "opts": [
+        [
+          "",
+          "Baa",
+          1
+        ],
+        [
+          "",
+          "Ha",
+          0
+        ],
+        [
+          "",
+          "Seen",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ب in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Baa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Baa (ب): Read and write Baa (ب) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l04.mp4",
+    "poster": "media/qarpre-l04-poster.jpg"
+  }
+}

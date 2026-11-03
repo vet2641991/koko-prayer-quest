@@ -1,0 +1,245 @@
+{
+  "id": "qarpre-l06",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 6. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ ثَاء",
+    "en": "The Letter Tha (ث)"
+  },
+  "topic": "Read and write Tha (ث) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Tha. Like 'th' in 'three' or 'think'. Put your tongue between your teeth and blow air!",
+      "title": "Meet Tha!",
+      "ar": "ث",
+      "aud": "c-0-ar",
+      "tr": "Tha"
+    },
+    {
+      "en": "Same base as Ba/Ta but with THREE dots above. Three dots = Tha! Tha has THREE dots, and 'three' starts with 'th' just like Tha's sound!",
+      "title": "How to write Tha"
+    },
+    {
+      "en": "With a fatha, Tha says “tha”.",
+      "title": "Tha with fatha",
+      "ar": "ثَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Tha says “the”.",
+      "title": "Tha with kasra",
+      "ar": "ثِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Tha says “tho”.",
+      "title": "Tha with damma",
+      "ar": "ثُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The fox is smart”",
+      "title": "Sentence of the lesson",
+      "ar": "الثَّعْلَبُ ذَكِيٌّ",
+      "aud": "c-5-ar",
+      "tr": "Al-Tha'labo Dhakiyyon"
+    }
+  ],
+  "words": [
+    {
+      "id": "thalab",
+      "ar": "ثَعْلَبْ",
+      "en": "Fox",
+      "tr": "Tha'lab"
+    },
+    {
+      "id": "thamara",
+      "ar": "ثَمَرَه",
+      "en": "Fruit",
+      "tr": "Thamara"
+    },
+    {
+      "id": "kather",
+      "ar": "كَثِيرْ",
+      "en": "Many",
+      "tr": "Kather"
+    },
+    {
+      "id": "mathal",
+      "ar": "مَثَلْ",
+      "en": "Example",
+      "tr": "Mathal"
+    },
+    {
+      "id": "hadith",
+      "ar": "حَدِيثْ",
+      "en": "Speech",
+      "tr": "Hadith"
+    },
+    {
+      "id": "layth",
+      "ar": "لَيْثْ",
+      "en": "Lion",
+      "tr": "Layth"
+    },
+    {
+      "id": "thawb",
+      "ar": "ثَوْبْ",
+      "en": "Garment",
+      "tr": "Thawb"
+    },
+    {
+      "id": "theqah",
+      "ar": "ثِقَه",
+      "en": "Trust",
+      "tr": "Theqah"
+    },
+    {
+      "id": "themar",
+      "ar": "ثِمَارْ",
+      "en": "Fruits",
+      "tr": "Themar"
+    },
+    {
+      "id": "theyab",
+      "ar": "ثِيَابْ",
+      "en": "Clothes",
+      "tr": "Theyab"
+    },
+    {
+      "id": "tholoth",
+      "ar": "ثُلُثْ",
+      "en": "One third",
+      "tr": "Tholoth"
+    },
+    {
+      "id": "thomma",
+      "ar": "ثُمَّ",
+      "en": "Then",
+      "tr": "Thomma"
+    },
+    {
+      "id": "thoqob",
+      "ar": "ثُقُوبْ",
+      "en": "Holes",
+      "tr": "Thoqob"
+    },
+    {
+      "id": "thawr",
+      "ar": "ثَوْرْ",
+      "en": "Bull",
+      "tr": "Thawr"
+    },
+    {
+      "id": "thawm",
+      "ar": "ثَوْمْ",
+      "en": "Garlic",
+      "tr": "Thawm"
+    },
+    {
+      "id": "thalj",
+      "ar": "ثَلْجْ",
+      "en": "Ice",
+      "tr": "Thalj"
+    },
+    {
+      "id": "thamaaneyah",
+      "ar": "ثَمَانِيَه",
+      "en": "Eight",
+      "tr": "Thamaaneyah"
+    },
+    {
+      "id": "thobaan",
+      "ar": "ثُعْبَانْ",
+      "en": "Snake",
+      "tr": "Thoʿbaan"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? ثَوْرْ means Bull.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ثَوْمْ means Ice.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ث is called Tha.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ث?",
+      "opts": [
+        [
+          "",
+          "Tha",
+          1
+        ],
+        [
+          "",
+          "Daal",
+          0
+        ],
+        [
+          "",
+          "Sad",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ث in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Tha! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Tha (ث): Read and write Tha (ث) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l06.mp4",
+    "poster": "media/qarpre-l06-poster.jpg"
+  }
+}

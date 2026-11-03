@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l27",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 27. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ نُون",
+    "en": "The Letter Nun (ن)"
+  },
+  "topic": "Read and write Nun (ن) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Nun. Like 'n' in 'noon' or 'name'. Tongue tip behind upper teeth — a nasal sound!",
+      "title": "Meet Nun!",
+      "ar": "ن",
+      "aud": "c-0-ar",
+      "tr": "Nun"
+    },
+    {
+      "en": "A small curved bowl shape with ONE dot on top — like a little cup with a dot! Nun looks like a little CUP or BOWL with a dot on top. N for Noon!",
+      "title": "How to write Nun"
+    },
+    {
+      "en": "With a fatha, Nun says “na”.",
+      "title": "Nun with fatha",
+      "ar": "نَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Nun says “ne”.",
+      "title": "Nun with kasra",
+      "ar": "نِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Nun says “no”.",
+      "title": "Nun with damma",
+      "ar": "نُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Light fills the heart”",
+      "title": "Sentence of the lesson",
+      "ar": "النُّورُ يَمْلَأُ القَلْبَ",
+      "aud": "c-5-ar",
+      "tr": "Al-Nuru Yamla'u Al-Qalb"
+    }
+  ],
+  "words": [
+    {
+      "id": "noor",
+      "ar": "نُور",
+      "en": "Light",
+      "tr": "Noor"
+    },
+    {
+      "id": "nahr",
+      "ar": "نَهْر",
+      "en": "River",
+      "tr": "Nahr"
+    },
+    {
+      "id": "ensaan",
+      "ar": "إِنْسَان",
+      "en": "Human",
+      "tr": "Ensaan"
+    },
+    {
+      "id": "manaarah",
+      "ar": "مَنَارَة",
+      "en": "Minaret",
+      "tr": "Manaarah"
+    },
+    {
+      "id": "gobn",
+      "ar": "جُبْن",
+      "en": "Cheese",
+      "tr": "Gobn"
+    },
+    {
+      "id": "romman",
+      "ar": "رُمَّان",
+      "en": "Pomegranate",
+      "tr": "Romman"
+    },
+    {
+      "id": "namlah",
+      "ar": "نَمْلَة",
+      "en": "Ant",
+      "tr": "Namlah"
+    },
+    {
+      "id": "nahlah",
+      "ar": "نَحْلَة",
+      "en": "Bee",
+      "tr": "Nahlah"
+    },
+    {
+      "id": "najm",
+      "ar": "نَجْم",
+      "en": "Star",
+      "tr": "Najm"
+    },
+    {
+      "id": "nesr",
+      "ar": "نِسْر",
+      "en": "Eagle",
+      "tr": "Nesr"
+    },
+    {
+      "id": "nesaa",
+      "ar": "نِسَاء",
+      "en": "Women",
+      "tr": "Nesaa'"
+    },
+    {
+      "id": "nesf",
+      "ar": "نِصْف",
+      "en": "Half",
+      "tr": "Nesf"
+    },
+    {
+      "id": "noqood",
+      "ar": "نُقُود",
+      "en": "Cash",
+      "tr": "Noqood"
+    },
+    {
+      "id": "nomoor",
+      "ar": "نُمُور",
+      "en": "Tigers",
+      "tr": "Nomoor"
+    },
+    {
+      "id": "nohaas",
+      "ar": "نُحَاس",
+      "en": "Copper",
+      "tr": "Nohaas"
+    },
+    {
+      "id": "nozhah",
+      "ar": "نُزْهَة",
+      "en": "Picnic",
+      "tr": "Nozhah"
+    },
+    {
+      "id": "nazzarah",
+      "ar": "نَظَّارَة",
+      "en": "Glasses",
+      "tr": "Nazzarah"
+    },
+    {
+      "id": "naafethah",
+      "ar": "نَافِذَة",
+      "en": "Window",
+      "tr": "Naafethah"
+    },
+    {
+      "id": "naaamah",
+      "ar": "نَعَامَة",
+      "en": "Ostrich",
+      "tr": "Naʿaamah"
+    },
+    {
+      "id": "nofaayaat",
+      "ar": "نُفَايَات",
+      "en": "Wastes",
+      "tr": "Nofaayaat"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? نُزْهَة means Picnic.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? نَظَّارَة means Window.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ن is called Nun.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ن?",
+      "opts": [
+        [
+          "",
+          "Nun",
+          1
+        ],
+        [
+          "",
+          "Alef",
+          0
+        ],
+        [
+          "",
+          "Khaa",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ن in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Nun! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Nun (ن): Read and write Nun (ن) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

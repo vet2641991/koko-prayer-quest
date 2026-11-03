@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l10",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 10. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ دَال",
+    "en": "The Letter Daal (د)"
+  },
+  "topic": "Read and write Daal (د) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Daal. Like 'd' in 'door'. Tongue touches the upper teeth same position as English 'd'.",
+      "title": "Meet Daal!",
+      "ar": "د",
+      "aud": "c-0-ar",
+      "tr": "Daal"
+    },
+    {
+      "en": "A small angular shape like a boomerang or a reverse tick. No dots. Dal looks like a DOOR from the side. 'D' for Door just like in English!",
+      "title": "How to write Daal"
+    },
+    {
+      "en": "With a fatha, Daal says “da”.",
+      "title": "Daal with fatha",
+      "ar": "دَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Daal says “de”.",
+      "title": "Daal with kasra",
+      "ar": "دِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Daal says “do”.",
+      "title": "Daal with damma",
+      "ar": "دُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The lesson is excellent”",
+      "title": "Sentence of the lesson",
+      "ar": "الدَّرْسُ مُمْتَازْ",
+      "aud": "c-5-ar",
+      "tr": "Al-Darso Momtaz"
+    }
+  ],
+  "words": [
+    {
+      "id": "deen",
+      "ar": "دِينْ",
+      "en": "Religion",
+      "tr": "Deen"
+    },
+    {
+      "id": "dars",
+      "ar": "دَرْسْ",
+      "en": "Lesson",
+      "tr": "Dars"
+    },
+    {
+      "id": "defda",
+      "ar": "ضِفْدَعْ",
+      "en": "Frog",
+      "tr": "Defdaʿ"
+    },
+    {
+      "id": "madrasah",
+      "ar": "مَدْرَسَه",
+      "en": "School",
+      "tr": "Madrasah"
+    },
+    {
+      "id": "qerd",
+      "ar": "قِرْدْ",
+      "en": "Monkey",
+      "tr": "Qerd"
+    },
+    {
+      "id": "walad",
+      "ar": "وَلَدْ",
+      "en": "Boy",
+      "tr": "Walad"
+    },
+    {
+      "id": "dalw",
+      "ar": "دَلْوْ",
+      "en": "Bucket",
+      "tr": "Dalw"
+    },
+    {
+      "id": "dajaajah",
+      "ar": "دَجَاجَه",
+      "en": "Chicken",
+      "tr": "Dajaajah"
+    },
+    {
+      "id": "dam",
+      "ar": "دَمْ",
+      "en": "Blood",
+      "tr": "Dam"
+    },
+    {
+      "id": "der",
+      "ar": "دِرْعْ",
+      "en": "Shield",
+      "tr": "Derʿ"
+    },
+    {
+      "id": "derasah",
+      "ar": "دِرَاسَه",
+      "en": "Study",
+      "tr": "Derasah"
+    },
+    {
+      "id": "deek",
+      "ar": "دِيكْ",
+      "en": "Rooster",
+      "tr": "Deek"
+    },
+    {
+      "id": "doaa",
+      "ar": "دُعَاءْ",
+      "en": "Prayer/Supplication",
+      "tr": "Doʿaa"
+    },
+    {
+      "id": "dokkan",
+      "ar": "دُكَّانْ",
+      "en": "Shop",
+      "tr": "Dokkan"
+    },
+    {
+      "id": "dokhaan",
+      "ar": "دُخَانْ",
+      "en": "Smoke",
+      "tr": "Dokhaan"
+    },
+    {
+      "id": "dob",
+      "ar": "دُبْ",
+      "en": "Bear",
+      "tr": "Dob"
+    },
+    {
+      "id": "domyah",
+      "ar": "دُمْيَه",
+      "en": "Doll",
+      "tr": "Domyah"
+    },
+    {
+      "id": "daraj",
+      "ar": "دَرَجْ",
+      "en": "Stairs",
+      "tr": "Daraj"
+    },
+    {
+      "id": "dar",
+      "ar": "دَارْ",
+      "en": "House",
+      "tr": "Dar"
+    },
+    {
+      "id": "doodah",
+      "ar": "دُودَه",
+      "en": "Worm",
+      "tr": "Doodah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? دُبْ means Bear.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? دُمْيَه means Stairs.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? د is called Daal.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of د?",
+      "opts": [
+        [
+          "",
+          "Daal",
+          1
+        ],
+        [
+          "",
+          "Seen",
+          0
+        ],
+        [
+          "",
+          "Ain",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find د in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Daal! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Daal (د): Read and write Daal (د) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l10.mp4",
+    "poster": "media/qarpre-l10-poster.jpg"
+  }
+}

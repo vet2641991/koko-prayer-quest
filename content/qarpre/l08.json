@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l08",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 8. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ حَاء",
+    "en": "The Letter Ha (ح)"
+  },
+  "topic": "Read and write Ha (ح) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ha. A strong H from deep in the throat, like breathing on your glasses to clean them, but stronger!",
+      "title": "Meet Ha!",
+      "ar": "ح",
+      "aud": "c-0-ar",
+      "tr": "Ha"
+    },
+    {
+      "en": "A curved shape like a reversed C or a sideways open bracket . No dots! Ha looks like a WAVE feel the breath flowing like a wave from your throat!",
+      "title": "How to write Ha"
+    },
+    {
+      "en": "With a fatha, Ha says “ha”.",
+      "title": "Ha with fatha",
+      "ar": "حَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ha says “he”.",
+      "title": "Ha with kasra",
+      "ar": "حِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ha says “ho”.",
+      "title": "Ha with damma",
+      "ar": "حُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Life is beautiful”",
+      "title": "Sentence of the lesson",
+      "ar": "الْحَيَاةُ جَمِيلَة",
+      "aud": "c-5-ar",
+      "tr": "Al-Hayato Jamelah"
+    }
+  ],
+  "words": [
+    {
+      "id": "hayah",
+      "ar": "حَيَاة",
+      "en": "Life",
+      "tr": "Hayah"
+    },
+    {
+      "id": "hemar",
+      "ar": "حِمَارْ",
+      "en": "Donkey",
+      "tr": "Hemar"
+    },
+    {
+      "id": "mahabbah",
+      "ar": "مَحَبَّة",
+      "en": "Love",
+      "tr": "Mahabbah"
+    },
+    {
+      "id": "sahabah",
+      "ar": "صَحَابَه",
+      "en": "Companions",
+      "tr": "Sahabah"
+    },
+    {
+      "id": "farah",
+      "ar": "فَرَحْ",
+      "en": "Joy",
+      "tr": "Farah"
+    },
+    {
+      "id": "sabah",
+      "ar": "صَبَاحْ",
+      "en": "Morning",
+      "tr": "Sabah"
+    },
+    {
+      "id": "hajar",
+      "ar": "حَجَرْ",
+      "en": "Stone",
+      "tr": "Hajar"
+    },
+    {
+      "id": "haleeb",
+      "ar": "حَلِيبْ",
+      "en": "Milk",
+      "tr": "Haleeb"
+    },
+    {
+      "id": "hamam",
+      "ar": "حَمَامْ",
+      "en": "Pigeon",
+      "tr": "Hamam"
+    },
+    {
+      "id": "hesaan",
+      "ar": "حِصَانْ",
+      "en": "Horse",
+      "tr": "Hesaan"
+    },
+    {
+      "id": "hekma",
+      "ar": "حِكْمَه",
+      "en": "Wisdom",
+      "tr": "Hekma"
+    },
+    {
+      "id": "hejaab",
+      "ar": "حِجَابْ",
+      "en": "Hijab",
+      "tr": "Hejaab"
+    },
+    {
+      "id": "hoot",
+      "ar": "حُوتْ",
+      "en": "Whale",
+      "tr": "Hoot"
+    },
+    {
+      "id": "horreyya",
+      "ar": "حُرِّيَّة",
+      "en": "Freedom",
+      "tr": "Horreyya"
+    },
+    {
+      "id": "horoof",
+      "ar": "حُرُوفْ",
+      "en": "Letters",
+      "tr": "Horoof"
+    },
+    {
+      "id": "habl",
+      "ar": "حَبْلْ",
+      "en": "Rope",
+      "tr": "Habl"
+    },
+    {
+      "id": "haram",
+      "ar": "حَرَمْ",
+      "en": "Holy Haram",
+      "tr": "Haram"
+    },
+    {
+      "id": "haaet",
+      "ar": "حَائِطْ",
+      "en": "Wall",
+      "tr": "Haaet"
+    },
+    {
+      "id": "holeyy",
+      "ar": "حُلِيّ",
+      "en": "Jewelery",
+      "tr": "Holeyy"
+    },
+    {
+      "id": "haares",
+      "ar": "حَارِسْ",
+      "en": "Guard",
+      "tr": "Haares"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? حَبْلْ means Rope.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? حَرَمْ means Wall.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ح is called Ha.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ح?",
+      "opts": [
+        [
+          "",
+          "Ha",
+          1
+        ],
+        [
+          "",
+          "Ra",
+          0
+        ],
+        [
+          "",
+          "Ta (emphatic)",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ح in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ha! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ha (ح): Read and write Ha (ح) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l08.mp4",
+    "poster": "media/qarpre-l08-poster.jpg"
+  }
+}

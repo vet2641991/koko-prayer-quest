@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l25",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 25. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ لَام",
+    "en": "The Letter Lam (ل)"
+  },
+  "topic": "Read and write Lam (ل) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Lam. Like 'l' in 'lamp' or 'love'. Tongue tip touches behind upper teeth a liquid sound!",
+      "title": "Meet Lam!",
+      "ar": "ل",
+      "aud": "c-0-ar",
+      "tr": "Lam"
+    },
+    {
+      "en": "A tall, elegant upward curve that flows to the right, like a shepherd's crook. Lam is elegant and tall like the Lam-Alef ligature which means 'No' in Arabic!",
+      "title": "How to write Lam"
+    },
+    {
+      "en": "With a fatha, Lam says “la”.",
+      "title": "Lam with fatha",
+      "ar": "لَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Lam says “le”.",
+      "title": "Lam with kasra",
+      "ar": "لِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Lam says “lo”.",
+      "title": "Lam with damma",
+      "ar": "لُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The Arabic language is beautiful”",
+      "title": "Sentence of the lesson",
+      "ar": "اللُّغَةُ العَرَبِيَّةُ جَمِيلَة",
+      "aud": "c-5-ar",
+      "tr": "Al-Lughatu Al-Arabiyyatu Jamila"
+    }
+  ],
+  "words": [
+    {
+      "id": "lesaan",
+      "ar": "لِسَان",
+      "en": "Tongue",
+      "tr": "Lesaan"
+    },
+    {
+      "id": "layl",
+      "ar": "لَيْل",
+      "en": "Night",
+      "tr": "Layl"
+    },
+    {
+      "id": "salam",
+      "ar": "سَلَام",
+      "en": "Peace",
+      "tr": "Salam"
+    },
+    {
+      "id": "alam",
+      "ar": "عَلَم",
+      "en": "Flag",
+      "tr": "ʿalam"
+    },
+    {
+      "id": "habl",
+      "ar": "حَبْل",
+      "en": "Rope",
+      "tr": "Habl"
+    },
+    {
+      "id": "jabal",
+      "ar": "جَبَل",
+      "en": "Mountain",
+      "tr": "Jabal"
+    },
+    {
+      "id": "laymoon",
+      "ar": "لَيْمُون",
+      "en": "Lemon",
+      "tr": "Laymoon"
+    },
+    {
+      "id": "lahm",
+      "ar": "لَحْم",
+      "en": "Meat",
+      "tr": "Lahm"
+    },
+    {
+      "id": "lawn",
+      "ar": "لَوْن",
+      "en": "Color",
+      "tr": "Lawn"
+    },
+    {
+      "id": "lehyah",
+      "ar": "لِحْيَة",
+      "en": "Beard",
+      "tr": "Lehyah"
+    },
+    {
+      "id": "les",
+      "ar": "لِصّ",
+      "en": "Thief",
+      "tr": "Les"
+    },
+    {
+      "id": "legaam",
+      "ar": "لِجَام",
+      "en": "Bridle",
+      "tr": "Legaam"
+    },
+    {
+      "id": "loghah",
+      "ar": "لُغَة",
+      "en": "Language",
+      "tr": "Loghah"
+    },
+    {
+      "id": "lolo",
+      "ar": "لُؤْلُؤ",
+      "en": "Pearl",
+      "tr": "Lo'lo'"
+    },
+    {
+      "id": "lobah",
+      "ar": "لُعْبَة",
+      "en": "Game",
+      "tr": "Loʿbah"
+    },
+    {
+      "id": "laban",
+      "ar": "لَبَن",
+      "en": "Milk",
+      "tr": "Laban"
+    },
+    {
+      "id": "lawhah",
+      "ar": "لَوْحَة",
+      "en": "Painting",
+      "tr": "Lawhah"
+    },
+    {
+      "id": "lahab",
+      "ar": "لَهَب",
+      "en": "Flame",
+      "tr": "Lahab"
+    },
+    {
+      "id": "loghz",
+      "ar": "لُغْز",
+      "en": "Puzzle",
+      "tr": "Loghz"
+    },
+    {
+      "id": "left",
+      "ar": "لِفْت",
+      "en": "Turnip",
+      "tr": "Left"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? لَبَن means Milk.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? لَوْحَة means Flame.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ل is called Lam.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ل?",
+      "opts": [
+        [
+          "",
+          "Lam",
+          1
+        ],
+        [
+          "",
+          "Waw",
+          0
+        ],
+        [
+          "",
+          "Jim",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ل in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Lam! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Lam (ل): Read and write Lam (ل) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

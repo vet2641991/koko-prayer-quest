@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l19",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 19. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ ظَاء",
+    "en": "The Letter Dha (emphatic) (ظ)"
+  },
+  "topic": "Read and write Dha (emphatic) (ظ) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Dha (emphatic). Emphatic 'Th' — like the 'th' in 'that' but heavier and deeper. Very unique to Arabic!",
+      "title": "Meet Dha (emphatic)!",
+      "ar": "ظ",
+      "aud": "c-0-ar",
+      "tr": "Dha (emphatic)"
+    },
+    {
+      "en": "Same shape as Ta (jug/vessel) but with a dot on top of the vertical stroke. Dha is Ta with a DOT on top — the emphatic version of Dhal. Deep and powerful!",
+      "title": "How to write Dha (emphatic)"
+    },
+    {
+      "en": "With a fatha, heavy Dha says “za”.",
+      "title": "Dha (emphatic) with fatha",
+      "ar": "ظَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, heavy Dha says “ze”.",
+      "title": "Dha (emphatic) with kasra",
+      "ar": "ظِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, heavy Dha says “zo”.",
+      "title": "Dha (emphatic) with damma",
+      "ar": "ظُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Memorization is a great blessing”",
+      "title": "Sentence of the lesson",
+      "ar": "الحِفْظُ نِعْمَةٌ عَظِيمَةٌ",
+      "aud": "c-5-ar",
+      "tr": "Al-Hifzu Ni'matun 'Azima"
+    }
+  ],
+  "words": [
+    {
+      "id": "dhel",
+      "ar": "ظِلّ",
+      "en": "Shadow",
+      "tr": "Dhel"
+    },
+    {
+      "id": "dhofr",
+      "ar": "ظُفْر",
+      "en": "Nail",
+      "tr": "Dhofr"
+    },
+    {
+      "id": "yonadhef",
+      "ar": "يُنَظِّف",
+      "en": "Clean",
+      "tr": "Yonadhef"
+    },
+    {
+      "id": "nadhaarh",
+      "ar": "نَظَّارَة",
+      "en": "Glasses",
+      "tr": "Nadhaarh"
+    },
+    {
+      "id": "lafdh",
+      "ar": "لَفْظ",
+      "en": "Pronunciation",
+      "tr": "Lafdh"
+    },
+    {
+      "id": "hefdh",
+      "ar": "حِفْظ",
+      "en": "Memorization",
+      "tr": "Hefdh"
+    },
+    {
+      "id": "dhaaher",
+      "ar": "ظَاهِر",
+      "en": "Apparent",
+      "tr": "Dhaaher"
+    },
+    {
+      "id": "dhalaam",
+      "ar": "ظَلَام",
+      "en": "Darkness",
+      "tr": "Dhalaam"
+    },
+    {
+      "id": "dhaby",
+      "ar": "ظَبْي",
+      "en": "Gazelle",
+      "tr": "Dhaby"
+    },
+    {
+      "id": "dhelaal",
+      "ar": "ظِلَال",
+      "en": "Shadows",
+      "tr": "Dhelaal"
+    },
+    {
+      "id": "dhebaa",
+      "ar": "ظِبَاء",
+      "en": "Gazelles",
+      "tr": "Dhebaa’"
+    },
+    {
+      "id": "dhelf",
+      "ar": "ظِلْف",
+      "en": "Hoof",
+      "tr": "Dhelf"
+    },
+    {
+      "id": "dhohr",
+      "ar": "ظُهْر",
+      "en": "Noon",
+      "tr": "Dhohr"
+    },
+    {
+      "id": "dholm",
+      "ar": "ظُلْم",
+      "en": "Oppression",
+      "tr": "Dholm"
+    },
+    {
+      "id": "dhoroof",
+      "ar": "ظُرُوف",
+      "en": "Envelopes",
+      "tr": "Dhoroof"
+    },
+    {
+      "id": "dhahr",
+      "ar": "ظَهْر",
+      "en": "Back",
+      "tr": "Dhahr"
+    },
+    {
+      "id": "dhamaa",
+      "ar": "ظَمَأ",
+      "en": "Thirst",
+      "tr": "Dhama’a"
+    },
+    {
+      "id": "dhan",
+      "ar": "ظَنَّ",
+      "en": "Thought",
+      "tr": "Dhan"
+    },
+    {
+      "id": "dhaafer",
+      "ar": "ظَافِر",
+      "en": "Winner",
+      "tr": "Dhaafer"
+    },
+    {
+      "id": "dhaheer",
+      "ar": "ظَهِير",
+      "en": "Supporter",
+      "tr": "Dhaheer"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? ظَهْر means Back.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ظَمَأ means Thought.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ظ is called Dha (emphatic).",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ظ?",
+      "opts": [
+        [
+          "",
+          "Dha (emphatic)",
+          1
+        ],
+        [
+          "",
+          "Qaf",
+          0
+        ],
+        [
+          "",
+          "Waw",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ظ in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Dha (emphatic)! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Dha (emphatic) (ظ): Read and write Dha (emphatic) (ظ) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l23",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 23. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ قَاف",
+    "en": "The Letter Qaf (ق)"
+  },
+  "topic": "Read and write Qaf (ق) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Qaf. A deep 'K' sound from the very back of the throat — no English equivalent!",
+      "title": "Meet Qaf!",
+      "ar": "ق",
+      "aud": "c-0-ar",
+      "tr": "Qaf"
+    },
+    {
+      "en": "Like a circle with TWO dots above it. The two dots are Qaf's signature! The letter Qaf has two dots above it, and its sound comes from deep in the throat, like the letter Q.",
+      "title": "How to write Qaf"
+    },
+    {
+      "en": "With a fatha, Qaf says “qa”.",
+      "title": "Qaf with fatha",
+      "ar": "قَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Qaf says “qe”.",
+      "title": "Qaf with kasra",
+      "ar": "قِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Qaf says “qo”.",
+      "title": "Qaf with damma",
+      "ar": "قُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The Quran is the word of Allah”",
+      "title": "Sentence of the lesson",
+      "ar": "القُرْآنُ كَلَامُ اللَّهِ",
+      "aud": "c-5-ar",
+      "tr": "Al-Quranu Kalamu Allah"
+    }
+  ],
+  "words": [
+    {
+      "id": "qalam",
+      "ar": "قَلَم",
+      "en": "Pen",
+      "tr": "Qalam"
+    },
+    {
+      "id": "quran",
+      "ar": "قُرْآن",
+      "en": "Quran",
+      "tr": "Quran"
+    },
+    {
+      "id": "saqr",
+      "ar": "صَقْر",
+      "en": "Falcon",
+      "tr": "Saqr"
+    },
+    {
+      "id": "baqarah",
+      "ar": "بَقَرَة",
+      "en": "Cow",
+      "tr": "Baqarah"
+    },
+    {
+      "id": "barq",
+      "ar": "بَرْق",
+      "en": "Lightning",
+      "tr": "Barq"
+    },
+    {
+      "id": "tareeq",
+      "ar": "طَرِيق",
+      "en": "Road",
+      "tr": "Tareeq"
+    },
+    {
+      "id": "qasr",
+      "ar": "قَصْر",
+      "en": "Castle",
+      "tr": "Qasr"
+    },
+    {
+      "id": "qamar",
+      "ar": "قَمَر",
+      "en": "Moon",
+      "tr": "Qamar"
+    },
+    {
+      "id": "qalb",
+      "ar": "قَلْب",
+      "en": "Heart",
+      "tr": "Qalb"
+    },
+    {
+      "id": "qetaar",
+      "ar": "قِطَار",
+      "en": "Train",
+      "tr": "Qetaar"
+    },
+    {
+      "id": "qerd",
+      "ar": "قِرْد",
+      "en": "Monkey",
+      "tr": "Qerd"
+    },
+    {
+      "id": "qettah",
+      "ar": "قِطَّة",
+      "en": "Cat",
+      "tr": "Qettah"
+    },
+    {
+      "id": "qobbaah",
+      "ar": "قُبَّعَة",
+      "en": "Hat",
+      "tr": "Qobbaʿah"
+    },
+    {
+      "id": "qoffaz",
+      "ar": "قُفَّاز",
+      "en": "Glove",
+      "tr": "Qoffaz"
+    },
+    {
+      "id": "qotn",
+      "ar": "قُطْن",
+      "en": "Cotton",
+      "tr": "Qotn"
+    },
+    {
+      "id": "qaareb",
+      "ar": "قَارِب",
+      "en": "Boat",
+      "tr": "Qaareb"
+    },
+    {
+      "id": "qamh",
+      "ar": "قَمْح",
+      "en": "Wheat",
+      "tr": "Qamh"
+    },
+    {
+      "id": "qaryah",
+      "ar": "قَرْيَة",
+      "en": "Village",
+      "tr": "Qaryah"
+    },
+    {
+      "id": "qeraah",
+      "ar": "قِرَاءَة",
+      "en": "Reading",
+      "tr": "Qeraa’h"
+    },
+    {
+      "id": "qobtaan",
+      "ar": "قُبْطَان",
+      "en": "Captain",
+      "tr": "Qobtaan"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? قَارِب means Boat.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? قَمْح means Village.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ق is called Qaf.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ق?",
+      "opts": [
+        [
+          "",
+          "Qaf",
+          1
+        ],
+        [
+          "",
+          "Nun",
+          0
+        ],
+        [
+          "",
+          "Ta",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ق in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Qaf! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Qaf (ق): Read and write Qaf (ق) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

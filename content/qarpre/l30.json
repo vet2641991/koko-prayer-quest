@@ -1,0 +1,241 @@
+{
+  "id": "qarpre-l30",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 30. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ يَاء",
+    "en": "The Letter Ya (ي)"
+  },
+  "topic": "Read and write Ya (ي) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ya. Like 'y' in 'yes' or 'yellow'. Also sounds like 'ee' in 'tree'. Lips smile slightly!",
+      "title": "Meet Ya!",
+      "ar": "ي",
+      "aud": "c-0-ar",
+      "tr": "Ya"
+    },
+    {
+      "en": "A curved bowl shape with TWO dots below — same base as Nun but with TWO dots under it. Ya makes you SMILE — 'Y' for Yes! And in Arabic, (ya) means 'O!' (calling someone)!",
+      "title": "How to write Ya"
+    },
+    {
+      "en": "With a fatha, Ya says “ya”.",
+      "title": "Ya with fatha",
+      "ar": "يَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ya says “ye”.",
+      "title": "Ya with kasra",
+      "ar": "يِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ya says “yo”.",
+      "title": "Ya with damma",
+      "ar": "يُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Every day is new”",
+      "title": "Sentence of the lesson",
+      "ar": "كُلُّ يَوْمٍ جَدِيد",
+      "aud": "c-5-ar",
+      "tr": "Kullu Yawmin Jadid"
+    }
+  ],
+  "words": [
+    {
+      "id": "yawm",
+      "ar": "يَوْم",
+      "en": "Day",
+      "tr": "Yawm"
+    },
+    {
+      "id": "yad",
+      "ar": "يَد",
+      "en": "Hand",
+      "tr": "Yad"
+    },
+    {
+      "id": "kheyaar",
+      "ar": "خِيَار",
+      "en": "Cucumber",
+      "tr": "Kheyaar"
+    },
+    {
+      "id": "bayt",
+      "ar": "بَيْت",
+      "en": "House",
+      "tr": "Bayt"
+    },
+    {
+      "id": "korsey",
+      "ar": "كُرْسِيّ",
+      "en": "Chair",
+      "tr": "Korsey"
+    },
+    {
+      "id": "gary",
+      "ar": "جَرْي",
+      "en": "Running",
+      "tr": "Gary"
+    },
+    {
+      "id": "yamaamah",
+      "ar": "يَمَامَة",
+      "en": "Dove",
+      "tr": "Yamaamah"
+    },
+    {
+      "id": "yasaar",
+      "ar": "يَسَار",
+      "en": "Left side",
+      "tr": "Yasaar"
+    },
+    {
+      "id": "yameen",
+      "ar": "يَمِين",
+      "en": "Right side",
+      "tr": "Yameen"
+    },
+    {
+      "id": "yen",
+      "ar": "يِن",
+      "en": "Yen",
+      "tr": "Yen"
+    },
+    {
+      "id": "yoosofey",
+      "ar": "يُوسُفِي",
+      "en": "Tangerine",
+      "tr": "Yoosofey"
+    },
+    {
+      "id": "yoonyoo",
+      "ar": "يُونْيُو",
+      "en": "June",
+      "tr": "Yoonyoo"
+    },
+    {
+      "id": "yoolyoo",
+      "ar": "يُولْيُو",
+      "en": "July",
+      "tr": "Yoolyoo"
+    },
+    {
+      "id": "yateem",
+      "ar": "يَتِيم",
+      "en": "Orphan",
+      "tr": "Yateem"
+    },
+    {
+      "id": "yaaqoot",
+      "ar": "يَاقُوت",
+      "en": "Ruby",
+      "tr": "Yaaqoot"
+    },
+    {
+      "id": "yaasameen",
+      "ar": "يَاسَمِين",
+      "en": "Jasmine",
+      "tr": "Yaasameen"
+    },
+    {
+      "id": "yasoob",
+      "ar": "يَعْسُوب",
+      "en": "Dragonfly",
+      "tr": "Yaʿsoob"
+    },
+    {
+      "id": "yanaayer",
+      "ar": "يَنَايِر",
+      "en": "January",
+      "tr": "Yanaayer"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? يَتِيم means Orphan.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يَاقُوت means Jasmine.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ي is called Ya.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ي?",
+      "opts": [
+        [
+          "",
+          "Ya",
+          1
+        ],
+        [
+          "",
+          "Tha",
+          0
+        ],
+        [
+          "",
+          "Ra",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ي in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ya! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ya (ي): Read and write Ya (ي) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

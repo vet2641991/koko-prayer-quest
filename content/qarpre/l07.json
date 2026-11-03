@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l07",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 7. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ جِيم",
+    "en": "The Letter Jim (ج)"
+  },
+  "topic": "Read and write Jim (ج) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Jim. Like 'j' in 'jam'. Some dialects say it like 'g' in 'go' (Egypt)",
+      "title": "Meet Jim!",
+      "ar": "ج",
+      "aud": "c-0-ar",
+      "tr": "Jim"
+    },
+    {
+      "en": "A curved hook shape (like reversed C) with a dot INSIDE/BELOW the curve. Jim looks like a HOOK with a dot. Hook your knowledge with Jim!",
+      "title": "How to write Jim"
+    },
+    {
+      "en": "With a fatha, Jim says “ja”.",
+      "title": "Jim with fatha",
+      "ar": "جَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Jim says “je”.",
+      "title": "Jim with kasra",
+      "ar": "جِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Jim says “jo”.",
+      "title": "Jim with damma",
+      "ar": "جُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The mountain is high”",
+      "title": "Sentence of the lesson",
+      "ar": "الْجَبَلُ عَالٍ",
+      "aud": "c-5-ar",
+      "tr": "Al-Jabalo ʿAlen"
+    }
+  ],
+  "words": [
+    {
+      "id": "janna",
+      "ar": "جَنَّه",
+      "en": "Paradise",
+      "tr": "Janna"
+    },
+    {
+      "id": "jamal",
+      "ar": "جَمَلْ",
+      "en": "Camel",
+      "tr": "Jamal"
+    },
+    {
+      "id": "wajh",
+      "ar": "وَجْه",
+      "en": "Face",
+      "tr": "Wajh"
+    },
+    {
+      "id": "majid",
+      "ar": "مَجِيدْ",
+      "en": "Glorious",
+      "tr": "Majid"
+    },
+    {
+      "id": "halaj",
+      "ar": "حَلَجْ",
+      "en": "Cotton",
+      "tr": "Halaj"
+    },
+    {
+      "id": "borj",
+      "ar": "بُرْجْ",
+      "en": "Tower",
+      "tr": "Borj"
+    },
+    {
+      "id": "jazar",
+      "ar": "جَزَرْ",
+      "en": "Carrot",
+      "tr": "jazar"
+    },
+    {
+      "id": "jabal",
+      "ar": "جَبَلْ",
+      "en": "Mountain",
+      "tr": "Jabal"
+    },
+    {
+      "id": "jaras",
+      "ar": "جَرَسْ",
+      "en": "Bell",
+      "tr": "Jaras"
+    },
+    {
+      "id": "jeld",
+      "ar": "جِلْدْ",
+      "en": "Skin/Leather",
+      "tr": "Jeld"
+    },
+    {
+      "id": "jesr",
+      "ar": "جِسْرْ",
+      "en": "Bridge",
+      "tr": "Jesr"
+    },
+    {
+      "id": "jesm",
+      "ar": "جِسْمْ",
+      "en": "Body",
+      "tr": "Jesm"
+    },
+    {
+      "id": "jondi",
+      "ar": "جُنْدِيّ",
+      "en": "Soldier",
+      "tr": "Jondi"
+    },
+    {
+      "id": "joz",
+      "ar": "جُزْءْ",
+      "en": "Part",
+      "tr": "Joz'"
+    },
+    {
+      "id": "jomalh",
+      "ar": "جُمْلَه",
+      "en": "Sentences",
+      "tr": "Jomalh"
+    },
+    {
+      "id": "jarw",
+      "ar": "جَرْوْ",
+      "en": "Little dog",
+      "tr": "Jarw"
+    },
+    {
+      "id": "jazeerah",
+      "ar": "جَزِيرَه",
+      "en": "Island",
+      "tr": "Jazeerah"
+    },
+    {
+      "id": "jaysh",
+      "ar": "جَيْشْ",
+      "en": "Army",
+      "tr": "Jaysh"
+    },
+    {
+      "id": "joma",
+      "ar": "جُمْعَه",
+      "en": "Friday",
+      "tr": "Jomʿa"
+    },
+    {
+      "id": "jorh",
+      "ar": "جُرْحْ",
+      "en": "Wound",
+      "tr": "Jorh"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? جَرْوْ means Little dog.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? جَزِيرَه means Army.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ج is called Jim.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ج?",
+      "opts": [
+        [
+          "",
+          "Jim",
+          1
+        ],
+        [
+          "",
+          "Thaal",
+          0
+        ],
+        [
+          "",
+          "Dad",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ج in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Jim! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Jim (ج): Read and write Jim (ج) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l07.mp4",
+    "poster": "media/qarpre-l07-poster.jpg"
+  }
+}
