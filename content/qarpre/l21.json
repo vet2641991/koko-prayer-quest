@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l21",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 21. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ غَيْن",
+    "en": "The Letter Ghain (غ)"
+  },
+  "topic": "Read and write Ghain (غ) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ghain. Like the French 'r' in 'Paris' — a gargling sound from the back of the throat.",
+      "title": "Meet Ghain!",
+      "ar": "غ",
+      "aud": "c-0-ar",
+      "tr": "Ghain"
+    },
+    {
+      "en": "Same shape as Ain but with a dot ON TOP. The dot distinguishes Ghain from Ain. Ghain is Ain with a dot like gargling water in your throat! Deep and rich sound.",
+      "title": "How to write Ghain"
+    },
+    {
+      "en": "With a fatha, Ghain says “gha”.",
+      "title": "Ghain with fatha",
+      "ar": "غَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ghain says “ghe”.",
+      "title": "Ghain with kasra",
+      "ar": "غِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ghain says “gho”.",
+      "title": "Ghain with damma",
+      "ar": "غُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The room is clean”",
+      "title": "Sentence of the lesson",
+      "ar": "الغُرْفَةُ نَظِيفَة",
+      "aud": "c-5-ar",
+      "tr": "Al-Ghurfatu Nadhifa"
+    }
+  ],
+  "words": [
+    {
+      "id": "ghaymah",
+      "ar": "غَيْمَة",
+      "en": "Cloud",
+      "tr": "Ghaymah"
+    },
+    {
+      "id": "ghabah",
+      "ar": "غَابَة",
+      "en": "Forest",
+      "tr": "Ghabah"
+    },
+    {
+      "id": "maghreb",
+      "ar": "مَغْرِب",
+      "en": "Sunset",
+      "tr": "Maghreb"
+    },
+    {
+      "id": "sagheer",
+      "ar": "صَغِير",
+      "en": "Very small",
+      "tr": "Sagheer"
+    },
+    {
+      "id": "madgh",
+      "ar": "مَضْغ",
+      "en": "Chewing",
+      "tr": "Madgh"
+    },
+    {
+      "id": "faaregh",
+      "ar": "فَارِغ",
+      "en": "Empty",
+      "tr": "Faaregh"
+    },
+    {
+      "id": "ghanam",
+      "ar": "غَنَم",
+      "en": "Sheep",
+      "tr": "Ghanam"
+    },
+    {
+      "id": "ghazaalah",
+      "ar": "غَزَالَة",
+      "en": "Gazelle",
+      "tr": "Ghazaalah"
+    },
+    {
+      "id": "ghassaalah",
+      "ar": "غَسَّالَة",
+      "en": "Washing machine",
+      "tr": "Ghassaalah"
+    },
+    {
+      "id": "ghethaa",
+      "ar": "غِذَاء",
+      "en": "Food/Nutrition",
+      "tr": "Ghethaa'"
+    },
+    {
+      "id": "gheraa",
+      "ar": "غِرَاء",
+      "en": "Glue",
+      "tr": "Gheraa’"
+    },
+    {
+      "id": "ghelmaan",
+      "ar": "غِلْمَان",
+      "en": "Youths",
+      "tr": "Ghelmaan"
+    },
+    {
+      "id": "ghorfah",
+      "ar": "غُرْفَة",
+      "en": "Room",
+      "tr": "Ghorfah"
+    },
+    {
+      "id": "ghoraab",
+      "ar": "غُرَاب",
+      "en": "Crow",
+      "tr": "Ghoraab"
+    },
+    {
+      "id": "ghosn",
+      "ar": "غُصْن",
+      "en": "Branch",
+      "tr": "Ghosn"
+    },
+    {
+      "id": "ghawwaasah",
+      "ar": "غَوَّاصَة",
+      "en": "Submarine",
+      "tr": "Ghawwaasah"
+    },
+    {
+      "id": "ghesh",
+      "ar": "غِشّ",
+      "en": "Cheating",
+      "tr": "Ghesh"
+    },
+    {
+      "id": "ghafwah",
+      "ar": "غَفْوَة",
+      "en": "Snooze",
+      "tr": "Ghafwah"
+    },
+    {
+      "id": "ghadaa",
+      "ar": "غَدَاء",
+      "en": "Lunch",
+      "tr": "Ghadaa’"
+    },
+    {
+      "id": "ghenaa",
+      "ar": "غِنَاء",
+      "en": "Singing",
+      "tr": "Ghenaa’"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? غَوَّاصَة means Submarine.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? غِشّ means Snooze.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? غ is called Ghain.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of غ?",
+      "opts": [
+        [
+          "",
+          "Ghain",
+          1
+        ],
+        [
+          "",
+          "Lam",
+          0
+        ],
+        [
+          "",
+          "Alef",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find غ in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ghain! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ghain (غ): Read and write Ghain (غ) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

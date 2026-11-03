@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l26",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 26. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ مِيم",
+    "en": "The Letter Mim (م)"
+  },
+  "topic": "Read and write Mim (م) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Mim. Like 'm' in 'moon' or 'mother'. Both lips close together — the humming sound!",
+      "title": "Meet Mim!",
+      "ar": "م",
+      "aud": "c-0-ar",
+      "tr": "Mim"
+    },
+    {
+      "en": "A small circle with a tail — like a little tadpole or a mini spiral going right. Mim looks like a tiny MOON (mim = moon in shape). M for Moon, M for Mim!",
+      "title": "How to write Mim"
+    },
+    {
+      "en": "With a fatha, Mim says “ma”.",
+      "title": "Mim with fatha",
+      "ar": "مَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Mim says “me”.",
+      "title": "Mim with kasra",
+      "ar": "مِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Mim says “mo”.",
+      "title": "Mim with damma",
+      "ar": "مُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Muhammad is a great teacher”",
+      "title": "Sentence of the lesson",
+      "ar": "مُحَمَّدٌ مُعَلِّمٌ عَظِيمٌ",
+      "aud": "c-5-ar",
+      "tr": "Muhammadun Mu'allimun 'Azim"
+    }
+  ],
+  "words": [
+    {
+      "id": "masjed",
+      "ar": "مَسْجِد",
+      "en": "Mosque",
+      "tr": "Masjed"
+    },
+    {
+      "id": "ma",
+      "ar": "مَاء",
+      "en": "Water",
+      "tr": "Ma'"
+    },
+    {
+      "id": "samaa",
+      "ar": "سَمَاء",
+      "en": "Sky",
+      "tr": "Samaa'"
+    },
+    {
+      "id": "samakah",
+      "ar": "سَمَكَة",
+      "en": "Fish",
+      "tr": "Samakah"
+    },
+    {
+      "id": "om",
+      "ar": "أُمّ",
+      "en": "Mother",
+      "tr": "Om"
+    },
+    {
+      "id": "qalam",
+      "ar": "قَلَم",
+      "en": "Pen",
+      "tr": "Qalam"
+    },
+    {
+      "id": "madrasah",
+      "ar": "مَدْرَسَة",
+      "en": "School",
+      "tr": "Madrasah"
+    },
+    {
+      "id": "mawz",
+      "ar": "مَوْز",
+      "en": "Banana",
+      "tr": "Mawz"
+    },
+    {
+      "id": "malab",
+      "ar": "مَلْعَب",
+      "en": "Stadium",
+      "tr": "Malʿab"
+    },
+    {
+      "id": "meftaah",
+      "ar": "مِفْتَاح",
+      "en": "Key",
+      "tr": "Meftaah"
+    },
+    {
+      "id": "mesbaah",
+      "ar": "مِصْبَاح",
+      "en": "Lamp",
+      "tr": "Mesbaah"
+    },
+    {
+      "id": "meezaan",
+      "ar": "مِيزَان",
+      "en": "Scale/Balance",
+      "tr": "Meezaan"
+    },
+    {
+      "id": "mohandes",
+      "ar": "مُهَنْدِس",
+      "en": "Engineer",
+      "tr": "Mohandes"
+    },
+    {
+      "id": "muslim",
+      "ar": "مُسْلِم",
+      "en": "Muslim",
+      "tr": "Muslim"
+    },
+    {
+      "id": "moallem",
+      "ar": "مُعَلِّم",
+      "en": "Teacher",
+      "tr": "Moʿallem"
+    },
+    {
+      "id": "moharreg",
+      "ar": "مُهَرِّج",
+      "en": "Joker",
+      "tr": "Moharreg"
+    },
+    {
+      "id": "mosht",
+      "ar": "مُشْط",
+      "en": "Comb",
+      "tr": "Mosht"
+    },
+    {
+      "id": "matam",
+      "ar": "مَطْعَم",
+      "en": "Restaurant",
+      "tr": "Matʿam"
+    },
+    {
+      "id": "mazraah",
+      "ar": "مَزْرَعَة",
+      "en": "Farm",
+      "tr": "Mazraʿah"
+    },
+    {
+      "id": "meqas",
+      "ar": "مِقَصّ",
+      "en": "Scissors",
+      "tr": "Meqas"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? مُهَرِّج means Joker.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? مُشْط means Restaurant.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? م is called Mim.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of م?",
+      "opts": [
+        [
+          "",
+          "Mim",
+          1
+        ],
+        [
+          "",
+          "Ya",
+          0
+        ],
+        [
+          "",
+          "Ha",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find م in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Mim! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Mim (م): Read and write Mim (م) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

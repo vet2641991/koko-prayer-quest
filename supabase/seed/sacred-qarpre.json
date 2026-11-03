@@ -1,0 +1,454 @@
+{
+  "about": "Owner's classification of the QAR PRE (qarpre) Learn-card clips: letter names, vowel sounds and the lesson sentences from Dr. Hassan's book, recorded in his own voice. None is du'aa, dhikr or Qur'an. Read by scripts/import-json.ts.",
+  "decidedBy": "Dr. Hassan Muslim (owner)",
+  "decidedOn": "2026-11-03",
+  "sacred": {
+    "approvedBy": "Dr. Hassan Muslim",
+    "approvedOn": "2026-11-03",
+    "approvalNote": "No sacred clips in QAR PRE",
+    "clips": []
+  },
+  "notSacred": {
+    "note": "Letter names, vowel sounds and everyday sentences in Dr. Hassan's own voice; reviewed by him in the QAR PRE audio review page on 2026-11-03.",
+    "clips": [
+      {
+        "path": "audio/qarpre-l01/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l02/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l02/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l02/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l02/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l02/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l03/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l03/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l03/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l03/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l03/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l04/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l04/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l04/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l04/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l04/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l05/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l05/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l05/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l05/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l05/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l06/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l06/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l06/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l06/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l06/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l07/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l07/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l07/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l07/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l07/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l08/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l08/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l08/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l08/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l08/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l09/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l09/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l09/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l09/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l09/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l10/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l10/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l10/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l10/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l10/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l11/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l11/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l11/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l11/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l11/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l12/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l12/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l12/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l12/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l12/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l13/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l13/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l13/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l13/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l13/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l14/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l14/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l14/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l14/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l14/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l15/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l15/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l15/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l15/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l15/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l16/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l16/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l16/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l16/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l16/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l17/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l17/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l17/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l17/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l17/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l18/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l18/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l18/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l18/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l18/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l19/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l19/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l19/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l19/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l19/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l20/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l20/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l20/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l20/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l20/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l21/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l21/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l21/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l21/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l21/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l22/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l22/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l22/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l22/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l22/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l23/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l23/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l23/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l23/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l23/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l24/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l24/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l24/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l24/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l24/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l25/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l25/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l25/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l25/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l25/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l26/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l26/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l26/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l26/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l26/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l27/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l27/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l27/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l27/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l27/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l28/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l28/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l28/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l28/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l28/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l29/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l29/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l29/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l29/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l29/c-5-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l30/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l30/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l30/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l30/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qarpre-l30/c-5-ar.mp3"
+      }
+    ]
+  }
+}

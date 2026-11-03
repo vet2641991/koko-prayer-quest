@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l13",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 13. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ زَاي",
+    "en": "The Letter Zayn (ز)"
+  },
+  "topic": "Read and write Zayn (ز) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Zayn. Like 'z' in 'zero' or 'zoo'. A buzzing sound feel the vibration!",
+      "title": "Meet Zayn!",
+      "ar": "ز",
+      "aud": "c-0-ar",
+      "tr": "Zayn"
+    },
+    {
+      "en": "Same shape as Ra but with a dot ON TOP. The dot buzzes above like a bee! Zayn is Ra with a dot like a BEE sitting on top, making the buzzing Z sound!",
+      "title": "How to write Zayn"
+    },
+    {
+      "en": "With a fatha, Zayn says “za”.",
+      "title": "Zayn with fatha",
+      "ar": "زَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Zayn says “ze”.",
+      "title": "Zayn with kasra",
+      "ar": "زِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Zayn says “zo”.",
+      "title": "Zayn with damma",
+      "ar": "زُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The flower is beautiful”",
+      "title": "Sentence of the lesson",
+      "ar": "الزَّهْرَةُ جَمِيلَة",
+      "aud": "c-5-ar",
+      "tr": "Az-Zahrato Jameelah"
+    }
+  ],
+  "words": [
+    {
+      "id": "zayt",
+      "ar": "زَيْت",
+      "en": "Oil",
+      "tr": "Zayt"
+    },
+    {
+      "id": "zahrah",
+      "ar": "زَهْرَة",
+      "en": "Flower",
+      "tr": "Zahrah"
+    },
+    {
+      "id": "wazeer",
+      "ar": "وَزِير",
+      "en": "Minister",
+      "tr": "Wazeer"
+    },
+    {
+      "id": "manzel",
+      "ar": "مَنْزِل",
+      "en": "Home",
+      "tr": "Manzel"
+    },
+    {
+      "id": "kanz",
+      "ar": "كَنْز",
+      "en": "Treasure",
+      "tr": "Kanz"
+    },
+    {
+      "id": "khobz",
+      "ar": "خُبْز",
+      "en": "Bread",
+      "tr": "Khobz"
+    },
+    {
+      "id": "zawraq",
+      "ar": "زَوْرَق",
+      "en": "Boat",
+      "tr": "Zawraq"
+    },
+    {
+      "id": "zaraafa",
+      "ar": "زَرَافَة",
+      "en": "Giraffe",
+      "tr": "Zaraafa"
+    },
+    {
+      "id": "zatar",
+      "ar": "زَعْتَر",
+      "en": "Thyme",
+      "tr": "Za'tar"
+    },
+    {
+      "id": "zefaaf",
+      "ar": "زِفَاف",
+      "en": "Wedding",
+      "tr": "Zefaaf"
+    },
+    {
+      "id": "zer",
+      "ar": "زِرّ",
+      "en": "Button",
+      "tr": "Zer"
+    },
+    {
+      "id": "zeraaah",
+      "ar": "زِرَاعَة",
+      "en": "Agriculture",
+      "tr": "Zeraa'ah"
+    },
+    {
+      "id": "zomorrod",
+      "ar": "زُمُرُّد",
+      "en": "Emerald",
+      "tr": "Zomorrod"
+    },
+    {
+      "id": "zohal",
+      "ar": "زُحَل",
+      "en": "Saturn",
+      "tr": "Zohal"
+    },
+    {
+      "id": "zojaj",
+      "ar": "زُجَاج",
+      "en": "Glass",
+      "tr": "Zojaj"
+    },
+    {
+      "id": "zokam",
+      "ar": "زُكَام",
+      "en": "Common cold",
+      "tr": "Zokam"
+    },
+    {
+      "id": "zobdah",
+      "ar": "زُبْدَة",
+      "en": "Butter",
+      "tr": "Zobdah"
+    },
+    {
+      "id": "zayton",
+      "ar": "زَيْتُون",
+      "en": "Olive",
+      "tr": "Zayton"
+    },
+    {
+      "id": "zelzal",
+      "ar": "زِلْزَال",
+      "en": "Earthquake",
+      "tr": "Zelzal"
+    },
+    {
+      "id": "zawj",
+      "ar": "زَوْج",
+      "en": "Husband",
+      "tr": "Zawj"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? زُكَام means Common cold.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? زُبْدَة means Olive.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ز is called Zayn.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ز?",
+      "opts": [
+        [
+          "",
+          "Zayn",
+          1
+        ],
+        [
+          "",
+          "Dad",
+          0
+        ],
+        [
+          "",
+          "Qaf",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ز in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Zayn! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Zayn (ز): Read and write Zayn (ز) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l13.mp4",
+    "poster": "media/qarpre-l13-poster.jpg"
+  }
+}

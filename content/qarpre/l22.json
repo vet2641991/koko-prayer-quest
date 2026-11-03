@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l22",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 22. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ فَاء",
+    "en": "The Letter Fa (ف)"
+  },
+  "topic": "Read and write Fa (ف) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Fa. Like 'f' in 'fan' or 'fish'. Upper teeth touch lower lip air flows through. Easy!",
+      "title": "Meet Fa!",
+      "ar": "ف",
+      "aud": "c-0-ar",
+      "tr": "Fa"
+    },
+    {
+      "en": "A small circle (like a head) with a dot on top and a tail curving to the right. Fa looks like a FLOWER with a dot the dot is the flower's center!",
+      "title": "How to write Fa"
+    },
+    {
+      "en": "With a fatha, Fa says “fa”.",
+      "title": "Fa with fatha",
+      "ar": "فَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Fa says “fe”.",
+      "title": "Fa with kasra",
+      "ar": "فِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Fa says “fo”.",
+      "title": "Fa with damma",
+      "ar": "فُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Dawn is a blessed time”",
+      "title": "Sentence of the lesson",
+      "ar": "الفَجْرُ وَقْتٌ مُبَارَكٌ",
+      "aud": "c-5-ar",
+      "tr": "Al-Fajro Waqton Mobarak"
+    }
+  ],
+  "words": [
+    {
+      "id": "feel",
+      "ar": "فِيل",
+      "en": "Elephant",
+      "tr": "Feel"
+    },
+    {
+      "id": "fajr",
+      "ar": "فَجْر",
+      "en": "Dawn",
+      "tr": "Fajr"
+    },
+    {
+      "id": "folfol",
+      "ar": "فُلْفُل",
+      "en": "Pepper",
+      "tr": "Folfol"
+    },
+    {
+      "id": "daftar",
+      "ar": "دَفْتَر",
+      "en": "Notebook",
+      "tr": "Daftar"
+    },
+    {
+      "id": "khareef",
+      "ar": "خَرِيف",
+      "en": "Autumn",
+      "tr": "Khareef"
+    },
+    {
+      "id": "sayf",
+      "ar": "صَيْف",
+      "en": "Summer",
+      "tr": "Sayf"
+    },
+    {
+      "id": "faraawelah",
+      "ar": "فَرَاوِلَة",
+      "en": "Strawberry",
+      "tr": "Faraawelah"
+    },
+    {
+      "id": "faraashah",
+      "ar": "فَرَاشَة",
+      "en": "Butterfly",
+      "tr": "Faraashah"
+    },
+    {
+      "id": "faakeha",
+      "ar": "فَاكِهَة",
+      "en": "Fruit",
+      "tr": "Faakeha"
+    },
+    {
+      "id": "feraan",
+      "ar": "فِئْرَان",
+      "en": "Mice",
+      "tr": "Fe’raan"
+    },
+    {
+      "id": "feddah",
+      "ar": "فِضَّة",
+      "en": "Silver",
+      "tr": "Feddah"
+    },
+    {
+      "id": "felesteen",
+      "ar": "فِلِسْطِين",
+      "en": "Palestine",
+      "tr": "Felesteen"
+    },
+    {
+      "id": "fostaan",
+      "ar": "فُسْتَان",
+      "en": "Dress",
+      "tr": "Fostaan"
+    },
+    {
+      "id": "fondoq",
+      "ar": "فُنْدُق",
+      "en": "Hotel",
+      "tr": "Fondoq"
+    },
+    {
+      "id": "forshaah",
+      "ar": "فُرْشَاة",
+      "en": "Brush",
+      "tr": "Forshaah"
+    },
+    {
+      "id": "fas",
+      "ar": "فَأْس",
+      "en": "Axe",
+      "tr": "Fa’s"
+    },
+    {
+      "id": "fengaan",
+      "ar": "فِنْجَان",
+      "en": "Cup",
+      "tr": "Fengaan"
+    },
+    {
+      "id": "fenaa",
+      "ar": "فِنَاء",
+      "en": "Courtyard",
+      "tr": "Fenaa’"
+    },
+    {
+      "id": "fallaah",
+      "ar": "فَلَّاح",
+      "en": "Farmer",
+      "tr": "Fallaah"
+    },
+    {
+      "id": "forn",
+      "ar": "فُرْن",
+      "en": "Oven",
+      "tr": "Forn"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? فَأْس means Axe.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? فِنْجَان means Courtyard.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ف is called Fa.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ف?",
+      "opts": [
+        [
+          "",
+          "Fa",
+          1
+        ],
+        [
+          "",
+          "Mim",
+          0
+        ],
+        [
+          "",
+          "Baa",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ف in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Fa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Fa (ف): Read and write Fa (ف) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "id": "qarpre-l02",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 2. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "الْحَرَكَات",
+    "en": "The Vowel Marks"
+  },
+  "topic": "Fatha, kasra, damma, sukoon and shaddah",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "Fatha: short 'a' · like 'a' in apple.",
+      "title": "Fatha",
+      "ar": "فَتْحَة",
+      "aud": "c-0-ar",
+      "tr": "Fatha"
+    },
+    {
+      "en": "Kasra: short 'e' · like 'e' in egg.",
+      "title": "Kasra",
+      "ar": "كَسْرَة",
+      "aud": "c-1-ar",
+      "tr": "Kasra"
+    },
+    {
+      "en": "Damma: short 'o' · like 'o' in On.",
+      "title": "Damma",
+      "ar": "ضَمَّة",
+      "aud": "c-2-ar",
+      "tr": "Damma"
+    },
+    {
+      "en": "Sukoon: silent · it stops the sound.",
+      "title": "Sukoon",
+      "ar": "سُكُون",
+      "aud": "c-3-ar",
+      "tr": "Sukoon"
+    },
+    {
+      "en": "Shaddah: double · it doubles the letter sound.",
+      "title": "Shaddah",
+      "ar": "شَدَّة",
+      "aud": "c-4-ar",
+      "tr": "Shaddah"
+    }
+  ],
+  "words": [
+    {
+      "id": "ba",
+      "ar": "بَ",
+      "en": "Ba (fatha)",
+      "tr": "Ba"
+    },
+    {
+      "id": "ta",
+      "ar": "تَ",
+      "en": "Ta (fatha)",
+      "tr": "Ta"
+    },
+    {
+      "id": "ka",
+      "ar": "كَ",
+      "en": "Ka (fatha)",
+      "tr": "Ka"
+    },
+    {
+      "id": "sa",
+      "ar": "سَ",
+      "en": "Sa (fatha)",
+      "tr": "Sa"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "La (fatha)",
+      "tr": "La"
+    },
+    {
+      "id": "be",
+      "ar": "بِ",
+      "en": "Be (kasra)",
+      "tr": "Be"
+    },
+    {
+      "id": "te",
+      "ar": "تِ",
+      "en": "Te (kasra)",
+      "tr": "Te"
+    },
+    {
+      "id": "ke",
+      "ar": "كِ",
+      "en": "Ke (kasra)",
+      "tr": "Ke"
+    },
+    {
+      "id": "se",
+      "ar": "سِ",
+      "en": "Se (kasra)",
+      "tr": "Se"
+    },
+    {
+      "id": "le",
+      "ar": "لِ",
+      "en": "Le (kasra)",
+      "tr": "Le"
+    },
+    {
+      "id": "bo",
+      "ar": "بُ",
+      "en": "Bo (damma)",
+      "tr": "Bo"
+    },
+    {
+      "id": "to",
+      "ar": "تُ",
+      "en": "To (damma)",
+      "tr": "To"
+    },
+    {
+      "id": "ko",
+      "ar": "كُ",
+      "en": "Ko (damma)",
+      "tr": "Ko"
+    },
+    {
+      "id": "so",
+      "ar": "سُ",
+      "en": "So (damma)",
+      "tr": "So"
+    },
+    {
+      "id": "lo",
+      "ar": "لُ",
+      "en": "Lo (damma)",
+      "tr": "Lo"
+    },
+    {
+      "id": "b",
+      "ar": "بْ",
+      "en": "B (sukoon)",
+      "tr": "B"
+    },
+    {
+      "id": "t",
+      "ar": "تْ",
+      "en": "T (sukoon)",
+      "tr": "T"
+    },
+    {
+      "id": "k",
+      "ar": "كْ",
+      "en": "K (sukoon)",
+      "tr": "K"
+    },
+    {
+      "id": "s",
+      "ar": "سْ",
+      "en": "S (sukoon)",
+      "tr": "S"
+    },
+    {
+      "id": "l",
+      "ar": "لْ",
+      "en": "L (sukoon)",
+      "tr": "L"
+    },
+    {
+      "id": "bba",
+      "ar": "بَّ",
+      "en": "BBA (shaddah)",
+      "tr": "BBA"
+    },
+    {
+      "id": "tta",
+      "ar": "تَّ",
+      "en": "TTA (shaddah)",
+      "tr": "TTA"
+    },
+    {
+      "id": "kka",
+      "ar": "كَّ",
+      "en": "KKA (shaddah)",
+      "tr": "KKA"
+    },
+    {
+      "id": "ssa",
+      "ar": "سَّ",
+      "en": "SSA (shaddah)",
+      "tr": "SSA"
+    },
+    {
+      "id": "lla",
+      "ar": "لَّ",
+      "en": "LLA (shaddah)",
+      "tr": "LLA"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Fatha gives a short 'a' sound.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Kasra gives a short 'o' sound.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Sukoon stops the sound.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Which mark doubles a letter?",
+    "a": "The shaddah! Fatha says a, kasra says e, damma says o, and sukoon stops the sound."
+  },
+  "parents": {
+    "summary": "The Vowel Marks: Fatha, kasra, damma, sukoon and shaddah.",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l02.mp4",
+    "poster": "media/qarpre-l02-poster.jpg"
+  }
+}

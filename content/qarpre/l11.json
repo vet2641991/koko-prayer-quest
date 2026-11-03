@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l11",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 11. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ ذَال",
+    "en": "The Letter Thaal (ذ)"
+  },
+  "topic": "Read and write Thaal (ذ) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Thaal. Like 'th' in 'that' or 'this' (voiced). Not like 'think' this is the voiced version!",
+      "title": "Meet Thaal!",
+      "ar": "ذ",
+      "aud": "c-0-ar",
+      "tr": "Thaal"
+    },
+    {
+      "en": "Same shape as Dal but with a single dot ON TOP. Dot above = Thaal! Dhal is Dal with a dot like putting a 'hat' on Dal to change its sound!",
+      "title": "How to write Thaal"
+    },
+    {
+      "en": "With a fatha, Thaal says “tha”.",
+      "title": "Thaal with fatha",
+      "ar": "ذَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Thaal says “the”.",
+      "title": "Thaal with kasra",
+      "ar": "ذِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Thaal says “tho”.",
+      "title": "Thaal with damma",
+      "ar": "ذُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The Gold is precious”",
+      "title": "Sentence of the lesson",
+      "ar": "الذَّهَبُ ثَمِينٌ",
+      "aud": "c-5-ar",
+      "tr": "Al-Thahabo Thameenon"
+    }
+  ],
+  "words": [
+    {
+      "id": "thekr",
+      "ar": "ذِكْرْ",
+      "en": "Remembrance",
+      "tr": "Thekr"
+    },
+    {
+      "id": "thahab",
+      "ar": "ذَهَبْ",
+      "en": "Gold / He went",
+      "tr": "Thahab"
+    },
+    {
+      "id": "nather",
+      "ar": "نَذِيرْ",
+      "en": "Warner",
+      "tr": "Nather"
+    },
+    {
+      "id": "mathhab",
+      "ar": "مَذْهَبْ",
+      "en": "School of thought",
+      "tr": "Mathhab"
+    },
+    {
+      "id": "akhatha",
+      "ar": "أَخَذَ",
+      "en": "He took",
+      "tr": "Akhatha"
+    },
+    {
+      "id": "qonfoth",
+      "ar": "قُنْفُذْ",
+      "en": "Hedgehog",
+      "tr": "Qonfoth"
+    },
+    {
+      "id": "thayl",
+      "ar": "ذَيْلْ",
+      "en": "Tail",
+      "tr": "Thayl"
+    },
+    {
+      "id": "thakaa",
+      "ar": "ذَكَاءْ",
+      "en": "Intelligence",
+      "tr": "Thakaa'"
+    },
+    {
+      "id": "thanb",
+      "ar": "ذَنْبْ",
+      "en": "Sin",
+      "tr": "Thanb"
+    },
+    {
+      "id": "theb",
+      "ar": "ذِئْبْ",
+      "en": "Wolf",
+      "tr": "The’b"
+    },
+    {
+      "id": "thera",
+      "ar": "ذِرَاعْ",
+      "en": "Arm",
+      "tr": "Theraʿ"
+    },
+    {
+      "id": "themmah",
+      "ar": "ذِمَّه",
+      "en": "Honesty",
+      "tr": "Themmah"
+    },
+    {
+      "id": "thorreyyah",
+      "ar": "ذُرِّيَّة",
+      "en": "Offspring",
+      "tr": "Thorreyyah"
+    },
+    {
+      "id": "thobaabah",
+      "ar": "ذُبَابَة",
+      "en": "Fly (insect)",
+      "tr": "Thobaabah"
+    },
+    {
+      "id": "thorah",
+      "ar": "ذُرَة",
+      "en": "Corn",
+      "tr": "Thorah"
+    },
+    {
+      "id": "thaakerah",
+      "ar": "ذَاكِرَه",
+      "en": "Memory",
+      "tr": "Thaakerah"
+    },
+    {
+      "id": "thaqn",
+      "ar": "ذَقْنْ",
+      "en": "Beard",
+      "tr": "Thaqn"
+    },
+    {
+      "id": "thakheerah",
+      "ar": "ذَخِيرَة",
+      "en": "Ammo",
+      "tr": "Thakheerah"
+    },
+    {
+      "id": "thaaleka",
+      "ar": "ذَلِكَ",
+      "en": "That",
+      "tr": "Thaaleka"
+    },
+    {
+      "id": "thorowah",
+      "ar": "ذُرْوَة",
+      "en": "Top",
+      "tr": "Thorowah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? ذَاكِرَه means Memory.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ذَقْنْ means Ammo.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ذ is called Thaal.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ذ?",
+      "opts": [
+        [
+          "",
+          "Thaal",
+          1
+        ],
+        [
+          "",
+          "Sheen",
+          0
+        ],
+        [
+          "",
+          "Ghain",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ذ in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Thaal! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Thaal (ذ): Read and write Thaal (ذ) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l11.mp4",
+    "poster": "media/qarpre-l11-poster.jpg"
+  }
+}

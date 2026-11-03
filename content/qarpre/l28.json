@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l28",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 28. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ هَاء",
+    "en": "The Letter Ha (ه)"
+  },
+  "topic": "Read and write Ha (ه) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ha. Like 'h' in 'hello' or 'home'. A soft breath of air the softest H sound in Arabic!",
+      "title": "Meet Ha!",
+      "ar": "ه",
+      "aud": "c-0-ar",
+      "tr": "Ha"
+    },
+    {
+      "en": "Changes shape dramatically in different positions practice all four forms carefully! Ha is a soft BREATH imagine breathing out gently on a cold day. Light and airy!",
+      "title": "How to write Ha"
+    },
+    {
+      "en": "With a fatha, Ha says “ha”.",
+      "title": "Ha with fatha",
+      "ar": "هَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ha says “he”.",
+      "title": "Ha with kasra",
+      "ar": "هِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ha says “ho”.",
+      "title": "Ha with damma",
+      "ar": "هُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Guidance is from Allah”",
+      "title": "Sentence of the lesson",
+      "ar": "الهِدَايَةُ مِنَ اللَّهِ",
+      "aud": "c-5-ar",
+      "tr": "Al-Hidayatu Mina Allah"
+    }
+  ],
+  "words": [
+    {
+      "id": "helaal",
+      "ar": "هِلَال",
+      "en": "Crescent",
+      "tr": "Helaal"
+    },
+    {
+      "id": "hadeyya",
+      "ar": "هَدِيَّة",
+      "en": "Gift",
+      "tr": "Hadeyya"
+    },
+    {
+      "id": "sahm",
+      "ar": "سَهْم",
+      "en": "Arrow",
+      "tr": "Sahm"
+    },
+    {
+      "id": "fahd",
+      "ar": "فَهْد",
+      "en": "Leopard",
+      "tr": "Fahd"
+    },
+    {
+      "id": "montazah",
+      "ar": "مُنْتَزَه",
+      "en": "Park",
+      "tr": "Montazah"
+    },
+    {
+      "id": "monabbeh",
+      "ar": "مُنَبِّه",
+      "en": "Alarm clock",
+      "tr": "Monabbeh"
+    },
+    {
+      "id": "haram",
+      "ar": "هَرَم",
+      "en": "Pyramid",
+      "tr": "Haram"
+    },
+    {
+      "id": "haatef",
+      "ar": "هَاتِف",
+      "en": "Phone",
+      "tr": "Haatef"
+    },
+    {
+      "id": "hadabah",
+      "ar": "هَضَبَة",
+      "en": "Plateau",
+      "tr": "Hadabah"
+    },
+    {
+      "id": "hegrah",
+      "ar": "هِجْرَة",
+      "en": "Migration",
+      "tr": "Hegrah"
+    },
+    {
+      "id": "hebah",
+      "ar": "هِبَة",
+      "en": "Gift",
+      "tr": "Hebah"
+    },
+    {
+      "id": "hewaayah",
+      "ar": "هِوَايَة",
+      "en": "Hobby",
+      "tr": "Hewaayah"
+    },
+    {
+      "id": "hodhod",
+      "ar": "هُدْهُد",
+      "en": "Hoopoe",
+      "tr": "Hodhod"
+    },
+    {
+      "id": "howeyyah",
+      "ar": "هُوِيَّة",
+      "en": "Identity",
+      "tr": "Howeyyah"
+    },
+    {
+      "id": "horoob",
+      "ar": "هُرُوب",
+      "en": "Escape",
+      "tr": "Horoob"
+    },
+    {
+      "id": "hoboot",
+      "ar": "هُبُوط",
+      "en": "Landing",
+      "tr": "Hoboot"
+    },
+    {
+      "id": "hetaaf",
+      "ar": "هِتَاف",
+      "en": "Cheer",
+      "tr": "Hetaaf"
+    },
+    {
+      "id": "hegaa",
+      "ar": "هِجَاء",
+      "en": "Spelling",
+      "tr": "Hegaa’"
+    },
+    {
+      "id": "hazeemah",
+      "ar": "هَزِيمَة",
+      "en": "Defeat",
+      "tr": "Hazeemah"
+    },
+    {
+      "id": "hawaa",
+      "ar": "هَوَاء",
+      "en": "Air",
+      "tr": "Hawaa’"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? هُبُوط means Landing.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? هِتَاف means Spelling.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ه is called Ha.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ه?",
+      "opts": [
+        [
+          "",
+          "Ha",
+          1
+        ],
+        [
+          "",
+          "Ra",
+          0
+        ],
+        [
+          "",
+          "Ta (emphatic)",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ه in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ha! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ha (ه): Read and write Ha (ه) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

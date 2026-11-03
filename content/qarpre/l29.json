@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l29",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 29. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ وَاو",
+    "en": "The Letter Waw (و)"
+  },
+  "topic": "Read and write Waw (و) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Waw. Like 'w' in 'water' or 'wave'. Lips round together — also sounds like 'oo' in 'moon'!",
+      "title": "Meet Waw!",
+      "ar": "و",
+      "aud": "c-0-ar",
+      "tr": "Waw"
+    },
+    {
+      "en": "A small circular loop with a curved tail going down — like a hook or a lollipop! Waw looks like a WAVE or a HOOK — W for Water, W for Waw! It also means 'and' in Arabic!",
+      "title": "How to write Waw"
+    },
+    {
+      "en": "With a fatha, Waw says “wa”.",
+      "title": "Waw with fatha",
+      "ar": "وَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Waw says “we”.",
+      "title": "Waw with kasra",
+      "ar": "وِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Waw says “wo”.",
+      "title": "Waw with damma",
+      "ar": "وُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Ablution and prayer”",
+      "title": "Sentence of the lesson",
+      "ar": "وُضُوءٌ وَصَلَاةٌ",
+      "aud": "c-5-ar",
+      "tr": "Wudu'un Wa Salah"
+    }
+  ],
+  "words": [
+    {
+      "id": "waraqah",
+      "ar": "وَرَقَة",
+      "en": "Paper",
+      "tr": "Waraqah"
+    },
+    {
+      "id": "walad",
+      "ar": "وَلَد",
+      "en": "Boy",
+      "tr": "Walad"
+    },
+    {
+      "id": "sawt",
+      "ar": "صَوْت",
+      "en": "Sound/Voice",
+      "tr": "Sawt"
+    },
+    {
+      "id": "nawm",
+      "ar": "نَوْم",
+      "en": "Sleep",
+      "tr": "Nawm"
+    },
+    {
+      "id": "farw",
+      "ar": "فَرْو",
+      "en": "Fur",
+      "tr": "Farw"
+    },
+    {
+      "id": "delw",
+      "ar": "دَلْو",
+      "en": "Bucket",
+      "tr": "Delw"
+    },
+    {
+      "id": "wagh",
+      "ar": "وَجْه",
+      "en": "Face",
+      "tr": "Wagh"
+    },
+    {
+      "id": "wardah",
+      "ar": "وَرْدَة",
+      "en": "Rose",
+      "tr": "Wardah"
+    },
+    {
+      "id": "wazeer",
+      "ar": "وَزِير",
+      "en": "Minister",
+      "tr": "Wazeer"
+    },
+    {
+      "id": "welaayah",
+      "ar": "وِلَايَة",
+      "en": "Province",
+      "tr": "Welaayah"
+    },
+    {
+      "id": "weaa",
+      "ar": "وِعَاء",
+      "en": "Pot",
+      "tr": "Weʿaa’"
+    },
+    {
+      "id": "wesaadah",
+      "ar": "وِسَادَة",
+      "en": "Pillow",
+      "tr": "Wesaadah"
+    },
+    {
+      "id": "wodoo",
+      "ar": "وُضُوء",
+      "en": "Ablution",
+      "tr": "Wodoo’"
+    },
+    {
+      "id": "wogooh",
+      "ar": "وُجُوه",
+      "en": "Faces",
+      "tr": "Wogooh"
+    },
+    {
+      "id": "wosool",
+      "ar": "وُصُول",
+      "en": "Arrival",
+      "tr": "Wosool"
+    },
+    {
+      "id": "waadee",
+      "ar": "وَادِي",
+      "en": "Valley",
+      "tr": "Waadee"
+    },
+    {
+      "id": "wazn",
+      "ar": "وَزْن",
+      "en": "Weight",
+      "tr": "Wazn"
+    },
+    {
+      "id": "watheqah",
+      "ar": "وَثِيقَة",
+      "en": "Document",
+      "tr": "Watheqah"
+    },
+    {
+      "id": "woqood",
+      "ar": "وُقُود",
+      "en": "Fuel",
+      "tr": "Woqood"
+    },
+    {
+      "id": "wesaam",
+      "ar": "وِسَام",
+      "en": "Badge",
+      "tr": "Wesaam"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? وَادِي means Valley.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? وَزْن means Document.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? و is called Waw.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of و?",
+      "opts": [
+        [
+          "",
+          "Waw",
+          1
+        ],
+        [
+          "",
+          "Ta",
+          0
+        ],
+        [
+          "",
+          "Thaal",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find و in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Waw! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Waw (و): Read and write Waw (و) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

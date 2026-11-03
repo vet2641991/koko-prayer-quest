@@ -1,0 +1,251 @@
+{
+  "id": "qarpre-l03",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 3. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ أَلِف",
+    "en": "The Letter Alef (أ)"
+  },
+  "topic": "Read and write Alef (أ) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Alef. Like 'a' in 'apple' or the start of 'open'. A smooth throat sound",
+      "title": "Meet Alef!",
+      "ar": "أ",
+      "aud": "c-0-ar",
+      "tr": "Alef"
+    },
+    {
+      "en": "One clean vertical stroke from top to bottom. The simplest letter in Arabic! Alef is the FIRST letter like 'A' in English. A tall standing figure!",
+      "title": "How to write Alef"
+    },
+    {
+      "en": "With a fatha, Alef says “a”.",
+      "title": "Alef with fatha",
+      "ar": "أَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Alef says “e”.",
+      "title": "Alef with kasra",
+      "ar": "إِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Alef says “o”.",
+      "title": "Alef with damma",
+      "ar": "أُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“I love the Arabic language”",
+      "title": "Sentence of the lesson",
+      "ar": "أَنَا أُحِبُّ اللُّغَةَ الْعَرَبِيَّة",
+      "aud": "c-5-ar",
+      "tr": "Ana Ohibbo Alloghata Al-Arabeyya"
+    }
+  ],
+  "words": [
+    {
+      "id": "asad",
+      "ar": "أَسَدْ",
+      "en": "Lion",
+      "tr": "Asad"
+    },
+    {
+      "id": "ab",
+      "ar": "أَبْ",
+      "en": "Father",
+      "tr": "Ab"
+    },
+    {
+      "id": "masala",
+      "ar": "مَسْأَلَه",
+      "en": "Question",
+      "tr": "Mas'ala"
+    },
+    {
+      "id": "saala",
+      "ar": "سَأَلَ",
+      "en": "He asked",
+      "tr": "Sa'ala"
+    },
+    {
+      "id": "qaraa",
+      "ar": "قَرَأَ",
+      "en": "Read",
+      "tr": "Qaraa"
+    },
+    {
+      "id": "khata",
+      "ar": "خَطَأْ",
+      "en": "Wrong",
+      "tr": "Khata’"
+    },
+    {
+      "id": "arda",
+      "ar": "أَرْض",
+      "en": "Earth",
+      "tr": "Arda"
+    },
+    {
+      "id": "akala",
+      "ar": "أَكَلَ",
+      "en": "He ate",
+      "tr": "Akala"
+    },
+    {
+      "id": "ebel",
+      "ar": "إِبِلْ",
+      "en": "Camel",
+      "tr": "Ebel"
+    },
+    {
+      "id": "ensan",
+      "ar": "إِنْسَانْ",
+      "en": "Human",
+      "tr": "Ensan"
+    },
+    {
+      "id": "ebrah",
+      "ar": "إِبْرَه",
+      "en": "Needle",
+      "tr": "Ebrah"
+    },
+    {
+      "id": "omm",
+      "ar": "أُمّ",
+      "en": "Mother",
+      "tr": "Omm"
+    },
+    {
+      "id": "othon",
+      "ar": "أُذُنْ",
+      "en": "Ear",
+      "tr": "Othon"
+    },
+    {
+      "id": "osrah",
+      "ar": "أُسْرَه",
+      "en": "Family",
+      "tr": "Osrah"
+    },
+    {
+      "id": "akh",
+      "ar": "أَخ",
+      "en": "Brother",
+      "tr": "AKH"
+    },
+    {
+      "id": "okht",
+      "ar": "أُخْت",
+      "en": "Sister",
+      "tr": "OKHT"
+    },
+    {
+      "id": "arnab",
+      "ar": "أَرْنَب",
+      "en": "Rabbit",
+      "tr": "ARNAB"
+    },
+    {
+      "id": "abyad",
+      "ar": "أَبْيَض",
+      "en": "White",
+      "tr": "ABYAD"
+    },
+    {
+      "id": "ahmad",
+      "ar": "أَحْمَد",
+      "en": "Ahmad (name)",
+      "tr": "AHMAD"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? أَخ means Brother.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? أُخْت means Rabbit.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? أ is called Alef.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of أ?",
+      "opts": [
+        [
+          "",
+          "Alef",
+          1
+        ],
+        [
+          "",
+          "Jim",
+          0
+        ],
+        [
+          "",
+          "Zayn",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find أ in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Alef! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Alef (أ): Read and write Alef (أ) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l03.mp4",
+    "poster": "media/qarpre-l03-poster.jpg"
+  }
+}

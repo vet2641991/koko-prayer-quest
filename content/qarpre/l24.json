@@ -1,0 +1,253 @@
+{
+  "id": "qarpre-l24",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 24. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ كَاف",
+    "en": "The Letter Kaf (ك)"
+  },
+  "topic": "Read and write Kaf (ك) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Kaf. Like 'k' in 'key' or 'cat'. Back of tongue touches the soft palate a clear 'K' sound.",
+      "title": "Meet Kaf!",
+      "ar": "ك",
+      "aud": "c-0-ar",
+      "tr": "Kaf"
+    },
+    {
+      "en": "Like a small L-shape with a diagonal mark inside — unique and easy to recognize! Kaf sounds like 'Key' K for Key! It opens many Arabic words!",
+      "title": "How to write Kaf"
+    },
+    {
+      "en": "With a fatha, Kaf says “ka”.",
+      "title": "Kaf with fatha",
+      "ar": "كَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Kaf says “ke”.",
+      "title": "Kaf with kasra",
+      "ar": "كِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Kaf says “ko”.",
+      "title": "Kaf with damma",
+      "ar": "كُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The book is the best friend”",
+      "title": "Sentence of the lesson",
+      "ar": "الكِتَابُ خَيْرُ صَدِيق",
+      "aud": "c-5-ar",
+      "tr": "Al-Ketabo Khayro Sadeeq"
+    }
+  ],
+  "words": [
+    {
+      "id": "kalb",
+      "ar": "كَلْب",
+      "en": "Dog",
+      "tr": "Kalb"
+    },
+    {
+      "id": "ketab",
+      "ar": "كِتَاب",
+      "en": "Book",
+      "tr": "Ketab"
+    },
+    {
+      "id": "shokran",
+      "ar": "شُكْرًا",
+      "en": "Thanks",
+      "tr": "Shokran"
+    },
+    {
+      "id": "maktabah",
+      "ar": "مَكْتَبَة",
+      "en": "Library",
+      "tr": "Maktabah"
+    },
+    {
+      "id": "samak",
+      "ar": "سَمَك",
+      "en": "Fish",
+      "tr": "Samak"
+    },
+    {
+      "id": "malek",
+      "ar": "مَلِك",
+      "en": "King",
+      "tr": "Malek"
+    },
+    {
+      "id": "kak",
+      "ar": "كَعْك",
+      "en": "Cookies",
+      "tr": "Kaʿk"
+    },
+    {
+      "id": "kaba",
+      "ar": "كَعْبَة",
+      "en": "Ka'ba",
+      "tr": "Kaʿba"
+    },
+    {
+      "id": "kas",
+      "ar": "كَأْس",
+      "en": "Cup",
+      "tr": "Ka’s"
+    },
+    {
+      "id": "kefaah",
+      "ar": "كِفَاح",
+      "en": "Struggle",
+      "tr": "Kefaah"
+    },
+    {
+      "id": "keraam",
+      "ar": "كِرَام",
+      "en": "Generous ones",
+      "tr": "Keraam"
+    },
+    {
+      "id": "kesaa",
+      "ar": "كِسَاء",
+      "en": "Garment",
+      "tr": "Kesaa'"
+    },
+    {
+      "id": "korsee",
+      "ar": "كُرْسِي",
+      "en": "Chair",
+      "tr": "Korsee"
+    },
+    {
+      "id": "korah",
+      "ar": "كُرَة",
+      "en": "Ball",
+      "tr": "Korah"
+    },
+    {
+      "id": "koob",
+      "ar": "كُوب",
+      "en": "Cup",
+      "tr": "Koob"
+    },
+    {
+      "id": "kookh",
+      "ar": "كُوخ",
+      "en": "Hut",
+      "tr": "Kookh"
+    },
+    {
+      "id": "kawkab",
+      "ar": "كَوْكَب",
+      "en": "Planet",
+      "tr": "Kawkab"
+    },
+    {
+      "id": "kebreet",
+      "ar": "كِبْرِيت",
+      "en": "Matchsticks",
+      "tr": "Kebreet"
+    },
+    {
+      "id": "kahrobaa",
+      "ar": "كَهْرُبَاء",
+      "en": "Electricity",
+      "tr": "Kahrobaa’"
+    },
+    {
+      "id": "kaslaan",
+      "ar": "كَسْلَان",
+      "en": "Lazy",
+      "tr": "Kaslaan"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? كُوخ means Hut.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? كَوْكَب means Matchsticks.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ك is called Kaf.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ك?",
+      "opts": [
+        [
+          "",
+          "Kaf",
+          1
+        ],
+        [
+          "",
+          "Ha",
+          0
+        ],
+        [
+          "",
+          "Tha",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ك in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Kaf! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Kaf (ك): Read and write Kaf (ك) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  }
+}

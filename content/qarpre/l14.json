@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l14",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 14. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ سِين",
+    "en": "The Letter Seen (س)"
+  },
+  "topic": "Read and write Seen (س) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Seen. Like 's' in 'sun' or 'smile'. A clear, crisp hissing sound. No buzzing!",
+      "title": "Meet Seen!",
+      "ar": "س",
+      "aud": "c-0-ar",
+      "tr": "Seen"
+    },
+    {
+      "en": "Three small humps (teeth) on a flat baseline like a mini fence or ocean waves! Seen looks like THREE WAVES on the sea S for Sea, S for Seen!",
+      "title": "How to write Seen"
+    },
+    {
+      "en": "With a fatha, Seen says “sa”.",
+      "title": "Seen with fatha",
+      "ar": "سَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Seen says “se”.",
+      "title": "Seen with kasra",
+      "ar": "سِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Seen says “so”.",
+      "title": "Seen with damma",
+      "ar": "سُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The sky is blue”",
+      "title": "Sentence of the lesson",
+      "ar": "السَّمَاءُ زَرْقَاء",
+      "aud": "c-5-ar",
+      "tr": "Al-Sama'u Zarqa'"
+    }
+  ],
+  "words": [
+    {
+      "id": "saeed",
+      "ar": "سَعِيد",
+      "en": "Happy",
+      "tr": "Sa'eed"
+    },
+    {
+      "id": "samaa",
+      "ar": "سَمَاء",
+      "en": "Sky",
+      "tr": "Samaa'"
+    },
+    {
+      "id": "ebtesamah",
+      "ar": "إِبْتِسَامَة",
+      "en": "Smile",
+      "tr": "Ebtesamah"
+    },
+    {
+      "id": "masjed",
+      "ar": "مَسْجِد",
+      "en": "Mosque",
+      "tr": "Masjed"
+    },
+    {
+      "id": "shams",
+      "ar": "شَمْس",
+      "en": "Sun",
+      "tr": "Shams"
+    },
+    {
+      "id": "dars",
+      "ar": "دَرْس",
+      "en": "Lesson",
+      "tr": "Dars"
+    },
+    {
+      "id": "sayaara",
+      "ar": "سَيَّارَة",
+      "en": "Car",
+      "tr": "Sayaara"
+    },
+    {
+      "id": "samakah",
+      "ar": "سَمَكَة",
+      "en": "Fish",
+      "tr": "Samakah"
+    },
+    {
+      "id": "sajed",
+      "ar": "سَاجِد",
+      "en": "Prostrate",
+      "tr": "Sajed"
+    },
+    {
+      "id": "selaah",
+      "ar": "سِلَاح",
+      "en": "Weapon",
+      "tr": "Selaah"
+    },
+    {
+      "id": "serr",
+      "ar": "سِرّ",
+      "en": "Secret",
+      "tr": "Serr"
+    },
+    {
+      "id": "senn",
+      "ar": "سِنّ",
+      "en": "Tooth",
+      "tr": "Senn"
+    },
+    {
+      "id": "sokkar",
+      "ar": "سُكَّر",
+      "en": "Sugar",
+      "tr": "Sokkar"
+    },
+    {
+      "id": "sooq",
+      "ar": "سُوق",
+      "en": "Market",
+      "tr": "Sooq"
+    },
+    {
+      "id": "solahfaah",
+      "ar": "سُلَحْفَاة",
+      "en": "Turtle",
+      "tr": "Solahfaah"
+    },
+    {
+      "id": "sonbolah",
+      "ar": "سُنْبُلَة",
+      "en": "Ear of Grain",
+      "tr": "Sonbolah"
+    },
+    {
+      "id": "sebaha",
+      "ar": "سِبَاحَة",
+      "en": "Swimming",
+      "tr": "Sebaha"
+    },
+    {
+      "id": "safar",
+      "ar": "سَفَر",
+      "en": "Travel",
+      "tr": "Safar"
+    },
+    {
+      "id": "sekkeen",
+      "ar": "سِكِّين",
+      "en": "Knife",
+      "tr": "Sekkeen"
+    },
+    {
+      "id": "ser",
+      "ar": "سِعْر",
+      "en": "Price",
+      "tr": "Seʿr"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? سُنْبُلَة means Ear of Grain.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? سِبَاحَة means Travel.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? س is called Seen.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of س?",
+      "opts": [
+        [
+          "",
+          "Seen",
+          1
+        ],
+        [
+          "",
+          "Ta (emphatic)",
+          0
+        ],
+        [
+          "",
+          "Kaf",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find س in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Seen! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Seen (س): Read and write Seen (س) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l14.mp4",
+    "poster": "media/qarpre-l14-poster.jpg"
+  }
+}

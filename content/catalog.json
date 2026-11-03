@@ -4,6 +4,226 @@
   "focus": "ar2",
   "worlds": [
     {
+      "id": "qarpre",
+      "code": "QAR PRE",
+      "en": "Arabic Letters Journey",
+      "ar": "رِحْلَةُ الْحُرُوفِ",
+      "tint": "#FFF1D6",
+      "ink": "#B5650D",
+      "units": [
+        {
+          "id": "qarpre-l01",
+          "n": "1",
+          "ar": "الْحُرُوفُ الْعَرَبِيَّة",
+          "en": "The Arabic Alphabet",
+          "file": "content/qarpre/l01.json"
+        },
+        {
+          "id": "qarpre-l02",
+          "n": "2",
+          "ar": "الْحَرَكَات",
+          "en": "The Vowel Marks",
+          "file": "content/qarpre/l02.json"
+        },
+        {
+          "id": "qarpre-l03",
+          "n": "3",
+          "ar": "حَرْفُ أَلِف",
+          "en": "The Letter Alef (أ)",
+          "file": "content/qarpre/l03.json"
+        },
+        {
+          "id": "qarpre-l04",
+          "n": "4",
+          "ar": "حَرْفُ بَاء",
+          "en": "The Letter Baa (ب)",
+          "file": "content/qarpre/l04.json"
+        },
+        {
+          "id": "qarpre-l05",
+          "n": "5",
+          "ar": "حَرْفُ تَاء",
+          "en": "The Letter Ta (ت)",
+          "file": "content/qarpre/l05.json"
+        },
+        {
+          "id": "qarpre-l06",
+          "n": "6",
+          "ar": "حَرْفُ ثَاء",
+          "en": "The Letter Tha (ث)",
+          "file": "content/qarpre/l06.json"
+        },
+        {
+          "id": "qarpre-l07",
+          "n": "7",
+          "ar": "حَرْفُ جِيم",
+          "en": "The Letter Jim (ج)",
+          "file": "content/qarpre/l07.json"
+        },
+        {
+          "id": "qarpre-l08",
+          "n": "8",
+          "ar": "حَرْفُ حَاء",
+          "en": "The Letter Ha (ح)",
+          "file": "content/qarpre/l08.json"
+        },
+        {
+          "id": "qarpre-l09",
+          "n": "9",
+          "ar": "حَرْفُ خَاء",
+          "en": "The Letter Khaa (خ)",
+          "file": "content/qarpre/l09.json"
+        },
+        {
+          "id": "qarpre-l10",
+          "n": "10",
+          "ar": "حَرْفُ دَال",
+          "en": "The Letter Daal (د)",
+          "file": "content/qarpre/l10.json"
+        },
+        {
+          "id": "qarpre-l11",
+          "n": "11",
+          "ar": "حَرْفُ ذَال",
+          "en": "The Letter Thaal (ذ)",
+          "file": "content/qarpre/l11.json"
+        },
+        {
+          "id": "qarpre-l12",
+          "n": "12",
+          "ar": "حَرْفُ رَاء",
+          "en": "The Letter Ra (ر)",
+          "file": "content/qarpre/l12.json"
+        },
+        {
+          "id": "qarpre-l13",
+          "n": "13",
+          "ar": "حَرْفُ زَاي",
+          "en": "The Letter Zayn (ز)",
+          "file": "content/qarpre/l13.json"
+        },
+        {
+          "id": "qarpre-l14",
+          "n": "14",
+          "ar": "حَرْفُ سِين",
+          "en": "The Letter Seen (س)",
+          "file": "content/qarpre/l14.json"
+        },
+        {
+          "id": "qarpre-l15",
+          "n": "15",
+          "ar": "حَرْفُ شِين",
+          "en": "The Letter Sheen (ش)",
+          "file": "content/qarpre/l15.json"
+        },
+        {
+          "id": "qarpre-l16",
+          "n": "16",
+          "ar": "حَرْفُ صَاد",
+          "en": "The Letter Sad (ص)",
+          "file": "content/qarpre/l16.json"
+        },
+        {
+          "id": "qarpre-l17",
+          "n": "17",
+          "ar": "حَرْفُ ضَاد",
+          "en": "The Letter Dad (ض)",
+          "file": "content/qarpre/l17.json"
+        },
+        {
+          "id": "qarpre-l18",
+          "n": "18",
+          "ar": "حَرْفُ طَاء",
+          "en": "The Letter Ta (emphatic) (ط)",
+          "file": "content/qarpre/l18.json"
+        },
+        {
+          "id": "qarpre-l19",
+          "n": "19",
+          "ar": "حَرْفُ ظَاء",
+          "en": "The Letter Dha (emphatic) (ظ)",
+          "file": "content/qarpre/l19.json"
+        },
+        {
+          "id": "qarpre-l20",
+          "n": "20",
+          "ar": "حَرْفُ عَيْن",
+          "en": "The Letter Ain (ع)",
+          "file": "content/qarpre/l20.json"
+        },
+        {
+          "id": "qarpre-l21",
+          "n": "21",
+          "ar": "حَرْفُ غَيْن",
+          "en": "The Letter Ghain (غ)",
+          "file": "content/qarpre/l21.json"
+        },
+        {
+          "id": "qarpre-l22",
+          "n": "22",
+          "ar": "حَرْفُ فَاء",
+          "en": "The Letter Fa (ف)",
+          "file": "content/qarpre/l22.json"
+        },
+        {
+          "id": "qarpre-l23",
+          "n": "23",
+          "ar": "حَرْفُ قَاف",
+          "en": "The Letter Qaf (ق)",
+          "file": "content/qarpre/l23.json"
+        },
+        {
+          "id": "qarpre-l24",
+          "n": "24",
+          "ar": "حَرْفُ كَاف",
+          "en": "The Letter Kaf (ك)",
+          "file": "content/qarpre/l24.json"
+        },
+        {
+          "id": "qarpre-l25",
+          "n": "25",
+          "ar": "حَرْفُ لَام",
+          "en": "The Letter Lam (ل)",
+          "file": "content/qarpre/l25.json"
+        },
+        {
+          "id": "qarpre-l26",
+          "n": "26",
+          "ar": "حَرْفُ مِيم",
+          "en": "The Letter Mim (م)",
+          "file": "content/qarpre/l26.json"
+        },
+        {
+          "id": "qarpre-l27",
+          "n": "27",
+          "ar": "حَرْفُ نُون",
+          "en": "The Letter Nun (ن)",
+          "file": "content/qarpre/l27.json"
+        },
+        {
+          "id": "qarpre-l28",
+          "n": "28",
+          "ar": "حَرْفُ هَاء",
+          "en": "The Letter Ha (ه)",
+          "file": "content/qarpre/l28.json"
+        },
+        {
+          "id": "qarpre-l29",
+          "n": "29",
+          "ar": "حَرْفُ وَاو",
+          "en": "The Letter Waw (و)",
+          "file": "content/qarpre/l29.json"
+        },
+        {
+          "id": "qarpre-l30",
+          "n": "30",
+          "ar": "حَرْفُ يَاء",
+          "en": "The Letter Ya (ي)",
+          "file": "content/qarpre/l30.json"
+        }
+      ]
+    },
+    {
       "id": "ar2",
       "en": "Arabic Adventures · Book 2",
       "ar": "ARkid A2",

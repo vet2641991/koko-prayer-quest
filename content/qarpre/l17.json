@@ -1,0 +1,257 @@
+{
+  "id": "qarpre-l17",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 17. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ ضَاد",
+    "en": "The Letter Dad (ض)"
+  },
+  "topic": "Read and write Dad (ض) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Dad. Unique to Arabic! An emphatic 'D' — no equivalent in English. A deep, heavy 'D'.",
+      "title": "Meet Dad!",
+      "ar": "ض",
+      "aud": "c-0-ar",
+      "tr": "Dad"
+    },
+    {
+      "en": "Like Sad but with a single dot on top. Arabic is called 'Lughat al-Dad' — The Language of Dad! Dad is UNIQUE — no other language has this sound! Arabic is the Language of Dad!",
+      "title": "How to write Dad"
+    },
+    {
+      "en": "With a fatha, Dad says “da”.",
+      "title": "Dad with fatha",
+      "ar": "ضَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Dad says “de”.",
+      "title": "Dad with kasra",
+      "ar": "ضِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Dad says “do”.",
+      "title": "Dad with damma",
+      "ar": "ضُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“Ramadan is a great month”",
+      "title": "Sentence of the lesson",
+      "ar": "رَمَضَانُ شَهْرٌ عَظِيمٌ",
+      "aud": "c-5-ar",
+      "tr": "Ramadanu Shahrun 'Azim"
+    }
+  ],
+  "words": [
+    {
+      "id": "dayf",
+      "ar": "ضَيْف",
+      "en": "Guest",
+      "tr": "Dayf"
+    },
+    {
+      "id": "daef",
+      "ar": "ضَعِيف",
+      "en": "Weak",
+      "tr": "Daʿef"
+    },
+    {
+      "id": "fadl",
+      "ar": "فَضْل",
+      "en": "Virtue",
+      "tr": "Fadl"
+    },
+    {
+      "id": "ramadan",
+      "ar": "رَمَضَان",
+      "en": "Ramadan",
+      "tr": "Ramadan"
+    },
+    {
+      "id": "ard",
+      "ar": "أَرْض",
+      "en": "Earth",
+      "tr": "Ard"
+    },
+    {
+      "id": "marad",
+      "ar": "مَرَض",
+      "en": "Illness",
+      "tr": "Marad"
+    },
+    {
+      "id": "dab",
+      "ar": "ضَبْع",
+      "en": "Hyena",
+      "tr": "Dabʿ"
+    },
+    {
+      "id": "dakhm",
+      "ar": "ضَخْم",
+      "en": "Huge",
+      "tr": "Dakhm"
+    },
+    {
+      "id": "daraaeb",
+      "ar": "ضَرَائِب",
+      "en": "Taxes",
+      "tr": "Daraa'eb"
+    },
+    {
+      "id": "deyafah",
+      "ar": "ضِيَافَة",
+      "en": "Hospitality",
+      "tr": "Deyafah"
+    },
+    {
+      "id": "del",
+      "ar": "ضِلْع",
+      "en": "Rib",
+      "tr": "Delʿ"
+    },
+    {
+      "id": "demaadah",
+      "ar": "ضِمَادَة",
+      "en": "Bandage",
+      "tr": "Demaadah"
+    },
+    {
+      "id": "domoor",
+      "ar": "ضُمُور",
+      "en": "Atrophy",
+      "tr": "Domoor"
+    },
+    {
+      "id": "doroos",
+      "ar": "ضُرُوس",
+      "en": "Molars",
+      "tr": "Doroos"
+    },
+    {
+      "id": "dobbaat",
+      "ar": "ضُبَّاط",
+      "en": "Officers",
+      "tr": "Dobbaat"
+    },
+    {
+      "id": "defda",
+      "ar": "ضِفْدَع",
+      "en": "Frog",
+      "tr": "Defdaʿ"
+    },
+    {
+      "id": "darb",
+      "ar": "ضَرْب",
+      "en": "To hit",
+      "tr": "Darb"
+    },
+    {
+      "id": "damaan",
+      "ar": "ضَمَان",
+      "en": "A guarantee",
+      "tr": "Damaan"
+    },
+    {
+      "id": "dedd",
+      "ar": "ضِدّ",
+      "en": "Against",
+      "tr": "Dedd"
+    },
+    {
+      "id": "dayyek",
+      "ar": "ضَيِّق",
+      "en": "Narrow",
+      "tr": "Dayyek"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? ضِفْدَع means Frog.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ضَرْب means A guarantee.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ض is called Dad.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ض?",
+      "opts": [
+        [
+          "",
+          "Dad",
+          1
+        ],
+        [
+          "",
+          "Ghain",
+          0
+        ],
+        [
+          "",
+          "Nun",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ض in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Dad! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Dad (ض): Read and write Dad (ض) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l17.mp4",
+    "poster": "media/qarpre-l17-poster.jpg"
+  }
+}

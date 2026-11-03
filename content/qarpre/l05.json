@@ -1,0 +1,245 @@
+{
+  "id": "qarpre-l05",
+  "world": "qarpre",
+  "source": "DHM Arabic Letters Journey (QAR PRE) · lesson 5. From Dr. Hassan's book; every Arabic word in his voice.",
+  "title": {
+    "ar": "حَرْفُ تَاء",
+    "en": "The Letter Ta (ت)"
+  },
+  "topic": "Read and write Ta (ت) at the beginning, middle and end of words, with Fatha, Kasra and Damma.",
+  "minutes": 10,
+  "learn": [
+    {
+      "en": "This is Ta. Like 't' in 'top'. Tongue touches the upper teeth a crisp, clear sound.",
+      "title": "Meet Ta!",
+      "ar": "ت",
+      "aud": "c-0-ar",
+      "tr": "Ta"
+    },
+    {
+      "en": "Same shape as Ba but with TWO dots ABOVE. Draw the base line, then two dots on top. Ta has TWO dots on top like TWO eyes looking up to the sky!",
+      "title": "How to write Ta"
+    },
+    {
+      "en": "With a fatha, Ta says “ta”.",
+      "title": "Ta with fatha",
+      "ar": "تَ",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "With a kasra, Ta says “te”.",
+      "title": "Ta with kasra",
+      "ar": "تِ",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "With a damma, Ta says “to”.",
+      "title": "Ta with damma",
+      "ar": "تُ",
+      "aud": "c-4-ar"
+    },
+    {
+      "en": "“The apple is delicious”",
+      "title": "Sentence of the lesson",
+      "ar": "التُّفَّاحُ لَذِيذْ",
+      "aud": "c-5-ar",
+      "tr": "Al-Toffah Lathith"
+    }
+  ],
+  "words": [
+    {
+      "id": "tamr",
+      "ar": "تَمْرْ",
+      "en": "Dates (fruit)",
+      "tr": "Tamr"
+    },
+    {
+      "id": "tuffah",
+      "ar": "تُفَّاحْ",
+      "en": "Apple",
+      "tr": "Tuffah"
+    },
+    {
+      "id": "mata",
+      "ar": "مَتَاعْ",
+      "en": "Belongings",
+      "tr": "Mata'"
+    },
+    {
+      "id": "kitab",
+      "ar": "كِتَابْ",
+      "en": "Book",
+      "tr": "Kitab"
+    },
+    {
+      "id": "waqt",
+      "ar": "وَقْتْ",
+      "en": "Time",
+      "tr": "Waqt"
+    },
+    {
+      "id": "bayt",
+      "ar": "بَيْتْ",
+      "en": "House",
+      "tr": "Bayt"
+    },
+    {
+      "id": "taab",
+      "ar": "تَعَبْ",
+      "en": "Tiredness",
+      "tr": "Ta'ab"
+    },
+    {
+      "id": "taj",
+      "ar": "تَاجْ",
+      "en": "Crown",
+      "tr": "Taj"
+    },
+    {
+      "id": "ten",
+      "ar": "تِينْ",
+      "en": "Figs",
+      "tr": "Ten"
+    },
+    {
+      "id": "telmith",
+      "ar": "تِلْمِيذْ",
+      "en": "Student",
+      "tr": "Telmith"
+    },
+    {
+      "id": "tejarah",
+      "ar": "تِجَارَه",
+      "en": "Trade",
+      "tr": "Tejarah"
+    },
+    {
+      "id": "torab",
+      "ar": "تُرَابْ",
+      "en": "Dust/Soil",
+      "tr": "Torab"
+    },
+    {
+      "id": "toones",
+      "ar": "تُونِسْ",
+      "en": "Tunisia",
+      "tr": "Toones"
+    },
+    {
+      "id": "temsaah",
+      "ar": "تِمْسَاحْ",
+      "en": "Crocodile",
+      "tr": "TEMSAAH"
+    },
+    {
+      "id": "toot",
+      "ar": "تُوتْ",
+      "en": "Berries",
+      "tr": "TOOT"
+    },
+    {
+      "id": "tannoor",
+      "ar": "تَنُّورْ",
+      "en": "Oven",
+      "tr": "TANNOOR"
+    },
+    {
+      "id": "telfaaz",
+      "ar": "تِلْفَازْ",
+      "en": "TV",
+      "tr": "Telfaaz"
+    },
+    {
+      "id": "tesah",
+      "ar": "تِسْعَه",
+      "en": "Nine",
+      "tr": "Tesʿah"
+    }
+  ],
+  "games": [
+    "listen",
+    "match"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? تِمْسَاحْ means Crocodile.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? تُوتْ means Oven.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ت is called Ta.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What is the name of ت?",
+      "opts": [
+        [
+          "",
+          "Ta",
+          1
+        ],
+        [
+          "",
+          "Khaa",
+          0
+        ],
+        [
+          "",
+          "Sheen",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find ت in a word at home, in a book or on a sign?",
+    "a": "Point to it and say its name: Ta! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ta (ت): Read and write Ta (ت) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
+    "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l05.mp4",
+    "poster": "media/qarpre-l05-poster.jpg"
+  }
+}
