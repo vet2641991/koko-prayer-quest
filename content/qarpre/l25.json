@@ -249,5 +249,9 @@
   "parents": {
     "summary": "The Letter Lam (ل): Read and write Lam (ل) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
     "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l25.mp4",
+    "poster": "media/qarpre-l25-poster.jpg"
   }
 }

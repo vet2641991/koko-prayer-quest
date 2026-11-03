@@ -237,5 +237,9 @@
   "parents": {
     "summary": "The Letter Ya (ي): Read and write Ya (ي) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
     "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l30.mp4",
+    "poster": "media/qarpre-l30-poster.jpg"
   }
 }
