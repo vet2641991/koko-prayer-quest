@@ -249,5 +249,9 @@
   "parents": {
     "summary": "The Letter Kaf (ك): Read and write Kaf (ك) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
     "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l24.mp4",
+    "poster": "media/qarpre-l24-poster.jpg"
   }
 }

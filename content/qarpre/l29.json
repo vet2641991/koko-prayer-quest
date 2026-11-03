@@ -249,5 +249,9 @@
   "parents": {
     "summary": "The Letter Waw (و): Read and write Waw (و) at the beginning, middle and end of words, with Fatha, Kasra and Damma..",
     "tip": "Ask your child to read the words to you, then point to the letter inside each one."
+  },
+  "video": {
+    "src": "media/qarpre-l29.mp4",
+    "poster": "media/qarpre-l29-poster.jpg"
   }
 }
