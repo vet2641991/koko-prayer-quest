@@ -1,0 +1,538 @@
+{
+  "id": "qra1-l03",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 3. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الْكَسْرَةُ",
+    "en": "Kasra"
+  },
+  "topic": "Read kasra and recite Surat An-Nas",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Kasra is a small slanting line under the letter. Read a short “e” on any letter. Letter plus kasra equals the letter's sound plus e.",
+      "title": "Kasra"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ النَّاسِ",
+      "aud": "c-1-ar",
+      "tr": "soorato annaase"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat An-Nas. Follow with your finger, then recite it yourself.",
+      "title": "Surat An-Nas",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ﴿١﴾ مَلِكِ ٱلنَّاسِ ﴿٢﴾ إِلَٰهِ ٱلنَّاسِ ﴿٣﴾ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ﴿٤﴾ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ ﴿٥﴾ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ ﴿٦﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "e",
+      "ar": "إِ",
+      "en": "Kasra",
+      "tr": "e"
+    },
+    {
+      "id": "be",
+      "ar": "بِ",
+      "en": "Kasra",
+      "tr": "be"
+    },
+    {
+      "id": "te",
+      "ar": "تِ",
+      "en": "Kasra",
+      "tr": "te"
+    },
+    {
+      "id": "the",
+      "ar": "ثِ",
+      "en": "Kasra",
+      "tr": "the"
+    },
+    {
+      "id": "je",
+      "ar": "جِ",
+      "en": "Kasra",
+      "tr": "je"
+    },
+    {
+      "id": "he",
+      "ar": "حِ",
+      "en": "Kasra",
+      "tr": "he"
+    },
+    {
+      "id": "khe",
+      "ar": "خِ",
+      "en": "Kasra",
+      "tr": "khe"
+    },
+    {
+      "id": "de",
+      "ar": "دِ",
+      "en": "Kasra",
+      "tr": "de"
+    },
+    {
+      "id": "dhe",
+      "ar": "ذِ",
+      "en": "Kasra",
+      "tr": "dhe"
+    },
+    {
+      "id": "re",
+      "ar": "رِ",
+      "en": "Kasra",
+      "tr": "re"
+    },
+    {
+      "id": "ze",
+      "ar": "زِ",
+      "en": "Kasra",
+      "tr": "ze"
+    },
+    {
+      "id": "se",
+      "ar": "سِ",
+      "en": "Kasra",
+      "tr": "se"
+    },
+    {
+      "id": "she",
+      "ar": "شِ",
+      "en": "Kasra",
+      "tr": "she"
+    },
+    {
+      "id": "se2",
+      "ar": "صِ",
+      "en": "Kasra",
+      "tr": "se"
+    },
+    {
+      "id": "de2",
+      "ar": "ضِ",
+      "en": "Kasra",
+      "tr": "de"
+    },
+    {
+      "id": "te2",
+      "ar": "طِ",
+      "en": "Kasra",
+      "tr": "te"
+    },
+    {
+      "id": "dhe2",
+      "ar": "ظِ",
+      "en": "Kasra",
+      "tr": "dhe"
+    },
+    {
+      "id": "e2",
+      "ar": "عِ",
+      "en": "Kasra",
+      "tr": "e"
+    },
+    {
+      "id": "ghe",
+      "ar": "غِ",
+      "en": "Kasra",
+      "tr": "ghe"
+    },
+    {
+      "id": "fe",
+      "ar": "فِ",
+      "en": "Kasra",
+      "tr": "fe"
+    },
+    {
+      "id": "qe",
+      "ar": "قِ",
+      "en": "Kasra",
+      "tr": "qe"
+    },
+    {
+      "id": "ke",
+      "ar": "كِ",
+      "en": "Kasra",
+      "tr": "ke"
+    },
+    {
+      "id": "le",
+      "ar": "لِ",
+      "en": "Kasra",
+      "tr": "le"
+    },
+    {
+      "id": "me",
+      "ar": "مِ",
+      "en": "Kasra",
+      "tr": "me"
+    },
+    {
+      "id": "ne",
+      "ar": "نِ",
+      "en": "Kasra",
+      "tr": "ne"
+    },
+    {
+      "id": "he2",
+      "ar": "هِ",
+      "en": "Kasra",
+      "tr": "he"
+    },
+    {
+      "id": "we",
+      "ar": "وِ",
+      "en": "Kasra",
+      "tr": "we"
+    },
+    {
+      "id": "ye",
+      "ar": "يِ",
+      "en": "Kasra",
+      "tr": "ye"
+    },
+    {
+      "id": "fareha",
+      "ar": "فَرِحَ",
+      "en": "Kasra",
+      "tr": "fareha"
+    },
+    {
+      "id": "kareha",
+      "ar": "كَرِهَ",
+      "en": "Kasra",
+      "tr": "kareha"
+    },
+    {
+      "id": "labetha",
+      "ar": "لَبِثَ",
+      "en": "Kasra",
+      "tr": "labetha"
+    },
+    {
+      "id": "khasera",
+      "ar": "خَسِرَ",
+      "en": "Kasra",
+      "tr": "khasera"
+    },
+    {
+      "id": "ghadeba",
+      "ar": "غَضِبَ",
+      "en": "Kasra",
+      "tr": "ghadeba"
+    },
+    {
+      "id": "shareba",
+      "ar": "شَرِبَ",
+      "en": "Kasra",
+      "tr": "shareba"
+    },
+    {
+      "id": "wasea",
+      "ar": "وَسِعَ",
+      "en": "Kasra",
+      "tr": "wase'a"
+    },
+    {
+      "id": "sakhera",
+      "ar": "سَخِرَ",
+      "en": "Kasra",
+      "tr": "sakhera"
+    },
+    {
+      "id": "yaesa",
+      "ar": "يَئِسَ",
+      "en": "Kasra",
+      "tr": "ya'esa"
+    },
+    {
+      "id": "naseya",
+      "ar": "نَسِيَ",
+      "en": "Kasra",
+      "tr": "naseya"
+    },
+    {
+      "id": "shaheda",
+      "ar": "شَهِدَ",
+      "en": "Kasra",
+      "tr": "shaheda"
+    },
+    {
+      "id": "safeha",
+      "ar": "سَفِهَ",
+      "en": "Kasra",
+      "tr": "safeha"
+    },
+    {
+      "id": "sheyata",
+      "ar": "شِيَةَ",
+      "en": "Kasra",
+      "tr": "sheyata"
+    },
+    {
+      "id": "qebala",
+      "ar": "قِبَلَ",
+      "en": "Kasra",
+      "tr": "qebala"
+    },
+    {
+      "id": "ewaja",
+      "ar": "عِوَجَ",
+      "en": "Kasra",
+      "tr": "ewaja"
+    },
+    {
+      "id": "sheyaa",
+      "ar": "شِيَعَ",
+      "en": "Kasra",
+      "tr": "sheya'a"
+    },
+    {
+      "id": "yashaae",
+      "ar": "يَشَاءِ",
+      "en": "Kasra",
+      "tr": "yashaa'e"
+    },
+    {
+      "id": "athare",
+      "ar": "أَثَرِ",
+      "en": "Kasra",
+      "tr": "athare"
+    },
+    {
+      "id": "aheda",
+      "ar": "عَهِدَ",
+      "en": "Kasra",
+      "tr": "aheda"
+    },
+    {
+      "id": "badate",
+      "ar": "بَدَتِ",
+      "en": "Kasra",
+      "tr": "badate"
+    },
+    {
+      "id": "wa",
+      "ar": "وَ",
+      "en": "Kasra",
+      "tr": "wa"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Kasra",
+      "tr": "ya"
+    },
+    {
+      "id": "waleya",
+      "ar": "وَلِيَ",
+      "en": "Kasra",
+      "tr": "waleya"
+    },
+    {
+      "id": "ba",
+      "ar": "بَ",
+      "en": "Kasra",
+      "tr": "ba"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "Kasra",
+      "tr": "la"
+    },
+    {
+      "id": "bakhela",
+      "ar": "بَخِلَ",
+      "en": "Kasra",
+      "tr": "bakhela"
+    },
+    {
+      "id": "ta",
+      "ar": "تَ",
+      "en": "Kasra",
+      "tr": "ta"
+    },
+    {
+      "id": "da",
+      "ar": "دَ",
+      "en": "Kasra",
+      "tr": "da"
+    },
+    {
+      "id": "tajeda",
+      "ar": "تَجِدَ",
+      "en": "Kasra",
+      "tr": "tajeda"
+    },
+    {
+      "id": "gha",
+      "ar": "غَ",
+      "en": "Kasra",
+      "tr": "gha"
+    },
+    {
+      "id": "sa",
+      "ar": "سَ",
+      "en": "Kasra",
+      "tr": "sa"
+    },
+    {
+      "id": "ghasaqe",
+      "ar": "غَسَقِ",
+      "en": "Kasra",
+      "tr": "ghasaqe"
+    },
+    {
+      "id": "a",
+      "ar": "عَ",
+      "en": "Kasra",
+      "tr": "a"
+    },
+    {
+      "id": "amela",
+      "ar": "عَمِلَ",
+      "en": "Kasra",
+      "tr": "amela"
+    },
+    {
+      "id": "ajeda",
+      "ar": "أَجِدَ",
+      "en": "Kasra",
+      "tr": "ajeda"
+    },
+    {
+      "id": "sakheta",
+      "ar": "سَخِطَ",
+      "en": "Kasra",
+      "tr": "sakheta"
+    },
+    {
+      "id": "radefa",
+      "ar": "رَدِفَ",
+      "en": "Kasra",
+      "tr": "radefa"
+    },
+    {
+      "id": "adhena",
+      "ar": "أَذِنَ",
+      "en": "Kasra",
+      "tr": "adhena"
+    },
+    {
+      "id": "khalate",
+      "ar": "خَلَتِ",
+      "en": "Kasra",
+      "tr": "khalate"
+    },
+    {
+      "id": "erama",
+      "ar": "إِرَمَ",
+      "en": "Kasra",
+      "tr": "erama"
+    },
+    {
+      "id": "habeta",
+      "ar": "حَبِطَ",
+      "en": "Kasra",
+      "tr": "habeta"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Kasra is written under the letter.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does kasra make?",
+      "opts": [
+        [
+          "",
+          "e",
+          1
+        ],
+        [
+          "",
+          "a",
+          0
+        ],
+        [
+          "",
+          "o",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثِ reads “the”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? نَسِيَ reads “naseya”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find kasra in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Kasra: Read kasra and recite Surat An-Nas.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l03.mp4",
+    "poster": "media/qra1-l03-poster.jpg"
+  }
+}

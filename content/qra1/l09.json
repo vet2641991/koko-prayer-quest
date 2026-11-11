@@ -1,0 +1,108 @@
+{
+  "id": "qra1-l09",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 9. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الشَّدَّةُ",
+    "en": "Shaddah"
+  },
+  "topic": "Read shaddah and recite Surat Al-Kawthar",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Shaddah looks like a small seen on top of the letter. It means the letter is doubled: the first one has sukoon and the second has a short vowel. To say it, split the letter into two.",
+      "title": "Shaddah"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْكَوْثَرِ",
+      "aud": "c-1-ar",
+      "tr": "soorato alkawthare"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Kawthar. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Kawthar",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ ﴿١﴾ فَصَلِّ لِرَبِّكَ وَٱنْحَرْ ﴿٢﴾ إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ ﴿٣﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "atta",
+      "ar": "أَتَّ",
+      "en": "Shaddah",
+      "tr": "atta"
+    },
+    {
+      "id": "at",
+      "ar": "أَتْ",
+      "en": "Shaddah",
+      "tr": "at"
+    },
+    {
+      "id": "ta",
+      "ar": "تَ",
+      "en": "Shaddah",
+      "tr": "ta"
+    }
+  ],
+  "games": [],
+  "quiz": [
+    {
+      "en": "True or false? Shaddah means the letter is doubled.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What does shaddah look like?",
+      "opts": [
+        [
+          "",
+          "A small seen",
+          1
+        ],
+        [
+          "",
+          "A small circle",
+          0
+        ],
+        [
+          "",
+          "Two lines",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Can you find shaddah in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Shaddah: Read shaddah and recite Surat Al-Kawthar.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l09.mp4",
+    "poster": "media/qra1-l09-poster.jpg"
+  }
+}

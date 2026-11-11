@@ -1,0 +1,381 @@
+{
+  "id": "qra1-l37",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 37. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ ظَاء",
+    "en": "The Letter Dhaa (ظ)"
+  },
+  "topic": "Read Dhaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Dhaa. A heavy dh.",
+      "title": "Meet Dhaa!",
+      "ar": "ظ",
+      "aud": "c-0-ar",
+      "tr": "Dhaa"
+    },
+    {
+      "en": "A head on the line with a tall flag and a dot. It connects from both sides.",
+      "title": "How to write Dhaa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "ظُهُورِهِمْ",
+      "tr": "dhohoorehem"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "مَحْظُورًا",
+      "tr": "mahdhooran"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "الظَّالِمِينَ",
+      "tr": "adhdhaalemeena"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "الظُّلَّةُ",
+      "tr": "adhdhollato"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "حَفِيظٌ",
+      "tr": "hafeedhon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَظْلِمُ",
+      "tr": "yadhlemo"
+    },
+    {
+      "en": "Surat Al-Qasas, verse 79. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "قَالَ ٱلَّذِينَ يُرِيدُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا يَٰلَيْتَ لَنَا مِثْلَ مَآ أُوتِىَ قَٰرُونُ إِنَّهُۥ لَذُو حَظٍّ عَظِيمٍۢ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "dhalama",
+      "ar": "ظَلَمَ",
+      "en": "Letter in a word",
+      "tr": "dhalama"
+    },
+    {
+      "id": "adheema",
+      "ar": "عَظِيمَ",
+      "en": "Letter in a word",
+      "tr": "adheema"
+    },
+    {
+      "id": "ghaleedha",
+      "ar": "غَلِيظَ",
+      "en": "Letter in a word",
+      "tr": "ghaleedha"
+    },
+    {
+      "id": "showaadhon",
+      "ar": "شُوَاظٌ",
+      "en": "Letter in a word",
+      "tr": "showaadhon"
+    },
+    {
+      "id": "dhohoorehem",
+      "ar": "ظُهُورِهِمْ",
+      "en": "Short vowels",
+      "tr": "dhohoorehem"
+    },
+    {
+      "id": "yandhoroona",
+      "ar": "يَنظُرُونَ",
+      "en": "Short vowels",
+      "tr": "yandhoroona"
+    },
+    {
+      "id": "adhdholomaate",
+      "ar": "الظُّلُمَاتِ",
+      "en": "Short vowels",
+      "tr": "adhdholomaate"
+    },
+    {
+      "id": "dhelaalen",
+      "ar": "ظِلَالٍ",
+      "en": "Short vowels",
+      "tr": "dhelaalen"
+    },
+    {
+      "id": "dhehreyyan",
+      "ar": "ظِهْرِيًّا",
+      "en": "Short vowels",
+      "tr": "dhehreyyan"
+    },
+    {
+      "id": "dhellan",
+      "ar": "ظِلًّا",
+      "en": "Short vowels",
+      "tr": "dhellan"
+    },
+    {
+      "id": "dhalamahom",
+      "ar": "ظَلَمَهُمْ",
+      "en": "Short vowels",
+      "tr": "dhalamahom"
+    },
+    {
+      "id": "dhahara",
+      "ar": "ظَهَرَ",
+      "en": "Short vowels",
+      "tr": "dhahara"
+    },
+    {
+      "id": "wadhanantom",
+      "ar": "وَظَنَنْتُمْ",
+      "en": "Short vowels",
+      "tr": "wadhanantom"
+    },
+    {
+      "id": "mahdhooran",
+      "ar": "مَحْظُورًا",
+      "en": "Long vowels",
+      "tr": "mahdhooran"
+    },
+    {
+      "id": "haafedhoo",
+      "ar": "حَافِظُوا",
+      "en": "Long vowels",
+      "tr": "haafedhoo"
+    },
+    {
+      "id": "faedhoohom",
+      "ar": "فَعِظُوهُمْ",
+      "en": "Long vowels",
+      "tr": "fa'edhoohom"
+    },
+    {
+      "id": "aladheemo",
+      "ar": "الْعَظِيمُ",
+      "en": "Long vowels",
+      "tr": "al'adheemo"
+    },
+    {
+      "id": "kadheemon",
+      "ar": "كَظِيمٌ",
+      "en": "Long vowels",
+      "tr": "kadheemon"
+    },
+    {
+      "id": "alhaafedheena",
+      "ar": "الْحَافِظِينَ",
+      "en": "Long vowels",
+      "tr": "alhaafedheena"
+    },
+    {
+      "id": "adhdhaalemeena",
+      "ar": "الظَّالِمِينَ",
+      "en": "With Al",
+      "tr": "adhdhaalemeena"
+    },
+    {
+      "id": "aledhaama",
+      "ar": "الْعِظَامَ",
+      "en": "With Al",
+      "tr": "al'edhaama"
+    },
+    {
+      "id": "dhaaheraton",
+      "ar": "ظَاهِرَةٌ",
+      "en": "With Al",
+      "tr": "dhaaheraton"
+    },
+    {
+      "id": "adhdhollato",
+      "ar": "الظُّلَّةُ",
+      "en": "Shaddah",
+      "tr": "adhdhollato"
+    },
+    {
+      "id": "adhdhonoonaa",
+      "ar": "الظُّنُونَا",
+      "en": "Shaddah",
+      "tr": "adhdhonoonaa"
+    },
+    {
+      "id": "adhdhella",
+      "ar": "الظِّلَّ",
+      "en": "Shaddah",
+      "tr": "adhdhella"
+    },
+    {
+      "id": "yoadhdhem",
+      "ar": "يُعَظِّمْ",
+      "en": "Shaddah",
+      "tr": "yo'adhdhem"
+    },
+    {
+      "id": "hadhdhen",
+      "ar": "حَظٍّ",
+      "en": "Shaddah",
+      "tr": "hadhdhen"
+    },
+    {
+      "id": "adhdhanna",
+      "ar": "الظَّنَّ",
+      "en": "Shaddah",
+      "tr": "adhdhanna"
+    },
+    {
+      "id": "tadhdhaaharoona",
+      "ar": "تَظَّاهَرُونَ",
+      "en": "Shaddah",
+      "tr": "tadhdhaaharoona"
+    },
+    {
+      "id": "hafeedhon",
+      "ar": "حَفِيظٌ",
+      "en": "Tanween",
+      "tr": "hafeedhon"
+    },
+    {
+      "id": "mmahfoodhen",
+      "ar": "مَّحْفُوظٍ",
+      "en": "Tanween",
+      "tr": "mmahfoodhen"
+    },
+    {
+      "id": "ghaleedhen",
+      "ar": "غَلِيظٍ",
+      "en": "Tanween",
+      "tr": "ghaleedhen"
+    },
+    {
+      "id": "hafeedhan",
+      "ar": "حَفِيظًا",
+      "en": "Tanween",
+      "tr": "hafeedhan"
+    },
+    {
+      "id": "ghaleedhan",
+      "ar": "غَلِيظًا",
+      "en": "Tanween",
+      "tr": "ghaleedhan"
+    },
+    {
+      "id": "fadhdhan",
+      "ar": "فَظًّا",
+      "en": "Tanween",
+      "tr": "fadhdhan"
+    },
+    {
+      "id": "yadhlemo",
+      "ar": "يَظْلِمُ",
+      "en": "Sukoon",
+      "tr": "yadhlemo"
+    },
+    {
+      "id": "waadhharaho",
+      "ar": "وَأَظْهَرَهُ",
+      "en": "Sukoon",
+      "tr": "wa'adhharaho"
+    },
+    {
+      "id": "adhfarakom",
+      "ar": "أَظْفَرَكُمْ",
+      "en": "Sukoon",
+      "tr": "adhfarakom"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ظ?",
+      "opts": [
+        [
+          "",
+          "Dhaa",
+          1
+        ],
+        [
+          "",
+          "Kaaf",
+          0
+        ],
+        [
+          "",
+          "Yaa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ظ connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? شُوَاظٌ reads “showaadhon”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الظُّلَّةُ reads “adhdhollato”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ظ in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Dhaa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Dhaa (ظ): Read Dhaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l37.mp4",
+    "poster": "media/qra1-l37-poster.jpg"
+  }
+}

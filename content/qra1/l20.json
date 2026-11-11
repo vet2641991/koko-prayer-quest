@@ -1,0 +1,218 @@
+{
+  "id": "qra1-l20",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 20. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الْحُرُوفُ الْمُقَطَّعَةُ",
+    "en": "Disconnected letters"
+  },
+  "topic": "Read Disconnected letters and recite Surat Al-Qadr",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "29 surahs begin with special letters. Each letter is read by its name, not by its sound. They are not words.",
+      "title": "The disconnected letters"
+    },
+    {
+      "en": "Alif has no madd. Haa, Yaa, Taa, Haa and Raa have a normal madd of 2 counts. Noon, Qaaf, Saad, Ayn, Seen, Laam, Kaaf and Meem have a madd of 6 counts and always carry the sign ~.",
+      "title": "Three groups"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ القَدْرِ",
+      "aud": "c-2-ar",
+      "tr": "soorato alqadre"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Qadr. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Qadr",
+      "ar": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ ﴿١﴾ وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ ﴿٢﴾ لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ ﴿٣﴾ تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ ﴿٤﴾ سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ ﴿٥﴾",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-4-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "alif",
+      "ar": "(ا)",
+      "en": "Disconnected letters",
+      "tr": "Alif"
+    },
+    {
+      "id": "taahaa",
+      "ar": "طه",
+      "en": "Disconnected letters",
+      "tr": "Taa Haa"
+    },
+    {
+      "id": "aliflaammeem",
+      "ar": "الٓمّٓ",
+      "en": "Disconnected letters",
+      "tr": "Alif Laam Meem"
+    },
+    {
+      "id": "taaseenmeem",
+      "ar": "طسٓمّٓ",
+      "en": "Disconnected letters",
+      "tr": "Taa Seen Meem"
+    },
+    {
+      "id": "aliflaammeemsaad",
+      "ar": "الٓمّٓصٓ",
+      "en": "Disconnected letters",
+      "tr": "Alif Laam Meem Saad"
+    },
+    {
+      "id": "taaseen",
+      "ar": "طسٓ",
+      "en": "Disconnected letters",
+      "tr": "Taa Seen"
+    },
+    {
+      "id": "aliflaamraa",
+      "ar": "الٓر",
+      "en": "Disconnected letters",
+      "tr": "Alif Laam Raa"
+    },
+    {
+      "id": "yaaseen",
+      "ar": "يسٓ",
+      "en": "Disconnected letters",
+      "tr": "Yaa Seen"
+    },
+    {
+      "id": "aliflaammeemraa",
+      "ar": "الٓمّٓر",
+      "en": "Disconnected letters",
+      "tr": "Alif Laam Meem Raa"
+    },
+    {
+      "id": "saad",
+      "ar": "صٓ",
+      "en": "Disconnected letters",
+      "tr": "Saad"
+    },
+    {
+      "id": "kaafhaayaaaynsaa",
+      "ar": "كٓهيعٓصٓ",
+      "en": "Disconnected letters",
+      "tr": "Kaaf Haa Yaa Ayn Saad"
+    },
+    {
+      "id": "haameem",
+      "ar": "حمٓ",
+      "en": "Disconnected letters",
+      "tr": "Haa Meem"
+    },
+    {
+      "id": "aynseenqaaf",
+      "ar": "عٓسٓقٓ",
+      "en": "Disconnected letters",
+      "tr": "Ayn Seen Qaaf"
+    },
+    {
+      "id": "qaaf",
+      "ar": "قٓ",
+      "en": "Disconnected letters",
+      "tr": "Qaaf"
+    },
+    {
+      "id": "noon",
+      "ar": "نٓ",
+      "en": "Disconnected letters",
+      "tr": "Noon"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Disconnected letters are read by their names.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "How many surahs begin with these letters?",
+      "opts": [
+        [
+          "",
+          "29",
+          1
+        ],
+        [
+          "",
+          "14",
+          0
+        ],
+        [
+          "",
+          "114",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? طسٓمّٓ reads “Taa Seen Meem”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? كٓهيعٓصٓ reads “Kaaf Haa Yaa Ayn Saad”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find Disconnected letters in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Disconnected letters: Read Disconnected letters and recite Surat Al-Qadr.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l20.mp4",
+    "poster": "media/qra1-l20-poster.jpg"
+  }
+}

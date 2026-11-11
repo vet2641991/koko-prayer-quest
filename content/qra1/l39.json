@@ -1,0 +1,345 @@
+{
+  "id": "qra1-l39",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 39. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ غَيْن",
+    "en": "The Letter Ghayn (غ)"
+  },
+  "topic": "Read Ghayn with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Ghayn. Like gh.",
+      "title": "Meet Ghayn!",
+      "ar": "غ",
+      "aud": "c-0-ar",
+      "tr": "Ghayn"
+    },
+    {
+      "en": "A big C with a smaller c on top and a dot. It connects from both sides.",
+      "title": "How to write Ghayn"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "غَفُورًا",
+      "tr": "ghafooran"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "الْغَاشِيَةِ",
+      "tr": "alghaasheyate"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "غِيضَ",
+      "tr": "gheeda"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "بَلَاغًا",
+      "tr": "balaaghan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "الْمَغْضُوبِ",
+      "tr": "almaghdoobe"
+    },
+    {
+      "en": "Surat Al-A'raf, verse 200. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌۭ",
+      "aud": "c-7-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "ghafooro",
+      "ar": "غَفُورُ",
+      "en": "Letter in a word",
+      "tr": "ghafooro"
+    },
+    {
+      "id": "maghferaten",
+      "ar": "مَغْفِرَةٍ",
+      "en": "Letter in a word",
+      "tr": "maghferaten"
+    },
+    {
+      "id": "yablogho",
+      "ar": "يَبْلُغُ",
+      "en": "Letter in a word",
+      "tr": "yablogho"
+    },
+    {
+      "id": "balaaghon",
+      "ar": "بَلَاغٌ",
+      "en": "Letter in a word",
+      "tr": "balaaghon"
+    },
+    {
+      "id": "ghafooran",
+      "ar": "غَفُورًا",
+      "en": "Short vowels",
+      "tr": "ghafooran"
+    },
+    {
+      "id": "ghayra",
+      "ar": "غَيْرَ",
+      "en": "Short vowels",
+      "tr": "ghayra"
+    },
+    {
+      "id": "ghadan",
+      "ar": "غَدًا",
+      "en": "Short vowels",
+      "tr": "ghadan"
+    },
+    {
+      "id": "ghellan",
+      "ar": "غِلًّا",
+      "en": "Short vowels",
+      "tr": "ghellan"
+    },
+    {
+      "id": "gheshaawatan",
+      "ar": "غِشَاوَةً",
+      "en": "Short vowels",
+      "tr": "gheshaawatan"
+    },
+    {
+      "id": "ghetaaaka",
+      "ar": "غِطَاءَكَ",
+      "en": "Short vowels",
+      "tr": "ghetaa'aka"
+    },
+    {
+      "id": "ghoraaban",
+      "ar": "غُرَابًا",
+      "en": "Short vowels",
+      "tr": "ghoraaban"
+    },
+    {
+      "id": "gholebate",
+      "ar": "غُلِبَتِ",
+      "en": "Short vowels",
+      "tr": "gholebate"
+    },
+    {
+      "id": "ghorooran",
+      "ar": "غُرُورًا",
+      "en": "Short vowels",
+      "tr": "ghorooran"
+    },
+    {
+      "id": "alghaasheyate",
+      "ar": "الْغَاشِيَةِ",
+      "en": "With Al",
+      "tr": "alghaasheyate"
+    },
+    {
+      "id": "ghaalebon",
+      "ar": "غَالِبٌ",
+      "en": "With Al",
+      "tr": "ghaalebon"
+    },
+    {
+      "id": "ghaaseqen",
+      "ar": "غَاسِقٍ",
+      "en": "With Al",
+      "tr": "ghaaseqen"
+    },
+    {
+      "id": "gheeda",
+      "ar": "غِيضَ",
+      "en": "Long vowels",
+      "tr": "gheeda"
+    },
+    {
+      "id": "tastagheethoona",
+      "ar": "تَسْتَغِيثُونَ",
+      "en": "Long vowels",
+      "tr": "tastagheethoona"
+    },
+    {
+      "id": "yabtaghee",
+      "ar": "يَبْتَغِي",
+      "en": "Long vowels",
+      "tr": "yabtaghee"
+    },
+    {
+      "id": "yaghoosoona",
+      "ar": "يَغُوصُونَ",
+      "en": "Long vowels",
+      "tr": "yaghoosoona"
+    },
+    {
+      "id": "ghawlon",
+      "ar": "غَوْلٌ",
+      "en": "Long vowels",
+      "tr": "ghawlon"
+    },
+    {
+      "id": "yabghoona",
+      "ar": "يَبْغُونَ",
+      "en": "Long vowels",
+      "tr": "yabghoona"
+    },
+    {
+      "id": "balaaghan",
+      "ar": "بَلَاغًا",
+      "en": "Tanween",
+      "tr": "balaaghan"
+    },
+    {
+      "id": "saaeghan",
+      "ar": "سَائِغًا",
+      "en": "Tanween",
+      "tr": "saa'eghan"
+    },
+    {
+      "id": "faareghan",
+      "ar": "فَارِغًا",
+      "en": "Tanween",
+      "tr": "faareghan"
+    },
+    {
+      "id": "baaghen",
+      "ar": "بَاغٍ",
+      "en": "Tanween",
+      "tr": "baaghen"
+    },
+    {
+      "id": "nazghon",
+      "ar": "نَزْغٌ",
+      "en": "Tanween",
+      "tr": "nazghon"
+    },
+    {
+      "id": "zayghon",
+      "ar": "زَيْغٌ",
+      "en": "Tanween",
+      "tr": "zayghon"
+    },
+    {
+      "id": "almaghdoobe",
+      "ar": "الْمَغْضُوبِ",
+      "en": "Sukoon",
+      "tr": "almaghdoobe"
+    },
+    {
+      "id": "yaghfero",
+      "ar": "يَغْفِرُ",
+      "en": "Sukoon",
+      "tr": "yaghfero"
+    },
+    {
+      "id": "afregh",
+      "ar": "أَفْرِغْ",
+      "en": "Sukoon",
+      "tr": "afregh"
+    },
+    {
+      "id": "alghafooro",
+      "ar": "الْغَفُورُ",
+      "en": "With Al",
+      "tr": "alghafooro"
+    },
+    {
+      "id": "alghaybe",
+      "ar": "الْغَيْبِ",
+      "en": "With Al",
+      "tr": "alghaybe"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of غ?",
+      "opts": [
+        [
+          "",
+          "Ghayn",
+          1
+        ],
+        [
+          "",
+          "Meem",
+          0
+        ],
+        [
+          "",
+          "Baa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? غ connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? بَلَاغٌ reads “balaaghon”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يَغُوصُونَ reads “yaghoosoona”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find غ in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Ghayn! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ghayn (غ): Read Ghayn with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l39.mp4",
+    "poster": "media/qra1-l39-poster.jpg"
+  }
+}

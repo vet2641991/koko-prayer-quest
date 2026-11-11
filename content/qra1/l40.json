@@ -1,0 +1,417 @@
+{
+  "id": "qra1-l40",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 40. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ فَاء",
+    "en": "The Letter Faa (ف)"
+  },
+  "topic": "Read Faa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Faa. Like f in fish.",
+      "title": "Meet Faa!",
+      "ar": "ف",
+      "aud": "c-0-ar",
+      "tr": "Faa"
+    },
+    {
+      "en": "A small circle with a neck and a long tail like a boat, with one dot on top. It connects from both sides.",
+      "title": "How to write Faa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "الْفَلَقِ",
+      "tr": "alfalaqe"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "فَازَ",
+      "tr": "faaza"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "حَفِيظٌ",
+      "tr": "hafeedhon"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "فَكَفَّارَتُهُ",
+      "tr": "fakaffaaratoho"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "صَفًّا",
+      "tr": "saffan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "وَيَفْعَلُ",
+      "tr": "wayaf'alo"
+    },
+    {
+      "en": "Surat Al-Fil, verse 1. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "fataha",
+      "ar": "فَتَحَ",
+      "en": "Letter in a word",
+      "tr": "fataha"
+    },
+    {
+      "id": "yafalo",
+      "ar": "يَفْعَلُ",
+      "en": "Letter in a word",
+      "tr": "yaf'alo"
+    },
+    {
+      "id": "kayfa",
+      "ar": "كَيْفَ",
+      "en": "Letter in a word",
+      "tr": "kayfa"
+    },
+    {
+      "id": "sawfa",
+      "ar": "سَوْفَ",
+      "en": "Letter in a word",
+      "tr": "sawfa"
+    },
+    {
+      "id": "alfalaqe",
+      "ar": "الْفَلَقِ",
+      "en": "Short vowels",
+      "tr": "alfalaqe"
+    },
+    {
+      "id": "faala",
+      "ar": "فَعَلَ",
+      "en": "Short vowels",
+      "tr": "fa'ala"
+    },
+    {
+      "id": "kaalfaraashe",
+      "ar": "كَالْفَرَاشِ",
+      "en": "Short vowels",
+      "tr": "kaalfaraashe"
+    },
+    {
+      "id": "fee",
+      "ar": "فِي",
+      "en": "Short vowels",
+      "tr": "fee"
+    },
+    {
+      "id": "featen",
+      "ar": "فِئَةٍ",
+      "en": "Short vowels",
+      "tr": "fe'aten"
+    },
+    {
+      "id": "alferdawsa",
+      "ar": "الْفِرْدَوْسَ",
+      "en": "Short vowels",
+      "tr": "alferdawsa"
+    },
+    {
+      "id": "fotooren",
+      "ar": "فُطُورٍ",
+      "en": "Short vowels",
+      "tr": "fotooren"
+    },
+    {
+      "id": "alfolke",
+      "ar": "الْفُلْكِ",
+      "en": "Short vowels",
+      "tr": "alfolke"
+    },
+    {
+      "id": "fojjerat",
+      "ar": "فُجِّرَتْ",
+      "en": "Short vowels",
+      "tr": "fojjerat"
+    },
+    {
+      "id": "faaza",
+      "ar": "فَازَ",
+      "en": "With Al",
+      "tr": "faaza"
+    },
+    {
+      "id": "faatere",
+      "ar": "فَاطِرِ",
+      "en": "With Al",
+      "tr": "faatere"
+    },
+    {
+      "id": "ghaffaaran",
+      "ar": "غَفَّارًا",
+      "en": "With Al",
+      "tr": "ghaffaaran"
+    },
+    {
+      "id": "hafeedhon",
+      "ar": "حَفِيظٌ",
+      "en": "Long vowels",
+      "tr": "hafeedhon"
+    },
+    {
+      "id": "rafeeo",
+      "ar": "رَفِيعُ",
+      "en": "Long vowels",
+      "tr": "rafee'o"
+    },
+    {
+      "id": "ghafooron",
+      "ar": "غَفُورٌ",
+      "en": "Long vowels",
+      "tr": "ghafooron"
+    },
+    {
+      "id": "mmahfoodhen",
+      "ar": "مَّحْفُوظٍ",
+      "en": "Long vowels",
+      "tr": "mmahfoodhen"
+    },
+    {
+      "id": "kafooran",
+      "ar": "كَفُورًا",
+      "en": "Long vowels",
+      "tr": "kafooran"
+    },
+    {
+      "id": "fakaffaaratoho",
+      "ar": "فَكَفَّارَتُهُ",
+      "en": "Shaddah",
+      "tr": "fakaffaaratoho"
+    },
+    {
+      "id": "waffaa",
+      "ar": "وَفَّىٰ",
+      "en": "Shaddah",
+      "tr": "waffaa"
+    },
+    {
+      "id": "yatawaffaakom",
+      "ar": "يَتَوَفَّاكُمْ",
+      "en": "Shaddah",
+      "tr": "yatawaffaakom"
+    },
+    {
+      "id": "lleyokaffera",
+      "ar": "لِّيُكَفِّرَ",
+      "en": "Shaddah",
+      "tr": "lleyokaffera"
+    },
+    {
+      "id": "yowaffeehemo",
+      "ar": "يُوَفِّيهِمُ",
+      "en": "Shaddah",
+      "tr": "yowaffeehemo"
+    },
+    {
+      "id": "khoffefa",
+      "ar": "خُفِّفَ",
+      "en": "Shaddah",
+      "tr": "khoffefa"
+    },
+    {
+      "id": "attaaffofe",
+      "ar": "التَّعَفُّفِ",
+      "en": "Shaddah",
+      "tr": "atta'affofe"
+    },
+    {
+      "id": "koffoo",
+      "ar": "كُفُّوا",
+      "en": "Shaddah",
+      "tr": "koffoo"
+    },
+    {
+      "id": "yazeffoona",
+      "ar": "يَزِفُّونَ",
+      "en": "Shaddah",
+      "tr": "yazeffoona"
+    },
+    {
+      "id": "saffan",
+      "ar": "صَفًّا",
+      "en": "Tanween",
+      "tr": "saffan"
+    },
+    {
+      "id": "asafan",
+      "ar": "أَسَفًا",
+      "en": "Tanween",
+      "tr": "asafan"
+    },
+    {
+      "id": "lateefan",
+      "ar": "لَطِيفًا",
+      "en": "Tanween",
+      "tr": "lateefan"
+    },
+    {
+      "id": "kaasfen",
+      "ar": "كَعَصْفٍ",
+      "en": "Tanween",
+      "tr": "ka'asfen"
+    },
+    {
+      "id": "khawfen",
+      "ar": "خَوْفٍ",
+      "en": "Tanween",
+      "tr": "khawfen"
+    },
+    {
+      "id": "bemaroofen",
+      "ar": "بِمَعْرُوفٍ",
+      "en": "Tanween",
+      "tr": "bema'roofen"
+    },
+    {
+      "id": "raoofon",
+      "ar": "رَءُوفٌ",
+      "en": "Tanween",
+      "tr": "ra'oofon"
+    },
+    {
+      "id": "lateefon",
+      "ar": "لَطِيفٌ",
+      "en": "Tanween",
+      "tr": "lateefon"
+    },
+    {
+      "id": "mmokhtalefon",
+      "ar": "مُّخْتَلِفٌ",
+      "en": "Tanween",
+      "tr": "mmokhtalefon"
+    },
+    {
+      "id": "wayafalo",
+      "ar": "وَيَفْعَلُ",
+      "en": "Sukoon",
+      "tr": "wayaf'alo"
+    },
+    {
+      "id": "aflaha",
+      "ar": "أَفْلَحَ",
+      "en": "Sukoon",
+      "tr": "aflaha"
+    },
+    {
+      "id": "mmoftaran",
+      "ar": "مُّفْتَرًى",
+      "en": "Sukoon",
+      "tr": "mmoftaran"
+    },
+    {
+      "id": "waalfajre",
+      "ar": "وَالْفَجْرِ",
+      "en": "With Al",
+      "tr": "waalfajre"
+    },
+    {
+      "id": "alfeele",
+      "ar": "الْفِيلِ",
+      "en": "With Al",
+      "tr": "alfeele"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ف?",
+      "opts": [
+        [
+          "",
+          "Faa",
+          1
+        ],
+        [
+          "",
+          "Noon",
+          0
+        ],
+        [
+          "",
+          "Taa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ف connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? سَوْفَ reads “sawfa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يُوَفِّيهِمُ reads “yowaffeehemo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ف in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Faa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Faa (ف): Read Faa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l40.mp4",
+    "poster": "media/qra1-l40-poster.jpg"
+  }
+}

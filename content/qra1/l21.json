@@ -1,0 +1,369 @@
+{
+  "id": "qra1-l21",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 21. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ أَلِف",
+    "en": "The Letter Alif and Hamza (أ)"
+  },
+  "topic": "Read Alif and Hamza with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Alif and Hamza. Alif has no sound. Hamza is a sharp catch in the throat.",
+      "title": "Meet Alif and Hamza!",
+      "ar": "أ",
+      "aud": "c-0-ar",
+      "tr": "Alif and Hamza"
+    },
+    {
+      "en": "Alif is like a straight stick. Hamza is like a bird's head, and sometimes sits on alif, waw or yaa, or on the line. It connects to the right, but never to the left.",
+      "title": "How to write Alif and Hamza"
+    },
+    {
+      "en": "Hamza: listen and read.",
+      "title": "Hamza",
+      "ar": "أَنزَلْنَا",
+      "tr": "anzalnaa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "أُمَّةٌ",
+      "tr": "ommaton"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "أُوتُوا",
+      "tr": "ootoo"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "ءَامَنَ",
+      "tr": "aamana"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "لُؤْلُؤٌ",
+      "tr": "lo'lo'on"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَأْمُرُ",
+      "tr": "ya'moro"
+    },
+    {
+      "en": "Surat Al-Baqarah, verse 93. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "قُلْ بِئْسَمَا يَأْمُرُكُم بِهِۦٓ إِيمَٰنُكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "anzalnaa",
+      "ar": "أَنزَلْنَا",
+      "en": "Hamza",
+      "tr": "anzalnaa"
+    },
+    {
+      "id": "momenan",
+      "ar": "مُؤْمِنًا",
+      "en": "Hamza",
+      "tr": "mo'menan"
+    },
+    {
+      "id": "besamaa",
+      "ar": "بِئْسَمَا",
+      "en": "Hamza",
+      "tr": "be'samaa"
+    },
+    {
+      "id": "maaan",
+      "ar": "مَاءً",
+      "en": "Hamza",
+      "tr": "maa'an"
+    },
+    {
+      "id": "ommaton",
+      "ar": "أُمَّةٌ",
+      "en": "Short vowels",
+      "tr": "ommaton"
+    },
+    {
+      "id": "oolaeka",
+      "ar": "أُولَئِكَ",
+      "en": "Short vowels",
+      "tr": "oola'eka"
+    },
+    {
+      "id": "odhonon",
+      "ar": "أُذُنٌ",
+      "en": "Short vowels",
+      "tr": "odhonon"
+    },
+    {
+      "id": "eyyaaka",
+      "ar": "إِيَّاكَ",
+      "en": "Short vowels",
+      "tr": "eyyaaka"
+    },
+    {
+      "id": "enna",
+      "ar": "إِنَّ",
+      "en": "Short vowels",
+      "tr": "enna"
+    },
+    {
+      "id": "ebraaheema",
+      "ar": "إِبْرَاهِيمَ",
+      "en": "Short vowels",
+      "tr": "ebraaheema"
+    },
+    {
+      "id": "ahadon",
+      "ar": "أَحَدٌ",
+      "en": "Short vowels",
+      "tr": "ahadon"
+    },
+    {
+      "id": "amron",
+      "ar": "أَمْرٌ",
+      "en": "Short vowels",
+      "tr": "amron"
+    },
+    {
+      "id": "akbaro",
+      "ar": "أَكْبَرُ",
+      "en": "Short vowels",
+      "tr": "akbaro"
+    },
+    {
+      "id": "ootoo",
+      "ar": "أُوتُوا",
+      "en": "Long vowels",
+      "tr": "ootoo"
+    },
+    {
+      "id": "oodheenaa",
+      "ar": "أُوذِينَا",
+      "en": "Long vowels",
+      "tr": "oodheenaa"
+    },
+    {
+      "id": "aloolaa",
+      "ar": "الأُولَىٰ",
+      "en": "Long vowels",
+      "tr": "al'oolaa"
+    },
+    {
+      "id": "eemaanan",
+      "ar": "إِيمَانًا",
+      "en": "Long vowels",
+      "tr": "eemaanan"
+    },
+    {
+      "id": "eelaafe",
+      "ar": "إِيلَافِ",
+      "en": "Long vowels",
+      "tr": "eelaafe"
+    },
+    {
+      "id": "eetaae",
+      "ar": "إِيتَاءِ",
+      "en": "Long vowels",
+      "tr": "eetaa'e"
+    },
+    {
+      "id": "aamana",
+      "ar": "ءَامَنَ",
+      "en": "With Al",
+      "tr": "aamana"
+    },
+    {
+      "id": "jaaanaa",
+      "ar": "جَاءَنَا",
+      "en": "With Al",
+      "tr": "jaa'anaa"
+    },
+    {
+      "id": "raaa",
+      "ar": "رَءَا",
+      "en": "With Al",
+      "tr": "ra'aa"
+    },
+    {
+      "id": "loloon",
+      "ar": "لُؤْلُؤٌ",
+      "en": "Tanween",
+      "tr": "lo'lo'on"
+    },
+    {
+      "id": "nabaon",
+      "ar": "نَبَأٌ",
+      "en": "Tanween",
+      "tr": "naba'on"
+    },
+    {
+      "id": "jozon",
+      "ar": "جُزْءٌ",
+      "en": "Tanween",
+      "tr": "joz'on"
+    },
+    {
+      "id": "qorooen",
+      "ar": "قُرُوءٍ",
+      "en": "Tanween",
+      "tr": "qoroo'en"
+    },
+    {
+      "id": "sawaaen",
+      "ar": "سَوَاءٍ",
+      "en": "Tanween",
+      "tr": "sawaa'en"
+    },
+    {
+      "id": "maaen",
+      "ar": "مَاءٍ",
+      "en": "Tanween",
+      "tr": "maa'en"
+    },
+    {
+      "id": "maljaan",
+      "ar": "مَلْجَأً",
+      "en": "Tanween",
+      "tr": "malja'an"
+    },
+    {
+      "id": "nesaaan",
+      "ar": "نِسَاءً",
+      "en": "Tanween",
+      "tr": "nesaa'an"
+    },
+    {
+      "id": "khataan",
+      "ar": "خَطَأً",
+      "en": "Tanween",
+      "tr": "khata'an"
+    },
+    {
+      "id": "yamoro",
+      "ar": "يَأْمُرُ",
+      "en": "Sukoon",
+      "tr": "ya'moro"
+    },
+    {
+      "id": "besa",
+      "ar": "بِئْسَ",
+      "en": "Sukoon",
+      "tr": "be'sa"
+    },
+    {
+      "id": "alarde",
+      "ar": "اَلْأَرْضِ",
+      "en": "With Al",
+      "tr": "al'arde"
+    },
+    {
+      "id": "alensaana",
+      "ar": "اَلْإِنْسَانَ",
+      "en": "With Al",
+      "tr": "al'ensaana"
+    },
+    {
+      "id": "alofoqe",
+      "ar": "اَلْأُفُقِ",
+      "en": "With Al",
+      "tr": "al'ofoqe"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of أ?",
+      "opts": [
+        [
+          "",
+          "Alif and Hamza",
+          1
+        ],
+        [
+          "",
+          "Haa",
+          0
+        ],
+        [
+          "",
+          "Seen",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? أ connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? مَاءً reads “maa'an”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? رَءَا reads “ra'aa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find أ in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Alif and Hamza! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Alif and Hamza (أ): Read Alif and Hamza with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l21.mp4",
+    "poster": "media/qra1-l21-poster.jpg"
+  }
+}

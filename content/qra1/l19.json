@@ -1,0 +1,580 @@
+{
+  "id": "qra1-l19",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 19. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حُرُوفُ الْمَدِّ الصَّغِيرَةُ",
+    "en": "Small madd letters"
+  },
+  "topic": "Read Small madd letters and recite Surat Az-Zalzalah",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Tiny letters written above or next to the main letter show a long vowel. Small alif reads “aa”, small waw reads “oo”, and small yaa reads “ee”.",
+      "title": "Small madd letters"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الزَّلْزَلَةِ",
+      "aud": "c-1-ar",
+      "tr": "soorato azzalzalate"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Az-Zalzalah. Follow with your finger, then recite it yourself.",
+      "title": "Surat Az-Zalzalah",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا ﴿١﴾ وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا ﴿٢﴾ وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا ﴿٣﴾ يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا ﴿٤﴾ بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا ﴿٥﴾ يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ ﴿٦﴾ فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ ﴿٧﴾ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ ﴿٨﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "aa",
+      "ar": "ءٰ",
+      "en": "Small madd letters",
+      "tr": "aa"
+    },
+    {
+      "id": "baa",
+      "ar": "بٰ",
+      "en": "Small madd letters",
+      "tr": "baa"
+    },
+    {
+      "id": "taa",
+      "ar": "تٰ",
+      "en": "Small madd letters",
+      "tr": "taa"
+    },
+    {
+      "id": "thaa",
+      "ar": "ثٰ",
+      "en": "Small madd letters",
+      "tr": "thaa"
+    },
+    {
+      "id": "jaa",
+      "ar": "جٰ",
+      "en": "Small madd letters",
+      "tr": "jaa"
+    },
+    {
+      "id": "haa",
+      "ar": "حٰ",
+      "en": "Small madd letters",
+      "tr": "haa"
+    },
+    {
+      "id": "khaa",
+      "ar": "خٰ",
+      "en": "Small madd letters",
+      "tr": "khaa"
+    },
+    {
+      "id": "daa",
+      "ar": "دٰ",
+      "en": "Small madd letters",
+      "tr": "daa"
+    },
+    {
+      "id": "dhaa",
+      "ar": "ذٰ",
+      "en": "Small madd letters",
+      "tr": "dhaa"
+    },
+    {
+      "id": "raa",
+      "ar": "رٰ",
+      "en": "Small madd letters",
+      "tr": "raa"
+    },
+    {
+      "id": "zaa",
+      "ar": "زٰ",
+      "en": "Small madd letters",
+      "tr": "zaa"
+    },
+    {
+      "id": "saa",
+      "ar": "سٰ",
+      "en": "Small madd letters",
+      "tr": "saa"
+    },
+    {
+      "id": "shaa",
+      "ar": "شٰ",
+      "en": "Small madd letters",
+      "tr": "shaa"
+    },
+    {
+      "id": "saa2",
+      "ar": "صٰ",
+      "en": "Small madd letters",
+      "tr": "saa"
+    },
+    {
+      "id": "daa2",
+      "ar": "ضٰ",
+      "en": "Small madd letters",
+      "tr": "daa"
+    },
+    {
+      "id": "taa2",
+      "ar": "طٰ",
+      "en": "Small madd letters",
+      "tr": "taa"
+    },
+    {
+      "id": "dhaa2",
+      "ar": "ظٰ",
+      "en": "Small madd letters",
+      "tr": "dhaa"
+    },
+    {
+      "id": "aa2",
+      "ar": "عٰ",
+      "en": "Small madd letters",
+      "tr": "aa"
+    },
+    {
+      "id": "ghaa",
+      "ar": "غٰ",
+      "en": "Small madd letters",
+      "tr": "ghaa"
+    },
+    {
+      "id": "faa",
+      "ar": "فٰ",
+      "en": "Small madd letters",
+      "tr": "faa"
+    },
+    {
+      "id": "qaa",
+      "ar": "قٰ",
+      "en": "Small madd letters",
+      "tr": "qaa"
+    },
+    {
+      "id": "kaa",
+      "ar": "كٰ",
+      "en": "Small madd letters",
+      "tr": "kaa"
+    },
+    {
+      "id": "laa",
+      "ar": "لٰ",
+      "en": "Small madd letters",
+      "tr": "laa"
+    },
+    {
+      "id": "maa",
+      "ar": "مٰ",
+      "en": "Small madd letters",
+      "tr": "maa"
+    },
+    {
+      "id": "naa",
+      "ar": "نٰ",
+      "en": "Small madd letters",
+      "tr": "naa"
+    },
+    {
+      "id": "waa",
+      "ar": "وٰ",
+      "en": "Small madd letters",
+      "tr": "waa"
+    },
+    {
+      "id": "haa2",
+      "ar": "هٰ",
+      "en": "Small madd letters",
+      "tr": "haa"
+    },
+    {
+      "id": "yaa",
+      "ar": "يٰ",
+      "en": "Small madd letters",
+      "tr": "yaa"
+    },
+    {
+      "id": "ee",
+      "ar": "إِۦ",
+      "en": "Small madd letters",
+      "tr": "ee"
+    },
+    {
+      "id": "hee",
+      "ar": "هِۦ",
+      "en": "Small madd letters",
+      "tr": "hee"
+    },
+    {
+      "id": "yee",
+      "ar": "يِۦ",
+      "en": "Small madd letters",
+      "tr": "yee"
+    },
+    {
+      "id": "woo",
+      "ar": "وُۥ",
+      "en": "Small madd letters",
+      "tr": "woo"
+    },
+    {
+      "id": "hoo",
+      "ar": "هُۥ",
+      "en": "Small madd letters",
+      "tr": "hoo"
+    },
+    {
+      "id": "oo",
+      "ar": "ءُۥ",
+      "en": "Small madd letters",
+      "tr": "oo"
+    },
+    {
+      "id": "anaaban",
+      "ar": "أَعْنَٰبًا",
+      "en": "Small madd letters",
+      "tr": "a'naaban"
+    },
+    {
+      "id": "alhaakom",
+      "ar": "أَلْهَٰكُم",
+      "en": "Small madd letters",
+      "tr": "alhaakom"
+    },
+    {
+      "id": "samaawaate",
+      "ar": "سَمَٰوَٰتِ",
+      "en": "Small madd letters",
+      "tr": "samaawaate"
+    },
+    {
+      "id": "mataaan",
+      "ar": "مَتَٰعًا",
+      "en": "Small madd letters",
+      "tr": "mataa'an"
+    },
+    {
+      "id": "aayaatohoo",
+      "ar": "ءَايَٰتُهُۥ",
+      "en": "Small madd letters",
+      "tr": "aayaatohoo"
+    },
+    {
+      "id": "ketaabahoo",
+      "ar": "كِتَٰبَهُۥ",
+      "en": "Small madd letters",
+      "tr": "ketaabahoo"
+    },
+    {
+      "id": "mawoodato",
+      "ar": "مَوْءُۥدَةُ",
+      "en": "Small madd letters",
+      "tr": "maw'oodato"
+    },
+    {
+      "id": "molkohoo",
+      "ar": "مُلْكُهُۥ",
+      "en": "Small madd letters",
+      "tr": "molkohoo"
+    },
+    {
+      "id": "nafsehee",
+      "ar": "نَفْسِهِۦ",
+      "en": "Small madd letters",
+      "tr": "nafsehee"
+    },
+    {
+      "id": "bemozahzehehee",
+      "ar": "بِمُزَحْزِحِهِۦ",
+      "en": "Small madd letters",
+      "tr": "bemozahzehehee"
+    },
+    {
+      "id": "warosolehee",
+      "ar": "وَرُسُلِهِۦ",
+      "en": "Small madd letters",
+      "tr": "warosolehee"
+    },
+    {
+      "id": "waqeelehee",
+      "ar": "وَقِيلِهِۦ",
+      "en": "Small madd letters",
+      "tr": "waqeelehee"
+    },
+    {
+      "id": "me",
+      "ar": "مِ",
+      "en": "Small madd letters",
+      "tr": "me"
+    },
+    {
+      "id": "haa3",
+      "ar": "هَا",
+      "en": "Small madd letters",
+      "tr": "haa"
+    },
+    {
+      "id": "dan",
+      "ar": "دًا",
+      "en": "Small madd letters",
+      "tr": "dan"
+    },
+    {
+      "id": "mehaadan",
+      "ar": "مِهَٰدًا",
+      "en": "Small madd letters",
+      "tr": "mehaadan"
+    },
+    {
+      "id": "maa2",
+      "ar": "مَا",
+      "en": "Small madd letters",
+      "tr": "maa"
+    },
+    {
+      "id": "le",
+      "ar": "لِ",
+      "en": "Small madd letters",
+      "tr": "le"
+    },
+    {
+      "id": "ke",
+      "ar": "كِ",
+      "en": "Small madd letters",
+      "tr": "ke"
+    },
+    {
+      "id": "maaleke",
+      "ar": "مَٰلِكِ",
+      "en": "Small madd letters",
+      "tr": "maaleke"
+    },
+    {
+      "id": "be",
+      "ar": "بِ",
+      "en": "Small madd letters",
+      "tr": "be"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Small madd letters",
+      "tr": "ya"
+    },
+    {
+      "id": "de",
+      "ar": "دِ",
+      "en": "Small madd letters",
+      "tr": "de"
+    },
+    {
+      "id": "hee2",
+      "ar": "هِي",
+      "en": "Small madd letters",
+      "tr": "hee"
+    },
+    {
+      "id": "beyadehee",
+      "ar": "بِيَدِهِۦ",
+      "en": "Small madd letters",
+      "tr": "beyadehee"
+    },
+    {
+      "id": "daa3",
+      "ar": "دَا",
+      "en": "Small madd letters",
+      "tr": "daa"
+    },
+    {
+      "id": "woo2",
+      "ar": "وُو",
+      "en": "Small madd letters",
+      "tr": "woo"
+    },
+    {
+      "id": "da",
+      "ar": "دَ",
+      "en": "Small madd letters",
+      "tr": "da"
+    },
+    {
+      "id": "daawooda",
+      "ar": "دَاوُۥدَ",
+      "en": "Small madd letters",
+      "tr": "daawooda"
+    },
+    {
+      "id": "taa3",
+      "ar": "تَا",
+      "en": "Small madd letters",
+      "tr": "taa"
+    },
+    {
+      "id": "bo",
+      "ar": "بُ",
+      "en": "Small madd letters",
+      "tr": "bo"
+    },
+    {
+      "id": "hoo2",
+      "ar": "هُو",
+      "en": "Small madd letters",
+      "tr": "hoo"
+    },
+    {
+      "id": "ketaabohoo",
+      "ar": "كِتَٰبُهُۥ",
+      "en": "Small madd letters",
+      "tr": "ketaabohoo"
+    },
+    {
+      "id": "haafedhaaton",
+      "ar": "حَٰفِظَٰتٌ",
+      "en": "Small madd letters",
+      "tr": "haafedhaaton"
+    },
+    {
+      "id": "moseraate",
+      "ar": "مُعْصِرَٰتِ",
+      "en": "Small madd letters",
+      "tr": "mo'seraate"
+    },
+    {
+      "id": "maahoo",
+      "ar": "مَعَهُۥ",
+      "en": "Small madd letters",
+      "tr": "ma'ahoo"
+    },
+    {
+      "id": "elaahehem",
+      "ar": "إِلَٰهِهِمْ",
+      "en": "Small madd letters",
+      "tr": "elaahehem"
+    },
+    {
+      "id": "mawaazeenohoo",
+      "ar": "مَوَٰزِينُهُۥ",
+      "en": "Small madd letters",
+      "tr": "mawaazeenohoo"
+    },
+    {
+      "id": "dhaaleka",
+      "ar": "ذَٰلِكَ",
+      "en": "Small madd letters",
+      "tr": "dhaaleka"
+    },
+    {
+      "id": "ketaab",
+      "ar": "كِتَٰب",
+      "en": "Small madd letters",
+      "tr": "ketaab"
+    },
+    {
+      "id": "yastahee",
+      "ar": "يَسْتَحْىِۦ",
+      "en": "Small madd letters",
+      "tr": "yastahee"
+    },
+    {
+      "id": "yarahoo",
+      "ar": "يَرَهُۥ",
+      "en": "Small madd letters",
+      "tr": "yarahoo"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? A small alif reads “aa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What does a small yaa read?",
+      "opts": [
+        [
+          "",
+          "ee",
+          1
+        ],
+        [
+          "",
+          "aa",
+          0
+        ],
+        [
+          "",
+          "oo",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثٰ reads “thaa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? مُلْكُهُۥ reads “molkohoo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find Small madd letters in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Small madd letters: Read Small madd letters and recite Surat Az-Zalzalah.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l19.mp4",
+    "poster": "media/qra1-l19-poster.jpg"
+  }
+}

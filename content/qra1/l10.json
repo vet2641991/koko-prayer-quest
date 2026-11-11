@@ -1,0 +1,532 @@
+{
+  "id": "qra1-l10",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 10. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الشَّدَّةُ مَعَ الْفَتْحَةِ",
+    "en": "Shaddah with fatha"
+  },
+  "topic": "Read shaddah with fatha and recite Surat Al-Ma'un",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "A letter with shaddah and fatha is said twice: first with sukoon, then with fatha.",
+      "title": "Shaddah with fatha"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْمَاعُونِ",
+      "aud": "c-1-ar",
+      "tr": "soorato almaa'oone"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Ma'un. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Ma'un",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ ﴿١﴾ فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ ﴿٢﴾ وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ ﴿٣﴾ فَوَيْلٌۭ لِّلْمُصَلِّينَ ﴿٤﴾ ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ ﴿٥﴾ ٱلَّذِينَ هُمْ يُرَآءُونَ ﴿٦﴾ وَيَمْنَعُونَ ٱلْمَاعُونَ ﴿٧﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "rabba",
+      "ar": "رَبَّ",
+      "en": "Shaddah with fatha",
+      "tr": "rabba"
+    },
+    {
+      "id": "rabbaa",
+      "ar": "رَبَّا",
+      "en": "Shaddah with fatha",
+      "tr": "rabbaa"
+    },
+    {
+      "id": "matta",
+      "ar": "مَتَّ",
+      "en": "Shaddah with fatha",
+      "tr": "matta"
+    },
+    {
+      "id": "mattaa",
+      "ar": "مَتَّا",
+      "en": "Shaddah with fatha",
+      "tr": "mattaa"
+    },
+    {
+      "id": "baththa",
+      "ar": "بَثَّ",
+      "en": "Shaddah with fatha",
+      "tr": "baththa"
+    },
+    {
+      "id": "baththaa",
+      "ar": "بَثَّا",
+      "en": "Shaddah with fatha",
+      "tr": "baththaa"
+    },
+    {
+      "id": "hajja",
+      "ar": "حَجَّ",
+      "en": "Shaddah with fatha",
+      "tr": "hajja"
+    },
+    {
+      "id": "hajjaa",
+      "ar": "حَجَّا",
+      "en": "Shaddah with fatha",
+      "tr": "hajjaa"
+    },
+    {
+      "id": "shahha",
+      "ar": "شَحَّ",
+      "en": "Shaddah with fatha",
+      "tr": "shahha"
+    },
+    {
+      "id": "shahhaa",
+      "ar": "شَحَّا",
+      "en": "Shaddah with fatha",
+      "tr": "shahhaa"
+    },
+    {
+      "id": "sakhkha",
+      "ar": "سَخَّ",
+      "en": "Shaddah with fatha",
+      "tr": "sakhkha"
+    },
+    {
+      "id": "sakhkhaa",
+      "ar": "سَخَّا",
+      "en": "Shaddah with fatha",
+      "tr": "sakhkhaa"
+    },
+    {
+      "id": "qadda",
+      "ar": "قَدَّ",
+      "en": "Shaddah with fatha",
+      "tr": "qadda"
+    },
+    {
+      "id": "qaddaa",
+      "ar": "قَدَّا",
+      "en": "Shaddah with fatha",
+      "tr": "qaddaa"
+    },
+    {
+      "id": "yadhdha",
+      "ar": "يَذَّ",
+      "en": "Shaddah with fatha",
+      "tr": "yadhdha"
+    },
+    {
+      "id": "yadhdhaa",
+      "ar": "يَذَّا",
+      "en": "Shaddah with fatha",
+      "tr": "yadhdhaa"
+    },
+    {
+      "id": "sharra",
+      "ar": "شَرَّ",
+      "en": "Shaddah with fatha",
+      "tr": "sharra"
+    },
+    {
+      "id": "sharraa",
+      "ar": "شَرَّا",
+      "en": "Shaddah with fatha",
+      "tr": "sharraa"
+    },
+    {
+      "id": "ezza",
+      "ar": "عِزَّ",
+      "en": "Shaddah with fatha",
+      "tr": "ezza"
+    },
+    {
+      "id": "ezzaa",
+      "ar": "عِزَّا",
+      "en": "Shaddah with fatha",
+      "tr": "ezzaa"
+    },
+    {
+      "id": "massa",
+      "ar": "مَسَّ",
+      "en": "Shaddah with fatha",
+      "tr": "massa"
+    },
+    {
+      "id": "massaa",
+      "ar": "مَسَّا",
+      "en": "Shaddah with fatha",
+      "tr": "massaa"
+    },
+    {
+      "id": "hashsha",
+      "ar": "هَشَّ",
+      "en": "Shaddah with fatha",
+      "tr": "hashsha"
+    },
+    {
+      "id": "hashshaa",
+      "ar": "هَشَّا",
+      "en": "Shaddah with fatha",
+      "tr": "hashshaa"
+    },
+    {
+      "id": "wassa",
+      "ar": "وَصَّ",
+      "en": "Shaddah with fatha",
+      "tr": "wassa"
+    },
+    {
+      "id": "wassaa",
+      "ar": "وَصَّا",
+      "en": "Shaddah with fatha",
+      "tr": "wassaa"
+    },
+    {
+      "id": "hadda",
+      "ar": "حَضَّ",
+      "en": "Shaddah with fatha",
+      "tr": "hadda"
+    },
+    {
+      "id": "haddaa",
+      "ar": "حَضَّا",
+      "en": "Shaddah with fatha",
+      "tr": "haddaa"
+    },
+    {
+      "id": "rabbanaa",
+      "ar": "رَبَّنَا",
+      "en": "Shaddah with fatha",
+      "tr": "rabbanaa"
+    },
+    {
+      "id": "sabbaha",
+      "ar": "سَبَّحَ",
+      "en": "Shaddah with fatha",
+      "tr": "sabbaha"
+    },
+    {
+      "id": "fasabba",
+      "ar": "فَصَبَّ",
+      "en": "Shaddah with fatha",
+      "tr": "fasabba"
+    },
+    {
+      "id": "rojjate",
+      "ar": "رُجَّتِ",
+      "en": "Shaddah with fatha",
+      "tr": "rojjate"
+    },
+    {
+      "id": "nofarreqo",
+      "ar": "نُفَرِّقُ",
+      "en": "Shaddah with fatha",
+      "tr": "nofarreqo"
+    },
+    {
+      "id": "tonazzalo",
+      "ar": "تُنَزَّلُ",
+      "en": "Shaddah with fatha",
+      "tr": "tonazzalo"
+    },
+    {
+      "id": "tattaleo",
+      "ar": "تَطَّلِعُ",
+      "en": "Shaddah with fatha",
+      "tr": "tattale'o"
+    },
+    {
+      "id": "tadharonna",
+      "ar": "تَذَرُنَّ",
+      "en": "Shaddah with fatha",
+      "tr": "tadharonna"
+    },
+    {
+      "id": "qaddara",
+      "ar": "قَدَّرَ",
+      "en": "Shaddah with fatha",
+      "tr": "qaddara"
+    },
+    {
+      "id": "aadda",
+      "ar": "أَعَدَّ",
+      "en": "Shaddah with fatha",
+      "tr": "a'adda"
+    },
+    {
+      "id": "wakadhdhaba",
+      "ar": "وَكَذَّبَ",
+      "en": "Shaddah with fatha",
+      "tr": "wakadhdhaba"
+    },
+    {
+      "id": "khaffat",
+      "ar": "خَفَّتْ",
+      "en": "Shaddah with fatha",
+      "tr": "khaffat"
+    },
+    {
+      "id": "qad",
+      "ar": "قَدْ",
+      "en": "Shaddah with fatha",
+      "tr": "qad"
+    },
+    {
+      "id": "da",
+      "ar": "دَ",
+      "en": "Shaddah with fatha",
+      "tr": "da"
+    },
+    {
+      "id": "ra",
+      "ar": "رَ",
+      "en": "Shaddah with fatha",
+      "tr": "ra"
+    },
+    {
+      "id": "ghos",
+      "ar": "غُصْ",
+      "en": "Shaddah with fatha",
+      "tr": "ghos"
+    },
+    {
+      "id": "sa",
+      "ar": "صَ",
+      "en": "Shaddah with fatha",
+      "tr": "sa"
+    },
+    {
+      "id": "ten",
+      "ar": "ةٍ",
+      "en": "Shaddah with fatha",
+      "tr": "ten"
+    },
+    {
+      "id": "ghossaten",
+      "ar": "غُصَّةٍ",
+      "en": "Shaddah with fatha",
+      "tr": "ghossaten"
+    },
+    {
+      "id": "ey",
+      "ar": "إِيْ",
+      "en": "Shaddah with fatha",
+      "tr": "ey"
+    },
+    {
+      "id": "yaa",
+      "ar": "يَا",
+      "en": "Shaddah with fatha",
+      "tr": "yaa"
+    },
+    {
+      "id": "ka",
+      "ar": "كَ",
+      "en": "Shaddah with fatha",
+      "tr": "ka"
+    },
+    {
+      "id": "eyyaaka",
+      "ar": "إِيَّاكَ",
+      "en": "Shaddah with fatha",
+      "tr": "eyyaaka"
+    },
+    {
+      "id": "saw",
+      "ar": "سَوْ",
+      "en": "Shaddah with fatha",
+      "tr": "saw"
+    },
+    {
+      "id": "waa",
+      "ar": "وَا",
+      "en": "Shaddah with fatha",
+      "tr": "waa"
+    },
+    {
+      "id": "haa",
+      "ar": "هَا",
+      "en": "Shaddah with fatha",
+      "tr": "haa"
+    },
+    {
+      "id": "sawwaahaa",
+      "ar": "سَوَّاهَا",
+      "en": "Shaddah with fatha",
+      "tr": "sawwaahaa"
+    },
+    {
+      "id": "ghas",
+      "ar": "غَسْ",
+      "en": "Shaddah with fatha",
+      "tr": "ghas"
+    },
+    {
+      "id": "saa",
+      "ar": "سَا",
+      "en": "Shaddah with fatha",
+      "tr": "saa"
+    },
+    {
+      "id": "qen",
+      "ar": "قٍ",
+      "en": "Shaddah with fatha",
+      "tr": "qen"
+    },
+    {
+      "id": "ghassaaqen",
+      "ar": "غَسَّاقٍ",
+      "en": "Shaddah with fatha",
+      "tr": "ghassaaqen"
+    },
+    {
+      "id": "wabossate",
+      "ar": "وَبُسَّتِ",
+      "en": "Shaddah with fatha",
+      "tr": "wabossate"
+    },
+    {
+      "id": "yataqaddama",
+      "ar": "يَتَقَدَّمَ",
+      "en": "Shaddah with fatha",
+      "tr": "yataqaddama"
+    },
+    {
+      "id": "lawwaahaton",
+      "ar": "لَوَّاحَةٌ",
+      "en": "Shaddah with fatha",
+      "tr": "lawwaahaton"
+    },
+    {
+      "id": "taqarra",
+      "ar": "تَقَرَّ",
+      "en": "Shaddah with fatha",
+      "tr": "taqarra"
+    },
+    {
+      "id": "karramnaa",
+      "ar": "كَرَّمْنَا",
+      "en": "Shaddah with fatha",
+      "tr": "karramnaa"
+    },
+    {
+      "id": "waallama",
+      "ar": "وَعَلَّمَ",
+      "en": "Shaddah with fatha",
+      "tr": "wa'allama"
+    },
+    {
+      "id": "sayyaaraton",
+      "ar": "سَيَّارَةٌ",
+      "en": "Shaddah with fatha",
+      "tr": "sayyaaraton"
+    },
+    {
+      "id": "affaaken",
+      "ar": "أَفَّاكٍ",
+      "en": "Shaddah with fatha",
+      "tr": "affaaken"
+    },
+    {
+      "id": "hammaalata",
+      "ar": "حَمَّالَةَ",
+      "en": "Shaddah with fatha",
+      "tr": "hammaalata"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? A letter with shaddah is said twice.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Shaddah with fatha: the second letter has…",
+      "opts": [
+        [
+          "",
+          "Fatha",
+          1
+        ],
+        [
+          "",
+          "Kasra",
+          0
+        ],
+        [
+          "",
+          "Damma",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? مَتَّا reads “mattaa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? أَعَدَّ reads “a'adda”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find shaddah with fatha in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Shaddah with fatha: Read shaddah with fatha and recite Surat Al-Ma'un.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l10.mp4",
+    "poster": "media/qra1-l10-poster.jpg"
+  }
+}

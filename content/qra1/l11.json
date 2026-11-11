@@ -1,0 +1,556 @@
+{
+  "id": "qra1-l11",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 11. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الشَّدَّةُ مَعَ الْكَسْرَةِ",
+    "en": "Shaddah with kasra"
+  },
+  "topic": "Read shaddah with kasra and recite Surat Quraish",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "A letter with shaddah and kasra is said twice: first with sukoon, then with kasra.",
+      "title": "Shaddah with kasra"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ قُرَيْشٍ",
+      "aud": "c-1-ar",
+      "tr": "soorato qorayshen"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Quraish. Follow with your finger, then recite it yourself.",
+      "title": "Surat Quraish",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ ﴿١﴾ إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ ﴿٢﴾ فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ ﴿٣﴾ ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ ﴿٤﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "hatte",
+      "ar": "حَطِّ",
+      "en": "Shaddah with kasra",
+      "tr": "hatte"
+    },
+    {
+      "id": "hadhdhe",
+      "ar": "حَظِّ",
+      "en": "Shaddah with kasra",
+      "tr": "hadhdhe"
+    },
+    {
+      "id": "dae",
+      "ar": "دَعِّ",
+      "en": "Shaddah with kasra",
+      "tr": "da''e"
+    },
+    {
+      "id": "aghghe",
+      "ar": "أَغِّ",
+      "en": "Shaddah with kasra",
+      "tr": "aghghe"
+    },
+    {
+      "id": "saffe",
+      "ar": "صَفِّ",
+      "en": "Shaddah with kasra",
+      "tr": "saffe"
+    },
+    {
+      "id": "haqqe",
+      "ar": "حَقِّ",
+      "en": "Shaddah with kasra",
+      "tr": "haqqe"
+    },
+    {
+      "id": "shakke",
+      "ar": "شَكِّ",
+      "en": "Shaddah with kasra",
+      "tr": "shakke"
+    },
+    {
+      "id": "hatte2",
+      "ar": "حَطِّى",
+      "en": "Shaddah with kasra",
+      "tr": "hatte"
+    },
+    {
+      "id": "hadhdhe2",
+      "ar": "حَظِّى",
+      "en": "Shaddah with kasra",
+      "tr": "hadhdhe"
+    },
+    {
+      "id": "dae2",
+      "ar": "دَعِّى",
+      "en": "Shaddah with kasra",
+      "tr": "da''e"
+    },
+    {
+      "id": "aghghe2",
+      "ar": "أَغِّى",
+      "en": "Shaddah with kasra",
+      "tr": "aghghe"
+    },
+    {
+      "id": "saffe2",
+      "ar": "صَفِّى",
+      "en": "Shaddah with kasra",
+      "tr": "saffe"
+    },
+    {
+      "id": "haqqe2",
+      "ar": "حَقِّى",
+      "en": "Shaddah with kasra",
+      "tr": "haqqe"
+    },
+    {
+      "id": "shakke2",
+      "ar": "شَكِّى",
+      "en": "Shaddah with kasra",
+      "tr": "shakke"
+    },
+    {
+      "id": "kolle",
+      "ar": "كُلِّ",
+      "en": "Shaddah with kasra",
+      "tr": "kolle"
+    },
+    {
+      "id": "amme",
+      "ar": "عَمِّ",
+      "en": "Shaddah with kasra",
+      "tr": "amme"
+    },
+    {
+      "id": "dhanne",
+      "ar": "ظَنِّ",
+      "en": "Shaddah with kasra",
+      "tr": "dhanne"
+    },
+    {
+      "id": "wahhe",
+      "ar": "وَهِّ",
+      "en": "Shaddah with kasra",
+      "tr": "wahhe"
+    },
+    {
+      "id": "qawwe",
+      "ar": "قَوِّ",
+      "en": "Shaddah with kasra",
+      "tr": "qawwe"
+    },
+    {
+      "id": "hayye",
+      "ar": "حَيِّ",
+      "en": "Shaddah with kasra",
+      "tr": "hayye"
+    },
+    {
+      "id": "kolle2",
+      "ar": "كُلِّى",
+      "en": "Shaddah with kasra",
+      "tr": "kolle"
+    },
+    {
+      "id": "amme2",
+      "ar": "عَمِّى",
+      "en": "Shaddah with kasra",
+      "tr": "amme"
+    },
+    {
+      "id": "dhanne2",
+      "ar": "ظَنِّى",
+      "en": "Shaddah with kasra",
+      "tr": "dhanne"
+    },
+    {
+      "id": "wahhe2",
+      "ar": "وَهِّى",
+      "en": "Shaddah with kasra",
+      "tr": "wahhe"
+    },
+    {
+      "id": "qawwe2",
+      "ar": "قَوِّى",
+      "en": "Shaddah with kasra",
+      "tr": "qawwe"
+    },
+    {
+      "id": "hayye2",
+      "ar": "حَيِّى",
+      "en": "Shaddah with kasra",
+      "tr": "hayye"
+    },
+    {
+      "id": "zowwejat",
+      "ar": "زُوِّجَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "zowwejat"
+    },
+    {
+      "id": "kowwerat",
+      "ar": "كُوِّرَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "kowwerat"
+    },
+    {
+      "id": "fojjerat",
+      "ar": "فُجِّرَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "fojjerat"
+    },
+    {
+      "id": "sojjerat",
+      "ar": "سُجِّرَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "sojjerat"
+    },
+    {
+      "id": "toharrek",
+      "ar": "تُحَرِّكۡ",
+      "en": "Shaddah with kasra",
+      "tr": "toharrek"
+    },
+    {
+      "id": "nosarrefo",
+      "ar": "نُصَرِّفُ",
+      "en": "Shaddah with kasra",
+      "tr": "nosarrefo"
+    },
+    {
+      "id": "wayoharremo",
+      "ar": "وَيُحَرِّمُ",
+      "en": "Shaddah with kasra",
+      "tr": "wayoharremo"
+    },
+    {
+      "id": "waborrezate",
+      "ar": "وَبُرِّزَتِ",
+      "en": "Shaddah with kasra",
+      "tr": "waborrezate"
+    },
+    {
+      "id": "tohaddetho",
+      "ar": "تُحَدِّثُ",
+      "en": "Shaddah with kasra",
+      "tr": "tohaddetho"
+    },
+    {
+      "id": "fasabbeh",
+      "ar": "فَسَبِّحۡ",
+      "en": "Shaddah with kasra",
+      "tr": "fasabbeh"
+    },
+    {
+      "id": "fasalle",
+      "ar": "فَصَلِّ",
+      "en": "Shaddah with kasra",
+      "tr": "fasalle"
+    },
+    {
+      "id": "famahhele",
+      "ar": "فَمَهِّلِ",
+      "en": "Shaddah with kasra",
+      "tr": "famahhele"
+    },
+    {
+      "id": "ottelat",
+      "ar": "عُطِّلَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "ottelat"
+    },
+    {
+      "id": "oqqetat",
+      "ar": "أُقِّتَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "oqqetat"
+    },
+    {
+      "id": "soyyerat",
+      "ar": "سُيِّرَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "soyyerat"
+    },
+    {
+      "id": "soerat",
+      "ar": "سُعِّرَتۡ",
+      "en": "Shaddah with kasra",
+      "tr": "so''erat"
+    },
+    {
+      "id": "bosh",
+      "ar": "بُشْ",
+      "en": "Shaddah with kasra",
+      "tr": "bosh"
+    },
+    {
+      "id": "shshe",
+      "ar": "شِّ",
+      "en": "Shaddah with kasra",
+      "tr": "shshe"
+    },
+    {
+      "id": "ra",
+      "ar": "رَ",
+      "en": "Shaddah with kasra",
+      "tr": "ra"
+    },
+    {
+      "id": "boshshera",
+      "ar": "بُشِّرَ",
+      "en": "Shaddah with kasra",
+      "tr": "boshshera"
+    },
+    {
+      "id": "sej",
+      "ar": "سِجْ",
+      "en": "Shaddah with kasra",
+      "tr": "sej"
+    },
+    {
+      "id": "jee",
+      "ar": "جِي",
+      "en": "Shaddah with kasra",
+      "tr": "jee"
+    },
+    {
+      "id": "le",
+      "ar": "لِ",
+      "en": "Shaddah with kasra",
+      "tr": "le"
+    },
+    {
+      "id": "sejjeelen",
+      "ar": "سِجِّيلٍ",
+      "en": "Shaddah with kasra",
+      "tr": "sejjeelen"
+    },
+    {
+      "id": "sed",
+      "ar": "صِدْ",
+      "en": "Shaddah with kasra",
+      "tr": "sed"
+    },
+    {
+      "id": "dee",
+      "ar": "دِي",
+      "en": "Shaddah with kasra",
+      "tr": "dee"
+    },
+    {
+      "id": "qan",
+      "ar": "قًا",
+      "en": "Shaddah with kasra",
+      "tr": "qan"
+    },
+    {
+      "id": "seddeeqan",
+      "ar": "صِدِّيقًا",
+      "en": "Shaddah with kasra",
+      "tr": "seddeeqan"
+    },
+    {
+      "id": "hos",
+      "ar": "حُصْ",
+      "en": "Shaddah with kasra",
+      "tr": "hos"
+    },
+    {
+      "id": "se",
+      "ar": "صِ",
+      "en": "Shaddah with kasra",
+      "tr": "se"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "Shaddah with kasra",
+      "tr": "la"
+    },
+    {
+      "id": "hossela",
+      "ar": "حُصِّلَ",
+      "en": "Shaddah with kasra",
+      "tr": "hossela"
+    },
+    {
+      "id": "ka",
+      "ar": "كَ",
+      "en": "Shaddah with kasra",
+      "tr": "ka"
+    },
+    {
+      "id": "say",
+      "ar": "صَيْ",
+      "en": "Shaddah with kasra",
+      "tr": "say"
+    },
+    {
+      "id": "ye",
+      "ar": "يِ",
+      "en": "Shaddah with kasra",
+      "tr": "ye"
+    },
+    {
+      "id": "yeben",
+      "ar": "يِبٍ",
+      "en": "Shaddah with kasra",
+      "tr": "yeben"
+    },
+    {
+      "id": "kasayyeben",
+      "ar": "كَصَيِّبٍ",
+      "en": "Shaddah with kasra",
+      "tr": "kasayyeben"
+    },
+    {
+      "id": "qosseeh",
+      "ar": "قُصِّيه",
+      "en": "Shaddah with kasra",
+      "tr": "qosseeh"
+    },
+    {
+      "id": "nonajjeeka",
+      "ar": "نُنَجِّيكَ",
+      "en": "Shaddah with kasra",
+      "tr": "nonajjeeka"
+    },
+    {
+      "id": "motawaffeeka",
+      "ar": "مُتَوَفِّيكَ",
+      "en": "Shaddah with kasra",
+      "tr": "motawaffeeka"
+    },
+    {
+      "id": "mowalleehaa",
+      "ar": "مُوَلِّيهَا",
+      "en": "Shaddah with kasra",
+      "tr": "mowalleehaa"
+    },
+    {
+      "id": "yoghashsheekomo",
+      "ar": "يُغَشِّيكُمُ",
+      "en": "Shaddah with kasra",
+      "tr": "yoghashsheekomo"
+    },
+    {
+      "id": "elleyyeena",
+      "ar": "عِلِّيِّينَ",
+      "en": "Shaddah with kasra",
+      "tr": "elleyyeena"
+    },
+    {
+      "id": "nowallehe",
+      "ar": "نُوَلِّهِ",
+      "en": "Shaddah with kasra",
+      "tr": "nowallehe"
+    },
+    {
+      "id": "nosawweekom",
+      "ar": "نُسَوِّيكُم",
+      "en": "Shaddah with kasra",
+      "tr": "nosawweekom"
+    },
+    {
+      "id": "fasabbeh2",
+      "ar": "فَسَبِّحْ",
+      "en": "Shaddah with kasra",
+      "tr": "fasabbeh"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? A letter with shaddah is said twice.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Shaddah with kasra: the first letter has…",
+      "opts": [
+        [
+          "",
+          "Sukoon",
+          1
+        ],
+        [
+          "",
+          "Kasra",
+          0
+        ],
+        [
+          "",
+          "Damma",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? أَغِّ reads “aghghe”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? أُقِّتَتۡ reads “oqqetat”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find shaddah with kasra in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Shaddah with kasra: Read shaddah with kasra and recite Surat Quraish.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l11.mp4",
+    "poster": "media/qra1-l11-poster.jpg"
+  }
+}

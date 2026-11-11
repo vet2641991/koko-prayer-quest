@@ -1,0 +1,405 @@
+{
+  "id": "qra1-l24",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 24. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ ثَاء",
+    "en": "The Letter Thaa (ث)"
+  },
+  "topic": "Read Thaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Thaa. A soft th, like th in thin.",
+      "title": "Meet Thaa!",
+      "ar": "ث",
+      "aud": "c-0-ar",
+      "tr": "Thaa"
+    },
+    {
+      "en": "Like a dish with three dots above. It connects from both sides.",
+      "title": "How to write Thaa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "ثُلُثَ",
+      "tr": "tholotha"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "مَثُوبَةٍ",
+      "tr": "mathoobaten"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "ثَالِثُ",
+      "tr": "thaaletho"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "يَبُثُّ",
+      "tr": "yaboththo"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "حَرْثٌ",
+      "tr": "harthon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "مِثْقَالَ",
+      "tr": "methqaala"
+    },
+    {
+      "en": "Surat Al-Baqarah, verse 233. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "لَا تُضَآرَّ وَٰلِدَةٌۢ بِوَلَدِهَا وَلَا مَوْلُودٌۭ لَّهُۥ بِوَلَدِهِۦ ۚ وَعَلَى ٱلْوَارِثِ مِثْلُ ذَٰلِكَ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "thamano",
+      "ar": "ثَمَنُ",
+      "en": "Letter in a word",
+      "tr": "thamano"
+    },
+    {
+      "id": "mathale",
+      "ar": "مَثَلِ",
+      "en": "Letter in a word",
+      "tr": "mathale"
+    },
+    {
+      "id": "bahatha",
+      "ar": "بَحَثَ",
+      "en": "Letter in a word",
+      "tr": "bahatha"
+    },
+    {
+      "id": "waretha",
+      "ar": "وَرِثَ",
+      "en": "Letter in a word",
+      "tr": "waretha"
+    },
+    {
+      "id": "tholotha",
+      "ar": "ثُلُثَ",
+      "en": "Short vowels",
+      "tr": "tholotha"
+    },
+    {
+      "id": "thoqeba",
+      "ar": "ثُقِبَ",
+      "en": "Short vowels",
+      "tr": "thoqeba"
+    },
+    {
+      "id": "haytho",
+      "ar": "حَيْثُ",
+      "en": "Short vowels",
+      "tr": "haytho"
+    },
+    {
+      "id": "theyaabon",
+      "ar": "ثِيَابٌ",
+      "en": "Short vowels",
+      "tr": "theyaabon"
+    },
+    {
+      "id": "theqaalan",
+      "ar": "ثِقَالًا",
+      "en": "Short vowels",
+      "tr": "theqaalan"
+    },
+    {
+      "id": "katheeran",
+      "ar": "كَثِيرًا",
+      "en": "Short vowels",
+      "tr": "katheeran"
+    },
+    {
+      "id": "thaqolat",
+      "ar": "ثَقُلَتْ",
+      "en": "Short vowels",
+      "tr": "thaqolat"
+    },
+    {
+      "id": "thamarata",
+      "ar": "ثَمَرَةَ",
+      "en": "Short vowels",
+      "tr": "thamarata"
+    },
+    {
+      "id": "thalaathato",
+      "ar": "ثَلَاثَةُ",
+      "en": "Short vowels",
+      "tr": "thalaathato"
+    },
+    {
+      "id": "mathoobaten",
+      "ar": "مَثُوبَةٍ",
+      "en": "Long vowels",
+      "tr": "mathoobaten"
+    },
+    {
+      "id": "yankothoona",
+      "ar": "يَنْكُثُونَ",
+      "en": "Long vowels",
+      "tr": "yankothoona"
+    },
+    {
+      "id": "mabthoothaton",
+      "ar": "مَبْثُوثَةٌ",
+      "en": "Long vowels",
+      "tr": "mabthoothaton"
+    },
+    {
+      "id": "katheera",
+      "ar": "كَثِيرَ",
+      "en": "Long vowels",
+      "tr": "katheera"
+    },
+    {
+      "id": "atheemen",
+      "ar": "أَثِيمٍ",
+      "en": "Long vowels",
+      "tr": "atheemen"
+    },
+    {
+      "id": "thaaletho",
+      "ar": "ثَالِثُ",
+      "en": "With Al",
+      "tr": "thaaletho"
+    },
+    {
+      "id": "meethaaqa",
+      "ar": "مِيثَاقَ",
+      "en": "With Al",
+      "tr": "meethaaqa"
+    },
+    {
+      "id": "thaabeten",
+      "ar": "ثَابِتٍ",
+      "en": "With Al",
+      "tr": "thaabeten"
+    },
+    {
+      "id": "yaboththo",
+      "ar": "يَبُثُّ",
+      "en": "Shaddah",
+      "tr": "yaboththo"
+    },
+    {
+      "id": "aththomono",
+      "ar": "الثُّمُنُ",
+      "en": "Shaddah",
+      "tr": "aththomono"
+    },
+    {
+      "id": "aththolotha",
+      "ar": "الثُّلُثَ",
+      "en": "Shaddah",
+      "tr": "aththolotha"
+    },
+    {
+      "id": "almoddaththero",
+      "ar": "الْمُدَّثِّرُ",
+      "en": "Shaddah",
+      "tr": "almoddaththero"
+    },
+    {
+      "id": "aththeqaala",
+      "ar": "الثِّقَالَ",
+      "en": "Shaddah",
+      "tr": "aththeqaala"
+    },
+    {
+      "id": "baththee",
+      "ar": "بَثِّي",
+      "en": "Shaddah",
+      "tr": "baththee"
+    },
+    {
+      "id": "baththan",
+      "ar": "بَثًّا",
+      "en": "Shaddah",
+      "tr": "baththan"
+    },
+    {
+      "id": "aththaqalaane",
+      "ar": "الثَّقَلَانِ",
+      "en": "Shaddah",
+      "tr": "aththaqalaane"
+    },
+    {
+      "id": "aththamaraate",
+      "ar": "الثَّمَرَاتِ",
+      "en": "Shaddah",
+      "tr": "aththamaraate"
+    },
+    {
+      "id": "harthon",
+      "ar": "حَرْثٌ",
+      "en": "Tanween",
+      "tr": "harthon"
+    },
+    {
+      "id": "hadeethen",
+      "ar": "حَدِيثٍ",
+      "en": "Tanween",
+      "tr": "hadeethen"
+    },
+    {
+      "id": "ghaythen",
+      "ar": "غَيْثٍ",
+      "en": "Tanween",
+      "tr": "ghaythen"
+    },
+    {
+      "id": "thalaathen",
+      "ar": "ثَلَاثٍ",
+      "en": "Tanween",
+      "tr": "thalaathen"
+    },
+    {
+      "id": "hadeethan",
+      "ar": "حَدِيثًا",
+      "en": "Tanween",
+      "tr": "hadeethan"
+    },
+    {
+      "id": "abathan",
+      "ar": "عَبَثًا",
+      "en": "Tanween",
+      "tr": "abathan"
+    },
+    {
+      "id": "athaathan",
+      "ar": "أَثَاثًا",
+      "en": "Tanween",
+      "tr": "athaathan"
+    },
+    {
+      "id": "methqaala",
+      "ar": "مِثْقَالَ",
+      "en": "Sukoon",
+      "tr": "methqaala"
+    },
+    {
+      "id": "belethme",
+      "ar": "بِالْإِثْمِ",
+      "en": "Sukoon",
+      "tr": "bel'ethme"
+    },
+    {
+      "id": "yalhath",
+      "ar": "يَلْهَثْ",
+      "en": "Sukoon",
+      "tr": "yalhath"
+    },
+    {
+      "id": "aththaaqebo",
+      "ar": "الثَّاقِبُ",
+      "en": "With Al",
+      "tr": "aththaaqebo"
+    },
+    {
+      "id": "aththolotho",
+      "ar": "الثُّلُثُ",
+      "en": "With Al",
+      "tr": "aththolotho"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ث?",
+      "opts": [
+        [
+          "",
+          "Thaa",
+          1
+        ],
+        [
+          "",
+          "Dhaal",
+          0
+        ],
+        [
+          "",
+          "Daad",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ث connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? وَرِثَ reads “waretha”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الْمُدَّثِّرُ reads “almoddaththero”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ث in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Thaa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Thaa (ث): Read Thaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l24.mp4",
+    "poster": "media/qra1-l24-poster.jpg"
+  }
+}

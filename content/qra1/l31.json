@@ -1,0 +1,411 @@
+{
+  "id": "qra1-l31",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 31. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ زَاي",
+    "en": "The Letter Zaay (ز)"
+  },
+  "topic": "Read Zaay with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Zaay. Like z in zoo.",
+      "title": "Meet Zaay!",
+      "ar": "ز",
+      "aud": "c-0-ar",
+      "tr": "Zaay"
+    },
+    {
+      "en": "Like a crescent with a dot on top. It connects to the right, but never to the left.",
+      "title": "How to write Zaay"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "زُيِّنَ",
+      "tr": "zoyyena"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "الزُّورَ",
+      "tr": "azzoora"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "فَزَادَهُمْ",
+      "tr": "fazaadahom"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "الزُّورِ",
+      "tr": "azzoore"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "عَزِيزٌ",
+      "tr": "azeezon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "تَزْرَعُونَهُ",
+      "tr": "tazra'oonaho"
+    },
+    {
+      "en": "Surat Al-An'am, verse 164. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "zaama",
+      "ar": "زَعَمَ",
+      "en": "Letter in a word",
+      "tr": "za'ama"
+    },
+    {
+      "id": "azeezen",
+      "ar": "عَزِيزٍ",
+      "en": "Letter in a word",
+      "tr": "azeezen"
+    },
+    {
+      "id": "faaza",
+      "ar": "فَازَ",
+      "en": "Letter in a word",
+      "tr": "faaza"
+    },
+    {
+      "id": "mafaazan",
+      "ar": "مَفَازًا",
+      "en": "Letter in a word",
+      "tr": "mafaazan"
+    },
+    {
+      "id": "zoyyena",
+      "ar": "زُيِّنَ",
+      "en": "Short vowels",
+      "tr": "zoyyena"
+    },
+    {
+      "id": "wazolzeloo",
+      "ar": "وَزُلْزِلُوا",
+      "en": "Short vowels",
+      "tr": "wazolzeloo"
+    },
+    {
+      "id": "zomaran",
+      "ar": "زُمَرًا",
+      "en": "Short vowels",
+      "tr": "zomaran"
+    },
+    {
+      "id": "zednee",
+      "ar": "زِدْنِي",
+      "en": "Short vowels",
+      "tr": "zednee"
+    },
+    {
+      "id": "zelzaalahaa",
+      "ar": "زِلْزَالَهَا",
+      "en": "Short vowels",
+      "tr": "zelzaalahaa"
+    },
+    {
+      "id": "manaazela",
+      "ar": "مَنَازِلَ",
+      "en": "Short vowels",
+      "tr": "manaazela"
+    },
+    {
+      "id": "zakareyyaa",
+      "ar": "زَكَرِيَّا",
+      "en": "Short vowels",
+      "tr": "zakareyyaa"
+    },
+    {
+      "id": "zaagha",
+      "ar": "زَاغَ",
+      "en": "Short vowels",
+      "tr": "zaagha"
+    },
+    {
+      "id": "azzoora",
+      "ar": "الزُّورَ",
+      "en": "Long vowels",
+      "tr": "azzoora"
+    },
+    {
+      "id": "alfaaezoona",
+      "ar": "الْفَائِزُونَ",
+      "en": "Long vowels",
+      "tr": "alfaa'ezoona"
+    },
+    {
+      "id": "tazoolaa",
+      "ar": "تَزُولَا",
+      "en": "Long vowels",
+      "tr": "tazoolaa"
+    },
+    {
+      "id": "alazeezo",
+      "ar": "الْعَزِيزُ",
+      "en": "Long vowels",
+      "tr": "al'azeezo"
+    },
+    {
+      "id": "zeenaton",
+      "ar": "زِينَةٌ",
+      "en": "Long vowels",
+      "tr": "zeenaton"
+    },
+    {
+      "id": "mazeedon",
+      "ar": "مَزِيدٌ",
+      "en": "Long vowels",
+      "tr": "mazeedon"
+    },
+    {
+      "id": "fazaadahom",
+      "ar": "فَزَادَهُمْ",
+      "en": "With Al",
+      "tr": "fazaadahom"
+    },
+    {
+      "id": "tazaawaro",
+      "ar": "تَزَاوَرُ",
+      "en": "With Al",
+      "tr": "tazaawaro"
+    },
+    {
+      "id": "almeezaana",
+      "ar": "الْمِيزَانَ",
+      "en": "With Al",
+      "tr": "almeezaana"
+    },
+    {
+      "id": "azzoore",
+      "ar": "الزُّورِ",
+      "en": "Shaddah",
+      "tr": "azzoore"
+    },
+    {
+      "id": "azzojaajato",
+      "ar": "الزُّجَاجَةُ",
+      "en": "Shaddah",
+      "tr": "azzojaajato"
+    },
+    {
+      "id": "taozzohom",
+      "ar": "تَؤُزُّهُمْ",
+      "en": "Shaddah",
+      "tr": "ta'ozzohom"
+    },
+    {
+      "id": "yonazzelo",
+      "ar": "يُنَزِّلُ",
+      "en": "Shaddah",
+      "tr": "yonazzelo"
+    },
+    {
+      "id": "azzenaa",
+      "ar": "الزِّنَى",
+      "en": "Shaddah",
+      "tr": "azzenaa"
+    },
+    {
+      "id": "monazzelohaa",
+      "ar": "مُنَزِّلُهَا",
+      "en": "Shaddah",
+      "tr": "monazzelohaa"
+    },
+    {
+      "id": "azzakaata",
+      "ar": "الزَّكَاةَ",
+      "en": "Shaddah",
+      "tr": "azzakaata"
+    },
+    {
+      "id": "nazzala",
+      "ar": "نَزَّلَ",
+      "en": "Shaddah",
+      "tr": "nazzala"
+    },
+    {
+      "id": "almozzammelo",
+      "ar": "الْمُزَّمِّلُ",
+      "en": "Shaddah",
+      "tr": "almozzammelo"
+    },
+    {
+      "id": "azeezon",
+      "ar": "عَزِيزٌ",
+      "en": "Tanween",
+      "tr": "azeezon"
+    },
+    {
+      "id": "kanzon",
+      "ar": "كَنزٌ",
+      "en": "Tanween",
+      "tr": "kanzon"
+    },
+    {
+      "id": "ajoozon",
+      "ar": "عَجُوزٌ",
+      "en": "Tanween",
+      "tr": "ajoozon"
+    },
+    {
+      "id": "rrejzen",
+      "ar": "رِّجْزٍ",
+      "en": "Tanween",
+      "tr": "rrejzen"
+    },
+    {
+      "id": "bemojezen",
+      "ar": "بِمُعْجِزٍ",
+      "en": "Tanween",
+      "tr": "bemo'jezen"
+    },
+    {
+      "id": "beazeezen",
+      "ar": "بِعَزِيزٍ",
+      "en": "Tanween",
+      "tr": "be'azeezen"
+    },
+    {
+      "id": "azeezan",
+      "ar": "عَزِيزًا",
+      "en": "Tanween",
+      "tr": "azeezan"
+    },
+    {
+      "id": "khobzan",
+      "ar": "خُبْزًا",
+      "en": "Tanween",
+      "tr": "khobzan"
+    },
+    {
+      "id": "tazraoonaho",
+      "ar": "تَزْرَعُونَهُ",
+      "en": "Sukoon",
+      "tr": "tazra'oonaho"
+    },
+    {
+      "id": "azwaajan",
+      "ar": "أَزْوَاجًا",
+      "en": "Sukoon",
+      "tr": "azwaajan"
+    },
+    {
+      "id": "rezqan",
+      "ar": "رِزْقًا",
+      "en": "Sukoon",
+      "tr": "rezqan"
+    },
+    {
+      "id": "waalzzaytoona",
+      "ar": "وَالزَّيْتُونَ",
+      "en": "With Al",
+      "tr": "waalzzaytoona"
+    },
+    {
+      "id": "azzaanee",
+      "ar": "الزَّانِي",
+      "en": "With Al",
+      "tr": "azzaanee"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ز?",
+      "opts": [
+        [
+          "",
+          "Zaay",
+          1
+        ],
+        [
+          "",
+          "Taa (heavy)",
+          0
+        ],
+        [
+          "",
+          "Kaaf",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ز connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? مَفَازًا reads “mafaazan”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يُنَزِّلُ reads “yonazzelo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ز in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Zaay! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Zaay (ز): Read Zaay with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l31.mp4",
+    "poster": "media/qra1-l31-poster.jpg"
+  }
+}

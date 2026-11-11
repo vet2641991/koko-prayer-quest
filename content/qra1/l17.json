@@ -1,0 +1,352 @@
+{
+  "id": "qra1-l17",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 17. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "اللَّامُ الْقَمَرِيَّةُ",
+    "en": "Lam Qamariyyah"
+  },
+  "topic": "Read Lam Qamariyyah and recite Surat Al-Adiyat",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Before the other 14 letters the lam of Al is written and said clearly, with a sukoon on it. When we start the word, the first alif is read with a short “a”.",
+      "title": "Lam Qamariyyah"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْعَادِيَاتِ",
+      "aud": "c-1-ar",
+      "tr": "soorato al'aadeyaate"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Adiyat. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Adiyat",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا ﴿١﴾ فَٱلْمُورِيَٰتِ قَدْحًۭا ﴿٢﴾ فَٱلْمُغِيرَٰتِ صُبْحًۭا ﴿٣﴾ فَأَثَرْنَ بِهِۦ نَقْعًۭا ﴿٤﴾ فَوَسَطْنَ بِهِۦ جَمْعًا ﴿٥﴾ إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ ﴿٦﴾ وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ ﴿٧﴾ وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ ﴿٨﴾ ۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ ﴿٩﴾ وَحُصِّلَ مَا فِى ٱلصُّدُورِ ﴿١٠﴾ إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ ﴿١١﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "alarda",
+      "ar": "الْأَرْضَ",
+      "en": "Lam Qamariyyah",
+      "tr": "al'arda"
+    },
+    {
+      "id": "albaatela",
+      "ar": "الْبَاطِلَ",
+      "en": "Lam Qamariyyah",
+      "tr": "albaatela"
+    },
+    {
+      "id": "alghayba",
+      "ar": "الْغَيْبَ",
+      "en": "Lam Qamariyyah",
+      "tr": "alghayba"
+    },
+    {
+      "id": "alhakeemo",
+      "ar": "الْحَكِيمُ",
+      "en": "Lam Qamariyyah",
+      "tr": "alhakeemo"
+    },
+    {
+      "id": "aljawaare",
+      "ar": "الْجَوَارِ",
+      "en": "Lam Qamariyyah",
+      "tr": "aljawaare"
+    },
+    {
+      "id": "alkayla",
+      "ar": "الْكَيْلَ",
+      "en": "Lam Qamariyyah",
+      "tr": "alkayla"
+    },
+    {
+      "id": "alwaswaase",
+      "ar": "الْوَسْوَاسِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alwaswaase"
+    },
+    {
+      "id": "alkhawfe",
+      "ar": "الْخَوْفِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alkhawfe"
+    },
+    {
+      "id": "alfalaqe",
+      "ar": "الْفَلَقِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alfalaqe"
+    },
+    {
+      "id": "alomore",
+      "ar": "الْعُمُرِ",
+      "en": "Lam Qamariyyah",
+      "tr": "al'omore"
+    },
+    {
+      "id": "lalhodaa",
+      "ar": "لَلْهُدَىٰ",
+      "en": "Lam Qamariyyah",
+      "tr": "lalhodaa"
+    },
+    {
+      "id": "walalaakherato",
+      "ar": "وَلَلْآخِرَةُ",
+      "en": "Lam Qamariyyah",
+      "tr": "walal'aakherato"
+    },
+    {
+      "id": "al",
+      "ar": "اَلْ",
+      "en": "Lam Qamariyyah",
+      "tr": "al"
+    },
+    {
+      "id": "ar",
+      "ar": "أَرْ",
+      "en": "Lam Qamariyyah",
+      "tr": "ar"
+    },
+    {
+      "id": "do",
+      "ar": "ضُ",
+      "en": "Lam Qamariyyah",
+      "tr": "do"
+    },
+    {
+      "id": "alardo",
+      "ar": "اَلْأَرْضُ",
+      "en": "Lam Qamariyyah",
+      "tr": "al'ardo"
+    },
+    {
+      "id": "bay",
+      "ar": "بَيْ",
+      "en": "Lam Qamariyyah",
+      "tr": "bay"
+    },
+    {
+      "id": "to",
+      "ar": "تُ",
+      "en": "Lam Qamariyyah",
+      "tr": "to"
+    },
+    {
+      "id": "albayto",
+      "ar": "اَلْبَيْتُ",
+      "en": "Lam Qamariyyah",
+      "tr": "albayto"
+    },
+    {
+      "id": "jan",
+      "ar": "جَنْ",
+      "en": "Lam Qamariyyah",
+      "tr": "jan"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Lam Qamariyyah",
+      "tr": "na"
+    },
+    {
+      "id": "to2",
+      "ar": "ةُ",
+      "en": "Lam Qamariyyah",
+      "tr": "to"
+    },
+    {
+      "id": "aljannato",
+      "ar": "اَلْجَنَّةُ",
+      "en": "Lam Qamariyyah",
+      "tr": "aljannato"
+    },
+    {
+      "id": "ke",
+      "ar": "كِ",
+      "en": "Lam Qamariyyah",
+      "tr": "ke"
+    },
+    {
+      "id": "taa",
+      "ar": "تَا",
+      "en": "Lam Qamariyyah",
+      "tr": "taa"
+    },
+    {
+      "id": "bo",
+      "ar": "بُ",
+      "en": "Lam Qamariyyah",
+      "tr": "bo"
+    },
+    {
+      "id": "alketaabo",
+      "ar": "اَلْكِتَابُ",
+      "en": "Lam Qamariyyah",
+      "tr": "alketaabo"
+    },
+    {
+      "id": "ma",
+      "ar": "مَ",
+      "en": "Lam Qamariyyah",
+      "tr": "ma"
+    },
+    {
+      "id": "le",
+      "ar": "لِ",
+      "en": "Lam Qamariyyah",
+      "tr": "le"
+    },
+    {
+      "id": "ko",
+      "ar": "كُ",
+      "en": "Lam Qamariyyah",
+      "tr": "ko"
+    },
+    {
+      "id": "almaleko",
+      "ar": "اَلْمَلِكُ",
+      "en": "Lam Qamariyyah",
+      "tr": "almaleko"
+    },
+    {
+      "id": "alkhayro",
+      "ar": "الْخَيْرُ",
+      "en": "Lam Qamariyyah",
+      "tr": "alkhayro"
+    },
+    {
+      "id": "alfajre",
+      "ar": "الْفَجْرِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alfajre"
+    },
+    {
+      "id": "alyaqeene",
+      "ar": "الْيَقِينِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alyaqeene"
+    },
+    {
+      "id": "aljawaare2",
+      "ar": "أَلْجَوَارِ",
+      "en": "Lam Qamariyyah",
+      "tr": "aljawaare"
+    },
+    {
+      "id": "alqamare",
+      "ar": "أَلْقَمَرِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alqamare"
+    },
+    {
+      "id": "alomore2",
+      "ar": "أَلْعُمُرِ",
+      "en": "Lam Qamariyyah",
+      "tr": "al'omore"
+    },
+    {
+      "id": "alfalaqe2",
+      "ar": "أَلْفَلَقِ",
+      "en": "Lam Qamariyyah",
+      "tr": "alfalaqe"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? In Lam Qamariyyah we say the lam clearly.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sign is on the lam in Lam Qamariyyah?",
+      "opts": [
+        [
+          "",
+          "Sukoon",
+          1
+        ],
+        [
+          "",
+          "Shaddah",
+          0
+        ],
+        [
+          "",
+          "Fatha",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? الْحَكِيمُ reads “alhakeemo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? اَلْجَنَّةُ reads “aljannato”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find Lam Qamariyyah in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Lam Qamariyyah: Read Lam Qamariyyah and recite Surat Al-Adiyat.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l17.mp4",
+    "poster": "media/qra1-l17-poster.jpg"
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "id": "qra1-l13",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 13. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "تَنْوِينُ الْفَتْحِ",
+    "en": "Tanween with fatha"
+  },
+  "topic": "Read tanween with fatha and recite Surat Al-Humazah",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Tanween adds an “n” sound at the end of a word. We say it, but we don't write the noon. It is written as double short vowels and comes only at the end of nouns.",
+      "title": "Tanween"
+    },
+    {
+      "en": "Two fathas on the last letter, usually followed by an alif that is written but not said. The sound is “an”.",
+      "title": "Tanween with fatha"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْهُمَزَةِ",
+      "aud": "c-2-ar",
+      "tr": "soorato alhomazate"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Humazah. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Humazah",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ ﴿١﴾ ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ ﴿٢﴾ يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ ﴿٣﴾ كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ ﴿٤﴾ وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ ﴿٥﴾ نَارُ ٱللَّهِ ٱلْمُوقَدَةُ ﴿٦﴾ ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ ﴿٧﴾ إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ ﴿٨﴾ فِى عَمَدٍۢ مُّمَدَّدَةٍۭ ﴿٩﴾",
+      "aud": "c-3-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-4-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "an",
+      "ar": "اً",
+      "en": "Tanween with fatha",
+      "tr": "an"
+    },
+    {
+      "id": "n",
+      "ar": "نْ",
+      "en": "Tanween with fatha",
+      "tr": "n"
+    },
+    {
+      "id": "ban",
+      "ar": "بًا",
+      "en": "Tanween with fatha",
+      "tr": "ban"
+    },
+    {
+      "id": "tan",
+      "ar": "تًا",
+      "en": "Tanween with fatha",
+      "tr": "tan"
+    },
+    {
+      "id": "than",
+      "ar": "ثًا",
+      "en": "Tanween with fatha",
+      "tr": "than"
+    },
+    {
+      "id": "jan",
+      "ar": "جًا",
+      "en": "Tanween with fatha",
+      "tr": "jan"
+    },
+    {
+      "id": "han",
+      "ar": "حًا",
+      "en": "Tanween with fatha",
+      "tr": "han"
+    },
+    {
+      "id": "khan",
+      "ar": "خًا",
+      "en": "Tanween with fatha",
+      "tr": "khan"
+    },
+    {
+      "id": "dan",
+      "ar": "دًا",
+      "en": "Tanween with fatha",
+      "tr": "dan"
+    },
+    {
+      "id": "dhan",
+      "ar": "ذًا",
+      "en": "Tanween with fatha",
+      "tr": "dhan"
+    },
+    {
+      "id": "ran",
+      "ar": "رًا",
+      "en": "Tanween with fatha",
+      "tr": "ran"
+    },
+    {
+      "id": "zan",
+      "ar": "زًا",
+      "en": "Tanween with fatha",
+      "tr": "zan"
+    },
+    {
+      "id": "san",
+      "ar": "سًا",
+      "en": "Tanween with fatha",
+      "tr": "san"
+    },
+    {
+      "id": "shan",
+      "ar": "شًا",
+      "en": "Tanween with fatha",
+      "tr": "shan"
+    },
+    {
+      "id": "san2",
+      "ar": "صًا",
+      "en": "Tanween with fatha",
+      "tr": "san"
+    },
+    {
+      "id": "dan2",
+      "ar": "ضًا",
+      "en": "Tanween with fatha",
+      "tr": "dan"
+    },
+    {
+      "id": "tan2",
+      "ar": "طًا",
+      "en": "Tanween with fatha",
+      "tr": "tan"
+    },
+    {
+      "id": "dhan2",
+      "ar": "ظًا",
+      "en": "Tanween with fatha",
+      "tr": "dhan"
+    },
+    {
+      "id": "an2",
+      "ar": "عًا",
+      "en": "Tanween with fatha",
+      "tr": "an"
+    },
+    {
+      "id": "ghan",
+      "ar": "غًا",
+      "en": "Tanween with fatha",
+      "tr": "ghan"
+    },
+    {
+      "id": "fan",
+      "ar": "فًا",
+      "en": "Tanween with fatha",
+      "tr": "fan"
+    },
+    {
+      "id": "qan",
+      "ar": "قًا",
+      "en": "Tanween with fatha",
+      "tr": "qan"
+    },
+    {
+      "id": "kan",
+      "ar": "كًا",
+      "en": "Tanween with fatha",
+      "tr": "kan"
+    },
+    {
+      "id": "lan",
+      "ar": "لًا",
+      "en": "Tanween with fatha",
+      "tr": "lan"
+    },
+    {
+      "id": "man",
+      "ar": "مًا",
+      "en": "Tanween with fatha",
+      "tr": "man"
+    },
+    {
+      "id": "nan",
+      "ar": "نًا",
+      "en": "Tanween with fatha",
+      "tr": "nan"
+    },
+    {
+      "id": "han2",
+      "ar": "هًا",
+      "en": "Tanween with fatha",
+      "tr": "han"
+    },
+    {
+      "id": "wan",
+      "ar": "وًا",
+      "en": "Tanween with fatha",
+      "tr": "wan"
+    },
+    {
+      "id": "an3",
+      "ar": "ءًا",
+      "en": "Tanween with fatha",
+      "tr": "an"
+    },
+    {
+      "id": "yan",
+      "ar": "يًا",
+      "en": "Tanween with fatha",
+      "tr": "yan"
+    },
+    {
+      "id": "adhaaban",
+      "ar": "عَذَابًا",
+      "en": "Tanween with fatha",
+      "tr": "adhaaban"
+    },
+    {
+      "id": "sawaaban",
+      "ar": "صَوَابًا",
+      "en": "Tanween with fatha",
+      "tr": "sawaaban"
+    },
+    {
+      "id": "sobaatan",
+      "ar": "سُبَاتًا",
+      "en": "Tanween with fatha",
+      "tr": "sobaatan"
+    },
+    {
+      "id": "sowaaan",
+      "ar": "سُوَاعًا",
+      "en": "Tanween with fatha",
+      "tr": "sowaa'an"
+    },
+    {
+      "id": "wanabaatan",
+      "ar": "وَنَبَاتًا",
+      "en": "Tanween with fatha",
+      "tr": "wanabaatan"
+    },
+    {
+      "id": "besaatan",
+      "ar": "بِسَاطًا",
+      "en": "Tanween with fatha",
+      "tr": "besaatan"
+    },
+    {
+      "id": "abadan",
+      "ar": "أَبَدًا",
+      "en": "Tanween with fatha",
+      "tr": "abadan"
+    },
+    {
+      "id": "saadan",
+      "ar": "صَعَدًا",
+      "en": "Tanween with fatha",
+      "tr": "sa'adan"
+    },
+    {
+      "id": "harajan",
+      "ar": "حَرَجًا",
+      "en": "Tanween with fatha",
+      "tr": "harajan"
+    },
+    {
+      "id": "thaqeelan",
+      "ar": "ثَقِيلًا",
+      "en": "Tanween with fatha",
+      "tr": "thaqeelan"
+    },
+    {
+      "id": "sabeelan",
+      "ar": "سَبِيلًا",
+      "en": "Tanween with fatha",
+      "tr": "sabeelan"
+    },
+    {
+      "id": "wabeelan",
+      "ar": "وَبِيلًا",
+      "en": "Tanween with fatha",
+      "tr": "wabeelan"
+    },
+    {
+      "id": "kadheban",
+      "ar": "كَذِبًا",
+      "en": "Tanween with fatha",
+      "tr": "kadheban"
+    },
+    {
+      "id": "ahadan",
+      "ar": "أَحَدًا",
+      "en": "Tanween with fatha",
+      "tr": "ahadan"
+    },
+    {
+      "id": "sohofan",
+      "ar": "صُحُفًا",
+      "en": "Tanween with fatha",
+      "tr": "sohofan"
+    },
+    {
+      "id": "sho",
+      "ar": "شُ",
+      "en": "Tanween with fatha",
+      "tr": "sho"
+    },
+    {
+      "id": "yoo",
+      "ar": "يُو",
+      "en": "Tanween with fatha",
+      "tr": "yoo"
+    },
+    {
+      "id": "shoyookhan",
+      "ar": "شُيُوخًا",
+      "en": "Tanween with fatha",
+      "tr": "shoyookhan"
+    },
+    {
+      "id": "fo",
+      "ar": "فُ",
+      "en": "Tanween with fatha",
+      "tr": "fo"
+    },
+    {
+      "id": "raa",
+      "ar": "رَا",
+      "en": "Tanween with fatha",
+      "tr": "raa"
+    },
+    {
+      "id": "foraatan",
+      "ar": "فُرَاتًا",
+      "en": "Tanween with fatha",
+      "tr": "foraatan"
+    },
+    {
+      "id": "haa",
+      "ar": "حَا",
+      "en": "Tanween with fatha",
+      "tr": "haa"
+    },
+    {
+      "id": "mee",
+      "ar": "مِي",
+      "en": "Tanween with fatha",
+      "tr": "mee"
+    },
+    {
+      "id": "tan3",
+      "ar": "ةً",
+      "en": "Tanween with fatha",
+      "tr": "tan"
+    },
+    {
+      "id": "haameyatan",
+      "ar": "حَامِيَةً",
+      "en": "Tanween with fatha",
+      "tr": "haameyatan"
+    },
+    {
+      "id": "ha",
+      "ar": "حَ",
+      "en": "Tanween with fatha",
+      "tr": "ha"
+    },
+    {
+      "id": "dee",
+      "ar": "دِي",
+      "en": "Tanween with fatha",
+      "tr": "dee"
+    },
+    {
+      "id": "hadeedan",
+      "ar": "حَدِيدًا",
+      "en": "Tanween with fatha",
+      "tr": "hadeedan"
+    },
+    {
+      "id": "wa",
+      "ar": "وَ",
+      "en": "Tanween with fatha",
+      "tr": "wa"
+    },
+    {
+      "id": "a",
+      "ar": "أَ",
+      "en": "Tanween with fatha",
+      "tr": "a"
+    },
+    {
+      "id": "see",
+      "ar": "صِي",
+      "en": "Tanween with fatha",
+      "tr": "see"
+    },
+    {
+      "id": "waaseelan",
+      "ar": "وَأَصِيلًا",
+      "en": "Tanween with fatha",
+      "tr": "wa'aseelan"
+    },
+    {
+      "id": "shaheeqan",
+      "ar": "شَهِيقًا",
+      "en": "Tanween with fatha",
+      "tr": "shaheeqan"
+    },
+    {
+      "id": "thobooran",
+      "ar": "ثُبُورًا",
+      "en": "Tanween with fatha",
+      "tr": "thobooran"
+    },
+    {
+      "id": "hakeeman",
+      "ar": "حَكِيمًا",
+      "en": "Tanween with fatha",
+      "tr": "hakeeman"
+    },
+    {
+      "id": "wazeeran",
+      "ar": "وَزِيرًا",
+      "en": "Tanween with fatha",
+      "tr": "wazeeran"
+    },
+    {
+      "id": "lebaasan",
+      "ar": "لِبَاسًا",
+      "en": "Tanween with fatha",
+      "tr": "lebaasan"
+    },
+    {
+      "id": "haradan",
+      "ar": "حَرَضًا",
+      "en": "Tanween with fatha",
+      "tr": "haradan"
+    },
+    {
+      "id": "seraajan",
+      "ar": "سِرَاجًا",
+      "en": "Tanween with fatha",
+      "tr": "seraajan"
+    },
+    {
+      "id": "edhan",
+      "ar": "إِذًا",
+      "en": "Tanween with fatha",
+      "tr": "edhan"
+    },
+    {
+      "id": "amadan",
+      "ar": "أَمَدًا",
+      "en": "Tanween with fatha",
+      "tr": "amadan"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Tanween comes only at the end of a word.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does tanween with fatha make?",
+      "opts": [
+        [
+          "",
+          "an",
+          1
+        ],
+        [
+          "",
+          "en",
+          0
+        ],
+        [
+          "",
+          "on",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? تًا reads “tan”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? حَرَجًا reads “harajan”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find tanween with fatha in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Tanween with fatha: Read tanween with fatha and recite Surat Al-Humazah.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l13.mp4",
+    "poster": "media/qra1-l13-poster.jpg"
+  }
+}

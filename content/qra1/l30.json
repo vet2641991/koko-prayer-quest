@@ -1,0 +1,411 @@
+{
+  "id": "qra1-l30",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 30. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ رَاء",
+    "en": "The Letter Raa (ر)"
+  },
+  "topic": "Read Raa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Raa. Like r in car.",
+      "title": "Meet Raa!",
+      "ar": "ر",
+      "aud": "c-0-ar",
+      "tr": "Raa"
+    },
+    {
+      "en": "Like a crescent that starts on the line and slides below it. It connects to the right, but never to the left.",
+      "title": "How to write Raa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "رُسُلِهِ",
+      "tr": "rosolehe"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "هَارُونَ",
+      "tr": "haaroona"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "الرَّاكِعِينَ",
+      "tr": "arraake'eena"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "يَفِرُّ",
+      "tr": "yaferro"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "قَدِيرٌ",
+      "tr": "qadeeron"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "مَرْيَمُ",
+      "tr": "maryamo"
+    },
+    {
+      "en": "Surat Ta-Ha, verse 5. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "rahmaten",
+      "ar": "رَحْمَةٍ",
+      "en": "Letter in a word",
+      "tr": "rahmaten"
+    },
+    {
+      "id": "fareeqon",
+      "ar": "فَرِيقٌ",
+      "en": "Letter in a word",
+      "tr": "fareeqon"
+    },
+    {
+      "id": "khabeeron",
+      "ar": "خَبِيرٌ",
+      "en": "Letter in a word",
+      "tr": "khabeeron"
+    },
+    {
+      "id": "naaron",
+      "ar": "نَارٌ",
+      "en": "Letter in a word",
+      "tr": "naaron"
+    },
+    {
+      "id": "rosolehe",
+      "ar": "رُسُلِهِ",
+      "en": "Short vowels",
+      "tr": "rosolehe"
+    },
+    {
+      "id": "arrooho",
+      "ar": "الرُّوحُ",
+      "en": "Short vowels",
+      "tr": "arrooho"
+    },
+    {
+      "id": "roddoohaa",
+      "ar": "رُدُّوهَا",
+      "en": "Short vowels",
+      "tr": "roddoohaa"
+    },
+    {
+      "id": "rrezqon",
+      "ar": "رِّزْقٌ",
+      "en": "Short vowels",
+      "tr": "rrezqon"
+    },
+    {
+      "id": "rehlata",
+      "ar": "رِحْلَةَ",
+      "en": "Short vowels",
+      "tr": "rehlata"
+    },
+    {
+      "id": "rejaalon",
+      "ar": "رِجَالٌ",
+      "en": "Short vowels",
+      "tr": "rejaalon"
+    },
+    {
+      "id": "rabba",
+      "ar": "رَبَّ",
+      "en": "Short vowels",
+      "tr": "rabba"
+    },
+    {
+      "id": "ramadaana",
+      "ar": "رَمَضَانَ",
+      "en": "Short vowels",
+      "tr": "ramadaana"
+    },
+    {
+      "id": "raaa",
+      "ar": "رَأَىٰ",
+      "en": "Short vowels",
+      "tr": "ra'aa"
+    },
+    {
+      "id": "haaroona",
+      "ar": "هَارُونَ",
+      "en": "Long vowels",
+      "tr": "haaroona"
+    },
+    {
+      "id": "alborooje",
+      "ar": "الْبُرُوجِ",
+      "en": "Long vowels",
+      "tr": "alborooje"
+    },
+    {
+      "id": "kareemon",
+      "ar": "كَرِيمٌ",
+      "en": "Long vowels",
+      "tr": "kareemon"
+    },
+    {
+      "id": "bereehen",
+      "ar": "بِرِيحٍ",
+      "en": "Long vowels",
+      "tr": "bereehen"
+    },
+    {
+      "id": "mareedan",
+      "ar": "مَرِيضًا",
+      "en": "Long vowels",
+      "tr": "mareedan"
+    },
+    {
+      "id": "arraakeeena",
+      "ar": "الرَّاكِعِينَ",
+      "en": "With Al",
+      "tr": "arraake'eena"
+    },
+    {
+      "id": "asseraata",
+      "ar": "الصِّرَاطَ",
+      "en": "With Al",
+      "tr": "asseraata"
+    },
+    {
+      "id": "feraashan",
+      "ar": "فِرَاشًا",
+      "en": "With Al",
+      "tr": "feraashan"
+    },
+    {
+      "id": "yaferro",
+      "ar": "يَفِرُّ",
+      "en": "Shaddah",
+      "tr": "yaferro"
+    },
+    {
+      "id": "alhorro",
+      "ar": "اَلْحُرُّ",
+      "en": "Shaddah",
+      "tr": "alhorro"
+    },
+    {
+      "id": "marroo",
+      "ar": "مَرُّوا",
+      "en": "Shaddah",
+      "tr": "marroo"
+    },
+    {
+      "id": "dhorreyyatan",
+      "ar": "ذُرِّيَّةً",
+      "en": "Shaddah",
+      "tr": "dhorreyyatan"
+    },
+    {
+      "id": "dorreyyon",
+      "ar": "دُرِّيٌّ",
+      "en": "Shaddah",
+      "tr": "dorreyyon"
+    },
+    {
+      "id": "horremat",
+      "ar": "حُرِّمَتْ",
+      "en": "Shaddah",
+      "tr": "horremat"
+    },
+    {
+      "id": "arrahmaano",
+      "ar": "اَلرَّحْمٰنُ",
+      "en": "Shaddah",
+      "tr": "arrahmaano"
+    },
+    {
+      "id": "sharran",
+      "ar": "شَرًّا",
+      "en": "Shaddah",
+      "tr": "sharran"
+    },
+    {
+      "id": "kharra",
+      "ar": "خَرَّ",
+      "en": "Shaddah",
+      "tr": "kharra"
+    },
+    {
+      "id": "qadeeron",
+      "ar": "قَدِيرٌ",
+      "en": "Tanween",
+      "tr": "qadeeron"
+    },
+    {
+      "id": "ghafooron",
+      "ar": "غَفُورٌ",
+      "en": "Tanween",
+      "tr": "ghafooron"
+    },
+    {
+      "id": "qadaren",
+      "ar": "قَدَرٍ",
+      "en": "Tanween",
+      "tr": "qadaren"
+    },
+    {
+      "id": "besehren",
+      "ar": "بِسِحْرٍ",
+      "en": "Tanween",
+      "tr": "besehren"
+    },
+    {
+      "id": "ayyaamen",
+      "ar": "أَيَّامٍ",
+      "en": "Tanween",
+      "tr": "ayyaamen"
+    },
+    {
+      "id": "naaran",
+      "ar": "نَارًا",
+      "en": "Tanween",
+      "tr": "naaran"
+    },
+    {
+      "id": "baseeran",
+      "ar": "بَصِيرًا",
+      "en": "Tanween",
+      "tr": "baseeran"
+    },
+    {
+      "id": "nooran",
+      "ar": "نُورًا",
+      "en": "Tanween",
+      "tr": "nooran"
+    },
+    {
+      "id": "maryamo",
+      "ar": "مَرْيَمُ",
+      "en": "Sukoon",
+      "tr": "maryamo"
+    },
+    {
+      "id": "qoraanan",
+      "ar": "قُرْآنًا",
+      "en": "Sukoon",
+      "tr": "qor'aanan"
+    },
+    {
+      "id": "ferawna",
+      "ar": "فِرْعَوْنَ",
+      "en": "Sukoon",
+      "tr": "fer'awna"
+    },
+    {
+      "id": "arraheeme",
+      "ar": "الرَّحِيمِ",
+      "en": "With Al",
+      "tr": "arraheeme"
+    },
+    {
+      "id": "arrejaalo",
+      "ar": "الرِّجَالُ",
+      "en": "With Al",
+      "tr": "arrejaalo"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ر?",
+      "opts": [
+        [
+          "",
+          "Raa",
+          1
+        ],
+        [
+          "",
+          "Daad",
+          0
+        ],
+        [
+          "",
+          "Qaaf",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ر connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? نَارٌ reads “naaron”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? ذُرِّيَّةً reads “dhorreyyatan”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ر in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Raa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Raa (ر): Read Raa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l30.mp4",
+    "poster": "media/qra1-l30-poster.jpg"
+  }
+}

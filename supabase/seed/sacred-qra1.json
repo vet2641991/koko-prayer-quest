@@ -1,0 +1,362 @@
+{
+  "about": "Owner's classification of the QRA1 (qra1) clips: Sheikh Al-Minshawi's recitation and the du'aa of the end of the gathering in Dr. Hassan's own voice are sacred; the Learn-card letter names and surah names are not. Read by scripts/import-json.ts.",
+  "decidedBy": "Dr. Hassan Muslim (owner)",
+  "decidedOn": "2026-11-06",
+  "sacred": {
+    "approvedBy": "Dr. Hassan Muslim",
+    "approvedOn": "2026-11-06",
+    "approvalNote": "Al-Minshawi's recitation and the du'aa in Dr. Hassan's own voice; approved by him in chat on 2026-11-06 after the QRA1 audio review",
+    "clips": [
+      {
+        "path": "audio/qra1-l01/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l02/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l02/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l03/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l03/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l04/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l04/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l05/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l05/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l06/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l06/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l07/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l07/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l08/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l08/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l09/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l09/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l10/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l10/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l11/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l11/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l12/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l12/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l13/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l13/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l14/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l14/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l15/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l15/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l16/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l16/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l17/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l17/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l18/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l18/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l19/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l19/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l20/c-3-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l20/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l21/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l22/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l23/c-10-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l23/c-9-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l24/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l25/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l26/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l27/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l28/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l29/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l30/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l31/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l32/c-9-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l33/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l34/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l35/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l36/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l37/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l38/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l39/c-7-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l40/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l41/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l42/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l43/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l44/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l45/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l46/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l47/c-8-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l48/c-8-ar.mp3"
+      }
+    ]
+  },
+  "notSacred": {
+    "note": "Letter names and surah names in Dr. Hassan's own voice; reviewed by him in the QRA1 audio review page on 2026-11-06.",
+    "clips": [
+      {
+        "path": "audio/qra1-l03/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l04/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l05/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l06/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l07/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l08/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l09/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l10/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l11/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l12/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l13/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l14/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l15/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l16/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l17/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l18/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l19/c-1-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l20/c-2-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l21/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l22/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l23/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l24/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l25/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l26/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l27/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l28/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l29/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l30/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l31/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l32/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l32/c-4-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l33/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l34/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l35/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l36/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l37/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l38/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l39/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l40/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l41/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l42/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l43/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l44/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l45/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l46/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l47/c-0-ar.mp3"
+      },
+      {
+        "path": "audio/qra1-l48/c-0-ar.mp3"
+      }
+    ]
+  }
+}

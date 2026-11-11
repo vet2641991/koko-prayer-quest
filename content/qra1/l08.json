@@ -1,0 +1,520 @@
+{
+  "id": "qra1-l08",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 8. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "السُّكُونُ",
+    "en": "Sukoon"
+  },
+  "topic": "Read sukoon and recite Surat Al-Kafirun",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Sukoon is a small circle above the letter in books, and a small head of haa in the Quran. It has no sound of its own: we say only the letter's sound. It leans on the vowel before it, so the two letters make one sound, like “ab”.",
+      "title": "Sukoon"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْكَافِرُونَ",
+      "aud": "c-1-ar",
+      "tr": "soorato alkaaferoona"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Kafirun. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Kafirun",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ ﴿١﴾ لَآ أَعْبُدُ مَا تَعْبُدُونَ ﴿٢﴾ وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ ﴿٣﴾ وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ ﴿٤﴾ وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ ﴿٥﴾ لَكُمْ دِينُكُمْ وَلِىَ دِينِ ﴿٦﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "ab",
+      "ar": "أَبْ",
+      "en": "Sukoon",
+      "tr": "ab"
+    },
+    {
+      "id": "at",
+      "ar": "أَتْ",
+      "en": "Sukoon",
+      "tr": "at"
+    },
+    {
+      "id": "ath",
+      "ar": "أَثْ",
+      "en": "Sukoon",
+      "tr": "ath"
+    },
+    {
+      "id": "aj",
+      "ar": "أَجْ",
+      "en": "Sukoon",
+      "tr": "aj"
+    },
+    {
+      "id": "fah",
+      "ar": "فَحْ",
+      "en": "Sukoon",
+      "tr": "fah"
+    },
+    {
+      "id": "fakh",
+      "ar": "فَخْ",
+      "en": "Sukoon",
+      "tr": "fakh"
+    },
+    {
+      "id": "fad",
+      "ar": "فَدْ",
+      "en": "Sukoon",
+      "tr": "fad"
+    },
+    {
+      "id": "fadh",
+      "ar": "فَذْ",
+      "en": "Sukoon",
+      "tr": "fadh"
+    },
+    {
+      "id": "er",
+      "ar": "إِرْ",
+      "en": "Sukoon",
+      "tr": "er"
+    },
+    {
+      "id": "ez",
+      "ar": "إِزْ",
+      "en": "Sukoon",
+      "tr": "ez"
+    },
+    {
+      "id": "es",
+      "ar": "إِسْ",
+      "en": "Sukoon",
+      "tr": "es"
+    },
+    {
+      "id": "esh",
+      "ar": "إِشْ",
+      "en": "Sukoon",
+      "tr": "esh"
+    },
+    {
+      "id": "has",
+      "ar": "حَصْ",
+      "en": "Sukoon",
+      "tr": "has"
+    },
+    {
+      "id": "had",
+      "ar": "حَضْ",
+      "en": "Sukoon",
+      "tr": "had"
+    },
+    {
+      "id": "hat",
+      "ar": "حَطْ",
+      "en": "Sukoon",
+      "tr": "hat"
+    },
+    {
+      "id": "hadh",
+      "ar": "حَظْ",
+      "en": "Sukoon",
+      "tr": "hadh"
+    },
+    {
+      "id": "ra",
+      "ar": "رَعْ",
+      "en": "Sukoon",
+      "tr": "ra"
+    },
+    {
+      "id": "ragh",
+      "ar": "رَغْ",
+      "en": "Sukoon",
+      "tr": "ragh"
+    },
+    {
+      "id": "raf",
+      "ar": "رَفْ",
+      "en": "Sukoon",
+      "tr": "raf"
+    },
+    {
+      "id": "raq",
+      "ar": "رَقْ",
+      "en": "Sukoon",
+      "tr": "raq"
+    },
+    {
+      "id": "bak",
+      "ar": "بَكْ",
+      "en": "Sukoon",
+      "tr": "bak"
+    },
+    {
+      "id": "bal",
+      "ar": "بَلْ",
+      "en": "Sukoon",
+      "tr": "bal"
+    },
+    {
+      "id": "bam",
+      "ar": "بَمْ",
+      "en": "Sukoon",
+      "tr": "bam"
+    },
+    {
+      "id": "ban",
+      "ar": "بَنْ",
+      "en": "Sukoon",
+      "tr": "ban"
+    },
+    {
+      "id": "tah",
+      "ar": "تَهْ",
+      "en": "Sukoon",
+      "tr": "tah"
+    },
+    {
+      "id": "taw",
+      "ar": "تَوْ",
+      "en": "Sukoon",
+      "tr": "taw"
+    },
+    {
+      "id": "ta",
+      "ar": "تَأْ",
+      "en": "Sukoon",
+      "tr": "ta"
+    },
+    {
+      "id": "tay",
+      "ar": "تَيْ",
+      "en": "Sukoon",
+      "tr": "tay"
+    },
+    {
+      "id": "tadoona",
+      "ar": "تَدْعُونَ",
+      "en": "Sukoon",
+      "tr": "tad'oona"
+    },
+    {
+      "id": "beedhne",
+      "ar": "بِإِذْنِ",
+      "en": "Sukoon",
+      "tr": "be'edhne"
+    },
+    {
+      "id": "waorsela",
+      "ar": "وَأُرْسِلَ",
+      "en": "Sukoon",
+      "tr": "wa'orsela"
+    },
+    {
+      "id": "dhekroka",
+      "ar": "ذِكْرُكَ",
+      "en": "Sukoon",
+      "tr": "dhekroka"
+    },
+    {
+      "id": "maryama",
+      "ar": "مَرْيَمَ",
+      "en": "Sukoon",
+      "tr": "maryama"
+    },
+    {
+      "id": "tajre",
+      "ar": "تَجْرِى",
+      "en": "Sukoon",
+      "tr": "tajre"
+    },
+    {
+      "id": "yowasweso",
+      "ar": "يُوَسْوِسُ",
+      "en": "Sukoon",
+      "tr": "yowasweso"
+    },
+    {
+      "id": "yaftare",
+      "ar": "يَفْتَرِى",
+      "en": "Sukoon",
+      "tr": "yaftare"
+    },
+    {
+      "id": "faraghta",
+      "ar": "فَرَغْتَ",
+      "en": "Sukoon",
+      "tr": "faraghta"
+    },
+    {
+      "id": "benematen",
+      "ar": "بِنِعْمَةٍ",
+      "en": "Sukoon",
+      "tr": "bene'maten"
+    },
+    {
+      "id": "yadeloona",
+      "ar": "يَعْدِلُونَ",
+      "en": "Sukoon",
+      "tr": "ya'deloona"
+    },
+    {
+      "id": "falyado",
+      "ar": "فَلْيَدْعُ",
+      "en": "Sukoon",
+      "tr": "falyad'o"
+    },
+    {
+      "id": "yo",
+      "ar": "يُعْ",
+      "en": "Sukoon",
+      "tr": "yo"
+    },
+    {
+      "id": "tee",
+      "ar": "طِي",
+      "en": "Sukoon",
+      "tr": "tee"
+    },
+    {
+      "id": "ka",
+      "ar": "كَ",
+      "en": "Sukoon",
+      "tr": "ka"
+    },
+    {
+      "id": "yoteeka",
+      "ar": "يُعْطِيكَ",
+      "en": "Sukoon",
+      "tr": "yo'teeka"
+    },
+    {
+      "id": "ma",
+      "ar": "مَ",
+      "en": "Sukoon",
+      "tr": "ma"
+    },
+    {
+      "id": "ra2",
+      "ar": "رَ",
+      "en": "Sukoon",
+      "tr": "ra"
+    },
+    {
+      "id": "athmara",
+      "ar": "أَثْمَرَ",
+      "en": "Sukoon",
+      "tr": "athmara"
+    },
+    {
+      "id": "yah",
+      "ar": "يَحْ",
+      "en": "Sukoon",
+      "tr": "yah"
+    },
+    {
+      "id": "sa",
+      "ar": "سَ",
+      "en": "Sukoon",
+      "tr": "sa"
+    },
+    {
+      "id": "bo",
+      "ar": "بُ",
+      "en": "Sukoon",
+      "tr": "bo"
+    },
+    {
+      "id": "yahsabo",
+      "ar": "يَحْسَبُ",
+      "en": "Sukoon",
+      "tr": "yahsabo"
+    },
+    {
+      "id": "yakh",
+      "ar": "يَخْ",
+      "en": "Sukoon",
+      "tr": "yakh"
+    },
+    {
+      "id": "lo",
+      "ar": "لُ",
+      "en": "Sukoon",
+      "tr": "lo"
+    },
+    {
+      "id": "qo",
+      "ar": "قُ",
+      "en": "Sukoon",
+      "tr": "qo"
+    },
+    {
+      "id": "yakhloqo",
+      "ar": "يَخْلُقُ",
+      "en": "Sukoon",
+      "tr": "yakhloqo"
+    },
+    {
+      "id": "sad",
+      "ar": "صَدْ",
+      "en": "Sukoon",
+      "tr": "sad"
+    },
+    {
+      "id": "sadraka",
+      "ar": "صَدْرَكَ",
+      "en": "Sukoon",
+      "tr": "sadraka"
+    },
+    {
+      "id": "ajro",
+      "ar": "أَجْرُ",
+      "en": "Sukoon",
+      "tr": "ajro"
+    },
+    {
+      "id": "adhhab",
+      "ar": "أَذْهَب",
+      "en": "Sukoon",
+      "tr": "adhhab"
+    },
+    {
+      "id": "mordefeena",
+      "ar": "مُرْدِفِينَ",
+      "en": "Sukoon",
+      "tr": "mordefeena"
+    },
+    {
+      "id": "yafaloona",
+      "ar": "يَفْعَلُونَ",
+      "en": "Sukoon",
+      "tr": "yaf'aloona"
+    },
+    {
+      "id": "taqhar",
+      "ar": "تَقْهَرْ",
+      "en": "Sukoon",
+      "tr": "taqhar"
+    },
+    {
+      "id": "yaqdera",
+      "ar": "يَقْدِرَ",
+      "en": "Sukoon",
+      "tr": "yaqdera"
+    },
+    {
+      "id": "ashrakta",
+      "ar": "أَشْرَكْتَ",
+      "en": "Sukoon",
+      "tr": "ashrakta"
+    },
+    {
+      "id": "yaledo",
+      "ar": "يَلِدُ",
+      "en": "Sukoon",
+      "tr": "yaledo"
+    },
+    {
+      "id": "yoolado",
+      "ar": "يُولَدُ",
+      "en": "Sukoon",
+      "tr": "yoolado"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Sukoon has a sound of its own.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What do we say on a letter with sukoon?",
+      "opts": [
+        [
+          "",
+          "Only the letter's sound",
+          1
+        ],
+        [
+          "",
+          "A long aa",
+          0
+        ],
+        [
+          "",
+          "An n sound",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? أَجْ reads “aj”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? فَرَغْتَ reads “faraghta”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find sukoon in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Sukoon: Read sukoon and recite Surat Al-Kafirun.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l08.mp4",
+    "poster": "media/qra1-l08-poster.jpg"
+  }
+}

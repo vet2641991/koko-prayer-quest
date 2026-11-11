@@ -1,0 +1,382 @@
+{
+  "id": "qra1-l16",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 16. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "اللَّامُ الشَّمْسِيَّةُ",
+    "en": "Lam Shamsiyyah"
+  },
+  "topic": "Read Lam Shamsiyyah and recite Surat Al-Qari'ah",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Al means “the”. Before 14 letters the lam is written but not said. Instead we double the next letter's sound with a shaddah. When we start the word, the first alif is read with a short “a”.",
+      "title": "Lam Shamsiyyah"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ القَارِعَةِ",
+      "aud": "c-1-ar",
+      "tr": "soorato alqaare'ate"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Qari'ah. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Qari'ah",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ ﴿١﴾ مَا ٱلْقَارِعَةُ ﴿٢﴾ وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ ﴿٣﴾ يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ ﴿٤﴾ وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ ﴿٥﴾ فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ ﴿٦﴾ فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ ﴿٧﴾ وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ ﴿٨﴾ فَأُمُّهُۥ هَاوِيَةٌۭ ﴿٩﴾ وَمَآ أَدْرَىٰكَ مَا هِيَهْ ﴿١٠﴾ نَارٌ حَامِيَةٌۢ ﴿١١﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "waalnnahaare",
+      "ar": "وَالنَّهَارِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "waalnnahaare"
+    },
+    {
+      "id": "faalssaabeqaate",
+      "ar": "فَالسَّٰبِقَٰتِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "faalssaabeqaate"
+    },
+    {
+      "id": "belddeene",
+      "ar": "بِالدِّينِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "belddeene"
+    },
+    {
+      "id": "kaalddehaane",
+      "ar": "كَالدِّهَانِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "kaalddehaane"
+    },
+    {
+      "id": "attawwaabo",
+      "ar": "التَّوَّابُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "attawwaabo"
+    },
+    {
+      "id": "addane",
+      "ar": "الضَّأْنِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "adda'ne"
+    },
+    {
+      "id": "adhdhekro",
+      "ar": "الذِّكْرُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "adhdhekro"
+    },
+    {
+      "id": "annoore",
+      "ar": "النُّورِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "annoore"
+    },
+    {
+      "id": "addemaaaa",
+      "ar": "الدِّمَآءَ",
+      "en": "Lam Shamsiyyah",
+      "tr": "addema'aa'a"
+    },
+    {
+      "id": "assalama",
+      "ar": "السَّلَمَ",
+      "en": "Lam Shamsiyyah",
+      "tr": "assalama"
+    },
+    {
+      "id": "adhdholomaate",
+      "ar": "الظُّلُمَٰتِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "adhdholomaate"
+    },
+    {
+      "id": "azzare",
+      "ar": "الزَّرْعِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "azzar'e"
+    },
+    {
+      "id": "alshsha",
+      "ar": "أَلشَّ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alshsha"
+    },
+    {
+      "id": "sham",
+      "ar": "شَمْ",
+      "en": "Lam Shamsiyyah",
+      "tr": "sham"
+    },
+    {
+      "id": "so",
+      "ar": "سُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "so"
+    },
+    {
+      "id": "alshshamso",
+      "ar": "أَلشَّمْسُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alshshamso"
+    },
+    {
+      "id": "alzza",
+      "ar": "أَلزَّ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alzza"
+    },
+    {
+      "id": "zar",
+      "ar": "زَرْ",
+      "en": "Lam Shamsiyyah",
+      "tr": "zar"
+    },
+    {
+      "id": "a",
+      "ar": "عَ",
+      "en": "Lam Shamsiyyah",
+      "tr": "a"
+    },
+    {
+      "id": "alzzara",
+      "ar": "أَلزَّرْعَ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alzzar'a"
+    },
+    {
+      "id": "alnno",
+      "ar": "أَلنُّ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alnno"
+    },
+    {
+      "id": "noo",
+      "ar": "نُو",
+      "en": "Lam Shamsiyyah",
+      "tr": "noo"
+    },
+    {
+      "id": "re",
+      "ar": "رِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "re"
+    },
+    {
+      "id": "alnnoore",
+      "ar": "أَلنُّورِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alnnoore"
+    },
+    {
+      "id": "aldda",
+      "ar": "أَلضَّ",
+      "en": "Lam Shamsiyyah",
+      "tr": "aldda"
+    },
+    {
+      "id": "da",
+      "ar": "ضَأْ",
+      "en": "Lam Shamsiyyah",
+      "tr": "da"
+    },
+    {
+      "id": "ne",
+      "ar": "نِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "ne"
+    },
+    {
+      "id": "alddane",
+      "ar": "أَلضَّأْنِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "aldda'ne"
+    },
+    {
+      "id": "alssa",
+      "ar": "أَلصَّ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alssa"
+    },
+    {
+      "id": "se",
+      "ar": "صِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "se"
+    },
+    {
+      "id": "raa",
+      "ar": "رَا",
+      "en": "Lam Shamsiyyah",
+      "tr": "raa"
+    },
+    {
+      "id": "ta",
+      "ar": "طَ",
+      "en": "Lam Shamsiyyah",
+      "tr": "ta"
+    },
+    {
+      "id": "alsseraata",
+      "ar": "أَلصِّرَاطَ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alsseraata"
+    },
+    {
+      "id": "ashshamso",
+      "ar": "الشَّمْسُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "ashshamso"
+    },
+    {
+      "id": "annaaso",
+      "ar": "النَّاسُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "annaaso"
+    },
+    {
+      "id": "arrahmano",
+      "ar": "الرَّحْمَنُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "arrahmano"
+    },
+    {
+      "id": "assamaaao",
+      "ar": "السَّمَآءُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "assama'aa'o"
+    },
+    {
+      "id": "assalaate",
+      "ar": "الصَّلَاةِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "assalaate"
+    },
+    {
+      "id": "assabre",
+      "ar": "الصَّبْرِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "assabre"
+    },
+    {
+      "id": "allaaho",
+      "ar": "اللَّٰهُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "allaaho"
+    },
+    {
+      "id": "arraheeme",
+      "ar": "الرَّحِيمِ",
+      "en": "Lam Shamsiyyah",
+      "tr": "arraheeme"
+    },
+    {
+      "id": "attawbato",
+      "ar": "التَّوْبَةُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "attawbato"
+    },
+    {
+      "id": "alqaareato",
+      "ar": "الْقَارِعَةُ",
+      "en": "Lam Shamsiyyah",
+      "tr": "alqaare'ato"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? In Lam Shamsiyyah we say the lam clearly.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "How many sun letters are there?",
+      "opts": [
+        [
+          "",
+          "14",
+          1
+        ],
+        [
+          "",
+          "28",
+          0
+        ],
+        [
+          "",
+          "7",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? كَالدِّهَانِ reads “kaalddehaane”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? أَلضَّ reads “aldda”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find Lam Shamsiyyah in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Lam Shamsiyyah: Read Lam Shamsiyyah and recite Surat Al-Qari'ah.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l16.mp4",
+    "poster": "media/qra1-l16-poster.jpg"
+  }
+}

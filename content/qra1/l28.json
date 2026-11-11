@@ -1,0 +1,411 @@
+{
+  "id": "qra1-l28",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 28. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ دَال",
+    "en": "The Letter Daal (د)"
+  },
+  "topic": "Read Daal with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Daal. A soft d.",
+      "title": "Meet Daal!",
+      "ar": "د",
+      "aud": "c-0-ar",
+      "tr": "Daal"
+    },
+    {
+      "en": "Like the greater-than sign, sitting on the line and opening to the left. It connects to the right, but never to the left.",
+      "title": "How to write Daal"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "دُعَاءِ",
+      "tr": "do'aa'e"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "حُدُودُ",
+      "tr": "hodoodo"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "دَآبَّةٍ",
+      "tr": "da'aabbaten"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "يُرَدُّ",
+      "tr": "yoraddo"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "شَهِيدٌ",
+      "tr": "shaheedon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَدْخُلُونَ",
+      "tr": "yadkholoona"
+    },
+    {
+      "en": "Surat Al-Ikhlas, verse 3. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "dakhala",
+      "ar": "دَخَلَ",
+      "en": "Letter in a word",
+      "tr": "dakhala"
+    },
+    {
+      "id": "sadaqa",
+      "ar": "صَدَقَ",
+      "en": "Letter in a word",
+      "tr": "sadaqa"
+    },
+    {
+      "id": "yado",
+      "ar": "يَدُ",
+      "en": "Letter in a word",
+      "tr": "yado"
+    },
+    {
+      "id": "alebaade",
+      "ar": "الْعِبَادِ",
+      "en": "Letter in a word",
+      "tr": "al'ebaade"
+    },
+    {
+      "id": "doaae",
+      "ar": "دُعَاءِ",
+      "en": "Short vowels",
+      "tr": "do'aa'e"
+    },
+    {
+      "id": "doboraho",
+      "ar": "دُبُرَهُ",
+      "en": "Short vowels",
+      "tr": "doboraho"
+    },
+    {
+      "id": "doone",
+      "ar": "دُونِ",
+      "en": "Short vowels",
+      "tr": "doone"
+    },
+    {
+      "id": "deene",
+      "ar": "دِينِ",
+      "en": "Short vowels",
+      "tr": "deene"
+    },
+    {
+      "id": "deyaara",
+      "ar": "دِيَارَ",
+      "en": "Short vowels",
+      "tr": "deyaara"
+    },
+    {
+      "id": "dehaaqan",
+      "ar": "دِهَاقًا",
+      "en": "Short vowels",
+      "tr": "dehaaqan"
+    },
+    {
+      "id": "darajaaten",
+      "ar": "دَرَجَاتٍ",
+      "en": "Short vowels",
+      "tr": "darajaaten"
+    },
+    {
+      "id": "dakkan",
+      "ar": "دَكًّا",
+      "en": "Short vowels",
+      "tr": "dakkan"
+    },
+    {
+      "id": "hodoodo",
+      "ar": "حُدُودُ",
+      "en": "Long vowels",
+      "tr": "hodoodo"
+    },
+    {
+      "id": "alwadoodo",
+      "ar": "الْوَدُودُ",
+      "en": "Long vowels",
+      "tr": "alwadoodo"
+    },
+    {
+      "id": "deenokom",
+      "ar": "دِينُكُمْ",
+      "en": "Long vowels",
+      "tr": "deenokom"
+    },
+    {
+      "id": "qadeeron",
+      "ar": "قَدِيرٌ",
+      "en": "Long vowels",
+      "tr": "qadeeron"
+    },
+    {
+      "id": "jadeeden",
+      "ar": "جَدِيدٍ",
+      "en": "Long vowels",
+      "tr": "jadeeden"
+    },
+    {
+      "id": "daaabbaten",
+      "ar": "دَآبَّةٍ",
+      "en": "With Al",
+      "tr": "da'aabbaten"
+    },
+    {
+      "id": "addaaro",
+      "ar": "الدَّارُ",
+      "en": "With Al",
+      "tr": "addaaro"
+    },
+    {
+      "id": "jedaaran",
+      "ar": "جِدَارًا",
+      "en": "With Al",
+      "tr": "jedaaran"
+    },
+    {
+      "id": "yoraddo",
+      "ar": "يُرَدُّ",
+      "en": "Shaddah",
+      "tr": "yoraddo"
+    },
+    {
+      "id": "yawaddo",
+      "ar": "يَوَدُّ",
+      "en": "Shaddah",
+      "tr": "yawaddo"
+    },
+    {
+      "id": "yamoddohom",
+      "ar": "يَمُدُّهُمْ",
+      "en": "Shaddah",
+      "tr": "yamoddohom"
+    },
+    {
+      "id": "yoqaddero",
+      "ar": "يُقَدِّرُ",
+      "en": "Shaddah",
+      "tr": "yoqaddero"
+    },
+    {
+      "id": "asseddeeqoona",
+      "ar": "الصِّدِّيقُونَ",
+      "en": "Shaddah",
+      "tr": "asseddeeqoona"
+    },
+    {
+      "id": "deddan",
+      "ar": "ضِدًّا",
+      "en": "Shaddah",
+      "tr": "deddan"
+    },
+    {
+      "id": "madda",
+      "ar": "مَدَّ",
+      "en": "Shaddah",
+      "tr": "madda"
+    },
+    {
+      "id": "addadaho",
+      "ar": "عَدَّدَهُ",
+      "en": "Shaddah",
+      "tr": "addadaho"
+    },
+    {
+      "id": "maradda",
+      "ar": "مَرَدَّ",
+      "en": "Shaddah",
+      "tr": "maradda"
+    },
+    {
+      "id": "shaheedon",
+      "ar": "شَهِيدٌ",
+      "en": "Tanween",
+      "tr": "shaheedon"
+    },
+    {
+      "id": "lamasjedon",
+      "ar": "لَمَسْجِدٌ",
+      "en": "Tanween",
+      "tr": "lamasjedon"
+    },
+    {
+      "id": "waladon",
+      "ar": "وَلَدٌ",
+      "en": "Tanween",
+      "tr": "waladon"
+    },
+    {
+      "id": "amaden",
+      "ar": "عَمَدٍ",
+      "en": "Tanween",
+      "tr": "amaden"
+    },
+    {
+      "id": "haaseden",
+      "ar": "حَاسِدٍ",
+      "en": "Tanween",
+      "tr": "haaseden"
+    },
+    {
+      "id": "abadan",
+      "ar": "أَبَدًا",
+      "en": "Tanween",
+      "tr": "abadan"
+    },
+    {
+      "id": "adadan",
+      "ar": "عَدَدًا",
+      "en": "Tanween",
+      "tr": "adadan"
+    },
+    {
+      "id": "baladan",
+      "ar": "بَلَدًا",
+      "en": "Tanween",
+      "tr": "baladan"
+    },
+    {
+      "id": "yadkholoona",
+      "ar": "يَدْخُلُونَ",
+      "en": "Sukoon",
+      "tr": "yadkholoona"
+    },
+    {
+      "id": "adnaa",
+      "ar": "أَدْنَىٰ",
+      "en": "Sukoon",
+      "tr": "adnaa"
+    },
+    {
+      "id": "laqad",
+      "ar": "لَقَدْ",
+      "en": "Sukoon",
+      "tr": "laqad"
+    },
+    {
+      "id": "addeene",
+      "ar": "الدِّينِ",
+      "en": "With Al",
+      "tr": "addeene"
+    },
+    {
+      "id": "addonyaa",
+      "ar": "الدُّنْيَا",
+      "en": "With Al",
+      "tr": "addonyaa"
+    },
+    {
+      "id": "addaaaro",
+      "ar": "الدَّآرُ",
+      "en": "With Al",
+      "tr": "adda'aaro"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of د?",
+      "opts": [
+        [
+          "",
+          "Daal",
+          1
+        ],
+        [
+          "",
+          "Sheen",
+          0
+        ],
+        [
+          "",
+          "Ghayn",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? د connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الْعِبَادِ reads “al'ebaade”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الصِّدِّيقُونَ reads “asseddeeqoona”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find د in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Daal! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Daal (د): Read Daal with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l28.mp4",
+    "poster": "media/qra1-l28-poster.jpg"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "qra1-l01",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 1. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الْحُرُوفُ الْعَرَبِيَّةُ",
+    "en": "The Arabic Alphabet"
+  },
+  "topic": "Meet the 28 Arabic letters: their names and their sounds",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Arabic is written from right to left. It has 28 letters. We must know the name, shape and sound of each letter. When reading, we pronounce the letter's sound.",
+      "title": "The Arabic language"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-1-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "lalif",
+      "ar": "أ",
+      "en": "the letter Alif",
+      "tr": "Alif"
+    },
+    {
+      "id": "lbaa",
+      "ar": "ب",
+      "en": "the letter Baa",
+      "tr": "Baa"
+    },
+    {
+      "id": "ltaa",
+      "ar": "ت",
+      "en": "the letter Taa",
+      "tr": "Taa"
+    },
+    {
+      "id": "lthaa",
+      "ar": "ث",
+      "en": "the letter Thaa",
+      "tr": "Thaa"
+    },
+    {
+      "id": "ljeem",
+      "ar": "ج",
+      "en": "the letter Jeem",
+      "tr": "Jeem"
+    },
+    {
+      "id": "lhaa",
+      "ar": "ح",
+      "en": "the letter Haa",
+      "tr": "Haa"
+    },
+    {
+      "id": "lkhaa",
+      "ar": "خ",
+      "en": "the letter Khaa",
+      "tr": "Khaa"
+    },
+    {
+      "id": "ldaal",
+      "ar": "د",
+      "en": "the letter Daal",
+      "tr": "Daal"
+    },
+    {
+      "id": "ldhaal",
+      "ar": "ذ",
+      "en": "the letter Dhaal",
+      "tr": "Dhaal"
+    },
+    {
+      "id": "lraa",
+      "ar": "ر",
+      "en": "the letter Raa",
+      "tr": "Raa"
+    },
+    {
+      "id": "lzaay",
+      "ar": "ز",
+      "en": "the letter Zaay",
+      "tr": "Zaay"
+    },
+    {
+      "id": "lseen",
+      "ar": "س",
+      "en": "the letter Seen",
+      "tr": "Seen"
+    },
+    {
+      "id": "lsheen",
+      "ar": "ش",
+      "en": "the letter Sheen",
+      "tr": "Sheen"
+    },
+    {
+      "id": "lsaad",
+      "ar": "ص",
+      "en": "the letter Saad",
+      "tr": "Saad"
+    },
+    {
+      "id": "ldaad",
+      "ar": "ض",
+      "en": "the letter Daad",
+      "tr": "Daad"
+    },
+    {
+      "id": "ltaa2",
+      "ar": "ط",
+      "en": "the letter Taa",
+      "tr": "Taa"
+    },
+    {
+      "id": "ldhaa",
+      "ar": "ظ",
+      "en": "the letter Dhaa",
+      "tr": "Dhaa"
+    },
+    {
+      "id": "layn",
+      "ar": "ع",
+      "en": "the letter Ayn",
+      "tr": "Ayn"
+    },
+    {
+      "id": "lghayn",
+      "ar": "غ",
+      "en": "the letter Ghayn",
+      "tr": "Ghayn"
+    },
+    {
+      "id": "lfaa",
+      "ar": "ف",
+      "en": "the letter Faa",
+      "tr": "Faa"
+    },
+    {
+      "id": "lqaaf",
+      "ar": "ق",
+      "en": "the letter Qaaf",
+      "tr": "Qaaf"
+    },
+    {
+      "id": "lkaaf",
+      "ar": "ك",
+      "en": "the letter Kaaf",
+      "tr": "Kaaf"
+    },
+    {
+      "id": "llaam",
+      "ar": "ل",
+      "en": "the letter Laam",
+      "tr": "Laam"
+    },
+    {
+      "id": "lmeem",
+      "ar": "م",
+      "en": "the letter Meem",
+      "tr": "Meem"
+    },
+    {
+      "id": "lnoon",
+      "ar": "ن",
+      "en": "the letter Noon",
+      "tr": "Noon"
+    },
+    {
+      "id": "lhaa2",
+      "ar": "ه",
+      "en": "the letter Haa",
+      "tr": "Haa"
+    },
+    {
+      "id": "lwaaw",
+      "ar": "و",
+      "en": "the letter Waaw",
+      "tr": "Waaw"
+    },
+    {
+      "id": "lyaa",
+      "ar": "ي",
+      "en": "the letter Yaa",
+      "tr": "Yaa"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Arabic is written from right to left.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? Arabic has 26 letters.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "How many letters does Arabic have?",
+      "opts": [
+        [
+          "",
+          "28",
+          1
+        ],
+        [
+          "",
+          "26",
+          0
+        ],
+        [
+          "",
+          "30",
+          0
+        ]
+      ]
+    }
+  ],
+  "think": {
+    "q": "Which way do we read Arabic?",
+    "a": "From right to left! Arabic has 28 letters, and each one has a name, a shape and a sound."
+  },
+  "parents": {
+    "summary": "The Arabic Alphabet: Meet the 28 Arabic letters: their names and their sounds.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l01.mp4",
+    "poster": "media/qra1-l01-poster.jpg"
+  }
+}

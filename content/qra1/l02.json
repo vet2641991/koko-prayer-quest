@@ -1,0 +1,483 @@
+{
+  "id": "qra1-l02",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 2. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الْفَتْحَةُ",
+    "en": "Fatha"
+  },
+  "topic": "Read fatha and recite Surat Al-Fatihah",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Fatha is a small slanting line above the letter. Read a short “a” on any letter. Letter plus fatha equals the letter's sound plus a.",
+      "title": "Fatha"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Fatihah. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Fatihah",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ﴿١﴾ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ ﴿٢﴾ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ﴿٣﴾ مَٰلِكِ يَوْمِ ٱلدِّينِ ﴿٤﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ ﴿٦﴾ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ ﴿٧﴾",
+      "aud": "c-1-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-2-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "a",
+      "ar": "أَ",
+      "en": "Fatha",
+      "tr": "a"
+    },
+    {
+      "id": "ba",
+      "ar": "بَ",
+      "en": "Fatha",
+      "tr": "ba"
+    },
+    {
+      "id": "ta",
+      "ar": "تَ",
+      "en": "Fatha",
+      "tr": "ta"
+    },
+    {
+      "id": "tha",
+      "ar": "ثَ",
+      "en": "Fatha",
+      "tr": "tha"
+    },
+    {
+      "id": "ja",
+      "ar": "جَ",
+      "en": "Fatha",
+      "tr": "ja"
+    },
+    {
+      "id": "ha",
+      "ar": "حَ",
+      "en": "Fatha",
+      "tr": "ha"
+    },
+    {
+      "id": "kha",
+      "ar": "خَ",
+      "en": "Fatha",
+      "tr": "kha"
+    },
+    {
+      "id": "da",
+      "ar": "دَ",
+      "en": "Fatha",
+      "tr": "da"
+    },
+    {
+      "id": "dha",
+      "ar": "ذَ",
+      "en": "Fatha",
+      "tr": "dha"
+    },
+    {
+      "id": "ra",
+      "ar": "رَ",
+      "en": "Fatha",
+      "tr": "ra"
+    },
+    {
+      "id": "za",
+      "ar": "زَ",
+      "en": "Fatha",
+      "tr": "za"
+    },
+    {
+      "id": "sa",
+      "ar": "سَ",
+      "en": "Fatha",
+      "tr": "sa"
+    },
+    {
+      "id": "sha",
+      "ar": "شَ",
+      "en": "Fatha",
+      "tr": "sha"
+    },
+    {
+      "id": "sa2",
+      "ar": "صَ",
+      "en": "Fatha",
+      "tr": "sa"
+    },
+    {
+      "id": "da2",
+      "ar": "ضَ",
+      "en": "Fatha",
+      "tr": "da"
+    },
+    {
+      "id": "ta2",
+      "ar": "طَ",
+      "en": "Fatha",
+      "tr": "ta"
+    },
+    {
+      "id": "dha2",
+      "ar": "ظَ",
+      "en": "Fatha",
+      "tr": "dha"
+    },
+    {
+      "id": "a2",
+      "ar": "عَ",
+      "en": "Fatha",
+      "tr": "a"
+    },
+    {
+      "id": "gha",
+      "ar": "غَ",
+      "en": "Fatha",
+      "tr": "gha"
+    },
+    {
+      "id": "fa",
+      "ar": "فَ",
+      "en": "Fatha",
+      "tr": "fa"
+    },
+    {
+      "id": "qa",
+      "ar": "قَ",
+      "en": "Fatha",
+      "tr": "qa"
+    },
+    {
+      "id": "ka",
+      "ar": "كَ",
+      "en": "Fatha",
+      "tr": "ka"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "Fatha",
+      "tr": "la"
+    },
+    {
+      "id": "ma",
+      "ar": "مَ",
+      "en": "Fatha",
+      "tr": "ma"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Fatha",
+      "tr": "na"
+    },
+    {
+      "id": "ha2",
+      "ar": "هَ",
+      "en": "Fatha",
+      "tr": "ha"
+    },
+    {
+      "id": "wa",
+      "ar": "وَ",
+      "en": "Fatha",
+      "tr": "wa"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Fatha",
+      "tr": "ya"
+    },
+    {
+      "id": "wajada",
+      "ar": "وَجَدَ",
+      "en": "Fatha",
+      "tr": "wajada"
+    },
+    {
+      "id": "waada",
+      "ar": "وَعَدَ",
+      "en": "Fatha",
+      "tr": "wa'ada"
+    },
+    {
+      "id": "walada",
+      "ar": "وَلَدَ",
+      "en": "Fatha",
+      "tr": "walada"
+    },
+    {
+      "id": "adada",
+      "ar": "عَدَدَ",
+      "en": "Fatha",
+      "tr": "adada"
+    },
+    {
+      "id": "kataba",
+      "ar": "كَتَبَ",
+      "en": "Fatha",
+      "tr": "kataba"
+    },
+    {
+      "id": "kasaba",
+      "ar": "كَسَبَ",
+      "en": "Fatha",
+      "tr": "kasaba"
+    },
+    {
+      "id": "kadhaba",
+      "ar": "كَذَبَ",
+      "en": "Fatha",
+      "tr": "kadhaba"
+    },
+    {
+      "id": "dhahaba",
+      "ar": "ذَهَبَ",
+      "en": "Fatha",
+      "tr": "dhahaba"
+    },
+    {
+      "id": "nazala",
+      "ar": "نَزَلَ",
+      "en": "Fatha",
+      "tr": "nazala"
+    },
+    {
+      "id": "saala",
+      "ar": "سَأَلَ",
+      "en": "Fatha",
+      "tr": "sa'ala"
+    },
+    {
+      "id": "hamala",
+      "ar": "حَمَلَ",
+      "en": "Fatha",
+      "tr": "hamala"
+    },
+    {
+      "id": "amala",
+      "ar": "عَمَلَ",
+      "en": "Fatha",
+      "tr": "amala"
+    },
+    {
+      "id": "katama",
+      "ar": "كَتَمَ",
+      "en": "Fatha",
+      "tr": "katama"
+    },
+    {
+      "id": "azama",
+      "ar": "عَزَمَ",
+      "en": "Fatha",
+      "tr": "azama"
+    },
+    {
+      "id": "salafa",
+      "ar": "سَلَفَ",
+      "en": "Fatha",
+      "tr": "salafa"
+    },
+    {
+      "id": "kashafa",
+      "ar": "كَشَفَ",
+      "en": "Fatha",
+      "tr": "kashafa"
+    },
+    {
+      "id": "zaama",
+      "ar": "زَعَمَ",
+      "en": "Fatha",
+      "tr": "za'ama"
+    },
+    {
+      "id": "nabadha",
+      "ar": "نَبَذَ",
+      "en": "Fatha",
+      "tr": "nabadha"
+    },
+    {
+      "id": "amara",
+      "ar": "أَمَرَ",
+      "en": "Fatha",
+      "tr": "amara"
+    },
+    {
+      "id": "makara",
+      "ar": "مَكَرَ",
+      "en": "Fatha",
+      "tr": "makara"
+    },
+    {
+      "id": "hasada",
+      "ar": "حَسَدَ",
+      "en": "Fatha",
+      "tr": "hasada"
+    },
+    {
+      "id": "akhadha",
+      "ar": "أَخَذَ",
+      "en": "Fatha",
+      "tr": "akhadha"
+    },
+    {
+      "id": "taraka",
+      "ar": "تَرَكَ",
+      "en": "Fatha",
+      "tr": "taraka"
+    },
+    {
+      "id": "fasala",
+      "ar": "فَصَلَ",
+      "en": "Fatha",
+      "tr": "fasala"
+    },
+    {
+      "id": "balagha",
+      "ar": "بَلَغَ",
+      "en": "Fatha",
+      "tr": "balagha"
+    },
+    {
+      "id": "maraja",
+      "ar": "مَرَجَ",
+      "en": "Fatha",
+      "tr": "maraja"
+    },
+    {
+      "id": "waqaa",
+      "ar": "وَقَعَ",
+      "en": "Fatha",
+      "tr": "waqa'a"
+    },
+    {
+      "id": "salaha",
+      "ar": "صَلَحَ",
+      "en": "Fatha",
+      "tr": "salaha"
+    },
+    {
+      "id": "rafatha",
+      "ar": "رَفَثَ",
+      "en": "Fatha",
+      "tr": "rafatha"
+    },
+    {
+      "id": "basata",
+      "ar": "بَسَطَ",
+      "en": "Fatha",
+      "tr": "basata"
+    },
+    {
+      "id": "warada",
+      "ar": "وَرَدَ",
+      "en": "Fatha",
+      "tr": "warada"
+    },
+    {
+      "id": "khatama",
+      "ar": "خَتَمَ",
+      "en": "Fatha",
+      "tr": "khatama"
+    },
+    {
+      "id": "sabara",
+      "ar": "صَبَرَ",
+      "en": "Fatha",
+      "tr": "sabara"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Fatha is written above the letter.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does fatha make?",
+      "opts": [
+        [
+          "",
+          "a",
+          1
+        ],
+        [
+          "",
+          "e",
+          0
+        ],
+        [
+          "",
+          "o",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثَ reads “tha”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? كَسَبَ reads “kasaba”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find fatha in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Fatha: Read fatha and recite Surat Al-Fatihah.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l02.mp4",
+    "poster": "media/qra1-l02-poster.jpg"
+  }
+}

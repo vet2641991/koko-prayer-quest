@@ -1,0 +1,411 @@
+{
+  "id": "qra1-l42",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 42. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ كَاف",
+    "en": "The Letter Kaaf (ك)"
+  },
+  "topic": "Read Kaaf with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Kaaf. Like k in key.",
+      "title": "Meet Kaaf!",
+      "ar": "ك",
+      "aud": "c-0-ar",
+      "tr": "Kaaf"
+    },
+    {
+      "en": "At the start and middle it is like a stair step. At the end it is a big L with a small s inside. It connects from both sides.",
+      "title": "How to write Kaaf"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "كَسَبَ",
+      "tr": "kasaba"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "كَانَ",
+      "tr": "kaana"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "يَكِيدُونَ",
+      "tr": "yakeedoona"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "وَتَوَكَّلْ",
+      "tr": "watawakkal"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "دَكًّا",
+      "tr": "dakkan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَكْفُرْ",
+      "tr": "yakfor"
+    },
+    {
+      "en": "Surat Al-Kawthar, verse 1. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "kataba",
+      "ar": "كَتَبَ",
+      "en": "Letter in a word",
+      "tr": "kataba"
+    },
+    {
+      "id": "yakoono",
+      "ar": "يَكُونُ",
+      "en": "Letter in a word",
+      "tr": "yakoono"
+    },
+    {
+      "id": "maleke",
+      "ar": "مَلِكِ",
+      "en": "Letter in a word",
+      "tr": "maleke"
+    },
+    {
+      "id": "sherkon",
+      "ar": "شِرْكٌ",
+      "en": "Letter in a word",
+      "tr": "sherkon"
+    },
+    {
+      "id": "kasaba",
+      "ar": "كَسَبَ",
+      "en": "Short vowels",
+      "tr": "kasaba"
+    },
+    {
+      "id": "yokadhdhebo",
+      "ar": "يُكَذِّبُ",
+      "en": "Short vowels",
+      "tr": "yokadhdhebo"
+    },
+    {
+      "id": "alketaabo",
+      "ar": "الْكِتَابُ",
+      "en": "Short vowels",
+      "tr": "alketaabo"
+    },
+    {
+      "id": "keraamen",
+      "ar": "كِرَامٍ",
+      "en": "Short vowels",
+      "tr": "keraamen"
+    },
+    {
+      "id": "kelaahomaa",
+      "ar": "كِلَاهُمَا",
+      "en": "Short vowels",
+      "tr": "kelaahomaa"
+    },
+    {
+      "id": "koteba",
+      "ar": "كُتِبَ",
+      "en": "Short vowels",
+      "tr": "koteba"
+    },
+    {
+      "id": "kollo",
+      "ar": "كُلُّ",
+      "en": "Short vowels",
+      "tr": "kollo"
+    },
+    {
+      "id": "kofowan",
+      "ar": "كُفُوًا",
+      "en": "Short vowels",
+      "tr": "kofowan"
+    },
+    {
+      "id": "kaana",
+      "ar": "كَانَ",
+      "en": "With Al",
+      "tr": "kaana"
+    },
+    {
+      "id": "alkaaferoona",
+      "ar": "الْكَافِرُونَ",
+      "en": "With Al",
+      "tr": "alkaaferoona"
+    },
+    {
+      "id": "makaanan",
+      "ar": "مَكَانًا",
+      "en": "With Al",
+      "tr": "makaanan"
+    },
+    {
+      "id": "yakeedoona",
+      "ar": "يَكِيدُونَ",
+      "en": "Long vowels",
+      "tr": "yakeedoona"
+    },
+    {
+      "id": "wakeelan",
+      "ar": "وَكِيلًا",
+      "en": "Long vowels",
+      "tr": "wakeelan"
+    },
+    {
+      "id": "meskeenan",
+      "ar": "مِسْكِينًا",
+      "en": "Long vowels",
+      "tr": "meskeenan"
+    },
+    {
+      "id": "shakooran",
+      "ar": "شَكُورًا",
+      "en": "Long vowels",
+      "tr": "shakooran"
+    },
+    {
+      "id": "mmakoolen",
+      "ar": "مَّأْكُولٍ",
+      "en": "Long vowels",
+      "tr": "mma'koolen"
+    },
+    {
+      "id": "yakoona",
+      "ar": "يَكُونَ",
+      "en": "Long vowels",
+      "tr": "yakoona"
+    },
+    {
+      "id": "watawakkal",
+      "ar": "وَتَوَكَّلْ",
+      "en": "Shaddah",
+      "tr": "watawakkal"
+    },
+    {
+      "id": "zakkaahaa",
+      "ar": "زَكَّاهَا",
+      "en": "Shaddah",
+      "tr": "zakkaahaa"
+    },
+    {
+      "id": "tafakkahoona",
+      "ar": "تَفَكَّهُونَ",
+      "en": "Shaddah",
+      "tr": "tafakkahoona"
+    },
+    {
+      "id": "sekkeenan",
+      "ar": "سِكِّينًا",
+      "en": "Shaddah",
+      "tr": "sekkeenan"
+    },
+    {
+      "id": "modhakkeron",
+      "ar": "مُذَكِّرٌ",
+      "en": "Shaddah",
+      "tr": "modhakkeron"
+    },
+    {
+      "id": "wayozakkeekom",
+      "ar": "وَيُزَكِّيكُمْ",
+      "en": "Shaddah",
+      "tr": "wayozakkeekom"
+    },
+    {
+      "id": "fakko",
+      "ar": "فَكُّ",
+      "en": "Shaddah",
+      "tr": "fakko"
+    },
+    {
+      "id": "shakkon",
+      "ar": "شَكٌّ",
+      "en": "Shaddah",
+      "tr": "shakkon"
+    },
+    {
+      "id": "yodrekkkomo",
+      "ar": "يُدْرِككُّمُ",
+      "en": "Shaddah",
+      "tr": "yodrekkkomo"
+    },
+    {
+      "id": "dakkan",
+      "ar": "دَكًّا",
+      "en": "Tanween",
+      "tr": "dakkan"
+    },
+    {
+      "id": "mmolkan",
+      "ar": "مُّلْكًا",
+      "en": "Tanween",
+      "tr": "mmolkan"
+    },
+    {
+      "id": "dankan",
+      "ar": "ضَنْكًا",
+      "en": "Tanween",
+      "tr": "dankan"
+    },
+    {
+      "id": "falaken",
+      "ar": "فَلَكٍ",
+      "en": "Tanween",
+      "tr": "falaken"
+    },
+    {
+      "id": "shakken",
+      "ar": "شَكٍّ",
+      "en": "Tanween",
+      "tr": "shakken"
+    },
+    {
+      "id": "affaaken",
+      "ar": "أَفَّاكٍ",
+      "en": "Tanween",
+      "tr": "affaaken"
+    },
+    {
+      "id": "haalekon",
+      "ar": "هَالِكٌ",
+      "en": "Tanween",
+      "tr": "haalekon"
+    },
+    {
+      "id": "mobaarakon",
+      "ar": "مُبَارَكٌ",
+      "en": "Tanween",
+      "tr": "mobaarakon"
+    },
+    {
+      "id": "mmalekon",
+      "ar": "مَّلِكٌ",
+      "en": "Tanween",
+      "tr": "mmalekon"
+    },
+    {
+      "id": "yakfor",
+      "ar": "يَكْفُرْ",
+      "en": "Sukoon",
+      "tr": "yakfor"
+    },
+    {
+      "id": "wadhekro",
+      "ar": "وَذِكْرُ",
+      "en": "Sukoon",
+      "tr": "wadhekro"
+    },
+    {
+      "id": "akbaro",
+      "ar": "أَكْبَرُ",
+      "en": "Sukoon",
+      "tr": "akbaro"
+    },
+    {
+      "id": "alkawthara",
+      "ar": "الْكَوْثَرَ",
+      "en": "With Al",
+      "tr": "alkawthara"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ك?",
+      "opts": [
+        [
+          "",
+          "Kaaf",
+          1
+        ],
+        [
+          "",
+          "Waaw",
+          0
+        ],
+        [
+          "",
+          "Jeem",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ك connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? شِرْكٌ reads “sherkon”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? سِكِّينًا reads “sekkeenan”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ك in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Kaaf! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Kaaf (ك): Read Kaaf with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l42.mp4",
+    "poster": "media/qra1-l42-poster.jpg"
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "id": "qra1-l05",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 5. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "مَدُّ الْأَلِفِ",
+    "en": "Madd Alif"
+  },
+  "topic": "Read madd alif and recite Surat Al-Ikhlas",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "A long vowel is a stretched short vowel. Madd Alif is the letter alif with no sign on it. It stretches the fatha: the sound becomes double, “aa”.",
+      "title": "Madd Alif"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الإِخْلَاصِ",
+      "aud": "c-1-ar",
+      "tr": "soorato al'ekhlaase"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Ikhlas. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Ikhlas",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ ﴿١﴾ ٱللَّهُ ٱلصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ ﴿٤﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "khaa",
+      "ar": "خَا",
+      "en": "Madd Alif",
+      "tr": "khaa"
+    },
+    {
+      "id": "baa",
+      "ar": "بَا",
+      "en": "Madd Alif",
+      "tr": "baa"
+    },
+    {
+      "id": "taa",
+      "ar": "تَا",
+      "en": "Madd Alif",
+      "tr": "taa"
+    },
+    {
+      "id": "thaa",
+      "ar": "ثَا",
+      "en": "Madd Alif",
+      "tr": "thaa"
+    },
+    {
+      "id": "jaa",
+      "ar": "جَا",
+      "en": "Madd Alif",
+      "tr": "jaa"
+    },
+    {
+      "id": "haa",
+      "ar": "حَا",
+      "en": "Madd Alif",
+      "tr": "haa"
+    },
+    {
+      "id": "daa",
+      "ar": "دَا",
+      "en": "Madd Alif",
+      "tr": "daa"
+    },
+    {
+      "id": "dhaa",
+      "ar": "ذَا",
+      "en": "Madd Alif",
+      "tr": "dhaa"
+    },
+    {
+      "id": "raa",
+      "ar": "رَا",
+      "en": "Madd Alif",
+      "tr": "raa"
+    },
+    {
+      "id": "zaa",
+      "ar": "زَا",
+      "en": "Madd Alif",
+      "tr": "zaa"
+    },
+    {
+      "id": "saa",
+      "ar": "سَا",
+      "en": "Madd Alif",
+      "tr": "saa"
+    },
+    {
+      "id": "shaa",
+      "ar": "شَا",
+      "en": "Madd Alif",
+      "tr": "shaa"
+    },
+    {
+      "id": "saa2",
+      "ar": "صَا",
+      "en": "Madd Alif",
+      "tr": "saa"
+    },
+    {
+      "id": "daa2",
+      "ar": "ضَا",
+      "en": "Madd Alif",
+      "tr": "daa"
+    },
+    {
+      "id": "taa2",
+      "ar": "طَا",
+      "en": "Madd Alif",
+      "tr": "taa"
+    },
+    {
+      "id": "dhaa2",
+      "ar": "ظَا",
+      "en": "Madd Alif",
+      "tr": "dhaa"
+    },
+    {
+      "id": "aa",
+      "ar": "عَا",
+      "en": "Madd Alif",
+      "tr": "aa"
+    },
+    {
+      "id": "ghaa",
+      "ar": "غَا",
+      "en": "Madd Alif",
+      "tr": "ghaa"
+    },
+    {
+      "id": "faa",
+      "ar": "فَا",
+      "en": "Madd Alif",
+      "tr": "faa"
+    },
+    {
+      "id": "qaa",
+      "ar": "قَا",
+      "en": "Madd Alif",
+      "tr": "qaa"
+    },
+    {
+      "id": "kaa",
+      "ar": "كَا",
+      "en": "Madd Alif",
+      "tr": "kaa"
+    },
+    {
+      "id": "laa",
+      "ar": "لَا",
+      "en": "Madd Alif",
+      "tr": "laa"
+    },
+    {
+      "id": "maa",
+      "ar": "مَا",
+      "en": "Madd Alif",
+      "tr": "maa"
+    },
+    {
+      "id": "naa",
+      "ar": "نَا",
+      "en": "Madd Alif",
+      "tr": "naa"
+    },
+    {
+      "id": "haa2",
+      "ar": "هَا",
+      "en": "Madd Alif",
+      "tr": "haa"
+    },
+    {
+      "id": "waa",
+      "ar": "وَا",
+      "en": "Madd Alif",
+      "tr": "waa"
+    },
+    {
+      "id": "aa2",
+      "ar": "ءَا",
+      "en": "Madd Alif",
+      "tr": "aa"
+    },
+    {
+      "id": "yaa",
+      "ar": "يَا",
+      "en": "Madd Alif",
+      "tr": "yaa"
+    },
+    {
+      "id": "taaba",
+      "ar": "تَابَ",
+      "en": "Madd Alif",
+      "tr": "taaba"
+    },
+    {
+      "id": "taaba2",
+      "ar": "طَابَ",
+      "en": "Madd Alif",
+      "tr": "taaba"
+    },
+    {
+      "id": "khaaba",
+      "ar": "خَابَ",
+      "en": "Madd Alif",
+      "tr": "khaaba"
+    },
+    {
+      "id": "khaafa",
+      "ar": "خَافَ",
+      "en": "Madd Alif",
+      "tr": "khaafa"
+    },
+    {
+      "id": "qaala",
+      "ar": "قَالَ",
+      "en": "Madd Alif",
+      "tr": "qaala"
+    },
+    {
+      "id": "raana",
+      "ar": "رَانَ",
+      "en": "Madd Alif",
+      "tr": "raana"
+    },
+    {
+      "id": "naaro",
+      "ar": "نَارُ",
+      "en": "Madd Alif",
+      "tr": "naaro"
+    },
+    {
+      "id": "dhaata",
+      "ar": "ذَاتَ",
+      "en": "Madd Alif",
+      "tr": "dhaata"
+    },
+    {
+      "id": "ghaafere",
+      "ar": "غَافِرِ",
+      "en": "Madd Alif",
+      "tr": "ghaafere"
+    },
+    {
+      "id": "waqaabele",
+      "ar": "وَقَابِلِ",
+      "en": "Madd Alif",
+      "tr": "waqaabele"
+    },
+    {
+      "id": "ebaada",
+      "ar": "عِبَادَ",
+      "en": "Madd Alif",
+      "tr": "ebaada"
+    },
+    {
+      "id": "waaledehe",
+      "ar": "وَالِدِهِ",
+      "en": "Madd Alif",
+      "tr": "waaledehe"
+    },
+    {
+      "id": "a",
+      "ar": "أَ",
+      "en": "Madd Alif",
+      "tr": "a"
+    },
+    {
+      "id": "abaanaa",
+      "ar": "أَبَانَا",
+      "en": "Madd Alif",
+      "tr": "abaanaa"
+    },
+    {
+      "id": "da",
+      "ar": "دَ",
+      "en": "Madd Alif",
+      "tr": "da"
+    },
+    {
+      "id": "daaanaa",
+      "ar": "دَعَانَا",
+      "en": "Madd Alif",
+      "tr": "da'aanaa"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Madd Alif",
+      "tr": "na"
+    },
+    {
+      "id": "kaala",
+      "ar": "كَالَ",
+      "en": "Madd Alif",
+      "tr": "kaala"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "Madd Alif",
+      "tr": "la"
+    },
+    {
+      "id": "nakaala",
+      "ar": "نَكَالَ",
+      "en": "Madd Alif",
+      "tr": "nakaala"
+    },
+    {
+      "id": "qa",
+      "ar": "قَ",
+      "en": "Madd Alif",
+      "tr": "qa"
+    },
+    {
+      "id": "to",
+      "ar": "ةُ",
+      "en": "Madd Alif",
+      "tr": "to"
+    },
+    {
+      "id": "naaqato",
+      "ar": "نَاقَةُ",
+      "en": "Madd Alif",
+      "tr": "naaqato"
+    },
+    {
+      "id": "te",
+      "ar": "طِ",
+      "en": "Madd Alif",
+      "tr": "te"
+    },
+    {
+      "id": "re",
+      "ar": "رِ",
+      "en": "Madd Alif",
+      "tr": "re"
+    },
+    {
+      "id": "faatere",
+      "ar": "فَاطِرِ",
+      "en": "Madd Alif",
+      "tr": "faatere"
+    },
+    {
+      "id": "maale",
+      "ar": "مَالِ",
+      "en": "Madd Alif",
+      "tr": "maale"
+    },
+    {
+      "id": "qaal",
+      "ar": "قَال",
+      "en": "Madd Alif",
+      "tr": "qaal"
+    },
+    {
+      "id": "sobolanaa",
+      "ar": "سُبُلَنَا",
+      "en": "Madd Alif",
+      "tr": "sobolanaa"
+    },
+    {
+      "id": "natajaawazo",
+      "ar": "نَتَجَاوَزُ",
+      "en": "Madd Alif",
+      "tr": "natajaawazo"
+    },
+    {
+      "id": "kawaaeba",
+      "ar": "كَوَاعِبَ",
+      "en": "Madd Alif",
+      "tr": "kawaa'eba"
+    },
+    {
+      "id": "yohaata",
+      "ar": "يُحَاطَ",
+      "en": "Madd Alif",
+      "tr": "yohaata"
+    },
+    {
+      "id": "jawaaba",
+      "ar": "جَوَابَ",
+      "en": "Madd Alif",
+      "tr": "jawaaba"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Madd Alif stretches the fatha.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does Madd Alif make?",
+      "opts": [
+        [
+          "",
+          "aa",
+          1
+        ],
+        [
+          "",
+          "ee",
+          0
+        ],
+        [
+          "",
+          "oo",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثَا reads “thaa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? رَانَ reads “raana”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find madd alif in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Madd Alif: Read madd alif and recite Surat Al-Ikhlas.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l05.mp4",
+    "poster": "media/qra1-l05-poster.jpg"
+  }
+}
