@@ -1,0 +1,532 @@
+{
+  "id": "qra1-l12",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 12. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الشَّدَّةُ مَعَ الضَّمَّةِ",
+    "en": "Shaddah with damma"
+  },
+  "topic": "Read shaddah with damma and recite Surat Al-Fil",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "A letter with shaddah and damma is said twice: first with sukoon, then with damma.",
+      "title": "Shaddah with damma"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الفِيلِ",
+      "aud": "c-1-ar",
+      "tr": "soorato alfeele"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Fil. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Fil",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ ﴿١﴾ أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ ﴿٢﴾ وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ ﴿٣﴾ تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ ﴿٤﴾ فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ ﴿٥﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "yadhdho",
+      "ar": "يَذُّ",
+      "en": "Shaddah with damma",
+      "tr": "yadhdho"
+    },
+    {
+      "id": "sharro",
+      "ar": "شَرُّ",
+      "en": "Shaddah with damma",
+      "tr": "sharro"
+    },
+    {
+      "id": "azzo",
+      "ar": "عَزُّ",
+      "en": "Shaddah with damma",
+      "tr": "azzo"
+    },
+    {
+      "id": "masso",
+      "ar": "مَسُّ",
+      "en": "Shaddah with damma",
+      "tr": "masso"
+    },
+    {
+      "id": "hashsho",
+      "ar": "هَشُّ",
+      "en": "Shaddah with damma",
+      "tr": "hashsho"
+    },
+    {
+      "id": "wasso",
+      "ar": "وَصُّ",
+      "en": "Shaddah with damma",
+      "tr": "wasso"
+    },
+    {
+      "id": "haddo",
+      "ar": "حَضُّ",
+      "en": "Shaddah with damma",
+      "tr": "haddo"
+    },
+    {
+      "id": "yadhdhoo",
+      "ar": "يَذُّو",
+      "en": "Shaddah with damma",
+      "tr": "yadhdhoo"
+    },
+    {
+      "id": "sharroo",
+      "ar": "شَرُّو",
+      "en": "Shaddah with damma",
+      "tr": "sharroo"
+    },
+    {
+      "id": "azzoo",
+      "ar": "عَزُّو",
+      "en": "Shaddah with damma",
+      "tr": "azzoo"
+    },
+    {
+      "id": "massoo",
+      "ar": "مَسُّو",
+      "en": "Shaddah with damma",
+      "tr": "massoo"
+    },
+    {
+      "id": "hashshoo",
+      "ar": "هَشُّو",
+      "en": "Shaddah with damma",
+      "tr": "hashshoo"
+    },
+    {
+      "id": "wassoo",
+      "ar": "وَصُّو",
+      "en": "Shaddah with damma",
+      "tr": "wassoo"
+    },
+    {
+      "id": "haddoo",
+      "ar": "حَضُّو",
+      "en": "Shaddah with damma",
+      "tr": "haddoo"
+    },
+    {
+      "id": "hatto",
+      "ar": "حَطُّ",
+      "en": "Shaddah with damma",
+      "tr": "hatto"
+    },
+    {
+      "id": "hadhdho",
+      "ar": "حَظُّ",
+      "en": "Shaddah with damma",
+      "tr": "hadhdho"
+    },
+    {
+      "id": "dao",
+      "ar": "دَعُّ",
+      "en": "Shaddah with damma",
+      "tr": "da''o"
+    },
+    {
+      "id": "aghgho",
+      "ar": "أَغُّ",
+      "en": "Shaddah with damma",
+      "tr": "aghgho"
+    },
+    {
+      "id": "saffo",
+      "ar": "صَفُّ",
+      "en": "Shaddah with damma",
+      "tr": "saffo"
+    },
+    {
+      "id": "haqqo",
+      "ar": "حَقُّ",
+      "en": "Shaddah with damma",
+      "tr": "haqqo"
+    },
+    {
+      "id": "shakko",
+      "ar": "شَكُّ",
+      "en": "Shaddah with damma",
+      "tr": "shakko"
+    },
+    {
+      "id": "hattoo",
+      "ar": "حَطُّو",
+      "en": "Shaddah with damma",
+      "tr": "hattoo"
+    },
+    {
+      "id": "hadhdhoo",
+      "ar": "حَظُّو",
+      "en": "Shaddah with damma",
+      "tr": "hadhdhoo"
+    },
+    {
+      "id": "daoo",
+      "ar": "دَعُّو",
+      "en": "Shaddah with damma",
+      "tr": "da''oo"
+    },
+    {
+      "id": "aghghoo",
+      "ar": "أَغُّو",
+      "en": "Shaddah with damma",
+      "tr": "aghghoo"
+    },
+    {
+      "id": "saffoo",
+      "ar": "صَفُّو",
+      "en": "Shaddah with damma",
+      "tr": "saffoo"
+    },
+    {
+      "id": "haqqoo",
+      "ar": "حَقُّو",
+      "en": "Shaddah with damma",
+      "tr": "haqqoo"
+    },
+    {
+      "id": "shakkoo",
+      "ar": "شَكُّو",
+      "en": "Shaddah with damma",
+      "tr": "shakkoo"
+    },
+    {
+      "id": "yohebbo",
+      "ar": "يُحِبُّ",
+      "en": "Shaddah with damma",
+      "tr": "yohebbo"
+    },
+    {
+      "id": "yaboththo",
+      "ar": "يَبُثُّ",
+      "en": "Shaddah with damma",
+      "tr": "yaboththo"
+    },
+    {
+      "id": "yaaddo",
+      "ar": "يَعَضُّ",
+      "en": "Shaddah with damma",
+      "tr": "ya'addo"
+    },
+    {
+      "id": "yadoo",
+      "ar": "يَدُعُّ",
+      "en": "Shaddah with damma",
+      "tr": "yado''o"
+    },
+    {
+      "id": "yoraddo",
+      "ar": "يُرَدُّ",
+      "en": "Shaddah with damma",
+      "tr": "yoraddo"
+    },
+    {
+      "id": "ashaddo",
+      "ar": "أَشَدُّ",
+      "en": "Shaddah with damma",
+      "tr": "ashaddo"
+    },
+    {
+      "id": "naqosso",
+      "ar": "نَقُصُّ",
+      "en": "Shaddah with damma",
+      "tr": "naqosso"
+    },
+    {
+      "id": "tasorro",
+      "ar": "تَسُرُّ",
+      "en": "Shaddah with damma",
+      "tr": "tasorro"
+    },
+    {
+      "id": "adallo",
+      "ar": "أَضَلُّ",
+      "en": "Shaddah with damma",
+      "tr": "adallo"
+    },
+    {
+      "id": "waaqallo",
+      "ar": "وَأَقَلُّ",
+      "en": "Shaddah with damma",
+      "tr": "wa'aqallo"
+    },
+    {
+      "id": "wayohello",
+      "ar": "وَيُحِلُّ",
+      "en": "Shaddah with damma",
+      "tr": "wayohello"
+    },
+    {
+      "id": "waahoshsho",
+      "ar": "وَأَهُشُّ",
+      "en": "Shaddah with damma",
+      "tr": "wa'ahoshsho"
+    },
+    {
+      "id": "wayoheqqo",
+      "ar": "وَيُحِقُّ",
+      "en": "Shaddah with damma",
+      "tr": "wayoheqqo"
+    },
+    {
+      "id": "warabboka",
+      "ar": "وَرَبُّكَ",
+      "en": "Shaddah with damma",
+      "tr": "warabboka"
+    },
+    {
+      "id": "anettom",
+      "ar": "عَنِتُّمْ",
+      "en": "Shaddah with damma",
+      "tr": "anettom"
+    },
+    {
+      "id": "waleyyonaa",
+      "ar": "وَلِيُّنَا",
+      "en": "Shaddah with damma",
+      "tr": "waleyyonaa"
+    },
+    {
+      "id": "mo",
+      "ar": "مُ",
+      "en": "Shaddah with damma",
+      "tr": "mo"
+    },
+    {
+      "id": "tem",
+      "ar": "تِمْ",
+      "en": "Shaddah with damma",
+      "tr": "tem"
+    },
+    {
+      "id": "motemmo",
+      "ar": "مُتِمُّ",
+      "en": "Shaddah with damma",
+      "tr": "motemmo"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Shaddah with damma",
+      "tr": "ya"
+    },
+    {
+      "id": "dhon",
+      "ar": "ظُنْ",
+      "en": "Shaddah with damma",
+      "tr": "dhon"
+    },
+    {
+      "id": "no",
+      "ar": "نُ",
+      "en": "Shaddah with damma",
+      "tr": "no"
+    },
+    {
+      "id": "yadhonno",
+      "ar": "يَظُنُّ",
+      "en": "Shaddah with damma",
+      "tr": "yadhonno"
+    },
+    {
+      "id": "sod",
+      "ar": "صُدْ",
+      "en": "Shaddah with damma",
+      "tr": "sod"
+    },
+    {
+      "id": "doo",
+      "ar": "دُو",
+      "en": "Shaddah with damma",
+      "tr": "doo"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Shaddah with damma",
+      "tr": "na"
+    },
+    {
+      "id": "yasoddoona",
+      "ar": "يَصُدُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "yasoddoona"
+    },
+    {
+      "id": "kher",
+      "ar": "خِرْ",
+      "en": "Shaddah with damma",
+      "tr": "kher"
+    },
+    {
+      "id": "roo",
+      "ar": "رُو",
+      "en": "Shaddah with damma",
+      "tr": "roo"
+    },
+    {
+      "id": "yakherroona",
+      "ar": "يَخِرُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "yakherroona"
+    },
+    {
+      "id": "mon",
+      "ar": "مُنْ",
+      "en": "Shaddah with damma",
+      "tr": "mon"
+    },
+    {
+      "id": "noo",
+      "ar": "نُو",
+      "en": "Shaddah with damma",
+      "tr": "noo"
+    },
+    {
+      "id": "yamonnoona",
+      "ar": "يَمُنُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "yamonnoona"
+    },
+    {
+      "id": "adalloo",
+      "ar": "أَضَلُّوا",
+      "en": "Shaddah with damma",
+      "tr": "adalloo"
+    },
+    {
+      "id": "tohebboona",
+      "ar": "تُحِبُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "tohebboona"
+    },
+    {
+      "id": "yaqossoona",
+      "ar": "يَقُصُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "yaqossoona"
+    },
+    {
+      "id": "rebbeyyoona",
+      "ar": "رِبِّيُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "rebbeyyoona"
+    },
+    {
+      "id": "rabboka",
+      "ar": "رَبُّكَ",
+      "en": "Shaddah with damma",
+      "tr": "rabboka"
+    },
+    {
+      "id": "yaferro",
+      "ar": "يَفِرُّ",
+      "en": "Shaddah with damma",
+      "tr": "yaferro"
+    },
+    {
+      "id": "toserroona",
+      "ar": "تُسِرُّونَ",
+      "en": "Shaddah with damma",
+      "tr": "toserroona"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? A letter with shaddah is said twice.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Shaddah with damma: the second letter has…",
+      "opts": [
+        [
+          "",
+          "Damma",
+          1
+        ],
+        [
+          "",
+          "Fatha",
+          0
+        ],
+        [
+          "",
+          "Kasra",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? مَسُّ reads “masso”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? وَأَقَلُّ reads “wa'aqallo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find shaddah with damma in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Shaddah with damma: Read shaddah with damma and recite Surat Al-Fil.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l12.mp4",
+    "poster": "media/qra1-l12-poster.jpg"
+  }
+}

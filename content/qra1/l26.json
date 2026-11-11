@@ -1,0 +1,393 @@
+{
+  "id": "qra1-l26",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 26. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ حَاء",
+    "en": "The Letter Haa (ح)"
+  },
+  "topic": "Read Haa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Haa. A deep h.",
+      "title": "Meet Haa!",
+      "ar": "ح",
+      "aud": "c-0-ar",
+      "tr": "Haa"
+    },
+    {
+      "en": "A line and a crescent with no dots. It connects from both sides.",
+      "title": "How to write Haa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "حَكَمَ",
+      "tr": "hakama"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "الْحُوتِ",
+      "tr": "alhoote"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "حَافِظُ",
+      "tr": "haafedho"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "وَلِيُمَحِّصَ",
+      "tr": "waleyomahhesa"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "رَوْحٌ",
+      "tr": "rawhon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَحْسَبُ",
+      "tr": "yahsabo"
+    },
+    {
+      "en": "Surat Al-Hijr, verse 85. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَإِنَّ ٱلسَّاعَةَ لَءَاتِيَةٌۭ ۖ فَٱصْفَحِ ٱلصَّفْحَ ٱلْجَمِيلَ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "hakeemon",
+      "ar": "حَكِيمٌ",
+      "en": "Letter in a word",
+      "tr": "hakeemon"
+    },
+    {
+      "id": "moheeton",
+      "ar": "مُحِيطٌ",
+      "en": "Letter in a word",
+      "tr": "moheeton"
+    },
+    {
+      "id": "almaseeho",
+      "ar": "الْمَسِيحُ",
+      "en": "Letter in a word",
+      "tr": "almaseeho"
+    },
+    {
+      "id": "nooha",
+      "ar": "نُوحَ",
+      "en": "Letter in a word",
+      "tr": "nooha"
+    },
+    {
+      "id": "hakama",
+      "ar": "حَكَمَ",
+      "en": "Short vowels",
+      "tr": "hakama"
+    },
+    {
+      "id": "hasada",
+      "ar": "حَسَدَ",
+      "en": "Short vowels",
+      "tr": "hasada"
+    },
+    {
+      "id": "hataba",
+      "ar": "حَطَبَ",
+      "en": "Short vowels",
+      "tr": "hataba"
+    },
+    {
+      "id": "hesaabo",
+      "ar": "حِسَابُ",
+      "en": "Short vowels",
+      "tr": "hesaabo"
+    },
+    {
+      "id": "hejaaben",
+      "ar": "حِجَابٍ",
+      "en": "Short vowels",
+      "tr": "hejaaben"
+    },
+    {
+      "id": "hekmato",
+      "ar": "حِكْمَةُ",
+      "en": "Short vowels",
+      "tr": "hekmato"
+    },
+    {
+      "id": "hosherat",
+      "ar": "حُشِرَتْ",
+      "en": "Short vowels",
+      "tr": "hosherat"
+    },
+    {
+      "id": "hotamate",
+      "ar": "حُطَمَةِ",
+      "en": "Short vowels",
+      "tr": "hotamate"
+    },
+    {
+      "id": "hokema",
+      "ar": "حُكِمَ",
+      "en": "Short vowels",
+      "tr": "hokema"
+    },
+    {
+      "id": "alhoote",
+      "ar": "الْحُوتِ",
+      "en": "Long vowels",
+      "tr": "alhoote"
+    },
+    {
+      "id": "yahoora",
+      "ar": "يَحُورَ",
+      "en": "Long vowels",
+      "tr": "yahoora"
+    },
+    {
+      "id": "mashooran",
+      "ar": "مَسْحُورًا",
+      "en": "Long vowels",
+      "tr": "mashooran"
+    },
+    {
+      "id": "heena",
+      "ar": "حِينَ",
+      "en": "Long vowels",
+      "tr": "heena"
+    },
+    {
+      "id": "raheemo",
+      "ar": "رَحِيمُ",
+      "en": "Long vowels",
+      "tr": "raheemo"
+    },
+    {
+      "id": "haafedho",
+      "ar": "حَافِظُ",
+      "en": "With Al",
+      "tr": "haafedho"
+    },
+    {
+      "id": "yohaareboona",
+      "ar": "يُحَارِبُونَ",
+      "en": "With Al",
+      "tr": "yohaareboona"
+    },
+    {
+      "id": "sahaabon",
+      "ar": "سَحَابٌ",
+      "en": "With Al",
+      "tr": "sahaabon"
+    },
+    {
+      "id": "waleyomahhesa",
+      "ar": "وَلِيُمَحِّصَ",
+      "en": "Shaddah",
+      "tr": "waleyomahhesa"
+    },
+    {
+      "id": "sahhaaren",
+      "ar": "سَحَّارٍ",
+      "en": "Shaddah",
+      "tr": "sahhaaren"
+    },
+    {
+      "id": "ashshohha",
+      "ar": "الشُّحَّ",
+      "en": "Shaddah",
+      "tr": "ashshohha"
+    },
+    {
+      "id": "almosahhareena",
+      "ar": "الْمُسَحَّرِينَ",
+      "en": "Shaddah",
+      "tr": "almosahhareena"
+    },
+    {
+      "id": "rawhon",
+      "ar": "رَوْحٌ",
+      "en": "Tanween",
+      "tr": "rawhon"
+    },
+    {
+      "id": "jonaahon",
+      "ar": "جُنَاحٌ",
+      "en": "Tanween",
+      "tr": "jonaahon"
+    },
+    {
+      "id": "fathon",
+      "ar": "فَتْحٌ",
+      "en": "Tanween",
+      "tr": "fathon"
+    },
+    {
+      "id": "lawhen",
+      "ar": "لَوْحٍ",
+      "en": "Tanween",
+      "tr": "lawhen"
+    },
+    {
+      "id": "alwaahen",
+      "ar": "أَلْوَاحٍ",
+      "en": "Tanween",
+      "tr": "alwaahen"
+    },
+    {
+      "id": "reehen",
+      "ar": "رِيحٍ",
+      "en": "Tanween",
+      "tr": "reehen"
+    },
+    {
+      "id": "sobhan",
+      "ar": "صُبْحًا",
+      "en": "Tanween",
+      "tr": "sobhan"
+    },
+    {
+      "id": "qadhan",
+      "ar": "قَدْحًا",
+      "en": "Tanween",
+      "tr": "qadhan"
+    },
+    {
+      "id": "wanoohan",
+      "ar": "وَنُوحًا",
+      "en": "Tanween",
+      "tr": "wanoohan"
+    },
+    {
+      "id": "yahsabo",
+      "ar": "يَحْسَبُ",
+      "en": "Sukoon",
+      "tr": "yahsabo"
+    },
+    {
+      "id": "tahtahaa",
+      "ar": "تَحْتَهَا",
+      "en": "Sukoon",
+      "tr": "tahtahaa"
+    },
+    {
+      "id": "nahno",
+      "ar": "نَحْنُ",
+      "en": "Sukoon",
+      "tr": "nahno"
+    },
+    {
+      "id": "alhamdo",
+      "ar": "الْحَمْدُ",
+      "en": "With Al",
+      "tr": "alhamdo"
+    },
+    {
+      "id": "alhaaqqato",
+      "ar": "الْحَاقَّةُ",
+      "en": "With Al",
+      "tr": "alhaaqqato"
+    },
+    {
+      "id": "alhotamato",
+      "ar": "الْحُطَمَةُ",
+      "en": "With Al",
+      "tr": "alhotamato"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ح?",
+      "opts": [
+        [
+          "",
+          "Haa",
+          1
+        ],
+        [
+          "",
+          "Zaay",
+          0
+        ],
+        [
+          "",
+          "Dhaa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ح connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? نُوحَ reads “nooha”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الشُّحَّ reads “ashshohha”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ح in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Haa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Haa (ح): Read Haa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l26.mp4",
+    "poster": "media/qra1-l26-poster.jpg"
+  }
+}

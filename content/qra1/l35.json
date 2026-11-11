@@ -1,0 +1,405 @@
+{
+  "id": "qra1-l35",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 35. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ ضَاد",
+    "en": "The Letter Daad (ض)"
+  },
+  "topic": "Read Daad with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Daad. A heavy d.",
+      "title": "Meet Daad!",
+      "ar": "ض",
+      "aud": "c-0-ar",
+      "tr": "Daad"
+    },
+    {
+      "en": "A head on the line with a dot on top, a small tooth and a big bowl. It connects from both sides.",
+      "title": "How to write Daad"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "ضُحَىٰ",
+      "tr": "dohaa"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "مَّوْضُوعَةٌ",
+      "tr": "mmawdoo'aton"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "الضَّآلِّينَ",
+      "tr": "adda'aalleena"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "يَنْفَضُّوا",
+      "tr": "yanfaddoo"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "بَيْضٌ",
+      "tr": "baydon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "الْفَضْلَ",
+      "tr": "alfadla"
+    },
+    {
+      "en": "Surat At-Tawbah, verse 91. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "daraba",
+      "ar": "ضَرَبَ",
+      "en": "Letter in a word",
+      "tr": "daraba"
+    },
+    {
+      "id": "ghadeba",
+      "ar": "غَضِبَ",
+      "en": "Letter in a word",
+      "tr": "ghadeba"
+    },
+    {
+      "id": "farada",
+      "ar": "فَرَضَ",
+      "en": "Letter in a word",
+      "tr": "farada"
+    },
+    {
+      "id": "alarde",
+      "ar": "اَلْأَرْضِ",
+      "en": "Letter in a word",
+      "tr": "al'arde"
+    },
+    {
+      "id": "dohaa",
+      "ar": "ضُحَىٰ",
+      "en": "Short vowels",
+      "tr": "dohaa"
+    },
+    {
+      "id": "dafen",
+      "ar": "ضَعْفٍ",
+      "en": "Short vowels",
+      "tr": "da'fen"
+    },
+    {
+      "id": "dorebat",
+      "ar": "ضُرِبَتْ",
+      "en": "Short vowels",
+      "tr": "dorebat"
+    },
+    {
+      "id": "deezaa",
+      "ar": "ضِيزَىٰ",
+      "en": "Short vowels",
+      "tr": "deezaa"
+    },
+    {
+      "id": "deraaran",
+      "ar": "ضِرَارًا",
+      "en": "Short vowels",
+      "tr": "deraaran"
+    },
+    {
+      "id": "radeya",
+      "ar": "رَضِيَ",
+      "en": "Short vowels",
+      "tr": "radeya"
+    },
+    {
+      "id": "dallat",
+      "ar": "ضَلَّتْ",
+      "en": "Short vowels",
+      "tr": "dallat"
+    },
+    {
+      "id": "dankan",
+      "ar": "ضَنْكًا",
+      "en": "Short vowels",
+      "tr": "dankan"
+    },
+    {
+      "id": "mmawdooaton",
+      "ar": "مَّوْضُوعَةٌ",
+      "en": "Long vowels",
+      "tr": "mmawdoo'aton"
+    },
+    {
+      "id": "radoo",
+      "ar": "رَضُوا",
+      "en": "Long vowels",
+      "tr": "radoo"
+    },
+    {
+      "id": "toredoo",
+      "ar": "تُعْرِضُوا",
+      "en": "Long vowels",
+      "tr": "to'redoo"
+    },
+    {
+      "id": "moredeena",
+      "ar": "مُعْرِضِينَ",
+      "en": "Long vowels",
+      "tr": "mo'redeena"
+    },
+    {
+      "id": "yadeeqo",
+      "ar": "يَضِيقُ",
+      "en": "Long vowels",
+      "tr": "yadeeqo"
+    },
+    {
+      "id": "ardee",
+      "ar": "أَرْضِي",
+      "en": "Long vowels",
+      "tr": "ardee"
+    },
+    {
+      "id": "addaaalleena",
+      "ar": "الضَّآلِّينَ",
+      "en": "With Al",
+      "tr": "adda'aalleena"
+    },
+    {
+      "id": "daaqat",
+      "ar": "ضَاقَتْ",
+      "en": "With Al",
+      "tr": "daaqat"
+    },
+    {
+      "id": "yodaaafo",
+      "ar": "يُضَاعَفُ",
+      "en": "With Al",
+      "tr": "yodaa'afo"
+    },
+    {
+      "id": "yanfaddoo",
+      "ar": "يَنْفَضُّوا",
+      "en": "Shaddah",
+      "tr": "yanfaddoo"
+    },
+    {
+      "id": "yahoddo",
+      "ar": "يَحُضُّ",
+      "en": "Shaddah",
+      "tr": "yahoddo"
+    },
+    {
+      "id": "yaghoddoo",
+      "ar": "يَغُضُّوا",
+      "en": "Shaddah",
+      "tr": "yaghoddoo"
+    },
+    {
+      "id": "wanofaddelo",
+      "ar": "وَنُفَضِّلُ",
+      "en": "Shaddah",
+      "tr": "wanofaddelo"
+    },
+    {
+      "id": "feddaten",
+      "ar": "فِضَّةٍ",
+      "en": "Shaddah",
+      "tr": "feddaten"
+    },
+    {
+      "id": "waalddarraaao",
+      "ar": "وَالضَّرَّآءُ",
+      "en": "Shaddah",
+      "tr": "waalddarra'aa'o"
+    },
+    {
+      "id": "baydon",
+      "ar": "بَيْضٌ",
+      "en": "Tanween",
+      "tr": "baydon"
+    },
+    {
+      "id": "aaredon",
+      "ar": "عَارِضٌ",
+      "en": "Tanween",
+      "tr": "aaredon"
+    },
+    {
+      "id": "maradon",
+      "ar": "مَرَضٌ",
+      "en": "Tanween",
+      "tr": "maradon"
+    },
+    {
+      "id": "baden",
+      "ar": "بَعْضٍ",
+      "en": "Tanween",
+      "tr": "ba'den"
+    },
+    {
+      "id": "areeden",
+      "ar": "عَرِيضٍ",
+      "en": "Tanween",
+      "tr": "areeden"
+    },
+    {
+      "id": "khawden",
+      "ar": "خَوْضٍ",
+      "en": "Tanween",
+      "tr": "khawden"
+    },
+    {
+      "id": "qardan",
+      "ar": "قَرْضًا",
+      "en": "Tanween",
+      "tr": "qardan"
+    },
+    {
+      "id": "maradan",
+      "ar": "مَرَضًا",
+      "en": "Tanween",
+      "tr": "maradan"
+    },
+    {
+      "id": "aradan",
+      "ar": "عَرَضًا",
+      "en": "Tanween",
+      "tr": "aradan"
+    },
+    {
+      "id": "alfadla",
+      "ar": "الْفَضْلَ",
+      "en": "Sukoon",
+      "tr": "alfadla"
+    },
+    {
+      "id": "falyadhakoo",
+      "ar": "فَلْيَضْحَكُوا",
+      "en": "Sukoon",
+      "tr": "falyadhakoo"
+    },
+    {
+      "id": "waakhfed",
+      "ar": "وَاخْفِضْ",
+      "en": "Sukoon",
+      "tr": "waakhfed"
+    },
+    {
+      "id": "addafaadea",
+      "ar": "الضَّفَادِعَ",
+      "en": "Sukoon",
+      "tr": "addafaade'a"
+    },
+    {
+      "id": "waalddohaa",
+      "ar": "وَالضُّحَىٰ",
+      "en": "Sukoon",
+      "tr": "waalddohaa"
+    },
+    {
+      "id": "addaalleena",
+      "ar": "الضَّالِّينَ",
+      "en": "Sukoon",
+      "tr": "addaalleena"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ض?",
+      "opts": [
+        [
+          "",
+          "Daad",
+          1
+        ],
+        [
+          "",
+          "Faa",
+          0
+        ],
+        [
+          "",
+          "Haa (light)",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ض connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? اَلْأَرْضِ reads “al'arde”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? وَنُفَضِّلُ reads “wanofaddelo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ض in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Daad! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Daad (ض): Read Daad with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l35.mp4",
+    "poster": "media/qra1-l35-poster.jpg"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "id": "qra1-l47",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 47. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ وَاو",
+    "en": "The Letter Waaw (و)"
+  },
+  "topic": "Read Waaw with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Waaw. Like w in water.",
+      "title": "Meet Waaw!",
+      "ar": "و",
+      "aud": "c-0-ar",
+      "tr": "Waaw"
+    },
+    {
+      "en": "Like a giant comma. It connects to the right, but never to the left.",
+      "title": "How to write Waaw"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "وَجَدَكَ",
+      "tr": "wajadaka"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "وَاحِدٌ",
+      "tr": "waahedon"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "طَوِيلًا",
+      "tr": "taweelan"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "بِقُوَّةٍ",
+      "tr": "beqowwaten"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "كُفُوًا",
+      "tr": "kofowan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَوْمِ",
+      "tr": "yawme"
+    },
+    {
+      "en": "Surat Al-Baqarah, verse 231. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَلَا تَتَّخِذُوٓا۟ ءَايَٰتِ ٱللَّهِ هُزُوًۭا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "waada",
+      "ar": "وَعَدَ",
+      "en": "Letter in a word",
+      "tr": "wa'ada"
+    },
+    {
+      "id": "khawfon",
+      "ar": "خَوْفٌ",
+      "en": "Letter in a word",
+      "tr": "khawfon"
+    },
+    {
+      "id": "howa",
+      "ar": "هُوَ",
+      "en": "Letter in a word",
+      "tr": "howa"
+    },
+    {
+      "id": "adowwa",
+      "ar": "عَدُوَّ",
+      "en": "Letter in a word",
+      "tr": "adowwa"
+    },
+    {
+      "id": "wajadaka",
+      "ar": "وَجَدَكَ",
+      "en": "Short vowels",
+      "tr": "wajadaka"
+    },
+    {
+      "id": "warada",
+      "ar": "وَرَدَ",
+      "en": "Short vowels",
+      "tr": "warada"
+    },
+    {
+      "id": "wezra",
+      "ar": "وِزْرَ",
+      "en": "Short vowels",
+      "tr": "wezra"
+    },
+    {
+      "id": "wefaaqan",
+      "ar": "وِفَاقًا",
+      "en": "Short vowels",
+      "tr": "wefaaqan"
+    },
+    {
+      "id": "weldaanon",
+      "ar": "وِلْدَانٌ",
+      "en": "Short vowels",
+      "tr": "weldaanon"
+    },
+    {
+      "id": "wojoohon",
+      "ar": "وُجُوهٌ",
+      "en": "Short vowels",
+      "tr": "wojoohon"
+    },
+    {
+      "id": "wodea",
+      "ar": "وُضِعَ",
+      "en": "Short vowels",
+      "tr": "wode'a"
+    },
+    {
+      "id": "woledtto",
+      "ar": "وُلِدتُّ",
+      "en": "Short vowels",
+      "tr": "woledtto"
+    },
+    {
+      "id": "waahedon",
+      "ar": "وَاحِدٌ",
+      "en": "With Al",
+      "tr": "waahedon"
+    },
+    {
+      "id": "waaseatan",
+      "ar": "وَاسِعَةً",
+      "en": "With Al",
+      "tr": "waase'atan"
+    },
+    {
+      "id": "waaqen",
+      "ar": "وَاقٍ",
+      "en": "With Al",
+      "tr": "waaqen"
+    },
+    {
+      "id": "taweelan",
+      "ar": "طَوِيلًا",
+      "en": "Long vowels",
+      "tr": "taweelan"
+    },
+    {
+      "id": "yastawee",
+      "ar": "يَسْتَوِي",
+      "en": "Long vowels",
+      "tr": "yastawee"
+    },
+    {
+      "id": "alghaaweena",
+      "ar": "الْغَاوِينَ",
+      "en": "Long vowels",
+      "tr": "alghaaweena"
+    },
+    {
+      "id": "daawooda",
+      "ar": "دَاوُودَ",
+      "en": "Long vowels",
+      "tr": "daawooda"
+    },
+    {
+      "id": "yastawoona",
+      "ar": "يَسْتَوُونَ",
+      "en": "Long vowels",
+      "tr": "yastawoona"
+    },
+    {
+      "id": "wooreya",
+      "ar": "وُورِيَ",
+      "en": "Long vowels",
+      "tr": "wooreya"
+    },
+    {
+      "id": "beqowwaten",
+      "ar": "بِقُوَّةٍ",
+      "en": "Shaddah",
+      "tr": "beqowwaten"
+    },
+    {
+      "id": "awwala",
+      "ar": "أَوَّلَ",
+      "en": "Shaddah",
+      "tr": "awwala"
+    },
+    {
+      "id": "tawwaaban",
+      "ar": "تَوَّابًا",
+      "en": "Shaddah",
+      "tr": "tawwaaban"
+    },
+    {
+      "id": "yosawwerokom",
+      "ar": "يُصَوِّرُكُمْ",
+      "en": "Shaddah",
+      "tr": "yosawwerokom"
+    },
+    {
+      "id": "adowwee",
+      "ar": "عَدُوِّي",
+      "en": "Shaddah",
+      "tr": "adowwee"
+    },
+    {
+      "id": "yokhawwefo",
+      "ar": "يُخَوِّفُ",
+      "en": "Shaddah",
+      "tr": "yokhawwefo"
+    },
+    {
+      "id": "aladowwo",
+      "ar": "الْعَدُوُّ",
+      "en": "Shaddah",
+      "tr": "al'adowwo"
+    },
+    {
+      "id": "laafowwon",
+      "ar": "لَعَفُوٌّ",
+      "en": "Shaddah",
+      "tr": "la'afowwon"
+    },
+    {
+      "id": "kofowan",
+      "ar": "كُفُوًا",
+      "en": "Tanween",
+      "tr": "kofowan"
+    },
+    {
+      "id": "laghwan",
+      "ar": "لَغْوًا",
+      "en": "Tanween",
+      "tr": "laghwan"
+    },
+    {
+      "id": "hozowan",
+      "ar": "هُزُوًا",
+      "en": "Tanween",
+      "tr": "hozowan"
+    },
+    {
+      "id": "adowwen",
+      "ar": "عَدُوٍّ",
+      "en": "Tanween",
+      "tr": "adowwen"
+    },
+    {
+      "id": "otowwen",
+      "ar": "عُتُوٍّ",
+      "en": "Tanween",
+      "tr": "otowwen"
+    },
+    {
+      "id": "lahwon",
+      "ar": "لَهْوٌ",
+      "en": "Tanween",
+      "tr": "lahwon"
+    },
+    {
+      "id": "adowwon",
+      "ar": "عَدُوٌّ",
+      "en": "Tanween",
+      "tr": "adowwon"
+    },
+    {
+      "id": "yawme",
+      "ar": "يَوْمِ",
+      "en": "Sukoon",
+      "tr": "yawme"
+    },
+    {
+      "id": "qawme",
+      "ar": "قَوْمِ",
+      "en": "Sukoon",
+      "tr": "qawme"
+    },
+    {
+      "id": "khawfen",
+      "ar": "خَوْفٍ",
+      "en": "Sukoon",
+      "tr": "khawfen"
+    },
+    {
+      "id": "alwaswaase",
+      "ar": "الْوَسْوَاسِ",
+      "en": "With Al",
+      "tr": "alwaswaase"
+    },
+    {
+      "id": "alwaahedo",
+      "ar": "الْوَاحِدُ",
+      "en": "With Al",
+      "tr": "alwaahedo"
+    },
+    {
+      "id": "alwadoodo",
+      "ar": "الْوَدُودُ",
+      "en": "With Al",
+      "tr": "alwadoodo"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of و?",
+      "opts": [
+        [
+          "",
+          "Waaw",
+          1
+        ],
+        [
+          "",
+          "Thaa",
+          0
+        ],
+        [
+          "",
+          "Raa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? و connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          0
+        ],
+        [
+          "",
+          "False",
+          1
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? عَدُوَّ reads “adowwa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يُصَوِّرُكُمْ reads “yosawwerokom”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find و in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Waaw! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Waaw (و): Read Waaw with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l47.mp4",
+    "poster": "media/qra1-l47-poster.jpg"
+  }
+}

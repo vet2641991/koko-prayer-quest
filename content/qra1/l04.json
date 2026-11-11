@@ -1,0 +1,514 @@
+{
+  "id": "qra1-l04",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 4. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "الضَّمَّةُ",
+    "en": "Damma"
+  },
+  "topic": "Read damma and recite Surat Al-Falaq",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Damma looks like a small waw above the letter. Read a short “o” on any letter. Letter plus damma equals the letter's sound plus o.",
+      "title": "Damma"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الفَلَقِ",
+      "aud": "c-1-ar",
+      "tr": "soorato alfalaqe"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Falaq. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Falaq",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ ﴿١﴾ مِن شَرِّ مَا خَلَقَ ﴿٢﴾ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ﴿٣﴾ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ ﴿٤﴾ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ﴿٥﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "o",
+      "ar": "أُ",
+      "en": "Damma",
+      "tr": "o"
+    },
+    {
+      "id": "bo",
+      "ar": "بُ",
+      "en": "Damma",
+      "tr": "bo"
+    },
+    {
+      "id": "to",
+      "ar": "تُ",
+      "en": "Damma",
+      "tr": "to"
+    },
+    {
+      "id": "tho",
+      "ar": "ثُ",
+      "en": "Damma",
+      "tr": "tho"
+    },
+    {
+      "id": "jo",
+      "ar": "جُ",
+      "en": "Damma",
+      "tr": "jo"
+    },
+    {
+      "id": "ho",
+      "ar": "حُ",
+      "en": "Damma",
+      "tr": "ho"
+    },
+    {
+      "id": "kho",
+      "ar": "خُ",
+      "en": "Damma",
+      "tr": "kho"
+    },
+    {
+      "id": "do",
+      "ar": "دُ",
+      "en": "Damma",
+      "tr": "do"
+    },
+    {
+      "id": "dho",
+      "ar": "ذُ",
+      "en": "Damma",
+      "tr": "dho"
+    },
+    {
+      "id": "ro",
+      "ar": "رُ",
+      "en": "Damma",
+      "tr": "ro"
+    },
+    {
+      "id": "zo",
+      "ar": "زُ",
+      "en": "Damma",
+      "tr": "zo"
+    },
+    {
+      "id": "so",
+      "ar": "سُ",
+      "en": "Damma",
+      "tr": "so"
+    },
+    {
+      "id": "sho",
+      "ar": "شُ",
+      "en": "Damma",
+      "tr": "sho"
+    },
+    {
+      "id": "so2",
+      "ar": "صُ",
+      "en": "Damma",
+      "tr": "so"
+    },
+    {
+      "id": "do2",
+      "ar": "ضُ",
+      "en": "Damma",
+      "tr": "do"
+    },
+    {
+      "id": "to2",
+      "ar": "طُ",
+      "en": "Damma",
+      "tr": "to"
+    },
+    {
+      "id": "dho2",
+      "ar": "ظُ",
+      "en": "Damma",
+      "tr": "dho"
+    },
+    {
+      "id": "o2",
+      "ar": "عُ",
+      "en": "Damma",
+      "tr": "o"
+    },
+    {
+      "id": "gho",
+      "ar": "غُ",
+      "en": "Damma",
+      "tr": "gho"
+    },
+    {
+      "id": "fo",
+      "ar": "فُ",
+      "en": "Damma",
+      "tr": "fo"
+    },
+    {
+      "id": "qo",
+      "ar": "قُ",
+      "en": "Damma",
+      "tr": "qo"
+    },
+    {
+      "id": "ko",
+      "ar": "كُ",
+      "en": "Damma",
+      "tr": "ko"
+    },
+    {
+      "id": "lo",
+      "ar": "لُ",
+      "en": "Damma",
+      "tr": "lo"
+    },
+    {
+      "id": "mo",
+      "ar": "مُ",
+      "en": "Damma",
+      "tr": "mo"
+    },
+    {
+      "id": "no",
+      "ar": "نُ",
+      "en": "Damma",
+      "tr": "no"
+    },
+    {
+      "id": "ho2",
+      "ar": "هُ",
+      "en": "Damma",
+      "tr": "ho"
+    },
+    {
+      "id": "wo",
+      "ar": "وُ",
+      "en": "Damma",
+      "tr": "wo"
+    },
+    {
+      "id": "yo",
+      "ar": "يُ",
+      "en": "Damma",
+      "tr": "yo"
+    },
+    {
+      "id": "hodea",
+      "ar": "هُدِىَ",
+      "en": "Damma",
+      "tr": "hodea"
+    },
+    {
+      "id": "noqera",
+      "ar": "نُقِرَ",
+      "en": "Damma",
+      "tr": "noqera"
+    },
+    {
+      "id": "ofeka",
+      "ar": "أُفِكَ",
+      "en": "Damma",
+      "tr": "ofeka"
+    },
+    {
+      "id": "soqeta",
+      "ar": "سُقِطَ",
+      "en": "Damma",
+      "tr": "soqeta"
+    },
+    {
+      "id": "soela",
+      "ar": "سُئِلَ",
+      "en": "Damma",
+      "tr": "so'ela"
+    },
+    {
+      "id": "qorea",
+      "ar": "قُرِئَ",
+      "en": "Damma",
+      "tr": "qore'a"
+    },
+    {
+      "id": "dhobeha",
+      "ar": "ذُبِحَ",
+      "en": "Damma",
+      "tr": "dhobeha"
+    },
+    {
+      "id": "tasefo",
+      "ar": "تَصِفُ",
+      "en": "Damma",
+      "tr": "tasefo"
+    },
+    {
+      "id": "rosolo",
+      "ar": "رُسُلُ",
+      "en": "Damma",
+      "tr": "rosolo"
+    },
+    {
+      "id": "taselo",
+      "ar": "تَصِلُ",
+      "en": "Damma",
+      "tr": "taselo"
+    },
+    {
+      "id": "mathalo",
+      "ar": "مَثَلُ",
+      "en": "Damma",
+      "tr": "mathalo"
+    },
+    {
+      "id": "hasabo",
+      "ar": "حَصَبُ",
+      "en": "Damma",
+      "tr": "hasabo"
+    },
+    {
+      "id": "yakone",
+      "ar": "يَكُنِ",
+      "en": "Damma",
+      "tr": "yakone"
+    },
+    {
+      "id": "kabora",
+      "ar": "كَبُرَ",
+      "en": "Damma",
+      "tr": "kabora"
+    },
+    {
+      "id": "sobola",
+      "ar": "سُبُلَ",
+      "en": "Damma",
+      "tr": "sobola"
+    },
+    {
+      "id": "yohene",
+      "ar": "يُهِنِ",
+      "en": "Damma",
+      "tr": "yohene"
+    },
+    {
+      "id": "me",
+      "ar": "مِ",
+      "en": "Damma",
+      "tr": "me"
+    },
+    {
+      "id": "a",
+      "ar": "عَ",
+      "en": "Damma",
+      "tr": "a"
+    },
+    {
+      "id": "jomea",
+      "ar": "جُمِعَ",
+      "en": "Damma",
+      "tr": "jome'a"
+    },
+    {
+      "id": "re",
+      "ar": "رِ",
+      "en": "Damma",
+      "tr": "re"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Damma",
+      "tr": "ya"
+    },
+    {
+      "id": "thoreya",
+      "ar": "ثُرِيَ",
+      "en": "Damma",
+      "tr": "thoreya"
+    },
+    {
+      "id": "ma",
+      "ar": "مَ",
+      "en": "Damma",
+      "tr": "ma"
+    },
+    {
+      "id": "matholo",
+      "ar": "مَثُلُ",
+      "en": "Damma",
+      "tr": "matholo"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Damma",
+      "tr": "na"
+    },
+    {
+      "id": "nadhoro",
+      "ar": "نَذُرُ",
+      "en": "Damma",
+      "tr": "nadhoro"
+    },
+    {
+      "id": "ha",
+      "ar": "حَ",
+      "en": "Damma",
+      "tr": "ha"
+    },
+    {
+      "id": "hasona",
+      "ar": "حَسُنَ",
+      "en": "Damma",
+      "tr": "hasona"
+    },
+    {
+      "id": "toteo",
+      "ar": "تُطِعُ",
+      "en": "Damma",
+      "tr": "tote'o"
+    },
+    {
+      "id": "joela",
+      "ar": "جُعِلَ",
+      "en": "Damma",
+      "tr": "jo'ela"
+    },
+    {
+      "id": "tajedo",
+      "ar": "تَجِدُ",
+      "en": "Damma",
+      "tr": "tajedo"
+    },
+    {
+      "id": "kholeqa",
+      "ar": "خُلِقَ",
+      "en": "Damma",
+      "tr": "kholeqa"
+    },
+    {
+      "id": "hoshera",
+      "ar": "حُشِرَ",
+      "en": "Damma",
+      "tr": "hoshera"
+    },
+    {
+      "id": "yaretho",
+      "ar": "يَرِثُ",
+      "en": "Damma",
+      "tr": "yaretho"
+    },
+    {
+      "id": "odhena",
+      "ar": "أُذِنَ",
+      "en": "Damma",
+      "tr": "odhena"
+    },
+    {
+      "id": "khabotha",
+      "ar": "خَبُثَ",
+      "en": "Damma",
+      "tr": "khabotha"
+    },
+    {
+      "id": "wodea",
+      "ar": "وُضِعَ",
+      "en": "Damma",
+      "tr": "wode'a"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Damma is written above the letter.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does damma make?",
+      "opts": [
+        [
+          "",
+          "o",
+          1
+        ],
+        [
+          "",
+          "a",
+          0
+        ],
+        [
+          "",
+          "e",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثُ reads “tho”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? تَصِفُ reads “tasefo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find damma in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Damma: Read damma and recite Surat Al-Falaq.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l04.mp4",
+    "poster": "media/qra1-l04-poster.jpg"
+  }
+}

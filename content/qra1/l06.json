@@ -1,0 +1,532 @@
+{
+  "id": "qra1-l06",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 6. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "مَدُّ الْيَاءِ",
+    "en": "Madd Yaa"
+  },
+  "topic": "Read madd yaa and recite Surat Al-Masad",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Madd Yaa is the letter yaa with no sign on it, after a kasra. It stretches the kasra: the sound becomes double, “ee”.",
+      "title": "Madd Yaa"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْمَسَدِ",
+      "aud": "c-1-ar",
+      "tr": "soorato almasade"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Masad. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Masad",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ ﴿١﴾ مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ ﴿٢﴾ سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ ﴿٣﴾ وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ ﴿٤﴾ فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ ﴿٥﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "je",
+      "ar": "جِى",
+      "en": "Madd Yaa",
+      "tr": "je"
+    },
+    {
+      "id": "bee",
+      "ar": "بِي",
+      "en": "Madd Yaa",
+      "tr": "bee"
+    },
+    {
+      "id": "tee",
+      "ar": "تِي",
+      "en": "Madd Yaa",
+      "tr": "tee"
+    },
+    {
+      "id": "thee",
+      "ar": "ثِي",
+      "en": "Madd Yaa",
+      "tr": "thee"
+    },
+    {
+      "id": "jee",
+      "ar": "جِي",
+      "en": "Madd Yaa",
+      "tr": "jee"
+    },
+    {
+      "id": "hee",
+      "ar": "حِي",
+      "en": "Madd Yaa",
+      "tr": "hee"
+    },
+    {
+      "id": "khee",
+      "ar": "خِي",
+      "en": "Madd Yaa",
+      "tr": "khee"
+    },
+    {
+      "id": "dee",
+      "ar": "دِي",
+      "en": "Madd Yaa",
+      "tr": "dee"
+    },
+    {
+      "id": "dhee",
+      "ar": "ذِي",
+      "en": "Madd Yaa",
+      "tr": "dhee"
+    },
+    {
+      "id": "ree",
+      "ar": "رِي",
+      "en": "Madd Yaa",
+      "tr": "ree"
+    },
+    {
+      "id": "zee",
+      "ar": "زِي",
+      "en": "Madd Yaa",
+      "tr": "zee"
+    },
+    {
+      "id": "see",
+      "ar": "سِي",
+      "en": "Madd Yaa",
+      "tr": "see"
+    },
+    {
+      "id": "shee",
+      "ar": "شِي",
+      "en": "Madd Yaa",
+      "tr": "shee"
+    },
+    {
+      "id": "see2",
+      "ar": "صِي",
+      "en": "Madd Yaa",
+      "tr": "see"
+    },
+    {
+      "id": "dee2",
+      "ar": "ضِي",
+      "en": "Madd Yaa",
+      "tr": "dee"
+    },
+    {
+      "id": "tee2",
+      "ar": "طِي",
+      "en": "Madd Yaa",
+      "tr": "tee"
+    },
+    {
+      "id": "dhee2",
+      "ar": "ظِي",
+      "en": "Madd Yaa",
+      "tr": "dhee"
+    },
+    {
+      "id": "ee",
+      "ar": "عِي",
+      "en": "Madd Yaa",
+      "tr": "ee"
+    },
+    {
+      "id": "ghee",
+      "ar": "غِي",
+      "en": "Madd Yaa",
+      "tr": "ghee"
+    },
+    {
+      "id": "fee",
+      "ar": "فِي",
+      "en": "Madd Yaa",
+      "tr": "fee"
+    },
+    {
+      "id": "qee",
+      "ar": "قِي",
+      "en": "Madd Yaa",
+      "tr": "qee"
+    },
+    {
+      "id": "kee",
+      "ar": "كِي",
+      "en": "Madd Yaa",
+      "tr": "kee"
+    },
+    {
+      "id": "lee",
+      "ar": "لِي",
+      "en": "Madd Yaa",
+      "tr": "lee"
+    },
+    {
+      "id": "mee",
+      "ar": "مِي",
+      "en": "Madd Yaa",
+      "tr": "mee"
+    },
+    {
+      "id": "nee",
+      "ar": "نِي",
+      "en": "Madd Yaa",
+      "tr": "nee"
+    },
+    {
+      "id": "hee2",
+      "ar": "هِي",
+      "en": "Madd Yaa",
+      "tr": "hee"
+    },
+    {
+      "id": "wee",
+      "ar": "وِي",
+      "en": "Madd Yaa",
+      "tr": "wee"
+    },
+    {
+      "id": "ee2",
+      "ar": "ءِي",
+      "en": "Madd Yaa",
+      "tr": "ee"
+    },
+    {
+      "id": "yee",
+      "ar": "يِي",
+      "en": "Madd Yaa",
+      "tr": "yee"
+    },
+    {
+      "id": "rafeeo",
+      "ar": "رَفِيعُ",
+      "en": "Madd Yaa",
+      "tr": "rafee'o"
+    },
+    {
+      "id": "badeeo",
+      "ar": "بَدِيعُ",
+      "en": "Madd Yaa",
+      "tr": "badee'o"
+    },
+    {
+      "id": "hadeetho",
+      "ar": "حَدِيثُ",
+      "en": "Madd Yaa",
+      "tr": "hadeetho"
+    },
+    {
+      "id": "yoneebo",
+      "ar": "يُنِيبُ",
+      "en": "Madd Yaa",
+      "tr": "yoneebo"
+    },
+    {
+      "id": "tameeda",
+      "ar": "تَمِيدَ",
+      "en": "Madd Yaa",
+      "tr": "tameeda"
+    },
+    {
+      "id": "yaheeqo",
+      "ar": "يَحِيقُ",
+      "en": "Madd Yaa",
+      "tr": "yaheeqo"
+    },
+    {
+      "id": "yaheejo",
+      "ar": "يَهِيجُ",
+      "en": "Madd Yaa",
+      "tr": "yaheejo"
+    },
+    {
+      "id": "wayoeedo",
+      "ar": "وَيُعِيدُ",
+      "en": "Madd Yaa",
+      "tr": "wayo'eedo"
+    },
+    {
+      "id": "wagheeda",
+      "ar": "وَغِيضَ",
+      "en": "Madd Yaa",
+      "tr": "wagheeda"
+    },
+    {
+      "id": "waheela",
+      "ar": "وَحِيلَ",
+      "en": "Madd Yaa",
+      "tr": "waheela"
+    },
+    {
+      "id": "waqeela",
+      "ar": "وَقِيلَ",
+      "en": "Madd Yaa",
+      "tr": "waqeela"
+    },
+    {
+      "id": "waakeedo",
+      "ar": "وَأَكِيدُ",
+      "en": "Madd Yaa",
+      "tr": "wa'akeedo"
+    },
+    {
+      "id": "ameena",
+      "ar": "عَمِينَ",
+      "en": "Madd Yaa",
+      "tr": "ameena"
+    },
+    {
+      "id": "fakeheena",
+      "ar": "فَكِهِينَ",
+      "en": "Madd Yaa",
+      "tr": "fakeheena"
+    },
+    {
+      "id": "moneebeena",
+      "ar": "مُنِيبِينَ",
+      "en": "Madd Yaa",
+      "tr": "moneebeena"
+    },
+    {
+      "id": "wabaneena",
+      "ar": "وَبَنِينَ",
+      "en": "Madd Yaa",
+      "tr": "wabaneena"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Madd Yaa",
+      "tr": "ya"
+    },
+    {
+      "id": "dho",
+      "ar": "ظُ",
+      "en": "Madd Yaa",
+      "tr": "dho"
+    },
+    {
+      "id": "yagheedho",
+      "ar": "يَغِيظُ",
+      "en": "Madd Yaa",
+      "tr": "yagheedho"
+    },
+    {
+      "id": "sa",
+      "ar": "صَ",
+      "en": "Madd Yaa",
+      "tr": "sa"
+    },
+    {
+      "id": "kha",
+      "ar": "خَ",
+      "en": "Madd Yaa",
+      "tr": "kha"
+    },
+    {
+      "id": "sareekha",
+      "ar": "صَرِيخَ",
+      "en": "Madd Yaa",
+      "tr": "sareekha"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Madd Yaa",
+      "tr": "na"
+    },
+    {
+      "id": "ro",
+      "ar": "رُ",
+      "en": "Madd Yaa",
+      "tr": "ro"
+    },
+    {
+      "id": "nameero",
+      "ar": "نَمِيرُ",
+      "en": "Madd Yaa",
+      "tr": "nameero"
+    },
+    {
+      "id": "se",
+      "ar": "سِ",
+      "en": "Madd Yaa",
+      "tr": "se"
+    },
+    {
+      "id": "seneena",
+      "ar": "سِنِينَ",
+      "en": "Madd Yaa",
+      "tr": "seneena"
+    },
+    {
+      "id": "wa",
+      "ar": "وَ",
+      "en": "Madd Yaa",
+      "tr": "wa"
+    },
+    {
+      "id": "de",
+      "ar": "دِ",
+      "en": "Madd Yaa",
+      "tr": "de"
+    },
+    {
+      "id": "waeede",
+      "ar": "وَعِيدِ",
+      "en": "Madd Yaa",
+      "tr": "wa'eede"
+    },
+    {
+      "id": "sabeele",
+      "ar": "سَبِيلِ",
+      "en": "Madd Yaa",
+      "tr": "sabeele"
+    },
+    {
+      "id": "fareheena",
+      "ar": "فَرِحِينَ",
+      "en": "Madd Yaa",
+      "tr": "fareheena"
+    },
+    {
+      "id": "jeedehaa",
+      "ar": "جِيدِهَا",
+      "en": "Madd Yaa",
+      "tr": "jeedehaa"
+    },
+    {
+      "id": "abaabeela",
+      "ar": "أَبَابِيلَ",
+      "en": "Madd Yaa",
+      "tr": "abaabeela"
+    },
+    {
+      "id": "maqaaleedo",
+      "ar": "مَقَالِيدُ",
+      "en": "Madd Yaa",
+      "tr": "maqaaleedo"
+    },
+    {
+      "id": "oseebo",
+      "ar": "أُصِيبُ",
+      "en": "Madd Yaa",
+      "tr": "oseebo"
+    },
+    {
+      "id": "gharaabeebo",
+      "ar": "غَرَابِيبُ",
+      "en": "Madd Yaa",
+      "tr": "gharaabeebo"
+    },
+    {
+      "id": "yadeeqo",
+      "ar": "يَضِيقُ",
+      "en": "Madd Yaa",
+      "tr": "yadeeqo"
+    },
+    {
+      "id": "baseero",
+      "ar": "بَصِيرُ",
+      "en": "Madd Yaa",
+      "tr": "baseero"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Madd Yaa stretches the kasra.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does Madd Yaa make?",
+      "opts": [
+        [
+          "",
+          "ee",
+          1
+        ],
+        [
+          "",
+          "aa",
+          0
+        ],
+        [
+          "",
+          "oo",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثِي reads “thee”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? وَغِيضَ reads “wagheeda”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find madd yaa in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Madd Yaa: Read madd yaa and recite Surat Al-Masad.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l06.mp4",
+    "poster": "media/qra1-l06-poster.jpg"
+  }
+}

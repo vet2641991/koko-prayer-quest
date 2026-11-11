@@ -1,0 +1,429 @@
+{
+  "id": "qra1-l48",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 48. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ يَاء",
+    "en": "The Letter Yaa (ي)"
+  },
+  "topic": "Read Yaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Yaa. Like y in yoyo.",
+      "title": "Meet Yaa!",
+      "ar": "ي",
+      "aud": "c-0-ar",
+      "tr": "Yaa"
+    },
+    {
+      "en": "One tooth with two dots below at the start and middle, and like a duck at the end. It connects from both sides.",
+      "title": "How to write Yaa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "يَهْدِي",
+      "tr": "yahdee"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "بَيَانٌ",
+      "tr": "bayaanon"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "يُحْيِي",
+      "tr": "yohyee"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "إِيَّاكَ",
+      "tr": "eyyaaka"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "وَلِيًّا",
+      "tr": "waleyyan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "عَلَيْهِمْ",
+      "tr": "alayhem"
+    },
+    {
+      "en": "Surat Al-Muddaththir, verse 46. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَكُنَّا نُكَذِّبُ بِيَوْمِ ٱلدِّينِ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "yalamo",
+      "ar": "يَعْلَمُ",
+      "en": "Letter in a word",
+      "tr": "ya'lamo"
+    },
+    {
+      "id": "bayta",
+      "ar": "بَيْتَ",
+      "en": "Letter in a word",
+      "tr": "bayta"
+    },
+    {
+      "id": "fee",
+      "ar": "فِي",
+      "en": "Letter in a word",
+      "tr": "fee"
+    },
+    {
+      "id": "alladhee",
+      "ar": "الَّذِي",
+      "en": "Letter in a word",
+      "tr": "alladhee"
+    },
+    {
+      "id": "yahdee",
+      "ar": "يَهْدِي",
+      "en": "Short vowels",
+      "tr": "yahdee"
+    },
+    {
+      "id": "yadaa",
+      "ar": "يَدَا",
+      "en": "Short vowels",
+      "tr": "yadaa"
+    },
+    {
+      "id": "yaraw",
+      "ar": "يَرَوْا",
+      "en": "Short vowels",
+      "tr": "yaraw"
+    },
+    {
+      "id": "maaayesha",
+      "ar": "مَعَايِشَ",
+      "en": "Short vowels",
+      "tr": "ma'aayesha"
+    },
+    {
+      "id": "wawahyenaa",
+      "ar": "وَوَحْيِنَا",
+      "en": "Short vowels",
+      "tr": "wawahyenaa"
+    },
+    {
+      "id": "lesayehe",
+      "ar": "لِسَعْيِهِ",
+      "en": "Short vowels",
+      "tr": "lesa'yehe"
+    },
+    {
+      "id": "yosran",
+      "ar": "يُسْرًا",
+      "en": "Short vowels",
+      "tr": "yosran"
+    },
+    {
+      "id": "yomenoona",
+      "ar": "يُؤْمِنُونَ",
+      "en": "Short vowels",
+      "tr": "yo'menoona"
+    },
+    {
+      "id": "yoreedo",
+      "ar": "يُرِيدُ",
+      "en": "Short vowels",
+      "tr": "yoreedo"
+    },
+    {
+      "id": "bayaanon",
+      "ar": "بَيَانٌ",
+      "en": "With Al",
+      "tr": "bayaanon"
+    },
+    {
+      "id": "alqeyaamate",
+      "ar": "الْقِيَامَةِ",
+      "en": "With Al",
+      "tr": "alqeyaamate"
+    },
+    {
+      "id": "shayaateenehem",
+      "ar": "شَيَٰطِينِهِمْ",
+      "en": "With Al",
+      "tr": "shayaateenehem"
+    },
+    {
+      "id": "yohyee",
+      "ar": "يُحْيِي",
+      "en": "Long vowels",
+      "tr": "yohyee"
+    },
+    {
+      "id": "yastahyee",
+      "ar": "يَسْتَحْيِي",
+      "en": "Long vowels",
+      "tr": "yastahyee"
+    },
+    {
+      "id": "yohyeekom",
+      "ar": "يُحْيِيكُمْ",
+      "en": "Long vowels",
+      "tr": "yohyeekom"
+    },
+    {
+      "id": "yoosofa",
+      "ar": "يُوسُفَ",
+      "en": "Long vowels",
+      "tr": "yoosofa"
+    },
+    {
+      "id": "boyooten",
+      "ar": "بُيُوتٍ",
+      "en": "Long vowels",
+      "tr": "boyooten"
+    },
+    {
+      "id": "yoooona",
+      "ar": "يُوعُونَ",
+      "en": "Long vowels",
+      "tr": "yoo'oona"
+    },
+    {
+      "id": "eyyaaka",
+      "ar": "إِيَّاكَ",
+      "en": "Shaddah",
+      "tr": "eyyaaka"
+    },
+    {
+      "id": "ayyaaman",
+      "ar": "أَيَّامًا",
+      "en": "Shaddah",
+      "tr": "ayyaaman"
+    },
+    {
+      "id": "assayyaarate",
+      "ar": "السَّيَّارَةِ",
+      "en": "Shaddah",
+      "tr": "assayyaarate"
+    },
+    {
+      "id": "tayyebaate",
+      "ar": "طَيِّبَاتِ",
+      "en": "Shaddah",
+      "tr": "tayyebaate"
+    },
+    {
+      "id": "assayyeaate",
+      "ar": "السَّيِّئَاتِ",
+      "en": "Shaddah",
+      "tr": "assayye'aate"
+    },
+    {
+      "id": "waalnnabeyyeena",
+      "ar": "وَالنَّبِيِّينَ",
+      "en": "Shaddah",
+      "tr": "waalnnabeyyeena"
+    },
+    {
+      "id": "ayyohaa",
+      "ar": "أَيُّهَا",
+      "en": "Shaddah",
+      "tr": "ayyohaa"
+    },
+    {
+      "id": "alqayyoomo",
+      "ar": "الْقَيُّومُ",
+      "en": "Shaddah",
+      "tr": "alqayyoomo"
+    },
+    {
+      "id": "ayyokom",
+      "ar": "أَيُّكُمْ",
+      "en": "Shaddah",
+      "tr": "ayyokom"
+    },
+    {
+      "id": "waleyyan",
+      "ar": "وَلِيًّا",
+      "en": "Tanween",
+      "tr": "waleyyan"
+    },
+    {
+      "id": "sabeyyan",
+      "ar": "صَبِيًّا",
+      "en": "Tanween",
+      "tr": "sabeyyan"
+    },
+    {
+      "id": "bagheyyan",
+      "ar": "بَغِيًّا",
+      "en": "Tanween",
+      "tr": "bagheyyan"
+    },
+    {
+      "id": "nabeyyen",
+      "ar": "نَبِيٍّ",
+      "en": "Tanween",
+      "tr": "nabeyyen"
+    },
+    {
+      "id": "waleyyen",
+      "ar": "وَلِيٍّ",
+      "en": "Tanween",
+      "tr": "waleyyen"
+    },
+    {
+      "id": "khafeyyen",
+      "ar": "خَفِيٍّ",
+      "en": "Tanween",
+      "tr": "khafeyyen"
+    },
+    {
+      "id": "wahyon",
+      "ar": "وَحْيٌ",
+      "en": "Tanween",
+      "tr": "wahyon"
+    },
+    {
+      "id": "ghaneyyon",
+      "ar": "غَنِيٌّ",
+      "en": "Tanween",
+      "tr": "ghaneyyon"
+    },
+    {
+      "id": "shaqeyyon",
+      "ar": "شَقِيٌّ",
+      "en": "Tanween",
+      "tr": "shaqeyyon"
+    },
+    {
+      "id": "alayhem",
+      "ar": "عَلَيْهِمْ",
+      "en": "Sukoon",
+      "tr": "alayhem"
+    },
+    {
+      "id": "alghaybe",
+      "ar": "الْغَيْبِ",
+      "en": "Sukoon",
+      "tr": "alghaybe"
+    },
+    {
+      "id": "qorayshen",
+      "ar": "قُرَيْشٍ",
+      "en": "Sukoon",
+      "tr": "qorayshen"
+    },
+    {
+      "id": "alyawma",
+      "ar": "الْيَوْمَ",
+      "en": "With Al",
+      "tr": "alyawma"
+    },
+    {
+      "id": "alyataamaa",
+      "ar": "الْيَتَامَىٰ",
+      "en": "With Al",
+      "tr": "alyataamaa"
+    },
+    {
+      "id": "alyaqeeno",
+      "ar": "الْيَقِينُ",
+      "en": "With Al",
+      "tr": "alyaqeeno"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ي?",
+      "opts": [
+        [
+          "",
+          "Yaa",
+          1
+        ],
+        [
+          "",
+          "Jeem",
+          0
+        ],
+        [
+          "",
+          "Zaay",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ي connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الَّذِي reads “alladhee”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? السَّيِّئَاتِ reads “assayye'aate”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ي in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Yaa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Yaa (ي): Read Yaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l48.mp4",
+    "poster": "media/qra1-l48-poster.jpg"
+  }
+}

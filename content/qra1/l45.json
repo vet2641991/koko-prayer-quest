@@ -1,0 +1,423 @@
+{
+  "id": "qra1-l45",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 45. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ نُون",
+    "en": "The Letter Noon (ن)"
+  },
+  "topic": "Read Noon with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Noon. Like n in night.",
+      "title": "Meet Noon!",
+      "ar": "ن",
+      "aud": "c-0-ar",
+      "tr": "Noon"
+    },
+    {
+      "en": "A bowl with a dot inside. It connects from both sides.",
+      "title": "How to write Noon"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "نَصْرُ",
+      "tr": "nasro"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "نَاصِبَةٌ",
+      "tr": "naasebaton"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "مُنِيرًا",
+      "tr": "moneeran"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "إِنَّ",
+      "tr": "enna"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "حَسَنًا",
+      "tr": "hasanan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "أَنْعَمْتَ",
+      "tr": "an'amta"
+    },
+    {
+      "en": "Surat At-Takwir, verse 2. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "nooro",
+      "ar": "نُورُ",
+      "en": "Letter in a word",
+      "tr": "nooro"
+    },
+    {
+      "id": "jannata",
+      "ar": "جَنَّةَ",
+      "en": "Letter in a word",
+      "tr": "jannata"
+    },
+    {
+      "id": "men",
+      "ar": "مِنْ",
+      "en": "Letter in a word",
+      "tr": "men"
+    },
+    {
+      "id": "kaana",
+      "ar": "كَانَ",
+      "en": "Letter in a word",
+      "tr": "kaana"
+    },
+    {
+      "id": "nasro",
+      "ar": "نَصْرُ",
+      "en": "Short vowels",
+      "tr": "nasro"
+    },
+    {
+      "id": "nafaate",
+      "ar": "نَفَعَتِ",
+      "en": "Short vowels",
+      "tr": "nafa'ate"
+    },
+    {
+      "id": "nakhlen",
+      "ar": "نَخْلٍ",
+      "en": "Short vowels",
+      "tr": "nakhlen"
+    },
+    {
+      "id": "nesaaokom",
+      "ar": "نِسَاؤُكُمْ",
+      "en": "Short vowels",
+      "tr": "nesaa'okom"
+    },
+    {
+      "id": "nemata",
+      "ar": "نِعْمَةَ",
+      "en": "Short vowels",
+      "tr": "ne'mata"
+    },
+    {
+      "id": "nedaaan",
+      "ar": "نِدَاءً",
+      "en": "Short vowels",
+      "tr": "nedaa'an"
+    },
+    {
+      "id": "nofekha",
+      "ar": "نُفِخَ",
+      "en": "Short vowels",
+      "tr": "nofekha"
+    },
+    {
+      "id": "nozolan",
+      "ar": "نُزُلًا",
+      "en": "Short vowels",
+      "tr": "nozolan"
+    },
+    {
+      "id": "nooron",
+      "ar": "نُورٌ",
+      "en": "Short vowels",
+      "tr": "nooron"
+    },
+    {
+      "id": "naasebaton",
+      "ar": "نَاصِبَةٌ",
+      "en": "With Al",
+      "tr": "naasebaton"
+    },
+    {
+      "id": "naaron",
+      "ar": "نَارٌ",
+      "en": "With Al",
+      "tr": "naaron"
+    },
+    {
+      "id": "naaqato",
+      "ar": "نَاقَةُ",
+      "en": "With Al",
+      "tr": "naaqato"
+    },
+    {
+      "id": "moneeran",
+      "ar": "مُنِيرًا",
+      "en": "Long vowels",
+      "tr": "moneeran"
+    },
+    {
+      "id": "seneena",
+      "ar": "سِنِينَ",
+      "en": "Long vowels",
+      "tr": "seneena"
+    },
+    {
+      "id": "banee",
+      "ar": "بَنِي",
+      "en": "Long vowels",
+      "tr": "banee"
+    },
+    {
+      "id": "noohan",
+      "ar": "نُوحًا",
+      "en": "Long vowels",
+      "tr": "noohan"
+    },
+    {
+      "id": "aljonoode",
+      "ar": "الْجُنُودِ",
+      "en": "Long vowels",
+      "tr": "aljonoode"
+    },
+    {
+      "id": "dhanoobe",
+      "ar": "ذَنُوبِ",
+      "en": "Long vowels",
+      "tr": "dhanoobe"
+    },
+    {
+      "id": "enna",
+      "ar": "إِنَّ",
+      "en": "Shaddah",
+      "tr": "enna"
+    },
+    {
+      "id": "annaase",
+      "ar": "النَّاسِ",
+      "en": "Shaddah",
+      "tr": "annaase"
+    },
+    {
+      "id": "mannaaen",
+      "ar": "مَنَّاعٍ",
+      "en": "Shaddah",
+      "tr": "mannaa'en"
+    },
+    {
+      "id": "ennee",
+      "ar": "إِنِّي",
+      "en": "Shaddah",
+      "tr": "ennee"
+    },
+    {
+      "id": "annesaae",
+      "ar": "النِّسَاءِ",
+      "en": "Shaddah",
+      "tr": "annesaa'e"
+    },
+    {
+      "id": "mennee",
+      "ar": "مِنِّي",
+      "en": "Shaddah",
+      "tr": "mennee"
+    },
+    {
+      "id": "yadhonnoona",
+      "ar": "يَظُنُّونَ",
+      "en": "Shaddah",
+      "tr": "yadhonnoona"
+    },
+    {
+      "id": "annoore",
+      "ar": "النُّورِ",
+      "en": "Shaddah",
+      "tr": "annoore"
+    },
+    {
+      "id": "annoshooro",
+      "ar": "النُّشُورُ",
+      "en": "Shaddah",
+      "tr": "annoshooro"
+    },
+    {
+      "id": "hasanan",
+      "ar": "حَسَنًا",
+      "en": "Tanween",
+      "tr": "hasanan"
+    },
+    {
+      "id": "labanan",
+      "ar": "لَبَنًا",
+      "en": "Tanween",
+      "tr": "labanan"
+    },
+    {
+      "id": "soltaanan",
+      "ar": "سُلْطَانًا",
+      "en": "Tanween",
+      "tr": "soltaanan"
+    },
+    {
+      "id": "mmobeenen",
+      "ar": "مُّبِينٍ",
+      "en": "Tanween",
+      "tr": "mmobeenen"
+    },
+    {
+      "id": "ameenen",
+      "ar": "أَمِينٍ",
+      "en": "Tanween",
+      "tr": "ameenen"
+    },
+    {
+      "id": "heenen",
+      "ar": "حِينٍ",
+      "en": "Tanween",
+      "tr": "heenen"
+    },
+    {
+      "id": "aynon",
+      "ar": "عَيْنٌ",
+      "en": "Tanween",
+      "tr": "aynon"
+    },
+    {
+      "id": "odhonon",
+      "ar": "أُذُنٌ",
+      "en": "Tanween",
+      "tr": "odhonon"
+    },
+    {
+      "id": "soltaanon",
+      "ar": "سُلْطَانٌ",
+      "en": "Tanween",
+      "tr": "soltaanon"
+    },
+    {
+      "id": "anamta",
+      "ar": "أَنْعَمْتَ",
+      "en": "Sukoon",
+      "tr": "an'amta"
+    },
+    {
+      "id": "yanhawna",
+      "ar": "يَنْهَوْنَ",
+      "en": "Sukoon",
+      "tr": "yanhawna"
+    },
+    {
+      "id": "annaaro",
+      "ar": "النَّارُ",
+      "en": "With Al",
+      "tr": "annaaro"
+    },
+    {
+      "id": "annahaare",
+      "ar": "النَّهَارِ",
+      "en": "With Al",
+      "tr": "annahaare"
+    },
+    {
+      "id": "annojoomo",
+      "ar": "النُّجُومُ",
+      "en": "With Al",
+      "tr": "annojoomo"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ن?",
+      "opts": [
+        [
+          "",
+          "Noon",
+          1
+        ],
+        [
+          "",
+          "Baa",
+          0
+        ],
+        [
+          "",
+          "Daal",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ن connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? كَانَ reads “kaana”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? إِنِّي reads “ennee”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ن in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Noon! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Noon (ن): Read Noon with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l45.mp4",
+    "poster": "media/qra1-l45-poster.jpg"
+  }
+}

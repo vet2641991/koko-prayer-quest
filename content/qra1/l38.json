@@ -1,0 +1,405 @@
+{
+  "id": "qra1-l38",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 38. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ عَيْن",
+    "en": "The Letter Ayn (ع)"
+  },
+  "topic": "Read Ayn with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Ayn. There is nothing like it in English.",
+      "title": "Meet Ayn!",
+      "ar": "ع",
+      "aud": "c-0-ar",
+      "tr": "Ayn"
+    },
+    {
+      "en": "A big C with a smaller c on top. It connects from both sides.",
+      "title": "How to write Ayn"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "عَلَقٍ",
+      "tr": "alaqen"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "الْعَالَمِينَ",
+      "tr": "al'aalameena"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "نَعِيمٍ",
+      "tr": "na'eemen"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "نَعَّمَهُ",
+      "tr": "na''amaho"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "جَمِيعًا",
+      "tr": "jamee'an"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "نَعْبُدُ",
+      "tr": "na'bodo"
+    },
+    {
+      "en": "Surat Al-Baqarah, verse 7. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَلَهُمْ عَذَابٌ عَظِيمٌۭ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "aleemon",
+      "ar": "عَلِيمٌ",
+      "en": "Letter in a word",
+      "tr": "aleemon"
+    },
+    {
+      "id": "yalamo",
+      "ar": "يَعْلَمُ",
+      "en": "Letter in a word",
+      "tr": "ya'lamo"
+    },
+    {
+      "id": "rakaa",
+      "ar": "رَكَعَ",
+      "en": "Letter in a word",
+      "tr": "raka'a"
+    },
+    {
+      "id": "jooen",
+      "ar": "جُوعٍ",
+      "en": "Letter in a word",
+      "tr": "joo'en"
+    },
+    {
+      "id": "alaqen",
+      "ar": "عَلَقٍ",
+      "en": "Short vowels",
+      "tr": "alaqen"
+    },
+    {
+      "id": "amela",
+      "ar": "عَمِلَ",
+      "en": "Short vowels",
+      "tr": "amela"
+    },
+    {
+      "id": "adhaabon",
+      "ar": "عَذَابٌ",
+      "en": "Short vowels",
+      "tr": "adhaabon"
+    },
+    {
+      "id": "elman",
+      "ar": "عِلْمًا",
+      "en": "Short vowels",
+      "tr": "elman"
+    },
+    {
+      "id": "ebaadeya",
+      "ar": "عِبَادِيَ",
+      "en": "Short vowels",
+      "tr": "ebaadeya"
+    },
+    {
+      "id": "enaban",
+      "ar": "عِنَبًا",
+      "en": "Short vowels",
+      "tr": "enaban"
+    },
+    {
+      "id": "oyoonen",
+      "ar": "عُيُونٍ",
+      "en": "Short vowels",
+      "tr": "oyoonen"
+    },
+    {
+      "id": "aloqade",
+      "ar": "الْعُقَدِ",
+      "en": "Short vowels",
+      "tr": "al'oqade"
+    },
+    {
+      "id": "onoqehe",
+      "ar": "عُنُقِهِ",
+      "en": "Short vowels",
+      "tr": "onoqehe"
+    },
+    {
+      "id": "alaalameena",
+      "ar": "الْعَالَمِينَ",
+      "en": "With Al",
+      "tr": "al'aalameena"
+    },
+    {
+      "id": "alaaqebato",
+      "ar": "الْعَاقِبَةُ",
+      "en": "With Al",
+      "tr": "al'aaqebato"
+    },
+    {
+      "id": "taaamo",
+      "ar": "طَعَامُ",
+      "en": "With Al",
+      "tr": "ta'aamo"
+    },
+    {
+      "id": "naeemen",
+      "ar": "نَعِيمٍ",
+      "en": "Long vowels",
+      "tr": "na'eemen"
+    },
+    {
+      "id": "bebaeeden",
+      "ar": "بِبَعِيدٍ",
+      "en": "Long vowels",
+      "tr": "beba'eeden"
+    },
+    {
+      "id": "saeedon",
+      "ar": "سَعِيدٌ",
+      "en": "Long vowels",
+      "tr": "sa'eedon"
+    },
+    {
+      "id": "qooodan",
+      "ar": "قُعُودًا",
+      "en": "Long vowels",
+      "tr": "qo'oodan"
+    },
+    {
+      "id": "almaaoona",
+      "ar": "الْمَاعُونَ",
+      "en": "Long vowels",
+      "tr": "almaa'oona"
+    },
+    {
+      "id": "yadoona",
+      "ar": "يَدْعُونَ",
+      "en": "Long vowels",
+      "tr": "yad'oona"
+    },
+    {
+      "id": "naamaho",
+      "ar": "نَعَّمَهُ",
+      "en": "Shaddah",
+      "tr": "na''amaho"
+    },
+    {
+      "id": "faaalon",
+      "ar": "فَعَّالٌ",
+      "en": "Shaddah",
+      "tr": "fa''aalon"
+    },
+    {
+      "id": "daan",
+      "ar": "دَعًّا",
+      "en": "Shaddah",
+      "tr": "da''an"
+    },
+    {
+      "id": "soerat",
+      "ar": "سُعِّرَتْ",
+      "en": "Shaddah",
+      "tr": "so''erat"
+    },
+    {
+      "id": "yadoo",
+      "ar": "يَدُعُّ",
+      "en": "Shaddah",
+      "tr": "yado''o"
+    },
+    {
+      "id": "yodaoona",
+      "ar": "يُدَعُّونَ",
+      "en": "Shaddah",
+      "tr": "yoda''oona"
+    },
+    {
+      "id": "jameean",
+      "ar": "جَمِيعًا",
+      "en": "Tanween",
+      "tr": "jamee'an"
+    },
+    {
+      "id": "mataaan",
+      "ar": "مَتَاعًا",
+      "en": "Tanween",
+      "tr": "mataa'an"
+    },
+    {
+      "id": "seraaan",
+      "ar": "سِرَاعًا",
+      "en": "Tanween",
+      "tr": "seraa'an"
+    },
+    {
+      "id": "dareeen",
+      "ar": "ضَرِيعٍ",
+      "en": "Tanween",
+      "tr": "daree'en"
+    },
+    {
+      "id": "shafeeen",
+      "ar": "شَفِيعٍ",
+      "en": "Tanween",
+      "tr": "shafee'en"
+    },
+    {
+      "id": "daafeen",
+      "ar": "دَافِعٍ",
+      "en": "Tanween",
+      "tr": "daafe'en"
+    },
+    {
+      "id": "sameeon",
+      "ar": "سَمِيعٌ",
+      "en": "Tanween",
+      "tr": "samee'on"
+    },
+    {
+      "id": "mataaon",
+      "ar": "مَتَاعٌ",
+      "en": "Tanween",
+      "tr": "mataa'on"
+    },
+    {
+      "id": "lawaaqeon",
+      "ar": "لَوَاقِعٌ",
+      "en": "Tanween",
+      "tr": "lawaaqe'on"
+    },
+    {
+      "id": "nabodo",
+      "ar": "نَعْبُدُ",
+      "en": "Sukoon",
+      "tr": "na'bodo"
+    },
+    {
+      "id": "waasma",
+      "ar": "وَاسْمَعْ",
+      "en": "Sukoon",
+      "tr": "waasma"
+    },
+    {
+      "id": "aladheemo",
+      "ar": "الْعَظِيمُ",
+      "en": "With Al",
+      "tr": "al'adheemo"
+    },
+    {
+      "id": "waalasre",
+      "ar": "وَالْعَصْرِ",
+      "en": "With Al",
+      "tr": "waal'asre"
+    },
+    {
+      "id": "alaleemo",
+      "ar": "الْعَلِيمُ",
+      "en": "With Al",
+      "tr": "al'aleemo"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ع?",
+      "opts": [
+        [
+          "",
+          "Ayn",
+          1
+        ],
+        [
+          "",
+          "Laam",
+          0
+        ],
+        [
+          "",
+          "Alif and Hamza",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ع connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? جُوعٍ reads “joo'en”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? دَعًّا reads “da''an”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ع in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Ayn! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Ayn (ع): Read Ayn with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l38.mp4",
+    "poster": "media/qra1-l38-poster.jpg"
+  }
+}

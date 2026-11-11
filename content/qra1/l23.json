@@ -1,0 +1,465 @@
+{
+  "id": "qra1-l23",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 23. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ تَاء",
+    "en": "The Letter Taa (ت)"
+  },
+  "topic": "Read Taa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Taa. A light, soft t.",
+      "title": "Meet Taa!",
+      "ar": "ت",
+      "aud": "c-0-ar",
+      "tr": "Taa"
+    },
+    {
+      "en": "Like a dish with two dots above. It connects from both sides.",
+      "title": "How to write Taa"
+    },
+    {
+      "en": "Closed taa: listen and read.",
+      "title": "Closed taa",
+      "ar": "الْمَلْعُونَةَ",
+      "tr": "almal'oonata"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "تُلِيَ",
+      "tr": "toleya"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "تُوبُوا",
+      "tr": "tooboo"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "تَابَ",
+      "tr": "taaba"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "التُّرَابُ",
+      "tr": "attoraabo"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "جَنَّاتٌ",
+      "tr": "jannaaton"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "فِتْنَةَ",
+      "tr": "fetnata"
+    },
+    {
+      "en": "Surat Al-Muzzammil, verse 4. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا",
+      "aud": "c-9-ar"
+    },
+    {
+      "en": "Surat At-Tin, verse 1. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "aud": "c-10-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "tamro",
+      "ar": "تَمْرُ",
+      "en": "Letter in a word",
+      "tr": "tamro"
+    },
+    {
+      "id": "koteba",
+      "ar": "كُتِبَ",
+      "en": "Letter in a word",
+      "tr": "koteba"
+    },
+    {
+      "id": "bayte",
+      "ar": "بَيْتِ",
+      "en": "Letter in a word",
+      "tr": "bayte"
+    },
+    {
+      "id": "towto",
+      "ar": "تُوْتُ",
+      "en": "Letter in a word",
+      "tr": "towto"
+    },
+    {
+      "id": "almaloonata",
+      "ar": "الْمَلْعُونَةَ",
+      "en": "Closed taa",
+      "tr": "almal'oonata"
+    },
+    {
+      "id": "alqaareato",
+      "ar": "الْقَارِعَةُ",
+      "en": "Closed taa",
+      "tr": "alqaare'ato"
+    },
+    {
+      "id": "alqeyaamate",
+      "ar": "الْقِيَامَةِ",
+      "en": "Closed taa",
+      "tr": "alqeyaamate"
+    },
+    {
+      "id": "ashshajarata",
+      "ar": "الشَّجَرَةَ",
+      "en": "Closed taa",
+      "tr": "ashshajarata"
+    },
+    {
+      "id": "azzakaata",
+      "ar": "الزَّكَاةَ",
+      "en": "Closed taa",
+      "tr": "azzakaata"
+    },
+    {
+      "id": "assalaata",
+      "ar": "الصَّلَاٰةَ",
+      "en": "Closed taa",
+      "tr": "assalaata"
+    },
+    {
+      "id": "toleya",
+      "ar": "تُلِيَ",
+      "en": "Short vowels",
+      "tr": "toleya"
+    },
+    {
+      "id": "toraaben",
+      "ar": "تُرَابٍ",
+      "en": "Short vowels",
+      "tr": "toraaben"
+    },
+    {
+      "id": "tobnaa",
+      "ar": "تُبْنَا",
+      "en": "Short vowels",
+      "tr": "tobnaa"
+    },
+    {
+      "id": "tejaaraten",
+      "ar": "تِجَارَةٍ",
+      "en": "Short vowels",
+      "tr": "tejaaraten"
+    },
+    {
+      "id": "telka",
+      "ar": "تِلْكَ",
+      "en": "Short vowels",
+      "tr": "telka"
+    },
+    {
+      "id": "tebaaan",
+      "ar": "تِبَاعًا",
+      "en": "Short vowels",
+      "tr": "tebaa'an"
+    },
+    {
+      "id": "taraka",
+      "ar": "تَرَكَ",
+      "en": "Short vowels",
+      "tr": "taraka"
+    },
+    {
+      "id": "tabea",
+      "ar": "تَبِعَ",
+      "en": "Short vowels",
+      "tr": "tabe'a"
+    },
+    {
+      "id": "taraa",
+      "ar": "تَرَىٰ",
+      "en": "Short vowels",
+      "tr": "taraa"
+    },
+    {
+      "id": "tooboo",
+      "ar": "تُوبُوا",
+      "en": "Long vowels",
+      "tr": "tooboo"
+    },
+    {
+      "id": "azzaytoon",
+      "ar": "الزَّيْتُون",
+      "en": "Long vowels",
+      "tr": "azzaytoon"
+    },
+    {
+      "id": "yatoobo",
+      "ar": "يَتُوبُ",
+      "en": "Long vowels",
+      "tr": "yatoobo"
+    },
+    {
+      "id": "atteene",
+      "ar": "التِّينِ",
+      "en": "Long vowels",
+      "tr": "atteene"
+    },
+    {
+      "id": "yateema",
+      "ar": "يَتِيمَ",
+      "en": "Long vowels",
+      "tr": "yateema"
+    },
+    {
+      "id": "mateene",
+      "ar": "مَتِينِ",
+      "en": "Long vowels",
+      "tr": "mateene"
+    },
+    {
+      "id": "taaba",
+      "ar": "تَابَ",
+      "en": "With Al",
+      "tr": "taaba"
+    },
+    {
+      "id": "ketaabo",
+      "ar": "كِتَابُ",
+      "en": "With Al",
+      "tr": "ketaabo"
+    },
+    {
+      "id": "mataaba",
+      "ar": "مَتَابَ",
+      "en": "With Al",
+      "tr": "mataaba"
+    },
+    {
+      "id": "attoraabo",
+      "ar": "التُّرَابُ",
+      "en": "Shaddah",
+      "tr": "attoraabo"
+    },
+    {
+      "id": "settoona",
+      "ar": "سِتُّونَ",
+      "en": "Shaddah",
+      "tr": "settoona"
+    },
+    {
+      "id": "altaqaa",
+      "ar": "الْتَقَى",
+      "en": "Shaddah",
+      "tr": "altaqaa"
+    },
+    {
+      "id": "rattel",
+      "ar": "رَتِّلْ",
+      "en": "Shaddah",
+      "tr": "rattel"
+    },
+    {
+      "id": "setteena",
+      "ar": "سِتِّينَ",
+      "en": "Shaddah",
+      "tr": "setteena"
+    },
+    {
+      "id": "hattaa",
+      "ar": "حَتَّىٰ",
+      "en": "Shaddah",
+      "tr": "hattaa"
+    },
+    {
+      "id": "fattaaho",
+      "ar": "فَتَّاحُ",
+      "en": "Shaddah",
+      "tr": "fattaaho"
+    },
+    {
+      "id": "yattaqee",
+      "ar": "يَتَّقِي",
+      "en": "Shaddah",
+      "tr": "yattaqee"
+    },
+    {
+      "id": "jannaaton",
+      "ar": "جَنَّاتٌ",
+      "en": "Tanween",
+      "tr": "jannaaton"
+    },
+    {
+      "id": "aayaaton",
+      "ar": "آيَاتٌ",
+      "en": "Tanween",
+      "tr": "aayaaton"
+    },
+    {
+      "id": "mayyeton",
+      "ar": "مَيِّتٌ",
+      "en": "Tanween",
+      "tr": "mayyeton"
+    },
+    {
+      "id": "qaanetaaten",
+      "ar": "قَانِتَاتٍ",
+      "en": "Tanween",
+      "tr": "qaanetaaten"
+    },
+    {
+      "id": "dholomaaten",
+      "ar": "ظُلُمَاتٍ",
+      "en": "Tanween",
+      "tr": "dholomaaten"
+    },
+    {
+      "id": "marraaten",
+      "ar": "مَرَّاتٍ",
+      "en": "Tanween",
+      "tr": "marraaten"
+    },
+    {
+      "id": "boyootan",
+      "ar": "بُيُوتًا",
+      "en": "Tanween",
+      "tr": "boyootan"
+    },
+    {
+      "id": "thaabetan",
+      "ar": "ثَابِتًا",
+      "en": "Tanween",
+      "tr": "thaabetan"
+    },
+    {
+      "id": "amwaatan",
+      "ar": "أَمْوَاتًا",
+      "en": "Tanween",
+      "tr": "amwaatan"
+    },
+    {
+      "id": "fetnata",
+      "ar": "فِتْنَةَ",
+      "en": "Sukoon",
+      "tr": "fetnata"
+    },
+    {
+      "id": "tatloo",
+      "ar": "تَتْلُوا",
+      "en": "Sukoon",
+      "tr": "tatloo"
+    },
+    {
+      "id": "atqaakom",
+      "ar": "أَتْقَاكُمْ",
+      "en": "Sukoon",
+      "tr": "atqaakom"
+    },
+    {
+      "id": "attawwaaba",
+      "ar": "التَّوَّابَ",
+      "en": "With Al",
+      "tr": "attawwaaba"
+    },
+    {
+      "id": "attakaathoro",
+      "ar": "التَّكَاثُرُ",
+      "en": "With Al",
+      "tr": "attakaathoro"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ت?",
+      "opts": [
+        [
+          "",
+          "Taa",
+          1
+        ],
+        [
+          "",
+          "Daal",
+          0
+        ],
+        [
+          "",
+          "Saad",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ت connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? تُوْتُ reads “towto”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? التُّرَابُ reads “attoraabo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ت in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Taa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Taa (ت): Read Taa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l23.mp4",
+    "poster": "media/qra1-l23-poster.jpg"
+  }
+}

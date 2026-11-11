@@ -224,6 +224,352 @@
       ]
     },
     {
+      "id": "qra1",
+      "code": "QRA1",
+      "en": "Quran Recitation",
+      "ar": "تِلَاوَةُ الْقُرْآنِ",
+      "tint": "#E3F3EA",
+      "ink": "#16704A",
+      "units": [
+        {
+          "id": "qra1-l01",
+          "n": "1",
+          "ar": "الْحُرُوفُ الْعَرَبِيَّةُ",
+          "en": "The Arabic Alphabet",
+          "file": "content/qra1/l01.json"
+        },
+        {
+          "id": "qra1-l02",
+          "n": "2",
+          "ar": "الْفَتْحَةُ",
+          "en": "Fatha",
+          "file": "content/qra1/l02.json"
+        },
+        {
+          "id": "qra1-l03",
+          "n": "3",
+          "ar": "الْكَسْرَةُ",
+          "en": "Kasra",
+          "file": "content/qra1/l03.json"
+        },
+        {
+          "id": "qra1-l04",
+          "n": "4",
+          "ar": "الضَّمَّةُ",
+          "en": "Damma",
+          "file": "content/qra1/l04.json"
+        },
+        {
+          "id": "qra1-l05",
+          "n": "5",
+          "ar": "مَدُّ الْأَلِفِ",
+          "en": "Madd Alif",
+          "file": "content/qra1/l05.json"
+        },
+        {
+          "id": "qra1-l06",
+          "n": "6",
+          "ar": "مَدُّ الْيَاءِ",
+          "en": "Madd Yaa",
+          "file": "content/qra1/l06.json"
+        },
+        {
+          "id": "qra1-l07",
+          "n": "7",
+          "ar": "مَدُّ الْوَاوِ",
+          "en": "Madd Waw",
+          "file": "content/qra1/l07.json"
+        },
+        {
+          "id": "qra1-l08",
+          "n": "8",
+          "ar": "السُّكُونُ",
+          "en": "Sukoon",
+          "file": "content/qra1/l08.json"
+        },
+        {
+          "id": "qra1-l09",
+          "n": "9",
+          "ar": "الشَّدَّةُ",
+          "en": "Shaddah",
+          "file": "content/qra1/l09.json"
+        },
+        {
+          "id": "qra1-l10",
+          "n": "10",
+          "ar": "الشَّدَّةُ مَعَ الْفَتْحَةِ",
+          "en": "Shaddah with fatha",
+          "file": "content/qra1/l10.json"
+        },
+        {
+          "id": "qra1-l11",
+          "n": "11",
+          "ar": "الشَّدَّةُ مَعَ الْكَسْرَةِ",
+          "en": "Shaddah with kasra",
+          "file": "content/qra1/l11.json"
+        },
+        {
+          "id": "qra1-l12",
+          "n": "12",
+          "ar": "الشَّدَّةُ مَعَ الضَّمَّةِ",
+          "en": "Shaddah with damma",
+          "file": "content/qra1/l12.json"
+        },
+        {
+          "id": "qra1-l13",
+          "n": "13",
+          "ar": "تَنْوِينُ الْفَتْحِ",
+          "en": "Tanween with fatha",
+          "file": "content/qra1/l13.json"
+        },
+        {
+          "id": "qra1-l14",
+          "n": "14",
+          "ar": "تَنْوِينُ الْكَسْرِ",
+          "en": "Tanween with kasra",
+          "file": "content/qra1/l14.json"
+        },
+        {
+          "id": "qra1-l15",
+          "n": "15",
+          "ar": "تَنْوِينُ الضَّمِّ",
+          "en": "Tanween with damma",
+          "file": "content/qra1/l15.json"
+        },
+        {
+          "id": "qra1-l16",
+          "n": "16",
+          "ar": "اللَّامُ الشَّمْسِيَّةُ",
+          "en": "Lam Shamsiyyah",
+          "file": "content/qra1/l16.json"
+        },
+        {
+          "id": "qra1-l17",
+          "n": "17",
+          "ar": "اللَّامُ الْقَمَرِيَّةُ",
+          "en": "Lam Qamariyyah",
+          "file": "content/qra1/l17.json"
+        },
+        {
+          "id": "qra1-l18",
+          "n": "18",
+          "ar": "مَدُّ اللِّينِ",
+          "en": "Madd al-Leen",
+          "file": "content/qra1/l18.json"
+        },
+        {
+          "id": "qra1-l19",
+          "n": "19",
+          "ar": "حُرُوفُ الْمَدِّ الصَّغِيرَةُ",
+          "en": "Small madd letters",
+          "file": "content/qra1/l19.json"
+        },
+        {
+          "id": "qra1-l20",
+          "n": "20",
+          "ar": "الْحُرُوفُ الْمُقَطَّعَةُ",
+          "en": "Disconnected letters",
+          "file": "content/qra1/l20.json"
+        },
+        {
+          "id": "qra1-l21",
+          "n": "21",
+          "ar": "حَرْفُ أَلِف",
+          "en": "The Letter Alif and Hamza (أ)",
+          "file": "content/qra1/l21.json"
+        },
+        {
+          "id": "qra1-l22",
+          "n": "22",
+          "ar": "حَرْفُ بَاء",
+          "en": "The Letter Baa (ب)",
+          "file": "content/qra1/l22.json"
+        },
+        {
+          "id": "qra1-l23",
+          "n": "23",
+          "ar": "حَرْفُ تَاء",
+          "en": "The Letter Taa (ت)",
+          "file": "content/qra1/l23.json"
+        },
+        {
+          "id": "qra1-l24",
+          "n": "24",
+          "ar": "حَرْفُ ثَاء",
+          "en": "The Letter Thaa (ث)",
+          "file": "content/qra1/l24.json"
+        },
+        {
+          "id": "qra1-l25",
+          "n": "25",
+          "ar": "حَرْفُ جِيم",
+          "en": "The Letter Jeem (ج)",
+          "file": "content/qra1/l25.json"
+        },
+        {
+          "id": "qra1-l26",
+          "n": "26",
+          "ar": "حَرْفُ حَاء",
+          "en": "The Letter Haa (ح)",
+          "file": "content/qra1/l26.json"
+        },
+        {
+          "id": "qra1-l27",
+          "n": "27",
+          "ar": "حَرْفُ خَاء",
+          "en": "The Letter Khaa (خ)",
+          "file": "content/qra1/l27.json"
+        },
+        {
+          "id": "qra1-l28",
+          "n": "28",
+          "ar": "حَرْفُ دَال",
+          "en": "The Letter Daal (د)",
+          "file": "content/qra1/l28.json"
+        },
+        {
+          "id": "qra1-l29",
+          "n": "29",
+          "ar": "حَرْفُ ذَال",
+          "en": "The Letter Dhaal (ذ)",
+          "file": "content/qra1/l29.json"
+        },
+        {
+          "id": "qra1-l30",
+          "n": "30",
+          "ar": "حَرْفُ رَاء",
+          "en": "The Letter Raa (ر)",
+          "file": "content/qra1/l30.json"
+        },
+        {
+          "id": "qra1-l31",
+          "n": "31",
+          "ar": "حَرْفُ زَاي",
+          "en": "The Letter Zaay (ز)",
+          "file": "content/qra1/l31.json"
+        },
+        {
+          "id": "qra1-l32",
+          "n": "32",
+          "ar": "حَرْفُ سِين",
+          "en": "The Letter Seen (س)",
+          "file": "content/qra1/l32.json"
+        },
+        {
+          "id": "qra1-l33",
+          "n": "33",
+          "ar": "حَرْفُ شِين",
+          "en": "The Letter Sheen (ش)",
+          "file": "content/qra1/l33.json"
+        },
+        {
+          "id": "qra1-l34",
+          "n": "34",
+          "ar": "حَرْفُ صَاد",
+          "en": "The Letter Saad (ص)",
+          "file": "content/qra1/l34.json"
+        },
+        {
+          "id": "qra1-l35",
+          "n": "35",
+          "ar": "حَرْفُ ضَاد",
+          "en": "The Letter Daad (ض)",
+          "file": "content/qra1/l35.json"
+        },
+        {
+          "id": "qra1-l36",
+          "n": "36",
+          "ar": "حَرْفُ طَاء",
+          "en": "The Letter Taa (heavy) (ط)",
+          "file": "content/qra1/l36.json"
+        },
+        {
+          "id": "qra1-l37",
+          "n": "37",
+          "ar": "حَرْفُ ظَاء",
+          "en": "The Letter Dhaa (ظ)",
+          "file": "content/qra1/l37.json"
+        },
+        {
+          "id": "qra1-l38",
+          "n": "38",
+          "ar": "حَرْفُ عَيْن",
+          "en": "The Letter Ayn (ع)",
+          "file": "content/qra1/l38.json"
+        },
+        {
+          "id": "qra1-l39",
+          "n": "39",
+          "ar": "حَرْفُ غَيْن",
+          "en": "The Letter Ghayn (غ)",
+          "file": "content/qra1/l39.json"
+        },
+        {
+          "id": "qra1-l40",
+          "n": "40",
+          "ar": "حَرْفُ فَاء",
+          "en": "The Letter Faa (ف)",
+          "file": "content/qra1/l40.json"
+        },
+        {
+          "id": "qra1-l41",
+          "n": "41",
+          "ar": "حَرْفُ قَاف",
+          "en": "The Letter Qaaf (ق)",
+          "file": "content/qra1/l41.json"
+        },
+        {
+          "id": "qra1-l42",
+          "n": "42",
+          "ar": "حَرْفُ كَاف",
+          "en": "The Letter Kaaf (ك)",
+          "file": "content/qra1/l42.json"
+        },
+        {
+          "id": "qra1-l43",
+          "n": "43",
+          "ar": "حَرْفُ لَام",
+          "en": "The Letter Laam (ل)",
+          "file": "content/qra1/l43.json"
+        },
+        {
+          "id": "qra1-l44",
+          "n": "44",
+          "ar": "حَرْفُ مِيم",
+          "en": "The Letter Meem (م)",
+          "file": "content/qra1/l44.json"
+        },
+        {
+          "id": "qra1-l45",
+          "n": "45",
+          "ar": "حَرْفُ نُون",
+          "en": "The Letter Noon (ن)",
+          "file": "content/qra1/l45.json"
+        },
+        {
+          "id": "qra1-l46",
+          "n": "46",
+          "ar": "حَرْفُ هَاء",
+          "en": "The Letter Haa (light) (ه)",
+          "file": "content/qra1/l46.json"
+        },
+        {
+          "id": "qra1-l47",
+          "n": "47",
+          "ar": "حَرْفُ وَاو",
+          "en": "The Letter Waaw (و)",
+          "file": "content/qra1/l47.json"
+        },
+        {
+          "id": "qra1-l48",
+          "n": "48",
+          "ar": "حَرْفُ يَاء",
+          "en": "The Letter Yaa (ي)",
+          "file": "content/qra1/l48.json"
+        }
+      ]
+    },
+    {
       "id": "ar2",
       "en": "Arabic Adventures · Book 2",
       "ar": "ARkid A2",

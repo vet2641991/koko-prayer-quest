@@ -1,0 +1,742 @@
+{
+  "id": "qra1-l18",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 18. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "مَدُّ اللِّينِ",
+    "en": "Madd al-Leen"
+  },
+  "topic": "Read Madd al-Leen and recite Surat Al-Bayyinah",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Leen means saying waw or yaa with sukoon quickly and softly after a fatha. Waw leen is said “aw”. Yaa leen is said “ay”.",
+      "title": "Madd al-Leen"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ البَيِّنَةِ",
+      "aud": "c-1-ar",
+      "tr": "soorato albayyenate"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Bayyinah. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Bayyinah",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ ﴿١﴾ رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ ﴿٢﴾ فِيهَا كُتُبٌۭ قَيِّمَةٌۭ ﴿٣﴾ وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ ﴿٤﴾ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ ﴿٥﴾ إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ ﴿٦﴾ إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ ﴿٧﴾ جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ ﴿٨﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "ay",
+      "ar": "أَيْ",
+      "en": "Madd al-Leen",
+      "tr": "ay"
+    },
+    {
+      "id": "bay",
+      "ar": "بَيْ",
+      "en": "Madd al-Leen",
+      "tr": "bay"
+    },
+    {
+      "id": "tay",
+      "ar": "تَيْ",
+      "en": "Madd al-Leen",
+      "tr": "tay"
+    },
+    {
+      "id": "thay",
+      "ar": "ثَيْ",
+      "en": "Madd al-Leen",
+      "tr": "thay"
+    },
+    {
+      "id": "jay",
+      "ar": "جَيْ",
+      "en": "Madd al-Leen",
+      "tr": "jay"
+    },
+    {
+      "id": "hay",
+      "ar": "حَيْ",
+      "en": "Madd al-Leen",
+      "tr": "hay"
+    },
+    {
+      "id": "khay",
+      "ar": "خَيْ",
+      "en": "Madd al-Leen",
+      "tr": "khay"
+    },
+    {
+      "id": "day",
+      "ar": "دَيْ",
+      "en": "Madd al-Leen",
+      "tr": "day"
+    },
+    {
+      "id": "dhay",
+      "ar": "ذَيْ",
+      "en": "Madd al-Leen",
+      "tr": "dhay"
+    },
+    {
+      "id": "ray",
+      "ar": "رَيْ",
+      "en": "Madd al-Leen",
+      "tr": "ray"
+    },
+    {
+      "id": "zay",
+      "ar": "زَيْ",
+      "en": "Madd al-Leen",
+      "tr": "zay"
+    },
+    {
+      "id": "say",
+      "ar": "سَيْ",
+      "en": "Madd al-Leen",
+      "tr": "say"
+    },
+    {
+      "id": "shay",
+      "ar": "شَيْ",
+      "en": "Madd al-Leen",
+      "tr": "shay"
+    },
+    {
+      "id": "say2",
+      "ar": "صَيْ",
+      "en": "Madd al-Leen",
+      "tr": "say"
+    },
+    {
+      "id": "day2",
+      "ar": "ضَيْ",
+      "en": "Madd al-Leen",
+      "tr": "day"
+    },
+    {
+      "id": "tay2",
+      "ar": "طَيْ",
+      "en": "Madd al-Leen",
+      "tr": "tay"
+    },
+    {
+      "id": "dhay2",
+      "ar": "ظَيْ",
+      "en": "Madd al-Leen",
+      "tr": "dhay"
+    },
+    {
+      "id": "ay2",
+      "ar": "عَيْ",
+      "en": "Madd al-Leen",
+      "tr": "ay"
+    },
+    {
+      "id": "ghay",
+      "ar": "غَيْ",
+      "en": "Madd al-Leen",
+      "tr": "ghay"
+    },
+    {
+      "id": "fay",
+      "ar": "فَيْ",
+      "en": "Madd al-Leen",
+      "tr": "fay"
+    },
+    {
+      "id": "qay",
+      "ar": "قَيْ",
+      "en": "Madd al-Leen",
+      "tr": "qay"
+    },
+    {
+      "id": "kay",
+      "ar": "كَيْ",
+      "en": "Madd al-Leen",
+      "tr": "kay"
+    },
+    {
+      "id": "lay",
+      "ar": "لَيْ",
+      "en": "Madd al-Leen",
+      "tr": "lay"
+    },
+    {
+      "id": "may",
+      "ar": "مَيْ",
+      "en": "Madd al-Leen",
+      "tr": "may"
+    },
+    {
+      "id": "nay",
+      "ar": "نَيْ",
+      "en": "Madd al-Leen",
+      "tr": "nay"
+    },
+    {
+      "id": "way",
+      "ar": "وَيْ",
+      "en": "Madd al-Leen",
+      "tr": "way"
+    },
+    {
+      "id": "hay2",
+      "ar": "هَيْ",
+      "en": "Madd al-Leen",
+      "tr": "hay"
+    },
+    {
+      "id": "yay",
+      "ar": "يَيْ",
+      "en": "Madd al-Leen",
+      "tr": "yay"
+    },
+    {
+      "id": "aw",
+      "ar": "أَوْ",
+      "en": "Madd al-Leen",
+      "tr": "aw"
+    },
+    {
+      "id": "baw",
+      "ar": "بَوْ",
+      "en": "Madd al-Leen",
+      "tr": "baw"
+    },
+    {
+      "id": "taw",
+      "ar": "تَوْ",
+      "en": "Madd al-Leen",
+      "tr": "taw"
+    },
+    {
+      "id": "thaw",
+      "ar": "ثَوْ",
+      "en": "Madd al-Leen",
+      "tr": "thaw"
+    },
+    {
+      "id": "jaw",
+      "ar": "جَوْ",
+      "en": "Madd al-Leen",
+      "tr": "jaw"
+    },
+    {
+      "id": "haw",
+      "ar": "حَوْ",
+      "en": "Madd al-Leen",
+      "tr": "haw"
+    },
+    {
+      "id": "khaw",
+      "ar": "خَوْ",
+      "en": "Madd al-Leen",
+      "tr": "khaw"
+    },
+    {
+      "id": "daw",
+      "ar": "دَوْ",
+      "en": "Madd al-Leen",
+      "tr": "daw"
+    },
+    {
+      "id": "dhaw",
+      "ar": "ذَوْ",
+      "en": "Madd al-Leen",
+      "tr": "dhaw"
+    },
+    {
+      "id": "raw",
+      "ar": "رَوْ",
+      "en": "Madd al-Leen",
+      "tr": "raw"
+    },
+    {
+      "id": "zaw",
+      "ar": "زَوْ",
+      "en": "Madd al-Leen",
+      "tr": "zaw"
+    },
+    {
+      "id": "saw",
+      "ar": "سَوْ",
+      "en": "Madd al-Leen",
+      "tr": "saw"
+    },
+    {
+      "id": "shaw",
+      "ar": "شَوْ",
+      "en": "Madd al-Leen",
+      "tr": "shaw"
+    },
+    {
+      "id": "saw2",
+      "ar": "صَوْ",
+      "en": "Madd al-Leen",
+      "tr": "saw"
+    },
+    {
+      "id": "daw2",
+      "ar": "ضَوْ",
+      "en": "Madd al-Leen",
+      "tr": "daw"
+    },
+    {
+      "id": "taw2",
+      "ar": "طَوْ",
+      "en": "Madd al-Leen",
+      "tr": "taw"
+    },
+    {
+      "id": "dhaw2",
+      "ar": "ظَوْ",
+      "en": "Madd al-Leen",
+      "tr": "dhaw"
+    },
+    {
+      "id": "aw2",
+      "ar": "عَوْ",
+      "en": "Madd al-Leen",
+      "tr": "aw"
+    },
+    {
+      "id": "ghaw",
+      "ar": "غَوْ",
+      "en": "Madd al-Leen",
+      "tr": "ghaw"
+    },
+    {
+      "id": "faw",
+      "ar": "فَوْ",
+      "en": "Madd al-Leen",
+      "tr": "faw"
+    },
+    {
+      "id": "qaw",
+      "ar": "قَوْ",
+      "en": "Madd al-Leen",
+      "tr": "qaw"
+    },
+    {
+      "id": "kaw",
+      "ar": "كَوْ",
+      "en": "Madd al-Leen",
+      "tr": "kaw"
+    },
+    {
+      "id": "law",
+      "ar": "لَوْ",
+      "en": "Madd al-Leen",
+      "tr": "law"
+    },
+    {
+      "id": "maw",
+      "ar": "مَوْ",
+      "en": "Madd al-Leen",
+      "tr": "maw"
+    },
+    {
+      "id": "naw",
+      "ar": "نَوْ",
+      "en": "Madd al-Leen",
+      "tr": "naw"
+    },
+    {
+      "id": "waw",
+      "ar": "وَوْ",
+      "en": "Madd al-Leen",
+      "tr": "waw"
+    },
+    {
+      "id": "haw2",
+      "ar": "هَوْ",
+      "en": "Madd al-Leen",
+      "tr": "haw"
+    },
+    {
+      "id": "yaw",
+      "ar": "يَوْ",
+      "en": "Madd al-Leen",
+      "tr": "yaw"
+    },
+    {
+      "id": "sharawho",
+      "ar": "شَرَوْهُ",
+      "en": "Madd al-Leen",
+      "tr": "sharawho"
+    },
+    {
+      "id": "hawla",
+      "ar": "حَوْلَ",
+      "en": "Madd al-Leen",
+      "tr": "hawla"
+    },
+    {
+      "id": "lawmata",
+      "ar": "لَوْمَةَ",
+      "en": "Madd al-Leen",
+      "tr": "lawmata"
+    },
+    {
+      "id": "hawnan",
+      "ar": "هَوْنًا",
+      "en": "Madd al-Leen",
+      "tr": "hawnan"
+    },
+    {
+      "id": "mawten",
+      "ar": "مَوْتٍ",
+      "en": "Madd al-Leen",
+      "tr": "mawten"
+    },
+    {
+      "id": "sawta",
+      "ar": "سَوْطَ",
+      "en": "Madd al-Leen",
+      "tr": "sawta"
+    },
+    {
+      "id": "qawlan",
+      "ar": "قَوْلًا",
+      "en": "Madd al-Leen",
+      "tr": "qawlan"
+    },
+    {
+      "id": "yarawna",
+      "ar": "يَرَوْنَ",
+      "en": "Madd al-Leen",
+      "tr": "yarawna"
+    },
+    {
+      "id": "yawma",
+      "ar": "يَوْمَ",
+      "en": "Madd al-Leen",
+      "tr": "yawma"
+    },
+    {
+      "id": "tawbata",
+      "ar": "تَوْبَةَ",
+      "en": "Madd al-Leen",
+      "tr": "tawbata"
+    },
+    {
+      "id": "mawedhatan",
+      "ar": "مَوْعِظَةً",
+      "en": "Madd al-Leen",
+      "tr": "maw'edhatan"
+    },
+    {
+      "id": "sawen",
+      "ar": "سَوْءٍ",
+      "en": "Madd al-Leen",
+      "tr": "saw'en"
+    },
+    {
+      "id": "ayna",
+      "ar": "أَيْنَ",
+      "en": "Madd al-Leen",
+      "tr": "ayna"
+    },
+    {
+      "id": "tayran",
+      "ar": "طَيْرًا",
+      "en": "Madd al-Leen",
+      "tr": "tayran"
+    },
+    {
+      "id": "sayfe",
+      "ar": "صَيْفِ",
+      "en": "Madd al-Leen",
+      "tr": "sayfe"
+    },
+    {
+      "id": "alayhem",
+      "ar": "عَلَيْهِمْ",
+      "en": "Madd al-Leen",
+      "tr": "alayhem"
+    },
+    {
+      "id": "kaydahom",
+      "ar": "كَيْدَهُمْ",
+      "en": "Madd al-Leen",
+      "tr": "kaydahom"
+    },
+    {
+      "id": "waylon",
+      "ar": "وَيْلٌ",
+      "en": "Madd al-Leen",
+      "tr": "waylon"
+    },
+    {
+      "id": "laysa",
+      "ar": "لَيْسَ",
+      "en": "Madd al-Leen",
+      "tr": "laysa"
+    },
+    {
+      "id": "kaydaho",
+      "ar": "كَيْدَهُ",
+      "en": "Madd al-Leen",
+      "tr": "kaydaho"
+    },
+    {
+      "id": "dayra",
+      "ar": "ضَيْرَ",
+      "en": "Madd al-Leen",
+      "tr": "dayra"
+    },
+    {
+      "id": "hayhaata",
+      "ar": "هَيْهَاتَ",
+      "en": "Madd al-Leen",
+      "tr": "hayhaata"
+    },
+    {
+      "id": "qorayshen",
+      "ar": "قُرَيْشٍ",
+      "en": "Madd al-Leen",
+      "tr": "qorayshen"
+    },
+    {
+      "id": "aataynaa",
+      "ar": "ءَاتَيْنَا",
+      "en": "Madd al-Leen",
+      "tr": "aataynaa"
+    },
+    {
+      "id": "a",
+      "ar": "عَ",
+      "en": "Madd al-Leen",
+      "tr": "a"
+    },
+    {
+      "id": "naa",
+      "ar": "نَا",
+      "en": "Madd al-Leen",
+      "tr": "naa"
+    },
+    {
+      "id": "afawnaa",
+      "ar": "عَفَوْنَا",
+      "en": "Madd al-Leen",
+      "tr": "afawnaa"
+    },
+    {
+      "id": "taa",
+      "ar": "تَا",
+      "en": "Madd al-Leen",
+      "tr": "taa"
+    },
+    {
+      "id": "dan",
+      "ar": "دًا",
+      "en": "Madd al-Leen",
+      "tr": "dan"
+    },
+    {
+      "id": "awtaadan",
+      "ar": "أَوْتَادًا",
+      "en": "Madd al-Leen",
+      "tr": "awtaadan"
+    },
+    {
+      "id": "da",
+      "ar": "دَ",
+      "en": "Madd al-Leen",
+      "tr": "da"
+    },
+    {
+      "id": "hom",
+      "ar": "هُمْ",
+      "en": "Madd al-Leen",
+      "tr": "hom"
+    },
+    {
+      "id": "ja",
+      "ar": "جَ",
+      "en": "Madd al-Leen",
+      "tr": "ja"
+    },
+    {
+      "id": "sa",
+      "ar": "سَ",
+      "en": "Madd al-Leen",
+      "tr": "sa"
+    },
+    {
+      "id": "awjasa",
+      "ar": "أَوْجَسَ",
+      "en": "Madd al-Leen",
+      "tr": "awjasa"
+    },
+    {
+      "id": "too",
+      "ar": "تُو",
+      "en": "Madd al-Leen",
+      "tr": "too"
+    },
+    {
+      "id": "nen",
+      "ar": "نٍ",
+      "en": "Madd al-Leen",
+      "tr": "nen"
+    },
+    {
+      "id": "zaytoonen",
+      "ar": "زَيْتُونٍ",
+      "en": "Madd al-Leen",
+      "tr": "zaytoonen"
+    },
+    {
+      "id": "bedaynen",
+      "ar": "بِدَيْنٍ",
+      "en": "Madd al-Leen",
+      "tr": "bedaynen"
+    },
+    {
+      "id": "aynayne",
+      "ar": "عَيْنَيْنِ",
+      "en": "Madd al-Leen",
+      "tr": "aynayne"
+    },
+    {
+      "id": "kaydan",
+      "ar": "كَيْدًا",
+      "en": "Madd al-Leen",
+      "tr": "kaydan"
+    },
+    {
+      "id": "zawjaho",
+      "ar": "زَوْجَهُ",
+      "en": "Madd al-Leen",
+      "tr": "zawjaho"
+    },
+    {
+      "id": "nawmon",
+      "ar": "نَوْمٌ",
+      "en": "Madd al-Leen",
+      "tr": "nawmon"
+    },
+    {
+      "id": "lawh",
+      "ar": "لَوْح",
+      "en": "Madd al-Leen",
+      "tr": "lawh"
+    },
+    {
+      "id": "tathaw",
+      "ar": "تَعْثَوْ",
+      "en": "Madd al-Leen",
+      "tr": "ta'thaw"
+    },
+    {
+      "id": "shayan",
+      "ar": "شَيْئًا",
+      "en": "Madd al-Leen",
+      "tr": "shay'an"
+    },
+    {
+      "id": "rowaydan",
+      "ar": "رُوَيْدًا",
+      "en": "Madd al-Leen",
+      "tr": "rowaydan"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Leen is said quickly and softly.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "Which vowel comes before a leen letter?",
+      "opts": [
+        [
+          "",
+          "Fatha",
+          1
+        ],
+        [
+          "",
+          "Kasra",
+          0
+        ],
+        [
+          "",
+          "Damma",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثَيْ reads “thay”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? هَوْ reads “haw”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find Madd al-Leen in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Madd al-Leen: Read Madd al-Leen and recite Surat Al-Bayyinah.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l18.mp4",
+    "poster": "media/qra1-l18-poster.jpg"
+  }
+}

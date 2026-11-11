@@ -1,0 +1,417 @@
+{
+  "id": "qra1-l34",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 34. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ صَاد",
+    "en": "The Letter Saad (ص)"
+  },
+  "topic": "Read Saad with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Saad. A heavy s.",
+      "title": "Meet Saad!",
+      "ar": "ص",
+      "aud": "c-0-ar",
+      "tr": "Saad"
+    },
+    {
+      "en": "A head on the line, a small tooth and a big bowl. It connects from both sides.",
+      "title": "How to write Saad"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "صُحُفٍ",
+      "tr": "sohofen"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "الصُّورِ",
+      "tr": "assoore"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "الصَّادِقِينَ",
+      "tr": "assaadeqeena"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "الصُّمُّ",
+      "tr": "assommo"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "حَرِيْصٌ",
+      "tr": "hareyson"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "أَصْحَابَ",
+      "tr": "ashaaba"
+    },
+    {
+      "en": "Surat Yusuf, verse 3. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "sabara",
+      "ar": "صَبَرَ",
+      "en": "Letter in a word",
+      "tr": "sabara"
+    },
+    {
+      "id": "fasala",
+      "ar": "فَصَلَ",
+      "en": "Letter in a word",
+      "tr": "fasala"
+    },
+    {
+      "id": "qameesehe",
+      "ar": "قَمِيصِهِ",
+      "en": "Letter in a word",
+      "tr": "qameesehe"
+    },
+    {
+      "id": "manaasen",
+      "ar": "مَنَاصٍ",
+      "en": "Letter in a word",
+      "tr": "manaasen"
+    },
+    {
+      "id": "sohofen",
+      "ar": "صُحُفٍ",
+      "en": "Short vowels",
+      "tr": "sohofen"
+    },
+    {
+      "id": "assodoore",
+      "ar": "الصُّدُورِ",
+      "en": "Short vowels",
+      "tr": "assodoore"
+    },
+    {
+      "id": "sorefat",
+      "ar": "صُرِفَتْ",
+      "en": "Short vowels",
+      "tr": "sorefat"
+    },
+    {
+      "id": "seraata",
+      "ar": "صِرَاطَ",
+      "en": "Short vowels",
+      "tr": "seraata"
+    },
+    {
+      "id": "faseyaamo",
+      "ar": "فَصِيَامُ",
+      "en": "Short vowels",
+      "tr": "faseyaamo"
+    },
+    {
+      "id": "almaseero",
+      "ar": "الْمَصِيرُ",
+      "en": "Short vowels",
+      "tr": "almaseero"
+    },
+    {
+      "id": "sabroka",
+      "ar": "صَبْرُكَ",
+      "en": "Short vowels",
+      "tr": "sabroka"
+    },
+    {
+      "id": "sadaqa",
+      "ar": "صَدَقَ",
+      "en": "Short vowels",
+      "tr": "sadaqa"
+    },
+    {
+      "id": "salaatehem",
+      "ar": "صَلَاتِهِمْ",
+      "en": "Short vowels",
+      "tr": "salaatehem"
+    },
+    {
+      "id": "assoore",
+      "ar": "الصُّورِ",
+      "en": "Long vowels",
+      "tr": "assoore"
+    },
+    {
+      "id": "maqsooraaton",
+      "ar": "مَقْصُورَاتٌ",
+      "en": "Long vowels",
+      "tr": "maqsooraaton"
+    },
+    {
+      "id": "sooraten",
+      "ar": "صُورَةٍ",
+      "en": "Long vowels",
+      "tr": "sooraten"
+    },
+    {
+      "id": "baseeron",
+      "ar": "بَصِيرٌ",
+      "en": "Long vowels",
+      "tr": "baseeron"
+    },
+    {
+      "id": "moseebaton",
+      "ar": "مُصِيبَةٌ",
+      "en": "Long vowels",
+      "tr": "moseebaton"
+    },
+    {
+      "id": "assaadeqeena",
+      "ar": "الصَّادِقِينَ",
+      "en": "With Al",
+      "tr": "assaadeqeena"
+    },
+    {
+      "id": "asaabathom",
+      "ar": "أَصَابَتْهُمْ",
+      "en": "With Al",
+      "tr": "asaabathom"
+    },
+    {
+      "id": "fesaalan",
+      "ar": "فِصَالًا",
+      "en": "With Al",
+      "tr": "fesaalan"
+    },
+    {
+      "id": "assommo",
+      "ar": "الصُّمُّ",
+      "en": "Shaddah",
+      "tr": "assommo"
+    },
+    {
+      "id": "waalssobhe",
+      "ar": "وَالصُّبْحِ",
+      "en": "Shaddah",
+      "tr": "waalssobhe"
+    },
+    {
+      "id": "naqosso",
+      "ar": "نَقُصُّ",
+      "en": "Shaddah",
+      "tr": "naqosso"
+    },
+    {
+      "id": "asseraata",
+      "ar": "الصِّرَاطَ",
+      "en": "Shaddah",
+      "tr": "asseraata"
+    },
+    {
+      "id": "belssedqe",
+      "ar": "بِالصِّدْقِ",
+      "en": "Shaddah",
+      "tr": "belssedqe"
+    },
+    {
+      "id": "moqassereena",
+      "ar": "مُقَصِّرِينَ",
+      "en": "Shaddah",
+      "tr": "moqassereena"
+    },
+    {
+      "id": "assaalehaate",
+      "ar": "الصَّالِحَاتِ",
+      "en": "Shaddah",
+      "tr": "assaalehaate"
+    },
+    {
+      "id": "assadaqaato",
+      "ar": "الصَّدَقَاتُ",
+      "en": "Shaddah",
+      "tr": "assadaqaato"
+    },
+    {
+      "id": "yassaddaoona",
+      "ar": "يَصَّدَّعُونَ",
+      "en": "Shaddah",
+      "tr": "yassadda'oona"
+    },
+    {
+      "id": "hareyson",
+      "ar": "حَرِيْصٌ",
+      "en": "Tanween",
+      "tr": "hareyson"
+    },
+    {
+      "id": "qesaason",
+      "ar": "قِصَاصٌ",
+      "en": "Tanween",
+      "tr": "qesaason"
+    },
+    {
+      "id": "marsowson",
+      "ar": "مَرْصُوْصٌ",
+      "en": "Tanween",
+      "tr": "marsowson"
+    },
+    {
+      "id": "manqoosen",
+      "ar": "مَنْقُوصٍ",
+      "en": "Tanween",
+      "tr": "manqoosen"
+    },
+    {
+      "id": "ghawwaasen",
+      "ar": "غَوَّاصٍ",
+      "en": "Tanween",
+      "tr": "ghawwaasen"
+    },
+    {
+      "id": "qasasan",
+      "ar": "قَصَصًا",
+      "en": "Tanween",
+      "tr": "qasasan"
+    },
+    {
+      "id": "khaalesan",
+      "ar": "خَالِصًا",
+      "en": "Tanween",
+      "tr": "khaalesan"
+    },
+    {
+      "id": "maheesan",
+      "ar": "مَحِيصًا",
+      "en": "Tanween",
+      "tr": "maheesan"
+    },
+    {
+      "id": "ashaaba",
+      "ar": "أَصْحَابَ",
+      "en": "Sukoon",
+      "tr": "ashaaba"
+    },
+    {
+      "id": "yasbero",
+      "ar": "يَصْبِرُ",
+      "en": "Sukoon",
+      "tr": "yasbero"
+    },
+    {
+      "id": "faslon",
+      "ar": "فَصْلٌ",
+      "en": "Sukoon",
+      "tr": "faslon"
+    },
+    {
+      "id": "assamado",
+      "ar": "الصَّمَدُ",
+      "en": "With Al",
+      "tr": "assamado"
+    },
+    {
+      "id": "asseyaamo",
+      "ar": "الصِّيَامُ",
+      "en": "With Al",
+      "tr": "asseyaamo"
+    },
+    {
+      "id": "assalaata",
+      "ar": "الصَّلَاةَ",
+      "en": "With Al",
+      "tr": "assalaata"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ص?",
+      "opts": [
+        [
+          "",
+          "Saad",
+          1
+        ],
+        [
+          "",
+          "Ghayn",
+          0
+        ],
+        [
+          "",
+          "Noon",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ص connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? مَنَاصٍ reads “manaasen”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? بِالصِّدْقِ reads “belssedqe”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ص in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Saad! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Saad (ص): Read Saad with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l34.mp4",
+    "poster": "media/qra1-l34-poster.jpg"
+  }
+}

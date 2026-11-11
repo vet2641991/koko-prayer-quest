@@ -1,0 +1,423 @@
+{
+  "id": "qra1-l43",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 43. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ لَام",
+    "en": "The Letter Laam (ل)"
+  },
+  "topic": "Read Laam with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Laam. Like l in lemon.",
+      "title": "Meet Laam!",
+      "ar": "ل",
+      "aud": "c-0-ar",
+      "tr": "Laam"
+    },
+    {
+      "en": "Like a fish hook or a ladle. It connects from both sides.",
+      "title": "How to write Laam"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "لَقَدْ",
+      "tr": "laqad"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "سَلَامٌ",
+      "tr": "salaamon"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "عَلِيمٌ",
+      "tr": "aleemon"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "وَتَوَلَّىٰ",
+      "tr": "watawallaa"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "سَبِيلًا",
+      "tr": "sabeelan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "قُلْ",
+      "tr": "qol"
+    },
+    {
+      "en": "Surat Al-Ikhlas, verse 1. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "lahaben",
+      "ar": "لَهَبٍ",
+      "en": "Letter in a word",
+      "tr": "lahaben"
+    },
+    {
+      "id": "alema",
+      "ar": "عَلِمَ",
+      "en": "Letter in a word",
+      "tr": "alema"
+    },
+    {
+      "id": "rasoola",
+      "ar": "رَسُولَ",
+      "en": "Letter in a word",
+      "tr": "rasoola"
+    },
+    {
+      "id": "qaala",
+      "ar": "قَالَ",
+      "en": "Letter in a word",
+      "tr": "qaala"
+    },
+    {
+      "id": "laqad",
+      "ar": "لَقَدْ",
+      "en": "Short vowels",
+      "tr": "laqad"
+    },
+    {
+      "id": "laallakom",
+      "ar": "لَعَلَّكُمْ",
+      "en": "Short vowels",
+      "tr": "la'allakom"
+    },
+    {
+      "id": "laylate",
+      "ar": "لَيْلَةِ",
+      "en": "Short vowels",
+      "tr": "laylate"
+    },
+    {
+      "id": "lesaanon",
+      "ar": "لِسَانٌ",
+      "en": "Short vowels",
+      "tr": "lesaanon"
+    },
+    {
+      "id": "waleya",
+      "ar": "وَلِيَ",
+      "en": "Short vowels",
+      "tr": "waleya"
+    },
+    {
+      "id": "lekolle",
+      "ar": "لِكُلِّ",
+      "en": "Short vowels",
+      "tr": "lekolle"
+    },
+    {
+      "id": "alloloe",
+      "ar": "اللُّؤْلُؤِ",
+      "en": "Short vowels",
+      "tr": "allo'lo'e"
+    },
+    {
+      "id": "kholoqen",
+      "ar": "خُلُقٍ",
+      "en": "Short vowels",
+      "tr": "kholoqen"
+    },
+    {
+      "id": "loena",
+      "ar": "لُعِنَ",
+      "en": "Short vowels",
+      "tr": "lo'ena"
+    },
+    {
+      "id": "salaamon",
+      "ar": "سَلَامٌ",
+      "en": "With Al",
+      "tr": "salaamon"
+    },
+    {
+      "id": "gholaamon",
+      "ar": "غُلَامٌ",
+      "en": "With Al",
+      "tr": "gholaamon"
+    },
+    {
+      "id": "bedhallaamen",
+      "ar": "بِظَلَّامٍ",
+      "en": "With Al",
+      "tr": "bedhallaamen"
+    },
+    {
+      "id": "aleemon",
+      "ar": "عَلِيمٌ",
+      "en": "Long vowels",
+      "tr": "aleemon"
+    },
+    {
+      "id": "aleemon2",
+      "ar": "أَلِيمٌ",
+      "en": "Long vowels",
+      "tr": "aleemon"
+    },
+    {
+      "id": "qaleelan",
+      "ar": "قَلِيلًا",
+      "en": "Long vowels",
+      "tr": "qaleelan"
+    },
+    {
+      "id": "joloodohom",
+      "ar": "جُلُودُهُم",
+      "en": "Long vowels",
+      "tr": "joloodohom"
+    },
+    {
+      "id": "qaaloo",
+      "ar": "قَالُوا",
+      "en": "Long vowels",
+      "tr": "qaaloo"
+    },
+    {
+      "id": "almolooka",
+      "ar": "الْمُلُوكَ",
+      "en": "Long vowels",
+      "tr": "almolooka"
+    },
+    {
+      "id": "watawallaa",
+      "ar": "وَتَوَلَّىٰ",
+      "en": "Shaddah",
+      "tr": "watawallaa"
+    },
+    {
+      "id": "ellaa",
+      "ar": "إِلَّا",
+      "en": "Shaddah",
+      "tr": "ellaa"
+    },
+    {
+      "id": "waalllayle",
+      "ar": "وَاللَّيْلِ",
+      "en": "Shaddah",
+      "tr": "waalllayle"
+    },
+    {
+      "id": "yoallemoona",
+      "ar": "يُعَلِّمُونَ",
+      "en": "Shaddah",
+      "tr": "yo'allemoona"
+    },
+    {
+      "id": "wasallemoo",
+      "ar": "وَسَلِّمُوا",
+      "en": "Shaddah",
+      "tr": "wasallemoo"
+    },
+    {
+      "id": "almodelleena",
+      "ar": "الْمُضِلِّينَ",
+      "en": "Shaddah",
+      "tr": "almodelleena"
+    },
+    {
+      "id": "kollo",
+      "ar": "كُلُّ",
+      "en": "Shaddah",
+      "tr": "kollo"
+    },
+    {
+      "id": "fanadhallo",
+      "ar": "فَنَظَلُّ",
+      "en": "Shaddah",
+      "tr": "fanadhallo"
+    },
+    {
+      "id": "mahellohaa",
+      "ar": "مَحِلُّهَا",
+      "en": "Shaddah",
+      "tr": "mahellohaa"
+    },
+    {
+      "id": "sabeelan",
+      "ar": "سَبِيلًا",
+      "en": "Tanween",
+      "tr": "sabeelan"
+    },
+    {
+      "id": "wakeelan",
+      "ar": "وَكِيلًا",
+      "en": "Tanween",
+      "tr": "wakeelan"
+    },
+    {
+      "id": "rrasoolen",
+      "ar": "رَّسُولٍ",
+      "en": "Tanween",
+      "tr": "rrasoolen"
+    },
+    {
+      "id": "ajalen",
+      "ar": "أَجَلٍ",
+      "en": "Tanween",
+      "tr": "ajalen"
+    },
+    {
+      "id": "sejjeelen",
+      "ar": "سِجِّيلٍ",
+      "en": "Tanween",
+      "tr": "sejjeelen"
+    },
+    {
+      "id": "jameelon",
+      "ar": "جَمِيلٌ",
+      "en": "Tanween",
+      "tr": "jameelon"
+    },
+    {
+      "id": "mathalon",
+      "ar": "مَثَلٌ",
+      "en": "Tanween",
+      "tr": "mathalon"
+    },
+    {
+      "id": "rajolon",
+      "ar": "رَجُلٌ",
+      "en": "Tanween",
+      "tr": "rajolon"
+    },
+    {
+      "id": "qol",
+      "ar": "قُلْ",
+      "en": "Sukoon",
+      "tr": "qol"
+    },
+    {
+      "id": "hal",
+      "ar": "هَلْ",
+      "en": "Sukoon",
+      "tr": "hal"
+    },
+    {
+      "id": "alhaakomo",
+      "ar": "أَلْهَاكُمُ",
+      "en": "Sukoon",
+      "tr": "alhaakomo"
+    },
+    {
+      "id": "allateefo",
+      "ar": "اللَّطِيفُ",
+      "en": "With Al",
+      "tr": "allateefo"
+    },
+    {
+      "id": "allaghwe",
+      "ar": "اللَّغْوِ",
+      "en": "With Al",
+      "tr": "allaghwe"
+    },
+    {
+      "id": "allaho",
+      "ar": "اللَّهُ",
+      "en": "With Al",
+      "tr": "allaho"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ل?",
+      "opts": [
+        [
+          "",
+          "Laam",
+          1
+        ],
+        [
+          "",
+          "Yaa",
+          0
+        ],
+        [
+          "",
+          "Haa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ل connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? قَالَ reads “qaala”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يُعَلِّمُونَ reads “yo'allemoona”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ل in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Laam! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Laam (ل): Read Laam with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l43.mp4",
+    "poster": "media/qra1-l43-poster.jpg"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "id": "qra1-l33",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 33. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ شِين",
+    "en": "The Letter Sheen (ش)"
+  },
+  "topic": "Read Sheen with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Sheen. Like sh in ship.",
+      "title": "Meet Sheen!",
+      "ar": "ش",
+      "aud": "c-0-ar",
+      "tr": "Sheen"
+    },
+    {
+      "en": "Three teeth with three dots, then a big bowl. It connects from both sides.",
+      "title": "How to write Sheen"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "شُغُلٍ",
+      "tr": "shogholen"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "شُورَىٰ",
+      "tr": "shooraa"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "شَاءَ",
+      "tr": "shaa'a"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "الشُّهَدَاء",
+      "tr": "ashshohadaa"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "عَرْشٌ",
+      "tr": "arshon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "تَشْكُرُونَ",
+      "tr": "tashkoroona"
+    },
+    {
+      "en": "Surat Al-Waqi'ah, verse 35. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءًۭ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "shamsan",
+      "ar": "شَمْسًا",
+      "en": "Letter in a word",
+      "tr": "shamsan"
+    },
+    {
+      "id": "fahashara",
+      "ar": "فَحَشَرَ",
+      "en": "Letter in a word",
+      "tr": "fahashara"
+    },
+    {
+      "id": "qorayshen",
+      "ar": "قُرَيْشٍ",
+      "en": "Letter in a word",
+      "tr": "qorayshen"
+    },
+    {
+      "id": "alarshe",
+      "ar": "الْعَرْشِ",
+      "en": "Letter in a word",
+      "tr": "al'arshe"
+    },
+    {
+      "id": "shogholen",
+      "ar": "شُغُلٍ",
+      "en": "Short vowels",
+      "tr": "shogholen"
+    },
+    {
+      "id": "shoooban",
+      "ar": "شُعُوبًا",
+      "en": "Short vowels",
+      "tr": "sho'ooban"
+    },
+    {
+      "id": "washohoban",
+      "ar": "وَشُهُبًا",
+      "en": "Short vowels",
+      "tr": "washohoban"
+    },
+    {
+      "id": "sheyaan",
+      "ar": "شِيَعًا",
+      "en": "Short vowels",
+      "tr": "sheya'an"
+    },
+    {
+      "id": "ashshetaaae",
+      "ar": "الشِّتَآءِ",
+      "en": "Short vowels",
+      "tr": "ashsheta'aa'e"
+    },
+    {
+      "id": "sheqaaqen",
+      "ar": "شِقَاقٍ",
+      "en": "Short vowels",
+      "tr": "sheqaaqen"
+    },
+    {
+      "id": "shaheda",
+      "ar": "شَهِدَ",
+      "en": "Short vowels",
+      "tr": "shaheda"
+    },
+    {
+      "id": "shajarato",
+      "ar": "شَجَرَةُ",
+      "en": "Short vowels",
+      "tr": "shajarato"
+    },
+    {
+      "id": "sharaa",
+      "ar": "شَرَعَ",
+      "en": "Short vowels",
+      "tr": "shara'a"
+    },
+    {
+      "id": "shooraa",
+      "ar": "شُورَىٰ",
+      "en": "Long vowels",
+      "tr": "shooraa"
+    },
+    {
+      "id": "manshooran",
+      "ar": "مَنشُورًا",
+      "en": "Long vowels",
+      "tr": "manshooran"
+    },
+    {
+      "id": "noshooran",
+      "ar": "نُشُورًا",
+      "en": "Long vowels",
+      "tr": "noshooran"
+    },
+    {
+      "id": "asheerataka",
+      "ar": "عَشِيرَتَكَ",
+      "en": "Long vowels",
+      "tr": "asheerataka"
+    },
+    {
+      "id": "arrasheedo",
+      "ar": "الرَّشِيدُ",
+      "en": "Long vowels",
+      "tr": "arrasheedo"
+    },
+    {
+      "id": "basheeran",
+      "ar": "بَشِيرًا",
+      "en": "Long vowels",
+      "tr": "basheeran"
+    },
+    {
+      "id": "shaaa",
+      "ar": "شَاءَ",
+      "en": "With Al",
+      "tr": "shaa'a"
+    },
+    {
+      "id": "shaakeran",
+      "ar": "شَاكِرًا",
+      "en": "With Al",
+      "tr": "shaakeran"
+    },
+    {
+      "id": "gheshaawaton",
+      "ar": "غِشَاوَةٌ",
+      "en": "With Al",
+      "tr": "gheshaawaton"
+    },
+    {
+      "id": "ashshohadaa",
+      "ar": "الشُّهَدَاء",
+      "en": "Shaddah",
+      "tr": "ashshohadaa"
+    },
+    {
+      "id": "ashshoaraao",
+      "ar": "الشُّعَرَاءُ",
+      "en": "Shaddah",
+      "tr": "ashsho'araa'o"
+    },
+    {
+      "id": "ashshohha",
+      "ar": "الشُّحَّ",
+      "en": "Shaddah",
+      "tr": "ashshohha"
+    },
+    {
+      "id": "wabashshere",
+      "ar": "وَبَشِّرِ",
+      "en": "Shaddah",
+      "tr": "wabashshere"
+    },
+    {
+      "id": "ashshetaae",
+      "ar": "الشِّتَاءِ",
+      "en": "Shaddah",
+      "tr": "ashshetaa'e"
+    },
+    {
+      "id": "nobashsheroka",
+      "ar": "نُبَشِّرُكَ",
+      "en": "Shaddah",
+      "tr": "nobashsheroka"
+    },
+    {
+      "id": "waalshshamse",
+      "ar": "وَالشَّمْسِ",
+      "en": "Shaddah",
+      "tr": "waalshshamse"
+    },
+    {
+      "id": "ashshaytaano",
+      "ar": "الشَّيْطَانُ",
+      "en": "Shaddah",
+      "tr": "ashshaytaano"
+    },
+    {
+      "id": "fabashsharnaaho",
+      "ar": "فَبَشَّرْنَاهُ",
+      "en": "Shaddah",
+      "tr": "fabashsharnaaho"
+    },
+    {
+      "id": "arshon",
+      "ar": "عَرْشٌ",
+      "en": "Tanween",
+      "tr": "arshon"
+    },
+    {
+      "id": "waforoshen",
+      "ar": "وَفُرُشٍ",
+      "en": "Tanween",
+      "tr": "waforoshen"
+    },
+    {
+      "id": "ashren",
+      "ar": "عَشْرٍ",
+      "en": "Tanween",
+      "tr": "ashren"
+    },
+    {
+      "id": "ghawaashen",
+      "ar": "غَوَاشٍ",
+      "en": "Tanween",
+      "tr": "ghawaashen"
+    },
+    {
+      "id": "maaashan",
+      "ar": "مَعَاشًا",
+      "en": "Tanween",
+      "tr": "ma'aashan"
+    },
+    {
+      "id": "wareeshan",
+      "ar": "وَرِيشًا",
+      "en": "Tanween",
+      "tr": "wareeshan"
+    },
+    {
+      "id": "batshan",
+      "ar": "بَطْشًا",
+      "en": "Tanween",
+      "tr": "batshan"
+    },
+    {
+      "id": "tashkoroona",
+      "ar": "تَشْكُرُونَ",
+      "en": "Sukoon",
+      "tr": "tashkoroona"
+    },
+    {
+      "id": "arroshdo",
+      "ar": "الرُّشْدُ",
+      "en": "Sukoon",
+      "tr": "arroshdo"
+    },
+    {
+      "id": "wayashrabo",
+      "ar": "وَيَشْرَبُ",
+      "en": "Sukoon",
+      "tr": "wayashrabo"
+    },
+    {
+      "id": "waalshshohadaa",
+      "ar": "وَالشُّهَدَاء",
+      "en": "With Al",
+      "tr": "waalshshohadaa"
+    },
+    {
+      "id": "ashshetaa",
+      "ar": "الشِّتَاء",
+      "en": "With Al",
+      "tr": "ashshetaa"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ش?",
+      "opts": [
+        [
+          "",
+          "Sheen",
+          1
+        ],
+        [
+          "",
+          "Ayn",
+          0
+        ],
+        [
+          "",
+          "Meem",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ش connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الْعَرْشِ reads “al'arshe”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? الشُّحَّ reads “ashshohha”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ش in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Sheen! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Sheen (ش): Read Sheen with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l33.mp4",
+    "poster": "media/qra1-l33-poster.jpg"
+  }
+}

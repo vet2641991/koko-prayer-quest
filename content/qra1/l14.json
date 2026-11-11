@@ -1,0 +1,568 @@
+{
+  "id": "qra1-l14",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 14. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "تَنْوِينُ الْكَسْرِ",
+    "en": "Tanween with kasra"
+  },
+  "topic": "Read tanween with kasra and recite Surat Al-Asr",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Two kasras under the last letter. The sound is “en”.",
+      "title": "Tanween with kasra"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ الْعَصْرِ",
+      "aud": "c-1-ar",
+      "tr": "soorato al'asre"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat Al-Asr. Follow with your finger, then recite it yourself.",
+      "title": "Surat Al-Asr",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ ﴿١﴾ إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ ﴿٢﴾ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ ﴿٣﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "ben",
+      "ar": "بٍ",
+      "en": "Tanween with kasra",
+      "tr": "ben"
+    },
+    {
+      "id": "ten",
+      "ar": "تٍ",
+      "en": "Tanween with kasra",
+      "tr": "ten"
+    },
+    {
+      "id": "then",
+      "ar": "ثٍ",
+      "en": "Tanween with kasra",
+      "tr": "then"
+    },
+    {
+      "id": "jen",
+      "ar": "جٍ",
+      "en": "Tanween with kasra",
+      "tr": "jen"
+    },
+    {
+      "id": "hen",
+      "ar": "حٍ",
+      "en": "Tanween with kasra",
+      "tr": "hen"
+    },
+    {
+      "id": "khen",
+      "ar": "خٍ",
+      "en": "Tanween with kasra",
+      "tr": "khen"
+    },
+    {
+      "id": "den",
+      "ar": "دٍ",
+      "en": "Tanween with kasra",
+      "tr": "den"
+    },
+    {
+      "id": "dhen",
+      "ar": "ذٍ",
+      "en": "Tanween with kasra",
+      "tr": "dhen"
+    },
+    {
+      "id": "ren",
+      "ar": "رٍ",
+      "en": "Tanween with kasra",
+      "tr": "ren"
+    },
+    {
+      "id": "zen",
+      "ar": "زٍ",
+      "en": "Tanween with kasra",
+      "tr": "zen"
+    },
+    {
+      "id": "sen",
+      "ar": "سٍ",
+      "en": "Tanween with kasra",
+      "tr": "sen"
+    },
+    {
+      "id": "shen",
+      "ar": "شٍ",
+      "en": "Tanween with kasra",
+      "tr": "shen"
+    },
+    {
+      "id": "sen2",
+      "ar": "صٍ",
+      "en": "Tanween with kasra",
+      "tr": "sen"
+    },
+    {
+      "id": "den2",
+      "ar": "ضٍ",
+      "en": "Tanween with kasra",
+      "tr": "den"
+    },
+    {
+      "id": "ten2",
+      "ar": "طٍ",
+      "en": "Tanween with kasra",
+      "tr": "ten"
+    },
+    {
+      "id": "dhen2",
+      "ar": "ظٍ",
+      "en": "Tanween with kasra",
+      "tr": "dhen"
+    },
+    {
+      "id": "en",
+      "ar": "عٍ",
+      "en": "Tanween with kasra",
+      "tr": "en"
+    },
+    {
+      "id": "ghen",
+      "ar": "غٍ",
+      "en": "Tanween with kasra",
+      "tr": "ghen"
+    },
+    {
+      "id": "fen",
+      "ar": "فٍ",
+      "en": "Tanween with kasra",
+      "tr": "fen"
+    },
+    {
+      "id": "qen",
+      "ar": "قٍ",
+      "en": "Tanween with kasra",
+      "tr": "qen"
+    },
+    {
+      "id": "ken",
+      "ar": "كٍ",
+      "en": "Tanween with kasra",
+      "tr": "ken"
+    },
+    {
+      "id": "len",
+      "ar": "لٍ",
+      "en": "Tanween with kasra",
+      "tr": "len"
+    },
+    {
+      "id": "men",
+      "ar": "مٍ",
+      "en": "Tanween with kasra",
+      "tr": "men"
+    },
+    {
+      "id": "nen",
+      "ar": "نٍ",
+      "en": "Tanween with kasra",
+      "tr": "nen"
+    },
+    {
+      "id": "hen2",
+      "ar": "هٍ",
+      "en": "Tanween with kasra",
+      "tr": "hen"
+    },
+    {
+      "id": "wen",
+      "ar": "وٍ",
+      "en": "Tanween with kasra",
+      "tr": "wen"
+    },
+    {
+      "id": "en2",
+      "ar": "ءٍ",
+      "en": "Tanween with kasra",
+      "tr": "en"
+    },
+    {
+      "id": "yen",
+      "ar": "يٍ",
+      "en": "Tanween with kasra",
+      "tr": "yen"
+    },
+    {
+      "id": "kholoqen",
+      "ar": "خُلُقٍ",
+      "en": "Tanween with kasra",
+      "tr": "kholoqen"
+    },
+    {
+      "id": "nosoken",
+      "ar": "نُسُكٍ",
+      "en": "Tanween with kasra",
+      "tr": "nosoken"
+    },
+    {
+      "id": "looten",
+      "ar": "لُوطٍ",
+      "en": "Tanween with kasra",
+      "tr": "looten"
+    },
+    {
+      "id": "jooen",
+      "ar": "جُوعٍ",
+      "en": "Tanween with kasra",
+      "tr": "joo'en"
+    },
+    {
+      "id": "baaghen",
+      "ar": "بَاغٍ",
+      "en": "Tanween with kasra",
+      "tr": "baaghen"
+    },
+    {
+      "id": "aaden",
+      "ar": "عَادٍ",
+      "en": "Tanween with kasra",
+      "tr": "aaden"
+    },
+    {
+      "id": "saaqen",
+      "ar": "سَاقٍ",
+      "en": "Tanween with kasra",
+      "tr": "saaqen"
+    },
+    {
+      "id": "adhaaben",
+      "ar": "عَذَابٍ",
+      "en": "Tanween with kasra",
+      "tr": "adhaaben"
+    },
+    {
+      "id": "layaalen",
+      "ar": "لَيَالٍ",
+      "en": "Tanween with kasra",
+      "tr": "layaalen"
+    },
+    {
+      "id": "daafeen",
+      "ar": "دَافِعٍ",
+      "en": "Tanween with kasra",
+      "tr": "daafe'en"
+    },
+    {
+      "id": "hesaaben",
+      "ar": "حِسَابٍ",
+      "en": "Tanween with kasra",
+      "tr": "hesaaben"
+    },
+    {
+      "id": "ghorooren",
+      "ar": "غُرُورٍ",
+      "en": "Tanween with kasra",
+      "tr": "ghorooren"
+    },
+    {
+      "id": "raqabaten",
+      "ar": "رَقَبَةٍ",
+      "en": "Tanween with kasra",
+      "tr": "raqabaten"
+    },
+    {
+      "id": "wanofooren",
+      "ar": "وَنُفُورٍ",
+      "en": "Tanween with kasra",
+      "tr": "wanofooren"
+    },
+    {
+      "id": "waoyoonen",
+      "ar": "وَعُيُونٍ",
+      "en": "Tanween with kasra",
+      "tr": "wa'oyoonen"
+    },
+    {
+      "id": "foroojen",
+      "ar": "فُرُوجٍ",
+      "en": "Tanween with kasra",
+      "tr": "foroojen"
+    },
+    {
+      "id": "waaqeen",
+      "ar": "وَاقِعٍ",
+      "en": "Tanween with kasra",
+      "tr": "waaqe'en"
+    },
+    {
+      "id": "emaamen",
+      "ar": "إِمَامٍ",
+      "en": "Tanween with kasra",
+      "tr": "emaamen"
+    },
+    {
+      "id": "eeshaten",
+      "ar": "عِيشَةٍ",
+      "en": "Tanween with kasra",
+      "tr": "eeshaten"
+    },
+    {
+      "id": "aaleyaten",
+      "ar": "عَالِيَةٍ",
+      "en": "Tanween with kasra",
+      "tr": "aaleyaten"
+    },
+    {
+      "id": "ha",
+      "ar": "حَ",
+      "en": "Tanween with kasra",
+      "tr": "ha"
+    },
+    {
+      "id": "dee",
+      "ar": "دِي",
+      "en": "Tanween with kasra",
+      "tr": "dee"
+    },
+    {
+      "id": "hadeethen",
+      "ar": "حَدِيثٍ",
+      "en": "Tanween with kasra",
+      "tr": "hadeethen"
+    },
+    {
+      "id": "bo",
+      "ar": "بُ",
+      "en": "Tanween with kasra",
+      "tr": "bo"
+    },
+    {
+      "id": "roo",
+      "ar": "رُو",
+      "en": "Tanween with kasra",
+      "tr": "roo"
+    },
+    {
+      "id": "boroojen",
+      "ar": "بُرُوجٍ",
+      "en": "Tanween with kasra",
+      "tr": "boroojen"
+    },
+    {
+      "id": "fa",
+      "ar": "فَ",
+      "en": "Tanween with kasra",
+      "tr": "fa"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "Tanween with kasra",
+      "tr": "la"
+    },
+    {
+      "id": "falaken",
+      "ar": "فَلَكٍ",
+      "en": "Tanween with kasra",
+      "tr": "falaken"
+    },
+    {
+      "id": "na",
+      "ar": "نَ",
+      "en": "Tanween with kasra",
+      "tr": "na"
+    },
+    {
+      "id": "ba",
+      "ar": "بَ",
+      "en": "Tanween with kasra",
+      "tr": "ba"
+    },
+    {
+      "id": "en3",
+      "ar": "إٍ",
+      "en": "Tanween with kasra",
+      "tr": "en"
+    },
+    {
+      "id": "nabaen",
+      "ar": "نَبَإٍ",
+      "en": "Tanween with kasra",
+      "tr": "naba'en"
+    },
+    {
+      "id": "be",
+      "ar": "بِ",
+      "en": "Tanween with kasra",
+      "tr": "be"
+    },
+    {
+      "id": "sha",
+      "ar": "شَ",
+      "en": "Tanween with kasra",
+      "tr": "sha"
+    },
+    {
+      "id": "ra",
+      "ar": "رَ",
+      "en": "Tanween with kasra",
+      "tr": "ra"
+    },
+    {
+      "id": "beshararen",
+      "ar": "بِشَرَرٍ",
+      "en": "Tanween with kasra",
+      "tr": "beshararen"
+    },
+    {
+      "id": "dhaleelen",
+      "ar": "ظَلِيلٍ",
+      "en": "Tanween with kasra",
+      "tr": "dhaleelen"
+    },
+    {
+      "id": "benameemen",
+      "ar": "بِنَمِيمٍ",
+      "en": "Tanween with kasra",
+      "tr": "benameemen"
+    },
+    {
+      "id": "haaseden",
+      "ar": "حَاسِدٍ",
+      "en": "Tanween with kasra",
+      "tr": "haaseden"
+    },
+    {
+      "id": "maqaamen",
+      "ar": "مَقَامٍ",
+      "en": "Tanween with kasra",
+      "tr": "maqaamen"
+    },
+    {
+      "id": "noohen",
+      "ar": "نُوحٍ",
+      "en": "Tanween with kasra",
+      "tr": "noohen"
+    },
+    {
+      "id": "ameenen",
+      "ar": "أَمِينٍ",
+      "en": "Tanween with kasra",
+      "tr": "ameenen"
+    },
+    {
+      "id": "dareeen",
+      "ar": "ضَرِيعٍ",
+      "en": "Tanween with kasra",
+      "tr": "daree'en"
+    },
+    {
+      "id": "besadaqaten",
+      "ar": "بِصَدَقَةٍ",
+      "en": "Tanween with kasra",
+      "tr": "besadaqaten"
+    },
+    {
+      "id": "kabaden",
+      "ar": "كَبَدٍ",
+      "en": "Tanween with kasra",
+      "tr": "kabaden"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Tanween with kasra is written under the letter.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does tanween with kasra make?",
+      "opts": [
+        [
+          "",
+          "en",
+          1
+        ],
+        [
+          "",
+          "an",
+          0
+        ],
+        [
+          "",
+          "on",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? جٍ reads “jen”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? رَقَبَةٍ reads “raqabaten”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find tanween with kasra in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Tanween with kasra: Read tanween with kasra and recite Surat Al-Asr.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l14.mp4",
+    "poster": "media/qra1-l14-poster.jpg"
+  }
+}

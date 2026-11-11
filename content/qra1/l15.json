@@ -1,0 +1,556 @@
+{
+  "id": "qra1-l15",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 15. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "تَنْوِينُ الضَّمِّ",
+    "en": "Tanween with damma"
+  },
+  "topic": "Read tanween with damma and recite Surat At-Takathur",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Two dammas above the last letter. The sound is “on”.",
+      "title": "Tanween with damma"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ التَّكَاثُرِ",
+      "aud": "c-1-ar",
+      "tr": "soorato attakaathore"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat At-Takathur. Follow with your finger, then recite it yourself.",
+      "title": "Surat At-Takathur",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلْهَىٰكُمُ ٱلتَّكَاثُرُ ﴿١﴾ حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ ﴿٢﴾ كَلَّا سَوْفَ تَعْلَمُونَ ﴿٣﴾ ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ ﴿٤﴾ كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ ﴿٥﴾ لَتَرَوُنَّ ٱلْجَحِيمَ ﴿٦﴾ ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ ﴿٧﴾ ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ ﴿٨﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "bon",
+      "ar": "بٌ",
+      "en": "Tanween with damma",
+      "tr": "bon"
+    },
+    {
+      "id": "ton",
+      "ar": "تٌ",
+      "en": "Tanween with damma",
+      "tr": "ton"
+    },
+    {
+      "id": "thon",
+      "ar": "ثٌ",
+      "en": "Tanween with damma",
+      "tr": "thon"
+    },
+    {
+      "id": "jon",
+      "ar": "جٌ",
+      "en": "Tanween with damma",
+      "tr": "jon"
+    },
+    {
+      "id": "hon",
+      "ar": "حٌ",
+      "en": "Tanween with damma",
+      "tr": "hon"
+    },
+    {
+      "id": "khon",
+      "ar": "خٌ",
+      "en": "Tanween with damma",
+      "tr": "khon"
+    },
+    {
+      "id": "don",
+      "ar": "دٌ",
+      "en": "Tanween with damma",
+      "tr": "don"
+    },
+    {
+      "id": "dhon",
+      "ar": "ذٌ",
+      "en": "Tanween with damma",
+      "tr": "dhon"
+    },
+    {
+      "id": "ron",
+      "ar": "رٌ",
+      "en": "Tanween with damma",
+      "tr": "ron"
+    },
+    {
+      "id": "zon",
+      "ar": "زٌ",
+      "en": "Tanween with damma",
+      "tr": "zon"
+    },
+    {
+      "id": "son",
+      "ar": "سٌ",
+      "en": "Tanween with damma",
+      "tr": "son"
+    },
+    {
+      "id": "shon",
+      "ar": "شٌ",
+      "en": "Tanween with damma",
+      "tr": "shon"
+    },
+    {
+      "id": "son2",
+      "ar": "صٌ",
+      "en": "Tanween with damma",
+      "tr": "son"
+    },
+    {
+      "id": "don2",
+      "ar": "ضٌ",
+      "en": "Tanween with damma",
+      "tr": "don"
+    },
+    {
+      "id": "ton2",
+      "ar": "طٌ",
+      "en": "Tanween with damma",
+      "tr": "ton"
+    },
+    {
+      "id": "dhon2",
+      "ar": "ظٌ",
+      "en": "Tanween with damma",
+      "tr": "dhon"
+    },
+    {
+      "id": "on",
+      "ar": "عٌ",
+      "en": "Tanween with damma",
+      "tr": "on"
+    },
+    {
+      "id": "ghon",
+      "ar": "غٌ",
+      "en": "Tanween with damma",
+      "tr": "ghon"
+    },
+    {
+      "id": "fon",
+      "ar": "فٌ",
+      "en": "Tanween with damma",
+      "tr": "fon"
+    },
+    {
+      "id": "qon",
+      "ar": "قٌ",
+      "en": "Tanween with damma",
+      "tr": "qon"
+    },
+    {
+      "id": "kon",
+      "ar": "كٌ",
+      "en": "Tanween with damma",
+      "tr": "kon"
+    },
+    {
+      "id": "lon",
+      "ar": "لٌ",
+      "en": "Tanween with damma",
+      "tr": "lon"
+    },
+    {
+      "id": "mon",
+      "ar": "مٌ",
+      "en": "Tanween with damma",
+      "tr": "mon"
+    },
+    {
+      "id": "non",
+      "ar": "نٌ",
+      "en": "Tanween with damma",
+      "tr": "non"
+    },
+    {
+      "id": "hon2",
+      "ar": "هٌ",
+      "en": "Tanween with damma",
+      "tr": "hon"
+    },
+    {
+      "id": "won",
+      "ar": "وٌ",
+      "en": "Tanween with damma",
+      "tr": "won"
+    },
+    {
+      "id": "on2",
+      "ar": "ءٌ",
+      "en": "Tanween with damma",
+      "tr": "on"
+    },
+    {
+      "id": "yon",
+      "ar": "يٌ",
+      "en": "Tanween with damma",
+      "tr": "yon"
+    },
+    {
+      "id": "qataron",
+      "ar": "قَتَرٌ",
+      "en": "Tanween with damma",
+      "tr": "qataron"
+    },
+    {
+      "id": "ghadabon",
+      "ar": "غَضَبٌ",
+      "en": "Tanween with damma",
+      "tr": "ghadabon"
+    },
+    {
+      "id": "featon",
+      "ar": "فِئَةٌ",
+      "en": "Tanween with damma",
+      "tr": "fe'aton"
+    },
+    {
+      "id": "laebon",
+      "ar": "لَعِبٌ",
+      "en": "Tanween with damma",
+      "tr": "la'ebon"
+    },
+    {
+      "id": "sonanon",
+      "ar": "سُنَنٌ",
+      "en": "Tanween with damma",
+      "tr": "sonanon"
+    },
+    {
+      "id": "omamon",
+      "ar": "أُمَمٌ",
+      "en": "Tanween with damma",
+      "tr": "omamon"
+    },
+    {
+      "id": "odhonon",
+      "ar": "أُذُنٌ",
+      "en": "Tanween with damma",
+      "tr": "odhonon"
+    },
+    {
+      "id": "rosolon",
+      "ar": "رُسُلٌ",
+      "en": "Tanween with damma",
+      "tr": "rosolon"
+    },
+    {
+      "id": "ghaalebon",
+      "ar": "غَالِبٌ",
+      "en": "Tanween with damma",
+      "tr": "ghaalebon"
+    },
+    {
+      "id": "qaaderon",
+      "ar": "قَادِرٌ",
+      "en": "Tanween with damma",
+      "tr": "qaaderon"
+    },
+    {
+      "id": "ghafooron",
+      "ar": "غَفُورٌ",
+      "en": "Tanween with damma",
+      "tr": "ghafooron"
+    },
+    {
+      "id": "aleemon",
+      "ar": "عَلِيمٌ",
+      "en": "Tanween with damma",
+      "tr": "aleemon"
+    },
+    {
+      "id": "wabeyaon",
+      "ar": "وَبِيَعٌ",
+      "en": "Tanween with damma",
+      "tr": "wabeya'on"
+    },
+    {
+      "id": "waajalon",
+      "ar": "وَأَجَلٌ",
+      "en": "Tanween with damma",
+      "tr": "wa'ajalon"
+    },
+    {
+      "id": "fanozolon",
+      "ar": "فَنُزُلٌ",
+      "en": "Tanween with damma",
+      "tr": "fanozolon"
+    },
+    {
+      "id": "laqasamon",
+      "ar": "لَقَسَمٌ",
+      "en": "Tanween with damma",
+      "tr": "laqasamon"
+    },
+    {
+      "id": "fanadheraton",
+      "ar": "فَنَظِرَةٌ",
+      "en": "Tanween with damma",
+      "tr": "fanadheraton"
+    },
+    {
+      "id": "kaadhebaton",
+      "ar": "كَٰذِبَةٌ",
+      "en": "Tanween with damma",
+      "tr": "kaadhebaton"
+    },
+    {
+      "id": "dalaalaton",
+      "ar": "ضَلَٰلَةٌ",
+      "en": "Tanween with damma",
+      "tr": "dalaalaton"
+    },
+    {
+      "id": "kotobon",
+      "ar": "كُتُبٌ",
+      "en": "Tanween with damma",
+      "tr": "kotobon"
+    },
+    {
+      "id": "ra",
+      "ar": "رَ",
+      "en": "Tanween with damma",
+      "tr": "ra"
+    },
+    {
+      "id": "jo",
+      "ar": "جُ",
+      "en": "Tanween with damma",
+      "tr": "jo"
+    },
+    {
+      "id": "rajolon",
+      "ar": "رَجُلٌ",
+      "en": "Tanween with damma",
+      "tr": "rajolon"
+    },
+    {
+      "id": "kaa",
+      "ar": "كَا",
+      "en": "Tanween with damma",
+      "tr": "kaa"
+    },
+    {
+      "id": "te",
+      "ar": "تِ",
+      "en": "Tanween with damma",
+      "tr": "te"
+    },
+    {
+      "id": "kaatebon",
+      "ar": "كَاتِبٌ",
+      "en": "Tanween with damma",
+      "tr": "kaatebon"
+    },
+    {
+      "id": "gha",
+      "ar": "غَ",
+      "en": "Tanween with damma",
+      "tr": "gha"
+    },
+    {
+      "id": "foo",
+      "ar": "فُو",
+      "en": "Tanween with damma",
+      "tr": "foo"
+    },
+    {
+      "id": "a",
+      "ar": "عَ",
+      "en": "Tanween with damma",
+      "tr": "a"
+    },
+    {
+      "id": "lee",
+      "ar": "لِي",
+      "en": "Tanween with damma",
+      "tr": "lee"
+    },
+    {
+      "id": "khaa",
+      "ar": "خَا",
+      "en": "Tanween with damma",
+      "tr": "khaa"
+    },
+    {
+      "id": "fe",
+      "ar": "فِ",
+      "en": "Tanween with damma",
+      "tr": "fe"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Tanween with damma",
+      "tr": "ya"
+    },
+    {
+      "id": "ton3",
+      "ar": "ةٌ",
+      "en": "Tanween with damma",
+      "tr": "ton"
+    },
+    {
+      "id": "khaafeyaton",
+      "ar": "خَافِيَةٌ",
+      "en": "Tanween with damma",
+      "tr": "khaafeyaton"
+    },
+    {
+      "id": "khaalesaton",
+      "ar": "خَالِصَةٌ",
+      "en": "Tanween with damma",
+      "tr": "khaalesaton"
+    },
+    {
+      "id": "faaredon",
+      "ar": "فَارِضٌ",
+      "en": "Tanween with damma",
+      "tr": "faaredon"
+    },
+    {
+      "id": "azeezon",
+      "ar": "عَزِيزٌ",
+      "en": "Tanween with damma",
+      "tr": "azeezon"
+    },
+    {
+      "id": "hareeson",
+      "ar": "حَرِيصٌ",
+      "en": "Tanween with damma",
+      "tr": "hareeson"
+    },
+    {
+      "id": "wazeyaadaton",
+      "ar": "وَزِيَادَةٌ",
+      "en": "Tanween with damma",
+      "tr": "wazeyaadaton"
+    },
+    {
+      "id": "naasehon",
+      "ar": "نَاصِحٌ",
+      "en": "Tanween with damma",
+      "tr": "naasehon"
+    },
+    {
+      "id": "ameenon",
+      "ar": "أَمِينٌ",
+      "en": "Tanween with damma",
+      "tr": "ameenon"
+    },
+    {
+      "id": "khaaweyaton",
+      "ar": "خَاوِيَةٌ",
+      "en": "Tanween with damma",
+      "tr": "khaaweyaton"
+    },
+    {
+      "id": "yaseeron",
+      "ar": "يَسِيرٌ",
+      "en": "Tanween with damma",
+      "tr": "yaseeron"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Tanween with damma is written above the letter.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does tanween with damma make?",
+      "opts": [
+        [
+          "",
+          "on",
+          1
+        ],
+        [
+          "",
+          "an",
+          0
+        ],
+        [
+          "",
+          "en",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? جٌ reads “jon”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? عَلِيمٌ reads “aleemon”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find tanween with damma in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Tanween with damma: Read tanween with damma and recite Surat At-Takathur.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l15.mp4",
+    "poster": "media/qra1-l15-poster.jpg"
+  }
+}

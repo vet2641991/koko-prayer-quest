@@ -1,0 +1,357 @@
+{
+  "id": "qra1-l27",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 27. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ خَاء",
+    "en": "The Letter Khaa (خ)"
+  },
+  "topic": "Read Khaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Khaa. Kh.",
+      "title": "Meet Khaa!",
+      "ar": "خ",
+      "aud": "c-0-ar",
+      "tr": "Khaa"
+    },
+    {
+      "en": "A line and a crescent, with one dot on top. It connects from both sides.",
+      "title": "How to write Khaa"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "خُلِقَ",
+      "tr": "kholeqa"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "يَخُوضُوا",
+      "tr": "yakhoodoo"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "خَالِدِينَ",
+      "tr": "khaaledeena"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "يُؤَخِّرُهُمْ",
+      "tr": "yo'akhkherohom"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "شَيْخٌ",
+      "tr": "shaykhon"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "يَخْشَىٰ",
+      "tr": "yakhshaa"
+    },
+    {
+      "en": "Surat Yusuf, verse 76. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "khalaqa",
+      "ar": "خَلَقَ",
+      "en": "Letter in a word",
+      "tr": "khalaqa"
+    },
+    {
+      "id": "yakhrojo",
+      "ar": "يَخْرُجُ",
+      "en": "Letter in a word",
+      "tr": "yakhrojo"
+    },
+    {
+      "id": "tansakh",
+      "ar": "تَنسَخْ",
+      "en": "Letter in a word",
+      "tr": "tansakh"
+    },
+    {
+      "id": "barzakhon",
+      "ar": "بَرْزَخٌ",
+      "en": "Letter in a word",
+      "tr": "barzakhon"
+    },
+    {
+      "id": "kholeqa",
+      "ar": "خُلِقَ",
+      "en": "Short vowels",
+      "tr": "kholeqa"
+    },
+    {
+      "id": "khodhoo",
+      "ar": "خُذُوا",
+      "en": "Short vowels",
+      "tr": "khodhoo"
+    },
+    {
+      "id": "khosren",
+      "ar": "خُسْرٍ",
+      "en": "Short vowels",
+      "tr": "khosren"
+    },
+    {
+      "id": "kheftom",
+      "ar": "خِفْتُمْ",
+      "en": "Short vowels",
+      "tr": "kheftom"
+    },
+    {
+      "id": "khetaamoho",
+      "ar": "خِتَامُهُ",
+      "en": "Short vowels",
+      "tr": "khetaamoho"
+    },
+    {
+      "id": "khelaalehe",
+      "ar": "خِلَالِهِ",
+      "en": "Short vowels",
+      "tr": "khelaalehe"
+    },
+    {
+      "id": "khatama",
+      "ar": "خَتَمَ",
+      "en": "Short vowels",
+      "tr": "khatama"
+    },
+    {
+      "id": "khasheya",
+      "ar": "خَشِيَ",
+      "en": "Short vowels",
+      "tr": "khasheya"
+    },
+    {
+      "id": "yakhoodoo",
+      "ar": "يَخُوضُوا",
+      "en": "Long vowels",
+      "tr": "yakhoodoo"
+    },
+    {
+      "id": "fakhooren",
+      "ar": "فَخُورٍ",
+      "en": "Long vowels",
+      "tr": "fakhooren"
+    },
+    {
+      "id": "takhoonoo",
+      "ar": "تَخُونُوا",
+      "en": "Long vowels",
+      "tr": "takhoonoo"
+    },
+    {
+      "id": "akhee",
+      "ar": "أَخِي",
+      "en": "Long vowels",
+      "tr": "akhee"
+    },
+    {
+      "id": "nakheel",
+      "ar": "نَخِيل",
+      "en": "Long vowels",
+      "tr": "nakheel"
+    },
+    {
+      "id": "kheefatan",
+      "ar": "خِيفَةً",
+      "en": "Long vowels",
+      "tr": "kheefatan"
+    },
+    {
+      "id": "khaaledeena",
+      "ar": "خَالِدِينَ",
+      "en": "With Al",
+      "tr": "khaaledeena"
+    },
+    {
+      "id": "khaafa",
+      "ar": "خَافَ",
+      "en": "With Al",
+      "tr": "khaafa"
+    },
+    {
+      "id": "yokhaadeoona",
+      "ar": "يُخَادِعُونَ",
+      "en": "With Al",
+      "tr": "yokhaade'oona"
+    },
+    {
+      "id": "yoakhkherohom",
+      "ar": "يُؤَخِّرُهُمْ",
+      "en": "Shaddah",
+      "tr": "yo'akhkherohom"
+    },
+    {
+      "id": "sakhkhara",
+      "ar": "سَخَّرَ",
+      "en": "Shaddah",
+      "tr": "sakhkhara"
+    },
+    {
+      "id": "taakhkhara",
+      "ar": "تَأَخَّرَ",
+      "en": "Shaddah",
+      "tr": "ta'akhkhara"
+    },
+    {
+      "id": "assaakhkhat",
+      "ar": "الصَّاخَّة",
+      "en": "Shaddah",
+      "tr": "assaakhkhat"
+    },
+    {
+      "id": "shaykhon",
+      "ar": "شَيْخٌ",
+      "en": "Tanween",
+      "tr": "shaykhon"
+    },
+    {
+      "id": "shaykhan",
+      "ar": "شَيْخًا",
+      "en": "Tanween",
+      "tr": "shaykhan"
+    },
+    {
+      "id": "barzakhan",
+      "ar": "بَرْزَخًا",
+      "en": "Tanween",
+      "tr": "barzakhan"
+    },
+    {
+      "id": "shoyookhan",
+      "ar": "شُيُوخًا",
+      "en": "Tanween",
+      "tr": "shoyookhan"
+    },
+    {
+      "id": "yakhshaa",
+      "ar": "يَخْشَىٰ",
+      "en": "Sukoon",
+      "tr": "yakhshaa"
+    },
+    {
+      "id": "akhraja",
+      "ar": "أَخْرَجَ",
+      "en": "Sukoon",
+      "tr": "akhraja"
+    },
+    {
+      "id": "alkhallaaqo",
+      "ar": "الْخَلَّاقُ",
+      "en": "With Al",
+      "tr": "alkhallaaqo"
+    },
+    {
+      "id": "alkhabeero",
+      "ar": "الْخَبِيرُ",
+      "en": "With Al",
+      "tr": "alkhabeero"
+    },
+    {
+      "id": "alkhaaseroona",
+      "ar": "الْخَاسِرُونَ",
+      "en": "With Al",
+      "tr": "alkhaaseroona"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of خ?",
+      "opts": [
+        [
+          "",
+          "Khaa",
+          1
+        ],
+        [
+          "",
+          "Seen",
+          0
+        ],
+        [
+          "",
+          "Ayn",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? خ connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? بَرْزَخٌ reads “barzakhon”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? يُخَادِعُونَ reads “yokhaade'oona”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find خ in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Khaa! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Khaa (خ): Read Khaa with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l27.mp4",
+    "poster": "media/qra1-l27-poster.jpg"
+  }
+}

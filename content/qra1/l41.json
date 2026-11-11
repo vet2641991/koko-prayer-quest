@@ -1,0 +1,399 @@
+{
+  "id": "qra1-l41",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 41. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "حَرْفُ قَاف",
+    "en": "The Letter Qaaf (ق)"
+  },
+  "topic": "Read Qaaf with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "This is Qaaf. Like q in queen.",
+      "title": "Meet Qaaf!",
+      "ar": "ق",
+      "aud": "c-0-ar",
+      "tr": "Qaaf"
+    },
+    {
+      "en": "A small circle with a neck and a deep cup, with two dots on top. It connects from both sides.",
+      "title": "How to write Qaaf"
+    },
+    {
+      "en": "Short vowels: listen and read.",
+      "title": "Short vowels",
+      "ar": "الْقَمَرَ",
+      "tr": "alqamara"
+    },
+    {
+      "en": "With Al: listen and read.",
+      "title": "With Al",
+      "ar": "قَالَ",
+      "tr": "qaala"
+    },
+    {
+      "en": "Long vowels: listen and read.",
+      "title": "Long vowels",
+      "ar": "الْيَقِينِ",
+      "tr": "alyaqeene"
+    },
+    {
+      "en": "Shaddah: listen and read.",
+      "title": "Shaddah",
+      "ar": "حَقَّ",
+      "tr": "haqqa"
+    },
+    {
+      "en": "Tanween: listen and read.",
+      "title": "Tanween",
+      "ar": "حَقًّا",
+      "tr": "haqqan"
+    },
+    {
+      "en": "Sukoon: listen and read.",
+      "title": "Sukoon",
+      "ar": "وَيَقْتُلُونَ",
+      "tr": "wayaqtoloona"
+    },
+    {
+      "en": "Surat Al-Qiyamah, verse 1. Listen to Sheikh Al-Minshawi, then recite it yourself.",
+      "title": "Quran Practice",
+      "ar": "لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَٰمَةِ",
+      "aud": "c-8-ar"
+    }
+  ],
+  "words": [
+    {
+      "id": "qol",
+      "ar": "قُلْ",
+      "en": "Letter in a word",
+      "tr": "qol"
+    },
+    {
+      "id": "yaqoolo",
+      "ar": "يَقُولُ",
+      "en": "Letter in a word",
+      "tr": "yaqoolo"
+    },
+    {
+      "id": "khalaqa",
+      "ar": "خَلَقَ",
+      "en": "Letter in a word",
+      "tr": "khalaqa"
+    },
+    {
+      "id": "fawqa",
+      "ar": "فَوْقَ",
+      "en": "Letter in a word",
+      "tr": "fawqa"
+    },
+    {
+      "id": "alqamara",
+      "ar": "الْقَمَرَ",
+      "en": "Short vowels",
+      "tr": "alqamara"
+    },
+    {
+      "id": "qadaran",
+      "ar": "قَدَرًا",
+      "en": "Short vowels",
+      "tr": "qadaran"
+    },
+    {
+      "id": "qablo",
+      "ar": "قَبْلُ",
+      "en": "Short vowels",
+      "tr": "qablo"
+    },
+    {
+      "id": "alqetaalo",
+      "ar": "الْقِتَالُ",
+      "en": "Short vowels",
+      "tr": "alqetaalo"
+    },
+    {
+      "id": "almostaqeema",
+      "ar": "الْمُسْتَقِيمَ",
+      "en": "Short vowels",
+      "tr": "almostaqeema"
+    },
+    {
+      "id": "qeela",
+      "ar": "قِيلَ",
+      "en": "Short vowels",
+      "tr": "qeela"
+    },
+    {
+      "id": "qoloobehem",
+      "ar": "قُلُوبِهِمْ",
+      "en": "Short vowels",
+      "tr": "qoloobehem"
+    },
+    {
+      "id": "qotela",
+      "ar": "قُتِلَ",
+      "en": "Short vowels",
+      "tr": "qotela"
+    },
+    {
+      "id": "qaala",
+      "ar": "قَالَ",
+      "en": "With Al",
+      "tr": "qaala"
+    },
+    {
+      "id": "alqaareato",
+      "ar": "الْقَارِعَةُ",
+      "en": "With Al",
+      "tr": "alqaare'ato"
+    },
+    {
+      "id": "meeqaatan",
+      "ar": "مِيقَاتًا",
+      "en": "With Al",
+      "tr": "meeqaatan"
+    },
+    {
+      "id": "alyaqeene",
+      "ar": "الْيَقِينِ",
+      "en": "Long vowels",
+      "tr": "alyaqeene"
+    },
+    {
+      "id": "qoo",
+      "ar": "قُوا",
+      "en": "Long vowels",
+      "tr": "qoo"
+    },
+    {
+      "id": "beloqoode",
+      "ar": "بِالْعُقُودِ",
+      "en": "Long vowels",
+      "tr": "bel'oqoode"
+    },
+    {
+      "id": "haqqa",
+      "ar": "حَقَّ",
+      "en": "Shaddah",
+      "tr": "haqqa"
+    },
+    {
+      "id": "tashaqqaqo",
+      "ar": "تَشَقَّقُ",
+      "en": "Shaddah",
+      "tr": "tashaqqaqo"
+    },
+    {
+      "id": "talqafo",
+      "ar": "تَلْقَفُ",
+      "en": "Shaddah",
+      "tr": "talqafo"
+    },
+    {
+      "id": "yoshaaqqe",
+      "ar": "يُشَاقِّ",
+      "en": "Shaddah",
+      "tr": "yoshaaqqe"
+    },
+    {
+      "id": "belhaqqe",
+      "ar": "بِالْحَقِّ",
+      "en": "Shaddah",
+      "tr": "belhaqqe"
+    },
+    {
+      "id": "besheqqe",
+      "ar": "بِشِقِّ",
+      "en": "Shaddah",
+      "tr": "besheqqe"
+    },
+    {
+      "id": "ahaqqo",
+      "ar": "أَحَقُّ",
+      "en": "Shaddah",
+      "tr": "ahaqqo"
+    },
+    {
+      "id": "alhaqqo",
+      "ar": "الْحَقُّ",
+      "en": "Shaddah",
+      "tr": "alhaqqo"
+    },
+    {
+      "id": "ashaqqo",
+      "ar": "أَشَقُّ",
+      "en": "Shaddah",
+      "tr": "ashaqqo"
+    },
+    {
+      "id": "haqqan",
+      "ar": "حَقًّا",
+      "en": "Tanween",
+      "tr": "haqqan"
+    },
+    {
+      "id": "tabaqan",
+      "ar": "طَبَقًا",
+      "en": "Tanween",
+      "tr": "tabaqan"
+    },
+    {
+      "id": "rezqan",
+      "ar": "رِزْقًا",
+      "en": "Tanween",
+      "tr": "rezqan"
+    },
+    {
+      "id": "sedqen",
+      "ar": "صِدْقٍ",
+      "en": "Tanween",
+      "tr": "sedqen"
+    },
+    {
+      "id": "khalqen",
+      "ar": "خَلْقٍ",
+      "en": "Tanween",
+      "tr": "khalqen"
+    },
+    {
+      "id": "khaaleqen",
+      "ar": "خَالِقٍ",
+      "en": "Tanween",
+      "tr": "khaaleqen"
+    },
+    {
+      "id": "faaseqon",
+      "ar": "فَاسِقٌ",
+      "en": "Tanween",
+      "tr": "faaseqon"
+    },
+    {
+      "id": "wabarqon",
+      "ar": "وَبَرْقٌ",
+      "en": "Tanween",
+      "tr": "wabarqon"
+    },
+    {
+      "id": "wayaqtoloona",
+      "ar": "وَيَقْتُلُونَ",
+      "en": "Sukoon",
+      "tr": "wayaqtoloona"
+    },
+    {
+      "id": "aqrabo",
+      "ar": "أَقْرَبُ",
+      "en": "Sukoon",
+      "tr": "aqrabo"
+    },
+    {
+      "id": "naqan",
+      "ar": "نَقْعًا",
+      "en": "Sukoon",
+      "tr": "naq'an"
+    },
+    {
+      "id": "alqoraana",
+      "ar": "الْقُرْآنَ",
+      "en": "With Al",
+      "tr": "alqor'aana"
+    },
+    {
+      "id": "alqamaro",
+      "ar": "الْقَمَرُ",
+      "en": "With Al",
+      "tr": "alqamaro"
+    },
+    {
+      "id": "alqeyaamate",
+      "ar": "الْقِيَامَةِ",
+      "en": "With Al",
+      "tr": "alqeyaamate"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "What is the name of ق?",
+      "opts": [
+        [
+          "",
+          "Qaaf",
+          1
+        ],
+        [
+          "",
+          "Haa (light)",
+          0
+        ],
+        [
+          "",
+          "Thaa",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ق connects from both sides.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? فَوْقَ reads “fawqa”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? بِشِقِّ reads “besheqqe”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find ق in the Quran verse of this lesson?",
+    "a": "Point to it and say its name: Qaaf! Then read the word with its vowel."
+  },
+  "parents": {
+    "summary": "The Letter Qaaf (ق): Read Qaaf with short vowels, long vowels, shaddah, tanween and sukoon, then recite from the Quran.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l41.mp4",
+    "poster": "media/qra1-l41-poster.jpg"
+  }
+}

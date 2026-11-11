@@ -1,0 +1,514 @@
+{
+  "id": "qra1-l07",
+  "world": "qra1",
+  "source": "DHM Quran Recitation (QRA1) · lesson 7. From Dr. Hassan's course; every word in his voice, every verse by Sheikh Al-Minshawi.",
+  "title": {
+    "ar": "مَدُّ الْوَاوِ",
+    "en": "Madd Waw"
+  },
+  "topic": "Read madd waw and recite Surat An-Nasr",
+  "minutes": 15,
+  "learn": [
+    {
+      "en": "Madd Waw is the letter waw with no sign on it, after a damma. It stretches the damma: the sound becomes double, “oo”.",
+      "title": "Madd Waw"
+    },
+    {
+      "en": "Now we read the name of the surah.",
+      "title": "The surah",
+      "ar": "سُورَةُ النَّصْرِ",
+      "aud": "c-1-ar",
+      "tr": "soorato annasre"
+    },
+    {
+      "en": "Listen to Sheikh Al-Minshawi recite Surat An-Nasr. Follow with your finger, then recite it yourself.",
+      "title": "Surat An-Nasr",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ ﴿١﴾ وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا ﴿٢﴾ فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا ﴿٣﴾",
+      "aud": "c-2-ar"
+    },
+    {
+      "en": "At the end of any gathering, the Prophet ﷺ advised us to say this du'aa: Glory is to You, O Allah, and praise. We bear witness that none has the right to be worshiped except You. We seek Your forgiveness and we turn to You in repentance.",
+      "title": "At the end of our lesson",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، نَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، نَسْتَغْفِرُكَ وَنَتُوبُ إِلَيْكَ",
+      "aud": "c-3-ar",
+      "tr": "Subhanaka Allahumma wa bihamdika, nashhadu an la ilaha illa anta, nastaghfiruka wa natubu ilayk"
+    }
+  ],
+  "words": [
+    {
+      "id": "khoo",
+      "ar": "خُو",
+      "en": "Madd Waw",
+      "tr": "khoo"
+    },
+    {
+      "id": "boo",
+      "ar": "بُو",
+      "en": "Madd Waw",
+      "tr": "boo"
+    },
+    {
+      "id": "too",
+      "ar": "تُو",
+      "en": "Madd Waw",
+      "tr": "too"
+    },
+    {
+      "id": "thoo",
+      "ar": "ثُو",
+      "en": "Madd Waw",
+      "tr": "thoo"
+    },
+    {
+      "id": "joo",
+      "ar": "جُو",
+      "en": "Madd Waw",
+      "tr": "joo"
+    },
+    {
+      "id": "hoo",
+      "ar": "حُو",
+      "en": "Madd Waw",
+      "tr": "hoo"
+    },
+    {
+      "id": "doo",
+      "ar": "دُو",
+      "en": "Madd Waw",
+      "tr": "doo"
+    },
+    {
+      "id": "dhoo",
+      "ar": "ذُو",
+      "en": "Madd Waw",
+      "tr": "dhoo"
+    },
+    {
+      "id": "roo",
+      "ar": "رُو",
+      "en": "Madd Waw",
+      "tr": "roo"
+    },
+    {
+      "id": "zoo",
+      "ar": "زُو",
+      "en": "Madd Waw",
+      "tr": "zoo"
+    },
+    {
+      "id": "soo",
+      "ar": "سُو",
+      "en": "Madd Waw",
+      "tr": "soo"
+    },
+    {
+      "id": "shoo",
+      "ar": "شُو",
+      "en": "Madd Waw",
+      "tr": "shoo"
+    },
+    {
+      "id": "soo2",
+      "ar": "صُو",
+      "en": "Madd Waw",
+      "tr": "soo"
+    },
+    {
+      "id": "doo2",
+      "ar": "ضُو",
+      "en": "Madd Waw",
+      "tr": "doo"
+    },
+    {
+      "id": "too2",
+      "ar": "طُو",
+      "en": "Madd Waw",
+      "tr": "too"
+    },
+    {
+      "id": "dhoo2",
+      "ar": "ظُو",
+      "en": "Madd Waw",
+      "tr": "dhoo"
+    },
+    {
+      "id": "oo",
+      "ar": "عُو",
+      "en": "Madd Waw",
+      "tr": "oo"
+    },
+    {
+      "id": "ghoo",
+      "ar": "غُو",
+      "en": "Madd Waw",
+      "tr": "ghoo"
+    },
+    {
+      "id": "foo",
+      "ar": "فُو",
+      "en": "Madd Waw",
+      "tr": "foo"
+    },
+    {
+      "id": "qoo",
+      "ar": "قُو",
+      "en": "Madd Waw",
+      "tr": "qoo"
+    },
+    {
+      "id": "koo",
+      "ar": "كُو",
+      "en": "Madd Waw",
+      "tr": "koo"
+    },
+    {
+      "id": "loo",
+      "ar": "لُو",
+      "en": "Madd Waw",
+      "tr": "loo"
+    },
+    {
+      "id": "moo",
+      "ar": "مُو",
+      "en": "Madd Waw",
+      "tr": "moo"
+    },
+    {
+      "id": "noo",
+      "ar": "نُو",
+      "en": "Madd Waw",
+      "tr": "noo"
+    },
+    {
+      "id": "hoo2",
+      "ar": "هُو",
+      "en": "Madd Waw",
+      "tr": "hoo"
+    },
+    {
+      "id": "woo",
+      "ar": "وُو",
+      "en": "Madd Waw",
+      "tr": "woo"
+    },
+    {
+      "id": "oo2",
+      "ar": "ءُو",
+      "en": "Madd Waw",
+      "tr": "oo"
+    },
+    {
+      "id": "yoo",
+      "ar": "يُو",
+      "en": "Madd Waw",
+      "tr": "yoo"
+    },
+    {
+      "id": "yaqoomo",
+      "ar": "يَقُومُ",
+      "en": "Madd Waw",
+      "tr": "yaqoomo"
+    },
+    {
+      "id": "yaqoolo",
+      "ar": "يَقُولُ",
+      "en": "Madd Waw",
+      "tr": "yaqoolo"
+    },
+    {
+      "id": "takoono",
+      "ar": "تَكُونُ",
+      "en": "Madd Waw",
+      "tr": "takoono"
+    },
+    {
+      "id": "aoodho",
+      "ar": "أَعُوذُ",
+      "en": "Madd Waw",
+      "tr": "a'oodho"
+    },
+    {
+      "id": "boyoote",
+      "ar": "بُيُوتِ",
+      "en": "Madd Waw",
+      "tr": "boyoote"
+    },
+    {
+      "id": "dhonoobe",
+      "ar": "ذُنُوبِ",
+      "en": "Madd Waw",
+      "tr": "dhonoobe"
+    },
+    {
+      "id": "thamooda",
+      "ar": "ثَمُودَ",
+      "en": "Madd Waw",
+      "tr": "thamooda"
+    },
+    {
+      "id": "tolooe",
+      "ar": "طُلُوعِ",
+      "en": "Madd Waw",
+      "tr": "toloo'e"
+    },
+    {
+      "id": "yooqado",
+      "ar": "يُوقَدُ",
+      "en": "Madd Waw",
+      "tr": "yooqado"
+    },
+    {
+      "id": "yootheqo",
+      "ar": "يُوثِقُ",
+      "en": "Madd Waw",
+      "tr": "yootheqo"
+    },
+    {
+      "id": "mooheno",
+      "ar": "مُوهِنُ",
+      "en": "Madd Waw",
+      "tr": "mooheno"
+    },
+    {
+      "id": "noodeya",
+      "ar": "نُودِيَ",
+      "en": "Madd Waw",
+      "tr": "noodeya"
+    },
+    {
+      "id": "aqoola",
+      "ar": "أَقُولَ",
+      "en": "Madd Waw",
+      "tr": "aqoola"
+    },
+    {
+      "id": "rasoolo",
+      "ar": "رَسُولُ",
+      "en": "Madd Waw",
+      "tr": "rasoolo"
+    },
+    {
+      "id": "yoosofo",
+      "ar": "يُوسُفُ",
+      "en": "Madd Waw",
+      "tr": "yoosofo"
+    },
+    {
+      "id": "hodooda",
+      "ar": "حُدُودَ",
+      "en": "Madd Waw",
+      "tr": "hodooda"
+    },
+    {
+      "id": "sa",
+      "ar": "صَ",
+      "en": "Madd Waw",
+      "tr": "sa"
+    },
+    {
+      "id": "la",
+      "ar": "لَ",
+      "en": "Madd Waw",
+      "tr": "la"
+    },
+    {
+      "id": "yoosala",
+      "ar": "يُوصَلَ",
+      "en": "Madd Waw",
+      "tr": "yoosala"
+    },
+    {
+      "id": "re",
+      "ar": "رِ",
+      "en": "Madd Waw",
+      "tr": "re"
+    },
+    {
+      "id": "ka",
+      "ar": "كَ",
+      "en": "Madd Waw",
+      "tr": "ka"
+    },
+    {
+      "id": "booreka",
+      "ar": "بُورِكَ",
+      "en": "Madd Waw",
+      "tr": "booreka"
+    },
+    {
+      "id": "ya",
+      "ar": "يَ",
+      "en": "Madd Waw",
+      "tr": "ya"
+    },
+    {
+      "id": "ba",
+      "ar": "بَ",
+      "en": "Madd Waw",
+      "tr": "ba"
+    },
+    {
+      "id": "yathooba",
+      "ar": "يَثُوبَ",
+      "en": "Madd Waw",
+      "tr": "yathooba"
+    },
+    {
+      "id": "ra",
+      "ar": "رَ",
+      "en": "Madd Waw",
+      "tr": "ra"
+    },
+    {
+      "id": "yahoora",
+      "ar": "يَحُورَ",
+      "en": "Madd Waw",
+      "tr": "yahoora"
+    },
+    {
+      "id": "so",
+      "ar": "صُ",
+      "en": "Madd Waw",
+      "tr": "so"
+    },
+    {
+      "id": "sodoore",
+      "ar": "صُدُورِ",
+      "en": "Madd Waw",
+      "tr": "sodoore"
+    },
+    {
+      "id": "fojoorahaa",
+      "ar": "فُجُورَهَا",
+      "en": "Madd Waw",
+      "tr": "fojoorahaa"
+    },
+    {
+      "id": "malakooto",
+      "ar": "مَلَكُوتُ",
+      "en": "Madd Waw",
+      "tr": "malakooto"
+    },
+    {
+      "id": "yoofedoona",
+      "ar": "يُوفِضُونَ",
+      "en": "Madd Waw",
+      "tr": "yoofedoona"
+    },
+    {
+      "id": "tamooro",
+      "ar": "تَمُورُ",
+      "en": "Madd Waw",
+      "tr": "tamooro"
+    },
+    {
+      "id": "fakeedoone",
+      "ar": "فَكِيدُونِ",
+      "en": "Madd Waw",
+      "tr": "fakeedoone"
+    },
+    {
+      "id": "noshoora",
+      "ar": "نُشُورَ",
+      "en": "Madd Waw",
+      "tr": "noshoora"
+    },
+    {
+      "id": "yarethoona",
+      "ar": "يَرِثُونَ",
+      "en": "Madd Waw",
+      "tr": "yarethoona"
+    },
+    {
+      "id": "yoooona",
+      "ar": "يُوعُونَ",
+      "en": "Madd Waw",
+      "tr": "yoo'oona"
+    }
+  ],
+  "games": [
+    "listen"
+  ],
+  "quiz": [
+    {
+      "en": "True or false? Madd Waw stretches the damma.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "What sound does Madd Waw make?",
+      "opts": [
+        [
+          "",
+          "oo",
+          1
+        ],
+        [
+          "",
+          "aa",
+          0
+        ],
+        [
+          "",
+          "ee",
+          0
+        ]
+      ]
+    },
+    {
+      "en": "True or false? ثُو reads “thoo”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    },
+    {
+      "en": "True or false? طُلُوعِ reads “toloo'e”.",
+      "opts": [
+        [
+          "",
+          "True",
+          1
+        ],
+        [
+          "",
+          "False",
+          0
+        ]
+      ],
+      "keep": true
+    }
+  ],
+  "think": {
+    "q": "Can you find madd waw in the surah of this lesson?",
+    "a": "Follow the words with your finger while Sheikh Al-Minshawi recites, then read them yourself."
+  },
+  "parents": {
+    "summary": "Madd Waw: Read madd waw and recite Surat An-Nasr.",
+    "tip": "Ask your child to read the words to you slowly, then recite the verses together."
+  },
+  "video": {
+    "src": "media/qra1-l07.mp4",
+    "poster": "media/qra1-l07-poster.jpg"
+  }
+}
