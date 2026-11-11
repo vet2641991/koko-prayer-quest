@@ -1,5 +1,6 @@
 // Reads the static content tree of the repo (content/, audio/, media/) exactly as GitHub Pages serves it.
 import { createHash } from 'node:crypto';
+import type { RemoteManifest } from '../../packages/shared/src/media.ts';
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 
@@ -31,7 +32,7 @@ export function readContentTree(root: string): ContentTree {
   return {
     root, catalogText, catalog: JSON.parse(catalogText), texts, lessons, promosText,
     promos: promosText === null ? undefined : JSON.parse(promosText),
-    fileExists: p => !p.includes('..') && existsSync(join(root, p)) && statSync(join(root, p)).isFile(),
+    fileExists: p => (!p.includes('..') && existsSync(join(root, p)) && statSync(join(root, p)).isFile()) || p in remoteManifest(root),
   };
 }
 
@@ -51,7 +52,17 @@ export function listMediaFiles(root: string): MediaFile[] {
     }
   };
   for (const top of ['audio', 'media']) if (existsSync(join(root, top))) walk(top);
-  return out.sort((a, b) => a.path.localeCompare(b.path));
+  // lesson videos and posters kept in R2 (listed in media/remote.json) count as media files too
+  const here = new Set(out.map(f => f.path));
+  for (const [path, m] of Object.entries(remoteManifest(root))) if (!here.has(path)) out.push({ path, ...m });
+  return out.filter(f => f.path !== REMOTE_MANIFEST).sort((a, b) => a.path.localeCompare(b.path));
 }
 
 export const repoRelative = (root: string, abs: string) => relative(root, abs).split(sep).join('/');
+
+/** media/remote.json: lesson videos and posters uploaded to R2 (path -> bytes, sha256). See packages/shared/src/media.ts. */
+export const REMOTE_MANIFEST = 'media/remote.json';
+export function remoteManifest(root: string): RemoteManifest {
+  const p = join(root, REMOTE_MANIFEST);
+  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) as RemoteManifest : {};
+}
