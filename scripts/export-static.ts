@@ -19,6 +19,7 @@ import { appendFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileS
 import { dirname, join } from 'node:path';
 import { formatContentFile, formatReport, validateContent } from '../packages/shared/src/index.ts';
 import { connect } from './lib/db.ts';
+import { remoteManifest } from './lib/content.ts';
 
 const root = process.cwd();
 const dryRun = process.argv.includes('--dry-run');
@@ -86,7 +87,7 @@ async function main() {
     const copied = new Set(changes.filter(c => c.action === 'copy').map(c => c.path));
     const report = validateContent({
       catalog, lessons: lessonFiles, promos: desired.get(promosPath),
-      fileExists: p => copied.has(p) || (!p.includes('..') && existsSync(join(root, p))),
+      fileExists: p => copied.has(p) || (!p.includes('..') && existsSync(join(root, p))) || p in remoteManifest(root),
     });
     errors.push(...report.errors.map(i => `${i.where}: ${i.message}`));
     if (report.warnings.length) console.log(formatReport({ errors: [], warnings: report.warnings }));

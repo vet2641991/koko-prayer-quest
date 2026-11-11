@@ -1,11 +1,13 @@
 // Where the app reads its content: the same static export the PWA uses (GitHub Pages). Never Supabase.
 import Constants from 'expo-constants';
+import { isRemoteMedia, MEDIA_URL } from '../../packages/shared/src/media.ts';
 
 export const CONTENT_URL: string = (process.env.EXPO_PUBLIC_CONTENT_URL
   ?? (Constants.expoConfig?.extra as { contentUrl?: string } | undefined)?.contentUrl
   ?? 'https://koko.dhm-institute.com').replace(/\/$/, '');
 
-export const remote = (path: string) => `${CONTENT_URL}/${path}`;
+/** Lesson videos and posters come from R2; everything else from the static site. */
+export const remote = (path: string) => `${isRemoteMedia(path) ? MEDIA_URL : CONTENT_URL}/${path}`;
 
 /** DHM Institute pages (opened only behind the parental gate). */
 export const BOOKING_URL = 'https://dhm-institute.com/trial-sessions/booking';

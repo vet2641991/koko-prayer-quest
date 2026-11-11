@@ -22,6 +22,9 @@ const ICON = {
 };
 let RT = 0; // route token: delayed actions die when the screen changes
 const later = (fn, ms) => { const t = RT; setTimeout(() => { if (t === RT) fn(); }, ms); };
+// Lesson videos and posters live in Cloudflare R2 (koko-media Worker); keep in step with packages/shared/src/media.ts.
+const MEDIA_URL = 'https://koko-media.hassanvetawy.workers.dev';
+const mediaUrl = p => /^media\/[\w.-]+(\.mp4|-poster\.(jpe?g|png|webp))$/.test(p) ? `${MEDIA_URL}/${p}` : p;
 const IMG = { wave: 'media/koko-wave.png', cheer: 'media/koko-cheer.png', pray: 'media/koko-pray.png', logo: 'media/dhm-logo.png' };
 
 /* ---------- saved progress (this device only) ---------- */
@@ -277,7 +280,7 @@ async function runStep(id, i) {
 /* step: story video */
 function story(L, st, head, finish) {
   render(`<div class="screen dots act">${head(st.en, L.title.en)}<div class="card" style="padding:12px">${AR(L.title.ar)}
-    <video id="vid" src="${esc(L.video.src)}" poster="${esc(L.video.poster || '')}" controls playsinline preload="metadata"></video>
+    <video id="vid" src="${esc(mediaUrl(L.video.src))}" poster="${esc(L.video.poster ? mediaUrl(L.video.poster) : '')}" controls playsinline preload="metadata"></video>
     <p id="vh" style="margin:10px 0 0;font-weight:600;color:var(--muted)">Watch to the end to go on.</p></div>
     <button class="btn" id="go" ${S.step[L.id] > 0 ? '' : 'hidden'}>Next →</button></div>`);
   const v = $('#vid'), go = $('#go');
